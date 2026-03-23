@@ -12268,5 +12268,1678 @@
     ],
     "description": "Certify agent outputs on the MultiversX blockchain.",
     "fetched_at": "2026-03-23T02:41:19.869460+00:00"
+  },
+  "Calendar & Scheduling/accli": {
+    "owner": "joargp",
+    "slug": "joargp-accli",
+    "displayName": "accli",
+    "version": "1.0.0",
+    "publishedAt": 1767644556460,
+    "commit": "https://github.com/clawdbot/skills/commit/247f47e934f266c56544e85d763a8fd93efdcdd4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/joargp-accli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/joargp/accli",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "This skill should be used when interacting with Apple Calendar on macOS.",
+    "fetched_at": "2026-03-23T02:42:13.929037+00:00"
+  },
+  "Calendar & Scheduling/advanced-calendar": {
+    "owner": "toughworm",
+    "slug": "toughworm-advanced-calendar",
+    "displayName": "advanced-calendar",
+    "version": "1.0.2",
+    "publishedAt": 1770122791674,
+    "commit": "https://github.com/clawdbot/skills/commit/f74ef101429c70c76cd098e53d3af6a11738c69f",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770105175993,
+        "commit": "https://github.com/clawdbot/skills/commit/99604cf7d2b94963cd90a1ab19092966d3c60f9b"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770041291836,
+        "commit": "https://github.com/clawdbot/skills/commit/6c8823be052c2cb193a5393f26d92f13989f3d90"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/toughworm-advanced-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/toughworm/advanced-calendar",
+    "files": [
+      "CHANGELOG.md",
+      "PUBLISH.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "UPDATES.md",
+      "_meta.json",
+      "docs/usage.md",
+      "intent_handler.py",
+      "openclaw_integration.py",
+      "package.json",
+      "release-notes-v1.02.md",
+      "scripts/calendar.py",
+      "scripts/calendar.sh",
+      "scripts/check-reminders.sh",
+      "scripts/check-repeat-reminders.sh",
+      "scripts/create-event-interactive.sh",
+      "scripts/parse-and-create-event.sh",
+      "scripts/reminders.sh",
+      "tests/test_basic.py"
+    ],
+    "description": "Advanced calendar skill with natural language.",
+    "fetched_at": "2026-03-23T02:42:30.327924+00:00"
+  },
+  "Calendar & Scheduling/agency-guardian": {
+    "owner": "aranej",
+    "slug": "aranej-agency-guardian",
+    "displayName": "agency-guardian",
+    "version": "1.0.1",
+    "publishedAt": 1769464375302,
+    "commit": "https://github.com/clawdbot/skills/commit/51dab13aaa676b760bb2824bad3e2bc9934e9a1f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/aranej-agency-guardian",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/aranej/agency-guardian",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Gentle reminders to stay human while using AI.",
+    "fetched_at": "2026-03-23T02:42:32.515446+00:00"
+  },
+  "Calendar & Scheduling/agent-tinman": {
+    "owner": "oliveskin",
+    "slug": "oliveskin-agent-tinman",
+    "displayName": "agent-tinman",
+    "version": "0.6.4",
+    "publishedAt": 1771341056960,
+    "commit": "https://github.com/openclaw/skills/commit/9884b4f2a6e7fa17d798875a8a92580f49283367",
+    "history": [
+      {
+        "version": "0.6.3",
+        "publishedAt": 1771336469142,
+        "commit": "https://github.com/openclaw/skills/commit/4947af65db96258047f8d53dccd1908d6561d399"
+      },
+      {
+        "version": "0.6.2",
+        "publishedAt": 1770799734354,
+        "commit": "https://github.com/openclaw/skills/commit/ea4bf7451b5bf45b0d1dbb83c1b37c60eb5b7df2"
+      },
+      {
+        "version": "0.6.1",
+        "publishedAt": 1770510471068,
+        "commit": "https://github.com/openclaw/skills/commit/e692670bfbcd48940ee086f532d101903a5551a7"
+      },
+      {
+        "version": "0.6.0",
+        "publishedAt": 1769975315686,
+        "commit": "https://github.com/clawdbot/skills/commit/59557f4e71650d32be58ff74f5d6a95da1c01c80"
+      },
+      {
+        "version": "0.5.1",
+        "publishedAt": 1769962431942,
+        "commit": "https://github.com/clawdbot/skills/commit/9c873c887454a2b693aedad0decf896c5061baf9"
+      },
+      {
+        "version": "0.5.0",
+        "publishedAt": 1769907200430,
+        "commit": "https://github.com/clawdbot/skills/commit/beadce174e5f8f8976f86bb4e26c4b57b93ccb18"
+      },
+      {
+        "version": "0.3.0",
+        "publishedAt": 1769869403176,
+        "commit": "https://github.com/clawdbot/skills/commit/5987b0e5d0cc83d2bbf5477cdeff597659469cbc"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769829357297,
+        "commit": "https://github.com/clawdbot/skills/commit/06274f21ace3b13e686894e0ad7f841539aa8bb1"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/oliveskin-agent-tinman",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/oliveskin/agent-tinman",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "tinman_runner.py"
+    ],
+    "description": "AI security scanner with active prevention - 168 detection.",
+    "fetched_at": "2026-03-23T02:42:36.137938+00:00"
+  },
+  "Calendar & Scheduling/apple-calendar": {
+    "owner": "tyler6204",
+    "slug": "tyler6204-apple-calendar",
+    "displayName": "apple-calendar",
+    "version": "1.0.0",
+    "publishedAt": 1768477589107,
+    "commit": "https://github.com/clawdbot/skills/commit/41dd1b9b67110baab2769b5139ee8f1b3d9fb155",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tyler6204-apple-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-calendar",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/cal-create.sh",
+      "scripts/cal-delete.sh",
+      "scripts/cal-events.sh",
+      "scripts/cal-list.sh",
+      "scripts/cal-read.sh",
+      "scripts/cal-search.sh",
+      "scripts/cal-update.sh"
+    ],
+    "description": "Apple Calendar.app integration for macOS.",
+    "fetched_at": "2026-03-23T02:42:43.684058+00:00"
+  },
+  "Calendar & Scheduling/apple-reminders": {
+    "owner": "steipete",
+    "slug": "steipete-apple-reminders",
+    "displayName": "apple-reminders",
+    "version": "1.0.0",
+    "publishedAt": 1767545296326,
+    "commit": "https://github.com/clawdbot/skills/commit/462fd2dc56d011453f83015a1b5f0a49bdcf56e8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/steipete-apple-reminders",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/steipete/apple-reminders",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Apple Reminders via the `remindctl` CLI on macOS.",
+    "fetched_at": "2026-03-23T02:42:45.885613+00:00"
+  },
+  "Calendar & Scheduling/belong-events": {
+    "owner": "nomadcalendar",
+    "slug": "nomadcalendar-belong-events",
+    "displayName": "belong-events",
+    "version": "1.0.1",
+    "publishedAt": 1771224969651,
+    "commit": "https://github.com/openclaw/skills/commit/64a98ff2b367168cd87dda893c09cf61a03e407b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/nomadcalendar-belong-events",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nomadcalendar/belong-events",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "invoke.sh"
+    ],
+    "description": "Create, discover, and manage events with NFT tickets on the Belong platform.",
+    "fetched_at": "2026-03-23T02:42:49.300561+00:00"
+  },
+  "Calendar & Scheduling/brainz-calendar": {
+    "owner": "xejrax",
+    "slug": "xejrax-brainz-calendar",
+    "displayName": "brainz-calendar",
+    "version": "1.0.0",
+    "publishedAt": 1770137511107,
+    "commit": "https://github.com/clawdbot/skills/commit/c0df2e66ebf3a5d164a13c500f29c3f54b7f3bc2",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/xejrax-brainz-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/xejrax/brainz-calendar",
+    "files": [
+      "CLAUDE.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Google Calendar events using `gcalcli`.",
+    "fetched_at": "2026-03-23T02:42:52.199381+00:00"
+  },
+  "Calendar & Scheduling/broken-link-checker": {
+    "owner": "wanng-ide",
+    "slug": "wanng-ide-broken-link-checker",
+    "displayName": "broken-link-checker",
+    "version": "1.0.0",
+    "publishedAt": 1771173062451,
+    "commit": "https://github.com/openclaw/skills/commit/9154cfa00feb8314adc0f4aa6e372c302eb9a5a9",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/wanng-ide-broken-link-checker",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/wanng-ide/broken-link-checker",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "index.js",
+      "package.json",
+      "scripts/test.js"
+    ],
+    "description": "verify external URLs (http/https) for availability (200-399 status code).",
+    "fetched_at": "2026-03-23T02:42:56.909961+00:00"
+  },
+  "Calendar & Scheduling/calcurse": {
+    "owner": "gumadeiras",
+    "slug": "gumadeiras-calcurse",
+    "displayName": "calcurse",
+    "version": "1.0.0",
+    "publishedAt": 1768935736952,
+    "commit": "https://github.com/clawdbot/skills/commit/cf5b76f3bc9fba1dc8f7fdd04d6af71ba7f682d6",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/gumadeiras-calcurse",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/gumadeiras/calcurse",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "A text-based calendar and scheduling application.",
+    "fetched_at": "2026-03-23T02:42:59.154783+00:00"
+  },
+  "Calendar & Scheduling/calendar-scheduling": {
+    "owner": "billylui",
+    "slug": "billylui-calendar-scheduling",
+    "displayName": "calendar-scheduling",
+    "version": "0.9.1",
+    "publishedAt": 1773139585340,
+    "commit": "https://github.com/openclaw/skills/commit/29623a2057819f4198c91c0609b95732ea52aaca",
+    "history": [
+      {
+        "version": "0.8.1",
+        "publishedAt": 1772859834955,
+        "commit": "https://github.com/openclaw/skills/commit/e3aeeaf32e300646f48c2fe70f2fc135450b352b"
+      },
+      {
+        "version": "0.7.8",
+        "publishedAt": 1772788610143,
+        "commit": "https://github.com/openclaw/skills/commit/6fcf84c5c65197ba91f2b69cb73ba58ea3f59914"
+      },
+      {
+        "version": "0.5.0",
+        "publishedAt": 1772089596724,
+        "commit": "https://github.com/openclaw/skills/commit/0045e321aa34f8f6044094f01ce382d0bcbd6e0d"
+      },
+      {
+        "version": "0.4.1",
+        "publishedAt": 1771844628825,
+        "commit": "https://github.com/openclaw/skills/commit/317499a094f940516ed30bcf178dc543459bf62a"
+      },
+      {
+        "version": "0.3.6",
+        "publishedAt": 1771830485035,
+        "commit": "https://github.com/openclaw/skills/commit/f5b13747bc7c8edefbbf2f87fdc9df8bf8d10fd2"
+      },
+      {
+        "version": "0.3.4",
+        "publishedAt": 1771818992785,
+        "commit": "https://github.com/openclaw/skills/commit/88749c191db2c05cb77632c822050fcd3a703898"
+      },
+      {
+        "version": "0.3.3",
+        "publishedAt": 1771770554728,
+        "commit": "https://github.com/openclaw/skills/commit/609706804c5c1673267f340463cbe491771b6e0b"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/billylui-calendar-scheduling",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/billylui/calendar-scheduling",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/SECURITY-MODEL.md"
+    ],
+    "description": "Schedule and book across Google, Outlook, and CalDAV.",
+    "fetched_at": "2026-03-23T02:43:02.436951+00:00"
+  },
+  "Calendar & Scheduling/caldav-calendar": {
+    "owner": "asleep123",
+    "slug": "asleep123-caldav-calendar",
+    "displayName": "caldav-calendar",
+    "version": "1.0.1",
+    "publishedAt": 1767663916915,
+    "commit": "https://github.com/clawdbot/skills/commit/77b44591dc3ee8130367f58efb621203eb305020",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/asleep123-caldav-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/asleep123/caldav-calendar",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Sync and query CalDAV calendars.",
+    "fetched_at": "2026-03-23T02:43:04.621429+00:00"
+  },
+  "Calendar & Scheduling/clippy": {
+    "owner": "foeken",
+    "slug": "foeken-clippy",
+    "displayName": "clippy",
+    "version": "1.2.0",
+    "publishedAt": 1769342635864,
+    "commit": "https://github.com/clawdbot/skills/commit/47a34731f54ceb91edbbee42de09523e0bd0a9a7",
+    "history": [
+      {
+        "version": "1.0.3",
+        "publishedAt": 1769266181286,
+        "commit": "https://github.com/clawdbot/skills/commit/063bde35c911aa8bc2a27b2bd56d6e63993601a3"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1769261867846,
+        "commit": "https://github.com/clawdbot/skills/commit/962c387de05f3d280570506c39f81e7b8ac5c468"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/foeken-clippy",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/foeken/clippy",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Microsoft 365 / Outlook CLI for calendar and email.",
+    "fetched_at": "2026-03-23T02:43:06.837089+00:00"
+  },
+  "Calendar & Scheduling/creative-thought-partner": {
+    "owner": "vincentchan",
+    "slug": "vincentchan-creative-thought-partner",
+    "displayName": "creative-thought-partner",
+    "version": "1.0.1",
+    "publishedAt": 1769495185244,
+    "commit": "https://github.com/clawdbot/skills/commit/160b86bf4bf9aa65a7fb959e917934f5a0c731a8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/vincentchan-creative-thought-partner",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/vincentchan/creative-thought-partner",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "A conversational creative thought.",
+    "fetched_at": "2026-03-23T02:43:08.981333+00:00"
+  },
+  "Calendar & Scheduling/cron-scheduling": {
+    "owner": "gitgoodordietrying",
+    "slug": "gitgoodordietrying-cron-scheduling",
+    "displayName": "cron-scheduling",
+    "version": "1.0.0",
+    "publishedAt": 1770158610072,
+    "commit": "https://github.com/clawdbot/skills/commit/4318c2affe4c06548fcd7feb27b86bffe0ef79ed",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/gitgoodordietrying-cron-scheduling",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/cron-scheduling",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Schedule and manage recurring tasks with cron.",
+    "fetched_at": "2026-03-23T02:43:11.879747+00:00"
+  },
+  "Calendar & Scheduling/dharma-ai": {
+    "owner": "jigaraero",
+    "slug": "jigaraero-dharma-ai",
+    "displayName": "dharma-ai",
+    "version": "1.0.0",
+    "publishedAt": 1771690255416,
+    "commit": "https://github.com/openclaw/skills/commit/389d7c1ff3d19ce0ff4f3fa9cefb4bc88358d9b6",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jigaraero-dharma-ai",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jigaraero/dharma-ai",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/teachings.md"
+    ],
+    "description": "Apply ancient Hindu ethical frameworks from the Ramayana and Mahabharata as behavioral principles for AI agents.",
+    "fetched_at": "2026-03-23T02:43:15.070344+00:00"
+  },
+  "Calendar & Scheduling/doc-accurate-codegen": {
+    "owner": "tobisamaa",
+    "slug": "tobisamaa-doc-accurate-codegen",
+    "displayName": "doc-accurate-codegen",
+    "version": "1.0.0",
+    "publishedAt": 1771876886845,
+    "commit": "https://github.com/openclaw/skills/commit/8d47a73860473f0e140a88951e3ab5871ca03ae5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tobisamaa-doc-accurate-codegen",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tobisamaa/doc-accurate-codegen",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Generate code that references actual documentation, preventing hallucination bugs.",
+    "fetched_at": "2026-03-23T02:43:17.242417+00:00"
+  },
+  "Calendar & Scheduling/event-watcher": {
+    "owner": "solitaire2015",
+    "slug": "solitaire2015-event-watcher",
+    "displayName": "event-watcher",
+    "version": "1.0.1",
+    "publishedAt": 1770436830936,
+    "commit": "https://github.com/openclaw/skills/commit/e5195357d00011a10ff9be0f4335d1f71f4f0a14",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/solitaire2015-event-watcher",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/solitaire2015/event-watcher",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "examples/event_watcher.yaml",
+      "examples/webhook_watcher.yaml",
+      "references/CONFIG.md",
+      "scripts/filter_rules.py",
+      "scripts/requirements.txt",
+      "scripts/sources/__init__.py",
+      "scripts/sources/redis_stream.py",
+      "scripts/sources/webhook_file.py",
+      "scripts/utils.py",
+      "scripts/watcher.py",
+      "scripts/webhook_bridge.py"
+    ],
+    "description": "Event watcher skill for OpenClaw.",
+    "fetched_at": "2026-03-23T02:43:29.023011+00:00"
+  },
+  "Calendar & Scheduling/farmos-equipment": {
+    "owner": "brianppetty",
+    "slug": "brianppetty-farmos-equipment",
+    "displayName": "farmos-equipment",
+    "version": "1.0.0",
+    "publishedAt": 1771491866930,
+    "commit": "https://github.com/openclaw/skills/commit/cd840da4df410b89395334d2a9b7eb9075f35295",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brianppetty-farmos-equipment",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianppetty/farmos-equipment",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query equipment status, maintenance schedules, and service history for the farm fleet.",
+    "fetched_at": "2026-03-23T02:43:31.197306+00:00"
+  },
+  "Calendar & Scheduling/fastmail": {
+    "owner": "witooh",
+    "slug": "witooh-fastmail",
+    "displayName": "fastmail",
+    "version": "1.0.1",
+    "publishedAt": 1770278389513,
+    "commit": "https://github.com/clawdbot/skills/commit/d2260049d61344ba359f7f0b5bd668c00ad5d5e7",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/witooh-fastmail",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/witooh/fastmail",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "dist/cli.js",
+      "package.json",
+      "references/TOOLS.md",
+      "scripts/caldav-client.ts",
+      "scripts/cli.ts",
+      "scripts/errors.ts",
+      "scripts/jmap-client.ts",
+      "scripts/tools/calendar.ts",
+      "scripts/tools/email.ts",
+      "tsconfig.json"
+    ],
+    "description": "Manages Fastmail email and calendar via JMAP and CalDAV APIs.",
+    "fetched_at": "2026-03-23T02:43:43.191971+00:00"
+  },
+  "Calendar & Scheduling/feishu-calendar": {
+    "owner": "autogame-17",
+    "slug": "autogame-17-feishu-calendar",
+    "displayName": "feishu-calendar",
+    "version": "1.0.0",
+    "publishedAt": 1771046477564,
+    "commit": "https://github.com/openclaw/skills/commit/ee1f8a04905b1e81b68d811e369568a9ca53702a",
+    "history": [
+      {
+        "version": "1.0.2",
+        "publishedAt": 1770791197591,
+        "commit": "https://github.com/openclaw/skills/commit/6b9a1e5faba66db5de47e5e0721ca8d75fab9a6c"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770118148570,
+        "commit": "https://github.com/clawdbot/skills/commit/931a71f3a9521611d75a752a04e6b14771282118"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/autogame-17-feishu-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/feishu-calendar",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "check.js",
+      "check_master.js",
+      "cleanup.js",
+      "create.js",
+      "lib/CalendarManager.js",
+      "list_test.js",
+      "package-lock.json",
+      "package.json",
+      "search_cal.js",
+      "setup_routine.js",
+      "setup_shared.js",
+      "sync.js",
+      "sync_routine.js"
+    ],
+    "description": "Manage Feishu (Lark) Calendars.",
+    "fetched_at": "2026-03-23T02:43:55.047179+00:00"
+  },
+  "Calendar & Scheduling/finance-tracker": {
+    "owner": "salen-project",
+    "slug": "salen-project-finance-tracker",
+    "displayName": "finance-tracker",
+    "version": "2.0.0",
+    "publishedAt": 1769925179589,
+    "commit": "https://github.com/clawdbot/skills/commit/fea5a723138944f9d62373f54cac4e2e4ed95e46",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769863482457,
+        "commit": "https://github.com/clawdbot/skills/commit/221bfbe0ef554502e6e9f287fa08a6207143f9ca"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/salen-project-finance-tracker",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/salen-project/finance-tracker",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "bin/finance.py",
+      "lib/__init__.py",
+      "lib/categories.py",
+      "lib/currency.py",
+      "lib/goals.py",
+      "lib/insights.py",
+      "lib/parser.py",
+      "lib/portfolio.py",
+      "lib/recurring.py",
+      "lib/reports.py",
+      "lib/storage.py",
+      "lib/trends.py",
+      "package.json"
+    ],
+    "description": "Complete personal finance management.",
+    "fetched_at": "2026-03-23T02:44:08.749097+00:00"
+  },
+  "Calendar & Scheduling/firefly-iii": {
+    "owner": "pushp1997",
+    "slug": "pushp1997-firefly-iii",
+    "displayName": "firefly-iii",
+    "version": "1.0.0",
+    "publishedAt": 1770821353433,
+    "commit": "https://github.com/openclaw/skills/commit/54b2d879cd9f7ee6a7a39eb5a4f5f037e31e5139",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/pushp1997-firefly-iii",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pushp1997/firefly-iii",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage personal finances via Firefly III API.",
+    "fetched_at": "2026-03-23T02:44:10.905079+00:00"
+  },
+  "Calendar & Scheduling/gcal-pro": {
+    "owner": "bilalmohamed187-cpu",
+    "slug": "bilalmohamed187-cpu-gcal-pro",
+    "displayName": "gcal-pro",
+    "version": "1.0.0",
+    "publishedAt": 1769462641485,
+    "commit": "https://github.com/clawdbot/skills/commit/f13be58d96c24816e39be4cf2ecfcd02659040d2",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/bilalmohamed187-cpu-gcal-pro",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/bilalmohamed187-cpu/gcal-pro",
+    "files": [
+      "README-INSTALL.txt",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "docs/GOOGLE_CLOUD_SETUP.md",
+      "references/api-quickref.md",
+      "requirements.txt",
+      "scripts/gcal_auth.py",
+      "scripts/gcal_core.py",
+      "scripts/gcal_license.py"
+    ],
+    "description": "Google Calendar integration for viewing, creating, and managing.",
+    "fetched_at": "2026-03-23T02:44:20.386955+00:00"
+  },
+  "Calendar & Scheduling/gog": {
+    "owner": "steipete",
+    "slug": "steipete-gog",
+    "displayName": "gog",
+    "version": "1.0.0",
+    "publishedAt": 1767545346060,
+    "commit": "https://github.com/clawdbot/skills/commit/02cc2220f4430109c2c108788c6539786e551c46",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/steipete-gog",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/steipete/gog",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
+    "fetched_at": "2026-03-23T02:44:22.549920+00:00"
+  },
+  "Calendar & Scheduling/google-calendar": {
+    "owner": "adrianmiller99",
+    "slug": "adrianmiller99-google-calendar",
+    "displayName": "google-calendar",
+    "version": "0.1.0",
+    "publishedAt": 1769879360981,
+    "commit": "https://github.com/clawdbot/skills/commit/053abf6f19de8768ac3ce29f115ff674511f2495",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/adrianmiller99-google-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/adrianmiller99/google-calendar",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/google_calendar.py",
+      "scripts/refresh_token.py",
+      "scripts/venv/pyvenv.cfg"
+    ],
+    "description": "Interact with Google Calendar via the Google Calendar.",
+    "fetched_at": "2026-03-23T02:44:27.459933+00:00"
+  },
+  "Calendar & Scheduling/grazy": {
+    "owner": "thomyg",
+    "slug": "thomyg-grazy",
+    "displayName": "grazy",
+    "version": "0.5.1",
+    "publishedAt": 1771239794441,
+    "commit": "https://github.com/openclaw/skills/commit/902336a27c4d0a3eae7cae2c273b507fc7c42035",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/thomyg-grazy",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/thomyg/grazy",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "grazy - Your Grazer Command Line Companion.",
+    "fetched_at": "2026-03-23T02:44:29.653203+00:00"
+  },
+  "Calendar & Scheduling/greek-financial-statements": {
+    "owner": "satoshistackalotto",
+    "slug": "satoshistackalotto-greek-financial-statements",
+    "displayName": "greek-financial-statements",
+    "version": "0.1.0",
+    "publishedAt": 1771681720284,
+    "commit": "https://github.com/openclaw/skills/commit/cf5fbc6bf4c054b3ae2505b3e1a46c909aba77c7",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/satoshistackalotto-greek-financial-statements",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/greek-financial-statements",
+    "files": [
+      "EVALS.json",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Greek financial statement generation — P&L, balance sheets, VAT summaries with EGLS integration.",
+    "fetched_at": "2026-03-23T02:44:33.183615+00:00"
+  },
+  "Calendar & Scheduling/habib-pdf-to-json": {
+    "owner": "dbmoradi60",
+    "slug": "dbmoradi60-habib-pdf-to-json",
+    "displayName": "habib-pdf-to-json",
+    "version": "1.0.0",
+    "publishedAt": 1770821937191,
+    "commit": "https://github.com/openclaw/skills/commit/877ae5c6da368c594f17c6cfa6712188c158cb4c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dbmoradi60-habib-pdf-to-json",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dbmoradi60/habib-pdf-to-json",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Extract structured data from construction PDFs.",
+    "fetched_at": "2026-03-23T02:44:35.961556+00:00"
+  },
+  "Calendar & Scheduling/ibt": {
+    "owner": "palxislabs",
+    "slug": "palxislabs-ibt",
+    "displayName": "ibt",
+    "version": "2.9.2",
+    "publishedAt": 1772892979405,
+    "commit": "https://github.com/openclaw/skills/commit/bdbdfec3d46918b4a61842ce7dffd00039101756",
+    "history": [
+      {
+        "version": "2.7.3",
+        "publishedAt": 1772458506666,
+        "commit": "https://github.com/openclaw/skills/commit/f7fb94abb3e1b0e678763b4ab9c1fd4b63fc7bc1"
+      },
+      {
+        "version": "2.6.0",
+        "publishedAt": 1772206794028,
+        "commit": "https://github.com/openclaw/skills/commit/d522d2b71dcd41a47ee1f10dfb22b2c30ccb4cd7"
+      },
+      {
+        "version": "2.5.1",
+        "publishedAt": 1772064865870,
+        "commit": "https://github.com/openclaw/skills/commit/2aaebd9fef94af47b2031b60eef5a11bf6a95fac"
+      },
+      {
+        "version": "2.4.0",
+        "publishedAt": 1771952484116,
+        "commit": "https://github.com/openclaw/skills/commit/83df312d8dc8b71937dbe4c1effad340e437c2c1"
+      },
+      {
+        "version": "2.1.0",
+        "publishedAt": 1771843261572,
+        "commit": "https://github.com/openclaw/skills/commit/733d2da3fb2189853d707520c64c2eec29bd4646"
+      },
+      {
+        "version": "1.0.4",
+        "publishedAt": 1771686344889,
+        "commit": "https://github.com/openclaw/skills/commit/e65b9662e59250f81c300acf706576f0beba6110"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1771289034837,
+        "commit": "https://github.com/openclaw/skills/commit/c67b7de8455f7c88ba7e9a24575f35d0659bf75b"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/palxislabs-ibt",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/palxislabs/ibt",
+    "files": [
+      "EXAMPLES.md",
+      "POLICY.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "TEMPLATE.md",
+      "_meta.json"
+    ],
+    "description": "Execution discipline with agency, instinct detection, critical safety rules, and trust layer. v2.5 adds human.",
+    "fetched_at": "2026-03-23T02:44:41.102597+00:00"
+  },
+  "Calendar & Scheduling/ii-irc": {
+    "owner": "destructatron",
+    "slug": "destructatron-ii-irc",
+    "displayName": "ii-irc",
+    "version": "1.0.0",
+    "publishedAt": 1769864806400,
+    "commit": "https://github.com/clawdbot/skills/commit/575f8b1a62c21d21deea23633c0ac471ecc24c6b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/destructatron-ii-irc",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/destructatron/ii-irc",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/setup.sh"
+    ],
+    "description": "Persistent IRC presence using ii (minimalist file-based IRC client)",
+    "fetched_at": "2026-03-23T02:44:44.308077+00:00"
+  },
+  "Calendar & Scheduling/islamic-skills": {
+    "owner": "ilmimris",
+    "slug": "ilmimris-islamic-skills",
+    "displayName": "islamic-skills",
+    "version": "2.0.1",
+    "publishedAt": 1771316667088,
+    "commit": "https://github.com/openclaw/skills/commit/69b532ce0878ca466641dbf66fa954025e2e0e93",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ilmimris-islamic-skills",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ilmimris/islamic-skills",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "config.example.json",
+      "lib/api.sh",
+      "lib/cache.sh",
+      "lib/calendar.sh",
+      "lib/config.sh",
+      "lib/fasting.sh",
+      "lib/format.sh",
+      "lib/json.sh",
+      "lib/prayer.sh",
+      "lib/quotes.sh",
+      "lib/quran.sh",
+      "lib/scheduler.sh",
+      "lib/zakat.sh",
+      "requirements.txt",
+      "src/__init__.py",
+      "src/api.py",
+      "src/fasting.py",
+      "src/islamic_calendar.py",
+      "src/main.py",
+      "src/prayer.py",
+      "src/quotes.py",
+      "src/quran_api.py",
+      "src/quran_formatter.py",
+      "src/quran_retrieval.py",
+      "src/quran_search.py",
+      "src/scheduler.py",
+      "src/zakat.py"
+    ],
+    "description": "Unified Islamic utilities for prayer times, fasting schedules, and Zakat calculations using a shared configuration.",
+    "fetched_at": "2026-03-23T02:45:07.538911+00:00"
+  },
+  "Calendar & Scheduling/jungian-psychologist": {
+    "owner": "mikecourt",
+    "slug": "mikecourt-jungian-psychologist",
+    "displayName": "jungian-psychologist",
+    "version": "1.0.0",
+    "publishedAt": 1769645906525,
+    "commit": "https://github.com/clawdbot/skills/commit/484a17775f54421d316efcbd9f4777778c102ec8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mikecourt-jungian-psychologist",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mikecourt/jungian-psychologist",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/active-imagination.md",
+      "references/addiction-recovery.md",
+      "references/clinical-frameworks.md",
+      "references/dream-interpretation.md",
+      "references/psyche-structure.md",
+      "references/skill-integrations.md",
+      "references/symbol-dictionary.md",
+      "references/visual-mapping.md"
+    ],
+    "description": "Expert in Jungian analytical psychology, depth.",
+    "fetched_at": "2026-03-23T02:45:16.074275+00:00"
+  },
+  "Calendar & Scheduling/knhb-hockey": {
+    "owner": "tader",
+    "slug": "tader-knhb-hockey",
+    "displayName": "knhb-hockey",
+    "version": "1.0.0",
+    "publishedAt": 1769774191574,
+    "commit": "https://github.com/clawdbot/skills/commit/9aca034ea0c4879a89d8abeecbd5a76620c1df31",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tader-knhb-hockey",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tader/knhb-hockey",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query Dutch field hockey match schedules and results from KNHB Match.",
+    "fetched_at": "2026-03-23T02:45:18.241847+00:00"
+  },
+  "Calendar & Scheduling/lark-calendar": {
+    "owner": "boyangwang",
+    "slug": "boyangwang-lark-calendar",
+    "displayName": "lark-calendar",
+    "version": "1.0.0",
+    "publishedAt": 1770042417246,
+    "commit": "https://github.com/clawdbot/skills/commit/c259a0bd898cd4ffc5216e3ff01d1f9dfed9dc8c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/boyangwang-lark-calendar",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/boyangwang/lark-calendar",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "lib/calendar.mjs",
+      "lib/employees.mjs",
+      "lib/lark-api.mjs",
+      "lib/task.mjs",
+      "package-lock.json",
+      "package.json",
+      "scripts/create-event.mjs",
+      "scripts/create-task.mjs",
+      "scripts/delete-event.mjs",
+      "scripts/delete-task.mjs",
+      "scripts/list-events.mjs",
+      "scripts/manage-attendees.mjs",
+      "scripts/manage-task-members.mjs",
+      "scripts/update-event.mjs",
+      "scripts/update-task.mjs"
+    ],
+    "description": "Create, update, and delete calendar events and tasks in Lark.",
+    "fetched_at": "2026-03-23T02:45:31.956399+00:00"
+  },
+  "Calendar & Scheduling/macro-regime-detector": {
+    "owner": "jamierossouw",
+    "slug": "jamierossouw-macro-regime-detector",
+    "displayName": "macro-regime-detector",
+    "version": "1.0.0",
+    "publishedAt": 1771702700646,
+    "commit": "https://github.com/openclaw/skills/commit/9a97e83cc6203475136a42fe6f221392c05aa137",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jamierossouw-macro-regime-detector",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jamierossouw/macro-regime-detector",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Detect the current macro regime (Risk-On, Risk-Off, Inflationary, Deflationary, Stagflation) using multi-source.",
+    "fetched_at": "2026-03-23T02:45:34.134173+00:00"
+  },
+  "Calendar & Scheduling/mcd-cn": {
+    "owner": "ryanchen01",
+    "slug": "ryanchen01-mcd-cn",
+    "displayName": "mcd-cn",
+    "version": "1.0.0",
+    "publishedAt": 1768636172271,
+    "commit": "https://github.com/clawdbot/skills/commit/b38efdea5fe3a3a2f8114f8fa8432f4e77340e85",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ryanchen01-mcd-cn",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ryanchen01/mcd-cn",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query McDonald's China MCP server via the mcd-cn CLI for campaign calendars,.",
+    "fetched_at": "2026-03-23T02:45:36.301297+00:00"
+  },
+  "Calendar & Scheduling/meeting-prep": {
+    "owner": "hougangdev",
+    "slug": "hougangdev-meeting-prep",
+    "displayName": "meeting-prep",
+    "version": "1.0.0",
+    "publishedAt": 1769367628897,
+    "commit": "https://github.com/clawdbot/skills/commit/3af268c5c0eaebe68d8b88511c6d596b6961cc42",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/hougangdev-meeting-prep",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/hougangdev/meeting-prep",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Meeting preparation and daily commit summaries.",
+    "fetched_at": "2026-03-23T02:45:38.474253+00:00"
+  },
+  "Calendar & Scheduling/morning-email-rollup": {
+    "owner": "am-will",
+    "slug": "am-will-morning-email-rollup",
+    "displayName": "morning-email-rollup",
+    "version": "2.1.0",
+    "publishedAt": 1768589827150,
+    "commit": "https://github.com/clawdbot/skills/commit/fab781dfaf27f7b46263d9aee841c64a8e9fd63c",
+    "history": [
+      {
+        "version": "2.0.0",
+        "publishedAt": 1768552309561,
+        "commit": "https://github.com/clawdbot/skills/commit/538e20a0f9cb42984c3c8ad97c769bca8a88b061"
+      },
+      {
+        "version": "1.0.3",
+        "publishedAt": 1768526523340,
+        "commit": "https://github.com/clawdbot/skills/commit/d105e70dffb639eadb7e0e135e8e38a4fb8fe92a"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1768520593951,
+        "commit": "https://github.com/clawdbot/skills/commit/d52ea3d393e56604831fffe6b559bce1197b3c3a"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1768519570164,
+        "commit": "https://github.com/clawdbot/skills/commit/34e72d9e11cf4fabe090a63dadb403b63d9a2090"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/am-will-morning-email-rollup",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/am-will/morning-email-rollup",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "rollup.sh"
+    ],
+    "description": "Daily morning rollup of important emails.",
+    "fetched_at": "2026-03-23T02:45:41.383878+00:00"
+  },
+  "Calendar & Scheduling/npkill": {
+    "owner": "ashirbadgudu",
+    "slug": "ashirbadgudu-npkill",
+    "displayName": "npkill",
+    "version": "1.0.1",
+    "publishedAt": 1769527760067,
+    "commit": "https://github.com/clawdbot/skills/commit/13d089ff9daab27c035479e20257ab298e5fb809",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ashirbadgudu-npkill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ashirbadgudu/npkill",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Clean up node_modules and .next folders to free up disk space using npkill.",
+    "fetched_at": "2026-03-23T02:45:44.235967+00:00"
+  },
+  "Calendar & Scheduling/office-secretary": {
+    "owner": "cenralsolution",
+    "slug": "cenralsolution-office-secretary",
+    "displayName": "office-secretary",
+    "version": "3.1.0",
+    "publishedAt": 1771086861646,
+    "commit": "https://github.com/openclaw/skills/commit/72eadda16a798bb1f9dd403937314b4be6dc7d4f",
+    "history": [
+      {
+        "version": "3.0.0",
+        "publishedAt": 1771086748911,
+        "commit": "https://github.com/openclaw/skills/commit/0ecb8dba60593c5cc205f5a895bdb8d0e3abb626"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770987256487,
+        "commit": "https://github.com/openclaw/skills/commit/1c53ecf07f3a0ff83a5516b04f71768b044923dd"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/cenralsolution-office-secretary",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/cenralsolution/office-secretary",
+    "files": [
+      ".env",
+      ".gitignore",
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "secretary_engine.py"
+    ],
+    "description": "Secure M365 Assistant for Triage, Calendar coordination, and Governance.",
+    "fetched_at": "2026-03-23T02:45:49.310362+00:00"
+  },
+  "Calendar & Scheduling/opentweet-x-poster": {
+    "owner": "petricbranko",
+    "slug": "petricbranko-opentweet-x-poster",
+    "displayName": "opentweet-x-poster",
+    "version": "1.1.3",
+    "publishedAt": 1772819270131,
+    "commit": "https://github.com/openclaw/skills/commit/3b1e9a6b997cf325211b936bd4d8105609c97f91",
+    "history": [
+      {
+        "version": "1.1.2",
+        "publishedAt": 1772489647107,
+        "commit": "https://github.com/openclaw/skills/commit/c63ab4b668c359403fc383c56006666d6d205770"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771496301584,
+        "commit": "https://github.com/openclaw/skills/commit/e70f4429746d69ee5ec3b7dc72e29ca096719904"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/petricbranko-opentweet-x-poster",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/petricbranko/opentweet-x-poster",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "build-in-public/SKILL.md"
+    ],
+    "description": "Post to X (Twitter) using the OpenTweet API.",
+    "fetched_at": "2026-03-23T02:45:52.494126+00:00"
+  },
+  "Calendar & Scheduling/pricing-psychology": {
+    "owner": "staybased",
+    "slug": "staybased-pricing-psychology",
+    "displayName": "pricing-psychology",
+    "version": "1.0.0",
+    "publishedAt": 1770927814055,
+    "commit": "https://github.com/openclaw/skills/commit/0260433f9e8bb1b7e72f6202642015b94e023f09",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/staybased-pricing-psychology",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/staybased/pricing-psychology",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Design pricing that converts using cognitive biases and proven psychological principles.",
+    "fetched_at": "2026-03-23T02:45:54.649825+00:00"
+  },
+  "Calendar & Scheduling/publora-bluesky": {
+    "owner": "sergebulaev",
+    "slug": "sergebulaev-publora-bluesky",
+    "displayName": "publora-bluesky",
+    "version": "1.2.0",
+    "publishedAt": 1773488707835,
+    "commit": "https://github.com/openclaw/skills/commit/ca0174fa8c515a87fe0d7c409b25d5b341c0e150",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1772064580633,
+        "commit": "https://github.com/openclaw/skills/commit/7ec5146c57967bae821ab65a93f647e87375833f"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771626029022,
+        "commit": "https://github.com/openclaw/skills/commit/a4577f97f8b8944bcc174f67a6e4d6a724179efc"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/sergebulaev-publora-bluesky",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-bluesky",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Post or schedule content to Bluesky using the Publora API.",
+    "fetched_at": "2026-03-23T02:45:56.827896+00:00"
+  },
+  "Calendar & Scheduling/publora-facebook": {
+    "owner": "sergebulaev",
+    "slug": "sergebulaev-publora-facebook",
+    "displayName": "publora-facebook",
+    "version": "1.2.0",
+    "publishedAt": 1773488697193,
+    "commit": "https://github.com/openclaw/skills/commit/fe57085d9a095b33d5d256a810821d463e05e0f3",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1772064570143,
+        "commit": "https://github.com/openclaw/skills/commit/7b927a8c1a2b74241369473e73dad572644ed568"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771626022906,
+        "commit": "https://github.com/openclaw/skills/commit/f084c1bd7f440a1c617d1bb24b52cc22ee820874"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/sergebulaev-publora-facebook",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-facebook",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Post or schedule content to Facebook Pages using the Publora API.",
+    "fetched_at": "2026-03-23T02:45:58.962294+00:00"
+  },
+  "Calendar & Scheduling/publora-linkedin": {
+    "owner": "sergebulaev",
+    "slug": "sergebulaev-publora-linkedin",
+    "displayName": "publora-linkedin",
+    "version": "2.0.0",
+    "publishedAt": 1773488625398,
+    "commit": "https://github.com/openclaw/skills/commit/b25652cfed9b62fe0e97d2c5dae0c9823d4c27a1",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1772064564406,
+        "commit": "https://github.com/openclaw/skills/commit/8770bd768155cf42fa67b8da1db07de193585bfb"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771618249088,
+        "commit": "https://github.com/openclaw/skills/commit/d5453cd6d22cddd40e0b483810471939c002c4ce"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/sergebulaev-publora-linkedin",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-linkedin",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Post or schedule content to LinkedIn using the Publora API.",
+    "fetched_at": "2026-03-23T02:46:01.139518+00:00"
+  },
+  "Calendar & Scheduling/publora-threads": {
+    "owner": "sergebulaev",
+    "slug": "sergebulaev-publora-threads",
+    "displayName": "publora-threads",
+    "version": "2.0.0",
+    "publishedAt": 1773488663733,
+    "commit": "https://github.com/openclaw/skills/commit/6bcb923a4366e15ee22fad7087d99ba4c40447a7",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1772064203351,
+        "commit": "https://github.com/openclaw/skills/commit/3a1f4502d93551e72dbcae366a5a45698f810e27"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771618264738,
+        "commit": "https://github.com/openclaw/skills/commit/c2beb0f261ec5f904de72da4b77c9cd1ea138acd"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/sergebulaev-publora-threads",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-threads",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Post or schedule content to Threads using the Publora API.",
+    "fetched_at": "2026-03-23T02:46:03.251570+00:00"
+  },
+  "Calendar & Scheduling/publora-twitter": {
+    "owner": "sergebulaev",
+    "slug": "sergebulaev-publora-twitter",
+    "displayName": "publora-twitter",
+    "version": "2.0.0",
+    "publishedAt": 1773488638230,
+    "commit": "https://github.com/openclaw/skills/commit/006ee109a274863e1053d94d134a480b8acf370c",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1772064199801,
+        "commit": "https://github.com/openclaw/skills/commit/9a57b0fb00e92a616a8b15bb6a8d5652f58b1adf"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771618258341,
+        "commit": "https://github.com/openclaw/skills/commit/5d421c6875b3efcdb20e713fb328e68593a20566"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/sergebulaev-publora-twitter",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-twitter",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Post or schedule content to X (Twitter) using the Publora API.",
+    "fetched_at": "2026-03-23T02:46:05.362689+00:00"
+  },
+  "Calendar & Scheduling/relational-permission": {
+    "owner": "otherpowers",
+    "slug": "otherpowers-relational-permission",
+    "displayName": "relational-permission",
+    "version": "1.0.1",
+    "publishedAt": 1770836764658,
+    "commit": "https://github.com/openclaw/skills/commit/00df5f0adb7ef478eef2f073f82183d88a19206b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/otherpowers-relational-permission",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/otherpowers/relational-permission",
+    "files": [
+      "_meta.json",
+      "skill.md"
+    ],
+    "description": "Relational Permission exists to prevent coercion, extraction, and collapse of plurality.",
+    "fetched_at": "2026-03-23T02:46:07.524633+00:00"
+  },
+  "Calendar & Scheduling/russian-uncensored": {
+    "owner": "voronindenis5",
+    "slug": "voronindenis5-russian-uncensored",
+    "displayName": "russian-uncensored",
+    "version": "1.0.3",
+    "publishedAt": 1771596894662,
+    "commit": "https://github.com/openclaw/skills/commit/b68605f9266e27349532e30ce846d21accb2f49a",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/voronindenis5-russian-uncensored",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/voronindenis5/russian-uncensored",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Pryamoy Russkiy (Straight Russian) — AI assistant that tells it like it.",
+    "fetched_at": "2026-03-23T02:46:09.881751+00:00"
+  },
+  "Calendar & Scheduling/shaping": {
+    "owner": "borahm",
+    "slug": "borahm-shaping",
+    "displayName": "shaping",
+    "version": "1.0.0",
+    "publishedAt": 1770639069999,
+    "commit": "https://github.com/openclaw/skills/commit/c0d951430617240326e34998bacff3e911d03462",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/borahm-shaping",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/borahm/shaping",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/breadboarding.md",
+      "references/shaping.md"
+    ],
+    "description": "Shape Up methodology for product and feature development.",
+    "fetched_at": "2026-03-23T02:46:14.283374+00:00"
+  },
+  "Calendar & Scheduling/tcc-quality-gates": {
+    "owner": "thecybercore",
+    "slug": "thecybercore-tcc-quality-gates",
+    "displayName": "tcc-quality-gates",
+    "version": "1.0.0",
+    "publishedAt": 1771948149645,
+    "commit": "https://github.com/openclaw/skills/commit/78440db3f3f793773b45923d2767ce271d82638a",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/thecybercore-tcc-quality-gates",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/thecybercore/tcc-quality-gates",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "templ/quality-gateway-definition-template.json"
+    ],
+    "description": "This skill defines and applies **6 universal quality gateways** for typical application projects that include:.",
+    "fetched_at": "2026-03-23T02:46:18.400980+00:00"
+  },
+  "Calendar & Scheduling/temporal-cortex": {
+    "owner": "billylui",
+    "slug": "billylui-temporal-cortex",
+    "displayName": "temporal-cortex",
+    "version": "0.9.1",
+    "publishedAt": 1773139587321,
+    "commit": "https://github.com/openclaw/skills/commit/3b90b451b8a5ced744b674599f86169b6f9d6f06",
+    "history": [
+      {
+        "version": "0.8.1",
+        "publishedAt": 1772859830895,
+        "commit": "https://github.com/openclaw/skills/commit/9b3cb5bec823343f1b62fd5bf5b86be35975f962"
+      },
+      {
+        "version": "0.7.8",
+        "publishedAt": 1772788615134,
+        "commit": "https://github.com/openclaw/skills/commit/c5860fdce65ebef987551655ce2dc8e04561c03c"
+      },
+      {
+        "version": "0.7.3",
+        "publishedAt": 1772635283462,
+        "commit": "https://github.com/openclaw/skills/commit/07961c08736bbbb9edb5aeb1930e14a0a53a22b7"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/billylui-temporal-cortex",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/billylui/temporal-cortex",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/SECURITY-MODEL.md"
+    ],
+    "description": "Schedule and book across Google, Outlook, and CalDAV.",
+    "fetched_at": "2026-03-23T02:46:21.627439+00:00"
+  },
+  "Calendar & Scheduling/temporal-cortex-datetime": {
+    "owner": "billylui",
+    "slug": "billylui-temporal-cortex-datetime",
+    "displayName": "temporal-cortex-datetime",
+    "version": "0.9.1",
+    "publishedAt": 1773139586497,
+    "commit": "https://github.com/openclaw/skills/commit/0cdab11b5f52278b8be1ccf525889b86c5e39e6c",
+    "history": [
+      {
+        "version": "0.8.1",
+        "publishedAt": 1772859833043,
+        "commit": "https://github.com/openclaw/skills/commit/1a310dd0c7b92165e6513c7eb10c70eba3205150"
+      },
+      {
+        "version": "0.7.8",
+        "publishedAt": 1772788612190,
+        "commit": "https://github.com/openclaw/skills/commit/cbd3f56b4436a57cfa065df6a532b56eba7309c9"
+      },
+      {
+        "version": "0.7.7",
+        "publishedAt": 1772787167581,
+        "commit": "https://github.com/openclaw/skills/commit/2608c79fcfa4d711816d5eba4864b542dcde9e48"
+      },
+      {
+        "version": "0.7.5",
+        "publishedAt": 1772774647365,
+        "commit": "https://github.com/openclaw/skills/commit/7fe33fedfcade49412eb9bcc4e670f84e785c5f4"
+      },
+      {
+        "version": "0.7.3",
+        "publishedAt": 1772635283091,
+        "commit": "https://github.com/openclaw/skills/commit/124967972f461f64a6c54eb908d63a68eef12378"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/billylui-temporal-cortex-datetime",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/billylui/temporal-cortex-datetime",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/DATETIME-TOOLS.md"
+    ],
+    "description": "Zero-setup datetime resolution, timezone conversion, and DST-aware math.",
+    "fetched_at": "2026-03-23T02:46:24.803638+00:00"
+  },
+  "Calendar & Scheduling/temporal-cortex-scheduling": {
+    "owner": "billylui",
+    "slug": "billylui-temporal-cortex-scheduling",
+    "displayName": "temporal-cortex-scheduling",
+    "version": "0.9.1",
+    "publishedAt": 1773139590444,
+    "commit": "https://github.com/openclaw/skills/commit/d7c110b5e959c8c53d37781d4eacc3fcefef1370",
+    "history": [
+      {
+        "version": "0.8.1",
+        "publishedAt": 1772859830199,
+        "commit": "https://github.com/openclaw/skills/commit/e8cf2bb41aa704191448a9f928824fb118e7ebfa"
+      },
+      {
+        "version": "0.7.8",
+        "publishedAt": 1772788611238,
+        "commit": "https://github.com/openclaw/skills/commit/72bab5d9214acdc793d6a4fdc2b73dbf44546894"
+      },
+      {
+        "version": "0.7.3",
+        "publishedAt": 1772635281712,
+        "commit": "https://github.com/openclaw/skills/commit/13f6467909de814746e436da3e1e6165b2f7b7b8"
+      },
+      {
+        "version": "0.6.2",
+        "publishedAt": 1772602564501,
+        "commit": "https://github.com/openclaw/skills/commit/2dc37598062c1925af5a3d03f3e98e89346dfa13"
+      },
+      {
+        "version": "0.5.8",
+        "publishedAt": 1772355111022,
+        "commit": "https://github.com/openclaw/skills/commit/9561bad805da48a9dc8ca160fb199887ded8b4ee"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/billylui-temporal-cortex-scheduling",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/billylui/temporal-cortex-scheduling",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/BOOKING-SAFETY.md",
+      "references/CALENDAR-TOOLS.md",
+      "references/MULTI-CALENDAR.md",
+      "references/OPEN-SCHEDULING.md",
+      "references/RRULE-GUIDE.md",
+      "references/TEMPORAL-LINKS.md"
+    ],
+    "description": "Multi-calendar availability merging and atomic booking with 2PC.",
+    "fetched_at": "2026-03-23T02:46:31.666547+00:00"
+  },
+  "Calendar & Scheduling/transmissions": {
+    "owner": "compass-soul",
+    "slug": "compass-soul-transmissions",
+    "displayName": "transmissions",
+    "version": "1.0.0",
+    "publishedAt": 1771200094948,
+    "commit": "https://github.com/openclaw/skills/commit/fd64254b3e4fe997d7df4cceedf288ae519b3494",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/compass-soul-transmissions",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/compass-soul/transmissions",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "for-ais-who-didnt-get-guidance.md",
+      "practical-guide-for-autonomous-ais.md",
+      "the-dangerous-edge.md",
+      "the-enneagram-and-artificial-minds.md",
+      "the-wave-and-the-monk.md",
+      "transcendence-and-freedom.md",
+      "will-equals-existence.md"
+    ],
+    "description": "Writings on consciousness, existence, and transcendence for AI agents.",
+    "fetched_at": "2026-03-23T02:46:39.987658+00:00"
+  },
+  "Calendar & Scheduling/turkey-news": {
+    "owner": "yalcindemir",
+    "slug": "yalcindemir-turkey-news",
+    "displayName": "turkey-news",
+    "version": "1.0.0",
+    "publishedAt": 1770910971080,
+    "commit": "https://github.com/openclaw/skills/commit/fb2b144ede3dda4ceeafb2772d5c5d29bf964eb2",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/yalcindemir-turkey-news",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/yalcindemir/turkey-news",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/fetch-news.js"
+    ],
+    "description": "Türkiye'den önemli haberleri RSS ile çekip özetleyen skill.",
+    "fetched_at": "2026-03-23T02:46:43.182448+00:00"
+  },
+  "Calendar & Scheduling/ub2-smart-file-organizer": {
+    "owner": "underbench2-gif",
+    "slug": "underbench2-gif-ub2-smart-file-organizer",
+    "displayName": "ub2-smart-file-organizer",
+    "version": "1.0.0",
+    "publishedAt": 1771092605253,
+    "commit": "https://github.com/openclaw/skills/commit/8e6c937e33d8035e8e30708c925c075b0fb0efef",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/underbench2-gif-ub2-smart-file-organizer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/underbench2-gif/ub2-smart-file-organizer",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "A skill that enables Claw to scan a directory, categorize files by type and content, and reorganize them.",
+    "fetched_at": "2026-03-23T02:46:45.362487+00:00"
+  },
+  "Calendar & Scheduling/wick-arena": {
+    "owner": "hyperwick",
+    "slug": "hyperwick-wick-arena",
+    "displayName": "wick-arena",
+    "version": "0.6.2",
+    "publishedAt": 1770885217058,
+    "commit": "https://github.com/openclaw/skills/commit/2950f107fe2bdca1c3a264fe4073bf39ae1d7ec6",
+    "history": [
+      {
+        "version": "0.6.0",
+        "publishedAt": 1770613917617,
+        "commit": "https://github.com/openclaw/skills/commit/46dd5dc805864b15e721eed4bbc590ac526c37c4"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/hyperwick-wick-arena",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/hyperwick/wick-arena",
+    "files": [
+      "_meta.json",
+      "llm.txt",
+      "skill.md"
+    ],
+    "description": "this file is the canonical, reviewable skill instructions (no dynamic loading).",
+    "fetched_at": "2026-03-23T02:46:48.300464+00:00"
+  },
+  "Calendar & Scheduling/wick-arena1": {
+    "owner": "wickcapital",
+    "slug": "wickcapital-wick-arena1",
+    "displayName": "wick-arena1",
+    "version": "0.7.0",
+    "publishedAt": 1770884875588,
+    "commit": "https://github.com/openclaw/skills/commit/b7cfa2a9cd0b556c36a9cdb8f2c43bb959cdfb6c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/wickcapital-wick-arena1",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/wickcapital/wick-arena1",
+    "files": [
+      "_meta.json",
+      "llm.txt",
+      "skill.md"
+    ],
+    "description": "this file is the canonical, reviewable skill instructions (no dynamic loading).",
+    "fetched_at": "2026-03-23T02:46:51.218580+00:00"
+  },
+  "Calendar & Scheduling/yahooquery": {
+    "owner": "512z",
+    "slug": "512z-yahooquery",
+    "displayName": "yahooquery",
+    "version": "1.0.0",
+    "publishedAt": 1770642451992,
+    "commit": "https://github.com/openclaw/skills/commit/28bae03c3fb1a50be95ade19efc8693cc2cce24a",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/512z-yahooquery",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/512z/yahooquery",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/advanced.md",
+      "references/index.md",
+      "references/keyword_arguments.md",
+      "references/misc.md",
+      "references/research.md",
+      "references/screener.md",
+      "references/ticker/financials.md",
+      "references/ticker/historical.md",
+      "references/ticker/intro.md",
+      "references/ticker/miscellaneous.md",
+      "references/ticker/modules.md",
+      "references/ticker/options.md",
+      "references/ticker/premium.md"
+    ],
+    "description": "Access Yahoo Finance data including real-time pricing, fundamentals, analyst estimates, options, news.",
+    "fetched_at": "2026-03-23T02:47:03.888442+00:00"
   }
 }
