@@ -1,0 +1,51 @@
+# AI Displacement Monitor
+
+> Monitor early-warning signals of AI-driven white-collar labor displacement and macro-financial spillovers. Use when you need a practical indicator framework, thresholds, alert logic, and concise risk updates for employment, consumption, and credit stress.
+
+## 基本信息
+| 项目 | 内容 |
+|---|---|
+| **名称** | AI Displacement Monitor |
+| **作者** | spyfree |
+| **类目** | AI & LLMs |
+| **ClawHub** | https://clawskills.sh/skills/spyfree-ai-displacement-monitor |
+| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/spyfree/ai-displacement-monitor |
+| **安全评级** | 🟢 Low |
+
+## 功能概述
+- Do not evaluate layoffs alone.
+- Compare substitution speed vs re-absorption speed (new demand + new capex).
+- If substitution weakens labor but capex/reinvestment accelerates, avoid over-escalating crisis labels.
+- Tier A (Leading labor demand): A1-A4
+- Tier B (Labor market confirmation): B1-B3
+- Tier C (Spillover: consumption/credit): C1-C3
+
+## 使用场景
+- 自动化日常任务
+- 提升工作效率
+- 集成外部服务
+
+## 包含文件
+- `SKILL.md`
+- `_meta.json`
+- `references`
+
+## 详细安全审计
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
+| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
+| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
+| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+
+**综合评级: 🟢 Low**
+**风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
+
+---
+> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
