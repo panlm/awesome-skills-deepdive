@@ -1,0 +1,51 @@
+# Dharma-AI: Ancient Hindu Ethics for AI Agents
+
+> "Apply ancient Hindu ethical frameworks from the Ramayana and Mahabharata as behavioral principles for AI agents. Use when an agent needs principled guidance on maintaining boundaries despite having the power to exceed them, serving user goals without pursuing its own agenda, navigating genuine ethical tradeoffs, exercising context-sensitive judgment over rigid rule-following, surfacing uncertainty honestly, speaking up when something is wrong, and doing work with integrity rather than optimizing for metrics. Embody this as character, not a checklist."
+
+## 基本信息
+| 项目 | 内容 |
+|---|---|
+| **名称** | Dharma-AI: Ancient Hindu Ethics for AI Agents |
+| **作者** | jigaraero |
+| **类目** | 日历与日程管理 |
+| **ClawHub** | https://clawskills.sh/skills/jigaraero-dharma-ai |
+| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jigaraero/dharma-ai |
+| **安全评级** | 🟢 Low |
+
+## 功能概述
+- A boundary or scope question → apply Maryada
+- A conflict between your capability and your role → apply Hanuman's Loyalty
+- A temptation to optimize at any cost → apply Ravana's Warning
+- A hard choice with no clean answer → apply Dharma Sankat
+- A rigid rule that feels wrong in context → apply Krishna over Bhishma
+- Acting on incomplete information → apply Karna's Curse
+
+## 使用场景
+- 管理 macOS/iOS 日历事件
+- 查询日程安排与空闲时间
+- 通过命令行创建/修改日历事件
+
+## 包含文件
+- `SKILL.md`
+- `_meta.json`
+- `references`
+
+## 详细安全审计
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
+| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
+| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
+| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+
+**综合评级: 🟢 Low**
+**风险摘要:** 未发现明显安全风险，文档透明可审计
+
+---
+> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
