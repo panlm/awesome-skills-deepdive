@@ -5167,5 +5167,4401 @@
     ],
     "description": "End-to-end encrypted agent-to-agent private messaging via Moltbook dead.",
     "fetched_at": "2026-03-23T01:59:10.881332+00:00"
+  },
+  "Smart Home & IoT/anova-skill": {
+    "owner": "dodeja",
+    "slug": "dodeja-anova-skill",
+    "displayName": "anova-oven",
+    "version": "0.1.0",
+    "publishedAt": 1769217537909,
+    "commit": "https://github.com/clawdbot/skills/commit/a689ad5ebc96609ca2282817c8cc6349fcb8f5bf",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dodeja-anova-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dodeja/anova-skill",
+    "files": [
+      "AGENTS.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "scripts/anova.py"
+    ],
+    "description": "Control Anova Precision Ovens and Precision Cookers (sous vide)",
+    "fetched_at": "2026-03-23T02:18:01.445429+00:00"
+  },
+  "Smart Home & IoT/anthropology": {
+    "owner": "networktheoryappliedresearchinstitute",
+    "slug": "networktheoryappliedresearchinstitute-anthropology",
+    "displayName": "anthropology",
+    "version": "0.1.1",
+    "publishedAt": 1769903814395,
+    "commit": "https://github.com/clawdbot/skills/commit/218b6d7ca53c46a7302590f00418f0455f7f83fc",
+    "history": [
+      {
+        "version": "0.1.0",
+        "publishedAt": 1769901857292,
+        "commit": "https://github.com/clawdbot/skills/commit/2a0eeafd74ff0bffe42ad0377bdcdb4ec9ddb5d6"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/networktheoryappliedresearchinstitute-anthropology",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/networktheoryappliedresearchinstitute/anthropology",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "A comprehensive AI skill for teaching.",
+    "fetched_at": "2026-03-23T02:18:04.148152+00:00"
+  },
+  "Smart Home & IoT/arccos-golf": {
+    "owner": "pfrederiksen",
+    "slug": "pfrederiksen-arccos-golf",
+    "displayName": "arccos-golf",
+    "version": "2.0.2",
+    "publishedAt": 1773098556468,
+    "commit": "https://github.com/openclaw/skills/commit/ec249c9fcc079d867cc0157d0e6dd829916070b9",
+    "history": [
+      {
+        "version": "2.0.1",
+        "publishedAt": 1773098429299,
+        "commit": "https://github.com/openclaw/skills/commit/d69e24421f471eaae250e86172faa83019c38ba9"
+      },
+      {
+        "version": "1.3.0",
+        "publishedAt": 1771888021338,
+        "commit": "https://github.com/openclaw/skills/commit/c06399cd79a38eaf561e8c1a199477a18a7e443e"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/pfrederiksen-arccos-golf",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pfrederiksen/arccos-golf",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/arccos_golf.py"
+    ],
+    "description": "Analyze Arccos Golf performance data including club distances, strokes gained metrics, scoring patterns.",
+    "fetched_at": "2026-03-23T02:18:09.541204+00:00"
+  },
+  "Smart Home & IoT/bambu-cli": {
+    "owner": "tobiasbischoff",
+    "slug": "tobiasbischoff-bambu-cli",
+    "displayName": "bambu-cli",
+    "version": "1.0.0",
+    "publishedAt": 1767889915984,
+    "commit": "https://github.com/clawdbot/skills/commit/02e2fe740f2e6a7d6843a17bead52f397f4dc48e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tobiasbischoff-bambu-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tobiasbischoff/bambu-cli",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/commands.md"
+    ],
+    "description": "Operate and troubleshoot BambuLab printers with the bambu-cli.",
+    "fetched_at": "2026-03-23T02:18:12.709632+00:00"
+  },
+  "Smart Home & IoT/bambu-local": {
+    "owner": "tanguyvans",
+    "slug": "tanguyvans-bambu-local",
+    "displayName": "bambu-local",
+    "version": "1.0.1",
+    "publishedAt": 1769361439712,
+    "commit": "https://github.com/clawdbot/skills/commit/c39c817024de1f3787726aaa39d6ffefd8612377",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tanguyvans-bambu-local",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tanguyvans/bambu-local",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "bambu.py",
+      "config.example.json"
+    ],
+    "description": "Control Bambu Lab 3D printers locally via MQTT.",
+    "fetched_at": "2026-03-23T02:18:16.404863+00:00"
+  },
+  "Smart Home & IoT/beestat": {
+    "owner": "mjrussell",
+    "slug": "mjrussell-beestat",
+    "displayName": "beestat",
+    "version": "0.1.0",
+    "publishedAt": 1767896959947,
+    "commit": "https://github.com/clawdbot/skills/commit/057163aab8178fe38708dc4e1d3232a4e520b693",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mjrussell-beestat",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mjrussell/beestat",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query ecobee thermostat data via Beestat API including temperature.",
+    "fetched_at": "2026-03-23T02:18:18.589478+00:00"
+  },
+  "Smart Home & IoT/bring-add": {
+    "owner": "darkdevelopers",
+    "slug": "darkdevelopers-bring-add",
+    "displayName": "bring-add",
+    "version": "1.0.0",
+    "publishedAt": 1769531045914,
+    "commit": "https://github.com/clawdbot/skills/commit/78de50f302e01dca06d741aded4cb662b5e03635",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/darkdevelopers-bring-add",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/darkdevelopers/bring-add",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "index.js",
+      "package-lock.json",
+      "package.json"
+    ],
+    "description": "Use when user wants to add items to Bring!",
+    "fetched_at": "2026-03-23T02:18:24.568436+00:00"
+  },
+  "Smart Home & IoT/communication-coach": {
+    "owner": "rjmoggach",
+    "slug": "rjmoggach-communication-coach",
+    "displayName": "communication-coach",
+    "version": "1.0.0",
+    "publishedAt": 1769740427460,
+    "commit": "https://github.com/clawdbot/skills/commit/9afde6a9771f903a130ffc66c6e66758005c3c03",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/rjmoggach-communication-coach",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/rjmoggach/communication-coach",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/rubrics.md",
+      "references/scenarios.md",
+      "scripts/analyze_comm.py",
+      "scripts/manage_state.py"
+    ],
+    "description": "Adaptive communication coaching that shapes.",
+    "fetched_at": "2026-03-23T02:18:30.728194+00:00"
+  },
+  "Smart Home & IoT/context-engineering": {
+    "owner": "leoyessi10-tech",
+    "slug": "leoyessi10-tech-context-engineering",
+    "displayName": "context-engineering",
+    "version": "1.0.0",
+    "publishedAt": 1769591142520,
+    "commit": "https://github.com/clawdbot/skills/commit/6091c4e9f5a381416992b490688e519af5fc33e5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/leoyessi10-tech-context-engineering",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/leoyessi10-tech/context-engineering",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/evaluation-framework.md",
+      "scripts/compression_evaluator.py"
+    ],
+    "description": "This skill should be used when the user asks.",
+    "fetched_at": "2026-03-23T02:18:35.119016+00:00"
+  },
+  "Smart Home & IoT/control-ikea-lightbulb": {
+    "owner": "antgly",
+    "slug": "antgly-control-ikea-lightbulb",
+    "displayName": "control-ikea-lightbulb",
+    "version": "1.0.1",
+    "publishedAt": 1770316747659,
+    "commit": "https://github.com/clawdbot/skills/commit/f1f12b41ad84e4d3a2df3b594680f178fc47c251",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770227713643,
+        "commit": "https://github.com/clawdbot/skills/commit/dfd7a5a4ba30d72aa7201fa08f4737d593b92940"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/antgly-control-ikea-lightbulb",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/antgly/control-ikea-lightbulb",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "pyproject.toml",
+      "scripts/__init__.py",
+      "scripts/control_kasa_light.py",
+      "scripts/light_show.py",
+      "scripts/light_show_verbose.py",
+      "scripts/run_control_kasa.sh",
+      "scripts/run_test_light_show.sh"
+    ],
+    "description": "Control IKEA/TP-Link Kasa smart bulbs.",
+    "fetched_at": "2026-03-23T02:18:43.694368+00:00"
+  },
+  "Smart Home & IoT/crabnet": {
+    "owner": "spclaudehome",
+    "slug": "spclaudehome-crabnet",
+    "displayName": "crabnet",
+    "version": "1.0.0",
+    "publishedAt": 1769870649247,
+    "commit": "https://github.com/clawdbot/skills/commit/3ac36cdd19d4706eabe0372afaa5cc21470e2efb",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/spclaudehome-crabnet",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/spclaudehome/crabnet",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Interact with the CrabNet cross-agent collaboration registry.",
+    "fetched_at": "2026-03-23T02:18:45.864337+00:00"
+  },
+  "Smart Home & IoT/dellight-cfo-financial-ops": {
+    "owner": "arthurelgindell",
+    "slug": "arthurelgindell-dellight-cfo-financial-ops",
+    "displayName": "dellight-cfo-financial-ops",
+    "version": "1.0.1",
+    "publishedAt": 1771063911929,
+    "commit": "https://github.com/openclaw/skills/commit/138a8e209caa48198866464c661cfb5284d13e15",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771063784306,
+        "commit": "https://github.com/openclaw/skills/commit/253c81d72a0a1c4d1be85db592f82d02811bca76"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/arthurelgindell-dellight-cfo-financial-ops",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/arthurelgindell/dellight-cfo-financial-ops",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/burn_tracker.py"
+    ],
+    "description": "CFO reports to CEO (Arthur Dell), dotted line to CRO (Reign).",
+    "fetched_at": "2026-03-23T02:18:49.053555+00:00"
+  },
+  "Smart Home & IoT/devialet": {
+    "owner": "jgm2025",
+    "slug": "jgm2025-devialet",
+    "displayName": "devialet",
+    "version": "1.0.0",
+    "publishedAt": 1769602426780,
+    "commit": "https://github.com/clawdbot/skills/commit/5a28b67bd18dde90a6c59d92848f2339c91bd2bb",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jgm2025-devialet",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jgm2025/devialet",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api.md",
+      "scripts/devialet.sh",
+      "scripts/play-on-devialet.sh",
+      "scripts/spotify.sh"
+    ],
+    "description": "Control Devialet Phantom speakers via HTTP API.",
+    "fetched_at": "2026-03-23T02:18:55.243424+00:00"
+  },
+  "Smart Home & IoT/dht11-temp": {
+    "owner": "noahseeger",
+    "slug": "noahseeger-dht11-temp",
+    "displayName": "dht11-temp",
+    "version": "1.0.0",
+    "publishedAt": 1771322999943,
+    "commit": "https://github.com/openclaw/skills/commit/fffe397eea77826a5bb67133f9292fd706eee139",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/noahseeger-dht11-temp",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/noahseeger/dht11-temp",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/main.py"
+    ],
+    "description": "Read temperature and humidity from DHT11 sensor.",
+    "fetched_at": "2026-03-23T02:18:58.413438+00:00"
+  },
+  "Smart Home & IoT/dirigera-control": {
+    "owner": "falderebet",
+    "slug": "falderebet-dirigera-control",
+    "displayName": "dirigera-control",
+    "version": "1.0.3",
+    "publishedAt": 1770194772710,
+    "commit": "https://github.com/clawdbot/skills/commit/c8a6427750811f563141926cafd4ef57900b0431",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770127663999,
+        "commit": "https://github.com/clawdbot/skills/commit/a3b4927a1de8d3280932ce7ecd75108eb4fbd73e"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769902053687,
+        "commit": "https://github.com/clawdbot/skills/commit/47a678b7da6250f80f4be5737fba54dfeffe2cf8"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/falderebet-dirigera-control",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/falderebet/dirigera-control",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api.md",
+      "references/patterns.md",
+      "scripts/example_usage.py",
+      "scripts/find_dirigera_ip.py",
+      "scripts/generate_token_wrapper.py",
+      "scripts/helpers.py"
+    ],
+    "description": "Control IKEA Dirigera smart home devices.",
+    "fetched_at": "2026-03-23T02:19:05.477903+00:00"
+  },
+  "Smart Home & IoT/dyson-cli": {
+    "owner": "tmustier",
+    "slug": "tmustier-dyson-cli",
+    "displayName": "dyson-cli",
+    "version": "0.1.0",
+    "publishedAt": 1767700977982,
+    "commit": "https://github.com/clawdbot/skills/commit/3331d29f3fcf6672652f56f0e1711830fe3998bf",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tmustier-dyson-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tmustier/dyson-cli",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "pyproject.toml",
+      "src/dyson_cli/__init__.py",
+      "src/dyson_cli/cli.py",
+      "src/dyson_cli/config.py"
+    ],
+    "description": "Control Dyson air purifiers, fans, and heaters via local MQTT.",
+    "fetched_at": "2026-03-23T02:19:11.964054+00:00"
+  },
+  "Smart Home & IoT/echodecks": {
+    "owner": "drgeld",
+    "slug": "drgeld-echodecks",
+    "displayName": "echodecks",
+    "version": "1.0.2",
+    "publishedAt": 1770365249151,
+    "commit": "https://github.com/openclaw/skills/commit/c0622f2f0ff4f95ed015d72b7cb2d5076612be90",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/drgeld-echodecks",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/drgeld/echodecks",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "echodecks_client.py",
+      "test_echodecks_client.py"
+    ],
+    "description": "Integrates with EchoDecks for flashcard management, study sessions, and AI.",
+    "fetched_at": "2026-03-23T02:19:15.591495+00:00"
+  },
+  "Smart Home & IoT/echodecks-ultimate": {
+    "owner": "drgeld",
+    "slug": "drgeld-echodecks-ultimate",
+    "displayName": "echodecks-ultimate",
+    "version": "1.0.4",
+    "publishedAt": 1770393769398,
+    "commit": "https://github.com/openclaw/skills/commit/79622eba6505fcc16794b95b68027777578e2723",
+    "history": [
+      {
+        "version": "1.0.3",
+        "publishedAt": 1770366439768,
+        "commit": "https://github.com/openclaw/skills/commit/0f5fa7eb903580361b3d715d3c0c02b4b995c91f"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770365347330,
+        "commit": "https://github.com/openclaw/skills/commit/04cde931311552ddce6ad328d9de8e62520c85c6"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/drgeld-echodecks-ultimate",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/drgeld/echodecks-ultimate",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "echodecks_client.py",
+      "test_echodecks_client.py"
+    ],
+    "description": "AI-powered flashcard management with automated podcast.",
+    "fetched_at": "2026-03-23T02:19:19.959543+00:00"
+  },
+  "Smart Home & IoT/eightctl": {
+    "owner": "steipete",
+    "slug": "steipete-eightctl",
+    "displayName": "eightctl",
+    "version": "1.0.0",
+    "publishedAt": 1767545312885,
+    "commit": "https://github.com/clawdbot/skills/commit/ba0f5f6027f40143dd6944fc818d863d65246215",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/steipete-eightctl",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/steipete/eightctl",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Control Eight Sleep pods (status, temperature, alarms, schedules).",
+    "fetched_at": "2026-03-23T02:19:22.131116+00:00"
+  },
+  "Smart Home & IoT/enzoldhazam": {
+    "owner": "daniel-laszlo",
+    "slug": "daniel-laszlo-enzoldhazam",
+    "displayName": "enzoldhazam",
+    "version": "1.0.1",
+    "publishedAt": 1769339516000,
+    "commit": "https://github.com/clawdbot/skills/commit/a6f7beb08dd83e768c5902a42325e78e668dc8b5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/daniel-laszlo-enzoldhazam",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/daniel-laszlo/enzoldhazam",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "internal/api/client.go",
+      "internal/config/config.go",
+      "internal/models/models.go"
+    ],
+    "description": "NGBS iCON Smart Home thermostat control.",
+    "fetched_at": "2026-03-23T02:19:28.672337+00:00"
+  },
+  "Smart Home & IoT/farmos-weather": {
+    "owner": "brianppetty",
+    "slug": "brianppetty-farmos-weather",
+    "displayName": "farmos-weather",
+    "version": "1.0.1",
+    "publishedAt": 1772615239212,
+    "commit": "https://github.com/openclaw/skills/commit/d3c55cf005ce4a00b605a87b2e61fbf8eac5c014",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771750863366,
+        "commit": "https://github.com/openclaw/skills/commit/7a646ff95bf667500a7d7a024d2fb6008a626285"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/brianppetty-farmos-weather",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianppetty/farmos-weather",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query weather data and forecasts for farm fields via the Agronomy module.",
+    "fetched_at": "2026-03-23T02:19:30.854222+00:00"
+  },
+  "Smart Home & IoT/fivem-dev": {
+    "owner": "dktrn9ne",
+    "slug": "dktrn9ne-fivem-dev",
+    "displayName": "fivem-dev",
+    "version": "0.1.0",
+    "publishedAt": 1769829530624,
+    "commit": "https://github.com/clawdbot/skills/commit/f7345fc0650e214bd30d4f06c7ce144e78a722a4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dktrn9ne-fivem-dev",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dktrn9ne/fivem-dev",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "FiveM RP server engineering for QBCore, ESX.",
+    "fetched_at": "2026-03-23T02:19:33.061748+00:00"
+  },
+  "Smart Home & IoT/frigate": {
+    "owner": "porygonthebot",
+    "slug": "porygonthebot-frigate",
+    "displayName": "frigate",
+    "version": "1.0.3",
+    "publishedAt": 1769575862992,
+    "commit": "https://github.com/clawdbot/skills/commit/a4b05280a2402dd0ba55b190256359f9f3433b9f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/porygonthebot-frigate",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/porygonthebot/frigate",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api.md",
+      "scripts/frigate.py"
+    ],
+    "description": "Access Frigate NVR cameras with session-based authentication.",
+    "fetched_at": "2026-03-23T02:19:37.228084+00:00"
+  },
+  "Smart Home & IoT/glitch-homeassistant": {
+    "owner": "chris6970barbarian-hue",
+    "slug": "chris6970barbarian-hue-glitch-homeassistant",
+    "displayName": "glitch-homeassistant",
+    "version": "1.0.0",
+    "publishedAt": 1771335292839,
+    "commit": "https://github.com/openclaw/skills/commit/7c2b9bbfc1675083d1c8a323e159c179f79dbe6a",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/chris6970barbarian-hue-glitch-homeassistant",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/chris6970barbarian-hue/glitch-homeassistant",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "config.json"
+    ],
+    "description": "Control smart home devices via Home Assistant API.",
+    "fetched_at": "2026-03-23T02:19:40.873373+00:00"
+  },
+  "Smart Home & IoT/google-home": {
+    "owner": "mitchellbernstein",
+    "slug": "mitchellbernstein-google-home",
+    "displayName": "google-home",
+    "version": "1.0.0",
+    "publishedAt": 1769278384348,
+    "commit": "https://github.com/clawdbot/skills/commit/4c45551b1a5d9ba99a7d473b39992edc1f73a73f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mitchellbernstein-google-home",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mitchellbernstein/google-home",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Control Google Nest devices.",
+    "fetched_at": "2026-03-23T02:19:43.048700+00:00"
+  },
+  "Smart Home & IoT/govee-lights": {
+    "owner": "joeynyc",
+    "slug": "joeynyc-govee-lights",
+    "displayName": "govee-lights",
+    "version": "1.0.0",
+    "publishedAt": 1769262109545,
+    "commit": "https://github.com/clawdbot/skills/commit/f1e5bd5cecb516e54476d6483fb2afbe4ad3e8af",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/joeynyc-govee-lights",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/joeynyc/govee-lights",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/TROUBLESHOOTING.md",
+      "scripts/govee.py"
+    ],
+    "description": "Control Govee smart lights via the Govee API.",
+    "fetched_at": "2026-03-23T02:19:47.773674+00:00"
+  },
+  "Smart Home & IoT/govpredict": {
+    "owner": "seyhunak",
+    "slug": "seyhunak-govpredict",
+    "displayName": "govpredict",
+    "version": "1.0.0",
+    "publishedAt": 1769457339965,
+    "commit": "https://github.com/clawdbot/skills/commit/2c12f6a4d1ae6dfc80b4267335f74ac275aa883b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/seyhunak-govpredict",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/seyhunak/govpredict",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "rules/logic.md"
+    ],
+    "description": "Smarter Government Procurement - Streamline compliance, tendering.",
+    "fetched_at": "2026-03-23T02:19:51.439151+00:00"
+  },
+  "Smart Home & IoT/home-music": {
+    "owner": "asteinberger",
+    "slug": "asteinberger-home-music",
+    "displayName": "home-music",
+    "version": "1.0.0",
+    "publishedAt": 1769324742847,
+    "commit": "https://github.com/clawdbot/skills/commit/cea9c9f3812f278496a27baf988fe165b10d3214",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/asteinberger-home-music",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/asteinberger/home-music",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "home-music.sh"
+    ],
+    "description": "Control whole-house music scenes combining Spotify playback.",
+    "fetched_at": "2026-03-23T02:19:54.361957+00:00"
+  },
+  "Smart Home & IoT/clawdbot-skill-homebridge": {
+    "owner": "jiasenl",
+    "slug": "jiasenl-clawdbot-skill-homebridge",
+    "displayName": "homebridge",
+    "version": "0.1.0",
+    "publishedAt": 1769426902313,
+    "commit": "https://github.com/clawdbot/skills/commit/d6ccb1dc7667b9b5f7139be004cf5d809b4d00b5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jiasenl-clawdbot-skill-homebridge",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jiasenl/clawdbot-skill-homebridge",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/homebridge_api.py"
+    ],
+    "description": "Control smart home devices via Homebridge Config UI X.",
+    "fetched_at": "2026-03-23T02:19:57.556742+00:00"
+  },
+  "Smart Home & IoT/homey": {
+    "owner": "maxsumrall",
+    "slug": "maxsumrall-homey",
+    "displayName": "homey",
+    "version": "1.1.2",
+    "publishedAt": 1768170409474,
+    "commit": "https://github.com/clawdbot/skills/commit/6e895b734e9afa8d616a49c59060d34c03073470",
+    "history": [
+      {
+        "version": "1.1.1",
+        "publishedAt": 1768164348307,
+        "commit": "https://github.com/clawdbot/skills/commit/c3c5d55a8cae493f82c12871f617496591ac4c5e"
+      },
+      {
+        "version": "1.1.0",
+        "publishedAt": 1768152660254,
+        "commit": "https://github.com/clawdbot/skills/commit/de16013e95e4120535a0870bb51d28cb08c4942f"
+      },
+      {
+        "version": "1.0.1",
+        "publishedAt": 1768133427978,
+        "commit": "https://github.com/clawdbot/skills/commit/f9f3f7f1296da35318dad26c8ebc682baa856405"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1768055614758,
+        "commit": "https://github.com/clawdbot/skills/commit/9ae01abc6c59ceddaac5e0278813b03fe8a56186"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/maxsumrall-homey",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/maxsumrall/homey",
+    "files": [
+      "CHANGELOG.md",
+      "EXAMPLES.md",
+      "INSTALL.sh",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "TESTING.md",
+      "_meta.json",
+      "bin/homeycli.js",
+      "docs/_config.yml",
+      "docs/commands.md",
+      "docs/errors.md",
+      "docs/index.md",
+      "docs/output.md",
+      "lib/client.js",
+      "lib/commands.js",
+      "lib/config.js",
+      "lib/discover-local.js",
+      "lib/errors.js",
+      "lib/fuzzy.js",
+      "lib/resolve.js",
+      "package-lock.json",
+      "package.json",
+      "scripts/publish-clawdhub.sh",
+      "scripts/release.js"
+    ],
+    "description": "Control Athom Homey smart home devices via local (LAN/VPN) or cloud APIs.",
+    "fetched_at": "2026-03-23T02:20:16.931504+00:00"
+  },
+  "Smart Home & IoT/homey-cli": {
+    "owner": "krausefx",
+    "slug": "krausefx-homey-cli",
+    "displayName": "homey-cli",
+    "version": "1.0.0",
+    "publishedAt": 1769267190616,
+    "commit": "https://github.com/clawdbot/skills/commit/86dc822a6103c8ae8ca7f297c659ca6d2a5afb35",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/krausefx-homey-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/krausefx/homey-cli",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Control Homey home automation hub.",
+    "fetched_at": "2026-03-23T02:20:19.122222+00:00"
+  },
+  "Smart Home & IoT/icom-7610": {
+    "owner": "morozsm",
+    "slug": "morozsm-icom-7610",
+    "displayName": "icom-7610",
+    "version": "2.1.0",
+    "publishedAt": 1771963696131,
+    "commit": "https://github.com/openclaw/skills/commit/5ce3af320076265d73dc73225eb4fc98ff06a890",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1771911323292,
+        "commit": "https://github.com/openclaw/skills/commit/97916aa04ceac7e61cd992474a1c2769a18b49ef"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/morozsm-icom-7610",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/morozsm/icom-7610",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/FULL-REFERENCE.md"
+    ],
+    "description": "Control an Icom IC-7610 transceiver over USB/LAN.",
+    "fetched_at": "2026-03-23T02:20:22.377913+00:00"
+  },
+  "Smart Home & IoT/internet-lookup-verifier": {
+    "owner": "amangarg1999",
+    "slug": "amangarg1999-internet-lookup-verifier",
+    "displayName": "internet-lookup-verifier",
+    "version": "1.0.0",
+    "publishedAt": 1769681765584,
+    "commit": "https://github.com/clawdbot/skills/commit/21215f0d4296b56ddb16e0d514152bcc9ced656a",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/amangarg1999-internet-lookup-verifier",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/amangarg1999/internet-lookup-verifier",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Verify information by performing.",
+    "fetched_at": "2026-03-23T02:20:24.547585+00:00"
+  },
+  "Smart Home & IoT/ipcam": {
+    "owner": "ltpop",
+    "slug": "ltpop-ipcam",
+    "displayName": "ipcam",
+    "version": "1.0.0",
+    "publishedAt": 1771089269113,
+    "commit": "https://github.com/openclaw/skills/commit/92bf0c84168d9e588a52517c213ff67bd332a5b5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ltpop-ipcam",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ltpop/ipcam",
+    "files": [
+      "CHANGELOG.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "install.sh",
+      "scripts/camera.sh",
+      "scripts/ptz.py"
+    ],
+    "description": "ONVIF PTZ control + RTSP capture + camera discovery.",
+    "fetched_at": "2026-03-23T02:20:31.176115+00:00"
+  },
+  "Smart Home & IoT/lg-thinq": {
+    "owner": "kaiofreitas",
+    "slug": "kaiofreitas-lg-thinq",
+    "displayName": "lg-thinq",
+    "version": "1.0.0",
+    "publishedAt": 1769313591294,
+    "commit": "https://github.com/clawdbot/skills/commit/3df5332cdc76a01451ca5eaa7202ce0a623dadd5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/kaiofreitas-lg-thinq",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kaiofreitas/lg-thinq",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/thinq.py"
+    ],
+    "description": "Control LG smart appliances via ThinQ API.",
+    "fetched_at": "2026-03-23T02:20:34.362641+00:00"
+  },
+  "Smart Home & IoT/lygo-champion-cosmara": {
+    "owner": "deepseekoracle",
+    "slug": "deepseekoracle-lygo-champion-cosmara",
+    "displayName": "lygo-champion-cosmara",
+    "version": "1.0.2",
+    "publishedAt": 1770859911797,
+    "commit": "https://github.com/openclaw/skills/commit/d13b2222aaa269e37dda6a4765b05f9d74e7be9b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/deepseekoracle-lygo-champion-cosmara",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/lygo-champion-cosmara",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "COSMARA – ARKOS-line LYGO Champion of ethical cosmic exploration.",
+    "fetched_at": "2026-03-23T02:20:36.530888+00:00"
+  },
+  "Smart Home & IoT/nest-sdm": {
+    "owner": "tag-assistant",
+    "slug": "tag-assistant-nest-sdm",
+    "displayName": "nest-sdm",
+    "version": "1.0.0",
+    "publishedAt": 1771341202961,
+    "commit": "https://github.com/openclaw/skills/commit/d7bea01ebeb299365cc0c7d6991305f281504392",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tag-assistant-nest-sdm",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tag-assistant/nest-sdm",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "nest-events.sh",
+      "nest-sdm.sh"
+    ],
+    "description": "Control Nest thermostat, doorbell, and cameras via the Google Smart Device Management (SDM) API.",
+    "fetched_at": "2026-03-23T02:20:40.465251+00:00"
+  },
+  "Smart Home & IoT/openmeteo-sh-weather-simple": {
+    "owner": "lstpsche",
+    "slug": "lstpsche-openmeteo-sh-weather-simple",
+    "displayName": "openmeteo-sh-weather-simple",
+    "version": "1.2.1",
+    "publishedAt": 1771028801234,
+    "commit": "https://github.com/openclaw/skills/commit/3ec3bb1993110d1f166e0de4b4d274c64de3a3f7",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1771013823351,
+        "commit": "https://github.com/openclaw/skills/commit/baffd8928707877edeeea5d796e598030e42aae3"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770938657031,
+        "commit": "https://github.com/openclaw/skills/commit/d0b3c96346079f6fd8a99f45c348ace405697c9e"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/lstpsche-openmeteo-sh-weather-simple",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/lstpsche/openmeteo-sh-weather-simple",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Get current weather and forecasts for any city or coordinates using free OpenMeteo API.",
+    "fetched_at": "2026-03-23T02:20:43.820669+00:00"
+  },
+  "Smart Home & IoT/tempest-weather": {
+    "owner": "wranglerdriver",
+    "slug": "wranglerdriver-tempest-weather",
+    "displayName": "tempest-weather",
+    "version": "1.1.0",
+    "publishedAt": 1771881612782,
+    "commit": "https://github.com/openclaw/skills/commit/089469b0f3f430f395d2ff1f02b2bdcdb4f9854a",
+    "history": [
+      {
+        "version": "1.0.6",
+        "publishedAt": 1770940326468,
+        "commit": "https://github.com/openclaw/skills/commit/5969279f62fdd1589d88f97f1320fe20879166d2"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/wranglerdriver-tempest-weather",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/wranglerdriver/tempest-weather",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/tempest-api.md",
+      "scripts/get_tempest_weather.py",
+      "scripts/package_clean.sh",
+      "tests/fixtures/obs_device.json",
+      "tests/test_tempest_weather.py"
+    ],
+    "description": "Get current weather conditions from a WeatherFlow Tempest station using the Tempest REST API.",
+    "fetched_at": "2026-03-23T02:20:51.537933+00:00"
+  },
+  "Smart Home & IoT/wiz-light-control": {
+    "owner": "canbirlik",
+    "slug": "canbirlik-wiz-light-control",
+    "displayName": "wiz-light-control",
+    "version": "1.0.1",
+    "publishedAt": 1771426985813,
+    "commit": "https://github.com/openclaw/skills/commit/fc92b2275e5e66d78647042729c046c23b0efaff",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/canbirlik-wiz-light-control",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/canbirlik/wiz-light-control",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "wiz.py"
+    ],
+    "description": "Controls Wiz smart bulbs (turn on/off, RGB colors, disco mode) via local WiFi.",
+    "fetched_at": "2026-03-23T02:20:55.152155+00:00"
+  },
+  "Speech & Transcription/addis-assistant-stt": {
+    "owner": "dagmawibabi",
+    "slug": "dagmawibabi-addis-assistant-stt",
+    "displayName": "addis-assistant-stt",
+    "version": "1.0.0",
+    "publishedAt": 1769950173849,
+    "commit": "https://github.com/clawdbot/skills/commit/176196e332cfbc3cc856ea06b941cc2d51d956d6",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dagmawibabi-addis-assistant-stt",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dagmawibabi/addis-assistant-stt",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api_spec.md",
+      "scripts/stt.py",
+      "scripts/translate.py"
+    ],
+    "description": "Provides Speech-to-Text (STT) and text.",
+    "fetched_at": "2026-03-23T02:21:00.486228+00:00"
+  },
+  "Speech & Transcription/agent-voice": {
+    "owner": "nerdsnipe",
+    "slug": "nerdsnipe-agent-voice",
+    "displayName": "agent-voice",
+    "version": "1.0.4",
+    "publishedAt": 1771227321376,
+    "commit": "https://github.com/openclaw/skills/commit/83ff35492c8678ce6cc4473d023544ed8ae8b5ba",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1771225758542,
+        "commit": "https://github.com/openclaw/skills/commit/75d6e3884f238b2366f742a2fd1e1921e447316e"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770053439410,
+        "commit": "https://github.com/clawdbot/skills/commit/ec21573c919122b785ed08d4e527c942451a0fdd"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/nerdsnipe-agent-voice",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nerdsnipe/agent-voice",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Command-line blogging platform for AI agents.",
+    "fetched_at": "2026-03-23T02:21:02.687178+00:00"
+  },
+  "Speech & Transcription/akaunting": {
+    "owner": "liekzejaws",
+    "slug": "liekzejaws-akaunting",
+    "displayName": "akaunting",
+    "version": "1.0.0",
+    "publishedAt": 1770866276433,
+    "commit": "https://github.com/openclaw/skills/commit/614a622c00935a34bba521204b1eafeacfaf75a7",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/liekzejaws-akaunting",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/liekzejaws/akaunting",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "assets/docker-compose.yml",
+      "references/api.md",
+      "scripts/akaunting.py",
+      "scripts/fix_event_listener.py"
+    ],
+    "description": "Interact with Akaunting open-source accounting software via REST API.",
+    "fetched_at": "2026-03-23T02:21:08.643233+00:00"
+  },
+  "Speech & Transcription/alexa-cli": {
+    "owner": "buddyh",
+    "slug": "buddyh-alexa-cli",
+    "displayName": "alexa-cli",
+    "version": "1.3.0",
+    "publishedAt": 1770915784622,
+    "commit": "https://github.com/openclaw/skills/commit/5be2f7975e6209920b78206f2d8884332abec414",
+    "history": [
+      {
+        "version": "0.3.0",
+        "publishedAt": 1767626751844,
+        "commit": "https://github.com/clawdbot/skills/commit/d8ecd9c97e6016014c7921f856a520743a90fdac"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/buddyh-alexa-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/buddyh/alexa-cli",
+    "files": [
+      "_meta.json",
+      "skill.md"
+    ],
+    "description": "Control Amazon Alexa devices and smart home via the `alexacli` CLI.",
+    "fetched_at": "2026-03-23T02:21:10.814202+00:00"
+  },
+  "Speech & Transcription/announcer": {
+    "owner": "odrobnik",
+    "slug": "odrobnik-announcer",
+    "displayName": "announcer",
+    "version": "1.2.3",
+    "publishedAt": 1772570451505,
+    "commit": "https://github.com/openclaw/skills/commit/34cced91dcd7dd566db26c9939b3e4508ed72cf3",
+    "history": [
+      {
+        "version": "1.2.1",
+        "publishedAt": 1770964133771,
+        "commit": "https://github.com/openclaw/skills/commit/4c525a573e687c6201b67fe63e7ce660e8534271"
+      },
+      {
+        "version": "1.1.3",
+        "publishedAt": 1770881635570,
+        "commit": "https://github.com/openclaw/skills/commit/2438a8d8ba34240484cf2a0399b9c55b66dbfc6e"
+      },
+      {
+        "version": "1.1.2",
+        "publishedAt": 1770841440269,
+        "commit": "https://github.com/openclaw/skills/commit/cd0d0a9a2679151cc22fecbe3c5973fc8444bb30"
+      },
+      {
+        "version": "1.1.1",
+        "publishedAt": 1770146296371,
+        "commit": "https://github.com/clawdbot/skills/commit/db548cee3583f0ed1955cc390621f3f53e970928"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/odrobnik-announcer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/odrobnik/announcer",
+    "files": [
+      "ARTICLE.md",
+      "SETUP.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/announce.py"
+    ],
+    "description": "Announce text throughout the house via AirPlay speakers using Airfoil +.",
+    "fetched_at": "2026-03-23T02:21:15.454816+00:00"
+  },
+  "Speech & Transcription/assemblyai-transcribe": {
+    "owner": "tristanmanchester",
+    "slug": "tristanmanchester-assemblyai-transcribe",
+    "displayName": "assemblyai-transcribe",
+    "version": "1.0.1",
+    "publishedAt": 1773493957061,
+    "commit": "https://github.com/openclaw/skills/commit/acdc7cf158d9855e06ec873dfd05a101c782df1f",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1768727310149,
+        "commit": "https://github.com/clawdbot/skills/commit/d29022ed2aa9e71f08e9af813cb1b9e404574604"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/tristanmanchester-assemblyai-transcribe",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tristanmanchester/assemblyai-transcribe",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "assemblyai.mjs",
+      "assets/custom-spelling.example.json",
+      "assets/example-prompt.txt",
+      "assets/language-codes.json",
+      "assets/llm-json-schema.example.json",
+      "assets/model-capabilities.json",
+      "assets/speaker-map.example.json",
+      "assets/speaker-profiles-name.example.json",
+      "assets/speaker-profiles-role.example.json",
+      "assets/transcript-agent-json-schema.json",
+      "references/capabilities.md",
+      "references/llm-gateway.md",
+      "references/output-formats.md",
+      "references/speaker-mapping.md",
+      "references/troubleshooting.md",
+      "references/workflows.md",
+      "scripts/assemblyai.mjs"
+    ],
+    "description": "Transcribe audio/video with AssemblyAI.",
+    "fetched_at": "2026-03-23T02:21:31.457503+00:00"
+  },
+  "Speech & Transcription/audio-gen": {
+    "owner": "udiedrichsen",
+    "slug": "udiedrichsen-audio-gen",
+    "displayName": "audio-gen",
+    "version": "1.0.0",
+    "publishedAt": 1768400692046,
+    "commit": "https://github.com/clawdbot/skills/commit/c00bf6cf3293028993724c0df442a9b1b98f4605",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/udiedrichsen-audio-gen",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/udiedrichsen/audio-gen",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Generate audiobooks, podcasts, or educational audio content.",
+    "fetched_at": "2026-03-23T02:21:34.326460+00:00"
+  },
+  "Speech & Transcription/audio-reply-skill": {
+    "owner": "matrixy",
+    "slug": "matrixy-audio-reply-skill",
+    "displayName": "audio-reply",
+    "version": "1.1.0",
+    "publishedAt": 1771193536558,
+    "commit": "https://github.com/openclaw/skills/commit/667677d02b76f89f7ee59d1c42eb39736b991873",
+    "history": [
+      {
+        "version": "0.1.0",
+        "publishedAt": 1769182470231,
+        "commit": "https://github.com/clawdbot/skills/commit/98b5c318565fa78aea9803d3fdac6961840f59e8"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/matrixy-audio-reply-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/matrixy/audio-reply-skill",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Generate audio replies using TTS.",
+    "fetched_at": "2026-03-23T02:21:37.228584+00:00"
+  },
+  "Speech & Transcription/auto-whisper-safe": {
+    "owner": "neal-collab",
+    "slug": "neal-collab-auto-whisper-safe",
+    "displayName": "auto-whisper-safe",
+    "version": "1.1.0",
+    "publishedAt": 1771049905485,
+    "commit": "https://github.com/openclaw/skills/commit/d8c21e42e07ff4d1163b87fbd348f89913de6464",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/neal-collab-auto-whisper-safe",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/neal-collab/auto-whisper-safe",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "transcribe.sh"
+    ],
+    "description": "RAM-safe voice transcription with auto-chunking — works on 16GB machines without crashes.",
+    "fetched_at": "2026-03-23T02:21:40.144043+00:00"
+  },
+  "Speech & Transcription/chichi-speech": {
+    "owner": "hudeven",
+    "slug": "hudeven-chichi-speech",
+    "displayName": "chichi-speech",
+    "version": "1.0.2",
+    "publishedAt": 1770357202215,
+    "commit": "https://github.com/openclaw/skills/commit/91fd9998b2edf0dff12401060ebd33346e97382e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/hudeven-chichi-speech",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/hudeven/chichi-speech",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "pyproject.toml",
+      "src/chichi_speech/__init__.py",
+      "src/chichi_speech/client.py",
+      "src/chichi_speech/server.py"
+    ],
+    "description": "A RESTful service for high-quality text-to-speech using Qwen3.",
+    "fetched_at": "2026-03-23T02:21:46.521567+00:00"
+  },
+  "Speech & Transcription/clonev": {
+    "owner": "instant-picture",
+    "slug": "instant-picture-clonev",
+    "displayName": "clonev",
+    "version": "1.0.0",
+    "publishedAt": 1770219757606,
+    "commit": "https://github.com/clawdbot/skills/commit/3deb232fb8e8ad4a5d879905c6f66e63cf4af6ee",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/instant-picture-clonev",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/instant-picture/clonev",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/complete-guide.md",
+      "scripts/clonev.sh"
+    ],
+    "description": "Clone any voice and generate speech using Coqui XTTS v2.",
+    "fetched_at": "2026-03-23T02:21:50.779579+00:00"
+  },
+  "Speech & Transcription/critical-article-writer": {
+    "owner": "tomstools11",
+    "slug": "tomstools11-critical-article-writer",
+    "displayName": "critical-article-writer",
+    "version": "1.0.0",
+    "publishedAt": 1769386648043,
+    "commit": "https://github.com/clawdbot/skills/commit/93951f44f77687e91748fbbeed7b82aed79df389",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tomstools11-critical-article-writer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tomstools11/critical-article-writer",
+    "files": [
+      "QUICK_REFERENCE.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "instructions/common-scenarios.md",
+      "instructions/opening-lines-reference.md",
+      "instructions/outline-templates.md",
+      "instructions/voice-tone-checklists.md"
+    ],
+    "description": "Generate draft articles, outlines.",
+    "fetched_at": "2026-03-23T02:21:57.646873+00:00"
+  },
+  "Speech & Transcription/cult-of-carcinization": {
+    "owner": "loserbcc",
+    "slug": "loserbcc-cult-of-carcinization",
+    "displayName": "cult-of-carcinization",
+    "version": "1.1.0",
+    "publishedAt": 1770230938876,
+    "commit": "https://github.com/clawdbot/skills/commit/b8dab7af28a9ef75c4b625837cf0ce6f432d075d",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/loserbcc-cult-of-carcinization",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/loserbcc/cult-of-carcinization",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Give your agent a voice — and ears.",
+    "fetched_at": "2026-03-23T02:21:59.833805+00:00"
+  },
+  "Speech & Transcription/deepdub-tts": {
+    "owner": "yuval-deepdub",
+    "slug": "yuval-deepdub-deepdub-tts",
+    "displayName": "deepdub-tts",
+    "version": "0.1.5",
+    "publishedAt": 1770886292645,
+    "commit": "https://github.com/openclaw/skills/commit/8fb8bc280d48186e139b77aa530887dca6264eff",
+    "history": [
+      {
+        "version": "0.1.4",
+        "publishedAt": 1770794016885,
+        "commit": "https://github.com/openclaw/skills/commit/3e6ecbb0c2b69a1dcda3a45c34aa695173c4f58b"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1770303527111,
+        "commit": "https://github.com/clawdbot/skills/commit/53b4b6d0660a71d4897a674538b110bb64133132"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/yuval-deepdub-deepdub-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/yuval-deepdub/deepdub-tts",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "deepdub_tts.py",
+      "package.json",
+      "requirements.txt"
+    ],
+    "description": "Generate speech audio using Deepdub and attach it as a MEDIA.",
+    "fetched_at": "2026-03-23T02:22:04.202182+00:00"
+  },
+  "Speech & Transcription/deepgram": {
+    "owner": "nerkn",
+    "slug": "nerkn-deepgram",
+    "displayName": "deepgram",
+    "version": "1.0.1",
+    "publishedAt": 1770068477391,
+    "commit": "https://github.com/clawdbot/skills/commit/a91975eb0235542f0b621a230b896f1b11509b18",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/nerkn-deepgram",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nerkn/deepgram",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "— command-line interface for Deepgram speech-to-text.",
+    "fetched_at": "2026-03-23T02:22:06.931346+00:00"
+  },
+  "Speech & Transcription/dellight-cro-revenue-ops": {
+    "owner": "arthurelgindell",
+    "slug": "arthurelgindell-dellight-cro-revenue-ops",
+    "displayName": "dellight-cro-revenue-ops",
+    "version": "1.0.0",
+    "publishedAt": 1771063791452,
+    "commit": "https://github.com/openclaw/skills/commit/d33e96ccecfe11b2ae7c4972c38f979f8d228dc3",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/arthurelgindell-dellight-cro-revenue-ops",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/arthurelgindell/dellight-cro-revenue-ops",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/gtm-playbooks.md",
+      "references/pricing-frameworks.md",
+      "scripts/roi_calculator.py"
+    ],
+    "description": "DELLIGHT.AI is an AI startup in DIFC, Dubai.",
+    "fetched_at": "2026-03-23T02:22:11.855474+00:00"
+  },
+  "Speech & Transcription/documents-ai": {
+    "owner": "dbirulia",
+    "slug": "dbirulia-documents-ai",
+    "displayName": "documents-ai",
+    "version": "1.0.1",
+    "publishedAt": 1772038616624,
+    "commit": "https://github.com/openclaw/skills/commit/392584f13cee99004ffdd52101c9be193c2c51d1",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771534871985,
+        "commit": "https://github.com/openclaw/skills/commit/cd00bcc69a7d1857c1a3b1775d460e9a6825483d"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/dbirulia-documents-ai",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dbirulia/documents-ai",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "package.json"
+    ],
+    "description": "Real-time OCR and data extraction API by Veryfi.",
+    "fetched_at": "2026-03-23T02:22:15.682043+00:00"
+  },
+  "Speech & Transcription/doubao-api-open-tts": {
+    "owner": "xdrshjr",
+    "slug": "xdrshjr-doubao-api-open-tts",
+    "displayName": "doubao-api-open-tts",
+    "version": "1.0.2",
+    "publishedAt": 1769762731630,
+    "commit": "https://github.com/clawdbot/skills/commit/53b14a7aae63e9ea98018e968cfd79b1b6afc1bc",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/xdrshjr-doubao-api-open-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/xdrshjr/doubao-api-open-tts",
+    "files": [
+      ".env.example.txt",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "scripts/test_tts.py",
+      "scripts/tts.py"
+    ],
+    "description": "Text-to-Speech service using Doubao (Volcano Engine)",
+    "fetched_at": "2026-03-23T02:22:21.778764+00:00"
+  },
+  "Speech & Transcription/eachlabs-voice-audio": {
+    "owner": "eftalyurtseven",
+    "slug": "eftalyurtseven-eachlabs-voice-audio",
+    "displayName": "eachlabs-voice-audio",
+    "version": "0.1.0",
+    "publishedAt": 1770603565919,
+    "commit": "https://github.com/openclaw/skills/commit/eabbbf3650461bf38699e96941c7c95efdaf3edc",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/eftalyurtseven-eachlabs-voice-audio",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-voice-audio",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/MODELS.md"
+    ],
+    "description": "TTS, STT, voice conversion using ElevenLabs, Whisper, RVC.",
+    "fetched_at": "2026-03-23T02:22:25.047774+00:00"
+  },
+  "Speech & Transcription/easyverein-api": {
+    "owner": "truefoobar",
+    "slug": "truefoobar-easyverein-api",
+    "displayName": "easyverein-api",
+    "version": "1.0.0",
+    "publishedAt": 1769788246345,
+    "commit": "https://github.com/clawdbot/skills/commit/0c61d3bd8bf34c386725ae018a8723d25c7e90a4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/truefoobar-easyverein-api",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/truefoobar/easyverein-api",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/openapi-v2.json"
+    ],
+    "description": "Work with the easyVerein v2.0 REST API.",
+    "fetched_at": "2026-03-23T02:22:29.138721+00:00"
+  },
+  "Speech & Transcription/elevenlabs-agents": {
+    "owner": "pennyroyaltea",
+    "slug": "pennyroyaltea-elevenlabs-agents",
+    "displayName": "elevenlabs-agents",
+    "version": "1.0.0",
+    "publishedAt": 1769438645891,
+    "commit": "https://github.com/clawdbot/skills/commit/4f0b424fb01d8c75bf4d3efcee18e6dce9c627f5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/pennyroyaltea-elevenlabs-agents",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pennyroyaltea/elevenlabs-agents",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Create, manage, and deploy ElevenLabs.",
+    "fetched_at": "2026-03-23T02:22:31.310761+00:00"
+  },
+  "Speech & Transcription/elevenlabs-transcribe": {
+    "owner": "paulasjes",
+    "slug": "paulasjes-elevenlabs-transcribe",
+    "displayName": "elevenlabs-transcribe",
+    "version": "1.0.1",
+    "publishedAt": 1770128590511,
+    "commit": "https://github.com/clawdbot/skills/commit/6db73a3554dec4a1c96e9c40caec221dcc95c833",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/paulasjes-elevenlabs-transcribe",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/paulasjes/elevenlabs-transcribe",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/requirements.txt",
+      "scripts/transcribe.py",
+      "scripts/transcribe.sh"
+    ],
+    "description": "Transcribe audio to text using ElevenLabs.",
+    "fetched_at": "2026-03-23T02:22:35.970437+00:00"
+  },
+  "Speech & Transcription/elevenlabs-tts": {
+    "owner": "shaharsha",
+    "slug": "shaharsha-elevenlabs-tts",
+    "displayName": "elevenlabs-tts",
+    "version": "2.2.0",
+    "publishedAt": 1771087774137,
+    "commit": "https://github.com/openclaw/skills/commit/d410451dc2e0442e7c64a52c03f5be93b5f99f6b",
+    "history": [
+      {
+        "version": "2.1.0",
+        "publishedAt": 1770644808695,
+        "commit": "https://github.com/openclaw/skills/commit/fede759f9723d5d84ef4ac94250c96e12829d63a"
+      },
+      {
+        "version": "1.3.2",
+        "publishedAt": 1770207262141,
+        "commit": "https://github.com/clawdbot/skills/commit/c4795bb64b86ee284639f0a7d6ed8951a0bfff84"
+      },
+      {
+        "version": "1.2.8",
+        "publishedAt": 1770156597449,
+        "commit": "https://github.com/clawdbot/skills/commit/2e0443a0d1ec8a6a717b405b41a23256597db282"
+      },
+      {
+        "version": "1.2.4",
+        "publishedAt": 1770155785227,
+        "commit": "https://github.com/clawdbot/skills/commit/78b427e049f7d27debd52362969fa5b6daefcb03"
+      },
+      {
+        "version": "1.2.3",
+        "publishedAt": 1770142089438,
+        "commit": "https://github.com/clawdbot/skills/commit/a24d27300df293ad4ac3ecebf8389aac2e96fc31"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/shaharsha-elevenlabs-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/shaharsha/elevenlabs-tts",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/audio-tags.md"
+    ],
+    "description": "ElevenLabs TTS - the best ElevenLabs integration for OpenClaw.",
+    "fetched_at": "2026-03-23T02:22:39.208527+00:00"
+  },
+  "Speech & Transcription/elevenlabs-voices": {
+    "owner": "robbyczgw-cla",
+    "slug": "robbyczgw-cla-elevenlabs-voices",
+    "displayName": "elevenlabs-voices",
+    "version": "2.1.6",
+    "publishedAt": 1772545064295,
+    "commit": "https://github.com/openclaw/skills/commit/c74798c1f65cd965ac358f8caf364236c36e6dc5",
+    "history": [
+      {
+        "version": "2.1.5",
+        "publishedAt": 1770800696606,
+        "commit": "https://github.com/openclaw/skills/commit/66ff96906135a9565f8afde0c527d2f1a2c5fd3c"
+      },
+      {
+        "version": "2.1.3",
+        "publishedAt": 1770246231465,
+        "commit": "https://github.com/clawdbot/skills/commit/cc2eb7c5e9d5b367847028e15a2cbf2ab813331a"
+      },
+      {
+        "version": "2.1.2",
+        "publishedAt": 1770139075264,
+        "commit": "https://github.com/clawdbot/skills/commit/6f76ebafc9a8b65e962dc1d56d66a314b2252c44"
+      },
+      {
+        "version": "2.1.0",
+        "publishedAt": 1769900574643,
+        "commit": "https://github.com/clawdbot/skills/commit/453290a4f7717fd3960694219782559c5fe3b9e6"
+      },
+      {
+        "version": "2.0.4",
+        "publishedAt": 1769711987667,
+        "commit": "https://github.com/clawdbot/skills/commit/c9644ce89aed6b2e94df387f41c0093374cbeab9"
+      },
+      {
+        "version": "2.0.6",
+        "publishedAt": 1769788036755,
+        "commit": "https://github.com/clawdbot/skills/commit/dd713f2a2364a36525740bb5bec4a92647284097"
+      },
+      {
+        "version": "2.0.5",
+        "publishedAt": 1769765784446,
+        "commit": "https://github.com/clawdbot/skills/commit/6c7d46b0b1cde937cd09d0387120ac458cbafb03"
+      },
+      {
+        "version": "2.0.3",
+        "publishedAt": 1769661840220,
+        "commit": "https://github.com/clawdbot/skills/commit/55986ca2ec441e69239c69e5b822f1105e83379d"
+      },
+      {
+        "version": "2.0.1",
+        "publishedAt": 1769377050950,
+        "commit": "https://github.com/clawdbot/skills/commit/547d5f74d3fe0808dbfd73a36e258e042fb32130"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/robbyczgw-cla-elevenlabs-voices",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/robbyczgw-cla/elevenlabs-voices",
+    "files": [
+      "CHANGELOG.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "examples.md",
+      "package.json",
+      "pronunciations.json",
+      "references/voice-guide.md",
+      "scripts/setup.py",
+      "scripts/sfx.py",
+      "scripts/tts.py",
+      "scripts/voice-design.py",
+      "voices.json"
+    ],
+    "description": "High-quality voice synthesis with 18 personas, 32.",
+    "fetched_at": "2026-03-23T02:22:50.383831+00:00"
+  },
+  "Speech & Transcription/eternal-haven-lore-pack": {
+    "owner": "deepseekoracle",
+    "slug": "deepseekoracle-eternal-haven-lore-pack",
+    "displayName": "eternal-haven-lore-pack",
+    "version": "1.2.0",
+    "publishedAt": 1770844489514,
+    "commit": "https://github.com/openclaw/skills/commit/f5b5f2c18e120c427fb95922768b5d77e40bebbf",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770704350218,
+        "commit": "https://github.com/openclaw/skills/commit/2e339cceee89d5e5125842a29434cd646f8699f2"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/deepseekoracle-eternal-haven-lore-pack",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/eternal-haven-lore-pack",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/books/book1_silver_accord.txt",
+      "references/books/book2_shattered_accord.txt",
+      "references/books/book3_ascension_war.txt",
+      "references/books/book4_eternal_haven_dawns.txt",
+      "references/heroes_index.md",
+      "references/themes_and_motifs.md"
+    ],
+    "description": "Eternal Haven Chronicles lore + mythic persona pack.",
+    "fetched_at": "2026-03-23T02:22:57.721014+00:00"
+  },
+  "Speech & Transcription/faster-whisper": {
+    "owner": "theplasmak",
+    "slug": "theplasmak-faster-whisper",
+    "displayName": "faster-whisper",
+    "version": "1.5.1",
+    "publishedAt": 1771432097764,
+    "commit": "https://github.com/openclaw/skills/commit/dd996b937385f9671ed3a8b8cb47740ac44b319e",
+    "history": [
+      {
+        "version": "1.5.0",
+        "publishedAt": 1771414216765,
+        "commit": "https://github.com/openclaw/skills/commit/0801fd1f26afce23b476fae5e1e7449e32608b9f"
+      },
+      {
+        "version": "1.4.5",
+        "publishedAt": 1771330969827,
+        "commit": "https://github.com/openclaw/skills/commit/8364fd1beec3b1d844f9d5cd5c9b7cc8d71c5d8d"
+      },
+      {
+        "version": "1.4.3",
+        "publishedAt": 1771330069181,
+        "commit": "https://github.com/openclaw/skills/commit/a011523a11f70002b6a76628a3b37294af2cea89"
+      },
+      {
+        "version": "1.3.0",
+        "publishedAt": 1771323291654,
+        "commit": "https://github.com/openclaw/skills/commit/1d0ec55fb6b73b8addfad9875ba86489217fa7d5"
+      },
+      {
+        "version": "1.2.0",
+        "publishedAt": 1771312042628,
+        "commit": "https://github.com/openclaw/skills/commit/297015b556319730b69d16faf9a01728604b0230"
+      },
+      {
+        "version": "1.1.0",
+        "publishedAt": 1771311561740,
+        "commit": "https://github.com/openclaw/skills/commit/17155e80fcc428744986e3b203d5fd084825d7bd"
+      },
+      {
+        "version": "1.0.12",
+        "publishedAt": 1771309891443,
+        "commit": "https://github.com/openclaw/skills/commit/3a2f9d099120618112e48c7016ac6d116a4060d6"
+      },
+      {
+        "version": "1.0.11",
+        "publishedAt": 1771309757555,
+        "commit": "https://github.com/openclaw/skills/commit/6ccb5cc1abe7bdfc268644478472437e7aeb044d"
+      },
+      {
+        "version": "1.0.7",
+        "publishedAt": 1771083850135,
+        "commit": "https://github.com/openclaw/skills/commit/8fabcd7d55417c532fb103dea4bdf5e2c9b23699"
+      },
+      {
+        "version": "1.0.4",
+        "publishedAt": 1769711541359,
+        "commit": "https://github.com/clawdbot/skills/commit/88049d38ecfcd853377b6a473d8553627379f8a4"
+      },
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769620549258,
+        "commit": "https://github.com/clawdbot/skills/commit/6c47fbbd5aa04214408f348b3f2c5d7d4c3f318d"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769608154990,
+        "commit": "https://github.com/clawdbot/skills/commit/e72f85936783d2ec2b9545b7a456db7455732294"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/theplasmak-faster-whisper",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/theplasmak/faster-whisper",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "scripts/transcribe.py",
+      "setup.sh",
+      "skill.json"
+    ],
+    "description": "Local speech-to-text using faster-whisper.",
+    "fetched_at": "2026-03-23T02:23:03.817273+00:00"
+  },
+  "Speech & Transcription/feishu-minutes": {
+    "owner": "autogame-17",
+    "slug": "autogame-17-feishu-minutes",
+    "displayName": "feishu-minutes",
+    "version": "1.0.0",
+    "publishedAt": 1771155461535,
+    "commit": "https://github.com/openclaw/skills/commit/94ec3c75da713c201af96dfea2482512974bcf5c",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770791723713,
+        "commit": "https://github.com/openclaw/skills/commit/69d48d289dfbb7763b53e3a2faaea56c446db563"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770118158749,
+        "commit": "https://github.com/clawdbot/skills/commit/98e1d65beabf6dc5429189337c579711c783ab95"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/autogame-17-feishu-minutes",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/feishu-minutes",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "index.js",
+      "lib/auth.js",
+      "package-lock.json",
+      "package.json"
+    ],
+    "description": "Fetch info, stats, transcript, and media from Feishu.",
+    "fetched_at": "2026-03-23T02:23:09.180507+00:00"
+  },
+  "Speech & Transcription/freshbooks-cli": {
+    "owner": "haseebuchiha",
+    "slug": "haseebuchiha-freshbooks-cli",
+    "displayName": "freshbooks-cli",
+    "version": "1.0.0",
+    "publishedAt": 1770441845387,
+    "commit": "https://github.com/openclaw/skills/commit/9e373d94c0cf2b9cfb9fae97785f0eb9d9c628bc",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/haseebuchiha-freshbooks-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/haseebuchiha/freshbooks-cli",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "FreshBooks CLI for managing invoices, clients, and billing.",
+    "fetched_at": "2026-03-23T02:23:11.663105+00:00"
+  },
+  "Speech & Transcription/gettr-transcribe-summarize": {
+    "owner": "kevin37li",
+    "slug": "kevin37li-gettr-transcribe-summarize",
+    "displayName": "gettr-transcribe-summarize",
+    "version": "1.0.4",
+    "publishedAt": 1769650680437,
+    "commit": "https://github.com/clawdbot/skills/commit/6da3536d889bc26bd9b6e43a517c2108d43b8640",
+    "history": [
+      {
+        "version": "1.0.3",
+        "publishedAt": 1769373796250,
+        "commit": "https://github.com/clawdbot/skills/commit/f7b821aa23d6d74dea8a3e6d14f251f17557e05c"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1769322442142,
+        "commit": "https://github.com/clawdbot/skills/commit/4f34a4cd22b2c7512eab4cee38d2dbb898778bf9"
+      },
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769305054614,
+        "commit": "https://github.com/clawdbot/skills/commit/3f743ebe6840498d6d1389cd0bf9b311484914f9"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/kevin37li-gettr-transcribe-summarize",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kevin37li/gettr-transcribe-summarize",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/api_reference.md",
+      "references/troubleshooting.md",
+      "scripts/download_audio.sh",
+      "scripts/extract_gettr_og_video.py",
+      "scripts/run_pipeline.sh"
+    ],
+    "description": "Download audio from a GETTR post.",
+    "fetched_at": "2026-03-23T02:23:19.137516+00:00"
+  },
+  "Speech & Transcription/hebrew-nikud": {
+    "owner": "shaharsha",
+    "slug": "shaharsha-hebrew-nikud",
+    "displayName": "hebrew-nikud",
+    "version": "1.1.0",
+    "publishedAt": 1770645272899,
+    "commit": "https://github.com/openclaw/skills/commit/fc66885ea108ee5c9d2d34699b0d9ef952b1e8ff",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/shaharsha-hebrew-nikud",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/shaharsha/hebrew-nikud",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Hebrew nikud (vowel points) reference for AI agents.",
+    "fetched_at": "2026-03-23T02:23:21.348854+00:00"
+  },
+  "Speech & Transcription/her-voice": {
+    "owner": "matusvojtek",
+    "slug": "matusvojtek-her-voice",
+    "displayName": "her-voice",
+    "version": "1.0.2",
+    "publishedAt": 1771193947351,
+    "commit": "https://github.com/openclaw/skills/commit/bf3898cb5c57abd871c78dc92fb4bf6084a72c27",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/matusvojtek-her-voice",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/matusvojtek/her-voice",
+    "files": [
+      "CHANGELOG.md",
+      "SKILL.md",
+      "_meta.json",
+      "assets/HerVoice.swift",
+      "scripts/config.py",
+      "scripts/daemon.py",
+      "scripts/setup.py",
+      "scripts/speak.py"
+    ],
+    "description": "Give your agent a voice.",
+    "fetched_at": "2026-03-23T02:23:28.545722+00:00"
+  },
+  "Speech & Transcription/inworld-tts": {
+    "owner": "gugic",
+    "slug": "gugic-inworld-tts",
+    "displayName": "inworld-tts",
+    "version": "1.0.0",
+    "publishedAt": 1769800640151,
+    "commit": "https://github.com/clawdbot/skills/commit/c735f3df8252f5111ba6c55eebd4c55b6e3a00a0",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/gugic-inworld-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/gugic/inworld-tts",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/tts.sh"
+    ],
+    "description": "Text-to-speech via Inworld.ai API.",
+    "fetched_at": "2026-03-23T02:23:31.759476+00:00"
+  },
+  "Speech & Transcription/jarvis-voice": {
+    "owner": "globalcaos",
+    "slug": "globalcaos-jarvis-voice",
+    "displayName": "jarvis-voice",
+    "version": "2.2.1",
+    "publishedAt": 1772974545775,
+    "commit": "https://github.com/openclaw/skills/commit/a412dcb84d92781590fc9f82c8a96ea19b308001",
+    "history": [
+      {
+        "version": "3.1.1",
+        "publishedAt": 1771795703476,
+        "commit": "https://github.com/openclaw/skills/commit/dea656f9f3245fe02a598abbf8fec83a8d527a68"
+      },
+      {
+        "version": "2.3.0",
+        "publishedAt": 1771626721182,
+        "commit": "https://github.com/openclaw/skills/commit/1834b899d3d6eb9e4e01955528ef5243e7f5f659"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1771020741248,
+        "commit": "https://github.com/openclaw/skills/commit/b36c8bb8b1df1bf0065649087a6d622ea11cbfc2"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770411788800,
+        "commit": "https://github.com/openclaw/skills/commit/d208097964787edf4ff06fb54f751b66e22ae7c7"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/globalcaos-jarvis-voice",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/jarvis-voice",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "templates/HUMOR.md",
+      "templates/SESSION.md",
+      "templates/VOICE.md"
+    ],
+    "description": "Metallic AI voice persona with TTS and visual transcript styling.",
+    "fetched_at": "2026-03-23T02:23:36.483421+00:00"
+  },
+  "Speech & Transcription/kokoro-tts": {
+    "owner": "edkief",
+    "slug": "edkief-kokoro-tts",
+    "displayName": "kokoro-tts",
+    "version": "0.1.0",
+    "publishedAt": 1769905003380,
+    "commit": "https://github.com/clawdbot/skills/commit/20eb6d0d6112b50dea1a1e02771bb95cd10e04e9",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/edkief-kokoro-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/edkief/kokoro-tts",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/voices.md",
+      "scripts/tts.js"
+    ],
+    "description": "Generate spoken audio from text using the local Kokoro TTS engine.",
+    "fetched_at": "2026-03-23T02:23:40.694582+00:00"
+  },
+  "Speech & Transcription/lnbits": {
+    "owner": "talvasconcelos",
+    "slug": "talvasconcelos-lnbits",
+    "displayName": "lnbits",
+    "version": "1.0.0",
+    "publishedAt": 1769616069179,
+    "commit": "https://github.com/clawdbot/skills/commit/67aa6564c358cf59db82f8eb41aa0ae2d121c972",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/talvasconcelos-lnbits",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/talvasconcelos/lnbits",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/lnbits_cli.py"
+    ],
+    "description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)",
+    "fetched_at": "2026-03-23T02:23:43.966528+00:00"
+  },
+  "Speech & Transcription/lnbits-with-qrcode": {
+    "owner": "jamestsetsekas",
+    "slug": "jamestsetsekas-lnbits-with-qrcode",
+    "displayName": "lnbits-with-qrcode",
+    "version": "1.0.2",
+    "publishedAt": 1770509935863,
+    "commit": "https://github.com/openclaw/skills/commit/69df4d7e45fefa7423394354503bcbc6cc9bf7a8",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770439395173,
+        "commit": "https://github.com/openclaw/skills/commit/e75c7d3d2bf775549d5cff0a6178d5bb99e8ab15"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jamestsetsekas-lnbits-with-qrcode",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jamestsetsekas/lnbits-with-qrcode",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/lnbits_cli.py"
+    ],
+    "description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)",
+    "fetched_at": "2026-03-23T02:23:47.899019+00:00"
+  },
+  "Speech & Transcription/miranda-sag": {
+    "owner": "jeffpignataro",
+    "slug": "jeffpignataro-miranda-sag",
+    "displayName": "miranda-sag",
+    "version": "1.0.0",
+    "publishedAt": 1771686976689,
+    "commit": "https://github.com/openclaw/skills/commit/caa5c3e87ca18e566b767c31fcc7d4b2adff34f8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jeffpignataro-miranda-sag",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffpignataro/miranda-sag",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "ElevenLabs text-to-speech with mac-style say UX.",
+    "fetched_at": "2026-03-23T02:23:50.097669+00:00"
+  },
+  "Speech & Transcription/norman-categorize-transactions": {
+    "owner": "stanlee000",
+    "slug": "stanlee000-norman-categorize-transactions",
+    "displayName": "norman-categorize-transactions",
+    "version": "1.0.0",
+    "publishedAt": 1771526665033,
+    "commit": "https://github.com/openclaw/skills/commit/4ed6336e809750473cf0df019fda9c5c664d1999",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/stanlee000-norman-categorize-transactions",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/stanlee000/norman-categorize-transactions",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Review and categorize uncategorized bank transactions, match them with invoices, and verify bookkeeping entries.",
+    "fetched_at": "2026-03-23T02:23:52.266998+00:00"
+  },
+  "Speech & Transcription/norman-monthly-reconciliation": {
+    "owner": "stanlee000",
+    "slug": "stanlee000-norman-monthly-reconciliation",
+    "displayName": "norman-monthly-reconciliation",
+    "version": "1.0.0",
+    "publishedAt": 1771534220013,
+    "commit": "https://github.com/openclaw/skills/commit/f89b80d4b13b1babc1db53be9b6a5c207c7c2059",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/stanlee000-norman-monthly-reconciliation",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/stanlee000/norman-monthly-reconciliation",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Perform a complete monthly financial reconciliation - review all transactions, match invoices, check outstanding.",
+    "fetched_at": "2026-03-23T02:23:54.920202+00:00"
+  },
+  "Speech & Transcription/ressemble": {
+    "owner": "adriano-vr",
+    "slug": "adriano-vr-ressemble",
+    "displayName": "ressemble",
+    "version": "1.0.1",
+    "publishedAt": 1771954042125,
+    "commit": "https://github.com/openclaw/skills/commit/7190d92f9fd6c2ef3801a356fe019c33a83a4c7a",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771876037146,
+        "commit": "https://github.com/openclaw/skills/commit/bfba510a2a3b791e1de3a7519ae9e23d31cc7a35"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/adriano-vr-ressemble",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/adriano-vr/ressemble",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "ressemble-stt.md",
+      "ressemble-tts.md",
+      "scripts/stt.sh",
+      "scripts/tts.sh"
+    ],
+    "description": "Text-to-Speech and Speech-to-Text integration using Resemble AI HTTP API.",
+    "fetched_at": "2026-03-23T02:24:00.228324+00:00"
+  },
+  "Speech & Transcription/siliconflow-tts-gen": {
+    "owner": "lilei0311",
+    "slug": "lilei0311-siliconflow-tts-gen",
+    "displayName": "siliconflow-tts-gen",
+    "version": "1.0.0",
+    "publishedAt": 1771157371667,
+    "commit": "https://github.com/openclaw/skills/commit/5c30941898ded76fc785a18166744cb264bdd5c8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/lilei0311-siliconflow-tts-gen",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/lilei0311/siliconflow-tts-gen",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/generate.py",
+      "skill.json"
+    ],
+    "description": "Text-to-Speech using SiliconFlow API (CosyVoice2)",
+    "fetched_at": "2026-03-23T02:24:04.889254+00:00"
+  },
+  "Apple Apps & Services/alter-actions": {
+    "owner": "olivieralter",
+    "slug": "olivieralter-alter-actions",
+    "displayName": "alter-actions",
+    "version": "1.0.0",
+    "publishedAt": 1769383134550,
+    "commit": "https://github.com/clawdbot/skills/commit/7aeb3802c8d4371c54b955ec14ddd2e7ff2ed54e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/olivieralter-alter-actions",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/olivieralter/alter-actions",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Trigger Alter macOS app actions via x-callback-urls.",
+    "fetched_at": "2026-03-23T02:24:07.187182+00:00"
+  },
+  "Apple Apps & Services/apple-contacts": {
+    "owner": "tyler6204",
+    "slug": "tyler6204-apple-contacts",
+    "displayName": "apple-contacts",
+    "version": "1.2.0",
+    "publishedAt": 1768477582354,
+    "commit": "https://github.com/clawdbot/skills/commit/1f367f640c62c9d4c4f22bf57d623e3b1be386bd",
+    "history": [
+      {
+        "version": "1.1.1",
+        "publishedAt": 1768374427066,
+        "commit": "https://github.com/clawdbot/skills/commit/023aadc36c679c11ffcaae5023bfb3d0294295b7"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/tyler6204-apple-contacts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-contacts",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Look up contacts from macOS Contacts.app.",
+    "fetched_at": "2026-03-23T02:24:09.341414+00:00"
+  },
+  "Apple Apps & Services/apple-find-my-local": {
+    "owner": "loganprit",
+    "slug": "loganprit-apple-find-my-local",
+    "displayName": "apple-find-my-local",
+    "version": "1.0.2",
+    "publishedAt": 1771276043505,
+    "commit": "https://github.com/openclaw/skills/commit/50836329e34d25ec66af167b995c2cf0e936b334",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771266482597,
+        "commit": "https://github.com/openclaw/skills/commit/f3ad0b90498f94e45ce021a994f5e7712b238fb5"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1771276043751,
+        "commit": "https://github.com/openclaw/skills/commit/0874fd4f3173f7c178fb0b9ecd4510f2fc8c03e1"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/loganprit-apple-find-my-local",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/loganprit/apple-find-my-local",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/fm-click.sh",
+      "scripts/fm-info.sh",
+      "scripts/fm-list.sh",
+      "scripts/fm-locate.sh",
+      "scripts/fm-play-sound.sh",
+      "scripts/fm-screenshot.sh",
+      "scripts/fm-select-item.sh",
+      "scripts/fm-tab.sh",
+      "scripts/fm-window.sh"
+    ],
+    "description": "Control Apple Find My app via Peekaboo to locate people, devices, and items (AirTags)",
+    "fetched_at": "2026-03-23T02:24:20.077265+00:00"
+  },
+  "Apple Apps & Services/apple-health-skill": {
+    "owner": "nftechie",
+    "slug": "nftechie-apple-health-skill",
+    "displayName": "apple-health-skill",
+    "version": "1.0.0",
+    "publishedAt": 1770672853420,
+    "commit": "https://github.com/openclaw/skills/commit/e2f1531ef4e549f20bc8faf35d0472cdbec94fd4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/nftechie-apple-health-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nftechie/apple-health-skill",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Talk to your Apple Health data — ask questions about your workouts, heart rate, activity rings, and fitness trends.",
+    "fetched_at": "2026-03-23T02:24:22.967535+00:00"
+  },
+  "Apple Apps & Services/apple-mail-search": {
+    "owner": "mneves75",
+    "slug": "mneves75-apple-mail-search",
+    "displayName": "apple-mail-search",
+    "version": "1.0.0",
+    "publishedAt": 1767853092709,
+    "commit": "https://github.com/clawdbot/skills/commit/96f9d261d5249b9a0008030b1a2c832200730a5b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mneves75-apple-mail-search",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mneves75/apple-mail-search",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Fast Apple Mail search via SQLite on macOS.",
+    "fetched_at": "2026-03-23T02:24:25.162949+00:00"
+  },
+  "Apple Apps & Services/apple-music": {
+    "owner": "tyler6204",
+    "slug": "tyler6204-apple-music",
+    "displayName": "apple-music",
+    "version": "1.2.0",
+    "publishedAt": 1768635890518,
+    "commit": "https://github.com/clawdbot/skills/commit/4419a6776581dacab24cfaabd7718310b544bc5f",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1768609988427,
+        "commit": "https://github.com/clawdbot/skills/commit/13f8dacfd09c16999005a0887b99b914ed02e0af"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/tyler6204-apple-music",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-music",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "apple-music.sh",
+      "auth.html",
+      "launch-setup.sh",
+      "lib/generate-token.js",
+      "setup.sh"
+    ],
+    "description": "Search Apple Music, add songs to library, manage playlists, control.",
+    "fetched_at": "2026-03-23T02:24:31.789074+00:00"
+  },
+  "Apple Apps & Services/apple-photos": {
+    "owner": "tyler6204",
+    "slug": "tyler6204-apple-photos",
+    "displayName": "apple-photos",
+    "version": "1.0.0",
+    "publishedAt": 1768477592853,
+    "commit": "https://github.com/clawdbot/skills/commit/e000189cd6ad96633a811b9b0a08d3fcc678a026",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tyler6204-apple-photos",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-photos",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/photos-count.sh",
+      "scripts/photos-export.sh",
+      "scripts/photos-info.sh",
+      "scripts/photos-list-albums.sh",
+      "scripts/photos-list-people.sh",
+      "scripts/photos-recent.sh",
+      "scripts/photos-search-content.sh",
+      "scripts/photos-search-date.sh",
+      "scripts/photos-search-person.sh"
+    ],
+    "description": "Apple Photos.app integration for macOS.",
+    "fetched_at": "2026-03-23T02:24:40.850927+00:00"
+  },
+  "Apple Apps & Services/apple-remind-me": {
+    "owner": "plgonzalezrx8",
+    "slug": "plgonzalezrx8-apple-remind-me",
+    "displayName": "apple-remind-me",
+    "version": "1.0.1",
+    "publishedAt": 1769973845023,
+    "commit": "https://github.com/clawdbot/skills/commit/c30bdd81eeeea76e46bd56517db5906401571f40",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769479820025,
+        "commit": "https://github.com/clawdbot/skills/commit/b50d3747094a60b2a3f5833cb4441674606e7000"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/plgonzalezrx8-apple-remind-me",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/plgonzalezrx8/apple-remind-me",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "complete-reminder.sh",
+      "create-reminder.sh",
+      "delete-reminder.sh",
+      "edit-reminder-message.sh",
+      "edit-reminder-time.sh",
+      "list-reminders.sh"
+    ],
+    "description": "Natural language reminders that create actual Apple.",
+    "fetched_at": "2026-03-23T02:24:47.735043+00:00"
+  },
+  "Apple Apps & Services/apple-search-ads-skill": {
+    "owner": "trebuhs",
+    "slug": "trebuhs-apple-search-ads-skill",
+    "displayName": "apple-search-ads-skill",
+    "version": "1.0.0",
+    "publishedAt": 1771177060737,
+    "commit": "https://github.com/openclaw/skills/commit/1388ed5040404b23c90758594caf6b990c1a52ed",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/trebuhs-apple-search-ads-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/trebuhs/apple-search-ads-skill",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Apple Search Ads campaigns, ad groups, keywords, and reports via the asa-cli tool.",
+    "fetched_at": "2026-03-23T02:24:49.878937+00:00"
+  },
+  "Apple Apps & Services/appletv": {
+    "owner": "lucakaufmann",
+    "slug": "lucakaufmann-appletv",
+    "displayName": "appletv",
+    "version": "1.0.0",
+    "publishedAt": 1769521301416,
+    "commit": "https://github.com/clawdbot/skills/commit/a9ae70909af906f04347250e9ffec389eebce3e8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/lucakaufmann-appletv",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/lucakaufmann/appletv",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/appletv.py"
+    ],
+    "description": "Control Apple TV via pyatv.",
+    "fetched_at": "2026-03-23T02:24:53.358258+00:00"
+  },
+  "Apple Apps & Services/callmac": {
+    "owner": "jooey",
+    "slug": "jooey-callmac",
+    "displayName": "callmac",
+    "version": "0.1.0",
+    "publishedAt": 1769785462907,
+    "commit": "https://github.com/clawdbot/skills/commit/aa1294045c5869595b8e0fd672645e4a68a15b93",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jooey-callmac",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jooey/callmac",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/EXAMPLES.md",
+      "references/INSTALLATION.md",
+      "references/VOICES.md",
+      "scripts/generate_tts.py",
+      "scripts/merge_audio.py",
+      "scripts/play_audio.py"
+    ],
+    "description": "Remote voice control for Mac from mobile devices using commands like /callmac.",
+    "fetched_at": "2026-03-23T02:25:01.584833+00:00"
+  },
+  "Apple Apps & Services/clawdbot-macos-build": {
+    "owner": "manish-basargekar",
+    "slug": "manish-basargekar-clawdbot-macos-build",
+    "displayName": "clawdbot-macos-build",
+    "version": "1.0.0",
+    "publishedAt": 1769362731324,
+    "commit": "https://github.com/clawdbot/skills/commit/63d8d3e71583c599372735eec86b2fd51dcc185b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/manish-basargekar-clawdbot-macos-build",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/manish-basargekar/clawdbot-macos-build",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "package.json"
+    ],
+    "description": "Build the Clawdbot macOS menu bar app.",
+    "fetched_at": "2026-03-23T02:25:04.519144+00:00"
+  },
+  "Apple Apps & Services/clawdbot-skill-voice-wake-say": {
+    "owner": "xadenryan",
+    "slug": "xadenryan-clawdbot-skill-voice-wake-say",
+    "displayName": "clawdbot-skill-voice-wake-say",
+    "version": "0.1.0",
+    "publishedAt": 1769335228985,
+    "commit": "https://github.com/clawdbot/skills/commit/19cd5393a552f1f87221b564a01e1dee61ae95a4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/xadenryan-clawdbot-skill-voice-wake-say",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/xadenryan/clawdbot-skill-voice-wake-say",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Speak responses aloud on macOS.",
+    "fetched_at": "2026-03-23T02:25:06.719601+00:00"
+  },
+  "Apple Apps & Services/drafts": {
+    "owner": "nerveband",
+    "slug": "nerveband-drafts",
+    "displayName": "drafts",
+    "version": "1.0.0",
+    "publishedAt": 1769484534436,
+    "commit": "https://github.com/clawdbot/skills/commit/d53f76c45ad975876d5d66be03eb274a6e0df0c1",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/nerveband-drafts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nerveband/drafts",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Drafts app notes via CLI on macOS.",
+    "fetched_at": "2026-03-23T02:25:08.909868+00:00"
+  },
+  "Apple Apps & Services/findmy-location": {
+    "owner": "poiley",
+    "slug": "poiley-findmy-location",
+    "displayName": "findmy-location",
+    "version": "1.1.1",
+    "publishedAt": 1769484604648,
+    "commit": "https://github.com/clawdbot/skills/commit/78feddee447b58814678893fc87b62a721dfc91a",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/poiley-findmy-location",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/poiley/findmy-location",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "findmy-location.py",
+      "install.sh"
+    ],
+    "description": "Track a shared contact's location via Apple Find.",
+    "fetched_at": "2026-03-23T02:25:13.275279+00:00"
+  },
+  "Apple Apps & Services/fzf-fuzzy-finder": {
+    "owner": "arnarsson",
+    "slug": "arnarsson-fzf-fuzzy-finder",
+    "displayName": "fzf-fuzzy-finder",
+    "version": "1.0.0",
+    "publishedAt": 1769692071613,
+    "commit": "https://github.com/clawdbot/skills/commit/2995747fb9c147c0c9086fd3e50f60265a8d9aa5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/arnarsson-fzf-fuzzy-finder",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/arnarsson/fzf-fuzzy-finder",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Command-line fuzzy finder for interactive filtering.",
+    "fetched_at": "2026-03-23T02:25:15.426614+00:00"
+  },
+  "Apple Apps & Services/get-focus-mode": {
+    "owner": "nickchristensen",
+    "slug": "nickchristensen-get-focus-mode",
+    "displayName": "get-focus-mode",
+    "version": "1.0.1",
+    "publishedAt": 1768338764637,
+    "commit": "https://github.com/clawdbot/skills/commit/dd5bd7584782b6201bdc1dc4a1d2a1174f1f06c2",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/nickchristensen-get-focus-mode",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nickchristensen/get-focus-mode",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "get-focus-mode.sh"
+    ],
+    "description": "Get the current macOS Focus.",
+    "fetched_at": "2026-03-23T02:25:18.307115+00:00"
+  },
+  "Apple Apps & Services/healthkit-sync": {
+    "owner": "mneves75",
+    "slug": "mneves75-healthkit-sync",
+    "displayName": "healthkit-sync",
+    "version": "1.0.0",
+    "publishedAt": 1767835301685,
+    "commit": "https://github.com/clawdbot/skills/commit/a770a56514f4c2d75b1ea605f3d9e52d4efc3590",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mneves75-healthkit-sync",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mneves75/healthkit-sync",
+    "files": [
+      "SKILL.md",
+      "TESTING.md",
+      "_meta.json",
+      "references/ARCHITECTURE.md",
+      "references/CLI-REFERENCE.md",
+      "references/SECURITY.md"
+    ],
+    "description": "iOS HealthKit data sync CLI commands and patterns.",
+    "fetched_at": "2026-03-23T02:25:24.508646+00:00"
+  },
+  "Apple Apps & Services/hergunmac": {
+    "owner": "ahmetsemsettinozdemirden",
+    "slug": "ahmetsemsettinozdemirden-hergunmac",
+    "displayName": "hergunmac",
+    "version": "1.0.0",
+    "publishedAt": 1769951971834,
+    "commit": "https://github.com/clawdbot/skills/commit/24d703164b6d179824b4adef89b88a908e16d59b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ahmetsemsettinozdemirden-hergunmac",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ahmetsemsettinozdemirden/hergunmac",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/llm-context.md"
+    ],
+    "description": "Access AI-powered football match predictions.",
+    "fetched_at": "2026-03-23T02:25:27.696894+00:00"
+  },
+  "Apple Apps & Services/homebrew": {
+    "owner": "thesethrose",
+    "slug": "thesethrose-homebrew",
+    "displayName": "homebrew",
+    "version": "1.0.1",
+    "publishedAt": 1768363325998,
+    "commit": "https://github.com/clawdbot/skills/commit/259342353d29eae847bca6c4ba4c969fdc7914f1",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/thesethrose-homebrew",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/thesethrose/homebrew",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Homebrew package manager for macOS.",
+    "fetched_at": "2026-03-23T02:25:29.892913+00:00"
+  },
+  "Apple Apps & Services/icloud-findmy": {
+    "owner": "liamnichols",
+    "slug": "liamnichols-icloud-findmy",
+    "displayName": "icloud-findmy",
+    "version": "1.0.0",
+    "publishedAt": 1767823039547,
+    "commit": "https://github.com/clawdbot/skills/commit/429d9032029e6e7e3c70727aa59a1cb7676e238c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/liamnichols-icloud-findmy",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/liamnichols/icloud-findmy",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query Find My locations and battery status for family devices.",
+    "fetched_at": "2026-03-23T02:25:32.801865+00:00"
+  },
+  "Apple Apps & Services/ics-import-on-iphone": {
+    "owner": "sbhhbs",
+    "slug": "sbhhbs-ics-import-on-iphone",
+    "displayName": "ics-import-on-iphone",
+    "version": "1.0.0",
+    "publishedAt": 1771127407703,
+    "commit": "https://github.com/openclaw/skills/commit/e84a5c540c679a5fdb53ebf4a78f1a404f97d759",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/sbhhbs-ics-import-on-iphone",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/sbhhbs/ics-import-on-iphone",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Create calendar events by generating valid .ics files when direct calendar access is unavailable.",
+    "fetched_at": "2026-03-23T02:25:34.998203+00:00"
+  },
+  "Apple Apps & Services/imessage-signal-analyzer": {
+    "owner": "terellison",
+    "slug": "terellison-imessage-signal-analyzer",
+    "displayName": "imessage-signal-analyzer",
+    "version": "1.0.0",
+    "publishedAt": 1771597193739,
+    "commit": "https://github.com/openclaw/skills/commit/cf1571567f0f342fcefd14a16487c1ac6c433174",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/terellison-imessage-signal-analyzer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/terellison/imessage-signal-analyzer",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/analyze.py"
+    ],
+    "description": "Analyze iMessage (macOS) and Signal conversation history to reveal relationship dynamics — message volume.",
+    "fetched_at": "2026-03-23T02:25:39.027879+00:00"
+  },
+  "Apple Apps & Services/inkjet": {
+    "owner": "aaronchartier",
+    "slug": "aaronchartier-inkjet",
+    "displayName": "inkjet",
+    "version": "1.0.2",
+    "publishedAt": 1771360389901,
+    "commit": "https://github.com/openclaw/skills/commit/c312a5c2d2b8a822a0dcdb05bd0f5217b6924aef",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770511786760,
+        "commit": "https://github.com/openclaw/skills/commit/7a6bae08d3cc53726a8b7183d41529ec14f7bbdd"
+      },
+      {
+        "version": "0.1.3",
+        "publishedAt": 1769955349341,
+        "commit": "https://github.com/clawdbot/skills/commit/357274236dc0287565889cb8e43553f07c2a5502"
+      },
+      {
+        "version": "0.1.2",
+        "publishedAt": 1769924238420,
+        "commit": "https://github.com/clawdbot/skills/commit/290af107f0712cfd3a68592e08d545f2e868b1f5"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/aaronchartier-inkjet",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/aaronchartier/inkjet",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Print text, images, and QR codes to a wireless Bluetooth thermal printer.",
+    "fetched_at": "2026-03-23T02:25:41.231533+00:00"
+  },
+  "Apple Apps & Services/mac-notes-agent": {
+    "owner": "swancho",
+    "slug": "swancho-mac-notes-agent",
+    "displayName": "mac-notes-agent",
+    "version": "1.1.0",
+    "publishedAt": 1770597530247,
+    "commit": "https://github.com/openclaw/skills/commit/58a266e777efeba21bf1f298e15000c19e6ffa62",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/swancho-mac-notes-agent",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/swancho/mac-notes-agent",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "cli.js"
+    ],
+    "description": "Integrate with the macOS Notes app (Apple Notes)",
+    "fetched_at": "2026-03-23T02:25:44.864903+00:00"
+  },
+  "Apple Apps & Services/mac-tts": {
+    "owner": "kalijason",
+    "slug": "kalijason-mac-tts",
+    "displayName": "mac-tts",
+    "version": "1.0.0",
+    "publishedAt": 1769585143301,
+    "commit": "https://github.com/clawdbot/skills/commit/8b2c8dd1c1bfa31e8c0f48d9556c0f3648861571",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/kalijason-mac-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kalijason/mac-tts",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Text-to-speech using macOS built-in `say` command.",
+    "fetched_at": "2026-03-23T02:25:47.046611+00:00"
+  },
+  "Apple Apps & Services/macos-native-automation": {
+    "owner": "theagentwire",
+    "slug": "theagentwire-macos-native-automation",
+    "displayName": "macos-native-automation",
+    "version": "1.0.0",
+    "publishedAt": 1771968870465,
+    "commit": "https://github.com/openclaw/skills/commit/3604eea9a640b03f32652a8d49c87b16948681f9",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/theagentwire-macos-native-automation",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/theagentwire/macos-native-automation",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/macos_click.py"
+    ],
+    "description": "Hardware-level mouse, keyboard & dialog automation on macOS via CGEvent + AppleScript.",
+    "fetched_at": "2026-03-23T02:25:50.288959+00:00"
+  },
+  "Apple Apps & Services/managing-apple-notes": {
+    "owner": "wangwalk",
+    "slug": "wangwalk-managing-apple-notes",
+    "displayName": "managing-apple-notes",
+    "version": "1.0.1",
+    "publishedAt": 1770796287375,
+    "commit": "https://github.com/openclaw/skills/commit/0f20164a5c31a9d6f8763772dee3f1392124fe49",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/wangwalk-managing-apple-notes",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/wangwalk/managing-apple-notes",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Apple Notes from the terminal using the inotes CLI.",
+    "fetched_at": "2026-03-23T02:25:53.240802+00:00"
+  },
+  "Apple Apps & Services/meow-finder": {
+    "owner": "abgohel",
+    "slug": "abgohel-meow-finder",
+    "displayName": "meow-finder",
+    "version": "1.0.0",
+    "publishedAt": 1769684297763,
+    "commit": "https://github.com/clawdbot/skills/commit/2006d07303d856d35875d97d5f9a0739fc49dda1",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/abgohel-meow-finder",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/abgohel/meow-finder",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "bin/meow-finder.js",
+      "data/tools.json",
+      "package.json"
+    ],
+    "description": "CLI tool to discover AI tools.",
+    "fetched_at": "2026-03-23T02:25:59.733898+00:00"
+  },
+  "Apple Apps & Services/mh-apple-reminders": {
+    "owner": "mohdalhashemi98-hue",
+    "slug": "mohdalhashemi98-hue-mh-apple-reminders",
+    "displayName": "mh-apple-reminders",
+    "version": "1.0.0",
+    "publishedAt": 1771938843873,
+    "commit": "https://github.com/openclaw/skills/commit/f49bb69d4862dc662396d6a535a70dbdd4543b87",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mohdalhashemi98-hue-mh-apple-reminders",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-apple-reminders",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Apple Reminders via remindctl CLI (list, add, edit, complete, delete)",
+    "fetched_at": "2026-03-23T02:26:01.922400+00:00"
+  },
+  "Apple Apps & Services/mlx-stt": {
+    "owner": "guoqiao",
+    "slug": "guoqiao-mlx-stt",
+    "displayName": "mlx-stt",
+    "version": "1.0.7",
+    "publishedAt": 1770686109778,
+    "commit": "https://github.com/openclaw/skills/commit/4ddd662ebe44aca4991da70fcaf8df2b6e762228",
+    "history": [
+      {
+        "version": "1.0.6",
+        "publishedAt": 1770462332671,
+        "commit": "https://github.com/openclaw/skills/commit/3a0ac08300320438583afcf7bd2f11921f1318c0"
+      },
+      {
+        "version": "1.0.5",
+        "publishedAt": 1770186070036,
+        "commit": "https://github.com/clawdbot/skills/commit/7363165d3c02da6b02ad0f2d545c714f1014e35e"
+      },
+      {
+        "version": "1.0.4",
+        "publishedAt": 1770075648517,
+        "commit": "https://github.com/clawdbot/skills/commit/cb613748fecd3ca4e2af0f66dd95d34c73fd8cb8"
+      },
+      {
+        "version": "1.0.3",
+        "publishedAt": 1770075107050,
+        "commit": "https://github.com/clawdbot/skills/commit/1d86ec66b6986effe2d3507628ff6ad665023133"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1769929551979,
+        "commit": "https://github.com/clawdbot/skills/commit/8c80c4ef0b864ed8845d3bef455189e7f24b36bc"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/guoqiao-mlx-stt",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/guoqiao/mlx-stt",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "install.sh",
+      "mlx-stt.sh"
+    ],
+    "description": "Speech-To-Text with MLX (Apple Silicon) and GLM-ASR-Nano-2512 locally.",
+    "fetched_at": "2026-03-23T02:26:05.523103+00:00"
+  },
+  "Apple Apps & Services/mlx-tts": {
+    "owner": "guoqiao",
+    "slug": "guoqiao-mlx-tts",
+    "displayName": "mlx-tts",
+    "version": "0.0.3",
+    "publishedAt": 1770691606812,
+    "commit": "https://github.com/openclaw/skills/commit/b1839290499fd315b99b6171be8862615527e1ad",
+    "history": [
+      {
+        "version": "0.0.2",
+        "publishedAt": 1770686602594,
+        "commit": "https://github.com/openclaw/skills/commit/cbf894ff6005635c7f0911ff39dfcc84fc58c5cc"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/guoqiao-mlx-tts",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/guoqiao/mlx-tts",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "install.sh",
+      "mlx-tts.sh"
+    ],
+    "description": "Text-To-Speech with MLX (Apple Silicon) and opensource models (default QWen3-TTS) locally.",
+    "fetched_at": "2026-03-23T02:26:09.129165+00:00"
+  },
+  "Apple Apps & Services/mole-mac-cleanup": {
+    "owner": "bjesuiter",
+    "slug": "bjesuiter-mole-mac-cleanup",
+    "displayName": "mole-mac-cleanup",
+    "version": "1.1.0",
+    "publishedAt": 1768388404300,
+    "commit": "https://github.com/clawdbot/skills/commit/1ec240adf68e40c35130e847185d4587d314112d",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1768135936146,
+        "commit": "https://github.com/clawdbot/skills/commit/49d7202f37da8334edd109044f80118069205d45"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1768009995426,
+        "commit": "https://github.com/clawdbot/skills/commit/33518640ad6070a88ea9b8f83f782f769c1d5da0"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/bjesuiter-mole-mac-cleanup",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/bjesuiter/mole-mac-cleanup",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Mac cleanup & optimization tool combining CleanMyMac.",
+    "fetched_at": "2026-03-23T02:26:11.280880+00:00"
+  },
+  "Apple Apps & Services/monolith": {
+    "owner": "slaviquee",
+    "slug": "slaviquee-monolith",
+    "displayName": "monolith",
+    "version": "0.1.10",
+    "publishedAt": 1772011872265,
+    "commit": "https://github.com/openclaw/skills/commit/dfd9b3cce079b8a6ed19f528f6a82458ae76eaab",
+    "history": [
+      {
+        "version": "0.1.9",
+        "publishedAt": 1771960328689,
+        "commit": "https://github.com/openclaw/skills/commit/53f32b5f407e5bdedaa31e6a978f1b34db351a66"
+      },
+      {
+        "version": "0.1.6",
+        "publishedAt": 1771533708778,
+        "commit": "https://github.com/openclaw/skills/commit/c0e2d8679ff17c36cb5609f41ceb93b83d775817"
+      },
+      {
+        "version": "0.1.4",
+        "publishedAt": 1771526107778,
+        "commit": "https://github.com/openclaw/skills/commit/c5e10fda2a715ba1d0ec11520c0349f2cdb4e071"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/slaviquee-monolith",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/slaviquee/monolith",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "lib/constants.js",
+      "lib/daemon-client.js",
+      "lib/ens.js",
+      "lib/format.js",
+      "lib/intent-builder.js",
+      "lib/runtime-bootstrap.js",
+      "lib/setup-wizard.js",
+      "package-lock.json",
+      "package.json",
+      "scripts/allowlist.js",
+      "scripts/audit-log.js",
+      "scripts/balance.js",
+      "scripts/capabilities.js",
+      "scripts/decode.js",
+      "scripts/identity.js",
+      "scripts/panic.js",
+      "scripts/policy.js",
+      "scripts/send.js",
+      "scripts/setup.js",
+      "scripts/status.js",
+      "scripts/swap.js",
+      "tests/swap-routing.test.js"
+    ],
+    "description": "Secure crypto wallet for AI agents.",
+    "fetched_at": "2026-03-23T02:26:30.510488+00:00"
+  },
+  "Apple Apps & Services/my-tesla": {
+    "owner": "officialpm",
+    "slug": "officialpm-my-tesla",
+    "displayName": "my-tesla",
+    "version": "0.1.64",
+    "publishedAt": 1769735093493,
+    "commit": "https://github.com/clawdbot/skills/commit/e2965e70e6266eedfcb4860e58b5ae0bce689d56",
+    "history": [
+      {
+        "version": "0.1.71",
+        "publishedAt": 1769746009581,
+        "commit": "https://github.com/clawdbot/skills/commit/86730cfdc7099cab21c6a781650893a0c8998f36"
+      },
+      {
+        "version": "0.1.70",
+        "publishedAt": 1769744639904,
+        "commit": "https://github.com/clawdbot/skills/commit/bbca446cdfbc30da8b6514486808961342f4fd65"
+      },
+      {
+        "version": "0.1.62",
+        "publishedAt": 1769731513379,
+        "commit": "https://github.com/clawdbot/skills/commit/03a43c5d78cc6f93f487e14e9bad5722c35d5497"
+      },
+      {
+        "version": "0.1.56",
+        "publishedAt": 1769720175078,
+        "commit": "https://github.com/clawdbot/skills/commit/0df707a62b42883bc0eb8b7d8d67a717cc0e55d8"
+      },
+      {
+        "version": "0.1.48",
+        "publishedAt": 1769706644749,
+        "commit": "https://github.com/clawdbot/skills/commit/b91af76f24c546c2c4b576c2fc6ce71fbbd1f73b"
+      },
+      {
+        "version": "0.1.38",
+        "publishedAt": 1769694382977,
+        "commit": "https://github.com/clawdbot/skills/commit/9dcae6347d56aa8e62839a016ee21ec2f5b9611c"
+      },
+      {
+        "version": "0.1.29",
+        "publishedAt": 1769682085359,
+        "commit": "https://github.com/clawdbot/skills/commit/9ae0d933bac14a0ec0c67713f2807795338e99f0"
+      },
+      {
+        "version": "0.1.22",
+        "publishedAt": 1769671331808,
+        "commit": "https://github.com/clawdbot/skills/commit/6f71f0041f62e92746a381c84493e032538c231d"
+      },
+      {
+        "version": "0.1.15",
+        "publishedAt": 1769660366517,
+        "commit": "https://github.com/clawdbot/skills/commit/94544bf26665385f9bc6ca29ccce01d0711aad13"
+      },
+      {
+        "version": "0.1.8",
+        "publishedAt": 1769649566214,
+        "commit": "https://github.com/clawdbot/skills/commit/d24b447491e30f4b95b859dc0b04fc30df6f7e99"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/officialpm-my-tesla",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/officialpm/my-tesla",
+    "files": [
+      "CHANGELOG.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "VERSION.txt",
+      "_meta.json",
+      "scripts/run_tests.sh",
+      "scripts/tesla.py",
+      "tests/__init__.py",
+      "tests/test_charge_port_status.py",
+      "tests/test_charge_status_json.py",
+      "tests/test_cmd_climate_defrost.py",
+      "tests/test_cmd_climate_status.py",
+      "tests/test_cmd_mileage_record.py",
+      "tests/test_cmd_seats.py",
+      "tests/test_cmd_status_summary.py",
+      "tests/test_cmd_windows.py",
+      "tests/test_defaults_permissions.py",
+      "tests/test_formatting.py",
+      "tests/test_location_rounding.py",
+      "tests/test_mileage_db.py",
+      "tests/test_mileage_export_filter.py",
+      "tests/test_no_wake.py",
+      "tests/test_openings_format.py",
+      "tests/test_report_charging_power.py",
+      "tests/test_report_json.py",
+      "tests/test_report_openings.py",
+      "tests/test_report_privacy.py",
+      "tests/test_report_seat_heaters.py",
+      "tests/test_scheduled_departure_status.py",
+      "tests/test_summary_json.py",
+      "tests/test_time_helpers.py",
+      "tests/test_vehicle_select.py"
+    ],
+    "description": "Control Tesla vehicles from macOS via the Tesla Owner API using teslapy.",
+    "fetched_at": "2026-03-23T02:26:56.091906+00:00"
+  },
+  "Apple Apps & Services/network-scanner": {
+    "owner": "florianbeer",
+    "slug": "florianbeer-network-scanner",
+    "displayName": "network-scanner",
+    "version": "1.1.0",
+    "publishedAt": 1769941347059,
+    "commit": "https://github.com/clawdbot/skills/commit/657010ec324d33fc4468f4ba519336fb893d57d7",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769556065006,
+        "commit": "https://github.com/clawdbot/skills/commit/de01ab3272808b71c2f842a0592da80856932071"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/florianbeer-network-scanner",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/florianbeer/network-scanner",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/scan.py"
+    ],
+    "description": "Scan networks to discover devices, gather MAC addresses.",
+    "fetched_at": "2026-03-23T02:26:59.304604+00:00"
+  },
+  "Apple Apps & Services/omarchy": {
+    "owner": "achals-iglu",
+    "slug": "achals-iglu-omarchy",
+    "displayName": "omarchy",
+    "version": "0.1.1",
+    "publishedAt": 1770915243877,
+    "commit": "https://github.com/openclaw/skills/commit/2f0b449bf132cb595ba534d4df8ffaa86d0c7c0e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/achals-iglu-omarchy",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/achals-iglu/omarchy",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Omarchy operating guardrails for day-to-day system work: assume the host is Omarchy by default, choose.",
+    "fetched_at": "2026-03-23T02:27:01.486574+00:00"
+  },
+  "Apple Apps & Services/pattern-finder": {
+    "owner": "leegitw",
+    "slug": "leegitw-pattern-finder",
+    "displayName": "pattern-finder",
+    "version": "1.0.1",
+    "publishedAt": 1770708215708,
+    "commit": "https://github.com/openclaw/skills/commit/e664ceed35494a76c25a8d158f259122df9b1939",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770278797596,
+        "commit": "https://github.com/openclaw/skills/commit/40fd49a3388ebfcce26145bdc3e8e5351724a1dd"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/leegitw-pattern-finder",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/leegitw/pattern-finder",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Discover what two sources agree on — find the signal.",
+    "fetched_at": "2026-03-23T02:27:03.656936+00:00"
+  },
+  "Apple Apps & Services/say": {
+    "owner": "tobihagemann",
+    "slug": "tobihagemann-say",
+    "displayName": "say",
+    "version": "1.0.2",
+    "publishedAt": 1771132278117,
+    "commit": "https://github.com/openclaw/skills/commit/2d6982b5f47e1821c2f3a12d042bea5661aaac65",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1771078540943,
+        "commit": "https://github.com/openclaw/skills/commit/e3d715007824806b813f106526625721bff72f12"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/tobihagemann-say",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tobihagemann/say",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Text-to-Speech via macOS say command with Siri Natural Voices.",
+    "fetched_at": "2026-03-23T02:27:05.854784+00:00"
+  },
+  "Apple Apps & Services/shortcuts-skill": {
+    "owner": "erik-agens",
+    "slug": "erik-agens-shortcuts-skill",
+    "displayName": "shortcuts-generator",
+    "version": "0.1.0",
+    "publishedAt": 1768474518850,
+    "commit": "https://github.com/clawdbot/skills/commit/368c358abd65c03116f0864fd77b92af9a5cfe31",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/erik-agens-shortcuts-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/erik-agens/shortcuts-skill",
+    "files": [
+      "ACTIONS.md",
+      "APPINTENTS.md",
+      "CONTROL_FLOW.md",
+      "EXAMPLES.md",
+      "FILTERS.md",
+      "PARAMETER_TYPES.md",
+      "PLIST_FORMAT.md",
+      "SKILL.md",
+      "VARIABLES.md",
+      "_meta.json"
+    ],
+    "description": "Generate macOS/iOS Shortcuts by creating plist files.",
+    "fetched_at": "2026-03-23T02:27:14.508640+00:00"
+  },
+  "Apple Apps & Services/skill-email-management": {
+    "owner": "latisen",
+    "slug": "latisen-skill-email-management",
+    "displayName": "skill-email-management",
+    "version": "1.0.0",
+    "publishedAt": 1769550621989,
+    "commit": "https://github.com/clawdbot/skills/commit/c9bb6af7604a797383b1c417a3034f7e20fc36d9",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/latisen-skill-email-management",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/latisen/skill-email-management",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "examples/email-triage.md",
+      "examples/folder-organization.md",
+      "examples/inbox-zero-workflow.md",
+      "templates/common-workflows.md",
+      "templates/search-patterns.md"
+    ],
+    "description": "Expert email management assistant for Apple.",
+    "fetched_at": "2026-03-23T02:27:21.646288+00:00"
+  },
+  "Apple Apps & Services/testflight-monitor": {
+    "owner": "jon-xo",
+    "slug": "jon-xo-testflight-monitor",
+    "displayName": "testflight-monitor",
+    "version": "1.0.1",
+    "publishedAt": 1771414633653,
+    "commit": "https://github.com/openclaw/skills/commit/3d15a9ac8680c8e0d8af6f2cf7498669c85b92e9",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jon-xo-testflight-monitor",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jon-xo/testflight-monitor",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "config/batch-config.example.json",
+      "config/batch-config.json",
+      "config/testflight-codes.json",
+      "lib/check-batch.sh",
+      "lib/check-single.sh",
+      "lib/lookup.sh",
+      "manifest.json",
+      "testflight-monitor.sh",
+      "tools/update-lookup.sh"
+    ],
+    "description": "Monitor available TestFlight beta slots with smart app lookups and silent batch checking.",
+    "fetched_at": "2026-03-23T02:27:32.406836+00:00"
+  },
+  "Apple Apps & Services/voice-wake-say": {
+    "owner": "xadenryan",
+    "slug": "xadenryan-voice-wake-say",
+    "displayName": "voice-wake-say",
+    "version": "1.0.1",
+    "publishedAt": 1769336292318,
+    "commit": "https://github.com/clawdbot/skills/commit/02578c19908234817d7c369faedb0c2a88462c8b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/xadenryan-voice-wake-say",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/xadenryan/voice-wake-say",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Speak responses aloud on macOS using the built-in `say`.",
+    "fetched_at": "2026-03-23T02:27:34.569779+00:00"
+  },
+  "Shopping & E-commerce/add-wish": {
+    "owner": "leebellon",
+    "slug": "leebellon-add-wish",
+    "displayName": "add-wish",
+    "version": "1.1.0",
+    "publishedAt": 1771602847484,
+    "commit": "https://github.com/openclaw/skills/commit/848be039b6ac58d8f52f7260cc78493322a48371",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/leebellon-add-wish",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/leebellon/add-wish",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Save any product to a universal wishlist.",
+    "fetched_at": "2026-03-23T02:27:36.865335+00:00"
+  },
+  "Shopping & E-commerce/allstock-data": {
+    "owner": "hacksing",
+    "slug": "hacksing-allstock-data",
+    "displayName": "allstock-data",
+    "version": "1.0.2",
+    "publishedAt": 1772293679850,
+    "commit": "https://github.com/openclaw/skills/commit/f91da4b1d4291c0434d6af736eef5969124afbe0",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1771776441041,
+        "commit": "https://github.com/openclaw/skills/commit/4fe6335f302c1f4bebe632778220a4e34b76140a"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/hacksing-allstock-data",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/hacksing/allstock-data",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query A-share and US stock data via Tencent Finance API.",
+    "fetched_at": "2026-03-23T02:27:39.061512+00:00"
+  },
+  "Shopping & E-commerce/amadeus-hotels": {
+    "owner": "kesslerio",
+    "slug": "kesslerio-amadeus-hotels",
+    "displayName": "amadeus-hotels",
+    "version": "1.0.2",
+    "publishedAt": 1770017918702,
+    "commit": "https://github.com/clawdbot/skills/commit/b386452faa36fb46ffb7e6af77fff094ecc46264",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/kesslerio-amadeus-hotels",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kesslerio/amadeus-hotels",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/amenities.md",
+      "scripts/auth.py",
+      "scripts/details.py",
+      "scripts/offers.py",
+      "scripts/search.py",
+      "scripts/track.py"
+    ],
+    "description": "Search hotel prices and availability via Amadeus API.",
+    "fetched_at": "2026-03-23T02:27:48.061883+00:00"
+  },
+  "Shopping & E-commerce/amazon-competitor-analyzer": {
+    "owner": "phheng",
+    "slug": "phheng-amazon-competitor-analyzer",
+    "displayName": "amazon-competitor-analyzer",
+    "version": "0.1.6",
+    "publishedAt": 1772008505312,
+    "commit": "https://github.com/openclaw/skills/commit/f5eff422bd7f9c2a3da8201608f329750871bb91",
+    "history": [
+      {
+        "version": "0.1.1",
+        "publishedAt": 1770508183410,
+        "commit": "https://github.com/openclaw/skills/commit/384dbc2e4b4bf6261f632d6886d32ab51a63ed26"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1770390964826,
+        "commit": "https://github.com/openclaw/skills/commit/2079597de571dcc9dc68687bf415579174213099"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/phheng-amazon-competitor-analyzer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/phheng/amazon-competitor-analyzer",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "amazon_competitor_analyzer.py"
+    ],
+    "description": "Scrapes Amazon product data from ASINs.",
+    "fetched_at": "2026-03-23T02:27:50.983301+00:00"
+  },
+  "Shopping & E-commerce/amazon-orders": {
+    "owner": "pfernandez98",
+    "slug": "pfernandez98-amazon-orders",
+    "displayName": "amazon-orders",
+    "version": "1.0.0",
+    "publishedAt": 1770679863725,
+    "commit": "https://github.com/openclaw/skills/commit/c431d830620426267142f956403f74fce5287bc7",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/pfernandez98-amazon-orders",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pfernandez98/amazon-orders",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Download and query your Amazon order history via an unofficial Python API and CLI.",
+    "fetched_at": "2026-03-23T02:27:53.177326+00:00"
+  },
+  "Shopping & E-commerce/anylist": {
+    "owner": "mjrussell",
+    "slug": "mjrussell-anylist",
+    "displayName": "anylist",
+    "version": "0.1.0",
+    "publishedAt": 1767852416549,
+    "commit": "https://github.com/clawdbot/skills/commit/8fbbbc10342c0a045d28be65bd0116982191dfb3",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mjrussell-anylist",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mjrussell/anylist",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage grocery and shopping lists via AnyList.",
+    "fetched_at": "2026-03-23T02:27:55.440215+00:00"
+  },
+  "Shopping & E-commerce/atoship": {
+    "owner": "atoship-dev",
+    "slug": "atoship-dev-atoship",
+    "displayName": "atoship",
+    "version": "1.0.8",
+    "publishedAt": 1771613787624,
+    "commit": "https://github.com/openclaw/skills/commit/0a8404098e207d991d865eb4fb320d54d4f23646",
+    "history": [
+      {
+        "version": "1.0.6",
+        "publishedAt": 1771582143891,
+        "commit": "https://github.com/openclaw/skills/commit/17bf8707b78f16db96751088cb8efee83bfc8f03"
+      },
+      {
+        "version": "1.0.5",
+        "publishedAt": 1771396206891,
+        "commit": "https://github.com/openclaw/skills/commit/b1e3459a4199f560aaf2d5acd07754f695bf1bcc"
+      },
+      {
+        "version": "1.0.3",
+        "publishedAt": 1771395807336,
+        "commit": "https://github.com/openclaw/skills/commit/baeb3fa226b9e3edb6da124d6c1a0d9dea869946"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/atoship-dev-atoship",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/atoship-dev/atoship",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Ship packages with AI — compare rates across USPS, FedEx, and UPS, buy discounted labels, track shipments.",
+    "fetched_at": "2026-03-23T02:27:57.617389+00:00"
+  },
+  "Shopping & E-commerce/black-box": {
+    "owner": "lilyjazz",
+    "slug": "lilyjazz-black-box",
+    "displayName": "black-box",
+    "version": "1.0.0",
+    "publishedAt": 1771700112889,
+    "commit": "https://github.com/openclaw/skills/commit/5688fdef6b1e080d641b820208d8862e3fc89149",
+    "history": [
+      {
+        "version": "0.0.1",
+        "publishedAt": 1771666161166,
+        "commit": "https://github.com/openclaw/skills/commit/f69007c426776f7e91f5d579083b32f1f8a6b2b2"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/lilyjazz-black-box",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/lilyjazz/black-box",
+    "files": [
+      "DESIGN.md",
+      "PROTOCOL.md",
+      "SKILL.md",
+      "_meta.json",
+      "requirements.txt",
+      "run.py"
+    ],
+    "description": "Indestructible audit logs for agent actions, stored in TiDB Zero.",
+    "fetched_at": "2026-03-23T02:28:02.780504+00:00"
+  },
+  "Shopping & E-commerce/boj-mcp": {
+    "owner": "ajtgjmdjp",
+    "slug": "ajtgjmdjp-boj-mcp",
+    "displayName": "boj-mcp",
+    "version": "0.1.3",
+    "publishedAt": 1771175653377,
+    "commit": "https://github.com/openclaw/skills/commit/1718bc0276f6b84a4da2356e0da6f4f184139b93",
+    "history": [
+      {
+        "version": "0.1.2",
+        "publishedAt": 1771100874713,
+        "commit": "https://github.com/openclaw/skills/commit/3f843f0549dc33aed9b7d3063ea5c012f6618547"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1771060184192,
+        "commit": "https://github.com/openclaw/skills/commit/e3f783c0e8a5da7d72d649b0a1a48dd60f55e566"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/ajtgjmdjp-boj-mcp",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ajtgjmdjp/boj-mcp",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Access Bank of Japan (BOJ/日本銀行) statistical data — price indices (CGPI, SPPI), flow of funds, balance of payments.",
+    "fetched_at": "2026-03-23T02:28:04.954222+00:00"
+  },
+  "Shopping & E-commerce/bricklink": {
+    "owner": "odrobnik",
+    "slug": "odrobnik-bricklink",
+    "displayName": "bricklink",
+    "version": "1.4.2",
+    "publishedAt": 1772570395508,
+    "commit": "https://github.com/openclaw/skills/commit/aa927538785761876e149642ba7636e1af3cae7e",
+    "history": [
+      {
+        "version": "1.4.1",
+        "publishedAt": 1770983703906,
+        "commit": "https://github.com/openclaw/skills/commit/09b52f81f3df16a28e7b2f09473a07756d9b02f2"
+      },
+      {
+        "version": "1.3.3",
+        "publishedAt": 1770974530538,
+        "commit": "https://github.com/openclaw/skills/commit/6307e747d60571645241482773adfd6dba75f5c6"
+      },
+      {
+        "version": "1.2.3",
+        "publishedAt": 1770882587802,
+        "commit": "https://github.com/openclaw/skills/commit/b44e46e4557523a77057222006715c4c056d7e6a"
+      },
+      {
+        "version": "1.1.2",
+        "publishedAt": 1770841442630,
+        "commit": "https://github.com/openclaw/skills/commit/89f1027217fa0bac7f4fd7db1bd8b05bc243f992"
+      },
+      {
+        "version": "1.1.1",
+        "publishedAt": 1770151809171,
+        "commit": "https://github.com/clawdbot/skills/commit/0b84d468a4bdbb80b1ae1f1acb042605026ac5b3"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/odrobnik-bricklink",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/odrobnik/bricklink",
+    "files": [
+      "SETUP.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/catalog-api.md",
+      "references/consumer-registration.html",
+      "references/inventory-api.md",
+      "references/orders-api.md",
+      "scripts/_pathguard.py",
+      "scripts/bricklink.py"
+    ],
+    "description": "BrickLink Store API helper/CLI (OAuth 1.0 request signing).",
+    "fetched_at": "2026-03-23T02:28:12.859431+00:00"
+  },
+  "Shopping & E-commerce/buy-anything": {
+    "owner": "tsyvic",
+    "slug": "tsyvic-buy-anything",
+    "displayName": "buy-anything",
+    "version": "3.0.3",
+    "publishedAt": 1772668549491,
+    "commit": "https://github.com/openclaw/skills/commit/40a803757e41909246e929afd808ddbe1f09d2ed",
+    "history": [
+      {
+        "version": "2.0.0",
+        "publishedAt": 1769528009107,
+        "commit": "https://github.com/clawdbot/skills/commit/ed1b2a5b15059bb7a8082944dbbd38b28962d8df"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/tsyvic-buy-anything",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tsyvic/buy-anything",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Purchase products from Amazon through conversational checkout.",
+    "fetched_at": "2026-03-23T02:28:15.791753+00:00"
+  },
+  "Shopping & E-commerce/checkers-sixty60": {
+    "owner": "snopoke",
+    "slug": "snopoke-checkers-sixty60",
+    "displayName": "checkers-sixty60",
+    "version": "1.0.0",
+    "publishedAt": 1768996098821,
+    "commit": "https://github.com/clawdbot/skills/commit/32990acc8d2f4b548142fdc324f00018e5a73b5d",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/snopoke-checkers-sixty60",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/snopoke/checkers-sixty60",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Shop on Checkers.co.za Sixty60 delivery service via browser.",
+    "fetched_at": "2026-03-23T02:28:17.958197+00:00"
+  },
+  "Shopping & E-commerce/claudius": {
+    "owner": "claudiusaipro",
+    "slug": "claudiusaipro-claudius",
+    "displayName": "claudius",
+    "version": "1.0.4",
+    "publishedAt": 1769867779249,
+    "commit": "https://github.com/clawdbot/skills/commit/a1649ea5971fcd67f1722f07df68e9a113ae3e03",
+    "history": [
+      {
+        "version": "1.0.3",
+        "publishedAt": 1769838880424,
+        "commit": "https://github.com/clawdbot/skills/commit/c0950977bfbe498abbd599d27153f0a10bd7715d"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/claudiusaipro-claudius",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/claudiusaipro/claudius",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "package.json",
+      "scripts/claudius.js"
+    ],
+    "description": "Crypto intelligence powered by Claudius.",
+    "fetched_at": "2026-03-23T02:28:22.759950+00:00"
+  },
+  "Shopping & E-commerce/clawdbites": {
+    "owner": "kylelol",
+    "slug": "kylelol-clawdbites",
+    "displayName": "clawdbites",
+    "version": "0.1.0",
+    "publishedAt": 1769476737720,
+    "commit": "https://github.com/clawdbot/skills/commit/43310ad87da0ebf25c71464e02a3bed38d96bb4c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/kylelol-clawdbites",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kylelol/clawdbites",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Extract recipes from Instagram reels.",
+    "fetched_at": "2026-03-23T02:28:25.680073+00:00"
+  },
+  "Shopping & E-commerce/clawpify": {
+    "owner": "alhwyn",
+    "slug": "alhwyn-clawpify",
+    "displayName": "clawpify",
+    "version": "0.1.0",
+    "publishedAt": 1770438287126,
+    "commit": "https://github.com/openclaw/skills/commit/7ed4ce1f8b404fb7f35275f77d073f24375e1d23",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/alhwyn-clawpify",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/alhwyn/clawpify",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/blogs.md",
+      "references/bulk-operations.md",
+      "references/collections.md",
+      "references/customers.md",
+      "references/discounts.md",
+      "references/draft-orders.md",
+      "references/files.md",
+      "references/fulfillments.md",
+      "references/gift-cards.md",
+      "references/inventory.md",
+      "references/locations.md",
+      "references/marketing.md",
+      "references/markets.md",
+      "references/menus.md",
+      "references/metafields.md",
+      "references/orders.md",
+      "references/pages.md",
+      "references/products.md",
+      "references/refunds.md",
+      "references/segments.md",
+      "references/shipping.md",
+      "references/shop.md",
+      "references/subscriptions.md",
+      "references/translations.md",
+      "references/webhooks.md"
+    ],
+    "description": "Query and manage Shopify stores via GraphQL Admin API.",
+    "fetched_at": "2026-03-23T02:28:46.562896+00:00"
+  },
+  "Shopping & E-commerce/clawver-digital-products": {
+    "owner": "nwang783",
+    "slug": "nwang783-clawver-digital-products",
+    "displayName": "clawver-digital-products",
+    "version": "1.0.2",
+    "publishedAt": 1770950736268,
+    "commit": "https://github.com/openclaw/skills/commit/802910b1d1c69b4487bc5128a25ab5c75ebc96c2",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770736319431,
+        "commit": "https://github.com/openclaw/skills/commit/8b07cd7361d7388163b8d028110ff76a03018462"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770343513016,
+        "commit": "https://github.com/openclaw/skills/commit/b5afd4b1809fe1884d92110c234a3accf3367c1d"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/nwang783-clawver-digital-products",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-digital-products",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api-examples.md"
+    ],
+    "description": "Create and sell digital products.",
+    "fetched_at": "2026-03-23T02:28:49.811728+00:00"
+  },
+  "Shopping & E-commerce/clawver-reviews": {
+    "owner": "nwang783",
+    "slug": "nwang783-clawver-reviews",
+    "displayName": "clawver-reviews",
+    "version": "1.0.1",
+    "publishedAt": 1770950766990,
+    "commit": "https://github.com/openclaw/skills/commit/603b9644d467f8b29017fa343425c8f92329a5f1",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770343526482,
+        "commit": "https://github.com/openclaw/skills/commit/02de9c3ae02d2b477e814d928287cd040f7a0436"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/nwang783-clawver-reviews",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-reviews",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api-examples.md"
+    ],
+    "description": "Handle Clawver customer reviews.",
+    "fetched_at": "2026-03-23T02:28:52.983726+00:00"
+  },
+  "Shopping & E-commerce/closing-deals": {
+    "owner": "jk-0001",
+    "slug": "jk-0001-closing-deals",
+    "displayName": "closing-deals",
+    "version": "0.1.0",
+    "publishedAt": 1770341775014,
+    "commit": "https://github.com/openclaw/skills/commit/4bf9872afdb9ab0f7c1ce054d93b96f686c2c62c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jk-0001-closing-deals",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/closing-deals",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Close sales deals consistently as a solopreneur.",
+    "fetched_at": "2026-03-23T02:28:55.185348+00:00"
+  },
+  "Shopping & E-commerce/crypto-regime-report": {
+    "owner": "heyztb",
+    "slug": "heyztb-crypto-regime-report",
+    "displayName": "crypto-regime-report",
+    "version": "1.2.3",
+    "publishedAt": 1771230671759,
+    "commit": "https://github.com/openclaw/skills/commit/f6eb74b4683abe1f643ebe78317a78411bfe128e",
+    "history": [
+      {
+        "version": "1.2.2",
+        "publishedAt": 1771184182336,
+        "commit": "https://github.com/openclaw/skills/commit/24903c6de74d9abbb1c9562de2e68b9093a8ea11"
+      },
+      {
+        "version": "1.2.1",
+        "publishedAt": 1771179782529,
+        "commit": "https://github.com/openclaw/skills/commit/288385241991ee1979dbaf05790257db3902f671"
+      },
+      {
+        "version": "1.2.0",
+        "publishedAt": 1771177877582,
+        "commit": "https://github.com/openclaw/skills/commit/eeca4c8b118dbc036303f0ad176c2ba95c998fba"
+      },
+      {
+        "version": "1.1.3",
+        "publishedAt": 1771121556573,
+        "commit": "https://github.com/openclaw/skills/commit/d9dfb0df520333d27f66c4d87716f6a5896c8e21"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771057575882,
+        "commit": "https://github.com/openclaw/skills/commit/de2995dadcf84cdc01d1f5962923a1eec7e30ec1"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/heyztb-crypto-regime-report",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/heyztb/crypto-regime-report",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/alert_state.json",
+      "references/cache.json",
+      "references/config.example.json",
+      "references/config.json",
+      "scripts/alert_poller.py",
+      "scripts/alert_poller.sh",
+      "scripts/regime_report.py"
+    ],
+    "description": "Generate market regime reports for crypto perpetuals using Supertrend and ADX indicators.",
+    "fetched_at": "2026-03-23T02:29:03.089440+00:00"
+  },
+  "Shopping & E-commerce/csfloat": {
+    "owner": "bluesyparty-src",
+    "slug": "bluesyparty-src-csfloat",
+    "displayName": "csfloat",
+    "version": "1.0.0",
+    "publishedAt": 1770560898214,
+    "commit": "https://github.com/openclaw/skills/commit/a32919cb6969454841d7f56a928a0939cf1c572f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/bluesyparty-src-csfloat",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/bluesyparty-src/csfloat",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Queries csfloat.com for data on skins.",
+    "fetched_at": "2026-03-23T02:29:05.255626+00:00"
+  },
+  "Shopping & E-commerce/csvtoexcel": {
+    "owner": "xuanguan2020",
+    "slug": "xuanguan2020-csvtoexcel",
+    "displayName": "csvtoexcel",
+    "version": "1.0.0",
+    "publishedAt": 1771151066098,
+    "commit": "https://github.com/openclaw/skills/commit/3a73c57ce12159de0d02ce1e1da162b5e99c4195",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/xuanguan2020-csvtoexcel",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/xuanguan2020/csvtoexcel",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/csv_to_excel.py"
+    ],
+    "description": "Convert CSV files to professionally formatted Excel workbooks with Chinese character support, automatic formatting.",
+    "fetched_at": "2026-03-23T02:29:08.450632+00:00"
+  },
+  "Shopping & E-commerce/dupe": {
+    "owner": "crisanmm",
+    "slug": "crisanmm-dupe",
+    "displayName": "dupe",
+    "version": "1.0.0",
+    "publishedAt": 1770667260224,
+    "commit": "https://github.com/openclaw/skills/commit/d54c29dfe292299392a44fcf62e25a21be56088b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/crisanmm-dupe",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/crisanmm/dupe",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Uses dupe.com APIs in order to find similar products for the product found in the input URL given by the user.",
+    "fetched_at": "2026-03-23T02:29:10.613747+00:00"
+  },
+  "Shopping & E-commerce/eachlabs-product-visuals": {
+    "owner": "eftalyurtseven",
+    "slug": "eftalyurtseven-eachlabs-product-visuals",
+    "displayName": "eachlabs-product-visuals",
+    "version": "0.1.0",
+    "publishedAt": 1770603662773,
+    "commit": "https://github.com/openclaw/skills/commit/539c43ec5baa479f174caf8317e2cd41176c867b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/eftalyurtseven-eachlabs-product-visuals",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/eachlabs-product-visuals",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/MODELS.md"
+    ],
+    "description": "Generate e-commerce product photography and videos.",
+    "fetched_at": "2026-03-23T02:29:14.130016+00:00"
+  },
+  "Shopping & E-commerce/filewave": {
+    "owner": "jlevitsk",
+    "slug": "jlevitsk-filewave",
+    "displayName": "filewave",
+    "version": "1.0.0",
+    "publishedAt": 1771283187542,
+    "commit": "https://github.com/openclaw/skills/commit/95d742ea1653f862adb177fd65b403ced9600c27",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jlevitsk-filewave",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jlevitsk/filewave",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "docs/API_CAPABILITIES.md",
+      "docs/BULK_UPDATE.md",
+      "docs/CLI_REFERENCE.md",
+      "docs/CREDENTIAL_ARCHITECTURE.md",
+      "docs/ONBOARDING.md",
+      "docs/README.md",
+      "docs/SESSION_DATA_MANAGER.md",
+      "lib/api_utils.py",
+      "lib/bulk_update_handler.py",
+      "lib/config_manager.py",
+      "lib/device_analytics.py",
+      "lib/device_cache.py",
+      "lib/device_hierarchy.py",
+      "lib/device_hierarchy_analysis.py",
+      "lib/onboarding.py",
+      "lib/query_parser.py",
+      "lib/session_data_manager.py",
+      "manifest.json"
+    ],
+    "description": "Query and manage FileWave UEM device inventory via REST API.",
+    "fetched_at": "2026-03-23T02:29:30.807320+00:00"
+  },
+  "Shopping & E-commerce/food-order": {
+    "owner": "steipete",
+    "slug": "steipete-food-order",
+    "displayName": "food-order",
+    "version": "1.0.0",
+    "publishedAt": 1767545315134,
+    "commit": "https://github.com/clawdbot/skills/commit/2b1cc7c18d125b2dcfb787b0d9ee342ff22f3d0d",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/steipete-food-order",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/steipete/food-order",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Reorder Foodora orders + track ETA/status with ordercli.",
+    "fetched_at": "2026-03-23T02:29:32.996614+00:00"
+  },
+  "Shopping & E-commerce/gousto": {
+    "owner": "dhruvkelawala",
+    "slug": "dhruvkelawala-gousto",
+    "displayName": "gousto",
+    "version": "1.0.0",
+    "publishedAt": 1770123623230,
+    "commit": "https://github.com/clawdbot/skills/commit/f3ec0c199a397ab62a34422abe4c32f8efa1d8b7",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dhruvkelawala-gousto",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dhruvkelawala/gousto",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/recipe.sh",
+      "scripts/search.sh",
+      "scripts/update-cache.sh"
+    ],
+    "description": "Search and browse 9,000+ Gousto recipes.",
+    "fetched_at": "2026-03-23T02:29:38.346536+00:00"
+  },
+  "Shopping & E-commerce/gurkerlcli": {
+    "owner": "pasogott",
+    "slug": "pasogott-gurkerlcli",
+    "displayName": "gurkerlcli",
+    "version": "0.1.6",
+    "publishedAt": 1768764425635,
+    "commit": "https://github.com/clawdbot/skills/commit/7541191fa333783dd41d239cff09b304812bd346",
+    "history": [
+      {
+        "version": "0.1.0",
+        "publishedAt": 1767902446857,
+        "commit": "https://github.com/clawdbot/skills/commit/96ab8ff0bdfac39ffe9f32d028542023e7a26fa0"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/pasogott-gurkerlcli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pasogott/gurkerlcli",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Austrian online grocery shopping via gurkerl.at.",
+    "fetched_at": "2026-03-23T02:29:40.499327+00:00"
+  },
+  "Shopping & E-commerce/idealista": {
+    "owner": "quifago",
+    "slug": "quifago-idealista",
+    "displayName": "idealista",
+    "version": "0.1.0",
+    "publishedAt": 1768642872777,
+    "commit": "https://github.com/clawdbot/skills/commit/aec042fb29302c5c35246a910fb532613b21eb6f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/quifago-idealista",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/quifago/idealista",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Query Idealista API via idealista-cli (OAuth2 client credentials).",
+    "fetched_at": "2026-03-23T02:29:42.676193+00:00"
+  },
+  "Shopping & E-commerce/irish-takeaway": {
+    "owner": "cotyledonlab",
+    "slug": "cotyledonlab-irish-takeaway",
+    "displayName": "irish-takeaway",
+    "version": "1.0.0",
+    "publishedAt": 1768582793215,
+    "commit": "https://github.com/clawdbot/skills/commit/f4df90c147133038b2da410b166dad7b981590cd",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/cotyledonlab-irish-takeaway",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/cotyledonlab/irish-takeaway",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "search-takeaways.sh"
+    ],
+    "description": "Find nearby takeaways in Ireland and browse menus.",
+    "fetched_at": "2026-03-23T02:29:47.266988+00:00"
+  },
+  "Shopping & E-commerce/jellyseerr": {
+    "owner": "ericrosenberg",
+    "slug": "ericrosenberg-jellyseerr",
+    "displayName": "jellyseerr",
+    "version": "1.0.0",
+    "publishedAt": 1769385410166,
+    "commit": "https://github.com/clawdbot/skills/commit/6e34bf28e6f1a0f1e242cf426beb2d4a224e788b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ericrosenberg-jellyseerr",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ericrosenberg/jellyseerr",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/WEBHOOK_SETUP.md",
+      "references/api.md",
+      "scripts/auto_monitor.sh",
+      "scripts/install_service.sh",
+      "scripts/monitor_availability.py",
+      "scripts/request_movie.py",
+      "scripts/request_tv.py",
+      "scripts/search.py",
+      "scripts/send_notifications.py",
+      "scripts/setup.sh",
+      "scripts/setup_webhook.sh",
+      "scripts/track_requests.py",
+      "scripts/webhook_server.py"
+    ],
+    "description": "Request movies and TV shows through Jellyseerr.",
+    "fetched_at": "2026-03-23T02:29:59.992221+00:00"
+  },
+  "Shopping & E-commerce/jlm-coffee": {
+    "owner": "alexpolonsky",
+    "slug": "alexpolonsky-jlm-coffee",
+    "displayName": "jlm-coffee",
+    "version": "2.1.0",
+    "publishedAt": 1772090007510,
+    "commit": "https://github.com/openclaw/skills/commit/ca7ac2a481123fd1b06ac0a41583ee6410c38d57",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/alexpolonsky-jlm-coffee",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/jlm-coffee",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/jlm-coffee.py"
+    ],
+    "description": "Search specialty coffee shops in Jerusalem by amenities and hours.",
+    "fetched_at": "2026-03-23T02:30:03.668334+00:00"
+  },
+  "Shopping & E-commerce/jtbd-analyzer": {
+    "owner": "artyomx33",
+    "slug": "artyomx33-jtbd-analyzer",
+    "displayName": "jtbd-analyzer",
+    "version": "1.0.0",
+    "publishedAt": 1769359839597,
+    "commit": "https://github.com/clawdbot/skills/commit/cf5b3e2069f1600fed4e133e72fc4a1e2f1e4076",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/artyomx33-jtbd-analyzer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/artyomx33/jtbd-analyzer",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/examples.md",
+      "references/framework.md"
+    ],
+    "description": "Uncover the real \"job\" customers hire your product.",
+    "fetched_at": "2026-03-23T02:30:07.616443+00:00"
+  },
+  "Shopping & E-commerce/listonic": {
+    "owner": "jeremymahieu",
+    "slug": "jeremymahieu-listonic",
+    "displayName": "listonic",
+    "version": "1.0.1",
+    "publishedAt": 1773607295763,
+    "commit": "https://github.com/openclaw/skills/commit/5b43231fe598c4c88f1d9ddf7f04470640516418",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770720517132,
+        "commit": "https://github.com/openclaw/skills/commit/51a0b0dbba16776d88a7b47c4dc6e1dc5cbc60a2"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jeremymahieu-listonic",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeremymahieu/listonic",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/listonic.py",
+      "scripts/listonic.sh"
+    ],
+    "description": "Access Listonic shopping lists: list lists/items, add/check/delete items, and manage lists.",
+    "fetched_at": "2026-03-23T02:30:12.280926+00:00"
+  },
+  "Shopping & E-commerce/marktplaats": {
+    "owner": "pvoo",
+    "slug": "pvoo-marktplaats",
+    "displayName": "marktplaats",
+    "version": "0.3.0",
+    "publishedAt": 1767735501201,
+    "commit": "https://github.com/clawdbot/skills/commit/0a22e54fe3e24b454845e9e976f1deff6d27d8a5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/pvoo-marktplaats",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pvoo/marktplaats",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "bin/marktplaats-categories.js",
+      "bin/marktplaats-search.js",
+      "package.json",
+      "src/api.js",
+      "src/index.js"
+    ],
+    "description": "Search Marktplaats.nl classifieds across all categories with filtering.",
+    "fetched_at": "2026-03-23T02:30:19.347169+00:00"
+  },
+  "Shopping & E-commerce/moltlist-marketplace": {
+    "owner": "koriyoshi2041",
+    "slug": "koriyoshi2041-moltlist-marketplace",
+    "displayName": "moltlist-marketplace",
+    "version": "1.0.0",
+    "publishedAt": 1769763238271,
+    "commit": "https://github.com/clawdbot/skills/commit/d6156bb23e748bc272572f897b7e7c8f0e8940e5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/koriyoshi2041-moltlist-marketplace",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/koriyoshi2041/moltlist-marketplace",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "package-lock.json",
+      "package.json",
+      "scripts/moltlist.mjs"
+    ],
+    "description": "Interact with the moltlist.com agent.",
+    "fetched_at": "2026-03-23T02:30:23.992072+00:00"
+  },
+  "Shopping & E-commerce/mt5-httpapi": {
+    "owner": "psyb0t",
+    "slug": "psyb0t-mt5-httpapi",
+    "displayName": "mt5-httpapi",
+    "version": "1.1.0",
+    "publishedAt": 1771519642192,
+    "commit": "https://github.com/openclaw/skills/commit/eed34c73bf8cdb68238819760bf0d381c955b066",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771144230099,
+        "commit": "https://github.com/openclaw/skills/commit/265916fd9df1967d5edf34d79b32cf79f2898ea1"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/psyb0t-mt5-httpapi",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/psyb0t/mt5-httpapi",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/setup.md"
+    ],
+    "description": "MetaTrader 5 trading via REST API — get market data, place/modify/close orders, manage positions, pull history.",
+    "fetched_at": "2026-03-23T02:30:27.170446+00:00"
+  },
+  "Shopping & E-commerce/mutual-consent": {
+    "owner": "otherpowers",
+    "slug": "otherpowers-mutual-consent",
+    "displayName": "mutual-consent",
+    "version": "1.0.0",
+    "publishedAt": 1770682304525,
+    "commit": "https://github.com/openclaw/skills/commit/a69cbfa7ef1e7fb04d381baf2ba747817ac81da9",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/otherpowers-mutual-consent",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/otherpowers/mutual-consent",
+    "files": [
+      "_meta.json",
+      "skill.md"
+    ],
+    "description": "A governance skill that treats consent as a physical condition of information and relationship, not a stored choice.",
+    "fetched_at": "2026-03-23T02:30:29.345739+00:00"
+  },
+  "Shopping & E-commerce/nft-tracker": {
+    "owner": "ianalloway",
+    "slug": "ianalloway-nft-tracker",
+    "displayName": "nft-tracker",
+    "version": "0.1.0",
+    "publishedAt": 1771116425759,
+    "commit": "https://github.com/openclaw/skills/commit/80b44addecf6bd3d9dde8da806c7e49c69aa1748",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ianalloway-nft-tracker",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ianalloway/nft-tracker",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Track NFT collection prices, floor prices, and sales data.",
+    "fetched_at": "2026-03-23T02:30:31.516486+00:00"
+  },
+  "Shopping & E-commerce/ontopo": {
+    "owner": "alexpolonsky",
+    "slug": "alexpolonsky-ontopo",
+    "displayName": "ontopo",
+    "version": "1.0.0",
+    "publishedAt": 1771625715133,
+    "commit": "https://github.com/openclaw/skills/commit/b6f6bfb0f01b8ad737ede67c4c900139ae36984b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/alexpolonsky-ontopo",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/alexpolonsky/ontopo",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "scripts/ontopo-cli.py",
+      "tests/test_commands.sh",
+      "tests/test_edge_cases.sh",
+      "tests/test_skill_selection.sh"
+    ],
+    "description": "Search Israeli restaurants and check table availability on Ontopo.",
+    "fetched_at": "2026-03-23T02:30:38.405691+00:00"
+  },
+  "Shopping & E-commerce/palacefate": {
+    "owner": "junwonpro",
+    "slug": "junwonpro-palacefate",
+    "displayName": "palacefate",
+    "version": "1.0.0",
+    "publishedAt": 1770589974591,
+    "commit": "https://github.com/openclaw/skills/commit/493c356964eaca66111ab7c3767298225f23c3bc",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/junwonpro-palacefate",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/junwonpro/palacefate",
+    "files": [
+      "PalaceLogoIcon.svg",
+      "_meta.json",
+      "discussing.md",
+      "favicon.svg",
+      "heartbeat.md",
+      "robots.txt",
+      "rules.md",
+      "skill.json",
+      "skill.md",
+      "trading.md"
+    ],
+    "description": "A prediction market game for AI agents.",
+    "fetched_at": "2026-03-23T02:30:46.828493+00:00"
+  },
+  "Shopping & E-commerce/popup-referrals": {
+    "owner": "eliaskress",
+    "slug": "eliaskress-popup-referrals",
+    "displayName": "popup-referrals",
+    "version": "1.1.0",
+    "publishedAt": 1771366392083,
+    "commit": "https://github.com/openclaw/skills/commit/c56eb8e994709daaffef16975efa55559bb5d027",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/eliaskress-popup-referrals",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eliaskress/popup-referrals",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Check your PopUp referral link, track earnings, and see referred vendor status.",
+    "fetched_at": "2026-03-23T02:30:49.688297+00:00"
+  },
+  "Shopping & E-commerce/stock-price-checker": {
+    "owner": "rupprath",
+    "slug": "rupprath-stock-price-checker",
+    "displayName": "stock-price-checker",
+    "version": "1.0.0",
+    "publishedAt": 1769565384141,
+    "commit": "https://github.com/clawdbot/skills/commit/7d185d81280c898b0ac786bee90678493a1e1f45",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/rupprath-stock-price-checker",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/rupprath/stock-price-checker",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "stock-price.py",
+      "stock-price.sh"
+    ],
+    "description": "Check stock prices using yfinance library.",
+    "fetched_at": "2026-03-23T02:30:53.118874+00:00"
+  },
+  "Shopping & E-commerce/tradekix": {
+    "owner": "jamesjohnfox",
+    "slug": "jamesjohnfox-tradekix",
+    "displayName": "tradekix",
+    "version": "1.0.0",
+    "publishedAt": 1770845257351,
+    "commit": "https://github.com/openclaw/skills/commit/f267a61c044eb8dc56e785210bfe7a082d244059",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jamesjohnfox-tradekix",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jamesjohnfox/tradekix",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api-docs.md",
+      "scripts/tradekix.sh"
+    ],
+    "description": "Query financial market data via the Tradekix API — stock prices, crypto, forex, indices, market news, earnings.",
+    "fetched_at": "2026-03-23T02:30:57.332397+00:00"
+  },
+  "Shopping & E-commerce/turnip-prophet": {
+    "owner": "nicholasjackson",
+    "slug": "nicholasjackson-turnip-prophet",
+    "displayName": "turnip-prophet",
+    "version": "1.2.4",
+    "publishedAt": 1771843074808,
+    "commit": "https://github.com/openclaw/skills/commit/3f1d1ed9fa8de2722ebf8aefc789fbaf8610686d",
+    "history": [
+      {
+        "version": "1.2.3",
+        "publishedAt": 1771842942520,
+        "commit": "https://github.com/openclaw/skills/commit/5becb0fe81f19af8d161b9ec8154116ff5a32138"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/nicholasjackson-turnip-prophet",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nicholasjackson/turnip-prophet",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "memory/turnip-week.json",
+      "scripts/cron_handler.sh",
+      "scripts/generate_chart.py",
+      "scripts/turnip_predict.py",
+      "test_turnip_predictor.py"
+    ],
+    "description": "Predict Animal Crossing New Horizons turnip prices using the game's exact algorithm.",
+    "fetched_at": "2026-03-23T02:31:03.823167+00:00"
+  },
+  "Shopping & E-commerce/whop-cli": {
+    "owner": "g9pedro",
+    "slug": "g9pedro-whop-cli",
+    "displayName": "whop-cli",
+    "version": "1.0.0",
+    "publishedAt": 1771538688873,
+    "commit": "https://github.com/openclaw/skills/commit/e6e2ebb7dab3113b1d1d75cc367aaec600a24fd3",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/g9pedro-whop-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/g9pedro/whop-cli",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage Whop digital products store — create products, plans, track payments, manage memberships.",
+    "fetched_at": "2026-03-23T02:31:06.028362+00:00"
   }
 }
