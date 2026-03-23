@@ -1,6 +1,6 @@
 # NEAR Phishing Detector
 
-> Detect potential phishing URLs and suspicious contracts targeting NEAR users.
+> NEAR 链钓鱼检测工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `near_phishing_check_url(url)` -> `dict`
-- `near_phishing_check_contract(contract)` -> `dict`
-- `near_phishing_report(url, details)` -> `dict`
-- `near_phishing_database()` -> `list`
-- Phishing detector skill: implemented in `src/phishing-detector.ts`
-- URL checking: `near_phishing_check_url`
+- 检测 NEAR 链上的钓鱼攻击
+- 可疑交易和地址分析
+- 安全警告和风险提示
+- 实时监控和告警
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 监控 NEAR 钱包的交易安全防止钓鱼攻击
+- 分析可疑的 NEAR 链上交易请求
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- npm
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `molthub.json`
@@ -55,6 +52,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

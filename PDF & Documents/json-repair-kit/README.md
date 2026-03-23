@@ -1,6 +1,6 @@
 # Json Repair Kit
 
-> Repair malformed JSON files by normalizing them through Node.js evaluation. Use this to fix trailing commas, single quotes, unquoted keys, or other common syntax errors in JSON files (e.g. config files, manually edited data).
+> JSON 数据修复工具包，修复损坏或格式错误的 JSON
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Trailing Commas: `{"a": 1,}` -> `{"a": 1}`
-- Single Quotes: `{'a': 'b'}` -> `{"a": "b"}`
-- Unquoted Keys: `{key: "value"}` -> `{"key": "value"}`
-- Comments: Removes JS-style comments `//` (if parser supports it, standard Node `eval` may strip them if they are line co
-- Hex/Octal Numbers: `0xFF` -> `255`
-- Backup: Always creates a `.bak` file before overwriting (unless `--no-backup` is used, but default is safe).
+- 自动检测和修复常见 JSON 格式错误
+- 处理缺失引号、逗号等问题
+- 支持大文件 JSON 修复
+- 提供修复前后对比
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 修复 API 返回的格式异常 JSON 数据
+- 清理和规范化配置文件中的 JSON 格式
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `index.js`
@@ -51,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。命令执行：存在命令执行相关引用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

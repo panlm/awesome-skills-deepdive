@@ -1,40 +1,37 @@
 # Vigil
 
-> AI agent safety guardrails for tool calls. Use when (1) you want to validate agent tool calls before execution, (2) building agents that run shell commands, file operations, or API calls, (3) adding a safety layer to any MCP server or agent framework, (4) auditing what your agents are doing. Catches destructive commands, SSRF, SQL injection, path traversal, data exfiltration, prompt injection, and credential leaks. Requires npm package vigil-agent-safety (12.3KB, under 2ms latency). Source: github.com/hexitlabs/vigil
+> AI Agent 工具调用安全护栏，拦截破坏性命令、SSRF、SQL 注入、路径遍历和凭证泄露等风险操作
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Vigil |
 | **作者** | robinoppenstam |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/robinoppenstam-vigil |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/robinoppenstam/vigil |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Destructive commands (rm -rf, mkfs, reverse shells) → BLOCK
-- SSRF (metadata endpoints, localhost, internal IPs) → BLOCK
-- Data exfiltration (curl to external, .ssh/id_rsa access) → BLOCK
-- SQL injection (DROP TABLE, UNION SELECT) → BLOCK
-- Path traversal (../../../etc/shadow) → BLOCK
-- Prompt injection (ignore instructions, [INST] tags) → BLOCK
-- Encoding attacks (base64 decode, eval(atob())) → BLOCK
-- Credential leaks (API keys, AWS keys, tokens) → ESCALATE
+- 在 Agent 执行工具调用前进行安全验证，拦截危险操作
+- 检测破坏性命令（`rm -rf`、`mkfs`、反弹 Shell 等）并阻断
+- 防御 SSRF 攻击（元数据端点、localhost、内网 IP 访问）
+- 拦截 SQL 注入（DROP TABLE、UNION SELECT 等）和路径遍历攻击
+- 识别 Prompt 注入和编码攻击（base64 decode、eval）
+- 检测凭证泄露（API Key、AWS Key、Token 等）并上报
+- 22 条内置规则，零运行时依赖，单次检查延迟低于 2ms
+- 支持 warn（仅日志）和 enforce（强制阻断）两种运行模式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为执行 Shell 命令、文件操作或 API 调用的 AI Agent 添加安全防护层
+- 在任何 MCP Server 或 Agent 框架中嵌入工具调用审计机制
+- 审查和监控 Agent 的实际操作行为
 
 ## 依赖和前提条件
-- Node.js / npm
+- npm 包 `vigil-agent-safety`（12.3KB，Apache 2.0 许可证）
+- 安装命令：`npm install vigil-agent-safety`
+- 零运行时依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +50,4 @@
 **风险摘要:** 存在 1 项高风险，6 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

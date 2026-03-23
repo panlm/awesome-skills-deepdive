@@ -1,29 +1,33 @@
 # GlowSkin Promo
 
-> Generate viral marketing content for skincare affiliate products
+> 美容护肤品推广营销工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | GlowSkin Promo |
 | **作者** | underbench2-gif |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/underbench2-gif-glowskin-promo |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/underbench2-gif/glowskin-promo |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- TikTok video script hooks
-- Instagram caption templates
-- Story ideas for engagement
-- Call-to-action variations
+- 美容产品营销内容生成
+- 推广活动管理
+- 客户互动和反馈
+- 促销活动策划
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为美容护肤品创建推广营销内容
+- 策划和管理美容品牌的促销活动
+
+## 依赖和前提条件
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -43,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

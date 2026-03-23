@@ -1,6 +1,6 @@
 # Skill Install Guardian
 
-> "Security and due diligence layer for installing external skills from ClawHub. Performs DEEP content scanning for malicious patterns, security checks, integration analysis, and requires owner confirmation before installation."
+> 技能安装守护工具，安全把关技能安装
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,20 +13,21 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Fetches SKILL.md and script files (.py, .js, .sh)
-- Scans for dangerous patterns in file contents
-- Detects: command injection, API keys, hardcoded secrets, obfuscated code
+- 技能安装流程安全检查
+- 依赖项安全审核
+- 权限请求审查
+- 安全报告生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在安装第三方技能前进行全面安全检查
+- 审核技能的权限请求确保安全性
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- API 密钥
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -47,6 +48,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 5 项高风险，0 项中风险。命令执行：发现直接命令执行指令；数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

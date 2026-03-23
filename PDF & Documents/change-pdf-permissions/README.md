@@ -1,6 +1,6 @@
 # Change permissions of PDF
 
-> Change a PDF’s permission flags (edit, print, copy, forms, annotations, etc.) by uploading it to the Solutions API, polling until completion, then returning a download URL for the updated PDF.
+> 修改 PDF 文件的权限设置
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- allow printing (and high-quality printing),
-- allow editing content,
-- allow adding/modifying annotations,
-- allow extracting/copying content,
-- allow form filling,
-- allow assembling pages (insert/delete/rotate).
-- A PDF file
-- Permission flag values (true/false)
+- 设置 PDF 的打印权限
+- 控制 PDF 的编辑权限
+- 配置复制和提取权限
+- 批量修改权限设置
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 限制分发 PDF 的打印和编辑权限
+- 为不同受众设置不同的 PDF 访问权限
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Bearer Token
+- Python 运行环境
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -55,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

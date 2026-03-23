@@ -1,6 +1,6 @@
 # Switch Modes
 
-> Switch between AI models dynamically to optimize costs and performance. Use when the user says mode commands like "eco mode", "balanced mode", "smart mode", or "max mode", or when they want to check their current mode with "/modes status" or configure modes with "/modes setup".
+> 快速切换 AI 对话模式，支持多种预设交互风格
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Mode switching commands: `eco mode`, `balanced mode`, `smart mode`, `max mode`
-- Status check: `/modes status`
-- Configuration: `/modes setup`
-- eco → Cheapest model (for summaries, quick questions)
-- balanced → Daily driver model (for general work)
-- smart → Powerful model (for complex reasoning)
+- 在不同 AI 对话模式间快速切换
+- 支持预设的多种交互模式
+- 自定义模式参数和行为规则
+- 通过简单命令切换系统提示词
+- 适用于需要多角色或多场景的工作流
+- 提高 AI 助手的灵活性和适应性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 工作中需要在编程助手、写作助手等模式间切换
+- 构建多角色 AI 助手支持不同场景需求
 
-## 包含文件
-- `REFERENCE.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Bash/Shell 环境
+- API Key
+- Anthropic API Key
+- OpenAI API Key
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +49,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

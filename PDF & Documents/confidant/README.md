@@ -1,6 +1,6 @@
 # Confidant
 
-> Secure secret handoff and credential setup wizard for AI agents. Use when you need sensitive information from the user (API keys, passwords, tokens) or need to save credentials to config files. Never ask for secrets via chat — use Confidant instead.
+> 机密信息安全管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,22 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- ✅ Starts server if not running (or reuses existing one)
-- ✅ Creates a secure request with web form
-- ✅ Detects existing tunnels (ngrok or localtunnel)
-- ✅ Returns the URL to share with the user
-- ✅ Polls until the secret is submitted
-- ✅ Saves to `~/.config/openai/api_key` (chmod 600) and exits
+- 安全存储和管理机密数据
+- 加密信息传递
+- 访问控制和权限管理
+- 安全审计日志
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 安全管理 API 密钥等机密信息
+- 建立团队的机密信息共享流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
+- OpenAI API
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -50,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，5 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

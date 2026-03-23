@@ -1,31 +1,37 @@
 # Lofy Projects
 
-> Project management for the Lofy AI assistant — tracks multiple projects with milestones, priority scoring engine (urgency × job relevance × momentum × energy match), meeting prep automation, time logging, stale project alerts, and work session recommendations. Use when managing projects, prioritizing work, preparing for meetings, or tracking milestones and deadlines.
+> Lofy AI 助手的项目管理工具，支持多项目追踪、里程碑管理和任务分配
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Lofy Projects |
 | **作者** | harrey401 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/harrey401-lofy-projects |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/harrey401/lofy-projects |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- < 30 min: Quick tasks — email, review, read, update docs
-- 30-60 min: Medium — write one function, prep notes, apply to 1 job
-- 1-2 hours: Focused — implement a feature, write paper section, debug
-- 2+ hours: Deep work — major development sessions
-- "Worked on [project] for 2 hours" → update time_log, last_updated
-- "[Feature] is working now" → update milestone status
+- 多项目并行管理和状态追踪
+- 里程碑创建与进度监控
+- 任务分配和优先级管理
+- 项目时间线和截止日期提醒
+- 任务依赖关系管理
+- 项目进度报告生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 助手帮助团队管理多个并行项目的进度
+- 追踪软件开发各阶段里程碑完成情况
+- 个人项目任务的智能化管理和提醒
+
+## 依赖和前提条件
+- Lofy AI 助手环境配置
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

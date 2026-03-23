@@ -1,34 +1,37 @@
 # Simplified Social Media
 
-> Manage your entire social media from AI — post, schedule, and analyze across Facebook, Instagram, TikTok, YouTube, LinkedIn, Pinterest, Threads, Bluesky and Google Business
+> 简化版社交媒体管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Simplified Social Media |
 | **作者** | jacksimplified |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/jacksimplified-simplified-social-media |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jacksimplified/simplified-social-media |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- google my business
-- social accounts
-- social media analytics
-- post analytics
-- audience analytics
-- engagement analytics
+- 社交媒体内容简单管理
+- 快速发布功能
+- 基础数据追踪
+- 多平台支持
 
 ## 使用场景
-- 社交媒体营销管理
-- 自动化社媒发布
-- 社交平台数据分析
+- 简化社交媒体内容的创建和发布流程
+- 快速管理多个社交媒体平台的基础操作
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Google API
+- Facebook API
+- Instagram API
+- TikTok API
+- Bluesky API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

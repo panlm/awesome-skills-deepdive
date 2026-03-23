@@ -1,34 +1,35 @@
 # Linkfuse
 
-> Create a Linkfuse affiliate short link from any URL. Trigger this skill when the user wants to create a Linkfuse link, shorten an affiliate URL, or says "/linkfuse". Requires LINKFUSE_TOKEN environment variable.
+> 链接管理和追踪工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Linkfuse |
 | **作者** | oliverw |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/oliverw-linkfuse |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/oliverw/linkfuse |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- LINKFUSE_TOKEN
-- name: LINKFUSE_TOKEN
-- Says `/linkfuse [url]`
-- Asks to "create a Linkfuse link" for a URL
-- Wants to shorten an affiliate/Amazon URL via Linkfuse
-- Exit 0: stdout contains JSON `{ "url": "...", "title": "..." }` — proceed to Step 3.
+- 链接缩短和管理
+- 点击追踪和分析
+- 自定义短链域名
+- 链接分组管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 创建可追踪的营销短链接
+- 分析链接点击数据优化营销渠道
 
 ## 依赖和前提条件
-- Node.js / npm
+- API 密钥
+- Bearer Token
+- Node.js
+- Chrome 浏览器
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

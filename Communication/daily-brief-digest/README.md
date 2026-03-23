@@ -1,31 +1,38 @@
 # Daily Brief Digest
 
-> Generates a daily brief including urgent emails (himalaya), upcoming calendar events (gog), and relevant news. Use when the user asks for a morning summary, daily briefing, or a status update on their day.
+> 生成个性化每日简报，整合紧急邮件、日历事件、天气预报和待办事项等关键信息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Daily Brief Digest |
 | **作者** | rajtejani61 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/rajtejani61-daily-brief-digest |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rajtejani61/daily-brief-digest |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Email: `himalaya` CLI.
-- Calendar: `gog` CLI.
-- News: Web search or trusted RSS feeds.
-- Logs: Saved locally to `~/.openclaw/cron/DailyDigest_logs/`.
-- Google: Security alert (04:10)
-- The Replit Team: Unlock Replit Agent's Full Potential (Feb 11)
+- 聚合邮件中的紧急和重要消息
+- 展示当日及近期日历事件
+- 集成天气预报信息
+- 汇总待办事项和任务进度
+- 按优先级排序信息展示
+- 支持定时自动生成和推送
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每天早晨快速了解当日重要事项
+- 团队管理者掌握每日工作全局
+- 远程办公者保持信息同步
+
+## 依赖和前提条件
+- 邮箱账号访问权限
+- 日历服务集成
+- OpenClaw 环境已配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`

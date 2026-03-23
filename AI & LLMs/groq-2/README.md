@@ -1,6 +1,6 @@
 # Groq (2)
 
-> Groq (2) skill for OpenClaw
+> 通过 Groq API 实现超快速 AI 推理（第二版）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,16 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/samirjtv-ctrl/groq-2 |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 集成 Groq 的高速 AI 推理 API 第二版
+- 支持通过简单指令触发 AI 推理
+- 使用 "Groq: <提示词>" 格式快速调用
+- 利用 Groq 的硬件加速实现低延迟响应
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要快速 AI 推理响应的实时对话场景
+- 对延迟敏感的 AI 应用中替代传统推理服务
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- Groq API Key
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -40,4 +45,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

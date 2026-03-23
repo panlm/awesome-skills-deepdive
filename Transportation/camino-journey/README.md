@@ -1,6 +1,6 @@
 # Journey Planning with Waypoints
 
-> "Plan multi-waypoint journeys with route optimization, feasibility analysis, and time budget constraints. Use when you need to plan trips with multiple stops or check if an itinerary is achievable."
+> 使用 Camino AI 规划多节点行程，支持路线优化和可行性分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Trip itinerary validation: Check if a planned itinerary is feasible within time constraints
-- Route optimization: Get suggestions for optimizing multi-stop journeys
-- Travel time estimation: Understand total journey time across multiple destinations
-- Tour planning: Plan walking tours, cycling routes, or driving trips
+- 规划包含多个途经点的最优路线
+- 行程可行性分析和时间估算
+- 支持路线优化和重新排序
+- 实时交通数据集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 规划一日多地商务拜访的最优路线
+- 评估包含多个景点的旅行路线可行性
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Camino AI）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

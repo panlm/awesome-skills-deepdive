@@ -1,6 +1,6 @@
 # Feishu Voice Assistant
 
-> Sends voice messages (audio) to Feishu chats using Duby TTS.
+> 飞书语音助手集成
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `--text`: The text to convert to speech.
-- `--target`: The Feishu user ID (`ou_...`) or chat ID (`oc_...`).
-- `--voice`: (Optional) Duby Voice ID. Default is Xinduo.
-- `duby`: For TTS generation.
-- `feishu-common`: For API authentication.
-- `form-data`: For file uploads.
+- Sends voice messages (audio) to Feishu chats using Duby TTS
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 通过飞书进行语音交互
+- 语音消息的自动转录和处理
+- 集成飞书的语音通话功能
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -36,7 +33,7 @@
 - `package-lock.json`
 - `package.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

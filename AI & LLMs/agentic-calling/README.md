@@ -1,6 +1,6 @@
 # Agentic Calling
 
-> **Enable AI agents to make and receive phone calls autonomously using Twilio.**
+> 让 AI 代理通过 Twilio 自主拨打和接听电话
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Phone number: ~$1.15/month
-- Outbound calls: ~$0.013/minute
-- Inbound calls: ~$0.0085/minute
-- SMS: ~$0.0079/message
-- Full docs: [SKILL.md](SKILL.md)
-- Twilio docs: https://www.twilio.com/docs
+- 通过 Twilio 实现 AI 代理自主拨打外呼电话
+- 支持接收来电并进行智能应答
+- 提供短信通知功能（SMS 发送）
+- 可查询通话状态和历史记录
+- 支持通过环境变量或配置文件管理 Twilio 凭证
+- 提供可执行脚本快速发起通话、发送短信和状态查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 AI 代理自动电话通知用户重要事项（如日程提醒、异常告警）
+- 构建 AI 语音客服系统，自动接听和处理来电
+- 在无法接通电话时自动发送短信作为备选通知方式
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `examples`
-- `scripts`
-- `skill.json`
+## 依赖和前提条件
+- Twilio 账号及 API 凭证（Account SID、Auth Token）
+- Twilio 电话号码（支持语音功能）
+- Bash 环境（用于执行脚本）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

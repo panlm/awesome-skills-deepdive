@@ -1,26 +1,37 @@
 # telegram send files
 
-> Send files via Telegram. Example: tsend send document.pdf
+> 通过 Telegram 快速发送文件，一行命令即可完成文件传输
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | telegram send files |
 | **作者** | shingwha |
+| **版本** | 2.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/shingwha-tsend |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/shingwha/tsend |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
+
+## 功能概述
+- 命令行一键发送文件到 Telegram 聊天
+- 支持发送文档、图片、视频等多种文件类型
+- 支持指定接收者或群组
+- 文件发送进度显示
+- 支持批量发送多个文件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开发者快速将服务器日志或报告发送到 Telegram
+- 自动化流程中将生成的文件通过 Telegram 分发
+- 远程设备上的文件快速传输到手机
 
 ## 依赖和前提条件
-- Python / pip
+- Telegram Bot Token
+- 目标聊天 ID 或群组 ID
+- tsend CLI 工具
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -39,7 +50,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---

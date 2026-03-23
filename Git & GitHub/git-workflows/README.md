@@ -1,34 +1,36 @@
 # Git Workflows
 
-> Advanced git operations beyond add/commit/push. Use when rebasing, bisecting bugs, using worktrees for parallel development, recovering with reflog, managing subtrees/submodules, resolving merge conflicts, cherry-picking across branches, or working with monorepos.
+> 超越基础 add/commit/push 的 Git 高级操作指南，涵盖交互式 Rebase、Bisect 调试、Worktree 并行开发、Reflog 恢复等。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Git Workflows |
 | **作者** | gitgoodordietrying |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/gitgoodordietrying-git-workflows |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/git-workflows |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Cleaning up commit history before merging (interactive rebase)
-- Finding which commit introduced a bug (bisect)
-- Working on multiple branches simultaneously (worktree)
-- Recovering lost commits or undoing mistakes (reflog)
-- Managing shared code across repos (subtree/submodule)
-- Resolving complex merge conflicts
+- 交互式 Rebase：合并提交（squash/fixup）、重排序、拆分提交、autosquash
+- Bisect 二分查找：手动或自动化定位引入 Bug 的提交
+- Worktree 工作树：同时在多个分支上并行开发，无需频繁切换
+- Reflog 恢复：从误操作中恢复丢失的提交和分支
+- Subtree/Submodule 管理：跨仓库共享和管理代码
+- 复杂合并冲突解决策略
+- Cherry-pick 跨分支或跨 Fork 移植提交
+- Sparse Checkout 稀疏检出：大型 Monorepo 部分克隆
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在合并 PR 前清理提交历史（合并修复提交、重排序、编辑消息）
+- 使用 bisect 精确定位是哪个提交引入了某个 Bug
+- 同时在 hotfix 和 feature 分支上工作而不丢失当前进度
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- `git`：需要安装 Git
+- 支持 Linux、macOS、Windows
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

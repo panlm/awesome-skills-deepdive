@@ -1,6 +1,6 @@
 # Critpt Solver
 
-> Validates and executes Python solutions for CritPt benchmark problems. Use when the user asks to check a generated solution or run a test case.
+> 关键点问题求解工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,15 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wanng-ide/critpt-solver |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Validates and executes Python solutions for CritPt benchmark problems
+- Use when the user asks to check a generated solution or run a test case
+- 支持数据跟踪和记录
+
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 分析和求解关键路径问题
+- 优化决策点的解决方案
+- 提供问题分析的结构化方法
 
 ## 依赖和前提条件
 - Python / pip
@@ -27,7 +32,7 @@
 - `package.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

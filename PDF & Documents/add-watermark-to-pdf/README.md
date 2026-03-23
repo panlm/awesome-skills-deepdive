@@ -1,6 +1,6 @@
 # Add watermark to PDF
 
-> Add a text watermark to one or multiple PDFs by uploading them to the Solutions API, polling until completion, then returning download URL(s) for the watermarked PDF(s) (or a ZIP if multiple).
+> 通过 Solutions API 为 PDF 文件批量添加文本水印
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 1+ PDF file(s)
-- Watermark text (string) used as `text`
-- A Solutions API key (Bearer token)
-- Register / get key: https://login.cross-service-solutions.com/register
+- 支持一次处理多个 PDF 文件
+- 自定义水印文本内容
+- 异步任务处理：上传后轮询获取结果
+- 多文件处理时自动打包为 ZIP 下载
+- 通过 REST API 实现完全自动化
+- 提供 Python CLI 脚本便于集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为公司机密 PDF 文件批量添加"机密"水印标识
+- 在合同文件上添加公司名称水印防止未授权使用
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Bearer Token
+- Python 运行环境
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -51,6 +54,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

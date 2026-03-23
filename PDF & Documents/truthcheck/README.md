@@ -1,6 +1,6 @@
 # TruthCheck
 
-> "Verify claims, fact-check content, check URL trustworthiness, and trace claims to their origin using the TruthCheck CLI. Use when: (1) user asks to fact-check or verify a claim, (2) user wants to check if a URL/source is trustworthy, (3) user wants to trace where a claim originated, (4) user asks about misinformation or content verification. Requires: pip install truthcheck"
+> 事实核查和信息验证工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Returns TruthScore 0-100 with breakdown (publisher, content, corroboration, fact-checks)
-- `--llm` is optional but improves accuracy
-- Add `--json` for structured output
-- Detects hallucinated URLs that don't exist
-- Rates publisher credibility
-- Finds original source and builds propagation tree
+- 自动检查陈述的真实性
+- 多源信息交叉验证
+- 可信度评分分析
+- 核查结果报告生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 对新闻报道中的关键说法进行事实核查
+- 验证社交媒体上传播信息的真实性
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python pip
+- OpenAI API
+- Anthropic API
+- Google API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

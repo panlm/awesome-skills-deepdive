@@ -1,6 +1,6 @@
 # Donotify Voice Call Reminder
 
-> Send immediate voice call reminders or schedule future calls via DoNotify.
+> 语音电话提醒和通知工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- network:outbound
-- DONOTIFY_API_TOKEN
 - Header: `Authorization: Bearer $DONOTIFY_API_TOKEN`
 - Header: `Accept: application/json`
 - Base URL: `$DONOTIFY_URL` (default: `https://donotifys.com`)
-- `title` (required, string, max 255) — What the call is about. This is spoken aloud.
+- When the user says "call me now about X" or "remind me right now about X", use the Call Now endpoint
+- When the user says "remind me at [time] about X" or "call me at [time] for X", use the Schedule Reminder endpoint. Convert the user's natural language time to ISO 8601 for `call_at`
+- When the user asks "how many reminders do I have left" or "check my usage", use the Usage endpoint
+- Always check usage first if you're unsure whether the user has remaining notifications
+- If `phone_number_set` is `false`, tell the user to set their phone number at their DoNotify profile page before placing calls
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 通过语音电话发送重要提醒
+- 设置定时语音通知
+- 管理语音提醒的联系人列表
 
 ## 依赖和前提条件
 - API Key
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `package.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

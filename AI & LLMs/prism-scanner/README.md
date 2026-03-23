@@ -1,6 +1,6 @@
 # Prism Scanner
 
-> Instant rug pull detection for any token. Holder concentration, liquidity locks, contract risks. DYOR before you ape. Works with AI agents.
+> 即时检测加密货币 Rug Pull 风险，扫描持有者集中度、流动性锁定和合约安全
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,20 +12,28 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/prism-scanner |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 即时检测加密货币代币的 Rug Pull 风险
+- 分析代币持有者集中度和分布情况
+- 检查流动性锁定状态和合约安全性
+- 识别仿冒代币和山寨币诈骗
+- 支持 Solana 和 EVM 链上代币扫描
+- 提供 0-100 风险评分和分级评估
+- 支持通过合约地址或代币符号查询
+- 输出 JSON 格式结果，便于自动化集成
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在购买新代币前快速进行安全审查，避免 Rug Pull 损失
+- 构建自动化交易机器人时集成风险检测模块
+- 对加密货币投资组合中的代币进行批量安全扫描
 
 ## 依赖和前提条件
+- Bash/Shell 环境
 - API Key
+- 环境变量 `PRISM_API_KEY`
+- 环境变量 `PRISM_URL`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `skill.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -44,4 +52,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

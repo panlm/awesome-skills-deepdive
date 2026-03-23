@@ -1,6 +1,6 @@
 # PaddleOCR Document Parsing
 
-> Complex document parsing with PaddleOCR. Intelligently converts complex PDFs and document images into Markdown and JSON files that preserve the original structure.
+> 基于 PaddleOCR 的文档解析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,25 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- PADDLEOCR_DOC_PARSING_API_URL
-- PADDLEOCR_ACCESS_TOKEN
-- PADDLEOCR_DOC_PARSING_TIMEOUT
-- Documents with tables (invoices, financial reports, spreadsheets)
-- Documents with mathematical formulas (academic papers, scientific documents)
-- Documents with charts and diagrams
+- 使用 PaddleOCR 引擎进行高精度文字识别
+- 支持复杂版式文档解析
+- 表格识别和结构化提取
+- 支持中英文混合文档处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 解析复杂版式的扫描文档提取结构化数据
+- 识别文档中的表格并转换为结构化格式
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Python pip
+- Python 依赖包
+- LaTeX
+- GitHub API
+- PaddleOCR
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -50,6 +53,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，4 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

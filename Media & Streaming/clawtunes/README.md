@@ -1,6 +1,6 @@
 # clawtunes
 
-> Control Apple Music on macOS via the `clawtunes` CLI (play songs/albums/playlists, control playback, volume, shuffle, repeat, search, catalog lookup, AirPlay, and playlist management). Use when a user asks to play music, search for songs, control audio playback, or manage Apple Music settings.
+> OpenClaw 音乐播放和管理插件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -14,16 +14,18 @@
 
 ## 功能概述
 - Install (Homebrew): `brew install forketyfork/tap/clawtunes`
-- macOS-only; requires Apple Music app.
+- macOS-only; requires Apple Music app
 - Play a song: `clawtunes play song "Song Name"`
 - Play an album: `clawtunes play album "Album Name"`
 - Play a playlist: `clawtunes play playlist "Playlist Name"`
 - Always use the `--non-interactive` (`-N`) flag to prevent interactive prompts: `clawtunes -N play song "Song Name"`
+- If the command exits with code 1 and lists multiple matches, retry with a more specific song/album/playlist name
+- If a more specific name still returns multiple matches, use the `--first` (`-1`) flag to auto-select the first result: `clawtunes -1 play song "Song Name"`
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 播放和管理本地音乐库
+- 创建和编辑播放列表
+- 集成音乐流媒体服务
 
 ## 依赖和前提条件
 - macOS
@@ -33,7 +35,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

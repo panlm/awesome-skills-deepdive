@@ -1,34 +1,37 @@
 # Disposable Email For Agents
 
-> Disposable email inboxes for AI agents. Create a temporary email address, receive emails, read messages, and download attachments — all through MCP tools. Inboxes auto-delete after 24 hours.
+> 为 AI 智能体提供一次性邮箱服务，可创建临时邮件地址用于注册、验证等场景
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Disposable Email For Agents |
 | **作者** | prashantrohilla-max |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/prashantrohilla-max-disposable-email-for-agents |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/prashantrohilla-max/disposable-email-for-agents |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `address` (string): The inbox email address
-- `address` (string): The inbox email address
-- `message_id` (string): The message ID
-- `address` (string): The inbox email address
-- `message_id` (string): The message ID
-- `filename` (string): The attachment filename
+- 即时创建临时邮件地址
+- 接收和读取邮件内容
+- 自动提取验证码和确认链接
+- 邮箱到期自动销毁
+- 支持多个临时邮箱并行使用
+- 无需注册真实邮箱账号
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体自动注册网站账号时的邮箱验证
+- 测试邮件发送功能时的接收端
+- 保护隐私避免暴露真实邮箱地址
 
 ## 依赖和前提条件
-- Node.js / npm
+- OpenClaw 环境已配置
+- 一次性邮箱服务 API 访问权限
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

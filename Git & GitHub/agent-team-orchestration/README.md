@@ -1,34 +1,35 @@
 # Agent Team Orchestration
 
-> "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff protocols, and review workflows. Use when: (1) Setting up a team of 2+ agents with different specializations, (2) Defining task routing and lifecycle (inbox → spec → build → review → done), (3) Creating handoff protocols between agents, (4) Establishing review and quality gates, (5) Managing async communication and artifact sharing between agents."
+> 编排多代理团队，定义角色分工、任务生命周期、交接协议和审查工作流
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Agent Team Orchestration |
 | **作者** | arminnaimi |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/arminnaimi-agent-team-orchestration |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arminnaimi/agent-team-orchestration |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Task ID and description
-- Output path for artifacts
-- Handoff instructions (what to produce, where to put it)
-- Orchestrator owns state transitions — don't rely on agents to update their own status
-- Every transition gets a comment (who, what, why)
-- Failed is a valid end state — capture why and move on
+- 定义多代理团队角色：编排者（Orchestrator）、构建者（Builder）、审查者（Reviewer）、运维者（Ops）
+- 管理任务生命周期流转：收件箱 → 已分配 → 进行中 → 审查 → 完成/失败
+- 规范代理间交接协议，包含工作总结、产出路径、验证方式和已知问题
+- 建立跨角色审查机制，防止质量漂移
+- 提供参考文档：团队搭建、任务流程、通讯协议、常见模式
+- 识别并规避常见陷阱：产出路径不明确、跳过审查、进度沉默等
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 搭建 2 人以上的多代理协作团队，每个代理有明确的专业分工
+- 设计复杂任务的多步骤工作流，如规格→构建→测试→审查
+- 建立代理间的异步通信和产出共享机制
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- 需要能够创建和管理多个代理实例的环境
+- 建议使用高推理能力模型作为编排者和审查者
+- 参考文档位于 `references/` 目录下
+
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

@@ -1,6 +1,6 @@
 # Humanizer
 
-> >
+> 检测并消除 AI 生成文本的痕迹，使文本更自然、更像人类撰写
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,35 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Tier 1 (Dead giveaways): 50+ words that appear 5-20x more in AI text. Always flagged. Examples: *delve, tapestry, vibran
-- Tier 2 (Suspicious in density): 80+ words flagged when 2+ appear. Examples: *furthermore, paradigm, holistic, utilize, f
-- Tier 3 (Context-dependent): 60+ words flagged only at >3% density. Examples: *significant, effective, unique, compelling
-- Phrases: 80+ multi-word patterns. Examples: *"In today's digital age"*, *"plays a crucial role"*, *"serves as a testamen
-- Vary sentence length (short, then long, then short)
-- Have opinions and take stances
+- 识别 24 种 AI 写作模式，使用 500+ 词汇表进行检测
+- 运用统计文本分析：突发性、类型-标记比率、可读性指标
+- 提供三种模式：评分（score）、完整分析（analyze）、自动修正（humanize）
+- 基于维基百科 AI 写作特征和 Copyleaks 风格指纹研究开发
+- 可作为 OpenClaw Skill 或独立 CLI 工具使用
+- 支持批量处理文件和管道输入
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在发布前检查文本是否存在明显的 AI 写作痕迹
+- 自动修正 AI 生成内容中的模式化表达，提升文本自然度
+- 为内容团队提供 AI 文本检测评分工具
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js >= 18
+- npm（`npm install` 安装依赖）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `assets`
-- `docs`
-- `eslint.config.js`
-- `package.json`
-- `references`
-- `scripts`
-- `src`
-- `tests`
-- `vitest.config.js`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -60,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,35 +1,33 @@
 # NEAR Agent Skills
 
-> Comprehensive agentic skills for NEAR Protocol, including gas optimization and on-chain analytics.
+> NEAR 生态 Agent 技能集合
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | NEAR Agent Skills |
 | **作者** | mastrophot |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/mastrophot-near-agent-skills |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mastrophot/near-agent-skills |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `near_gas_estimate`: Estimate TGas for a transaction.
-- `near_gas_optimize`: Get specific optimization tips for a contract.
-- `near_gas_history`: View historical gas trends for an account.
-- `near_gas_compare`: Compare NEAR costs to Ethereum (L1).
-- `near_analytics_network`: Real-time network health and throughput.
-- `near_analytics_whales`: Detection of high-value transactions.
+- NEAR 区块链操作工具
+- NEAR 生态集成功能
+- 链上数据查询
+- NEAR 钱包管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 在 NEAR 区块链生态中使用 Agent 技能
+- 管理和操作 NEAR 链上资产和数据
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `molthub.json`
@@ -54,6 +52,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

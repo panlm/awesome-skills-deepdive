@@ -1,6 +1,6 @@
 # aisa financial data api
 
-> "Query real-time and historical financial data across equities and crypto—prices, market moves, metrics, and trends for analysis, alerts, and reporting."
+> 查询股票和加密货币的实时及历史金融数据，包括价格、市场动态、指标和趋势，用于分析、预警和报告。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `ticker`: Stock symbol (required)
-- `interval`: `second`, `minute`, `day`, `week`, `month`, `year` (required)
-- `interval_multiplier`: Multiplier for interval, e.g., 5 for 5-minute bars (required)
-- `start_date`: Start date YYYY-MM-DD (required)
-- `end_date`: End date YYYY-MM-DD (required)
+- 一个 API 密钥即可访问股票和加密货币全部市场数据
+- 支持跨资产组合查询（BTC、ETH 与 AAPL、NVDA 等同时获取）
+- 提供投资研究所需的完整数据链（价格趋势、内幕交易、分析师评估、SEC 文件）
+- 实时加密货币价格追踪与 30 天历史图表
+- 上市公司财报分析和分析师预估对比
+- 市场筛选功能（按 P/E 比率、营收增长等指标过滤）
+- 大户交易（鲸鱼）监控及与价格走势的关联分析
+- 支持灵活的时间间隔查询（秒、分钟、日、周、月、年）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为自主 AI Agent 提供完整的市场数据支持，实现自动化投资决策
+- 进行全面的公司基本面分析，结合内幕交易和 SEC 文件数据
+- 构建量化交易策略所需的多时间框架数据获取管道
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 需要 `curl` 和 `python3`
+- 需要 `AISA_API_KEY` 环境变量
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,8 +45,5 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

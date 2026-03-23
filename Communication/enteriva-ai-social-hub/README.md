@@ -1,23 +1,36 @@
 # Enteriva
 
-> Enteriva skill for OpenClaw
+> AI 驱动的社交媒体管理中心，集中管理多平台社交账号和内容发布
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Enteriva |
 | **作者** | mehserdar |
+| **版本** | 1.0.4 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/mehserdar-enteriva-ai-social-hub |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mehserdar/enteriva-ai-social-hub |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 多社交平台账号集中管理
+- AI 辅助内容创作与发布
+- 社交媒体数据分析与洞察
+- 定时发布和内容排期
+- 互动消息统一管理
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 品牌和企业的多平台社交媒体运营
+- 内容创作者的社交账号统一管理
+- 社交媒体营销活动管理
+
+## 依赖和前提条件
+- OpenClaw 环境已配置
+- 社交媒体平台 API 凭据
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `skill.md`
 

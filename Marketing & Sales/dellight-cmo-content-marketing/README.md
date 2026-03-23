@@ -1,34 +1,32 @@
 # DELLIGHT CMO Content Marketing
 
-> CMO reports to CRO (Reign), dotted line to CEO (Arthur Dell).
+> CMO 级别内容营销策略工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | DELLIGHT CMO Content Marketing |
 | **作者** | arthurelgindell |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/arthurelgindell-dellight-cmo-content-marketing |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arthurelgindell/dellight-cmo-content-marketing |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Short-form video (60-90s) — highest engagement
-- Carousel posts — educational content
-- Text posts with hook — thought leadership
-- Long-form video (3-5min) — deep dives, demos
-- WaveSpeed API (v3): Image/video generation (700+ models)
-- ElevenLabs: Voice synthesis, Arthur voice clone
+- 内容营销战略规划
+- 营销预算分配建议
+- 内容效果 ROI 分析
+- 竞品内容策略分析
 
 ## 使用场景
-- SEO 优化和内容创建
-- 内容营销策略执行
-- 搜索排名分析和优化
+- 制定 CMO 级别的年度内容营销战略
+- 分析内容营销的 ROI 并优化策略
 
 ## 依赖和前提条件
-- Node.js / npm
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；持久化机制：涉及定时或后台任务
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

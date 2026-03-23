@@ -1,35 +1,40 @@
 # Microsoft 365
 
-> Microsoft 365 integration for Outlook, Calendar, Contacts, and OneDrive via Microsoft Graph API. Supports reading/sending emails, managing calendar events, and accessing files.
+> Microsoft 365 全面集成，连接 Outlook 邮箱、日历、联系人和 OneDrive 云存储
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Microsoft 365 |
 | **作者** | robert-janssen |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/robert-janssen-microsoft365 |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/robert-janssen/microsoft365 |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Lokaal: Alle tokens worden lokaal opgeslagen in `tokens.json`.
-- Transparant: De code is open source en maakt directe calls naar Microsoft Graph.
-- Geen externe proxy: Gebruikt de Device Code Flow, direct tussen uw machine en Microsoft.
-- Name: `MyOpenClawIntegratie` (of iets anders)
-- Supported account types: Accounts in any organizational directory (Any Azure AD directory - Multitenant) and personal Mi
-- Redirect URI: Laat leeg (niet nodig voor Device Code Flow).
+- Outlook 邮件收发和管理
+- 日历事件创建和查询
+- 联系人信息访问和管理
+- OneDrive 文件上传和下载
+- 邮件搜索和过滤
+- 日历提醒和冲突检测
+- 共享日历和文件夹管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 助手自动读取和回复 Outlook 邮件
+- 通过语音指令创建日历事件和设置提醒
+- 智能整理 OneDrive 文件并与团队共享
 
 ## 依赖和前提条件
-- Node.js / npm
+- Microsoft 365 订阅账户
+- Azure AD 应用注册和 OAuth 认证
+- Microsoft Graph API 权限配置
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `index.js`
@@ -51,7 +56,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，5 项中风险。凭证获取：需要多种敏感凭证
 
 ---

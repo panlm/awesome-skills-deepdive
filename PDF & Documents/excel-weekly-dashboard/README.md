@@ -1,6 +1,6 @@
 # Excel weekly dashboards at scale
 
-> Designs refreshable Excel dashboards (Power Query + structured tables + validation + pivot reporting). Use when you need a repeatable weekly KPI workbook that updates from files with minimal manual work.
+> 自动生成 Excel 周报数据看板
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Build me a Power Query pipeline for this file so it refreshes weekly with no manual steps.
-- Turn this into a structured table with validation lists and clean data entry rules.
-- Create a pivot-driven weekly dashboard with slicers for year and ISO week.
-- Fix this Excel model so refresh does not break when new columns appear.
-- Design a reusable KPI pack that updates from a folder of CSVs.
-- DO NOT USE WHEN…
+- 自动创建周报格式的 Excel 文件
+- 数据可视化图表和仪表盘
+- 支持自定义数据指标
+- 模板化报告生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每周自动生成团队工作数据报表
+- 创建项目进度的可视化周报看板
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `assets`
@@ -46,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。文件系统篡改：存在文件系统操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

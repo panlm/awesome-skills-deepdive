@@ -1,31 +1,32 @@
 # Business Development
 
-> "Partnership outreach, market research, competitor analysis, and proposal generation. Transform your AI agent into a strategic business development partner that identifies and cultivates growth opportunities."
+> 商业开发和业务拓展工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Business Development |
 | **作者** | oyi77 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/oyi77-business-development |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/oyi77/business-development |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Target markets: [Industries/Geographies]
-- Partnership types: [Integration/Reseller/Co-marketing/etc.]
-- Competitor watch list: [Key competitors]
-- Proposal templates: [Location]
-- Company: [Name]
-- Website: [URL]
+- 商机发现和评估
+- 业务拓展策略制定
+- 合作伙伴管理
+- 市场机会分析
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 系统化管理商业开发和业务拓展流程
+- 识别和评估新的市场机会和合作伙伴
+
+## 依赖和前提条件
+- Google API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -46,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

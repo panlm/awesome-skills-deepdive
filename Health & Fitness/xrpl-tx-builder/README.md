@@ -1,6 +1,6 @@
 # XRPL Transaction Builder
 
-> Build and sign XRP Ledger transactions. Use for: (1) Creating payment transactions, (2) Building NFT mint/burn transactions, (3) Signing with Xaman wallet, (4) Submitting to XRPL.
+> XRPL 交易构建工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -17,13 +17,11 @@
 - Address: Classic r-address (starts with 'r')
 - Destination Tag: Optional memo for payments
 - Flags: Transaction-specific options (see XRPL docs)
-- `wss://xrplcluster.com` (public)
-- `wss://s1.ripple.com` (Ripple)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 构建和提交 XRP Ledger 交易
+- 管理 XRPL 账户和密钥
+- 查询 XRPL 链上数据和状态
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -32,7 +30,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

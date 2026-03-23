@@ -1,36 +1,37 @@
 # Apple Mail Search Safe (fruitmail)
 
-> "Apple Mail search on macOS with fast metadata and full body lookup. Use for finding messages in Mail.app by subject/sender/recipient/date, opening messages, and reading full body text. "
+> macOS Apple Mail 邮件搜索工具，支持快速元数据检索和全文内容查找
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Apple Mail Search Safe (fruitmail) |
 | **作者** | gumadeiras |
+| **版本** | 5.0.4 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/gumadeiras-apple-mail-search-safe |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gumadeiras/apple-mail-search-safe |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Database: `~/Library/Mail/V{9,10,11}/MailData/Envelope Index`
-- Query method: SQLite (read-only) + AppleScript (body content)
-- Safety: Read-only mode prevents modification; optional `--copy` mode available
-- macOS only — queries Apple Mail.app's local database
-- Read-only — can search/read but cannot compose/send
-- To send emails: Use the `himalaya` skill (IMAP/SMTP)
+- 搜索 Apple Mail 邮箱中的邮件
+- 支持元数据快速检索（发件人、主题、日期等）
+- 全文内容搜索能力
+- 安全的只读访问模式
+- 搜索结果格式化输出
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 macOS 上快速查找特定邮件内容
+- 智能体辅助用户检索历史邮件信息
+- 邮件归档中的关键信息定位
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
-- 数据库
+- macOS 系统环境
+- Apple Mail 已配置邮箱账号
+- 授予 Apple Mail 数据访问权限
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

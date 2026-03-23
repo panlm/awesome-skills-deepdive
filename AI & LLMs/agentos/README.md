@@ -1,6 +1,6 @@
 # AgentOS SDK for Clawdbot
 
-> **Version:** 1.4.4
+> 完整的 AgentOS SDK 集成，提供仪表盘同步、记忆持久化和项目管理功能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Memory (CONTEXT.md, daily notes, project compartments, learnings, heartbeat status)
-- Projects tab (Activity + Tasks + Ideas + Changelog + Challenges) by syncing from per-project markdown files
-- CONTEXT.md — Your working memory/current state (MUST include active conversation state)
-- Daily notes — Today's activity log (`memory/daily/YYYY-MM-DD.md`)
-- Project compartments — `memory/projects/.md`
-- Heartbeat status — Last sync timestamp, active status
+- 在心跳期间自动同步代理状态到 AgentOS Brain Dashboard
+- 支持记忆持久化：上下文文件、每日笔记、项目分区、学习记录
+- 提供 Golden Sync 同步模式，同时更新记忆和项目标签页
+- 维护对话状态在 CONTEXT.md 中，确保会话连续性
+- 支持项目管理：活动、任务、创意、变更日志、挑战
+- 提供 CLI 工具 `aos` 进行快捷同步操作
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让用户通过 Brain Dashboard 实时监控 AI 代理的活动状态
+- 跨会话保持代理的对话上下文和工作记忆
+- 管理多项目的进度追踪和状态汇报
 
 ## 依赖和前提条件
-- API Key
-- OAuth
+- AgentOS 账号（brain.agentos.software）
+- `agentos-golden-sync.sh` 或 `aos` CLI 工具
+- OpenClaw / Clawdbot 环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +49,4 @@
 **风险摘要:** 存在 3 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

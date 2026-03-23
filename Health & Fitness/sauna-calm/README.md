@@ -1,6 +1,6 @@
 # Sauna Calm
 
-> Calm frustrated users with breathing exercises and Sauna.ai reminders
+> 桑拿放松和冥想引导工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -14,16 +14,21 @@
 
 ## 功能概述
 - "this isn't working"
+- "can you do"
 - "I need you to"
+- "I want to"
+- "next we are"
 - "I'm frustrated"
 - "this is annoying"
 - "I can't figure this out"
-- "why won't this work"
 
 ## 使用场景
-- 记录和跟踪锻炼
-- 制定训练计划
-- 分析运动表现
+- 提供桑拿放松和冥想引导
+- 管理桑拿时间和温度计划
+- 跟踪放松活动的历史记录
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
@@ -32,7 +37,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

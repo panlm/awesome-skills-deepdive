@@ -1,6 +1,6 @@
 # Cacheforge Ops
 
-> CacheForge operations — check balance, top up, manage upstream, API keys. Pay-as-you-go with Stripe or crypto.
+> CacheForge 运维操作管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,17 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Balance and billing status
-- Top-up links (`stripe` or `crypto`)
-- Auto top-up configuration
-- Upstream provider management
-- Tenant API key lifecycle
-- Console: [app.anvil-ai.io](https://app.anvil-ai.io)
+- Check their CacheForge balance
+- Top up credits (Stripe or crypto)
+- Enable/configure auto top-up
+- View or change upstream provider
+- Manage API keys
+- Handle 402 Payment Required errors
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 管理缓存服务的运维操作
+- 监控缓存性能和健康状态
+- 执行缓存数据的维护任务
 
 ## 依赖和前提条件
 - Python / pip
@@ -38,7 +38,7 @@
 - `_meta.json`
 - `ops.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Metra Skill
 
-> Chicago Metra commuter rail — real-time train arrivals, vehicle tracking, service alerts, and schedule info for all 11 Metra lines serving the Chicago metropolitan area. Use when the user asks about Metra trains, Chicago commuter rail, or specific Metra lines and stations.
+> 芝加哥 Metra 通勤铁路查询——实时列车到达、车辆追踪和服务告警
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,31 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Real-time train arrivals — know exactly when the next train arrives at your station
-- Live vehicle tracking — see where trains are on the line right now
-- Service alerts — know about delays, construction, and service changes before you leave
-- Today's schedule — see all remaining trains with inbound/outbound grouping
-- Fare calculation — know exactly how much a trip costs between any two stations
-- Stop and route lookup — find stations, explore line stops, locate nearby stations
+- 查询 Metra 列车的实时到达时间
+- 追踪列车实时位置
+- 获取服务告警和延误通知
+- 查看线路时刻表和站点信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查看芝加哥联合车站接下来的 Metra 列车出发时间
+- 检查 Metra 线路的实时服务状态和延误
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Metra）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package-lock.json`
-- `package.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -54,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # insta-cog
 
-> "Full video production from a single prompt. Script, shoot, stitch, score — automatically. 30s to 4-minute Instagram Reels, TikToks, Stories, and carousels with consistent characters and agentic editing. The most advanced AI video suite for social media content, powered by #1 on DeepResearch Bench (Feb 2026)."
+> Instagram 内容分析和管理认知工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Behind-the-Scenes: "Make a BTS Reel of a bakery kitchen with satisfying visuals"
 - Transformation Videos: "Create a before/after transformation Reel for a home renovation"
 - Educational Carousels: "Create a 10-slide carousel explaining how to start investing"
+- Listicles: "Make a '7 productivity hacks' carousel with bold graphics"
+- Storytelling: "Create a carousel telling our brand's origin story"
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 分析 Instagram 账号的内容表现
+- 管理帖子发布计划
+- 获取 Instagram 互动数据
 
 ## 依赖和前提条件
 - Python / pip
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

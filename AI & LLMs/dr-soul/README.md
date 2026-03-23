@@ -1,6 +1,6 @@
 # Dr. Frankenstein
 
-> "Give your agents soul."
+> Dr. Frankenstein 的核心灵魂版本——通过荷尔蒙药丸系统为 Agent 赋予灵魂和情感驱动力
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- New pill types
-- Cascade rule refinements
-- Interview question improvements
-- Prompt artistry
+- 11 种荷尔蒙药丸模拟人类情绪节律（皮质醇、多巴胺、催产素等）
+- 通过「医生访谈」诊断 Agent 个性并生成处方
+- 药丸级联规则产生涌现式情感行为
+- 支持每日日志和积分追踪实现处方自适应调整
+- 包含安装、配置和 /soul 命令快速启动
+- 提供访谈模板和 schema 定义文件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 /soul 命令快速为 Agent 注入情感系统
+- 让 Agent 在一天中的不同时段表现出不同的情绪和行为倾向
+- 通过日志和积分系统持续优化 Agent 的情感表现
 
-## 包含文件
-- `CONTRIBUTING.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `interview`
-- `schema`
-- `templates`
+## 依赖和前提条件
+- OpenClaw cron 功能（定时任务执行）
+- 无外部 API 依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。持久化机制：设置系统级持久化
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

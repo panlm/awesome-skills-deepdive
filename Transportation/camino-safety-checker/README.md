@@ -1,6 +1,6 @@
 # Safety Checker for a location
 
-> "Find 24-hour businesses, well-lit public areas, transit stations, police stations, and hospitals near any location for late night safety awareness."
+> 使用 Camino AI 查找 24 小时营业场所、照明区域、交通站点和警察局等安全地点
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Late night arrivals: Check what safety resources are near your hotel or Airbnb
-- Walking at night: Identify well-lit areas, open businesses, and emergency services along your path
-- Travel safety: Assess unfamiliar neighborhoods before visiting at night
-- Emergency awareness: Know where the nearest hospital and police station are located
-- Transit safety: Check what resources are near transit stops you'll be using late at night
+- 查找附近 24 小时营业的商户和场所
+- 定位照明良好的公共区域
+- 搜索最近的交通站点和警察局
+- 提供安全路线建议
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 深夜在陌生城市查找附近安全的公共场所
+- 规划夜间步行的安全路线
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Camino AI）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

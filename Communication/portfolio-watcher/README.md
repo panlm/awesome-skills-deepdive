@@ -1,31 +1,38 @@
 # Portfolio Watcher
 
-> Monitor stock/crypto holdings, get price alerts, track portfolio performance
+> 监控股票和加密货币持仓，获取价格警报，追踪投资组合表现
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Portfolio Watcher |
 | **作者** | jhillin8 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jhillin8-portfolio-watcher |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jhillin8/portfolio-watcher |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "check portfolio"
-- "crypto price"
-- "set price alert"
-- "portfolio performance"
-- US stocks (NYSE, NASDAQ)
-- Major cryptocurrencies
+- 实时监控股票和加密货币价格
+- 设置价格变动警报和阈值通知
+- 追踪投资组合整体收益和表现
+- 支持多种资产类型（股票、加密货币）
+- 生成持仓分析和收益报告
+- 计算投资组合盈亏比例
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日投资组合表现监控与汇报
+- 价格异常波动时即时预警
+- 定期生成投资收益分析报告
+
+## 依赖和前提条件
+- 配置持仓信息和资产列表
+- 金融数据 API 密钥（如行情接口）
+- 设置价格警报阈值
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

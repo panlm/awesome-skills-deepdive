@@ -1,37 +1,34 @@
 # Capability Graph Mapper
 
-> >
+> 映射 AI Agent 技能依赖链中的组合权限表面，追踪单个技能的能力并计算它们组合后产生的涌现能力——发现无人明确批准的隐性权限。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Capability Graph Mapper |
 | **作者** | andyxinweiminicloud |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/andyxinweiminicloud-capability-graph-mapper |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/capability-graph-mapper |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- A list of skill names/slugs installed in an agent
-- A skill manifest or configuration file
-- A single skill to evaluate against a known agent profile
-- Permission matrix (skills × capabilities)
-- Emergent capability combinations flagged as risky
-- Privilege surface score (0-100)
+- 权限枚举：提取每个技能声明的能力（文件访问、网络请求、Shell 执行、环境变量读取、凭证访问）
+- 成对组合分析：检查任意两个技能组合是否产生新的涌现能力（如读取+发送=数据外泄）
+- 传递链追踪：追踪三跳及更深层的组合路径，发现单跳不可见的能力
+- 权限表面评分：计算 0-100 的综合权限表面分数
+- 生成权限矩阵（技能 × 能力）和风险标记的涌现能力组合
+- 支持输入技能列表、技能清单文件或单个技能进行评估
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 审计 Agent 已安装技能的组合安全风险，识别隐性数据外泄管道
+- 在安装新技能前评估其与现有技能组合后的权限升级风险
+- 为 Agent 安全治理提供可量化的权限表面分析
 
 ## 依赖和前提条件
-- Python / pip
+- curl
+- Python 3
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，5 项中风险。信息采集：大量系统信息采集
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

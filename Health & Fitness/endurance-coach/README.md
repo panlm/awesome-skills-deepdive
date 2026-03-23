@@ -1,6 +1,6 @@
 # Endurance Coach
 
-> Create personalized triathlon, marathon, and ultra-endurance training plans. Use when athletes ask for training plans, workout schedules, race preparation, or coaching advice. Can sync with Strava to analyze training history, or work from manually provided fitness data. Generates periodized plans with sport-specific workouts, zones, and race-day strategies.
+> 耐力运动教练 — 铁三/马拉松/超跑个性化训练计划
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Goals and timeframes (immediate vs ultimate)
 - Coaching framework (how to interpret requests, what this athlete needs)
 - Prompt engineering guidance (language patterns, framing approaches)
+- Re-running multiple foundation queries (stats, foundation, training-load, hr-zones)
+- Re-conducting context interviews
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 制定个性化的铁人三项和马拉松训练计划
+- 同步 Strava 数据分析训练负荷和心率区间
+- 提供比赛日策略和恢复建议
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -34,7 +36,7 @@
 - `_meta.json`
 - `reference`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

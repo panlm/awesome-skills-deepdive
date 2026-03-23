@@ -1,36 +1,39 @@
 # iDRAC
 
-> |
+> 通过 iDRAC Redfish API 监控和管理 Dell PowerEdge 服务器（支持 iDRAC 8/9）。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | iDRAC |
 | **作者** | eddygk |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/eddygk-idrac |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/eddygk/idrac |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Check server hardware status, health, or temperatures
-- Query CPU, memory, storage/RAID details
-- Monitor system sensors (fans, voltage, thermal)
-- Perform power operations (status, on, off, graceful shutdown, force restart)
-- Check BIOS/firmware versions or system inventory
-- View system event logs (SEL) or lifecycle controller logs
+- 检查服务器硬件状态、健康状况和温度
+- 查询 CPU、内存、存储/RAID 详细信息
+- 监控系统传感器（风扇、电压、散热）
+- 执行电源操作（状态查询、开机、关机、优雅关闭、强制重启）
+- 检查 BIOS/固件版本和系统清单
+- 查看系统事件日志（SEL）和生命周期控制器日志
+- 获取硬件库存和序列号
+- 支持三种凭证来源：1Password、文件、环境变量
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 远程监控数据中心 Dell 服务器的运行状态和硬件健康
+- 在无法物理接触服务器时执行远程电源操作和故障排查
+- 定期巡检服务器固件版本和传感器数据
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- `curl`、`jq` 命令行工具
+- 可选：1Password CLI（`op`）用于凭证管理
+- 配置文件：`~/.config/idrac-skill/config`
+- 凭证来源需配置 `IDRAC_IP` 和认证信息
+- 支持 macOS 和 Linux
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +52,4 @@
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

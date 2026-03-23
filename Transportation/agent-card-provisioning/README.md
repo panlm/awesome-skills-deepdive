@@ -1,6 +1,6 @@
 # Agent Card Provisioning
 
-> Provision virtual payment cards for AI agents on-demand. Create single-use or limited cards with spending controls, merchant restrictions, and automatic expiration. Cards are issued instantly when policy allows.
+> 为 AI Agent 按需配置虚拟支付卡，支持一次性或多次使用的限额卡
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Cards are single-purpose (one intent = one card)
-- Unused cards auto-expire
-- Full PAN only via `get_sensitive` (requires auth)
-- All transactions logged and reconciled
+- 按需创建一次性或限额虚拟支付卡
+- 设置消费限额、有效期和商户类别限制
+- 实时查看卡片交易和余额
+- 支持自动关闭过期或超额卡片
+- 与主流支付网络集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 自动为在线采购任务生成一次性支付卡
+- 为订阅服务创建限额卡避免超额扣款
+- 批量管理多个 Agent 的支付卡配额
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- API Key
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -44,5 +44,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

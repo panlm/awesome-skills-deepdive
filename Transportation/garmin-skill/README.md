@@ -1,6 +1,6 @@
 # Garmin Skill
 
-> Talk to your Garmin data — ask questions about your activities, training load, VO2 Max, heart rate zones, and more using AI.
+> 与 Garmin 运动数据对话，查询活动记录、训练负荷、VO2 Max 等指标
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "How has my running volume changed this month?"
-- "What's my VO2 Max trend?"
-- "Am I overtraining based on my recent Garmin data?"
-- "Compare my cycling power this month vs last month"
-- "How's my sleep been this week?"
+- 查询 Garmin 设备记录的运动活动数据
+- 获取训练负荷和恢复状态指标
+- 查看 VO2 Max 和体能趋势
+- 分析运动表现和进步趋势
+- 支持自然语言查询运动数据
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询本周的跑步数据和训练负荷
+- 了解近期 VO2 Max 变化趋势
+- 分析过去一个月的运动表现数据
 
 ## 依赖和前提条件
-- API Key
+- Garmin Connect 账号、API Key
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +44,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

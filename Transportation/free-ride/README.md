@@ -1,6 +1,6 @@
 # Free Ride - Unlimited free AI
 
-> Manages free AI models from OpenRouter for OpenClaw. Automatically ranks models by quality, configures fallbacks for rate-limit handling, and updates openclaw.json. Use when the user mentions free AI, OpenRouter, model switching, rate limits, or wants to reduce AI costs.
+> 管理 OpenRouter 上的免费 AI 模型，自动排名和切换最优免费模型
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,34 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 💸 API costs add up fast
-- 🚫 Free models have rate limits
-- 😤 Manually switching models is annoying
-- 🤷 You don't know which free model is actually good
-- [OpenClaw](https://github.com/openclaw/openclaw) installed (Node ≥22)
-- Free OpenRouter account ([get key](https://openrouter.ai/keys))
+- 自动发现和排名 OpenRouter 上的免费 AI 模型
+- 根据性能指标自动切换最优模型
+- 管理免费模型的使用配额和限制
+- 支持多模型轮替以规避速率限制
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 零成本使用 AI 模型——自动选择最佳免费选项
+- 在免费配额用尽时自动切换到替代模型
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- OpenRouter 账号
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `main.py`
-- `requirements.txt`
-- `setup.py`
-- `skill.json`
-- `watcher.py`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -57,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

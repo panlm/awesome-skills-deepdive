@@ -1,6 +1,6 @@
 # llmfit
 
-> Detect local hardware (RAM, CPU, GPU/VRAM) and recommend the best-fit local LLM models with optimal quantization, speed estimates, and fit scoring.
+> 使用 LLM 优化健身计划和营养方案的智能助手
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "what local models can I run?"
-- "which LLMs fit my hardware?"
-- "recommend a local model"
-- "what's the best model for my GPU?"
-- "can I run Llama 70B locally?"
-- "configure local models"
+- 基于个人身体数据生成定制化健身计划
+- 提供 AI 驱动的营养建议和饮食方案
+- 跟踪和分析健身进展并调整计划
+- 支持多种健身目标：增肌、减脂、体能提升等
+- 提供运动动作指导和注意事项
+- 支持与健身数据源的集成
+- 基于科学研究的训练方法推荐
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据个人体质和目标生成专属健身训练计划
+- AI 营养师根据饮食记录提供膳食优化建议
+- 健身过程中实时调整训练强度和恢复策略
 
 ## 依赖和前提条件
-- Node.js / npm
-- Homebrew
+- LLM API 密钥
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

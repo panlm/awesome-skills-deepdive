@@ -1,35 +1,34 @@
 # Github MergeGuard AI
 
-> Analyze GitHub pull requests for security risks and determine if a PR is safe to merge.
+> 分析 GitHub Pull Request 的安全风险，判断 PR 是否可以安全合并
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Github MergeGuard AI |
 | **作者** | nerdvana-labs |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/nerdvana-labs-pr-risk-analyzer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nerdvana-labs/pr-risk-analyzer |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Check if a PR is safe to merge
-- Analyze a pull request
-- Scan a PR for security or risk
-- Review changes before deployment
-- Repository (owner/repo)
-- Pull request number
+- 评估 Pull Request 中的潜在安全风险（暴露密钥、大量代码变更、敏感文件修改等）
+- 提供风险评分和风险等级判定
+- 生成具体的问题清单和合并建议（安全合并 / 需要审查 / 高风险禁止合并）
+- 支持私有仓库（需提供 GitHub Token）
+- 通过外部分析服务（pr-risk-analyzer.onrender.com）进行 PR 分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在合并 PR 前快速进行安全风险扫描
+- 自动化代码审查流程中的安全检查环节
+- 评估大型或来自外部贡献者的 PR 的安全性
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- 需要提供仓库名（owner/repo）和 PR 编号
+- 私有仓库需要 GitHub Access Token
+- 需要网络访问 pr-risk-analyzer.onrender.com API
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # AI Brand Analyzer
 
-> Analyze brands to generate comprehensive brand identity profiles (JSON). Use when the user wants to analyze a brand, create a brand profile, or needs brand data for ad generation. Stores profiles for reuse across Ad-Ready, Morpheus, and other creative workflows. Can list existing profiles and update them.
+> 使用 AI 分析品牌并生成结构化品牌身份档案（JSON 格式）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- User asks to "analyze a brand" or "create a brand profile"
-- Before running Ad-Ready when the brand isn't in the catalog
-- When the user mentions a brand that doesn't have a profile yet
-- To update/refresh an existing brand profile
-- Brand website, corporate pages, official communications
-- Locks canonical data: name, founding, positioning, vision, mission, tagline
+- 通过 Google 搜索研究品牌的官方数据、营销活动和视觉形象
+- 使用 Gemini Flash 配合搜索落地功能进行品牌分析
+- 生成标准化 JSON 格式的品牌身份档案
+- 分析品牌行为模式、视觉风格、摄影风格和语调
+- 支持将档案存储并在 Ad-Ready 等创意工作流中复用
+- 可列出已有品牌档案并进行更新
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为广告创意生成前快速建立品牌身份档案
+- 分析竞争品牌的视觉风格和市场定位
+- 在多个创意工具间共享标准化品牌数据
 
 ## 依赖和前提条件
-- API Key
+- Gemini API Key（`GEMINI_API_KEY` 环境变量）
+- uv 包管理器（用于运行 Python 脚本）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

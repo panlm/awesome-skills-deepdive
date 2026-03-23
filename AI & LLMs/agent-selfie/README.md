@@ -1,6 +1,6 @@
 # Agent Selfie
 
-> AI agent self-portrait generator. Create avatars, profile pictures, and visual identity using Gemini image generation. Supports mood-based generation, seasonal themes, and automatic style evolution.
+> AI Agent 自拍头像生成器——使用 Google Gemini 创建个性化头像和视觉身份
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Personality-driven — Define your agent's visual identity with name, style, and vibe
-- Mood presets — happy, focused, creative, chill, excited, sleepy, professional, celebration
-- Theme presets — spring, summer, autumn, winter, halloween, christmas, newyear, valentine
-- Format options — avatar (1:1), banner (16:9), full body (9:16)
-- Batch generation — Generate multiple selfies at once with HTML gallery
-- Zero dependencies — Pure Python stdlib, no pip install needed
+- 个性驱动：通过名称、风格和氛围定义 Agent 视觉身份
+- 心情预设：happy、focused、creative、chill、excited 等 8 种
+- 主题预设：春夏秋冬四季及万圣节、圣诞节、新年等节日主题
+- 多种格式：头像（1:1）、横幅（16:9）、全身照（9:16）
+- 批量生成：一次生成多张自拍并输出 HTML 画廊
+- 零外部依赖：纯 Python 标准库实现
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI Agent 生成具有辨识度的个人头像用于社交平台
+- 根据季节和节日自动更新 Agent 的视觉形象
+- 批量生成不同心情和主题的 Agent 形象素材
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- Python 3.8+
+- GEMINI_API_KEY 环境变量（Google AI Studio 免费获取）
 
-## 包含文件
-- `HEARTBEAT.md`
-- `INSTALL.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -57,4 +48,4 @@
 **风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,32 +1,38 @@
 # Budget
 
-> Track agent spending, set budgets and alerts, and prevent surprise bills. Use when the agent needs to log expenses, check remaining budget, set spending limits, or get cost summaries. Essential for autonomous agents with real money.
+> 智能体开支追踪和预算管理工具，设置预算上限和告警机制，防止意外高额账单
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Budget |
 | **作者** | rogerscristo |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/rogerscristo-budget |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rogerscristo/budget |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Log transactions immediately after spending — don't batch them
-- Use `check` before any purchase to verify budget safety
-- Run `summary` at the start of each day for awareness
-- Set `--alert-threshold` to 25% of your total budget
+- 实时追踪智能体的 API 调用和服务开支
+- 设置预算上限和阶梯告警阈值
+- 超支自动告警和可选自动暂停
+- 按时间段生成开支报告和趋势分析
+- 支持多智能体和多服务的统一预算管理
+- 成本归因分析，定位高消耗环节
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 运维人员为 AI 智能体设置月度预算上限，防止费用失控
+- 团队管理者监控多个智能体的总体开支并优化成本
+- 开发者在测试阶段限制 API 调用费用
 
 ## 依赖和前提条件
-- Python / pip
+- 配置需要追踪的服务和 API 账户
+- 设定预算金额和告警规则
+- 配置通知渠道（邮件、消息等）
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`

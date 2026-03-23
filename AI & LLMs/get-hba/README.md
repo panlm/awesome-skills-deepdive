@@ -1,6 +1,6 @@
 # Get a clank.money Human Bitcoin Address
 
-> Agent-first service to register and manage Human Bitcoin Addresses (BIP-353) on clank.money with L402 bitcoin payments.
+> 通过 clank.money 服务获取人类验证的比特币地址
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `managementToken` is returned after successful paid registration (`201` or `202`).
-- You must save `managementToken` immediately and securely.
-- CRITICAL: If the token is lost, future updates to that address cannot be authenticated.
-- `POST https://clank.money/api/v1/registrations`
-- `GET https://clank.money/api/v1/registrations/{username}`
-- `PATCH https://clank.money/api/v1/registrations/{username}`
+- 连接 clank.money 平台获取经过人类验证的比特币地址
+- 为 AI 代理提供安全的加密货币交易地址获取方式
+- 支持地址验证和有效性检查
+- 提供人类身份关联的比特币地址映射
+- 支持 API 调用和命令行两种使用方式
+- 确保地址来源可追溯和可信
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 代理需要获取可信比特币地址进行交易操作
+- 构建去中心化应用时需要人类验证的加密货币地址
+- 自动化加密货币支付流程中的地址获取环节
 
 ## 依赖和前提条件
-- Python / pip
+- OpenClaw 运行环境
+- clank.money 账户
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

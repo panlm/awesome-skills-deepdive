@@ -1,35 +1,34 @@
 # Fork and Skill Scanner Ultimate
 
-> "Scan 1,000 GitHub forks per run. Surface the gold, skip the clones — fully automated."
+> 单次扫描 1000 个 GitHub Fork，发现有价值的变更和新兴趋势，并评估 ClawHub 热门 Skill
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Fork and Skill Scanner Ultimate |
 | **作者** | globalcaos |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/globalcaos-fork-and-skill-scanner-ultimate |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/globalcaos/fork-and-skill-scanner-ultimate |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Forks: Execute as part of your GitHub intelligence module; automate via cron.
-- Skills: Identify and explore top ClawHub skills.
-- Skill Code: Located in `scripts/`
-- Data & Logs: Track analysis in `data/`
-- Reports: Auto-generates in `Cron_Tasks/` with detailed insights.
-- Integrate learnings into day-to-day operations.
+- Bash 预筛选 1000 个 Fork，淘汰不活跃的仓库
+- 子代理扇出分析：将候选 Fork 分发到并行处理
+- Fork 扫描器按计划运行（周一/周四）
+- Skill 扫描器评估 10 个 Skill：按功能性、相关性和维护状态打分
+- 深入扫描顶级作者的其他 Skill
+- 自动生成包含详细洞察的报告到 `Cron_Tasks/` 目录
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 监控开源项目的 Fork 生态，发现社区中有价值的创新变更
+- 定期评估 ClawHub 上的热门 Skill，跟踪生态趋势
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- GitHub Token（访问 GitHub API）
+- Bash 环境
+- `gh` CLI（推荐）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

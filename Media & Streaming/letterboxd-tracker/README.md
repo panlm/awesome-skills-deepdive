@@ -1,6 +1,6 @@
 # letterboxd-companion
 
-> Your personal movie assistant. Track what you watch, check your lists, and get movie info from Letterboxd instantly.
+> Letterboxd 电影追踪和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,15 +13,15 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- User Stats: Get a user's watched count, reviews, lists, and favorite movies.
-- Diary: Fetch recently watched movies from a user's diary.
-- Watchlist: Retrieve movies from a user's watchlist.
-- Movie Details: Get information about a specific movie (directors, year, rating).
+- User Stats: Get a user's watched count, reviews, lists, and favorite movies
+- Diary: Fetch recently watched movies from a user's diary
+- Watchlist: Retrieve movies from a user's watchlist
+- Movie Details: Get information about a specific movie (directors, year, rating)
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 同步和管理 Letterboxd 观影列表
+- 追踪观影记录和评分
+- 发现新电影推荐
 
 ## 依赖和前提条件
 - Python / pip
@@ -33,7 +33,7 @@
 - `lb_tool.py`
 - `requirements.txt`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

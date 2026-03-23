@@ -1,6 +1,6 @@
 # Redshift
 
-> Manage application secrets with the Redshift CLI (https://redshiftapp.com) — decentralized, encrypted secret management built on Nostr. Use when setting, getting, deleting, listing, uploading, or downloading secrets, injecting secrets into commands, configuring projects/environments, or authenticating with Nostr keys. Covers redshift secrets, redshift run, redshift setup, redshift login, and related commands.
+> Redshift 数据仓库查询工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -17,13 +17,15 @@
 - Config/Environment (`-c`): an environment slug (e.g. `dev`, `staging`, `production`)
 - redshift.yaml: per-directory project config created by `redshift setup`
 - When `-p`/`-c` are omitted, Redshift reads from `redshift.yaml` in the current directory
-- Never pass secret values directly on the command line in shared/logged environments — prefer `redshift secrets set` inte
+- Never pass secret values directly on the command line in shared/logged environments — prefer `redshift secrets set` interactively or pipe from stdin
 - Use `REDSHIFT_NSEC` / `REDSHIFT_BUNKER` env vars for CI/CD rather than CLI flags
+- Avoid `redshift serve --host 0.0.0.0` unless you intend to expose the web UI to the network — default `127.0.0.1` is localhost-only
+- All encryption is client-side; secrets never leave the device unencrypted
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 执行 Amazon Redshift 数据查询
+- 管理数据仓库的表和视图
+- 优化数据查询的性能
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

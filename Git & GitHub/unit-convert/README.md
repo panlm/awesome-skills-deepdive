@@ -1,38 +1,36 @@
 # Unit Converter
 
-> "Comprehensive unit converter for length, weight, temperature, area, volume, speed, time, and data. Use when: (1) converting between measurement units, (2) calculating unit equivalencies, (3) working with different measurement systems, or (4) any unit conversion needs. Supports metric, imperial, and digital units."
+> 全面的单位换算工具，支持长度、重量、温度、面积、体积、速度、时间和数据存储等多种类别
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Unit Converter |
 | **作者** | ouyangabel |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/ouyangabel-unit-convert |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ouyangabel/unit-convert |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Convert between metric and imperial units
-- Calculate unit equivalencies
-- Work with different measurement systems
-- Convert digital storage sizes
-- Metric: mm, cm, m, km
-- Imperial: in, ft, yd, mi, inch, foot, yard, mile
+- 支持长度单位换算（厘米、米、英尺、英里、公里等）
+- 支持重量单位换算（克、千克、磅、盎司等）
+- 支持温度换算（摄氏度、华氏度、开尔文）
+- 支持面积单位换算（平方米、平方英尺、英亩等）
+- 支持体积单位换算（毫升、升、加仑等）
+- 支持速度和时间单位换算
+- 支持数据存储单位换算（字节、KB、MB、GB 等）
+- 提供单位列表查询和类别浏览功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 日常工作中需要在公制和英制单位之间快速转换
+- 开发过程中处理数据存储容量计算
+- 跨国协作时处理不同计量体系的换算
 
 ## 依赖和前提条件
-- Python / pip
+- `python3` 运行环境
+- 纯 Python 实现，无外部依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

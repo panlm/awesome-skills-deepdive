@@ -1,33 +1,34 @@
 # Brevo
 
-> Brevo (formerly Sendinblue) email marketing API for managing contacts, lists, sending transactional emails, and campaigns. Use when importing contacts, sending emails, managing subscriptions, or working with email automation.
+> Brevo (SendinBlue) 营销自动化工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Brevo |
 | **作者** | yujesyoga |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/yujesyoga-brevo |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/yujesyoga/brevo |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Contact added to list
-- Contact attribute updated
-- Email opened/clicked
-- Custom events via API
+- Brevo 邮件营销管理
+- 联系人列表操作
+- 邮件模板和活动管理
+- 营销自动化工作流
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 Brevo 平台管理邮件营销活动
+- 自动化 Brevo 中的客户触达流程
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- Brevo (SendinBlue)
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -47,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

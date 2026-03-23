@@ -1,23 +1,36 @@
 # Tpt Generate Cover
 
-> Tpt Generate Cover skill for OpenClaw
+> 为 Teachers Pay Teachers (TPT) 教育资源自动生成专业封面图
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Tpt Generate Cover |
 | **作者** | kakazhang50 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/kakazhang50-tpt-generate-cover |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kakazhang50/tpt-generate-cover |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 根据教育资源主题自动生成封面设计
+- 支持多种封面模板和风格选择
+- 自定义标题、副标题和配色方案
+- 输出符合 TPT 平台规格的图片
+- 批量生成多个资源的封面
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 教育内容创作者为 TPT 上架资源快速制作封面
+- 批量更新已有教学资源的封面设计
+- 非设计专业教师轻松创建专业级封面
+
+## 依赖和前提条件
+- TPT 卖家账户
+- 封面内容描述或模板偏好
 
 ## 包含文件
+- `README.md`
 - `SKILL.MD`
 - `_meta.json`
 

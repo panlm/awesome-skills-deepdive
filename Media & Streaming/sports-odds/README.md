@@ -1,6 +1,6 @@
 # Sports Odds
 
-> "Get live sports betting odds and compare lines across sportsbooks. Supports NFL, NBA, MLB, NHL, and more."
+> 体育赛事赔率查询和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `americanfootball_nfl` - NFL
-- `basketball_nba` - NBA
-- `baseball_mlb` - MLB
-- `icehockey_nhl` - NHL
-- `soccer_epl` - English Premier League
-- `soccer_usa_mls` - MLS
+- Cache responses to save API calls
+- Use `oddsFormat=american` or `oddsFormat=decimal` parameter
+- Free tier: 500 requests/month, paid plans available for more
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 获取实时体育赛事赔率数据
+- 分析赔率变化趋势
+- 比较多家博彩公司的赔率
 
 ## 依赖和前提条件
 - API Key
@@ -32,7 +29,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

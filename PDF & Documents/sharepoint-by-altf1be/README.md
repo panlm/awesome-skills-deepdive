@@ -1,6 +1,6 @@
 # SharePoint by altf1be
 
-> "Secure SharePoint file operations and Office document intelligence via Microsoft Graph API — certificate auth, Sites.Selected, read/write Word (mammoth), Excel (exceljs), PowerPoint (jszip), PDF (pdf-parse)."
+> SharePoint 文档管理和操作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- [Features](#features)
-- [Quick Start](#quick-start)
-- [Setup](#setup)
-- [Commands](#commands)
-- [Supported File Formats](#supported-file-formats)
-- [Security](#security)
+- SharePoint 文件读取和上传
+- 文档库管理操作
+- 权限和共享设置
+- 搜索和检索功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动将文件同步到 SharePoint 文档库
+- 从 SharePoint 检索和管理团队文档
 
 ## 依赖和前提条件
-- Node.js / npm
-- OAuth
+- Node.js
+- npm
+- GitHub API
+- X (Twitter) API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`
@@ -53,6 +53,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 4 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

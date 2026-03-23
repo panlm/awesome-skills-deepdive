@@ -1,6 +1,6 @@
 # Gmgn Base Tracker
 
-> Track tokens on Base chain via GMGN.AI. Covers Trenches (Almost Bonded & Migrated), Trending (1h), Discover (Smart Money, KOL, LIVE, Fresh Wallet, Sniper), and Monitor (Track Smart & KOL 1h). Use when users want to find trending tokens, discover new launches, follow smart money, or monitor KOL activity on Base chain.
+> 通过 GMGN.AI 追踪 Base 链上的代币动态，涵盖趋势、发现和监控功能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,38 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Always use web_search to fetch current, real-time data from GMGN.AI before responding.
-- Present data in clean, structured tables with clear metrics.
-- Always include clickable links to GMGN.AI and DexScreener for each token.
-- Highlight standout signals (e.g. large smart money inflows, high sniper activity, near-bonding tokens).
-- Add a brief analyst commentary after each table — what's notable, what to watch.
-- Never fabricate token data. If search returns no results, say so and suggest the user check GMGN directly.
+- 追踪 Base 链上的热门代币和新发行代币
+- 支持 Trenches（即将 Bonded 和已迁移代币）板块
+- 1 小时趋势代币排行榜
+- Discover 功能：Smart Money、KOL、LIVE、Fresh Wallet、Sniper 追踪
+- Monitor 功能：追踪 Smart Money 和 KOL 的交易活动
+- 通过 GMGN.AI 平台获取实时链上数据
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 发现 Base 链上的新兴热门代币和早期投资机会
+- 监控 Smart Money 和 KOL 的链上交易行为，跟踪大资金动向
+- 实时追踪新上线代币的流动性和交易量变化
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

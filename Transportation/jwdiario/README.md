@@ -1,6 +1,6 @@
 # Jwdiario
 
-> Buscar y obtener el texto diario de la página oficial de los Testigos de Jehová para la Librería Watchtower en español (wol.jw.org/es/). Utiliza web_fetch para acceder al contenido y extraer el texto del día actual. Use cuando se solicite el texto diario de JW o contenido bíblico diario de fuentes JW.
+> 从耶和华见证人官网搜索和获取每日经文内容（西班牙语）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,18 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "Texto diario de JW"
-- "Texto de hoy de JW"
-- "Buscar texto del día en JW"
-- "Mostrar lectura diaria de JW"
-- Siempre usar la versión en español de la página (wol.jw.org/es/).
-- No traducir el texto. El contenido debe extraerse directamente de la fuente en español, tal como aparece en la página of
+- 从 JW.org 获取每日经文和灵修内容
+- 支持按日期查询历史内容
+- 西班牙语内容获取和展示
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日获取当天的灵修经文内容
+- 查询特定日期的每日经文
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `main.js`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,5 +41,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # WiiM
 
-> Control WiiM audio devices (play, pause, stop, next, prev, volume, mute, play URLs, presets). Use when the user wants to control music playback, adjust volume, discover WiiM/LinkPlay speakers on the network, or play audio from a URL on a WiiM device.
+> WiiM 音箱控制工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,15 +13,14 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- The WiiM must be on the same local network as the machine running the CLI.
-- Discovery uses SSDP/UPnP — may not work across subnets/VLANs.
-- Spotify, AirPlay, and other streaming services are controlled from their own apps. Once playing on the WiiM, this CLI ca
-- `play-url` works with direct audio URLs (MP3, FLAC, M3U streams, etc.).
+- The WiiM must be on the same local network as the machine running the CLI
+- Discovery uses SSDP/UPnP — may not work across subnets/VLANs
+- Spotify, AirPlay, and other streaming services are controlled from their own apps. Once playing on the WiiM, this CLI can pause/play/skip/adjust volume
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 控制 WiiM 音箱的播放和设置
+- 管理 WiiM 多房间音频系统
+- 集成 WiiM 到智能家居场景
 
 ## 依赖和前提条件
 - Python / pip
@@ -30,7 +29,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # LLM Router Gateway
 
-> "Unified LLM Gateway - One API for 70+ AI models. Route to GPT, Claude, Gemini, Qwen, Deepseek, Grok and more with a single API key."
+> 统一 LLM 网关——一个 API 密钥访问 70+ AI 模型，支持路由到 GPT、Claude、Gemini、Qwen、Deepseek、Grok 等。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,22 +12,24 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bowen-dotcom/aisa-llm-router-skill |
 | **安全评级** | 🔴 High |
 
+## 功能概述
+- 通过单一 API 密钥访问 70+ 大语言模型
+- 支持 GPT、Claude、Gemini、Qwen、Deepseek、Grok 等主流模型
+- 提供文本聊天补全和流式响应
+- 支持视觉分析（图片理解）功能
+- 提供 Python 客户端脚本，开箱即用
+- 统一的 API 接口，简化多模型集成
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要在不同 LLM 之间灵活切换而不修改代码
+- 希望通过统一接口对比不同模型的输出质量
+- 构建需要多模型能力的 AI Agent 应用
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 需要 Python 和 pip
+- 需要 `AISA_API_KEY` 环境变量
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -41,8 +43,5 @@
 | SEC-09 信息采集 | 🔴 High | 大量系统信息采集 |
 | SEC-10 混淆/反分析 | 🟡 Medium | 使用编码/解码操作 |
 
-**综合评级: 🔴 High**
-**风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

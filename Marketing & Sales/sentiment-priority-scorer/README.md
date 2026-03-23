@@ -1,31 +1,32 @@
 # Sentiment Priority Scorer
 
-> "Score normalized real-estate leads using sentiment, urgency, intent, recency, and record type to produce deterministic priority rankings and P1-P3 buckets. Use when users ask to prioritize hot leads, rank callback queue, or triage follow-ups without performing writes or outbound sends. Recommended chain: india-location-normalizer then sentiment-priority-scorer then summary-generator and action-suggester."
+> 情感分析和优先级评分工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Sentiment Priority Scorer |
 | **作者** | vishalgojha |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/vishalgojha-sentiment-priority-scorer |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/vishalgojha/sentiment-priority-scorer |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Rank leads by urgency and tone for callback priority.
-- Classify leads into P1/P2/P3 queue.
-- Score follow-up priority from normalized lead records.
-- `sentiment_score` in range `[-1, 1]`
-- `intent_score` in range `[0, 1]`
-- `recency_score` in range `[0, 1]`
+- 客户反馈情感分析
+- 优先级智能评分
+- 负面情绪预警
+- 分析报告生成
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 对客户反馈进行情感分析并按优先级排序
+- 自动标记需要紧急处理的负面客户反馈
+
+## 依赖和前提条件
+- Google API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `agents`
@@ -47,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；文件系统篡改：存在文件系统操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

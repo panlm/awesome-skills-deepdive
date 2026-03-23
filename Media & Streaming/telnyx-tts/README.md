@@ -1,6 +1,6 @@
 # Telnyx Tts
 
-> Generate speech audio from text using Telnyx Text-to-Speech API. Use when you need to convert text to spoken audio, create voice messages, or generate audio content.
+> Telnyx 文字转语音服务工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `-o, --output PATH`: Output file path (default: output.mp3)
-- `--voice VOICE`: Voice ID (default: Telnyx.NaturalHD.astra)
-- Telnyx NaturalHD: Premium voices with refined prosody
-- `Telnyx.NaturalHD.astra` (default)
-- `Telnyx.NaturalHD.luna`
-- `Telnyx.NaturalHD.andersen_johan`
+- Generate speech audio from text using Telnyx Text-to-Speech API
+- Use when you need to convert text to spoken audio, create voice messages, or generate audio content
+- 支持通过命令行进行操作控制
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 使用 Telnyx API 生成语音内容
+- 支持多种语音和语言选择
+- 集成到通话和通知流程中
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +31,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

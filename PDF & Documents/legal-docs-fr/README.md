@@ -1,6 +1,6 @@
 # Legal Docs FR
 
-> Générateur de documents juridiques français pour freelances/micro-entrepreneurs.
+> 法语法律文档自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Paiement : 30 jours, pénalités 3× taux légal, indemnité 40€ (art. D441-5 Code de commerce)
-- PI : Cession subordonnée au paiement intégral
-- Médiation : Obligatoire depuis 2016 (art. L611-1 Code de la consommation)
-- RGPD : Droits des personnes, finalités, durée conservation, contact DPO
-- Force majeure : Art. 1218 du Code civil
-- HTML avec CSS inline, optimisé pour impression / export PDF
+- 生成标准法语法律文档
+- 支持多种法律文书模板
+- 合规性检查和验证
+- 法律术语规范化处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为法语客户自动生成合规的法律合同
+- 创建标准化的法语法律声明文档
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -50,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。Prompt 注入：存在可疑 Prompt 模式
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

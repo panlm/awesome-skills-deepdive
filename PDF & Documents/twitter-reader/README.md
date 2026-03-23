@@ -1,6 +1,6 @@
 # Twitter/X Reader
 
-> A comprehensive skill for reading and extracting data from X (formerly Twitter) tweets using multiple reliable data sources.
+> Twitter/X 内容读取和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🔗 Universal URL Support - Works with x.com, twitter.com, and mobile URLs
-- 📊 Complete Data Extraction - Text, author, timestamps, engagement stats, media
-- 🎯 Multi-Source Reliability - FxTwitter API primary + Nitter fallback
-- 🔒 Security First - No data collection, fully auditable, open source
-- ⚡ Fast & Reliable - Optimized for speed with robust error handling
-- 🧵 Thread Aware - Handles quote tweets and conversation context
+- 读取 Twitter 推文和时间线
+- 用户资料和推文搜索
+- 内容分析和统计
+- 数据导出功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 监控特定话题的 Twitter 讨论动态
+- 抓取和分析行业 KOL 的推文内容
 
 ## 依赖和前提条件
-- macOS
+- API 密钥
+- X (Twitter) API
 
 ## 包含文件
 - `INSTALLATION.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -52,6 +51,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

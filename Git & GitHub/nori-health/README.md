@@ -1,37 +1,36 @@
 # Nori Health
 
-> Query your personal health data and get coaching from Nori, your AI health coach. Use when the user asks about sleep, workouts, nutrition, weight, heart rate, HRV, or wants health insights. NOT for: medical diagnosis, prescriptions, or emergency health situations.
+> 查询个人健康数据并获取 AI 健康教练 Nori 的指导建议
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Nori Health |
 | **作者** | danmurphy1217 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/danmurphy1217-nori-health |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/danmurphy1217/nori-health |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "Compare my sleep on days I work out vs rest days"
-- "What should I eat to hit my protein goal today?"
-- "Show me my resting heart rate trend this month"
-- "How's my recovery looking after yesterday's run?"
-- "I had two eggs and toast with avocado for breakfast"
-- "I did 30 minutes of strength training"
+- 通过 Nori API 查询睡眠、运动、营养、体重、心率、HRV 等健康数据
+- 获取基于个人数据的 AI 健康教练建议
+- 支持多种可穿戴设备数据源（Apple Watch、Oura、Garmin、Whoop 等）
+- 记录饮食和运动信息
+- 分析健康数据趋势和模式（如睡眠与 HRV 的关联）
+- 提供错误处理和重试机制（401/429/其他错误码）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 询问个人健康数据洞察，如"对比运动日和休息日的睡眠质量"
+- 获取营养建议，如"今天还需要摄入多少蛋白质"
+- 查看健康趋势，如"本月静息心率走势"
 
 ## 依赖和前提条件
-- API Key
+- 环境变量 `NORI_API_KEY`（在 Nori iOS App 中生成）
+- `curl` 和 `jq` 命令行工具
+- Nori iOS 应用并连接可穿戴设备
+- 需要网络访问 api.nori.health
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

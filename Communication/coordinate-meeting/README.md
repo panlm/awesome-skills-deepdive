@@ -1,30 +1,38 @@
 # Coordinate a Meeting
 
-> Schedule a meeting for humans and their agents. Creates a scheduling poll, distributes it, collects votes, and finds the best time. Use when someone needs to find a time that works for a group. A Doodle alternative built for the age of AI agents.
+> 智能会议协调工具，为人类和智能体安排会议、创建调度投票并分发参会链接
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Coordinate a Meeting |
 | **作者** | mkelk |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/mkelk-coordinate-meeting |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mkelk/coordinate-meeting |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- An admin token (`adm_...`) — store this privately to check results and close the poll later.
-- A participate URL — this is the shareable link for voters.
-- OpenAPI spec: https://meetlark.ai/api/v1/openapi.json
-- Interactive docs: https://meetlark.ai/docs
-- meetlark.ai: https://meetlark.ai
+- 创建调度投票让参会者选择可用时间
+- 自动汇总投票结果确定最佳会议时间
+- 生成并分发会议参会链接
+- 支持人类和智能体混合参会的场景
+- 多时区智能适配和展示
+- 会议提醒和日程同步
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 团队负责人为跨时区成员创建投票选出最佳会议时间
+- 智能体自动协调多方日程并发送会议邀请
+- 人机协作会议的统一调度和通知管理
+
+## 依赖和前提条件
+- 配置日历服务集成
+- 配置参会者联系方式和通知渠道
+- 设置会议平台（Zoom、Meet 等）API 凭证
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -42,7 +50,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

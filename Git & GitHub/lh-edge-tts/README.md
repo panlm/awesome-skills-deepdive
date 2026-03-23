@@ -1,41 +1,35 @@
 # LH Edge TTS
 
-> |
+> 使用 Microsoft Edge 神经网络 TTS 服务将文本转换为语音，支持多语言、多音色和字幕生成。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LH Edge TTS |
 | **作者** | liuhedev |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/liuhedev-lh-edge-tts |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/liuhedev/lh-edge-tts |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `--voice, -v`: Voice name (default: en-US-MichelleNeural)
-- `--lang, -l`: Language code (e.g., en-US, zh-CN)
-- `--rate, -r`: Rate adjustment (e.g., +10%, -20%)
-- `--volume`: Volume adjustment (e.g., +0%, -50%)
-- `--pitch`: Pitch adjustment (e.g., +0Hz, -10Hz)
-- `--output, -o`: Output file path (default: temp file)
+- 使用 Python edge-tts 生成高质量神经网络语音
+- 支持多种语言和音色选择（如中文小晓、英文 Aria 等）
+- 可调节语速、音调和音量
+- 支持生成 SRT/VTT 字幕文件
+- 支持从文件读取文本进行批量转换
+- 可设置代理和超时参数
+- 自动过滤 TTS 关键词后进行转换
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将文档或报告转为音频，方便通勤或多任务场景收听
+- 为视频内容快速生成旁白配音和同步字幕
+- 为无障碍访问需求提供语音输出
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3
+- `edge-tts` Python 包（需安装：`pip install edge-tts`）
 
-## 包含文件
-- `DISTRIBUTION.md`
-- `SKILL.md`
-- `_meta.json`
-- `install.sh`
-- `scripts`
-- `skill-info.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +48,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Venice Admin
 
-> Venice AI account administration - check balance, view usage history, and manage API keys. Requires an Admin API key.
+> Venice AI 账户管理工具，查看余额、使用历史和管理 API 密钥
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,43 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Whether you can consume (has balance)
-- Current consumption currency (DIEM or USD)
-- DIEM balance and epoch allocation
-- `--currency`: Filter by currency: `DIEM`, `USD`, `VCU` (default: `DIEM`)
-- `--start-date`: Start date filter (ISO format: `2024-01-01`)
-- `--end-date`: End date filter (ISO format: `2024-12-31`)
+- 查看 Venice AI 账户余额和剩余额度
+- 浏览 API 使用历史记录和调用统计
+- 管理和轮换 API 密钥
+- 监控 API 调用量和费用消耗
+- 支持通过 Admin API Key 进行管理操作
+- 需要 `uv` 包管理器运行
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期检查 Venice AI 账户余额，确保服务不中断
+- 分析 API 使用趋势，优化调用策略和成本
+- 在安全需要时快速轮换 API 密钥
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 环境变量 `VENICE_API_KEY`
+- `uv` 包管理器
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🔴 High | 需要提权或管理员权限 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🔴 High**
-**风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

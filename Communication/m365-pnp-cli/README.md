@@ -1,34 +1,40 @@
 # Skill
 
-> CLI for Microsoft 365 - Manage Microsoft 365 tenant, SharePoint Online, Teams, OneDrive, and more. Official PnP (Patterns and Practices) CLI.
+> 通过 Microsoft 365 CLI (PnP) 管理 M365 租户，涵盖 SharePoint、Teams、OneDrive 等服务
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Skill |
 | **作者** | thomyg |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/thomyg-m365-pnp-cli |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/thomyg/m365-pnp-cli |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- NPM Package: https://www.npmjs.com/package/@pnp/cli-microsoft365
-- GitHub Repo: https://github.com/pnp/cli-microsoft365
-- Documentation: https://pnp.github.io/cli-microsoft365
-- Author: Microsoft PnP (Patterns and Practices Community)
-- Microsoft Teams
-- SharePoint Online
+- SharePoint Online 站点和列表管理
+- Microsoft Teams 团队和频道操作
+- OneDrive 文件管理和共享
+- Azure AD 用户和组管理
+- Power Platform 资源管理
+- M365 租户配置和设置
+- 批量操作和自动化脚本执行
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 批量管理 SharePoint 站点权限和内容
+- 自动化 Teams 频道创建和成员管理
+- 通过 CLI 批量处理 M365 租户管理任务
 
 ## 依赖和前提条件
-- Node.js / npm
+- 安装 Microsoft 365 CLI (m365)
+- M365 租户管理员账户或相应权限
+- Node.js 运行环境
+- 完成 m365 login 认证
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -46,7 +52,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

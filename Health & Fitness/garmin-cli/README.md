@@ -1,6 +1,6 @@
 # Garmin Cli
 
-> Access Garmin Connect health, fitness, and activity data via a non-interactive CLI.
+> Garmin 命令行工具 — 数据获取和分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `today` — current date
-- `yesterday` — previous date
-- `week` — last 7 days (returns a date range)
-- `month` — last 30 days (returns a date range)
-- `YYYY-MM-DD` — specific date
-- `--format json` for machine-readable output (default: `table`)
+- Prefer `--file` with a Garmin-shaped JSON payload
+- Get a valid payload by exporting an existing workout:
+- If using flags, `--steps` can be the exact `workoutSteps` JSON array from the API
+- Sport type keys/ids (used in `sportType`):
+- Workout step/target enums are not hardcoded in the CLI
+- Export an existing workout and reuse the exact values:
+- Use the returned `stepType`, `endCondition`, and `targetType` fields verbatim
 
 ## 使用场景
-- 同步和分析运动数据
-- 追踪健康指标趋势
-- 生成健身报告和洞察
+- 通过命令行获取 Garmin 健康数据
+- 查询运动记录和训练负荷
+- 管理 Garmin 设备设置
 
 ## 依赖和前提条件
 - Homebrew
@@ -32,7 +33,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

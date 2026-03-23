@@ -1,6 +1,6 @@
 # DB Travel
 
-> "Plan journeys across Germany and Europe using the Deutsche Bahn API (v6.db.transport.rest). Covers ICE, IC, regional trains, S-Bahn, U-Bahn, trams, buses, ferries. Use when: (1) planning trips in Germany or cross-border European rail, (2) checking departure/arrival boards at German/European stations, (3) finding station IDs, (4) navigating cities like Berlin, Munich, Hamburg. Triggers on questions about German trains, DB, BVG, getting around Berlin, European rail connections."
+> 使用德国铁路 API 规划德国和欧洲的铁路旅行
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Berlin Hbf: `8011160`
-- München Hbf: `8000261`
-- Hamburg Hbf: `8002549`
-- Frankfurt (Main) Hbf: `8000105`
-- Köln Hbf: `8000207`
-- Flughafen BER: `8089110`
+- 规划德国及欧洲铁路旅行路线
+- 查询列车时刻表和换乘方案
+- 获取实时列车状态和延误信息
+- 支持跨国铁路旅行规划
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 规划从法兰克福到巴黎的跨国火车旅行
+- 查询德国铁路的实时运行状态和延误
 
 ## 依赖和前提条件
-- Python / pip
+- Node.js / npm
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

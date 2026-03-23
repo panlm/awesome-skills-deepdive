@@ -1,34 +1,36 @@
 # Telegram Phone Checker
 
-> Check if a phone number is registered on Telegram using the apipick Telegram Checker API. Returns registration status, Telegram user ID, username, first/last name, and data center ID. Use when the user wants to verify Telegram registration for a phone number, find a Telegram username by phone number, or check whether someone uses Telegram. Requires an apipick API key (x-api-key). Get a free key at https://www.apipick.com.
+> 通过 APIPick API 检查指定手机号码是否已注册 Telegram 账号
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Telegram Phone Checker |
 | **作者** | javainthinking |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/javainthinking-apipick-telegram-phone-check |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/javainthinking/apipick-telegram-phone-check |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Registration status — whether the number is on Telegram
-- User ID — Telegram user identifier
-- Username — public @username if available
-- Name — first and last name if publicly visible
-- Data center — Telegram DC ID
+- 查询手机号的 Telegram 注册状态
+- 批量号码检查支持
+- 返回注册状态和基本账号信息
+- API 调用简单快速
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 验证联系人是否使用 Telegram 以选择通信渠道
+- 用户注册流程中检测已有 Telegram 账号
+- 社交平台用户验证和反欺诈场景
 
 ## 依赖和前提条件
-- API Key
+- APIPick API 密钥
+- 网络连接到 APIPick 服务
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -47,7 +49,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

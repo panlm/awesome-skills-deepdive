@@ -1,6 +1,6 @@
 # kalibr
 
-> Ship agents that fix themselves.
+> Kalibr 工具——多功能工具集或校准工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -9,15 +9,22 @@
 | **作者** | devonakelley |
 | **类目** | Transportation |
 | **ClawHub** | https://clawskills.sh/skills/devonakelley-kalibr |
-| **安全评级** | ⚪ Unknown |
+| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/devonakelley/kalibr |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Ship agents that fix themselves.
+- 提供多功能工具集功能
+- 支持参数校准和配置
+- 数据处理和转换能力
 
-## 注意事项
-- ⚠️ 源文件无法从 GitHub 获取（可能已被作者删除或设为私有）
-- ClawSkills 页面仍可访问：https://clawskills.sh/skills/devonakelley-kalibr
-- 安全状态未知，建议安装前自行审查
+## 使用场景
+- 使用 Kalibr 进行系统校准和参数优化
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+## 依赖和前提条件
+- Node.js / npm
+
+## 安全状态
+**综合评级: 🟢 Low**
+**风险摘要:** 无已知风险
+
+> 本文档由 awesome-skills-deepdive skill 自动生成

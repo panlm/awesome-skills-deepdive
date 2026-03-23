@@ -1,6 +1,6 @@
 # AOI Council
 
-> AOI Council — multi-perspective decision synthesis templates (public-safe).
+> AI 议会决策框架，多 Agent 协商机制
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- AOI implementation is original code (no third-party code copied).
-- Conceptually inspired by the general “council / multi-perspective review” workflow patterns.
-- It does not post externally
-- It does not touch wallets
-- It does not modify system config
-- Devil's Advocate
+- 多 Agent 协商和决策框架
+- 投票和共识机制
+- 决策过程记录和审计
+- 可配置的决策规则
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让多个 AI Agent 通过议会机制协商决策
+- 建立自动化的多方决策流程
+
+## 依赖和前提条件
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `agents`
@@ -48,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

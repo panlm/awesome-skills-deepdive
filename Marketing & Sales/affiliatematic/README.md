@@ -1,31 +1,32 @@
 # Affiliatematic
 
-> |
+> 联盟营销自动化工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Affiliatematic |
 | **作者** | dowands |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/dowands-affiliatematic |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dowands/affiliatematic |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- End of blog posts (after main content)
-- Sidebar on product review pages
-- Within "recommended products" sections
-- After comparison tables
-- Product reviews & comparisons
-- How-to guides with equipment needs
+- 联盟营销流程自动化
+- 推广数据自动采集
+- 效果分析和优化建议
+- 批量推广管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 自动化管理联盟营销的日常运营任务
+- 批量追踪和分析联盟推广效果
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Void Atlas Protocol
 
-> Void Atlas Protocol – a four-axis ethical navigation map (power, truth, sovereignty, care) with waypoints, routes, and routing rules for evaluating systems, communities, and policies.
+> 虚空地图协议——四轴伦理导航地图（权力、真相、主权和审计）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- power – ability to affect reality / others
-- truth – fidelity to reality, honesty, transparency
-- sovereignty – agency, consent, exit rights
-- care – empathy, protection, non-disposability
-- 0.0 = absent / maximally misaligned
-- 1.0 = exemplary on that axis
+- 基于四个维度（权力、真相、主权、审计）的伦理导航
+- 为 Agent 决策提供伦理框架
+- 评估行为的伦理影响和风险
+- 生成伦理合规性报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 评估 Agent 行为在伦理维度上的合规性
+- 为复杂决策提供伦理导航和建议
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。持久化机制：涉及定时或后台任务
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

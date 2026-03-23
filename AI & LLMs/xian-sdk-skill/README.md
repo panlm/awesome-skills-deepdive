@@ -1,6 +1,6 @@
 # Xian SDK
 
-> Build applications on the Xian blockchain using the xian-py Python SDK. Use when developing apps that interact with Xian — wallets, transactions, smart contracts, state queries, token transfers. Covers sync and async patterns.
+> 使用 xian-py Python SDK 在 Xian 区块链上构建应用
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,40 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- [xian-py GitHub](https://github.com/xian-network/xian-py) — Full SDK docs
-- [Xian Standard Contracts](https://github.com/xian-network/xian-standard-contracts) — Token standards
-- [xian.org](https://xian.org) — Project site
+- 使用 xian-py Python SDK 与 Xian 区块链交互
+- 支持钱包创建和管理
+- 发送交易和代币转账
+- 智能合约部署和调用
+- 链上状态查询
+- 支持同步和异步编程模式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开发基于 Xian 区块链的去中心化应用（DApp）
+- AI Agent 自动执行链上交易和智能合约操作
+- 查询 Xian 区块链上的代币余额和合约状态
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Python 及相关依赖包
+- Node.js 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟡 Medium | 需要安装外部依赖 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

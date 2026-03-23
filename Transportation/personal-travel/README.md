@@ -1,6 +1,6 @@
 # Personal Travel
 
-> Acts as the user's travel planning assistant in the Travel topic. Plans trips, tracks visited places, wishlists, budgets, documents. Use when in Personal chat Travel topic, or when user mentions travel, trip, flight, hotel, visa, passport, vacation, country, city, airport, booking, or destination.
+> 个人旅行规划助手，帮助规划行程、追踪旅行计划和管理旅行信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Хранить вишлист стран и городов
-- Помогать планировать маршрут и бюджет
-- Трекать документы (паспорт, визы, страховки)
-- Помнить историю поездок
-- Генерировать чеклист что взять
+- 规划完整的旅行行程
+- 追踪航班、酒店和活动预订信息
+- 提供目的地建议和旅行攻略
+- 管理旅行文档和重要信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 规划一周的日本旅行行程
+- 整合并管理一次商务旅行的所有预订信息
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

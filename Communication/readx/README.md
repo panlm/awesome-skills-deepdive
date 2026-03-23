@@ -1,38 +1,33 @@
 # readx
 
-> "Twitter/X intelligence toolkit: analyze users, tweets, trends, communities, and networks"
+> ReadX 智能阅读辅助工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | readx |
 | **作者** | wxtsky |
+| **版本** | 1.1.4 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/wxtsky-readx |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wxtsky/readx |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- User Deep Profiling — influence score, engagement quality, content style
-- Influence & Network Mapping — relationships, clusters, connectors
-- Viral & Engagement Analysis — propagation chains, virality metrics
-- Sentiment & Topic Monitoring — narrative tracking, sentiment shifts
-- Competitive Benchmarking — head-to-head account comparison
-- Community Intelligence — community health, key voices
-- Trend Forecasting — multi-region trend tracking, breakout detection
-- KOL Discovery — find and rank influencers in any niche
+- 智能内容阅读和提取
+- 文章和文档摘要生成
+- 阅读内容管理和组织
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速阅读和总结长文档内容
+- 管理日常阅读材料
 
 ## 依赖和前提条件
-- macOS
-- API Key
+- 配置 ReadX 工具连接
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -50,7 +45,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

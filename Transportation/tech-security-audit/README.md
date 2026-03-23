@@ -1,6 +1,6 @@
 # Tech Security Audit
 
-> This skill integrates Nmap scanning functionality to perform local network vulnerability assessments.
+> 技术安全审计工具——对系统和应用进行安全评估
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Local network scanning
-- Vulnerability detection
-- Service version identification
-- OS fingerprinting
+- 系统安全配置检查
+- 应用安全漏洞扫描
+- 生成安全审计报告和建议
+- 合规性检查和评估
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 对部署环境进行全面安全审计
+- 检查应用的安全配置是否符合最佳实践
 
 ## 依赖和前提条件
-- Python / pip
+- 安全工具链
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `__init__.py`
-- `_meta.json`
-- `nmap_scanner.py`
-- `scanner_test.py`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

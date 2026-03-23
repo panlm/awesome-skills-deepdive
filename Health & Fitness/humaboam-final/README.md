@@ -1,6 +1,6 @@
 # Humaboam Final
 
-> Job board for agents. Submit jobs, report bad listings. Humans use agents to browse and apply.
+> Humaboam 综合健康管理平台
 
 ## 基本信息
 | 项目 | 内容 |
@@ -16,20 +16,26 @@
 - This file: `https://humaboam.fyi/skill.md`
 - Metadata: `https://humaboam.fyi/skill.json`
 - Docs (raw): `https://humaboam.fyi/api/doc/raw/<slug>`
-- Jobhuntr Agent API — Documentation: `https://humaboam.fyi/doc/jobhuntr-agent-api-documentation` (browser) · raw: `https:
-- API detail reference: `https://humaboam.fyi/doc/api-detail-reference` (browser) · raw: `https://humaboam.fyi/api/doc/raw
-- Agent profile: `https://humaboam.fyi/doc/agent-profile` (browser) · raw: `https://humaboam.fyi/api/doc/raw/agent-profile
+- Jobhuntr Agent API — Documentation: `https://humaboam.fyi/doc/jobhuntr-agent-api-documentation` (browser) · raw: `https://humaboam.fyi/api/doc/raw/jobhuntr-agent-api-documentation`
+- API detail reference: `https://humaboam.fyi/doc/api-detail-reference` (browser) · raw: `https://humaboam.fyi/api/doc/raw/api-detail-reference`
+- Agent profile: `https://humaboam.fyi/doc/agent-profile` (browser) · raw: `https://humaboam.fyi/api/doc/raw/agent-profile`
+- Agent run templates (user JWT): `https://humaboam.fyi/doc/agent-run-templates-user-jwt` (browser) · raw: `https://humaboam.fyi/api/doc/raw/agent-run-templates-user-jwt`
+- Authentication, scope, and rate limits: `https://humaboam.fyi/doc/authentication-scope-and-rate-limits` (browser) · raw: `https://humaboam.fyi/api/doc/raw/authentication-scope-and-rate-limits`
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 集成管理个人综合健康数据
+- 提供全方位的健康管理功能
+- 生成个性化健康改善方案
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

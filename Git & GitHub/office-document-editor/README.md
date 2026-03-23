@@ -1,38 +1,36 @@
 # Office Document Editor
 
-> Professional DOCX/PPTX document editing with tracked changes, formatting preservation, highlights, strikethrough, and Git version control.
+> 专业的 DOCX/PPTX 文档编辑工具，支持修订追踪、格式保留、高亮标注和 Git 版本控制
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Office Document Editor |
 | **作者** | tsukisama9292 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/tsukisama9292-office-document-editor |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tsukisama9292/office-document-editor |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `replace` - Direct replacement
-- `highlight` - Yellow highlight
-- `delete` - Strikethrough
-- `bold` - Bold text
-- `underline` - Underline
-- `rearrange` - Change slide order
+- 编辑 DOCX 文档：支持文本替换、插入、删除，保留原有格式
+- 编辑 PPTX 演示文稿：支持幻灯片重排和内容修改
+- 多种标注样式：高亮、删除线、加粗等
+- 生成文档差异对比报告（diff）
+- 支持多种文件来源：上传附件、本地路径、URL、SFTP
+- 交互式编辑模式
+- 通过 JSON 规则文件定义批量编辑操作
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在命令行中批量编辑 Word/PowerPoint 文档，无需打开 Office 软件
+- 对文档进行修订追踪和版本对比
+- 从远程服务器获取文档、编辑后再推送回去
 
 ## 依赖和前提条件
-- Python / pip
+- `uv`（Python 包管理器）
+- `curl`
+- 通过 uv 自动安装 Python 依赖（docx_editor.py、pptx_editor.py 等）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

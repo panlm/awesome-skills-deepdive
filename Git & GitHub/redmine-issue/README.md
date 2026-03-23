@@ -1,39 +1,35 @@
 # Redmine Issue
 
-> Read Redmine issues from any Redmine server via REST API with configurable URL and credentials. Use when you need to fetch a single issue, list/filter issues, or inspect issue fields for change planning; supports deployment to different Redmine instances via environment variables.
+> 通过 REST API 读取和管理任意 Redmine 服务器上的 Issue
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Redmine Issue |
 | **作者** | guoway |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/guoway-redmine-issue |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/guoway/redmine-issue |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `REDMINE_URL` (example: `https://redmine.sylksoft.com`)
-- One auth mode:
-- `REDMINE_API_KEY`, or
-- `REDMINE_USERNAME` + `REDMINE_PASSWORD`
-- URL and auth are variables by design for cross-environment deployment.
-- API responses are output as JSON.
+- 获取单个 Redmine Issue 的详细信息
+- 列表查询和过滤 Issue：按项目、状态、指派人等条件筛选
+- 更新 Issue：修改状态、指派人、优先级、完成度，添加备注
+- 支持排序和分页
+- JSON 格式输出，便于自动化处理
+- 支持多 Redmine 实例部署（通过环境变量配置）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在命令行中快速查看和更新 Redmine Issue，无需打开浏览器
+- 批量查询和过滤项目中的 Issue，了解项目进度
+- 集成到自动化工作流中实现 Issue 的程序化管理
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- Node.js
+- 环境变量 `REDMINE_URL`（如 `https://redmine.example.com`）
+- 认证方式（二选一）：`REDMINE_API_KEY` 或 `REDMINE_USERNAME` + `REDMINE_PASSWORD`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

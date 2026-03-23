@@ -1,6 +1,6 @@
 # Book Cover Generation
 
-> Generate professional book covers and ebook covers using each::sense API with AI-powered design
+> AI 驱动的书籍封面设计生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Fiction Covers: Thriller, romance, sci-fi, fantasy, literary fiction
-- Non-Fiction Covers: Self-help, business, memoir, biography, history
-- Ebook Covers: Digital-optimized designs for online marketplaces
-- Audiobook Covers: Square format artwork for audio platforms
-- Genre-Specific Styles: Designs that match reader expectations and market conventions
-- Series Consistency: Maintain visual branding across book series
+- 自动生成书籍封面设计
+- AI 创意图像生成
+- 支持自定义尺寸和风格
+- 多种设计模板选择
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为电子书项目快速生成专业封面
+- AI 辅助设计多种风格的书籍封面
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,34 +1,36 @@
 # Daily Devotion
 
-> Creates personalized daily devotions with verse of the day, pastoral message, structured prayer, and time-aware greetings
+> 创建个性化每日灵修内容，包含每日经文选读、牧师寄语和祷告指南
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Daily Devotion |
 | **作者** | enjuguna |
+| **版本** | 1.1.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/enjuguna-daily-devotion |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/enjuguna/daily-devotion |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Internet access for ourmanna API
-- Node.js/TypeScript runtime for helper scripts
-- Verse Text: `verse.details.text`
-- Reference: `verse.details.reference`
-- Version: `verse.details.version`
-- Start with a relatable life scenario or question that connects to the verse
+- 每日自动选取适合的圣经经文
+- 生成个性化牧师寄语和灵修反思
+- 提供祷告指南和祷告词
+- 支持按主题或书卷系列阅读
+- 灵修日记记录功能
+- 支持多种圣经译本
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 基督徒每日灵修和经文学习
+- 教会团契的每日灵修分享
+- 个人信仰成长和祷告生活
 
 ## 依赖和前提条件
-- Node.js / npm
+- OpenClaw 环境已配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -46,7 +48,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
 ---

@@ -1,6 +1,6 @@
 # Business Plan
 
-> Write, structure, and update a business plan for a solopreneur. Use when creating a plan from scratch, updating an existing plan after a pivot or new phase, or preparing a plan to share with investors, partners, or even just to clarify your own strategy. Covers executive summary, market analysis, competitive positioning, revenue model, operations plan, financial projections, and risk assessment — all adapted for a one-person business. Trigger on "write a business plan", "business plan", "create my plan", "business plan template", "update my business plan", "plan for my business", "investor pitch plan".
+> 帮助独立创业者撰写、构建和更新商业计划书
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Business name and legal structure (sole proprietorship, LLC, etc. — or planned structure)
-- What stage you're at: Idea / Pre-revenue / Early revenue / Growing
-- Mission statement (pull from your brand foundations)
-- Location and operational model (remote, local, hybrid)
-- Founding date or planned launch date
-- Describe the specific problem with concrete detail. Who feels it? When? How often? What does it cost them (time, money, 
+- 引导式商业计划书撰写流程
+- 涵盖市场分析、财务预测、竞争分析等核心章节
+- 支持迭代更新和版本管理
+- 生成结构化的商业计划文档
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 独立创业者从零开始撰写完整商业计划书
+- 更新现有商业计划的财务预测和市场数据
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。文件系统篡改：存在文件系统操作
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

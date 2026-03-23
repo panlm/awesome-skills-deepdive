@@ -1,6 +1,6 @@
 # AI Displacement Monitor
 
-> Monitor early-warning signals of AI-driven white-collar labor displacement and macro-financial spillovers. Use when you need a practical indicator framework, thresholds, alert logic, and concise risk updates for employment, consumption, and credit stress.
+> 监控 AI 驱动的白领劳动力替代早期预警信号及宏观金融溢出效应
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Do not evaluate layoffs alone.
-- Compare substitution speed vs re-absorption speed (new demand + new capex).
-- If substitution weakens labor but capex/reinvestment accelerates, avoid over-escalating crisis labels.
-- Tier A (Leading labor demand): A1-A4
-- Tier B (Labor market confirmation): B1-B3
-- Tier C (Spillover: consumption/credit): C1-C3
+- 追踪 10 个关键指标组成的信号面板，包含最新值、方向和阈值状态
+- 三层指标体系：领先劳动需求（A 层）、劳动市场确认（B 层）、消费/信贷溢出（C 层）
+- 根据触发指标数量自动生成综合风险灯（绿/黄/橙/红）
+- 提供可操作的投资组合和风险姿态建议
+- 运用"工业革命透镜"对比替代速度与再吸收速度
+- 识别数据缺口和过时输入
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为投资决策提供 AI 劳动力替代风险的量化参考
+- 定期生成 AI 对就业市场影响的结构化风险报告
+- 监控消费和信贷领域的 AI 溢出效应预警
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- 阈值配置文件（references/thresholds.example.json）
+- 外部经济数据源（就业、消费、信贷指标）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +48,4 @@
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

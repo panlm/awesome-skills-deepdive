@@ -1,29 +1,32 @@
 # Invoice Template
 
-> Free simple invoice generator. Creates clean, professional invoices with your branding. Use when you need to bill a client quickly without complex tracking or automation.
+> 发票模板管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Invoice Template |
 | **作者** | kambrosgroup |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/kambrosgroup-invoice-template |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kambrosgroup/invoice-template |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Your business info
-- Client details
-- Payment instructions
-- Professional formatting
+- 发票模板创建和管理
+- 自定义发票格式
+- 模板参数化填充
+- 多种导出格式
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 创建和管理多种发票模板用于不同客户
+- 使用模板快速生成标准化发票
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -43,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

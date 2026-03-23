@@ -1,6 +1,6 @@
 # Soft Pillow - Sleep & dream journal
 
-> Use when the user asks about their sleep data, dream history, or wants to query sleep entries from the Soft Pillow app.
+> 睡眠辅助和白噪音工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `GET /api/v1/sleep_status`
-- `GET /api/v1/sleep_entries`
-- `GET /api/v1/sleep_entries/:id`
-- `GET /api/v1/search_dreams`
-- `limit` (max 100)
-- `from_date` (`YYYY-MM-DD`)
+- Missing/invalid auth: `401` JSON error
+- Invalid filters (for example bad `mood` or bad date): `422` JSON error
+- Entry not found (or not yours): `404` JSON error
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 播放助眠白噪音和自然声音
+- 管理睡眠计时和唤醒设置
+- 跟踪睡眠环境的偏好设置
 
 ## 依赖和前提条件
 - API Key
@@ -32,7 +29,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

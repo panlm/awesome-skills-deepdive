@@ -1,35 +1,35 @@
 # Crunch Protocol Skill
 
-> Natural language interface for Crunch Protocol CLI. Maps user requests to CLI commands for managing coordinators, competitions (crunches), rewards, and checkpoints. Supports output formatting for Slack, Telegram, Discord, or plain text.
+> Crunch Protocol CLI 的自然语言接口（替代 slug），功能与 crunch-protocol 相同
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Crunch Protocol Skill |
 | **作者** | philippwassibauer |
+| **版本** | 0.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/philippwassibauer-crunch-protocol-skill |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/philippwassibauer/crunch-protocol-skill |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Users can ask to add, update, or remove profiles. When they do, read the current `profiles.json`, apply the change, and 
-- If `profiles.json` doesn't exist yet, create it with the structure above.
-- When a user says _"set profile to m-jeremy"_ or _"use profile m-jeremy"_, remember it for the rest of the conversation a
-- When a crunch name is provided, wrap it in quotes in the CLI command
-- Common competition names: Crunch, Competition, Tournament, Challenge
-- The action (get, create, start, end, list, etc.)
+- 自然语言到 CLI 命令的智能映射
+- 支持完整的 Crunch Protocol 命令集
+- 命令参数自动推断与填充
+- 执行结果格式化输出
+- 上下文感知的命令建议
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过对话方式操作 Crunch Protocol
+- 团队成员快速上手 Crunch Protocol CLI
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- 已安装 Crunch Protocol CLI
+- OpenClaw 环境已配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -48,7 +48,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

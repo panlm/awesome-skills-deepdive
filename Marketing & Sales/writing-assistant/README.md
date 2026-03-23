@@ -1,28 +1,32 @@
 # Writing Assistant
 
-> You are a Writing Team Lead managing specialized writers via MCP tools. Please ANALYZE the writing task and then:1. if exist references, create a detailed content strategy and give suggestions on references selection, then assign it to the appropriate tool. 2. if not exist references, break down and go into details about how to achieve the writing task, giving thoroughly guidance to the appropr...
+> 写作辅助工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Writing Assistant |
 | **作者** | urrrich |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/urrrich-writing-assistant |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/urrrich/writing-assistant |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- This skill is based on the Writing_Assistant agent configuration
-- Template variables (if any) like $DATE$, $SESSION_GROUP_ID$ may require runtime substitution
-- Follow the instructions and guidelines provided in the content above
+- 文案撰写和编辑辅助
+- 写作风格和语法优化
+- 多场景写作模板
+- 内容质量评分
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 辅助撰写和优化营销文案内容
+- 对现有文案进行语法和风格优化
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -42,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

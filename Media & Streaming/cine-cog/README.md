@@ -1,6 +1,6 @@
 # cine-cog
 
-> "If you can imagine it, CellCog can film it. Grand widescreen cinematics with consistent characters — what previously required million-dollar production budgets, now generated from a single prompt. Short films, music videos, brand films, cinematic productions — epic compositions, cinematic lighting, visual storytelling at scale. Grand cinema, accessible to everyone."
+> 电影信息查询和分析认知工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Mythological: "Film the story of Icarus — from workshop to flight to fall — in 90 seconds"
 - Product Films: "Create a 60-second cinematic product reveal for a luxury watch"
 - Brand Stories: "Film a 2-minute origin story for our coffee brand — from bean to cup"
+- Launch Videos: "Create a cinematic launch trailer for our new app"
+- Corporate Films: "Film a 90-second cinematic company vision piece"
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 查询电影详细信息和评分
+- 分析电影评论和观众反馈
+- 获取电影推荐和排行榜
 
 ## 依赖和前提条件
 - Python / pip
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,38 +1,34 @@
 # Ryot
 
-> Complete Ryot media tracker with progress tracking, reviews, collections, analytics, calendar, and automated daily/weekly reports. Track TV shows, movies, books, anime, games with full GraphQL API integration.
+> 个人媒体追踪工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Ryot |
 | **作者** | f-liva |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/f-liva-ryot |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/f-liva/ryot |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- name: RYOT_CONFIG
-- ✅ Set up daily upcoming episodes notification (07:30)
-- ✅ Set up weekly stats report (Monday 08:00)
-- ✅ Set up daily recent activity (20:00)
-- ✅ Configure WhatsApp delivery
-- Catching up on a series you've already watched elsewhere
+- 影视和书籍追踪记录
+- 个人媒体库管理
+- 评分和评论功能
+- 消费趋势分析
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 追踪和管理个人观影和阅读记录
+- 分析个人媒体消费习惯和趋势
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- Python 运行环境
 
 ## 包含文件
 - `CHANGELOG.md`
 - `PUBLISHING.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`
@@ -54,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

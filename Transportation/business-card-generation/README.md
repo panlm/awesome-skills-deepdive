@@ -1,6 +1,6 @@
 # Business Card Generation
 
-> Generate professional business cards using each::sense AI. Create corporate, creative, minimalist, luxury, and specialty business cards optimized for print at standard 3.5 x 2 inch size.
+> 使用 each::sense AI 生成专业名片设计，支持企业、创意和极简风格
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Corporate Cards: Professional designs for business executives and employees
-- Creative Cards: Artistic designs for designers, artists, and creative professionals
-- Minimalist Cards: Clean, simple designs with focus on typography
-- Luxury Cards: Premium, elegant designs with sophisticated aesthetics
-- Industry-Specific Cards: Tailored designs for real estate, photography, restaurants, tech, and more
-- Vertical Cards: Portrait orientation for unique, standout designs
-- Double-Sided Cards: Front and back designs with complementary layouts
+- 生成多种风格的专业名片设计
+- 支持企业正式风、创意风和极简风格
+- 自动排版姓名、职位、联系方式等信息
+- 输出可打印的高分辨率名片文件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为新入职员工批量生成企业名片
+- 设计个人品牌的创意名片
 
 ## 依赖和前提条件
-- API Key
+- API Key（each::sense AI）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

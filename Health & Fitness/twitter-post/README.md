@@ -1,6 +1,6 @@
 # Twitter Post
 
-> Post tweets to Twitter/X via the official API v2 (OAuth 1.0a). Use when the user asks to tweet, post to Twitter/X, send a thread, reply to a tweet, or quote tweet. Supports single tweets, threads, replies, and quote tweets with automatic character weight validation.
+> Twitter/X 自动发帖工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `HTTPS_PROXY` — HTTP proxy URL (e.g. `http://127.0.0.1:7897`) for regions that need it
-- `TWITTER_DRY_RUN=1` — validate and print without posting
 - Call `POST /oauth/request_token` with `oauth_callback=oob`
 - User opens `https://api.twitter.com/oauth/authorize?oauth_token=<token>`
 - User provides the PIN code
 - Call `POST /oauth/access_token` with the PIN as `oauth_verifier`
+- Max 280 weighted characters per tweet
+- CJK characters (Chinese/Japanese/Korean) count as 2 each
+- URLs count as 23 each regardless of length
+- Script auto-validates before posting; rejects if over limit
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 自动发布推文到 Twitter/X
+- 管理帖子内容和发布时间
+- 跟踪推文的互动数据
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -34,7 +36,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |

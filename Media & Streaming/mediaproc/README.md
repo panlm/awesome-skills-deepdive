@@ -1,6 +1,6 @@
 # mediaproc
 
-> Process media files (video, audio, images) via a locked-down SSH container with ffmpeg, sox, and imagemagick. Use when the user wants to transcode video, process audio, manipulate images, or work with media files.
+> 媒体文件处理和转换工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -18,9 +18,9 @@
 - LV2 — Audio plugins (used via `-af lv2=...`)
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 批量处理和转换媒体文件格式
+- 提取媒体文件的元数据信息
+- 压缩和优化媒体文件大小
 
 ## 依赖和前提条件
 - Docker
@@ -31,7 +31,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Bring Recipes
 
-> Use when user wants to browse recipe inspirations from Bring! shopping app. For discovering recipes, viewing recipe details (name, author, type, images), or filtering by tags. Note - cannot import ingredients (API limitation).
+> Bring! 购物清单食谱集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Filtering recipes by tags (all, mine)
 - Need JSON output of recipes for scripting
 - User wants to add ingredients to shopping list (API limitation)
+- Managing shopping lists directly
+- Need full recipe details with ingredients
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 从食谱自动生成购物清单
+- 同步食材到 Bring! 购物应用
+- 管理每周菜单和采购计划
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

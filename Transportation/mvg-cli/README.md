@@ -1,6 +1,6 @@
 # Mvg
 
-> Munich public transport (MVG) CLI and S-Bahn live tracking. Use for departure times, route planning, nearby stations, service alerts, and real-time S-Bahn positions. Trigger when the user mentions MVG, S-Bahn, U-Bahn, Munich transit, departures, connections, Abfahrten, Verbindungen, or specific line names like S8, U3, etc.
+> 慕尼黑公共交通（MVG）查询和 S-Bahn 实时追踪
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,31 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🚇 Station suchen - Finde Stationen nach Name
-- ⏰ Echtzeit-Abfahrten - Aktuelle Abfahrten mit Verspätungsanzeige
-- 🗺️ Verbindungssuche - Routen zwischen Stationen
-- 📍 Nahbereichssuche - Stationen in der Nähe bestimmter Koordinaten
-- ⚠️ Störungsmeldungen - Aktuelle Betriebsstörungen
-- 🚊 Linienübersicht - Alle verfügbaren Linien nach Verkehrsmittel
+- 查询慕尼黑 MVG 公共交通出发时间
+- S-Bahn 列车实时位置追踪
+- 获取地铁、公交、电车时刻信息
+- 站点搜索和换乘方案
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查看慕尼黑 Marienplatz 站的下一班地铁
+- 追踪 S-Bahn 列车的实时位置和延误情况
 
 ## 依赖和前提条件
 - Node.js / npm
-- Python / pip
-- API Key
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `mvg_cli.py`
-- `pyproject.toml`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -54,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，4 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,46 +1,37 @@
 # Memoria
 
-> Structured memory system for AI agents. Use when the user wants to store, recall, or search memories, manage session lifecycle (wake/sleep/checkpoint), sync to Notion, or when the user shares important information that should be remembered (facts, decisions, preferences, lessons, commitments, relationships, projects).
+> AI 代理的结构化记忆系统，本地 Markdown 库 + Notion 双向同步。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Memoria |
 | **作者** | kitakitsune0x |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/kitakitsune0x-memoria |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kitakitsune0x/memoria |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Push: Local documents are compared against the last sync state. New or updated files are created/updated in Notion.
-- Pull: Notion databases are queried for pages modified since the last sync. Changes are written back to local markdown.
-- Conflicts: When both sides have changed, local is preferred by default. Use `--prefer-notion` to override.
-- Databases: One Notion database is created per category (decisions, lessons, facts, etc.) under the root page.
-- `fact` -- raw information, data points
-- `decision` -- choices made with reasoning
+- 初始化本地 Markdown 记忆库
+- 存储多种类型的记忆：决策、经验教训、收件箱等
+- 支持全文搜索和标签过滤
+- 会话生命周期管理：wake → checkpoint → sleep
+- 与 Notion 双向同步（推送/拉取/冲突处理）
+- 本地优先设计，Markdown 文件作为数据源
+- 支持干运行（dry-run）预览变更
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI 代理建立持久化的结构化记忆系统，跨会话保持上下文
+- 将 AI 代理的决策记录和经验教训同步到 Notion 便于团队查看
+- 在多个环境间同步 AI 代理的记忆数据
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- Node.js 18+
+- 安装方式：`npm install -g @kitakitsune/memoria`
+- 可选：Notion Integration Token 和 Page ID（用于 Notion 同步）
+- 运行 `memoria init` 初始化记忆库
 
-## 包含文件
-- `INSTRUCTIONS.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `bin`
-- `package-lock.json`
-- `package.json`
-- `src`
-- `tsconfig.json`
-- `vitest.config.ts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -59,4 +50,4 @@
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

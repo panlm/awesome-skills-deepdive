@@ -1,6 +1,6 @@
 # Arya Model Router
 
-> Token-saver router: elige modelo (cheap/default/pro) y usa sub-agentes para tareas pesadas. Incluye compresión/briefing opcional.
+> 智能 AI 模型路由器，自动将请求分配到最优 LLM
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Routes each request to one of: `cheap`, `default`, `pro`, `ultra`
-- Supports manual overrides (`@cheap`, `@default`, `@pro`, `@ultra`)
-- Supports router mode commands:
-- `router status`
-- `router auto on`
-- `router auto off`
-- Adds a feedback loop:
-- `router feedback expensive` (or `router feedback caro`)
+- 智能路由 AI 请求到最优模型
+- 支持多个 LLM 提供商的负载均衡
+- 根据任务类型自动选择合适模型
+- 实现成本优化和性能平衡
+- 支持自定义路由规则和权重配置
+- 提供模型性能监控和统计
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 多模型环境中自动选择最优 LLM 处理请求
+- 优化 AI 调用成本同时保证服务质量
+- 构建高可用的多模型推理服务
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Bash/Shell 环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `brief.py`
-- `router.py`
-- `rules.json`
-- `state.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -57,4 +48,4 @@
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

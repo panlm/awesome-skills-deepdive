@@ -1,6 +1,6 @@
 # Agent Orchestrator
 
-> |
+> 元 Agent 技能：将复杂任务分解为子任务，生成专用子 Agent 并协调其工作
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Each subtask should be completable in isolation
-- Minimize inter-agent dependencies
-- Prefer broader, autonomous tasks over narrow, interdependent ones
-- Include clear success criteria for each subtask
-- Agent's specific role and objective
-- Tools and capabilities needed
+- 任务分解引擎：将宏观任务拆分为可独立并行执行的子任务
+- 动态 Agent 生成：为每个子任务创建独立工作区和定制 SKILL.md
+- 基于文件的通信协议：inbox/outbox 机制实现 Agent 间数据传递
+- 检查点式监控：跟踪各子 Agent 的完成状态
+- 结果整合：汇总所有子 Agent 的输出，生成最终交付物
+- 完成后自动清理：任务结束后解散子 Agent
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将大型软件项目拆分为多个独立模块，分配给不同子 Agent 并行开发
+- 复杂研究任务的自动分解和多路径并行探索
+- 大规模数据处理任务的分片和并行执行
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
+- 文件系统读写权限
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +48,4 @@
 **风险摘要:** 1 项中风险。命令执行：存在命令执行相关引用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

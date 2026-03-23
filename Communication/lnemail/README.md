@@ -1,31 +1,37 @@
 # LNemail
 
-> Setup and use anonymous email accounts on LNemail.net using Bitcoin Lightning payments. Use when agents need email capabilities for 2FA, notifications, or communication without KYC or personal information.
+> 基于比特币闪电网络的匿名邮箱服务，在 LNemail.net 上创建和使用加密邮箱
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LNemail |
 | **作者** | lnemail |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/lnemail-lnemail |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lnemail/lnemail |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- 2FA code reception
-- Anonymous communication
-- Bitcoin/Lightning service notifications
-- API-accessible email without identity requirements
-- Plain text only (HTML stripped)
-- Small attachment support
+- 通过闪电网络支付创建匿名邮箱
+- 在 LNemail.net 上收发加密邮件
+- 无需个人信息即可注册使用
+- 支持比特币闪电网络微支付
+- 保护用户通信隐私和匿名性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要匿名通信的用户创建不可追踪的邮箱
+- 使用比特币闪电网络进行隐私保护通信
+- 注册需要邮箱但不想暴露真实身份的服务
+
+## 依赖和前提条件
+- 比特币闪电网络钱包
+- 少量比特币用于支付邮箱服务
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -43,7 +49,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

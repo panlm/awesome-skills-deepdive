@@ -1,6 +1,6 @@
 # Korean Gov Programs
 
-> Collect Korean government support programs (TIPS, Small Business, R&D grants) into structured JSONL files. Supports incremental collection with checkpoints.
+> 收集韩国政府支持项目信息（TIPS、小企业、研发补贴）并以结构化格式输出
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- APPEND 전용: 기존 파일 덮어쓰기 절대 없음
-- 중복 방지: title 기준 중복 자동 스킵
-- 체크포인트: `.checkpoint.json`에 진행 상태 저장 → 재실행 시 이어서 수집
-- 딜레이: 요청 간 0.8초 대기 (서버 부하 방지)
+- 收集 TIPS、小企业扶持等韩国政府支持项目
+- 获取研发补贴和创新资助信息
+- 以结构化 JSON 格式输出项目信息
+- 支持按项目类型和条件筛选
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为韩国初创企业查找适合的政府补贴项目
+- 汇总当前可申请的研发资助信息
 
 ## 依赖和前提条件
-- Python / pip
+- Node.js / npm
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；持久化机制：涉及定时或后台任务
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

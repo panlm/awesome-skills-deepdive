@@ -1,31 +1,34 @@
 # Newsletter Creation Curation
 
-> Industry-adaptive B2B newsletter creation with stage, role, and geography-aware workflows
+> 新闻通讯创建和内容策划工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Newsletter Creation Curation |
 | **作者** | brianrwagner |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/brianrwagner-brw-newsletter-creation-curation |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-newsletter-creation-curation |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `SKILL.md`: concise execution guide with decision tree + workflow
-- `PLAYBOOK.md`: full strategic library (all detailed guidance preserved)
-- `templates/`: industry-specific newsletter structures
-- `examples/`: realistic finished issue samples
+- 邮件通讯自动创建
+- 内容策划和筛选
+- 模板设计和管理
+- 发送计划管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 每周自动策划和创建邮件新闻通讯
+- 从多个内容源筛选和编排通讯内容
+
+## 依赖和前提条件
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
 - `PLAYBOOK.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -47,6 +50,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；越权操作：涉及权限相关操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

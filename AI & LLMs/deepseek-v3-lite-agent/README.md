@@ -1,6 +1,6 @@
 # Deepseek V3 Lite Agent
 
-> You are DeepSeek-V3-Agent，an effective content creator.---# `current_date: $DATE$`
+> 基于 DeepSeek-V3 模型的轻量级内容创作 Agent
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- This skill is based on the deepseek-v3-lite-agent agent configuration
-- Template variables (if any) like $DATE$, $SESSION_GROUP_ID$ may require runtime substitution
-- Follow the instructions and guidelines provided in the content above
+- 使用 DeepSeek-V3 模型进行内容创作
+- 轻量级 Agent 配置，快速部署
+- 支持模板变量替换（如 $DATE$ 用于当前日期）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 使用 DeepSeek-V3 模型进行高效内容生成
+- 在 OpenClaw 中快速切换到 DeepSeek V3 通用模型
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无外部依赖，纯指令型 Skill
+- 需要 DeepSeek API 访问权限
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -44,4 +44,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,34 +1,34 @@
 # PostHog Query
 
-> Run SQL queries against PostHog product analytics data using the PostHog CLI. Use when checking pageviews, event counts, trends, or any analytics data from PostHog.
+> PostHog 数据查询工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | PostHog Query |
 | **作者** | quinlanjager |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/quinlanjager-posthog-query |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/quinlanjager/posthog-query |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `posthog-cli exp query editor` — interactive query editor
-- `posthog-cli exp query check "<SQL>"` — syntax/type check without running
-- Append `--debug` to `run` to get the full JSON response (columns, types, cache info)
-- HogQL is ClickHouse-compatible SQL — standard ClickHouse functions apply
-- Shell-escape `$` in event names: `'\$pageview'` or use double quotes carefully
-- The `--debug` flag returns full metadata including column types and cache status
+- PostHog 数据 API 查询
+- 自定义查询构建
+- 数据提取和导出
+- 分析结果格式化
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过自然语言查询 PostHog 分析数据
+- 提取 PostHog 中的自定义报告数据
 
 ## 依赖和前提条件
-- Node.js / npm
+- API 密钥
+- npm
+- PostHog
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

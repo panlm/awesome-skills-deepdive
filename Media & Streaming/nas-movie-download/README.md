@@ -1,6 +1,6 @@
 # Nas Movie Download
 
-> Search and download movies via Jackett and qBittorrent. Use when user wants to download movies or videos from torrent sources, search for specific movie titles, or manage movie downloads. Now includes automatic subtitle download support with SMB integration.
+> NAS 电影下载和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- `JACKETT_URL`: Jackett service URL (default: http://192.168.1.246:9117)
-- `JACKETT_API_KEY`: Jackett API key (default: o5gp976vq8cm084cqkcv30av9v3e5jpy)
-- `QB_URL`: qBittorrent Web UI URL (default: http://192.168.1.246:8888)
-- `QB_USERNAME`: qBittorrent username (default: admin)
-- `QB_PASSWORD`: qBittorrent password (default: adminadmin)
-- `SMB_USERNAME`: SMB username (default: 13917908083)
+- The Pirate Bay
+- Connects to NAS via SMB
+- Uses subliminal for subtitle search
+- Downloads Chinese and English subtitles
+- Uploads subtitles to corresponding video folders
+- Skips existing subtitle files
+- Use English movie names for better search results
+- Check Jackett indexer status if searches return no results
 
 ## 使用场景
-- 视频内容管理和下载
-- 影视信息查询
-- 视频平台自动化操作
+- 自动搜索和下载电影到 NAS
+- 管理 NAS 上的电影库分类
+- 获取电影元数据和字幕
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `config`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # API Health Checker
 
-> A skill that enables Claw to test API endpoints, verify their responses, measure performance, and generate a health report.
+> UB2 API 健康检查工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,23 @@
 - "Verify that the /users endpoint returns a JSON array with the expected fields"
 - Endpoints — A list of URLs to test
 - Expected status codes — What HTTP status each endpoint should return (default: 200)
+- Timeout — Maximum wait time per request (default: 10 seconds)
+- Headers — Custom headers including authentication tokens
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 监控 API 端点的可用性和响应
+- 执行定期的 API 健康检查
+- 生成 API 健康状态报告和告警
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

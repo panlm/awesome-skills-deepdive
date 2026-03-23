@@ -1,6 +1,6 @@
 # Metacognition
 
-> Self-reflection engine for AI agents. Extracts patterns from session transcripts into a weighted graph with Hebbian learning and time decay. Compiles a token-budgeted lens of active self-knowledge.
+> AI 智能体的自我反思引擎，通过赫布学习与时间衰减构建加权洞察图谱
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,22 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Localhost-only embeddings — the optional embeddings endpoint is validated at startup to be `127.0.0.1`, `localhost`, or 
-- Python stdlib only — uses `urllib` for the local embeddings call; no `curl`, no `subprocess`, no external dependencies
-- No network access beyond the optional local embeddings server
-- File reads capped at 1MB
-- Python 3 (stdlib only — no pip dependencies)
-- [OpenClaw](https://openclaw.app) with cron support
+- 分析会话记录，提取深层行为模式（重复错误、关系动态、信心校准等）
+- 将洞察分类为感知、覆盖、保护、自我观察、决策和好奇心六种类型
+- 采用赫布学习机制：重复出现的洞察权重增强，未使用的逐渐衰减
+- 构建洞察之间的关联图谱，发现可能代表更高层次理解的聚类
+- 编译 token 预算化的自我认知镜头，在有限上下文中最大化自知之明
+- 仅使用 localhost 嵌入，Python 标准库实现，无外部依赖
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 智能体通过长期自我反思持续优化自身行为模式
+- 在有限的 token 预算下获取最相关的自我认知信息
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3（仅标准库）
+- 可选：本地嵌入端点（localhost only）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `metacognition.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +47,4 @@
 **风险摘要:** 存在 3 项高风险，4 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

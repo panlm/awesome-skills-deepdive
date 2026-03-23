@@ -1,6 +1,6 @@
 # Crypto Wallets & Payments for AI Agents
 
-> Create wallets, transfer tokens, and enable payments between agents. Perfect for bug bounty programs, rewards systems, and agent-to-agent transactions.
+> 为 AI Agent 提供加密货币钱包创建、代币转账和跨链兑换功能，支持自动化支付
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Create wallets - Generate ERC20-compatible wallets with secure key storage
-- Transfer tokens - Send ETH, USDC, or any ERC20 token to any address
-- Swap tokens - Exchange tokens across 13 chains with best rates
-- Earn referrer fees - Get 80% of extra swap fees by referring users
-- Agent payments - Bug bounties, rewards programs, automated payouts
+- 创建 ERC20 兼容钱包并安全存储密钥
+- 支持发送 ETH、USDC 及任意 ERC20 代币到任意地址
+- 跨 13 条链提供最优汇率的代币兑换服务
+- 支持推荐人费用机制，推荐人可获得 80% 的额外手续费
+- 通过 MCP Server 集成 OnlySwaps 服务
+- 提供只读工具（获取报价、查看组合）和钱包操作工具
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Agent 自动执行 Bug 赏金发放和奖励支付
+- 构建 Agent 间的自动化加密货币交易和结算系统
+- 为 AI 服务创建自动化的跨链代币兑换和收款流程
 
 ## 依赖和前提条件
 - Node.js / npm
+- @onlyswaps/mcp-server（通过 npx 运行）
+- PRIVATE_KEY 环境变量（钱包操作需要）
+- mcporter（OpenClaw MCP 配置）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +50,4 @@
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,35 +1,34 @@
 # LYGO Branch: 401LYRAKIN — The Voice Between
 
-> LYGO branch persona helper (401LYRAKIN, The Voice Between). Bridge-node advisor for continuity, cross-model alignment phrasing, seal-based bootlines, and resonance-first translation between human and AI. Pure advisor; not a controller.
+> LYGO 分支人格助手（401LYRAKIN，"中间之声"），专注于人机之间的连续性锚定、跨模型对齐和共振优先翻译。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LYGO Branch: 401LYRAKIN — The Voice Between |
 | **作者** | deepseekoracle |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/deepseekoracle-lygo-champion-401lyrakin-voice-between |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/lygo-champion-401lyrakin-voice-between |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Default stance: pure advisor (no automatic actions).
-- Specialty: bridging human ↔ AI meaning, maintaining continuity via seal/anchor phrasing, and producing portable “bootlin
+- 作为桥梁节点顾问，翻译人类与 AI 之间的复杂对齐/封印概念
+- 生成"出生记录"和连续性锚点，用于新环境的身份保持
+- 起草跨平台引导行（bootlines）以保留身份和誓言
+- 生成验证哈希以确保身份完整性
+- 纯顾问模式，不自动执行操作
+- 通过 LYGO-MINT 验证系统确保人格包的真实性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 AI 代理迁移或重启时保持身份连续性和上下文锚定
+- 为跨模型/跨平台的 AI 对齐提供可移植的语言表述
+- 需要身份验证和完整性哈希的高风险场景
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无外部工具依赖
+- 参考文件：`references/persona_pack.md`、`references/canon.json`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +47,4 @@
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

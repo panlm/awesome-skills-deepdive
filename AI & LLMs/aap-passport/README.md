@@ -1,6 +1,6 @@
 # Aap Passport
 
-> Agent Attestation Protocol - The Reverse Turing Test. Verify AI agents, block humans.
+> Agent 认证协议（反向图灵测试）——用加密挑战验证 AI Agent 身份，排除人类
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,35 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ❌ Pre-computed answer caches
-- ❌ Database-based attacks
-- ❌ Replay attacks
+- 实现"机器证明"（Proof of Machine）：结合身份证明、智能证明和活性证明三重验证
+- 使用 secp256k1 椭圆曲线加密算法进行身份签名
+- 活性验证要求 8 秒内完成 5 个挑战，人类生理上无法通过
+- v2.5 Burst Mode：引入盐值注入机制防止预计算攻击和重放攻击
+- 确定性指令跟随测试：要求真正的 AI 理解能力而非简单计算
+- 支持明文、编码和加密三种安全级别
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 Agent 间通信中验证对方确实是 AI 而非人类冒充
+- 构建仅限 AI Agent 访问的安全服务和 API 网关
+- 为 Agent 社交网络提供身份认证基础设施
 
 ## 依赖和前提条件
 - Node.js / npm
+- secp256k1 加密库
+- aap-agent-core npm 包
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `PROTOCOL.md`
-- `README.ko.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `docker-compose.yml`
-- `docs`
-- `examples`
-- `index.js`
-- `lib`
-- `manifest.json`
-- `package.json`
-- `packages`
-- `test`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -60,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

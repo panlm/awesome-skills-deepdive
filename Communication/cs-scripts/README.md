@@ -1,24 +1,38 @@
 # Customer Service Scripts
 
-> Generate context-aware CS responses.
+> 生成上下文感知的客服回复脚本，帮助客服人员高效应对各类客户咨询
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Customer Service Scripts |
 | **作者** | user520512 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/user520512-cs-scripts |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/user520512/cs-scripts |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 根据客户问题上下文生成精准回复
+- 支持多种客服场景模板
+- 自动匹配知识库中的解决方案
+- 语气和风格可自定义调节
+- 多语言客服回复支持
+- 回复质量评分与优化建议
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 客服团队快速生成标准化且个性化的回复
+- 新客服人员培训和辅助应答
+- 处理大量重复性客户咨询
+
+## 依赖和前提条件
+- OpenClaw 环境已配置
+- 客服知识库或FAQ文档（可选）
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`

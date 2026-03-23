@@ -1,30 +1,34 @@
 # ai-github-radar
 
-> Distill the signal around AI-native tools/apps and their GitHub home bases: fast-growing, hyped, well-funded projects plus repos with rapidly rising stars or trending status. Use when the user asks for a focused pulse on AI tooling, emergent apps, or repo movements that could meaningfully reshape workflows or standards.
+> 提炼 AI 原生工具和应用的核心动态信号，追踪快速增长的 GitHub 项目趋势
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | ai-github-radar |
 | **作者** | lopushok9 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/lopushok9-airadar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lopushok9/airadar |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Be analytical, not just descriptive. Use verbs like “signals,” “reinforces,” “propels,” and “tests” to keep the prose ac
-- Keep each entry concise (2–3 sentences) but layered: mention the news, what changed, and the broader implication.
-- If a tool or repo contradicts the thesis (e.g., hype without traction), note that tension rather than ignoring it.
+- 收集 AI 工具/应用的标准信号：融资、新功能、产品发布、热度趋势
+- 追踪 GitHub 项目的 star 增长速度和趋势排名
+- 结合工具新闻与仓库数据，分析技术发展势头和社区信任度
+- 为每个条目提供具体触发因素和量化指标（融资金额、star 速度等）
+- 输出结构化报告：工具&应用、GitHub 雷达、值得关注三个板块
+- 标注来源 URL 和数据引用，便于后续深入研究
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 获取 AI 工具领域的脉搏报告，了解哪些项目正在快速崛起
+- 分析特定 AI 工具的产品动态与开发者社区活跃度的关联
+- 识别新兴的 AI 应用趋势和值得关注的开源项目
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 需要网络访问以获取 GitHub 趋势数据和新闻信息
+- 无特殊环境变量或工具依赖
+
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

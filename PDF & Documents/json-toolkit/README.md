@@ -1,6 +1,6 @@
 # JSON Toolkit
 
-> Swiss-army knife for JSON files. Pretty-print, validate, minify, sort keys, and query with dot-notation paths. Zero dependencies.
+> JSON 数据操作工具箱，查询、转换和处理 JSON 数据
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Pretty-print with configurable indentation (2, 4, or any number of spaces)
-- Minify JSON to reduce file size for APIs and storage
-- Validate JSON and get structural stats (type, key count, size)
-- Query nested data with dot-notation paths including array indices
-- Sort keys alphabetically for deterministic output and easier diffs
-- Stdin support for use in shell pipelines with other tools
+- JSON 数据查询和过滤
+- 格式化和美化 JSON 输出
+- 数据结构转换和映射
+- JSON Schema 验证
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 从复杂的 JSON 数据中提取特定字段
+- 批量处理和转换 JSON 格式的配置文件
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Node.js 依赖包
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `main.py`
@@ -49,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。混淆/反分析：存在代码混淆或编码
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

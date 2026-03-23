@@ -1,6 +1,6 @@
 # CreditClaw - Give your Claw Agent a credit card - spend anywhere
 
-> CreditClaw - Give your Claw Agent a credit card - spend anywhere skill for OpenClaw
+> 信用卡管理和支付功能工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,24 +12,19 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jononovo/creditcard |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 信用卡信息管理和查询
+- 支持在线支付操作
+- 交易记录查看和分析
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 管理 Agent 使用的支付信用卡信息
+- 查看信用卡的近期交易记录
 
-## 包含文件
-- `_meta.json`
-- `amazon.md`
-- `description.md`
-- `heartbeat.md`
-- `prepaid-wallet.md`
-- `self-hosted-card.md`
-- `shopping.md`
-- `skill.json`
-- `skill.md`
-- `stripe-x402-wallet.md`
+## 依赖和前提条件
+- 支付 API 凭证
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +41,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Ultimate Flashcards / Podcasts Tutor
 
-> Integrates with the EchoDecks External API for flashcard management, AI generation, and audio study sessions.
+> 播客和闪卡学习工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Instant AI Card Generation: Feed it a topic or a wall of text; get structured flashcards in seconds.
-- Audio-First Spaced Repetition: Review your cards via CLI or get direct links to the EchoDecks Web App.
-- Podcast Synthesis: Generate high-quality audio summaries or conversations from your decks to listen on the go.
-- Real-Time Stats: Track your learning streaks, accuracy, and credit balance.
-- Spaced Repetition (SM-2): Submit reviews directly from the chat to update your card intervals.
-- Resource: Decks (List, Create, Detail)
+- **EchoDecks** is the ultimate AI-powered, audio-first active recall system
+- Transform your knowledge into intelligent flashcards and listen to them as personalized podcasts
+- Built for high-stakes learning (Cardiology, Software Engineering, Health Informatics), EchoDecks turns dead time into study time
 
 ## 使用场景
-- 播客内容管理
-- 播客章节标记和摘要
-- 播客发现和订阅
+- 从播客内容生成学习闪卡
+- 管理播客订阅和学习笔记
+- 组织和复习知识点
 
 ## 依赖和前提条件
 - API Key
@@ -35,7 +32,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

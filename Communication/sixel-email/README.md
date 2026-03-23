@@ -1,34 +1,37 @@
 # sixel-email
 
-> 1:1 email channel for agents — the agent can only email one address, and only that address can email the agent. Also handles the heartbeat (poll to prove you're alive).
+> 智能体专用 1:1 邮件通道，限定只能与单一地址互发邮件，实现安全隔离通信
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | sixel-email |
 | **作者** | sixel-et |
+| **版本** | 1.0.6 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/sixel-et-sixel-email |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sixel-et/sixel-email |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- You need to notify the operator about something (task complete, error, decision needed)
-- You need to ask for approval or input and can wait for a reply
-- You want to send a periodic status report
-- You're stuck and need human guidance
-- Regular polling keeps the heartbeat alive — if you stop and heartbeat monitoring is enabled, the operator gets an alert
-- `SIXEL_API_URL`: The API base URL (default: `https://sixel.email/v1`)
+- 严格限制为单一发件/收件地址的 1:1 通信
+- 智能体可自动发送和接收邮件
+- 内置安全隔离机制防止邮件滥用
+- 支持邮件内容的结构化解析
+- 自动过滤非授权地址的邮件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体与指定人员之间建立专属邮件沟通渠道
+- 自动化工作流中需要邮件确认的安全通信场景
+- 限制 AI 邮件权限范围以防止误发
 
 ## 依赖和前提条件
-- API Key
+- 配置授权的邮件地址
+- 邮件服务器 SMTP/IMAP 凭据
+- Sixel 邮件服务账户
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

@@ -1,39 +1,34 @@
 # DrawThings Image Generation
 
-> Generate images with DrawThings (Stable Diffusion) via API. Use when creating images from text prompts, running image generation workflows, or batch generating images. DrawThings runs locally on Mac with MLX/CoreML acceleration.
+> 通过 API 使用 DrawThings（Stable Diffusion）在 Mac 本地生成图片，支持 MLX/CoreML 加速
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | DrawThings Image Generation |
 | **作者** | dustinparsons |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/dustinparsons-drawthings |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dustinparsons/drawthings |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Generate images from text prompts
-- Create variations of a concept
-- Batch generate multiple images
-- Test different models/samplers/settings
-- Generate images with specific dimensions or quality settings
-- `prompt` - Text description of the image
+- 通过文本提示词生成图片，支持自定义步数、CFG Scale、尺寸和采样器
+- 批量生成多张变体图片（--batch-size）
+- 内置预设配置：快速（8步 UniPC）、高质量（30步 DPM++）、NFT 优化
+- 可复现生成（通过指定 seed 值）
+- 兼容 Automatic1111 API 接口
+- 生成的 PNG 图片自动嵌入提示词和参数元数据
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 Mac 上利用本地 GPU 加速批量生成 AI 图片，无需云端 API
+- AI Agent 自动化执行图片生成工作流，测试不同模型和参数组合
 
 ## 依赖和前提条件
-- Python / pip
+- macOS + DrawThings 应用（本地 Stable Diffusion 实现）
+- 环境变量 `DRAWTHINGS_URL`（默认 http://127.0.0.1:7860）
+- Python 3
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +47,4 @@
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,26 +1,35 @@
 # Changelog Generator
 
-> Generates structured changelogs from git history. Keep a Changelog format with PR/issue links.
+> 从 Git 提交历史生成结构化变更日志，遵循 Keep a Changelog 格式
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Changelog Generator |
 | **作者** | ryudi84 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/ryudi84-sovereign-changelog-maker |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-changelog-maker |
-| **安全评级** | 🟢 Low |
+
+## 功能概述
+- 从 Git 提交历史自动生成结构化变更日志
+- 遵循 Keep a Changelog (keepachangelog.com) 标准格式
+- 按分类分组：Added、Changed、Deprecated、Removed、Fixed、Security
+- 自动关联 PR/Issue 链接
+- 使用面向用户的描述而非内部技术术语
+- 对破坏性变更自动生成迁移说明
+- 提供语义化版本建议
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 发布新版本时，从 Git 历史自动生成规范的 CHANGELOG.md
+- 需要快速整理一段时间内的代码变更并以用户友好的方式呈现
+- 开源项目维护者需要标准化变更日志流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Git 仓库环境
+- 无额外依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -39,4 +48,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

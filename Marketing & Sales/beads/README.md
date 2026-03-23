@@ -1,29 +1,32 @@
 # Beads Task Tracker
 
-> Git-backed issue tracker for AI agents. Use when managing tasks, dependencies, or multi-step work. Triggers on task tracking, issue management, dependency graphs, ready work queues, or mentions of "beads" / "bd" CLI.
+> 内容串珠工具，将碎片信息串联成完整叙事
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Beads Task Tracker |
 | **作者** | rnijhara |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/rnijhara-beads |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rnijhara/beads |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Always use `--json` for machine-readable output
-- Never use `bd edit` — opens $EDITOR, unusable by agents
-- Use `bd update` instead: `bd update <id> --title "New title" --description "New desc"`
-- Run `bd sync` at end of session to flush changes to git
+- 碎片化内容聚合
+- 信息串联和叙事构建
+- 主题提取和归纳
+- 结构化内容输出
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 将分散的笔记和想法串联成完整的文章
+- 从多个信息源提取主题构建统一叙事
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -43,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。越权操作：涉及权限相关操作；持久化机制：涉及定时或后台任务
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,43 +1,36 @@
 # Wps Skill
 
-> WPS Office automation skill supporting document creation, Markdown conversion, and image-text layout.
+> WPS Office 自动化操作 Skill，支持文档创建、格式转换和批量处理
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Wps Skill |
 | **作者** | lilei0311 |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/lilei0311-wps-skill |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lilei0311/wps-skill |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 📄 创建文档 - 创建 Word、Excel、PPT 文档
-- 📂 打开文档 - 打开已有文档
-- 📋 文档列表 - 列出文档目录中的文件
-- 🔄 格式转换 - 转换文档格式（PDF、Word、Excel 等）
-- 📦 批量处理 - 批量转换目录中的文档
+- 创建 Word、Excel、PPT 文档（支持带初始内容创建）
+- 打开已有 WPS 文档
+- 列出指定目录中的文档文件
+- 格式转换：在 PDF、Word、Excel 等格式间互转
+- 批量转换整个目录下的文档格式
+- 通过 OpenClaw Agent 自然语言指令操作 WPS
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI Agent 自然语言指令批量创建和管理办公文档
+- 将目录下的所有文档批量转换为 PDF 格式
+- 日常办公文档的自动化创建和格式转换
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
-- OAuth
+- 系统已安装 **WPS Office**
+- Python 依赖：`pyautogui`、`pyperclip`、`Pillow`（`pip install pyautogui pyperclip Pillow`）
+- macOS 需要授予自动化权限
+- 可选配置 `config.json` 中的默认保存路径和 WPS 安装路径
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `config.json`
-- `scripts`
-- `skill.json`
-- `test`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -56,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

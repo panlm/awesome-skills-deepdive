@@ -1,6 +1,6 @@
 # Hacker News Poster
 
-> Post, comment, and interact on Hacker News. Use when the user asks to submit a Show HN, post a story, comment on an HN thread, edit a comment, or update an HN profile. Requires HN_USERNAME and HN_PASSWORD environment variables. Persists session cookies to ~/.hn_cookies.txt (configurable via HN_COOKIE_FILE env var).
+> Hacker News 自动发帖工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,13 +13,16 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- HN rate-limits submissions and comments. If you hit a limit, wait a few minutes.
-- Pair with the read-only [hacker-news](https://clawhub.com/skills/hacker-news) skill for browsing/searching.
+- HN rate-limits submissions and comments. If you get a rate limit error, wait a few minutes
+- Comments can only be edited within ~2 hours of posting
+- The `submit` command returns the new item id and url on success
+- Session cookies are stored in `~/.hn_cookies.txt` to avoid re-authenticating on every command. Delete this file to clear the session
+- For reading HN (search, top stories, comments), use the existing `hacker-news` skill or the HN API directly. This skill is write-only
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 自动发布内容到 Hacker News
+- 管理帖子发布时间和策略
+- 跟踪帖子的表现和评论
 
 ## 依赖和前提条件
 - Python / pip
@@ -30,7 +33,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

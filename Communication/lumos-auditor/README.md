@@ -1,23 +1,36 @@
 # Lumos Skill
 
-> Lumos Skill skill for OpenClaw
+> Lumos 平台审计工具，用于检查和审计系统访问权限与合规性
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Lumos Skill |
 | **作者** | samiru369-lumos |
+| **版本** | 0.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/samiru369-lumos-lumos-auditor |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/samiru369-lumos/lumos-auditor |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 系统访问权限审计
+- 合规性检查与报告
+- 审计日志分析
+- 权限异常检测
+- 审计结果汇总输出
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期检查企业系统的访问权限合规性
+- 对 SaaS 应用的用户权限进行安全审计
+- 生成权限审计报告供管理层审阅
+
+## 依赖和前提条件
+- Lumos 平台账户和 API 访问权限
+- 相关审计目标系统的接入配置
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `package-lock.json`
 - `package.json`

@@ -1,6 +1,6 @@
 # Norman: Tax Report
 
-> Review and manage German tax reports including VAT (Umsatzsteuer), income tax prepayments, and Finanzamt submissions. Use when the user asks about taxes, Steuern, VAT, USt, Finanzamt, or tax filing.
+> Norman 税务报告自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,28 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- norman-finance
 - Reporting period
 - Revenue and VAT amounts
 - Status (draft, ready, submitted)
 - Finanzamt submission status
 - ALWAYS show a preview before submitting to the Finanzamt
+- Tax submissions are IRREVERSIBLE - make sure the user explicitly confirms
+- Remind the user of filing deadlines (monthly: 10th of following month, quarterly: 10th of following quarter month)
+- If tax numbers need validation, use `validate_tax_number`
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 自动汇总和生成税务报告
+- 计算应纳税额和抵扣项
+- 导出符合格式要求的税务文件
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

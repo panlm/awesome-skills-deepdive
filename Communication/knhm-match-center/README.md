@@ -1,31 +1,34 @@
 # KNHB Match Center
 
-> Query Dutch field hockey match schedules and results from KNHB Match Center (hockeyweerelt.nl). Use when looking up hockey clubs, teams, upcoming matches, or match results in the Netherlands.
+> 荷兰皇家曲棍球联盟 (KNHB) 赛程和比分查询工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | KNHB Match Center |
 | **作者** | tader |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/tader-knhm-match-center |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tader/knhm-match-center |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `datetime` — ISO 8601 format (UTC)
-- `location.city`, `location.street`, `location.description`
-- `home_team.name`, `home_team.club_name`
-- `away_team.name`, `away_team.club_name`
-- `home_score`, `away_score` — null for upcoming matches
-- `competition`, `poule`, `status`, `field`
+- 查询 KNHB 曲棍球联赛赛程安排
+- 获取实时比赛比分和结果
+- 支持按球队、日期筛选比赛信息
+- 展示联赛积分榜和排名
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 荷兰曲棍球爱好者追踪关注球队的赛程和比分
+- 俱乐部成员快速查询下一场比赛时间和地点
+
+## 依赖和前提条件
+- KNHB Match Center API 访问权限
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

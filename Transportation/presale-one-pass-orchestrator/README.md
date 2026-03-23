@@ -1,6 +1,6 @@
 # Presale One-pass Orchestrator
 
-> Run or supervise a one-pass Codex implementation with preflight gates, stepwise plan execution, and strict QA defect loop. Use when executing approved presale plans end-to-end in one controlled run.
+> 运行或监督一次性 Codex 实现流程——包含预检、分步执行和验证
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,17 +12,20 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dtsiomo/presale-one-pass-orchestrator |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 预检门控确保实现条件满足
+- 分步骤执行 Codex 代码生成
+- 自动验证生成结果的正确性
+- 监督和审计整个实现流程
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动化代码生成流程中的质量检查和验证
+- 编排 Codex 一次性完成复杂功能实现
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- Codex 集成
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -39,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

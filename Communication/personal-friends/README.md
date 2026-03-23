@@ -1,31 +1,37 @@
 # Personal Friends
 
-> Acts as the user's social life assistant in the Friends topic. Remembers friends, birthdays, plans, debts, shared interests. Use when in Personal chat Friends topic, or when user mentions friend, birthday, meeting, hangout, party, debt, owes, or a friend's name.
+> 作为用户社交生活助手，记住朋友信息和社交历史
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Personal Friends |
 | **作者** | gekacross |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/gekacross-personal-friends |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gekacross/personal-friends |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Хранить профили друзей (имя, ДР, интересы, как познакомились)
-- Трекать долги (кто кому и сколько должен)
-- Записывать планы встреч
-- Напоминать о днях рождения
-- Хранить идеи подарков
+- 记录和管理朋友个人信息
+- 追踪社交互动历史和重要日期
+- 提醒生日、纪念日等重要时刻
+- 维护朋友关系图谱和备注
+- 回忆过往对话和社交事件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询朋友信息和社交历史记录
+- 生日和重要日期提醒
+- 社交关系管理与维护
+
+## 依赖和前提条件
+- 初始化朋友信息数据库
+- 配置提醒和通知偏好
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

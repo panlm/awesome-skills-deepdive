@@ -1,6 +1,6 @@
 # Hackathon Manager
 
-> Track hackathon deadlines, manage submission checklists, and monitor progress. Use when managing multiple hackathons, checking what's due soon, marking requirements complete, or extracting hackathon information from URLs to auto-populate deadlines and requirements.
+> 黑客马拉松赛事管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -14,16 +14,18 @@
 
 ## 功能概述
 - Hackathon name
+- Deadline date
+- Prize pool
 - Submission requirements
 - Full item text: `check "Solana Agent" "Deploy to devnet"`
 - Item number: `check "Solana Agent" "2"`
-- `R` = Registration opens
-- `W` = Work period starts
+- Use web_fetch to get the page
+- Extract name, deadline, prize, requirements
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 管理黑客马拉松赛事的完整流程
+- 处理参赛报名和团队组建
+- 安排评审日程和评分系统
 
 ## 依赖和前提条件
 - Python / pip
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Context Gatekeeper
 
-> Keeps the conversation token-friendly by summarizing recent exchanges, surfacing pending actions, and delivering a compact briefing for each turn before calling the model. Trigger this skill whenever you need to prune a bloated thread or keep the next prompt lean.
+> 通过自动摘要、待办提取和近期对话日志保持会话 token 高效，为每次模型调用提供精简简报
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Checks for an existing `auto_monitor.py` process (`pgrep -f auto_monitor.py`). If none exists, it launches the monitor w
-- Designed to be called at startup (`STARTUP.md`) so the monitor automatically restarts after `/reset`, `/new`, or any reb
-- Published as `context-gatekeeper@0.1.1` (latest release). The version bundle includes this README plus all scripts and c
-- Author: Davi Marques. Repository slug: `context-gatekeeper`.
-- Limit the history file to the essential RECENT exchanges that drive the next turn.
-- Watch `/tmp/context-gatekeeper-monitor.log` for monitor errors or long pauses.
+- 自动压缩活跃对话历史，生成紧凑摘要
+- 识别并提取待处理任务（todo、task、follow-up 等关键词）
+- 保留最近几轮对话记录，确保上下文连贯
+- 通过 auto_monitor.py 实时监控历史文件变更并自动更新摘要
+- 使用 ensure_context_monitor.sh 确保监控进程在重启后自动恢复
+- 输出包含时间戳、摘要、待办和近期对话的 current-summary.md
+- 支持自定义摘要长度、待办数量和近期对话轮数参数
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 长对话会话中自动精简上下文以节省 token 消耗
+- 在 24/7 运行的 Agent 中持续维护对话状态摘要
+- 会话重置或重启后快速恢复上下文状态
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3
+- 无外部 pip 依赖
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `context`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,39 +1,35 @@
 # Clude Memory MCP
 
-> MCP server for Clude's 4-tier cognitive memory system — store, recall, search, and dream. Built on Supabase + pgvector with type-specific decay, Hebbian association graphs, and on-chain commitment via Solana.
+> 基于 Supabase + pgvector 的四层认知记忆系统 MCP 服务器——支持存储、回忆、搜索和"做梦"，具备类型特定衰减、赫布关联图谱和 Solana 链上提交。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Clude Memory MCP |
 | **作者** | sebbsssss |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/sebbsssss-clude-memory-mcp |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sebbsssss/clude-memory-mcp |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- SUPABASE_SERVICE_KEY
-- `query` — text to search against memory summaries
-- `tags` — filter by tags
-- `related_user` — filter by user/agent ID
-- `memory_types` — filter by type: `episodic`, `semantic`, `procedural`, `self_model`
-- `limit` — max results (1-20, default 5)
+- `recall_memories`：基于相关性、重要性、近期性和向量相似度的多维记忆检索
+- `store_memory`：存储跨对话持久化的记忆，支持四种类型——情景记忆、语义记忆、程序记忆和自我模型
+- `get_memory_stats`：获取各类型记忆统计、平均重要性/衰减率、梦境会话历史和热门标签
+- `get_market_mood`：获取当前市场情绪和价格状态（无 LLM 调用）
+- `ask_clude`：向 Clude 提问并获取角色化回复
+- 四层记忆架构：情景记忆（每日 7% 衰减）、语义记忆、程序记忆和自我模型，各有不同的衰减曲线
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI Agent 构建跨对话的持久化认知记忆系统
+- 实现基于赫布学习的记忆关联和自动强化
+- 将重要记忆通过 Solana 进行链上不可变提交
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js（`npm install clude-bot`）
+- 环境变量：`SUPABASE_URL`、`SUPABASE_SERVICE_KEY`
+- Supabase 项目（需导入 `supabase-schema.sql` 数据库架构）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `server.ts`
-- `supabase-schema.sql`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +48,4 @@
 **风险摘要:** 2 项中风险。供应链风险：需要安装外部依赖；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # NYC MTA Transit
 
-> NYC MTA transit — real-time subway arrivals, bus predictions, service alerts, and route info for the New York City subway and bus system. Use when the user asks about NYC public transit, subway times, MTA bus arrivals, service alerts, or nearby stops.
+> 纽约 MTA 公共交通——实时地铁到达、公交预测、服务告警和站点信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Real-time subway arrivals — know exactly when the next train comes, with track info
-- Bus predictions — see when your bus will arrive at your stop
-- Service alerts — know about delays, planned work, and weekend changes before you leave
-- Stop and route lookup — find the nearest subway station or bus stop
-- Subway works with zero setup — no API keys, no accounts, no environment variables
-- See when the next train arrives at any subway station
+- 查询纽约地铁的实时到达时间
+- 获取公交车的到站预测
+- 查看 MTA 服务告警和延误信息
+- 搜索站点和路线信息
+- 支持 GTFS-RT 实时数据流
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查看时代广场站接下来的地铁到达时间
+- 检查纽约地铁的实时服务状态
+- 获取某公交路线的实时车辆位置
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（MTA）
 
-## 包含文件
-- `CLAUDE.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package-lock.json`
-- `package.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -55,5 +44,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

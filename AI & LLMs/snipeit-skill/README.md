@@ -1,6 +1,6 @@
 # Snipeit Skill
 
-> >
+> 集成 Snipe-IT 资产管理系统，自动化 IT 设备管理和审计
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- SNIPEIT_URL        # e.g. https://assets.w-w.top
-- SNIPEIT_API_TOKEN  # Bearer token from your profile → API keys
-- Always send both `Content-Type: application/json` AND `Accept: application/json`
-- API always returns `200 OK` — check `.status` field for `"success"` / `"error"`
-- Use `?limit=` and `?offset=` for pagination (max 500 per request)
-- Dates format: `YYYY-MM-DD`
+- 集成 Snipe-IT 资产管理系统
+- 查询和管理 IT 硬件资产
+- 跟踪设备分配和归还状态
+- 生成资产报告和审计数据
+- 支持资产标签和分类管理
+- 适用于企业 IT 资产管理自动化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 助手查询和管理公司 IT 资产
+- 自动化设备分配、归还和审计流程
+- 生成资产管理报表和统计数据
 
 ## 依赖和前提条件
+- Bash/Shell 环境
 - API Key
+- API Token
+- 环境变量 `PATCH`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +50,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

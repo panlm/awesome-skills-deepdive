@@ -1,6 +1,6 @@
 # Voice To Text
 
-> Convert voice messages and audio files to text using Vosk offline speech recognition. Use when a user sends a voice message, audio file, or asks to transcribe speech to text.
+> 语音转文字识别工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -14,16 +14,18 @@
 
 ## 功能概述
 - MP3, WAV, M4A, OGG, FLAC, AAC, WEBM
-- Voice messages from WeChat, Telegram, WhatsApp, etc.
+- Voice messages from WeChat, Telegram, WhatsApp, etc
 - No model found: Download a model to `~/.vosk/models/`
 - ffmpeg not found: Install via `brew install ffmpeg` or `apt install ffmpeg`
 - Poor accuracy: Try a larger model for better results
 - Works completely offline after model download
+- Supports multiple languages (download appropriate model)
+- Audio is converted to 16kHz mono WAV for processing
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 将语音录音转换为文本
+- 支持多语言语音识别
+- 批量处理语音转文字任务
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `_meta.json`
 - `transcribe.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

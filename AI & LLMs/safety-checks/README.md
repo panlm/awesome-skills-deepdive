@@ -1,6 +1,6 @@
 # Safety Checks
 
-> Verify before you trust — model pinning, fallbacks, and runtime safety validation
+> 对 AI 模型输出进行安全性检查和合规性审计
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,25 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- .openclaw/safety-checks.yaml
-- .claude/safety-checks.yaml
-- output/safety/
-- `anthropic-opus-4-5-20251101`
-- `openai-gpt-4-turbo-20250301`
-- `google-gemini-2-pro-20260101`
+- 对 AI 模型输出进行安全性检查
+- 检测潜在的有害内容和偏见
+- 验证输出是否符合安全准则
+- 支持自定义安全规则和过滤器
+- 提供安全评分和风险评估报告
+- 适用于生产环境的 AI 安全审计
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在生产环境部署前对 AI 输出进行安全性审计
+- 构建内容安全过滤管道检测有害信息
+- 定期检查 AI 系统输出的合规性
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Bash/Shell 环境
+- Anthropic API Key
+- Google API Key
+- OpenAI API Key
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +50,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

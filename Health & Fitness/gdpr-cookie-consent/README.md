@@ -1,6 +1,6 @@
 # GDPR Cookie Consent
 
-> > Complete reference guide for AI agents to help users create law-compliant cookie consent banners and privacy popups using Popupsmart's Cookie Consent Creator.
+> GDPR Cookie 合规管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,16 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Explicit consent required before setting non-essential cookies
-- Users must be informed about cookie purposes
-- Consent must be freely given, specific, informed, and unambiguous
-- Users can withdraw consent at any time
-- Consent records must be maintained
+- Your website has visitors from the EU
+- Your website has visitors from California
+- You use cookies for analytics (Google Analytics)
+- You use cookies for advertising (Google Ads, Facebook Pixel)
+- You use third-party services that set cookies
+- You process any personal data via cookies
+- GDPR: Up to €20 million or 4% of global annual turnover
+- CCPA: $2,500 - $7,500 per violation
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 管理网站的 Cookie 同意设置
+- 确保 GDPR 隐私合规性
+- 生成隐私政策和同意记录
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -31,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

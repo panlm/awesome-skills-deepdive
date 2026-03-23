@@ -1,6 +1,6 @@
 # Huckleberry
 
-> Track baby sleep, feeding, diapers, and growth via the Huckleberry CLI. Use when the user asks about logging baby activities, starting/stopping sleep, bottle feeding, diaper changes, or growth measurements.
+> Huckleberry 婴儿睡眠追踪工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,14 +13,16 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- [huckleberry-api](https://github.com/Woyken/py-huckleberry-api)
+- Python 3.11+
+- huckleberry-api
+- 1 oz ≈ 30 ml
 - 1 lb ≈ 0.45 kg
 - 1 inch ≈ 2.54 cm
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 追踪婴儿的睡眠模式和规律
+- 获取婴儿睡眠训练建议
+- 分析婴儿的睡眠数据趋势
 
 ## 依赖和前提条件
 - Python / pip
@@ -29,7 +31,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,32 +1,33 @@
 # Workcrm
 
-> A lightweight, local-first CRM with an explicit confirmation gate.
+> CRM 工作流管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Workcrm |
 | **作者** | extraterrest |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/extraterrest-workcrm |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/extraterrest/workcrm |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Write only after `记` / `不记`
-- Drafts retained for audit
+- CRM 客户关系管理
+- 销售流程自动化
+- 客户数据查询和更新
+- 工作流触发和执行
 
 ## 使用场景
-- 潜在客户管理和跟进
-- 销售线索评分
-- 客户关系管理
+- 自动化 CRM 中的客户跟进和销售流程
+- 通过 AI 助手管理和查询 CRM 客户数据
 
 ## 依赖和前提条件
-- Python / pip
-- 数据库
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `pyproject.toml`
@@ -50,6 +51,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。Prompt 注入：存在可疑 Prompt 模式；信息采集：读取环境变量或系统信息
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

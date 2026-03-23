@@ -1,35 +1,33 @@
 # Auto Skill Hunter
 
-> Proactively discovers, ranks, and installs high-value ClawHub skills by mining unresolved user needs and agent context. Use when new tasks are unsolved, when capability gaps appear, when users ask for better tools, or as a scheduled patrol for continuous skill growth.
+> 技能自动发现和推荐工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Auto Skill Hunter |
 | **作者** | wanng-ide |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/wanng-ide-auto-skill-hunter |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wanng-ide/auto-skill-hunter |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Problem-first discovery: mines unresolved tasks from recent chat/session logs, not just popularity feeds.
-- Auto search pipeline: uses trending endpoints and query-based search together.
-- Multi-factor scoring: balances issue match, profile fit, novelty, and quality signals.
-- Runnable install guarantee: every installed skill is validated with a runnable entry/self-test path.
-- Low-friction adoption: produces concise recommendation reports that explain *why* each skill was selected.
-- Reads recent user messages from session JSONL files.
+- 自动搜索和发现新技能
+- 技能匹配和推荐
+- 技能评估和评分
+- 安装建议和指导
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 根据工作需求自动推荐合适的 Agent 技能
+- 持续发现和评估新的可用技能
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `claw.json`
@@ -51,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；持久化机制：涉及定时或后台任务；信息采集：读取环境变量或系统信息
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

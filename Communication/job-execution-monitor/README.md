@@ -1,35 +1,40 @@
 # Job Execution Monitor
 
-> Monitor scheduled jobs (cron) and alert when they fail or miss their schedule.
+> 定时任务执行监控工具，在 cron 任务失败或错过调度时发出警报通知
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Job Execution Monitor |
 | **作者** | tradmangh |
+| **版本** | 1.0.3 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/tradmangh-job-execution-monitor |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tradmangh/job-execution-monitor |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Schedule validation
-- Timestamp checking
-- Wake events on failures
-- Heartbeat-based (cheap!)
-- Error pattern detection
-- Response length validation
-- "Pong" detection for non-ping jobs
-- JSON schema validation
+- 监控 cron 定时任务的执行状态
+- 检测任务失败并立即发出告警
+- 识别错过调度计划的任务
+- 生成任务执行状态报告
+- 支持多种告警通知渠道
+- 记录任务执行历史日志
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 运维团队监控关键 cron 任务确保按时执行
+- 数据管道调度失败时及时收到告警
+- 定期审查任务执行健康状况
+
+## 依赖和前提条件
+- 需要监控的 cron 任务配置
+- 告警通知渠道配置
+- OpenClaw 运行环境
 
 ## 包含文件
 - `METADATA.json`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config`
@@ -49,7 +54,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。凭证获取：需要多种敏感凭证；持久化机制：设置系统级持久化
 
 ---

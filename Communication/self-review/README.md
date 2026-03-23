@@ -1,35 +1,37 @@
 # Self Review
 
-> Automatically review agent output quality before sending to user.
+> 发送给用户前自动审查 AI 智能体输出的质量和准确性
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Self Review |
 | **作者** | leic8959-sudo |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/leic8959-sudo-self-review |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/leic8959-sudo/self-review |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Length: 太短 (<100 chars) → warn
-- HasAction: 包含行动词（应该/需要/建议/请）→ pass
-- Clarity: 行数 >3 → pass (结构清晰)
-- Combined score < 0.7 → reject
-- [ ] 使用 LLM API 进行语义质量评估（而非规则）
-- [ ] 添加 token 计数和压缩建议
+- 自动检查智能体输出的质量和准确性
+- 在发送前拦截和审查响应内容
+- 检测潜在错误、幻觉和不当内容
+- 提供改进建议和质量评分
+- 可配置审查标准和规则
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 提升 AI 智能体输出的可靠性和质量
+- 在关键业务场景中添加输出质量保障
+- 减少 AI 幻觉和错误信息
 
 ## 依赖和前提条件
-- Node.js / npm
+- 配置审查规则和质量标准
+- 设置拦截和审查流程
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `index.js`

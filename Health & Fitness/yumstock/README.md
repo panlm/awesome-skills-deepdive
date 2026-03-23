@@ -1,6 +1,6 @@
 # yumstock
 
-> Macro-gated US stock analysis combining technical indicators, fundamentals, and macro environment with weighted scoring and Buy/Hold/Sell verdicts.
+> YumStock 美食和库存管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,22 @@
 - CNN Fear and Greed Index: https://www.cnn.com/markets/fear-and-greed
 - Chicago Fed NFCI: https://www.chicagofed.org/research/data/nfci/current-data
 - Baltic Dry Index (BDI)
+- ISM Manufacturing New Orders
+- Conference Board US Leading Economic Index (LEI)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 管理食材库存和保质期
+- 根据库存推荐可烹饪的菜品
+- 生成采购清单和补货提醒
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

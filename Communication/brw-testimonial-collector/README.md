@@ -1,31 +1,36 @@
 # Testimonial Collector
 
-> Systematically gather and format client testimonials. Use when someone needs social proof, wants to collect feedback, or needs to turn happy clients into public advocates.
+> 系统化收集和格式化客户推荐评价的工具，帮助企业高效管理社会证明素材
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Testimonial Collector |
 | **作者** | brianrwagner |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/brianrwagner-brw-testimonial-collector |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-testimonial-collector |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Fix grammar and typos
-- Tighten for clarity
-- Reorder sentences
-- Add claims they didn't make
-- Exaggerate results
-- Change the meaning
+- 结构化收集客户推荐和评价内容
+- 自动格式化评价为标准展示模板
+- 分类管理不同类型的客户反馈
+- 生成可用于营销的推荐语素材
+- 支持多种输出格式（网页、社交媒体、PDF）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 企业系统化收集和整理客户好评用于官网展示
+- 营销团队快速获取格式统一的客户推荐素材
+- 产品团队收集用户反馈用于改进和宣传
+
+## 依赖和前提条件
+- 配置评价收集渠道和模板
+- 已有客户联系信息或反馈来源
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

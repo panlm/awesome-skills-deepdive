@@ -1,6 +1,6 @@
 # French Services
 
-> Skill pour accéder aux services français : trains SNCF, suivi colis La Poste, météo, transports IDF.
+> 法国公共服务查询和集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- La météo fonctionne sans aucune configuration (Open-Meteo est gratuit et sans clé)
-- Pour les autres services, configurer les API keys selon `references/api-setup.md`
-- Les scripts gèrent proprement l'absence de clé API avec un message explicatif
-- Output en français par défaut, `--json` pour l'intégration machine
+- 查询法国政府公共服务信息
+- 获取行政手续和流程指南
+- 支持多种法国公共服务 API
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询法国行政手续所需的文件和流程
+- 获取法国公共服务的最新政策信息
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API Key（法国公共服务平台）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +41,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

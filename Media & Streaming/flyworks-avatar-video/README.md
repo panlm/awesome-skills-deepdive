@@ -1,6 +1,6 @@
 # Flyworks Avatar Video
 
-> Generate videos using Flyworks (a.k.a HiFly) Digital Humans. Create talking photo videos from images, use public avatars with TTS, or clone voices for custom audio.
+> FlyWorks 数字人视频生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -18,9 +18,9 @@
 - 🎙️ Voice Cloning: Clone voices from audio samples
 
 ## 使用场景
-- 视频内容管理和下载
-- 影视信息查询
-- 视频平台自动化操作
+- 创建数字人视频内容
+- 自定义数字人形象和动作
+- 批量生成营销或教学视频
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -35,7 +35,7 @@
 - `requirements.txt`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,23 +1,36 @@
 # Gmail Last5
 
-> When the user runs `/skill gmail_last5`, do this:
+> 通过 /skill gmail_last5 命令快速获取最近 5 封 Gmail 邮件摘要
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Gmail Last5 |
 | **作者** | neuralshift1 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/neuralshift1-gmail-last5 |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/neuralshift1/gmail-last5 |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 一键获取 Gmail 收件箱最新 5 封邮件
+- 展示发件人、主题和邮件摘要信息
+- 通过 Gmail API 安全读取邮件
+- 支持快速浏览未读邮件概况
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日快速检查收件箱是否有重要邮件
+- 在聊天中直接查询最新邮件状态
+- AI 助手定期汇报邮箱动态
+
+## 依赖和前提条件
+- Google Gmail 账户
+- Gmail API OAuth 授权凭据
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

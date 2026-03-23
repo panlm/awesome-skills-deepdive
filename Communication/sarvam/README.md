@@ -1,35 +1,36 @@
 # Sarvam AI
 
-> Use Sarvam AI for Indian language Text-to-Speech (TTS), Speech-to-Text (STT), Translation, and Chat.
+> 使用 Sarvam AI 进行印度语言文字转语音、语音转文字和翻译
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Sarvam AI |
 | **作者** | iammhk |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/iammhk-sarvam |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/iammhk/sarvam |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `text`: The text to speak.
-- `--lang`: Language code (e.g., `hi-IN` for Hindi, `bn-IN` for Bengali, etc.).
-- `--speaker`: Voice ID (e.g., `meera`, `pavithra`, `arvind`).
-- `--output`: Output file path (default: `output.wav`).
-- `file`: Path to the audio file (wav, mp3).
-- `--model`: Model to use (default: `saaras:v3`).
+- 印度多语言文字转语音（TTS）合成
+- 印度语言语音转文字（STT）识别
+- 印度语言间的文本翻译
+- 支持印地语、泰米尔语、泰卢固语等多种印度语言
+- 高质量本地化语音生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 印度语言内容的语音合成和朗读
+- 印度语言语音消息的文字转录
+- 印度语言间的文档翻译
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Sarvam AI API 密钥
+- 配置语言和语音偏好设置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -48,7 +49,7 @@
 | SEC-09 信息采集 | 🔴 High | 大量系统信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，4 项中风险。信息采集：大量系统信息采集
 
 ---

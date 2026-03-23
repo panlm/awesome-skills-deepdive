@@ -1,35 +1,33 @@
 # AffiliateMaster
 
-> Full-stack affiliate marketing automation for OpenClaw agents. Generate, track, and optimize affiliate links with FTC-compliant disclosures and multi-network support.
+> 联盟营销管理大师工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | AffiliateMaster |
 | **作者** | michael-laffin |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/michael-laffin-affiliate-master |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/michael-laffin/affiliate-master |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Link Generation: Create affiliate links for Amazon, ShareASale, CJ, Impact
-- FTC Compliance: Automatic disclosure injection and validation
-- Content Enhancement: Auto-insert affiliate links into content
-- Analytics: Track clicks, conversions, and revenue
-- Multi-Platform: Optimized disclosures for blog, email, social media
+- 联盟营销全流程管理
+- 推广链接生成和追踪
+- 佣金计算和报表
+- 合作伙伴管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 管理和优化联盟营销推广计划
+- 追踪联盟推广效果并生成佣金报告
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config.json`
@@ -53,6 +51,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

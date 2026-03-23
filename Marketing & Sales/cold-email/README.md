@@ -1,34 +1,33 @@
 # MachFive Cold Email
 
-> Generate hyper-personalized cold email sequences using AI. Turn lead data into high-converting outreach campaigns.
+> 冷邮件外联自动化工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | MachFive Cold Email |
 | **作者** | bluecraft-ai |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/bluecraft-ai-cold-email |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bluecraft-ai/cold-email |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- MACHFIVE_API_KEY
-- If the user has not provided a campaign name or ID: Call GET /api/v1/campaigns (see below) to list campaigns in their wo
-- Where to get it manually: https://app.machfive.io/campaigns → open a campaign → copy the ID from the URL or settings.
-- No default: The skill does not assume a campaign. The user (or agent config) must provide one. Agents can store a defaul
-- format=csv (default): Returns the processed CSV (same as UI download), with `Content-Disposition: attachment; filename="
-- format=json: Returns `{ "leads": [ { "email": "...", "sequence": [ { "step": 1, "subject": "...", "body": "..." }, ... ]
+- 个性化冷邮件模板生成
+- 邮件发送和追踪管理
+- 回复率分析
+- A/B 测试支持
 
 ## 使用场景
-- 自动化邮件营销
-- 管理外联和跟进
-- 个性化营销邮件生成
+- 自动生成个性化的冷邮件并管理发送流程
+- 追踪冷邮件的打开率和回复率优化外联效果
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Stripe
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

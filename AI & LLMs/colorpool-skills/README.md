@@ -1,6 +1,6 @@
 # colorpool skills
 
-> colorpool skills skill for OpenClaw
+> ColorPool 相关的 OpenClaw 技能集合
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,15 +12,18 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kj-script/colorpool-skills |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 提供 ColorPool 平台相关的功能集成
+- 作为 OpenClaw 技能运行
+- 源代码文件较少，功能较为精简
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 OpenClaw 中使用 ColorPool 相关服务
 
-## 包含文件
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- 无已知外部依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -39,4 +42,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

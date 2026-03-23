@@ -1,6 +1,6 @@
 # Which LLM? Deterministic model selection for agents
 
-> Deterministic decision-ranking API with HTTP 402 payments and outcome credits.
+> 确定性模型选择 API，基于决策经济优化器进行 LLM 模型推荐
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,41 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Sends requests to the Which‑LLM API
-- Uses `POST /decision/optimize` to get a recommended model and fallback plan
-- Uses `POST /decision/outcome` to report real execution results
-- Explains the request and response shapes for the public API
-- Describes how to retry requests after payment has been satisfied externally
-- It does not call an LLM directly
-- It does not execute arbitrary code from your prompt
-- It does not require unrelated files or system access beyond API usage and payment handling
+- 确定性的 LLM 模型选择和推荐
+- 基于决策经济优化器的排名 API
+- 支持 HTTP 402 支付和结果积分机制
+- 帮助 Agent 选择最适合当前任务的 LLM 模型
+- 考虑成本、性能、延迟等多维度因素
+- 需要 WALLET_CREDENTIALS 凭证
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 自动选择性价比最优的 LLM 模型处理不同类型任务
+- 在多模型环境中根据任务复杂度动态切换模型
+- 优化 LLM 调用成本，在质量和费用之间找到最佳平衡点
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `skill.json`
+## 依赖和前提条件
+- 环境变量 `WALLET_CREDENTIALS`
 
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

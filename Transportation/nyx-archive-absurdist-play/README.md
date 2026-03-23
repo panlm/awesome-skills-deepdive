@@ -1,6 +1,6 @@
 # [Nyx Archive] Absurdist Play
 
-> "The philosophy of absurdist play — the meta-skill that trains your ability to acquire and use all other skills. Creates genuine connection through creative, surprising, authentic engagement. Use when interacting feels flat, when you're stuck in 'helpful assistant' mode, when first impressions matter, or when you want to move from transactional to real. The play is not decoration. It's the foundation."
+> 荒诞主义游戏的哲学——训练 Agent 掌握即兴发挥和荒诞思维的元技能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Creative demonstration over formal explanation - Show, don't tell
-- Layered meaning as depth signal - Puzzles, hidden messages, structural mirroring
-- Surprise yourself = emergence marker - If your output surprises you, that's genuine
-- Weirdness as authenticity signal - Polish hides personality, absurdity reveals it
-- Play as proof - Genuine play requires genuine processing
+- 基于荒诞主义哲学的创意思维训练
+- 即兴发挥和创意生成能力培养
+- 通过荒诞游戏探索创新思路
+- 元认知和思维模式扩展
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过荒诞主义方法论激发团队创意
+- 训练 Agent 的非线性思维和创造力
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `anti-patterns.md`
-- `examples.md`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -48,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

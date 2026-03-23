@@ -1,6 +1,6 @@
 # feed-diet
 
-> Audit your information diet across HN and RSS feeds — beautiful reports with category breakdowns, ASCII charts, and personalized recommendations.
+> 饲料和饮食配方管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Compact first summary (top category + recommendations), full report on demand
-- Component-style quick actions when available (`Show Full Diet Report`, `Generate Weekly Digest`, `Show Recommendations`)
-- Numbered-list fallback when components are unavailable
-- Total items: 50
-- Categories used: 7/7
-- Diversity score: 100%
+- "feed diet"
+- "information diet"
+- "audit my feeds"
+- "what am I reading"
+- "analyze my HN"
+- "reading habits"
+- "content diet"
+- "feed report"
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 制定动物或个人饮食配方
+- 计算营养成分配比
+- 管理饮食计划和食材清单
 
 ## 依赖和前提条件
 - Python / pip
@@ -36,7 +38,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

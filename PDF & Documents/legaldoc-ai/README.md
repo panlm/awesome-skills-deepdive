@@ -1,6 +1,6 @@
 # LegalDoc AI
 
-> **Version:** 1.0.0
+> AI 驱动的法律文档生成和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Solo Practitioners drowning in document review
-- Paralegals needing faster contract analysis
-- Corporate Counsel managing high-volume contracts
-- Litigation Teams processing discovery documents
-- M&A Attorneys conducting due diligence
-- 🔐 End-to-end encryption (TLS 1.3)
+- AI 辅助生成法律文档
+- 法律文本智能分析
+- 合同条款审查建议
+- 多种法律文档模板
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 利用 AI 快速起草合同和法律文书
+- AI 辅助审核合同条款发现潜在风险
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Google API
+- Twilio
+- Slack API
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `clawdhub.json`
@@ -54,6 +56,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

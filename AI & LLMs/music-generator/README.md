@@ -1,6 +1,6 @@
 # Music Generator
 
-> Generates music from a structured Composition Plan. Use this skill to execute music generation after a prompt or plan has been designed. It validates the output quality and retries on failure.
+> 根据结构化作曲计划生成高质量音乐，带自动质量验证和失败重试机制
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- After a `Composition Plan` is created: This skill is the logical next step once you have a detailed JSON plan for the mu
-- To execute music generation: When the goal is to produce the final audio file based on a prompt or design.
-- The `Composition Plan` has not been created or is incomplete.
-- You only need to design the music, not generate it (use a `music-design` or `prompt-generation` skill for that).
-- Specification-Driven: Generation parameters must strictly match the design specifications in the `Composition Plan`.
-- Duration Precision: The output audio's duration must be validated against the target length with a tight tolerance.
+- 接收结构化的作曲计划（Composition Plan）并生成音频文件
+- 使用 AI 音乐模型生成高质量音频
+- 自动验证输出音频质量
+- 生成失败时自动重试，确保最终输出符合要求
+- 作为音乐创作工作流中的执行引擎
+- 支持自定义作曲参数和风格配置
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据创意设计规格自动生成背景音乐
+- 批量生成不同风格的音乐素材用于内容创作
+- 在音乐创作 pipeline 中作为自动化执行环节
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- AI 音乐生成模型
+- 音频处理相关依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +48,4 @@
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

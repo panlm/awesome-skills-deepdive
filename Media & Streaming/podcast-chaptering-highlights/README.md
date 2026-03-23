@@ -1,6 +1,6 @@
 # Podcast Chaptering Highlights
 
-> Create chapters, highlights, and show notes from podcast audio or transcripts. Use when a user wants chapter markers, highlight clips, or show-note drafts without publishing or distribution actions.
+> 播客章节标记和精彩片段提取
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,29 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Use when the user provides audio files or transcripts.
-- Use when the user wants chapter timestamps and titles.
-- Use when the user needs highlight clip ideas and show notes.
-- Avoid when the user asks to publish or upload to hosting platforms.
-- Avoid when rights or consent are unclear.
-- Avoid when audio quality is too poor to segment.
+- Use when the user provides audio files or transcripts
+- Use when the user wants chapter timestamps and titles
+- Use when the user needs highlight clip ideas and show notes
+- Avoid when the user asks to publish or upload to hosting platforms
+- Avoid when rights or consent are unclear
+- Avoid when audio quality is too poor to segment
+- Audio file path or transcript
+- Target chapter format (MM:SS or HH:MM:SS)
 
 ## 使用场景
-- 播客内容管理
-- 播客章节标记和摘要
-- 播客发现和订阅
+- 自动为播客生成章节标记
+- 提取播客中的精彩片段
+- 生成播客摘要和时间线
+
+## 依赖和前提条件
+- API 密钥或访问令牌
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Check and book Tennis and Pickleball Courts at Bay Club Gateway
 
-> "Book and manage tennis/pickleball courts at Bay Club."
+> 在 Bay Club 预订和管理网球/匹克球场地
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,34 +13,20 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- 🎾 Check and book tennis courts
-- 🏓 Check and book pickleball courts
-- 🤖 Runs browser automation via Stagehand
-- 📅 Works with "today", "tomorrow", or specific weekdays
-- 💬 WhatsApp interface - just text to book
-- 📆 Auto-adds bookings to Google Calendar
+- 查看 Bay Club 各场馆的场地可用性
+- 在线预订网球和匹克球场地
+- 管理和取消已有预订
+- 查看场地类型、时段和价格信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 预订本周末的网球场地
+- 查看附近 Bay Club 的匹克球场空闲时段
+- 批量管理个人的场地预订记录
 
 ## 依赖和前提条件
-- Node.js / npm
+- API Key / 账号凭证
 
-## 包含文件
-- `BayClubBot.ts`
-- `GoogleCalendarService.js`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `bayclub_skills.ts`
-- `cli.ts`
-- `package-lock.json`
-- `package.json`
-- `tsconfig.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -57,5 +43,4 @@
 **综合评级: 🔴 High**
 **风险摘要:** 存在 4 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

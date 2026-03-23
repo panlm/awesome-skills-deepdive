@@ -1,6 +1,6 @@
 # Email Tool
 
-> **Description:** Use this skill to send and read emails (IMAP/SMTP). Designed for Zoho Mail but configurable.
+> 邮件发送和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,30 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `to` (string, required): Comma-separated list of recipients.
-- `subject` (string, required): The email subject.
-- `body` (string, required): The email body (HTML or plain text).
-- `cc` (string, optional): CC recipients.
-- `bcc` (string, optional): BCC recipients.
-- `query` (string, required): Search query (e.g. `from:example.com`, `subject:Invoice`).
+- 通过 API 发送和接收邮件
+- 支持邮件模板和批量发送
+- 邮件内容格式化和附件处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动发送通知邮件给指定收件人
+- 处理和转发收到的重要邮件
 
 ## 依赖和前提条件
-- Node.js / npm
+- 邮件服务 API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `package-lock.json`
-- `package.json`
-- `scripts`
-- `src`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -53,5 +41,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

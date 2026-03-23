@@ -1,6 +1,6 @@
 # Social Media Data Extractor
 
-> This skill enables Claude to extract public data from **Instagram**, **TikTok**, and **Reddit**
+> 从多个社交媒体平台批量提取和分析数据内容
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,26 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Extract public posts, hashtags, and profiles from Instagram
-- Scrape trending videos, comments, and creator stats from TikTok
-- Pull posts, threads, comments, and subreddit data from Reddit
-- Aggregate data across platforms for unified trend analysis
-- Output structured JSON data ready for analysis, dashboards, or export
+- 从社交媒体平台提取数据和内容
+- 支持多个主流社交平台
+- 提取帖子、评论、用户信息等数据
+- 支持批量数据采集和导出
+- 提供数据清洗和格式化功能
+- 适用于社交媒体分析和监控
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 批量采集社交媒体数据进行市场调研
+- 监控品牌在社交平台上的提及和口碑
+- 提取社交媒体内容用于数据分析项目
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 运行环境
+- Bash/Shell 环境
+- API Key
+- API Token
+- 环境变量 `APIFY_TOKEN`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +51,4 @@
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,34 +1,36 @@
 # Ad-Ready Pro
 
-> Generate professional advertising images from product URLs using the Ad-Ready pipeline on ComfyDeploy. Use when the user wants to create ads for any product by providing a URL, optionally with a brand profile (70+ brands) and funnel stage targeting. Supports model/talent integration, brand-aware creative direction, and multi-format output. Differs from Morpheus (manual fashion photography) — Ad-Ready is URL-driven, brand-intelligent, and funnel-stage aware.
+> 专业版广告素材创作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Ad-Ready Pro |
 | **作者** | pauldelavallaz |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/pauldelavallaz-ad-ready-pro |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/pauldelavallaz/ad-ready-pro |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Download the main product image from the product URL
-- Search and download the brand logo
-- Both get uploaded to ComfyDeploy automatically
-- Gemini Flash visits the product URL
-- Extracts: title, description, features, price, images
-- ⚠️ Image scraping is the most fragile part — always provide product images manually
+- 专业级广告素材设计
+- 高级广告文案生成
+- 品牌一致性保障
+- 多渠道素材输出
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为品牌广告活动创建专业级广告素材
+- 生成跨渠道一致的品牌广告内容
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- GitHub API
+- Facebook API
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,6 +51,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

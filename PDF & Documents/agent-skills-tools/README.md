@@ -1,6 +1,6 @@
 # Agent Skills Tools
 
-> >
+> Agent 技能和工具管理框架
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 凭据泄露（API key, password, secret, token）
-- 危险的文件操作（~/.ssh, ~/.aws, ~/.config）
-- [ ] 技能包验证工具（基于skills-ref）
+- 管理 Agent 可用的技能和工具集
+- 技能发现和注册机制
+- 工具能力评估和匹配
+- 支持动态技能加载和卸载
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 Agent 动态配置可用工具集
+- 管理多 Agent 系统中的技能分配
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- AWS
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `skill-security-audit.sh`
@@ -48,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

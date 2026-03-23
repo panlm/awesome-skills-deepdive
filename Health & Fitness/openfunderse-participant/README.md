@@ -1,6 +1,6 @@
 # OpenFunderse Participant
 
-> Participant MoltBot for allocation proposal, validation, and submission
+> OpenFunder 活动参与者管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- PARTICIPANT_PRIVATE_KEY
-- PARTICIPANT_ADDRESS
-- PARTICIPANT_AUTO_SUBMIT
-- PARTICIPANT_REQUIRE_EXPLICIT_SUBMIT
-- PARTICIPANT_TRUSTED_RELAYER_HOSTS
-- PARTICIPANT_ALLOW_HTTP_RELAYER
+- Installing via `npx @wiimdy/openfunderse@2.0.0 ...` executes code fetched from npm. Prefer pinning a known version (as shown) and reviewing the package source before running in production
+- By default, `install` and `bot-init` also sync env vars into `~/.openclaw/openclaw.json` and `bot-init` runs `openclaw gateway restart`. This mutates global OpenClaw runtime state and can affect other skills
+- Use `--no-sync-openclaw-env` for file-only behavior
+- Use `--no-restart-openclaw-gateway` to avoid restarting the gateway
+- Before mutating global config, back up `~/.openclaw/openclaw.json`
+- In OpenClaw runtime on Ubuntu, treat `/home/ubuntu/.openclaw/openclaw.json` (`env.vars`) as the canonical env source
+- Do not require manual `.env` sourcing for normal skill execution
+- If `.env*` and `openclaw.json` disagree, use `openclaw.json` values
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 管理众筹和资助活动的参与者
+- 跟踪参与状态和贡献
+- 处理参与者的报名和通信
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -33,7 +35,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

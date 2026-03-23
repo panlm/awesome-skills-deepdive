@@ -1,6 +1,6 @@
 # Financial Planning
 
-> Plan and manage the finances of a solopreneur business. Use when creating budgets, forecasting revenue and expenses, building a P&L, planning for cash flow, setting financial targets, or preparing for financial decision-making. Covers budgeting frameworks, cash flow management, profit margins, expense tracking categories, and financial dashboards. Trigger on "financial plan", "budget my business", "cash flow planning", "P&L", "profit and loss", "financial projections", "how much do I need", "business finances", "financial forecast".
+> 财务规划和预算管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -14,22 +14,27 @@
 
 ## 功能概述
 - Monthly revenue (average of last 3 months if you have history; projected if pre-revenue)
-- Monthly fixed expenses (rent/co-working, tools/subscriptions, insurance, hosting, internet — things that don't change mo
+- Monthly fixed expenses (rent/co-working, tools/subscriptions, insurance, hosting, internet — things that don't change month to month)
 - Monthly variable expenses (marketing spend, contractor payments, per-transaction fees, travel — things that fluctuate)
 - One-time expenses coming up in the next 6 months (equipment, legal, conferences, annual subscriptions)
 - Personal income need (the minimum you need to pay yourself each month to cover personal living costs)
-- Marketing budget should be 10-20% of revenue (or a fixed dollar amount if pre-revenue — treat it as an investment with e
+- Marketing budget should be 10-20% of revenue (or a fixed dollar amount if pre-revenue — treat it as an investment with expected ROI)
+- Owner salary should be set first, then expenses fit around it. If expenses + salary > revenue, something must be cut or revenue must grow
+- Always budget a 10-15% buffer for unexpected costs. Unexpected things always happen
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 制定个人财务规划和预算
+- 分析长期投资和储蓄方案
+- 模拟不同财务场景的结果
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

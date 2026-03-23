@@ -1,34 +1,33 @@
 # momentspost
 
-> "Persuasive copy analysis for WeChat Moments. Use when users need to: (1) Evaluate the persuasiveness of WeChat Moments posts, (2) Improve conversion or engagement of social media copy, (3) Get actionable feedback on personal or business WeChat Moments content, (4) Learn what makes copy more convincing and effective"
+> 微信朋友圈文案说服力分析与优化工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | momentspost |
 | **作者** | zealiao |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/zealiao-momentspost |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/zealiao/momentspost |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Uses curiosity, controversy, or emotional trigger
-- Avoids generic openings ("Today is a good day")
-- Creates urgency or relevance
-- Identifies a real, relatable issue
-- Shows understanding of reader's situation
-- Creates emotional connection
+- 基于五要素框架（钩子、痛点、利益点、可信度、行动指令）评估朋友圈文案说服力
+- 对每个要素进行 1-5 分评分并提供具体改进建议
+- 识别文案目标类型（信息分享、产品推广、个人品牌、互动引导、信任建立）
+- 提供可直接使用的改写建议和优化后版本
+- 分析文案的情感触发点和转化能力
+- 针对个人品牌和商业推广场景提供差异化优化策略
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 评估微信朋友圈营销文案的说服力，获取可操作的改进反馈
+- 优化个人或商业朋友圈内容的转化率和互动率
+- 学习高效文案写作技巧，掌握说服力要素的运用方法
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖，作为纯 Prompt 型 skill 运行
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

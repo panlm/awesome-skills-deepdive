@@ -1,28 +1,37 @@
 # SkillGuard Audit
 
-> Audit OpenClaw skills for security risks before installation via SkillGuard API.
+> 通过 SkillGuard API 在安装前对 OpenClaw skill 进行全面安全风险审计
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | SkillGuard Audit |
 | **作者** | jonathanliu811026 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jonathanliu811026-skillguard-audit |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jonathanliu811026/skillguard-audit |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- verdict: `SAFE` | `CAUTION` | `DANGEROUS`
-- riskScore: 0–100
-- threats: list of identified risks
+- 调用 SkillGuard API 执行深度安全审计
+- 检测 skill 中的潜在恶意代码和危险操作
+- 生成详细的安全风险评估报告
+- 提供风险等级评分和修复建议
+- 支持安装前拦截高风险 skill
+- 审计权限声明与实际行为是否一致
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 安装未知来源 skill 前进行安全审计
+- 企业环境中强制执行 skill 安全准入策略
+- 定期审计现有 skill 的安全状态
+
+## 依赖和前提条件
+- SkillGuard API 访问权限
+- OpenClaw 环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `audit.sh`

@@ -1,6 +1,6 @@
 # Rue Chialisp
 
-> Create Chia blockchain puzzles using Rue, a type-safe language that compiles to CLVM. Use for smart contract development, custom puzzle creation, or when user says "create a coin that...", "build a puzzle", "chialisp", "rue", "timelock", "multisig", "escrow", "atomic swap", or describes coin spending conditions.
+> Chia 区块链 CLVM/Chialisp 开发工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,16 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Password puzzles are educational only — use signatures for real value
-- Always validate input types with `assert value is Type`
-- Use `tree_hash(conditions)` as signature message to bind signatures to outputs
+- Chialisp 智能合约开发
+- CLVM 字节码编译和分析
+- Chia 链集成工具
+- 合约调试和测试
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开发和部署 Chia 区块链上的智能合约
+- 分析和调试 Chialisp 程序代码
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples_txt`
@@ -45,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

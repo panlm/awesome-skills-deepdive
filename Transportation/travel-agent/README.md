@@ -1,6 +1,6 @@
 # Travel Agent Skill
 
-> **Find, book, and change flights for your human via email. One message to Bon, done.**
+> 旅行代理助手——帮助规划和预订旅行
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- One-email booking
-- One-email changes
-- One-email cancellation
-- Auto flight search
-- Auto seat selection
-- Calendar sync
+- 综合旅行规划和建议
+- 航班、酒店和活动的搜索和推荐
+- 行程安排和优化
+- 旅行预算估算
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 规划一次完整的欧洲旅行行程
+- 根据预算和偏好推荐旅行方案
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

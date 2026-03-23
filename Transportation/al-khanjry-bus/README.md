@@ -1,6 +1,6 @@
 # Al Khanjry Bus - Dubai to Muscat
 
-> Fastest private buses (5-6h core, 6-8h w/ borders).
+> 阿曼公交线路查询工具，提供公交时刻表和路线信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,18 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Dubai → Muscat: AED 100 (-10% online AED 90) + AED 36 UAE exit fee (Hatta).
-- Muscat → Dubai: AED 100/OMR 10 (-10% online)—no exit fee.
-- Hatta (Dubai exit) + Wajaja (Oman entry).
-- Immigration ~1.5h; rare passenger issues hold bus (standard).
-- 23kg/passenger (luggage cabin under bus).
-- Seasonal (summer)—check WhatsApp/site.
+- 查询阿曼地区公交线路和站点信息
+- 获取公交时刻表和发车频率
+- 支持按站点名称或位置搜索路线
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询马斯喀特市内公交路线和时刻表
+- 搜索到达某个目的地的公交换乘方案
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,5 +41,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

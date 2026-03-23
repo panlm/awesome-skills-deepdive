@@ -1,6 +1,6 @@
 # Create Dxf
 
-> Create RFQ-ready 2D DXF (and optional SVG preview) files from a strict, validated JSON spec derived from a natural-language design prompt. Use for sheet/plate parts (waterjet/laser/router) like mounting plates, gussets, brackets, hole patterns, and slots.
+> DXF 工程图纸文件生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `out/<name>.dxf`
-- `out/<name>.svg`
-- DXF uses simple entities for compatibility: closed `LWPOLYLINE` outer profile + `CIRCLE` holes.
-- Default layers are manufacturing-oriented:
-- `CUT_OUTER` (outer perimeter)
-- `CUT_INNER` (holes/slots)
+- 创建 DXF 格式的工程图纸
+- 支持基本图形元素绘制
+- CAD 兼容的文件输出
+- 参数化图纸生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据设计参数自动生成 DXF 工程图纸
+- 批量创建标准化的 CAD 图纸模板
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -50,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

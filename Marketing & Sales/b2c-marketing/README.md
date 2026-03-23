@@ -1,32 +1,37 @@
 # B2C Mobile App Marketing Coach
 
-> The organic growth playbook behind 300K+ app downloads. Your AI becomes a growth coach trained on the exact system that drove 500M+ views and $30K+ revenue.
+> B2C 消费者营销工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | B2C Mobile App Marketing Coach |
 | **作者** | jackfriks |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/jackfriks-b2c-marketing |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jackfriks/b2c-marketing |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Save videos from competitors and similar apps — these become your format inspiration
-- Study what hooks, formats, and sounds are working in your niche
-- Note which videos have high comment counts (comments = algorithm fuel)
-- Build a swipe file of formats you could adapt
+- B2C 营销策略制定
+- 消费者画像分析
+- 营销活动管理
+- 效果追踪和优化
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 制定面向消费者的精准营销策略
+- 管理和优化 B2C 营销活动的全流程
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Bearer Token
+- FFmpeg
+- GitHub API
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -47,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

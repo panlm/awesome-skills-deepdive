@@ -1,41 +1,36 @@
 # Living Room Smoke Detector
 
-> Simple smoke/fire detector for living room. Queries Dirigera air sensor every 5 minutes, detects dangerous PM2.5 over 250 or CO2 over 2000 levels, and broadcasts emergency alert on Mac speaker continuously until air quality normalizes. Acts as backup to regular smoke alarms.
+> 客厅烟雾/火灾检测器，通过 Dirigera 空气传感器监测 PM2.5 和 CO2，超标时持续播报警报。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Living Room Smoke Detector |
 | **作者** | maverick-2 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/maverick-2-living-room-smoke-detector |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/maverick-2/living-room-smoke-detector |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Queries Dirigera directly every 5 minutes (not from database)
-- Simple state only - keeps just the latest reading, no history
-- Detects danger: PM2.5 > 250 µg/m³ OR CO2 > 2000 ppm
-- Continuous alert - plays "Attention! Abnormal smoke level detected" on Mac speaker
-- Loops until cleared - keeps playing every 5 seconds until air quality normalizes
-- Backup smoke alarm - works alongside your regular smoke detector
+- 每 5 分钟直接查询 Dirigera 智能家居中枢的 ALPSTUGA 空气传感器
+- 检测危险阈值：PM2.5 > 250 µg/m³ 或 CO2 > 2000 ppm
+- 超标时在 Mac 扬声器上持续播放语音警报
+- 空气质量恢复正常后自动停止警报
+- 仅保留最新一次读数，简洁的状态管理
+- 作为常规烟雾报警器的辅助备份
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在家中部署额外的烟雾/火灾检测层，作为传统报警器的智能补充
+- 通过定时任务持续监测室内空气质量并在异常时自动告警
+- 为 Mac 用户提供基于语音播报的紧急通知
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
-- 数据库
+- IKEA Dirigera 智能家居中枢和 ALPSTUGA 空气传感器
+- Python 3
+- macOS（使用 Mac 扬声器播放警报）
+- Dirigera API 访问令牌
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `data`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +49,4 @@
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；持久化机制：涉及定时或后台任务
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

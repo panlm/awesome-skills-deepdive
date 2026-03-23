@@ -1,21 +1,29 @@
 # Blog Writer
 
-> This skill should be used when writing blog posts, articles, or long-form content in the writer's distinctive writing style. It produces authentic, opinionated content that matches the writer's voice—direct, conversational, and grounded in personal experience. The skill handles the complete workflow from research review through Notion publication. Use this skill for drafting blog posts, thought leadership pieces, or any writing meant to reflect the writer's perspective on AI, productivity, sales, marketing, or technology topics.
+> AI 博客文章写作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Blog Writer |
 | **作者** | tomstools11 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/tomstools11-blog-writer |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tomstools11/blog-writer |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- AI 驱动的博客文章创作
+- SEO 优化的内容生成
+- 多种写作风格支持
+- 文章结构自动规划
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 根据主题自动生成 SEO 优化的博客文章
+- AI 辅助快速产出高质量的博客内容
+
+## 依赖和前提条件
+- Notion API
 
 ## 包含文件
 - `2024-02-17-radical-transparency-sales.md`
@@ -26,6 +34,7 @@
 - `2024-11-08-ai-revolutionizing-entry-level-sales.md`
 - `2025-11-12-why-ai-art-is-useless.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `manage_examples.py`
@@ -47,6 +56,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

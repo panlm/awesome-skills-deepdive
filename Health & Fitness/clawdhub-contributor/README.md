@@ -1,6 +1,6 @@
 # ClawdHub Contributor
 
-> Contribute to the ClawdHub ecosystem by scouting unknown skills, reporting bugs, and sharing skill recipes. Three modes (passive/active/full) let you control how much you contribute.
+> ClawdHub 社区贡献管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,9 +19,9 @@
 - Scout performs read-only static analysis
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 管理 ClawdHub 平台的 skill 贡献
+- 跟踪贡献审核和发布状态
+- 与社区协作开发 skill
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -33,7 +33,7 @@
 - `config`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,33 +1,37 @@
 # TelCall Twilio
 
-> Make emergency phone calls via Twilio. Use when you need to call someone and play a voice message programmatically (e.g., server down alerts, security notifications).
+> 通过 Twilio 语音 API 发起紧急电话呼叫，播放文字转语音消息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | TelCall Twilio |
 | **作者** | cnvipstar |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/cnvipstar-telcall-twilio |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cnvipstar/telcall-twilio |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Make phone calls via Twilio API
-- Text-to-speech message delivery (supports multiple languages)
-- Simple configuration
-- Easy integration with OpenClaw
+- 通过 Twilio Voice API 发起电话呼叫并播放 TTS 语音消息
+- 支持多语言文字转语音（TwiML）
+- 提供交互式配置脚本（setup.sh）设置 Twilio 凭证
+- 简单的命令行调用方式（call.sh）
+- 与 OpenClaw Agent 集成，支持自然语言触发（如"打电话给我：服务器挂了！"）
+- 低成本运营：电话号码约 $1/月，通话约 $0.02-0.15/分钟
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 服务器宕机、安全事件等紧急情况下自动电话告警通知
+- AI Agent 监控到异常后通过电话呼叫值班人员
+- 需要确保关键告警被及时接收的场景（比邮件和消息更紧急）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- Twilio 账号（需绑定信用卡用于生产环境）
+- 购买一个 Twilio 电话号码（具有 Voice 能力，约 $1/月）
+- Twilio Account SID 和 Auth Token
+- 试用账号需先验证目标号码，或升级账号（$20）解锁任意号码拨打
+- `curl`、`jq`
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -46,4 +50,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

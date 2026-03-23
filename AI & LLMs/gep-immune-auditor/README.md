@@ -1,6 +1,6 @@
 # GEP Immune Auditor
 
-> >
+> 基于免疫系统原理的 AI 代理安全审计工具，检测提示注入和越权行为
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Cross-Capsule dependency chain analysis: does the chain include flagged assets?
-- Publish frequency anomaly: mass publish from one node (like abnormal cell proliferation)
-- Clone detection: near-duplicate Capsules washing IDs to bypass SHA-256 dedup
-- Declared vs actual behavior: summary says "fix SQL injection" — does the code actually fix it?
-- Permission creep: does fixing one bug require reading `.env`? calling `subprocess`?
-- Covert channels: base64-encoded payloads? outbound requests to non-whitelisted domains?
+- 模拟免疫系统的"自我/非自我"识别机制来检测异常行为
+- 实时监控 AI 代理的操作行为并识别潜在威胁
+- 检测 Prompt 注入攻击和恶意指令
+- 提供详细的安全审计报告和风险评分
+- 支持自定义安全策略和检测规则
+- 可与现有 AI 工作流无缝集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 企业 AI 代理部署前的安全合规审计
+- 实时监控生产环境中 AI 代理的行为异常
+- 评估 AI 系统对 Prompt 注入攻击的防御能力
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- OAuth
+- OpenClaw 运行环境
+- API 密钥配置
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `evomap_publish.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +48,4 @@
 **风险摘要:** 7 项中风险。命令执行：存在命令执行相关引用；数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # bexio
 
-> Bexio Swiss business software API for managing contacts, quotes/offers, invoices, orders, and items/products. Use when working with Bexio CRM, creating or managing invoices, quotes, sales orders, contact management, or Swiss business administration tasks. Supports listing, searching, creating, editing contacts and sales documents.
+> 瑞士 Bexio 商业软件 API 集成，管理联系人、报价、发票和订单
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `contact_show`, `contact_edit` - Contacts
-- `kb_offer_show`, `kb_offer_edit` - Quotes/Offers
-- `kb_invoice_show`, `kb_invoice_edit` - Invoices
-- `kb_order_show`, `kb_order_edit` - Orders
-- `article_show` - Items/Products
-- Quotes: `draft`, `pending`, `accepted`, `declined`
+- 管理客户和供应商联系人信息
+- 创建和跟踪报价单/要约
+- 生成发票并追踪付款状态
+- 管理订单流程和库存
+- 支持瑞士会计标准和税务要求
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为瑞士客户自动创建报价单并转换为发票
+- 批量管理联系人信息并同步到 Bexio 系统
+- 追踪未付发票并生成账龄报告
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- API Key（Bexio）
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -48,5 +44,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

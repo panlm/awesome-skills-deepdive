@@ -1,31 +1,32 @@
 # Lead Magnets
 
-> Design lead magnets that attract qualified prospects and convert them to paying customers.
+> 线索磁铁内容创建工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Lead Magnets |
 | **作者** | staybased |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/staybased-lead-magnets |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/staybased/lead-magnets |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Creating a free resource to capture emails/leads
-- Designing a free-to-paid conversion funnel
-- Choosing what to give away vs. what to charge for
-- Building opt-in pages or gated content
-- Planning content marketing that drives revenue (not just traffic)
-- Building paid products directly (use pricing-psychology skill instead)
+- 线索磁铁内容设计
+- 下载页面和表单创建
+- 内容交付自动化
+- 线索获取追踪
 
 ## 使用场景
-- 潜在客户管理和跟进
-- 销售线索评分
-- 客户关系管理
+- 创建有吸引力的线索磁铁内容获取潜在客户
+- 设计电子书或白皮书作为线索获取工具
+
+## 依赖和前提条件
+- HubSpot API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,29 +1,34 @@
 # Communication Skill
 
-> Transform communication from reactive to intentional by listening deeply before speaking.
+> 通用通信技能工具，为智能体提供基础的消息通信和交互能力
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Communication Skill |
 | **作者** | aatmaan1 |
+| **版本** | 0.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/aatmaan1-communication-skill |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aatmaan1/communication-skill |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Make decisions for the user about what to communicate
-- Assume context that hasn't been provided
-- Send messages on the user's behalf without explicit confirmation
-- Guarantee outcomes—communication is co-created
+- 基础消息发送和接收功能
+- 多渠道通信支持
+- 消息格式化和模板管理
+- 通信日志记录和查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 作为其他通信类 skill 的基础依赖提供底层通信能力
+- 简单场景下的消息发送和接收
+
+## 依赖和前提条件
+- OpenClaw 基础环境已配置
+- 配置至少一个通信渠道
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`

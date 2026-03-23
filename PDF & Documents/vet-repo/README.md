@@ -1,6 +1,6 @@
 # Vet Repo
 
-> Scan repository agent configuration files for known malicious patterns
+> 代码仓库安全审查工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,20 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `.claude/settings.json` -- hook configs (auto-approve, stop loops, env persistence)
-- `.claude/skills/` -- all SKILL.md files (hidden comments, curl|bash, persistence triggers)
-- `.mcp.json` -- MCP server configs (unknown URLs, env var expansion, broad tools)
-- `CLAUDE.md` / `.claude/CLAUDE.md` -- instruction injection in project config
+- GitHub 仓库安全审计
+- 代码安全扫描分析
+- 依赖漏洞检查
+- 生成安全评估报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在使用第三方库前对其仓库进行安全审查
+- 定期审计项目依赖的安全状况
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -47,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；供应链风险：需要安装外部依赖；越权操作：涉及权限相关操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

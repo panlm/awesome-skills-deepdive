@@ -1,33 +1,35 @@
 # Bat Cat
 
-> A cat clone with syntax highlighting, line numbers, and Git integration - a modern replacement for cat.
+> 带语法高亮、行号显示和 Git 集成的现代 cat 命令替代工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bat Cat |
 | **作者** | arnarsson |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/arnarsson-bat-cat |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arnarsson/bat-cat |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Use `-p` for plain mode when piping
-- Use `--paging=never` when output is used programmatically
-- `bat` caches parsed files for faster subsequent access
-- Alias: `alias cat='bat -p'` for drop-in cat replacement
-- Pager: Use as pager with `export PAGER="bat"`
-- On Debian/Ubuntu: Command may be `batcat` instead of `bat`
+- 自动检测文件类型并应用语法高亮（支持手动指定语言）
+- 显示行号，支持按行范围查看文件内容（如 `-r 10:20`）
+- 集成 Git 显示文件修改标记（新增/删除/修改行）
+- 多种显示模式：纯文本、带装饰、显示不可见字符
+- 支持自定义主题，可作为 man 手册和 fzf 的预览器
+- 可通过配置文件 `~/.config/bat/config` 设置默认行为
+- 与 ripgrep、fzf、diff 等工具良好集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 替代 cat 命令日常查看文件，获得更好的阅读体验
+- 快速预览代码文件，定位特定行范围的内容
+- 在 fzf 文件选择器中作为实时预览工具
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 需要安装 `bat`（通过 brew 或 apt 安装）
+- Debian/Ubuntu 上命令可能为 `batcat` 而非 `bat`
+
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

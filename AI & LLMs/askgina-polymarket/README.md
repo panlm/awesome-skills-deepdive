@@ -1,6 +1,6 @@
 # Polymarket via Gina
 
-> Fast setup for Claw bots: paste your Gina MCP token and start trading Polymarket in minutes.
+> 通过 Gina 平台接入 Polymarket 预测市场，支持搜索、交易和自动化预测市场策略。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Search: `"NBA markets tomorrow"`, `"Fed rate decision odds"`
-- Trending: `"what's trending on Polymarket?"`, `"what are people betting on?"`
-- Crypto / stocks: `"BTC 15 min up or down"`, `"AAPL daily market"`
-- Trade: `"bet $10 on eagles to win"`, `"buy Yes at 0.40 or better"`
-- Positions: `"show my positions"`, `"what's my P&L?"`
-- Automate: `"daily market briefing at 9am"`, `"alert me on odds swings"`
+- 自然语言搜索预测市场（如"NBA 明天的市场"、"美联储利率决议概率"）
+- 查看 Polymarket 热门趋势和热点事件
+- 支持加密货币和股票相关的预测市场（BTC、AAPL 等）
+- 执行预测市场交易（如"在老鹰队获胜上下注 10 美元"）
+- 查看持仓和盈亏状况
+- 设置自动化市场简报和概率变动提醒
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 助手进行 Polymarket 预测市场交易
+- 设置每日市场简报，自动追踪关注事件的概率变化
+- 用自然语言搜索和分析预测市场数据
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 需要 Gina 平台账户和 MCP Token
+- MCP 端点：`https://askgina.ai/ai/predictions/mcp`
+- Token 90 天过期，最多 5 个活跃 Token
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -44,8 +44,5 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # OpenScan
 
-> Scan binaries and scripts for malicious patterns before trusting them. Use when installing skills, evaluating unknown binaries, or auditing tool dependencies.
+> 开源文档扫描和数字化工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Pre-trust scanning of binaries before execution
-- Skill folder auditing to catch malicious scripts
-- Programmatic API for integration into OpenClaw's skill loading
-- Suspicious libraries: Frida, Cynject, MobileSubstrate, injection frameworks
-- Code signatures: Missing or invalid signatures (macOS)
-- Security features: ASLR/PIE disabled, executable stack/heap, missing NX
+- 文档扫描和图像增强
+- 自动裁剪和透视校正
+- 多页文档合并为 PDF
+- 图像质量优化处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将纸质文档快速扫描并数字化归档
+- 批量处理手机拍摄的文档照片
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
+- Python 运行环境
+- Node.js
+- npm
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `bin`
@@ -54,6 +53,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，5 项中风险。命令执行：发现直接命令执行指令；数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

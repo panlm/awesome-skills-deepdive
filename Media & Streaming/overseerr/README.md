@@ -1,6 +1,6 @@
 # Overseerr
 
-> Request movies/TV and monitor request status via the Overseerr API (stable Overseerr, not the beta Seerr rewrite).
+> Overseerr 媒体请求和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,15 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `OVERSEERR_URL` (example: `http://localhost:5055`)
-- `OVERSEERR_API_KEY` (Settings → General → API Key)
-- This skill uses `X-Api-Key` auth.
-- Overseerr can also push updates via webhooks; polling is a simple baseline.
+- Request movies/TV and monitor request status via the Overseerr API (stable Overseerr, not the beta Seerr rewrite)
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 管理电影和电视剧的下载请求
+- 集成 Plex/Jellyfin 媒体服务
+- 自动化媒体库的内容获取
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -32,7 +31,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

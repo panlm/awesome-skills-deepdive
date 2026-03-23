@@ -1,6 +1,6 @@
 # Togetherai Tts
 
-> Text-to-speech using TogetherAI API with MiniMax speech-2.6-turbo model.
+> 使用 Together AI 平台将文本转换为高质量语音
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,29 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `TOGETHERAI_API_KEY`: Your TogetherAI API key
-- `TOGETHERAI_MODEL`: Model to use (default: minimax/speech-2.6-turbo)
-- `TTS_FORMAT`: Output format (default: mp3)
-- `TTS_VOICE`: Voice to use (default: default)
+- 使用 Together AI 的语音合成 API
+- 将文本转换为高质量语音输出
+- 支持多种语音模型和声音选择
+- 提供低延迟的实时语音生成
+- 集成 Together AI 平台的 TTS 能力
+- 适用于语音助手和内容朗读场景
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将 AI 生成的文本内容转换为语音输出
+- 构建语音助手应用集成 Together AI TTS
+- 为内容创作自动生成配音和朗读音频
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 运行环境
+- Bash/Shell 环境
 - API Key
+- Together AI API Key
+- 环境变量 `TOGETHERAI_API_KEY`
+- 环境变量 `TOGETHERAI_MODEL`
+- 环境变量 `TTS_FORMAT`
+- 环境变量 `TTS_VOICE`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `index.js`
-- `package.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +54,4 @@
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；文件系统篡改：存在文件系统操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

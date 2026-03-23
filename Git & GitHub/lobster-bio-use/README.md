@@ -1,39 +1,37 @@
 # LobsterBio - Use
 
-> |
+> 使用 Lobster AI 分析生物数据，包括单细胞/批量 RNA-seq、文献挖掘、数据集发现和可视化。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LobsterBio - Use |
 | **作者** | cewinharhar |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/cewinharhar-lobster-bio-use |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cewinharhar/lobster-bio-use |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Analyzing single-cell or bulk RNA-seq data
-- Searching PubMed/GEO for papers or datasets
-- Running quality control on biological data
-- Clustering cells, finding markers, differential expression
-- Creating publication-quality visualizations
-- Working with H5AD, CSV, 10X, GEO/SRA accessions
+- 分析单细胞和批量 RNA-seq 数据
+- 搜索 PubMed/GEO 数据库查找论文和数据集
+- 对生物数据执行质量控制（QC）
+- 细胞聚类、寻找标记基因、差异表达分析
+- 创建出版质量的可视化图表（UMAP、火山图等）
+- 支持 H5AD、CSV、10X、GEO/SRA 等多种数据格式
+- 通过自然语言或斜杠命令与 Lobster 专家代理交互
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 生物信息学研究人员快速分析单细胞测序数据
+- 从公开数据库搜索和下载相关数据集进行二次分析
+- 生成用于论文发表的高质量生物信息学图表
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
+- Lobster AI 已安装并配置（`lobster config-test` 验证）
+- 安装方式：`curl -fsSL https://install.lobsterbio.com | bash`（macOS/Linux）
+- 或通过 pip：`pip install 'lobster-ai[full]'`
+- 需要运行 `lobster init` 配置 API Key 和代理包
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +50,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

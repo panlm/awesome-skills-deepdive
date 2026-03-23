@@ -1,34 +1,35 @@
 # Cold Outreach Sequence
 
-> Build personalized cold outreach sequences for LinkedIn and email. Use when someone needs to reach prospects, warm up cold leads, or build a systematic outreach engine. Covers research, connection requests, follow-ups, and conversion.
+> 为 LinkedIn 和邮件构建个性化冷启动触达序列，覆盖调研、连接请求、跟进和转化全流程。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Cold Outreach Sequence |
 | **作者** | brianrwagner |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/brianrwagner-brw-cold-outreach-sequence |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-cold-outreach-sequence |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Recent news — Funding, launches, hires, press
-- What they're posting about — Their content tells you what they care about
-- Their likely pain — Given their role and stage, what's keeping them up?
-- Your connection point — What can you genuinely comment on?
-- Their LinkedIn activity (posts, comments, shares)
-- Company news (Crunchbase, TechCrunch, press releases)
+- 针对每个潜在客户进行深度调研：最新动态、发布内容、痛点和连接切入点
+- 生成 300 字符以内的 LinkedIn 连接请求（具体观察 + 连接理由，不含推销）
+- 构建多阶段跟进消息序列：首次消息、价值分享、案例故事、直接提案
+- 提供邮件触达模板：主题行、正文和 CTA 设计
+- 支持从 LinkedIn 动态、Crunchbase、公司官网等渠道获取调研信息
+- 遵循"不做冷触达，做有温度的触达"理念，强调个性化而非模板化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 销售团队需要系统化地开发新客户和预热冷线索
+- 创业者向目标客户或投资人发起有策略的触达
+- 构建可重复的多渠道（LinkedIn + 邮件）外展流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- LinkedIn 账户
+- 邮件发送能力（可选）
+- 每个高价值客户约 10-15 分钟的调研时间
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +48,4 @@
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

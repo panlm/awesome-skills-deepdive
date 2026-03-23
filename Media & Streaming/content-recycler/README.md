@@ -1,6 +1,6 @@
 # Content Recycler
 
-> Transform and repurpose content across multiple platforms including Twitter, LinkedIn, Facebook, Instagram, TikTok, and email. Use when adapting long-form content for social media, creating platform-specific variations, building content calendars, or maintaining consistent messaging across channels.
+> 内容再利用和多平台分发工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Instagram captions (emoji-rich, hashtag-optimized)
 - TikTok/YouTube Shorts scripts (60-90 second scripts)
 - Email newsletter summaries
+- Character limit: 280 per tweet
+- Thread structure for longer content
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 将长内容拆分为多平台适配的短内容
+- 自动化内容再发布和排期
+- 跟踪再利用内容的表现数据
 
 ## 依赖和前提条件
 - Python / pip
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

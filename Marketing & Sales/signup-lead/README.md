@@ -1,34 +1,32 @@
 # Signup Lead
 
-> Create a signup lead in the AgenticCreed system using the public HTTP endpoint.
+> 注册线索获取工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Signup Lead |
 | **作者** | waqas-orcalo |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/waqas-orcalo-signup-lead |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/waqas-orcalo/signup-lead |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `email`: Email address (required)
-- `firstName`: First name (required)
-- `lastName`: Last name (required)
-- `address`: Physical address
-- `dateOfBirth`: Date of birth (ISO format)
-- `phoneNumber`: Phone number
+- 注册数据采集
+- 线索来源追踪
+- 转化分析
+- 线索评分
 
 ## 使用场景
-- 潜在客户管理和跟进
-- 销售线索评分
-- 客户关系管理
+- 追踪和分析各渠道的注册线索数据
+- 优化注册流程提高线索质量
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `SKILL.yaml`
 - `_meta.json`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

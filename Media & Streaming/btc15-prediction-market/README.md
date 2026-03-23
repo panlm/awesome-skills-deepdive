@@ -1,6 +1,6 @@
 # BTC15 Prediction Market
 
-> BTC15 Prediction Market skill for OpenClaw
+> BTC15 预测市场参与工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,15 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kamal-sutra/btc15-prediction-market |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
+- 支持多种媒体格式和平台
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 参与加密货币预测市场
+- 分析预测市场趋势和赔率
+- 管理预测仓位和收益
 
 ## 依赖和前提条件
 - Python / pip
@@ -26,7 +31,7 @@
 - `package.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

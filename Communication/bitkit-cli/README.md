@@ -1,38 +1,40 @@
 # Bitkit Cli
 
-> Bitcoin Lightning payment CLI for agents. Lowest LSP fees. Self-custody wallet with LNURL, typed exit codes, JSON envelope output, encrypted messaging, and daemon mode.
+> 比特币闪电网络支付命令行工具，支持最低 LSP 费用、自托管钱包和 L402 协议，实现便捷的加密货币支付
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bitkit Cli |
 | **作者** | ovitrif |
+| **版本** | 0.2.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/ovitrif-bitkit-cli |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ovitrif/bitkit-cli |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Single static binary -- no daemon, no runtime dependencies
-- Optional daemon mode -- keeps node running for instant command execution
-- Machine-readable `--json` output on every command
-- Mainnet by default, regtest for development
-- LNURL-pay, LNURL-withdraw, and Lightning Address support
-- Blocktank LSP integration for managed channel opening
-- Encrypted seed (AES-256-GCM + Argon2id) or plaintext for automation
-- Also available as `bk` (short alias)
+- 闪电网络即时支付，交易确认速度极快
+- 最低 LSP（流动性服务提供商）费用，降低交易成本
+- 自托管钱包，用户完全掌控私钥和资金
+- 支持 L402 协议，实现 API 访问的微支付认证
+- 命令行界面操作，适合自动化集成
+- 支持链上和闪电网络双通道支付
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体自动为 API 调用支付比特币闪电网络费用
+- 开发者在自动化流水线中集成加密货币支付功能
+- 通过 L402 协议实现按次付费的数据服务访问
 
 ## 依赖和前提条件
-- Node.js / npm
+- 已安装 Bitkit CLI 工具
+- 拥有比特币闪电网络钱包
+- 网络环境支持闪电网络连接
 
 ## 包含文件
 - `CONTRIBUTING.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `install.sh`

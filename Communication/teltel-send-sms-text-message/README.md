@@ -1,35 +1,37 @@
 # Send SMS text and bulk messages via TelTel.io API
 
-> Send SMS text messages via TelTel (teltel.io) using the REST API (api.teltel.io). Includes bulk send, delivery report, and bulk sms.
+> 通过 TelTel (teltel.io) REST API 发送短信，支持智能体自动化短信通信
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Send SMS text and bulk messages via TelTel.io API |
 | **作者** | teltel-call-center |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/teltel-call-center-teltel-send-sms-text-message |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/teltel-call-center/teltel-send-sms-text-message |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `skills.entries.teltel-send-sms-text-message.apiKey` → `TELTEL_API_KEY`
-- `skills.entries.teltel-send-sms-text-message.env.TELTEL_SMS_FROM`
-- `TELTEL_API_KEY` (required)
-- `TELTEL_SMS_FROM` (optional) — default sender name/number
-- `TELTEL_BASE_URL` (optional) — defaults to `https://api.teltel.io/v2`
-- Base URL: `https://api.teltel.io/v2`
+- 调用 TelTel REST API 发送短信
+- 支持自定义发送号码和接收号码
+- 支持多国号码和国际短信
+- 短信发送状态回调和确认
+- 模板化短信内容管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体需要通过短信发送通知或验证码
+- 自动化客户沟通流程中的短信触达
+- 紧急事件时通过短信通知相关人员
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- TelTel (teltel.io) 账户
+- TelTel API 密钥
+- 已验证的发送号码
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -48,7 +50,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

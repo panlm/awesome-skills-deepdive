@@ -1,6 +1,6 @@
 # Mobb Vulnerabilities Fixer
 
-> Scan, fix, and remediate security vulnerabilities in a local code repository using Mobb MCP/CLI. Use when the user asks to scan for vulnerabilities, run a security check, auto-fix issues, remediate findings, or apply Mobb fixes (e.g., \"scan this repo\", \"fix security issues\", \"remediate vulnerabilities\", \"run Mobb on my changes\").
+> Mobb 安全漏洞自动修复工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `path`: absolute path to the repository root
-- `offset`: pagination offset for additional fixes
-- `limit`: maximum number of fixes to return (default is 3)
-- `maxFiles`: scan up to N recently changed files (default is 10); setting this triggers a fresh scan
-- `rescan`: force a full rescan; only when user explicitly asks
-- `scanRecentlyChangedFiles`: when true and no git changes are found, scan recently changed files from history
+- Requires a local git repo with an `origin` remote
+- If auto-fix is enabled, fixes may be applied automatically; tell the user to review and commit changes
+- It may return "initial scan in progress" or "no fresh fixes" depending on timing
+- If the path is a valid git repo, scan only changed/staged files by default
+- If no changes are found and `scanRecentlyChangedFiles` is true (or `maxFiles` is set), scan recently changed files from git history
+- If not a git repo, scan recently changed files in the directory
+- Exclude files larger than 5 MB
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 自动检测和修复代码安全漏洞
+- 生成漏洞修复补丁
+- 集成 CI/CD 安全扫描流程
 
 ## 依赖和前提条件
 - API Key
@@ -34,7 +35,7 @@
 - `agents`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

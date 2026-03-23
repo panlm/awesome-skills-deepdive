@@ -1,6 +1,6 @@
 # Ambil jadwal sholat (imsak, subuh, dzuhur, ashar, maghrib, isya) untuk kota/kabupaten di Indonesia dari API Muslim api.myquran.com (sumber Kemenag Bimas Islam). Gunakan saat user minta jadwal sholat hari ini / tanggal tertentu / 1 bulan untuk lokasi tertentu, atau butuh mencari ID kab/kota.
 
-> Ambil jadwal sholat (imsak, subuh, dzuhur, ashar, maghrib, isya) untuk kota/kabupaten di Indonesia dari API Muslim api.myquran.com (sumber Kemenag Bimas Islam). Gunakan saat user minta jadwal sholat hari ini / tanggal tertentu / 1 bulan untuk lokasi tertentu, atau butuh mencari ID kab/kota.
+> 获取印尼各城市的伊斯兰祈祷时刻表
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- mencoba match exact (case-insensitive) ke kolom `lokasi` bila memungkinkan
-- kalau tidak, pakai hasil pertama
+- 查询印尼各城市/地区的每日祈祷时刻
+- 涵盖所有主要祈祷时间
+- 支持按城市和地区搜索
+- 数据来源可靠的天文计算
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询印尼某城市今日的完整祈祷时刻表
+- 在斋月期间获取准确的封斋和开斋时间
 
 ## 依赖和前提条件
-- Python / pip
+- Node.js / npm
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

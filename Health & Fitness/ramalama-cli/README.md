@@ -1,6 +1,6 @@
 # RamaLama CLI
 
-> Run and interact with AI agents.
+> RamaLama 本地 AI 模型运行工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - benchmark/perplexity evaluation
 - model conversion and registry push/pull flows
 - One-shot inference: `ramalama run <model> "<prompt>"`
+- Interactive chat loop: `ramalama run <model>`
+- Serve OpenAI-compatible endpoint: `ramalama serve <model>`
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 在本地运行和管理 AI 模型
+- 配置模型的参数和推理设置
+- 支持多种 AI 模型框架
 
 ## 依赖和前提条件
 - Docker
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

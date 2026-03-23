@@ -1,6 +1,6 @@
 # Ham Radio DX Monitor
 
-> Monitor DX clusters for rare station spots, track active DX expeditions, and get daily band activity digests for amateur radio operators.
+> 业余无线电 DX 频段监控工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- ✅ DX spot monitoring every 5 minutes
-- ✅ Daily digest at 9am
-- ✅ Automatic logging
-- `ea7jxh` - Europe (default)
-- `om0rx` - Europe
-- `oh2aq` - Finland
+- ea7jxh - dx.ea7jxh.eu:7373 (Europe)
+- om0rx - cluster.om0rx.com:7300 (Europe)
+- oh2aq - oh2aq.kolumbus.fi:7373 (Finland)
+- ab5k - ab5k.net:7373 (USA)
+- w6rk - telnet.w6rk.com:7373 (USA West Coast)
+- *"Check the DX cluster for new spots"*
+- *"What's active on 20 meters?"*
+- *"Show me today's DX digest"*
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 监控 DX 频段的实时活动
+- 查询和记录远程通联信息
+- 管理业余无线电设备配置
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -35,7 +37,7 @@
 - `_meta.json`
 - `dx-monitor.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

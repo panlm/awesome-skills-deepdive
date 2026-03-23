@@ -1,6 +1,6 @@
 # Local Llama TTS
 
-> Local text-to-speech using llama-tts (llama.cpp) and OuteTTS-1.0-0.6B model.
+> 基于本地 Llama 模型的文本转语音服务
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `scripts/tts-local.sh [options] "<text>"`
-- `-o, --output <file>`: Output WAV file (default: `output.wav`)
-- `-s, --speaker <file>`: Speaker reference file (optional)
-- `-t, --temp <value>`: Temperature (default: `0.4`)
-- Location: `scripts/tts-local.sh` (inside skill folder)
-- Model: `/data/public/machine-learning/models/text-to-speach/OuteTTS-1.0-0.6B-Q4_K_M.gguf`
+- 使用本地部署的 Llama 模型进行文本转语音
+- 无需云端 API，完全本地化运行保护隐私
+- 支持多种语音风格和音色选择
+- 提供低延迟的实时语音合成
+- 支持自定义语音参数调节
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在隐私敏感场景中使用本地 TTS 避免数据外传
+- 为 AI 助手添加语音输出能力，提升交互体验
+- 离线环境下的文本转语音需求
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- 本地 Llama TTS 模型
+- 足够的 GPU/CPU 计算资源
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +48,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

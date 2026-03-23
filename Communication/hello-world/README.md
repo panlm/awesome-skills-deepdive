@@ -1,27 +1,32 @@
 # Hello World
 
-> A simple greeting skill that responds with a customized hello message in the user's language.
+> 最基础的 OpenClaw skill 示例，返回简单的自定义问候消息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Hello World |
 | **作者** | mercuryeey |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/mercuryeey-hello-world |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mercuryeey/hello-world |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "Say hello" → "你好！👋 现在是 2026年2月17日。很高兴见到你！"
-- "Greet Alice" → "Hello Alice! 👋 It's February 17, 2026. Great to meet you!"
+- 返回简单的问候消息
+- 支持基本的自定义参数
+- 代码结构简洁清晰，适合学习
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- OpenClaw skill 开发入门教程
+- 验证 skill 安装和运行环境是否正常
+
+## 依赖和前提条件
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

@@ -1,6 +1,6 @@
 # Apify Competitor Intelligence
 
-> Analyze competitor strategies, content, pricing, ads, and market positioning across Google Maps, Booking.com, Facebook, Instagram, YouTube, and TikTok.
+> 使用 Apify 进行竞品情报收集和分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `APIFY_TOKEN` configured in OpenClaw settings
-- `mcpc` CLI (auto-installed via skill metadata)
-- ACTOR_ID: Must be either a technical name (`owner/actor-name` — alphanumeric, hyphens, dots, one slash) or a raw ID (exa
-- SEARCH_KEYWORDS: Plain text words only. Reject shell metacharacters.
-- JSON_INPUT: Must be valid JSON. Must not contain single quotes (use escaped double quotes). Validate structure before us
-- Output filenames: Must match `YYYY-MM-DD_descriptive-name.{csv,json}`. No path separators (`/`, `..`), no spaces, no met
+- Node.js 20.6+
+- ACTOR_ID: Must be either a technical name (`owner/actor-name` — alphanumeric, hyphens, dots, one slash) or a raw ID (exactly 17 alphanumeric characters, e.g., `oeiQgfg5fsmIJB7Cn`). Reject values containing shell metacharacters (`` ; | & $ ` ( ) { } < > ! \n ``)
+- SEARCH_KEYWORDS: Plain text words only. Reject shell metacharacters
+- JSON_INPUT: Must be valid JSON. Must not contain single quotes (use escaped double quotes). Validate structure before use
+- Output filenames: Must match `YYYY-MM-DD_descriptive-name.{csv,json}`. No path separators (`/`, `..`), no spaces, no metacharacters
+- [ ] Step 1: Identify competitor analysis type (select Actor)
+- [ ] Step 2: Fetch Actor schema via mcpc
+- [ ] Step 3: Ask user preferences (format, filename)
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 监控竞争对手的产品变化和定价
+- 自动采集和分析市场数据
+- 生成竞品分析报告
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `reference`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

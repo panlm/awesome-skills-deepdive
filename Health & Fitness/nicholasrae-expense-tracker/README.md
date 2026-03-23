@@ -1,6 +1,6 @@
 # Expense Tracker
 
-> "Just say what you spent — your AI logs it, categorizes it, and tracks it against your budget. No apps, no forms, no friction. Supports natural language like 'spent $45 at Costco' or 'split a $90 dinner with Jake'. 16 auto-categories, monthly budget alerts, weekly and monthly reports. Runs entirely local — your spending data stays on your machine."
+> 个人支出跟踪和预算管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -21,9 +21,9 @@
 - Smart parsing — understands "yesterday", split bills, approximate amounts
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 记录和分类每日支出
+- 设定和跟踪月度预算目标
+- 分析消费模式和节省建议
 
 ## 依赖和前提条件
 - macOS
@@ -37,7 +37,7 @@
 - `scripts`
 - `templates`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🔴 High | 发现直接命令执行指令 |

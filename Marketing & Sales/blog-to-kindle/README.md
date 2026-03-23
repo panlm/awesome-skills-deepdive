@@ -1,32 +1,32 @@
 # Blog to Kindle
 
-> Scrape blogs/essay sites and compile into Kindle-friendly EPUB with AI-generated cover. Use for requests to download blogs for Kindle, compile essays into ebook, or send blog archives to Kindle. Supports Paul Graham, Kevin Kelly, Derek Sivers, Wait But Why, Astral Codex Ten, and custom sites.
+> 将博客文章转换发送到 Kindle 设备
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Blog to Kindle |
 | **作者** | ainekomacx |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/ainekomacx-blog-to-kindle |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ainekomacx/blog-to-kindle |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Sender email is on Kindle approved list
-- File under 50MB (EPUB compresses well)
-- `{site}-last-fetch.json` - Last fetch timestamp, article count
-- `{site}-sent.json` - List of sent article IDs
+- 博客文章抓取和转换
+- Kindle 兼容格式生成
+- 自动推送到 Kindle
+- 阅读体验优化
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 将收藏的博客文章推送到 Kindle 离线阅读
+- 定期将关注博客的新文章发送到 Kindle
 
 ## 依赖和前提条件
-- macOS
+- Pandoc
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -48,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

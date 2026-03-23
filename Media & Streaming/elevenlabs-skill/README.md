@@ -1,6 +1,6 @@
 # ElevenLabs Skill
 
-> Text-to-speech, sound effects, music generation, voice management, and quota checks via the ElevenLabs API. Use when generating audio with ElevenLabs or managing voices.
+> ElevenLabs 语音合成、音效和音乐生成集成
 
 ## 基本信息
 | 项目 | 内容 |
@@ -20,9 +20,9 @@
 - Quota Tracking: Check usage and limits (`quota.py`)
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 生成高质量的文本转语音内容
+- 创建音效和短音频片段
+- 管理和克隆自定义语音
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +34,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

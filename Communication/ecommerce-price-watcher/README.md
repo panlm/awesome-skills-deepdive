@@ -1,34 +1,37 @@
 # Ecommerce Price Watcher
 
-> Track product prices across ecommerce sites and alert on offers or target-price hits. Use when a user wants to monitor one or many product URLs or item queries, compare current vs previous prices, detect discounts, and generate alert-ready summaries with product name, old/new price, percent drop, and direct link.
+> 跨电商平台商品价格监控工具，在降价促销或达到目标价格时自动发出警报通知
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Ecommerce Price Watcher |
 | **作者** | pbalajiips |
+| **版本** | 1.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/pbalajiips-ecommerce-price-watcher |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/pbalajiips/ecommerce-price-watcher |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `add`: add a single product URL
-- `add-item`: discover product URLs from an item query, then add watches
-- `list`: list watched products
-- `check --id <id>`: check one product now
-- `check --all`: check all products now
-- `remove --id <id>`: delete watcher
+- 跨多个电商平台追踪商品价格
+- 设定目标价格触发警报
+- 价格历史曲线记录与分析
+- 促销活动和优惠券自动检测
+- 支持多商品同时监控
+- 价格变动实时通知推送
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 等待心仪商品降价时的自动价格监控
+- 比较不同电商平台的同款商品价格
+- 追踪电子产品或大件商品的价格走势
 
 ## 依赖和前提条件
-- Python / pip
+- OpenClaw 环境已配置
+- 目标商品的电商页面链接
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`

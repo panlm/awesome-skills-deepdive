@@ -1,6 +1,6 @@
 # Revolut Business
 
-> "Revolut Business API CLI — accounts, balances, transactions, counterparties, payments, FX exchange, CSV export. Auto-refreshes OAuth tokens. Business accounts only (not personal)."
+> 集成 Revolut Business API，自动化管理企业财务和多币种账户
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,30 +13,26 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 💰 Accounts & Balances — list all accounts, total EUR balance
-- 📋 Transactions — filter by date, type, account; JSON output
-- 👥 Counterparties — list, search by name
-- 💸 Payments — send payments (with confirmation) or create drafts
-- 💱 FX Exchange — exchange currencies between accounts
-- 🔄 Internal Transfers — move funds between own accounts
-- 📊 CSV Export — export transactions for bookkeeping
-- 🔑 Auto Token Refresh — OAuth tokens refresh automatically via JWT
+- 集成 Revolut Business API 进行财务管理
+- 查询账户余额和交易记录
+- 管理多币种企业账户
+- 自动化支付和转账操作
+- 获取实时汇率信息
+- 生成财务报告和数据分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动化查询和管理企业多币种账户
+- 通过 AI 助手完成日常财务操作和报告生成
+- 集成到企业财务工作流实现支付自动化
 
 ## 依赖和前提条件
-- Python / pip
-- OAuth
+- Python 运行环境
+- Bash/Shell 环境
+- 环境变量 `AAAA`
+- 环境变量 `REVOLUT_CLIENT_ID`
+- 环境变量 `REVOLUT_ISS_DOMAIN`
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -55,4 +51,4 @@
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

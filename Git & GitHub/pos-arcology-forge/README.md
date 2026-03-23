@@ -1,36 +1,34 @@
 # Proof of share Arcology Forge: PoW-Verified Elysium Blueprints & P2P Hub
 
-> "PoW-verified Elysium Arcology Planner + Hub. Grind nonces on O'Neill sims/exosuits (physics/3D exports) → trustless shares for P2P hub. Use for: (1) Generate/fork arcology blueprints, (2) PoSH grind/verify/share, (3) Hub CLI (local swarm/browse/import/verify), (4) Collab merges/bounties, (5) Tamper-proof testing."
+> 使用工作量证明验证的太空殖民地蓝图规划器和 P2P 共享中心
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Proof of share Arcology Forge: PoW-Verified Elysium Blueprints & P2P Hub |
 | **作者** | kunoiiv |
+| **版本** | 1.2 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/kunoiiv-pos-arcology-forge |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kunoiiv/pos-arcology-forge |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- All async/try-catch, stdlib only.
-- `test.js`: Auto-runs edges (good/bad/tamper).
+- 生成和 Fork 太空殖民地（Arcology）蓝图，支持参数校验和物理模拟
+- 基于 BTC PoW 机制的 Nonce 计算，确保蓝图防篡改
+- P2P Hub CLI：本地集群浏览、导入、验证共享蓝图
+- 支持协作合并和悬赏机制
+- 包含完整的自动化测试套件（20+ 边界测试用例）
+- 所有脚本使用异步/try-catch，仅依赖标准库
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 生成太空殖民地结构蓝图并通过 PoW 机制确保其可信性
+- 在 P2P 网络中共享和验证蓝图数据
+- 运行完整测试套件验证系统的健壮性
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
+- 无外部依赖（仅使用标准库）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `assets`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

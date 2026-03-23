@@ -1,31 +1,37 @@
 # MH weather
 
-> "Get current weather and forecasts via wttr.in or Open-Meteo. Use when: user asks about weather, temperature, or forecasts for any location. NOT for: historical weather data, severe weather alerts, or detailed meteorological analysis. No API key needed."
+> 通过 wttr.in 或 Open-Meteo API 获取全球任意地点的实时天气和天气预报
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | MH weather |
 | **作者** | mohdalhashemi98-hue |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/mohdalhashemi98-hue-mh-weather |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-weather |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "What's the weather?"
-- "Will it rain today/tomorrow?"
-- "Temperature in [city]"
-- "Weather forecast for the week"
-- Travel planning weather checks
-- Historical weather data → use weather archives/APIs
+- 实时天气状况查询
+- 多日天气预报获取
+- 支持全球任意城市和地点
+- 温度、湿度、风速等详细气象数据
+- 双数据源（wttr.in 和 Open-Meteo）
+- 无需 API 密钥即可使用
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 出行前查询目的地天气情况
+- 每日早间天气播报提醒
+- 根据天气预报智能推荐穿衣和出行建议
+
+## 依赖和前提条件
+- 网络访问权限（访问 wttr.in 或 Open-Meteo）
+- 无需额外 API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

@@ -1,6 +1,6 @@
 # HuDy
 
-> "Korean public holidays and business day calculations via HuDy MCP. Query holidays, count business days, add/subtract business days, and manage custom holidays."
+> 韩国公共假日和工作日计算工具，通过 HuDy MCP 查询假日和工作日
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- All dates use `YYYY-MM-DD` format.
-- Holiday data is sourced from the Korean government open data portal (data.go.kr).
-- Custom holidays are per-user and automatically included in business day calculations.
-- Calendar sync provides an iCal URL for Google Calendar, Apple Calendar, and Outlook.
+- 查询韩国法定公共假日日期
+- 计算指定日期范围内的工作日数
+- 判断某日期是否为工作日或假日
+- 获取韩国节假日详细信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 计算项目交付前的实际工作日天数
+- 查询韩国下一个公共假日的日期和名称
 
 ## 依赖和前提条件
-- API Key
+- API Key（HuDy MCP）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

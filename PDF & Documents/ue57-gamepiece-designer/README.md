@@ -1,6 +1,6 @@
 # UE5.7 Gamepiece Designer
 
-> Designs UE5.7 multiplayer-friendly game pieces (Blueprint node chains, data schemas, asset naming, and test checklists). Text-only, no scripts.
+> 游戏棋子/角色设计工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Blueprint node chain recipes (ordered steps, node names, variables, events)
-- DataTable / DataAsset schemas (field list + example rows)
-- Asset / folder plan (paths + naming)
-- Multiplayer sanity: server/client responsibility, replication notes
-- Test checklist (PIE, dedicated server, latency, edge cases)
+- 游戏角色和棋子设计
+- 可视化设计编辑
+- 自定义属性和参数
+- 导出多种格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为桌游设计自定义的游戏棋子和角色
+- 创建游戏原型中的角色视觉设计
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `Templates`
 - `_meta.json`
@@ -48,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；越权操作：涉及权限相关操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

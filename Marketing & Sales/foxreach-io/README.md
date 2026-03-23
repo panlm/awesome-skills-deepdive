@@ -1,35 +1,34 @@
 # Foxreach Cold Outrach
 
-> Manage FoxReach cold email outreach — leads, campaigns, sequences, templates, email accounts, inbox, and analytics. Use when the user asks to create leads, manage campaigns, check analytics, send outreach, manage email sequences, or anything related to the FoxReach API.
+> FoxReach.io 平台集成工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Foxreach Cold Outrach |
 | **作者** | concaption |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/concaption-foxreach-io |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/concaption/foxreach-io |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `{{firstName}}`, `{{lastName}}`, `{{email}}`
-- `{{company}}`, `{{title}}`, `{{phone}}`
-- `{{website}}`, `{{linkedinUrl}}`
-- Custom fields: `{{customFieldName}}`
-- Base URL: `https://api.foxreach.io/api/v1`
-- Rate limit: 100 requests per minute. The SDK auto-retries on 429.
+- FoxReach 平台 API 集成
+- 数据同步和管理
+- 营销自动化工作流
+- 报告和分析
 
 ## 使用场景
-- 自动化邮件营销
-- 管理外联和跟进
-- 个性化营销邮件生成
+- 集成 FoxReach.io 平台到营销自动化流程
+- 通过 API 管理 FoxReach 平台数据
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- Python pip
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `api-reference.md`
@@ -51,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

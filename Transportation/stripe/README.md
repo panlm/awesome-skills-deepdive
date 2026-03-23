@@ -1,6 +1,6 @@
 # Stripe Agent Wallet | Use Stripe top-up your agentic wallet - Private Beta
 
-> "With CreditClaw and backed by Stripe, you can shop anywhere."
+> 使用 CreditClaw + Stripe 在任何地方进行在线支付
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,53 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Dashboard access — Full activity view at https://creditclaw.com/overview
-- Spending controls — Set per-transaction, daily, and monthly limits
-- Category blocking — Block specific spending categories
-- Approval modes — Require human approval above certain thresholds
-- Wallet freeze — Instantly freeze your wallet if needed
-- Transaction history — View all purchases, top-ups, and payments
-- Notifications — Email alerts for spending activity and low balance
+- 通过 Stripe 处理在线支付
+- 管理支付方式和客户信息
+- 查看交易记录和支付状态
+- 支持订阅和一次性支付
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Agent 使用 Stripe 在网站上完成支付
+- 管理 Stripe 账户的支付方式和交易历史
 
 ## 依赖和前提条件
-- API Key
+- API Key（Stripe）
 
-## 包含文件
-- `CHECKOUT-GUIDE.md`
-- `HEARTBEAT.md`
-- `MANAGEMENT.md`
-- `MY-STORE.md`
-- `PROCUREMENT.md`
-- `SHOPPING-GUIDE.md`
-- `SKILL.md`
-- `STRIPE-X402-WALLET.md`
-- `WEBHOOK.md`
-- `_meta.json`
-- `agents`
-- `amazon`
-- `amazon.md`
-- `bigcommerce`
-- `description.md`
-- `generic`
-- `heartbeat.md`
-- `magento`
-- `prepaid-wallet.md`
-- `self-hosted-card.md`
-- `shopify`
-- `shopping.md`
-- `skill.json`
-- `skill.md`
-- `squarespace`
-- `stripe-x402-wallet.md`
-- `wix`
-- `woocommerce`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
@@ -76,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Expanso secrets-scan
 
-> Detect hardcoded secrets (API keys, tokens, passwords) in text or code
+> 检测代码和文本中硬编码的密钥、令牌和密码等敏感信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,30 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Pre-commit hooks
-- CI/CD pipelines
-- Code review automation
-- Security audits
-- id: secrets-scan
-- Placeholder values: `your-api-key-here`, `xxx`, `<token>`
+- 扫描代码、配置文件和日志中意外提交的凭证
+- 支持多种密钥类型检测：API 密钥、令牌、密码、私钥等
+- 支持 CLI 模式和 MCP 模式两种运行方式
+- 可集成到 Git pre-commit 钩子中使用
+- 支持 CI/CD 流水线中的自动化安全扫描
+- 检测 AWS、GitHub、Slack、OpenAI 等多平台凭证
+- 输出详细的发现报告，包含类型、严重性和上下文信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 代码提交前自动扫描，防止密钥泄露到版本控制系统
+- CI/CD 流水线中集成安全检查，确保代码库无敏感信息
+- 安全审计时批量扫描整个代码库的凭证泄露风险
 
 ## 依赖和前提条件
-- API Key
+- OpenAI API Key
+- Expanso Edge 运行时
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `pipeline-cli.yaml`
-- `pipeline-mcp.yaml`
-- `skill.yaml`
-- `test`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -55,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

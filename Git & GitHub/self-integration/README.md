@@ -1,37 +1,35 @@
 # Self-Integration
 
-> Connect to any external app and perform actions on it. Use when the user wants to interact with external services like Slack, Linear, HubSpot, Salesforce, Jira, GitHub, Google Sheets, or any other app — send messages, create tasks, sync data, manage contacts, or perform any API operation.
+> 通过 Membrane API 连接任意外部应用并执行操作，支持 Slack、Linear、HubSpot、Jira 等服务
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Self-Integration |
 | **作者** | bratchenko |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/bratchenko-self-integration |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bratchenko/self-integration |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- MEMBRANE_TOKEN
-- MEMBRANE_API_URL
-- `status: "pending"` — user hasn't completed yet, poll again.
-- `status: "success"` — done. Use `resultConnectionId` as the connection ID going forward.
-- `status: "error"` — failed. Check `resultError` for details.
-- All data is sent to the Membrane API over HTTPS.
+- 通过 Membrane API 查找已有连接或创建新的第三方服务连接
+- 支持 OAuth 认证流程，自动生成认证链接供用户授权
+- 搜索并发现可用操作（Action），支持自然语言意图匹配
+- 自动执行操作（发消息、创建任务、同步数据、管理联系人等）
+- 当无现成连接器时，可通过 Membrane Agent 自动构建新的连接器
+- 当无匹配操作时，可通过 Membrane Agent 自动创建新的操作
+- 完整的三步工作流：获取连接 → 查找操作 → 执行操作
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 需要统一接入 Slack、Jira、HubSpot、Salesforce、Google Sheets 等多个外部应用
+- 需要跨多个 SaaS 服务执行操作（如发 Slack 消息、创建 Linear 任务、同步 HubSpot 联系人）
+- 需要为尚未有预置连接器的新服务快速创建集成
 
 ## 依赖和前提条件
-- OAuth
+- 环境变量 `MEMBRANE_TOKEN`：Membrane API 令牌（从 [Membrane 控制台](https://console.getmembrane.com) 获取）
+- 环境变量 `MEMBRANE_API_URL`：Membrane API 地址（默认 `https://api.getmembrane.com`）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

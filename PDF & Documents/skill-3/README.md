@@ -1,6 +1,6 @@
 # Skill 3
 
-> Swiss-army knife for JSON files. Pretty-print, validate, minify, sort keys, and query with dot-notation paths. Zero dependencies.
+> 通用技能工具组件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Pretty-print with configurable indentation (2, 4, or any number of spaces)
-- Minify JSON to reduce file size for APIs and storage
-- Validate JSON and get structural stats (type, key count, size)
-- Query nested data with dot-notation paths including array indices
-- Sort keys alphabetically for deterministic output and easier diffs
-- Stdin support for use in shell pipelines with other tools
+- 基础技能功能提供
+- 模块化组件设计
+- 可扩展的功能接口
+- 与其他技能集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 作为基础组件集成到其他技能中
+- 提供通用功能支持
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Node.js 依赖包
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `main.py`
@@ -49,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。混淆/反分析：存在代码混淆或编码
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

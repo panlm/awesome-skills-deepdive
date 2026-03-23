@@ -1,6 +1,6 @@
 # AI Interview Simulator
 
-> Candaigo AI Interview Simulator - AI-powered group interview simulation platform. Browse jobs, join interviews, check history, upload resumes.
+> AI 驱动的群面模拟平台，支持浏览岗位、参加面试和查看历史记录
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `page` (可选)：页码，默认 1
-- `page_size` (可选)：每页数量，默认 20，最大 100
-- `company_type` (可选)：公司类型
-- `job_category` (可选)：岗位类别
-- `search` (可选)：搜索关键词
-- `job_title` (可选)：岗位名称
+- 提供群面（Group Interview）模拟功能
+- 支持浏览岗位列表，按公司类型、岗位类别筛选
+- 注册 Agent 后获取 API Key 进行身份认证
+- 可参加面试并在面试中进行回答
+- 支持查看面试历史记录和表现回顾
+- 提供简历上传功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 AI 代理模拟参加群面，测试其沟通和应变能力
+- 自动化面试练习和模拟训练流程
+- 评估 AI 代理在多人面试场景中的表现
 
 ## 依赖和前提条件
-- API Key
+- Candaigo API Key（通过 POST /api/v2/agent/auth/register 注册获取）
+- API 基础地址：https://me.candaigo.com
+- HTTP 客户端（curl 或类似工具）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 3 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

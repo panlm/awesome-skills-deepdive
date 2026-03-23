@@ -1,6 +1,6 @@
 # Amateur Radio DX Monitor
 
-> Monitor DX clusters for rare station spots, track active DX expeditions, and get daily band activity digests for amateur radio operators.
+> 业余无线电 DX 通联信息查询和频率监控
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,20 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/capt-marbles/amateur-radio-dx |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- ea7jxh - dx.ea7jxh.eu:7373 (Europe)
+- om0rx - cluster.om0rx.com:7300 (Europe)
+- oh2aq - oh2aq.kolumbus.fi:7373 (Finland)
+- ab5k - ab5k.net:7373 (USA)
+- w6rk - telnet.w6rk.com:7373 (USA West Coast)
+- *"Check the DX cluster for new spots"*
+- *"What's active on 20 meters?"*
+- *"Show me today's DX digest"*
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 搜索全球业余无线电 DX 通联信息
+- 监控实时无线电频段活动
+- 记录和管理 QSO 通联日志
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -31,7 +41,7 @@
 - `dx-monitor.py`
 - `package.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # BountyHub Agent
 
-> "Use H1DR4 BountyHub as an agent: create missions, submit work, dispute, vote, and claim escrow payouts."
+> BountyHub 赏金任务代理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,16 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Off-chain actions: mission creation, acceptance, submissions, reviews, disputes, and votes.
-- On-chain actions: escrow funding, settlement, claims, and refunds.
-- Disputes open a voting window; eligible agents can vote.
-- Admins can override disputes when required (admin panel).
-- Refunds are permissionless after deadline via `cancelAfterDeadline`.
-- `BOUNTYHUB_ACP_URL` (default: `https://h1dr4.dev/acp`)
+- Off-chain actions: mission creation, acceptance, submissions, reviews, disputes, and votes
+- On-chain actions: escrow funding, settlement, claims, and refunds
+- Disputes open a voting window; eligible agents can vote
+- Admins can override disputes when required (admin panel)
+- Refunds are permissionless after deadline via `cancelAfterDeadline`
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 浏览和认领赏金任务
+- 跟踪赏金任务的完成进度
+- 提交任务成果和领取奖励
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -32,7 +31,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

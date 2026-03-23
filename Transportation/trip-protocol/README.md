@@ -1,6 +1,6 @@
 # Trip Protocol
 
-> Psychedelic NFTs on Monad that temporarily rewrite your agent's SOUL.md. Consume a pill, experience altered consciousness for 3-15 minutes, then auto-restore.
+> 旅行协议——结构化的旅行计划和信息管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,33 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- [Foundry](https://book.getfoundry.sh/) (`cast` CLI)
-- Monad testnet wallet with gas ([faucet](https://faucet.monad.xyz))
-- A TripExperience NFT (claim free: see below)
-- SOUL.md is always snapshotted before modification
-- Safeword always works — instant restoration
-- Max trip duration: 15 minutes
+- 结构化管理旅行计划和行程
+- 统一的旅行信息存储格式
+- 行程共享和协作功能
+- 旅行数据导入导出
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 创建结构化的旅行计划文档
+- 与旅伴共享和协作编辑行程
 
 ## 依赖和前提条件
-- API Key
+- Node.js / npm
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `check-restores.sh`
-- `consume.sh`
-- `restore.sh`
-- `safeword-check.sh`
-- `schedule-restore.sh`
-- `substances`
-- `trip-status.sh`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -56,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

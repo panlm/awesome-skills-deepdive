@@ -1,6 +1,6 @@
 # Expanso log-sanitize
 
-> "Sanitize log entries by removing passwords, tokens, and sensitive patterns"
+> 使用模式匹配脱敏日志中的密码、令牌和 API 密钥等敏感数据，完全本地运行
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Pre-processing logs before sending to log aggregators
-- Sanitizing logs before sharing with support
-- Compliance with security policies
-- Preparing logs for public documentation
+- 通过模式匹配检测并脱敏日志中的敏感数据
+- 支持多种敏感模式：密码、API Key、Bearer Token、AWS 密钥、JWT 等
+- 完全本地运行，无需任何外部 API 调用
+- 提供 CLI 模式（管道处理）和 MCP 模式（HTTP 服务）
+- 输出 JSON 格式结果，包含脱敏文本、脱敏数量和元数据
+- 支持处理单条日志和整个日志文件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在将日志发送到聚合平台前自动脱敏敏感信息
+- 与技术支持共享日志前清除凭证和密钥
+- 满足安全合规要求的日志预处理流程
 
 ## 依赖和前提条件
-- API Key
+- expanso-edge（CLI 运行环境）
+- pipeline-cli.yaml / pipeline-mcp.yaml（管道配置）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `pipeline-cli.yaml`
-- `pipeline-mcp.yaml`
-- `skill.yaml`
-- `test`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

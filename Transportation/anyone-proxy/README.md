@@ -1,6 +1,6 @@
 # Anyone Procotol Proxy
 
-> This skill enables IP address masking and accessing hidden services on the Anyone Network. Route requests through the Anyone Protocol VPN network using a local SOCKS5 proxy.
+> 通过 Anyone 网络实现 IP 地址匿名和隐藏服务访问
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "@anyone-protocol/anyone-client"
-- First connection may take up to 30 seconds while circuits are established
-- The proxy persists across requests once started
+- 通过 Anyone 匿名网络进行 IP 地址掩盖
+- 访问 Anyone 网络上的隐藏服务
+- 配置 SOCKS 代理进行匿名网络访问
+- 支持匿名浏览和数据传输
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在进行安全研究时通过匿名网络访问目标
+- 配置 Agent 使用匿名代理保护隐私
 
 ## 依赖和前提条件
-- Node.js / npm
+- Anyone 网络客户端
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

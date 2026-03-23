@@ -1,6 +1,6 @@
 # Ev Charger Locations
 
-> "Find EV charging stations along a route or near a destination using Camino AI's location intelligence with OpenStreetMap data."
+> 使用 Camino AI 查找路线沿途或目的地附近的电动汽车充电站
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Use a larger radius (5000-10000m) since EV chargers are less densely distributed than other amenities
-- Include the charger network name in the query if you need a specific one (e.g., "Tesla Supercharger", "ChargePoint")
-- Combine with the `route` skill to plan charging stops along a driving route
-- Combine with the `relationship` skill to check distances from chargers to your destination
-- For road trip planning, use the `travel-planner` skill with charging waypoints
+- 搜索路线沿途的 EV 充电站
+- 查找目的地附近的充电设施
+- 获取充电站详情（充电类型、功率、价格）
+- 支持多种充电标准筛选
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 长途驾驶前规划路线上的充电停靠点
+- 到达新城市时查找附近可用的快速充电站
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Camino AI）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

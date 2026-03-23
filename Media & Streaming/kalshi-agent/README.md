@@ -1,6 +1,6 @@
 # Kalshi Agent
 
-> Kalshi prediction market agent - analyzes markets and executes trades via the Kalshi v2 API
+> Kalshi 预测市场交易代理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,13 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- [kalshi-cli](https://github.com/JThomasDevs/kalshi-cli) — the core CLI tool (required)
-- Kalshi API credentials ([get them here](https://kalshi.com/api))
+- If many series match, shows an interactive numbered list — enter a number to drill into that series' markets
+- If few series match, fetches and displays markets directly
+- Prices are in cents (68 = $0.68 = 68% implied probability)
+- Prices display as both dollars and percentages (e.g. `$0.68 (68%)`)
+- Expiry times are human-readable: "8h 35m", "Fri 04:00PM", "Apr 01", "Jan 01, 2027"
+- Event tickers start with `KX` (e.g. `KXWO-GOLD-26`); market tickers have more segments (e.g. `KXWO-GOLD-26-NOR`)
+- Market tables show outcome names (e.g. "Norway" instead of raw tickers) when available
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 自动化 Kalshi 预测市场交易
+- 分析预测市场事件和概率
+- 管理预测市场投资组合
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -31,7 +36,7 @@
 - `_meta.json`
 - `install.sh`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

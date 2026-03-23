@@ -1,6 +1,6 @@
 # A nach B - AT Public Transport Service (VOR)
 
-> Austrian public transport (VOR AnachB) for all of Austria. Query real-time departures, search stations/stops, plan routes between locations, and check service disruptions. Use when asking about Austrian trains, buses, trams, metro (U-Bahn), or directions involving public transport in Austria.
+> 奥地利公共交通查询工具，通过 VOR AnachB API 获取实时出发信息、路线规划和站点搜索
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `name`: Station name
-- `extId`: Station ID for use in other queries
-- `type`: S (Station), A (Address), P (POI)
-- `coordinates`: WGS84 coordinates (lon/lat in 1e-6 format)
-- `line`: Line name (U1, S1, RJ, etc.)
-- `direction`: Final destination
+- 查询奥地利全境公共交通路线和换乘方案
+- 获取指定站点的实时出发时刻表
+- 支持地理坐标和站点名称搜索最近站点
+- 获取站点详细信息（ID、坐标、交通方式）
+- 支持地铁、公交、电车、火车等多种交通方式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在奥地利旅行时查询维也纳到萨尔茨堡的公共交通方案
+- 查看某个站点接下来半小时的实时出发列表
+- 根据当前位置搜索附近的公共交通站点
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `departures.sh`
-- `disruptions.sh`
-- `route.sh`
-- `search.sh`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +44,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

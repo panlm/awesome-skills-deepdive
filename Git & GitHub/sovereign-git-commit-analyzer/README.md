@@ -1,39 +1,38 @@
 # Sovereign git-commit-analyzer
 
-> A comprehensive git commit history analysis tool that generates detailed reports
+> 全面分析 Git 提交历史，生成开发活动、贡献者模式和提交消息质量的详细报告
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Sovereign git-commit-analyzer |
 | **作者** | ryudi84 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/ryudi84-sovereign-git-commit-analyzer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-git-commit-analyzer |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Commit frequency over configurable time windows
-- Top contributors ranked by commit count, lines changed, and files touched
-- File change heatmap showing which files are modified most often
-- Commit message quality score based on industry best practices
-- Activity trends showing development velocity over time
-- git (version 2.0 or higher)
+- 统计可配置时间窗口内的提交频率（按天/周/月），生成文本柱状图
+- 按提交数、修改行数和文件数排名贡献者
+- 生成文件变更热力图，识别高频修改的文件（潜在复杂度热点）
+- 基于行业最佳实践的提交消息质量评分（0-100）
+- 开发活动趋势分析，展示开发速度变化
+- 支持多种输出格式：Markdown、JSON、纯文本
+- 灵活的过滤选项：按时间范围、分支、作者筛选
+- 可配置质量阈值，作为团队提交规范的基线
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 工程团队负责人定期分析代码库开发活动，识别贡献热点和改进方向
+- 代码审查前分析提交模式，识别频繁修改的文件作为重构候选
+- 在 CI/CD 中集成提交消息质量检查，强制执行团队规范
 
 ## 依赖和前提条件
-- macOS
+- `git` (>= 2.0)
+- `bash` (>= 4.0)
+- `awk`（推荐 GNU awk）、`sort`、`uniq`、`wc` 等标准 Unix 工具
+- 支持 Linux、macOS 和 Windows（通过 Git Bash/WSL/MSYS2）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `skill.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +51,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

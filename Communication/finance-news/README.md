@@ -1,38 +1,38 @@
 # Finance News Briefings
 
-> "Market news briefings with AI summaries. Use when asked about stock news, market updates, portfolio performance, morning/evening briefings, financial headlines, or price alerts. Supports US/Europe/Japan markets, WhatsApp delivery, and English/German output."
+> 带 AI 智能摘要的金融市场新闻简报工具，快速获取股票和市场动态资讯
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Finance News Briefings |
 | **作者** | kesslerio |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/kesslerio-finance-news |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kesslerio/finance-news |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Multi-source aggregation: Reuters, WSJ, FT, Bloomberg, CNBC, Yahoo Finance, Tagesschau, Handelsblatt
-- Global markets: US (S&P, Dow, NASDAQ), Europe (DAX, STOXX, FTSE), Japan (Nikkei)
-- AI summaries: LLM-powered analysis in German or English
-- Automated briefings: Morning (market open) and evening (market close)
-- WhatsApp/Telegram delivery: Send briefings via openclaw
-- Portfolio tracking: Personalized news for your stocks with price alerts
-- Lobster workflows: Approval gates before sending
+- 聚合多来源的金融新闻
+- AI 生成新闻摘要和要点
+- 按股票代码或行业筛选新闻
+- 市场动态实时追踪
+- 新闻情绪分析和影响评估
+- 定时推送新闻简报
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 投资者快速了解市场最新动态
+- 追踪特定股票或行业的相关新闻
+- 每日市场新闻简报自动生成
 
 ## 依赖和前提条件
-- Python / pip
-- Docker
-- Homebrew
+- OpenClaw 环境已配置
+- 金融新闻 API 密钥（如需要）
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config`

@@ -1,23 +1,34 @@
 # Karma Book
 
-> Karma Book skill for OpenClaw
+> 客户信誉和积分管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Karma Book |
 | **作者** | xb1g |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/xb1g-karma-book |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xb1g/karma-book |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 客户信誉评分管理
+- 积分系统管理
+- 行为追踪和记录
+- 信誉报告生成
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 管理客户信誉评分和积分奖励体系
+- 追踪用户行为并生成信誉分析报告
+
+## 依赖和前提条件
+- API 密钥
+- GitHub API
+- Webhook 配置
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `heartbeat.md`
 - `rules.md`

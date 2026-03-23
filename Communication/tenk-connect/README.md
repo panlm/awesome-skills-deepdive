@@ -1,36 +1,37 @@
 # tenk-connect
 
-> Connect your TenK account to your AI assistant. Log practice sessions, check progress, and manage your 10,000-hour journey from chat.
+> 连接 TenK 运动训练账户到 AI 助手，支持记录训练数据和查看进度统计
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | tenk-connect |
 | **作者** | oscarcode9 |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/oscarcode9-tenk-connect |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/oscarcode9/tenk-connect |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Auth     - Secure login via OAuth Device Flow (no passwords in chat)
-- Skills   - View all your tracked skills with accumulated hours
-- Stats    - Total hours and progress toward your 10,000h goal
-- Log      - "Log 45 min of guitar" registered instantly
-- Streak   - See last activity per skill
+- 与 TenK 账户建立 API 连接
+- 记录跑步、骑行等运动练习数据
+- 查看训练进度和历史统计
+- 生成训练趋势分析报告
+- 支持语音指令记录训练
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 运动爱好者通过 AI 助手语音记录每日训练
+- 查看周/月训练数据汇总和进步趋势
+- 制定并追踪个人运动目标
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
-- OAuth
+- TenK 账户
+- TenK API 访问凭据
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,7 +50,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

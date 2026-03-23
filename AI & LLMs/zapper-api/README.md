@@ -1,6 +1,6 @@
 # zapper-api
 
-> Query DeFi portfolios, token holdings, NFTs, transactions, and prices via Zapper API. Supports 50+ chains. Use when user asks about wallet balances, DeFi positions, NFT collections, token prices, or transaction history.
+> 通过 Zapper API 查询 DeFi 投资组合、代币持仓、NFT 和交易数据
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,44 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Free tier API key available at [zapper.xyz/developers](https://zapper.xyz/developers)
-- Rate limits apply - avoid rapid repeated requests
-- NFT valuations based on floor prices
-- Transaction history limited to 30 days
-- [API.md](references/API.md) - GraphQL query examples
-- [Zapper Docs](https://build.zapper.xyz/docs/api/) - Official API documentation
+- 查询 DeFi 投资组合和持仓数据
+- 获取代币持有量和价格信息
+- NFT 收藏品数据查询
+- 交易历史和价格追踪
+- 支持 50+ 条区块链网络
+- 需要 ZAPPER_API_KEY 环境变量
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询指定钱包在多条链上的资产总览
+- 追踪 DeFi 协议中的流动性挖矿和借贷持仓
+- 获取实时代币价格和历史交易数据分析
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 环境变量 `ZAPPER_API_KEY`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

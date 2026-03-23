@@ -1,33 +1,36 @@
 # Billy Emergency Repair
 
-> ⚠️ **NEILL-ONLY COMMAND** ⚠️
+> ⚠️ 专属于 Neill 的 Billy 系统紧急修复工具，处理认证失效和网关异常问题
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Billy Emergency Repair |
 | **作者** | highlander89 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/highlander89-billy-emergency-repair |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/highlander89/billy-emergency-repair |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Neill explicitly requests Billy system repair
-- Neill reports Billy authentication/gateway issues
-- Neill says "fix Billy" or "Billy is down"
-- Billy system appears unresponsive to Neill
-- Billy is working fine
-- Issue is not authentication-related
+- 仅限 Neill 授权使用的紧急修复命令（安全检查机制）
+- 通过 SSH 连接 Billy（EC2 + Tailscale），执行远程修复
+- 自动备份 Billy 的配置文件，确保修复安全
+- 清除过期的认证令牌（.token、device*.json）和硬编码令牌
+- 重启 Billy 的 Gateway 服务并验证修复结果
+- 完整的审计日志记录，所有操作可追溯
+- 切换到 Opus 模型以增强诊断能力
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Neill 报告 Billy 出现认证或网关问题时进行紧急修复
+- Billy 系统无响应时的快速恢复操作
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- SSH 密钥已安装在 Billy 上（需运行一次 setup 脚本）
+- SAPCONET 与 Billy 之间的 Tailscale 网络连通
+- Billy 必须在线且可通过 SSH 访问
+- **必须有 Neill 的明确授权**
+
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

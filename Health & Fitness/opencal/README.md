@@ -1,6 +1,6 @@
 # OpenCal
 
-> Log meals, check nutrition progress, and manage calorie goals in the OpenCal app — hands-free via your AI agent. Use when the user mentions eating, food, calories, macros, or nutrition.
+> OpenCal 日历管理和排期工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -20,9 +20,9 @@
 - Rate limit: 100 requests/min
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 管理个人和团队日历
+- 安排会议和事件
+- 同步多平台的日程信息
 
 ## 依赖和前提条件
 - API Key
@@ -31,7 +31,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

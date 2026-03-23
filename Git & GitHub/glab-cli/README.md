@@ -1,26 +1,28 @@
 # Gitlab
 
-> Gitlab skill for OpenClaw
+> 用于 OpenClaw 的 GitLab 操作技能，通过 glab CLI 管理 GitLab 项目。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Gitlab |
 | **作者** | portavion |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/portavion-glab-cli |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/portavion/glab-cli |
-| **安全评级** | 🟢 Low |
+
+## 功能概述
+- 通过 glab CLI 执行 GitLab 操作
+- 管理 GitLab 项目仓库
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在终端中管理 GitLab 项目，替代浏览器操作
 
-## 包含文件
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- 具体依赖未知（源文件内容有限）
+- 可能需要 `glab` CLI 工具
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -39,4 +41,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

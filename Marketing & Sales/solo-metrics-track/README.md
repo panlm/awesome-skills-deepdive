@@ -1,31 +1,32 @@
 # Metrics Track
 
-> Set up PostHog metrics plan with event funnel, KPI benchmarks, and kill/iterate/scale decision thresholds. Use when user says "set up metrics", "track KPIs", "PostHog events", "funnel analysis", "when to kill or scale", or "success metrics". Do NOT use for SEO metrics (use /seo-audit).
+> 个人/独立开发者指标追踪工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Metrics Track |
 | **作者** | fortunto2 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/fortunto2-solo-metrics-track |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/fortunto2/solo-metrics-track |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `kb_search(query)` — find PostHog methodology, analytics patterns
-- Relative metrics vs niche benchmarks — compare against your own trajectory, not vanity averages
-- Kill/iterate/scale decision rules — data-driven thresholds for product decisions (see step 7 below)
-- Read PRD for features, ICP, monetization model.
-- Read CLAUDE.md for stack (iOS/Web/both).
-- If empty: ask via AskUserQuestion.
+- 关键业务指标追踪
+- 数据可视化仪表盘
+- 趋势分析和报告
+- 目标设定和追踪
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 独立开发者追踪产品的关键增长指标
+- 管理和可视化个人业务的核心数据
+
+## 依赖和前提条件
+- PostHog
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；持久化机制：涉及定时或后台任务
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

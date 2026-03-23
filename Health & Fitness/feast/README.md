@@ -1,6 +1,6 @@
 # Feast - Intelligent meal planning, region and season aware shopping lists, respects dietary requirements, provides recipes, and generates immersive mealtime playlists
 
-> |
+> Feast 特性存储管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -23,9 +23,9 @@
 - Health-focused — balanced nutrition, dietary phases, calorie tracking
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 管理机器学习特性存储
+- 配置和查询特性数据
+- 集成 ML 管道的数据流
 
 ## 依赖和前提条件
 - Python / pip
@@ -39,7 +39,7 @@
 - `scripts`
 - `templates`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |

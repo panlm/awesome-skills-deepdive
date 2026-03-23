@@ -1,6 +1,6 @@
 # Accountsos
 
-> AI-native accounting for UK micro-businesses. Use when the user wants to track transactions, manage VAT, check deadlines, or do any bookkeeping for a UK limited company.
+> 面向英国小微企业的 AI 原生会计工具，自动跟踪交易、发票和报税
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Transaction tracking — Income, expenses, categorized automatically
-- VAT management — Calculate returns, track what's owed
-- Deadline alerts — Corporation tax, VAT, confirmation statements
-- Document storage — Receipts, invoices, contracts
-- AI categorization — Smart category suggestions for every transaction
+- 自动跟踪银行交易和费用分类
+- 创建和管理发票、追踪付款状态
+- 处理 VAT 申报和英国税务合规
+- 自动对账和财务报表生成
+- 支持 HMRC Making Tax Digital (MTD) 集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 英国自由职业者自动分类银行交易并生成发票
+- 季度 VAT 申报前自动汇总交易数据
+- 追踪客户未付款项并发送催款提醒
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API Key、Node.js / npm
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +44,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

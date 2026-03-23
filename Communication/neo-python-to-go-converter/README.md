@@ -1,27 +1,39 @@
 # Skill
 
-> Automatically converts Python code to optimized Go code for performance-critical applications.
+> 自动将 Python 代码转换为性能优化的 Go 语言代码，实现跨语言迁移
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Skill |
 | **作者** | martinforsulu |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/martinforsulu-neo-python-to-go-converter |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/martinforsulu/neo-python-to-go-converter |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Python 代码自动转换为 Go 代码
+- Go 语言性能优化建议
+- 类型推断和静态类型转换
+- Go 语言惯用写法适配
+- 并发模式自动转换（goroutine）
+- 依赖包映射和替代建议
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将 Python 原型代码转换为高性能 Go 生产代码
+- 微服务从 Python 迁移到 Go 的代码转换
+- 学习 Go 语言时参照已有 Python 代码进行对照
 
 ## 依赖和前提条件
-- Python / pip
+- Go 语言开发环境（go 1.18+）
+- Python 3.x 运行环境
+- 待转换的 Python 源代码
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `assets`

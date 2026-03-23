@@ -1,6 +1,6 @@
 # Multi-Agent Collaboration System Skills
 
-> Universal multi-agent collaboration methodology for Claude Code. Model-tiered cowork + document-driven sync + self-evolution.
+> 通用多智能体协作系统，支持模型分层协作、文档驱动同步和模式自演化
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Lead (High-capability model): Architecture, decisions, task breakdown
-- Engineer (Balanced model): Execution, coding, implementation
-- Maintainer (Cost-effective model): Archiving, cleanup, weekly reports
-- `TASK.md` = Issue Board
-- `CHANGELOG.md` = Commit Log (with #tags + agent identity)
-- `CONTEXT.md` = Wiki (decision records + key insights)
+- 模型分层协作：Lead（高能力模型）负责架构和决策，Engineer（均衡模型）负责执行，Maintainer（经济模型）负责归档
+- 文档驱动同步机制，智能体无需实时通信
+- 类似 GitHub 贡献者的协作模式
+- 支持任务分解和多层级分配
+- 模式自演化，协作流程随实践不断优化
+- 同时提供中英双语文档
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 大型项目中多个 AI 智能体协同完成复杂开发任务
+- 通过模型分层降低成本，让高能力模型专注关键决策
+- 建立可持续的多智能体工作流程和知识管理体系
 
-## 包含文件
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `docs`
-- `scripts`
-- `templates`
+## 依赖和前提条件
+- 多个不同层级的 AI 模型（Lead / Engineer / Maintainer）
+- Claude Code 或类似的代码智能体
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +48,4 @@
 **风险摘要:** 存在 1 项高风险，0 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

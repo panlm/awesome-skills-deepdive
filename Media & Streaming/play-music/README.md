@@ -1,6 +1,6 @@
 # Play Local Music
 
-> **Controlled music player with pause/resume/stop support**
+> 音乐播放控制工具 — 支持暂停/恢复/停止
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,14 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Music directory: `./music` (relative to script location)
-- Default song: `jaychou-sunnyday.mp3` (or set via DEFAULT_SONG)
-- Lock file: `/tmp/music_player.lock` (for server coordination)
+- **Controlled music player with pause/resume/stop support**
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 播放本地音乐文件和播放列表
+- 控制音乐的播放、暂停和停止
+- 管理后台音乐播放服务
 
 ## 依赖和前提条件
 - Python / pip
@@ -33,7 +33,7 @@
 - `_meta.json`
 - `music-server.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

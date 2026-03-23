@@ -1,6 +1,6 @@
 # Boggle Solver
 
-> Solve Boggle boards — find all valid words (German + English) on a 4x4 letter grid. Use when the user shares a Boggle photo, asks for words on a grid, or plays word games. Includes 1.7M word dictionaries (DE+EN).
+> Boggle 文字游戏工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 1.7M dictionary words — 359K English + 1.35M German
-- Qu-tile support — standard Boggle rules
-- < 5ms solve time per board
-- JSON output with Boggle scoring
-- Bilingual — run English and German separately
+- Boggle 文字游戏生成和求解
+- 单词查找和验证
+- 游戏棋盘生成
+- 计分和排名系统
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 生成 Boggle 文字游戏棋盘进行娱乐
+- 自动求解 Boggle 游戏寻找所有有效单词
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `data`
@@ -50,6 +50,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

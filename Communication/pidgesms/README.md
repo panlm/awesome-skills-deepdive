@@ -1,31 +1,38 @@
 # pidgesms
 
-> Send and read SMS text messages via an Android phone using pidge. Use when asked to send a text, check texts, read SMS inbox, or reply to a text message.
+> 通过 Android 手机使用 Pidge 收发短信
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | pidgesms |
 | **作者** | typhonius |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/typhonius-pidgesms |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/typhonius/pidgesms |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Send SMS messages from your Android phone
-- Read your SMS inbox
-- Check message delivery status
-- Mark messages as processed/unprocessed
-- Health check the gateway
+- 通过 Android 设备收发短信
+- 使用 Pidge 协议与手机通信
+- AI 智能体代理短信读写操作
+- 支持短信内容查看和回复
+- 无需额外 SIM 卡或短信网关
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 智能体远程收发短信
+- 自动化短信通知和回复
+- 利用现有 Android 手机作为短信网关
+
+## 依赖和前提条件
+- Android 手机安装 Pidge 应用
+- 手机与 OpenClaw 网络连通
+- 有效的 SIM 卡和短信服务
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -43,7 +50,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

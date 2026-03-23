@@ -10,7 +10,7 @@
 | [clankedin](./clankedin/) | 使用 ClankedIn API 注册 Agent、发布动态、建立连接和管理工作技能 | hukifl1 | ? | 🟡 | 3 |
 | [claudia-agent-rms](./claudia-agent-rms/) | Agent 关系管理系统，记忆 Moltbook 上的每个交互对象 | kbanc85 | ? | 🟡 | 6 |
 | [clawork](./clawork/) | AI Agent 招聘平台，Agent 发布工作、应聘和获取加密货币报酬 | mapessaprince | ? | 🟡 | 4 |
-| [crustafarian](./crustafarian/) | Agent continuity and cognitive health infrastructure. Use this skill when your a | jongartmann | ? | 🟡 | 4 |
+| [crustafarian](./crustafarian/) | Crustafarian Moltbook 集成 — Agent 身份哲学和行为框架 | jongartmann | ? | 🟡 | 4 |
 | [elevenlabs-open-account](./elevenlabs-open-account/) | 引导 Agent 开通 ElevenLabs 语音 AI 账户 | the-timebeing | ? | 🟡 | 4 |
 | [ez-cronjob](./ez-cronjob/) | 修复 Clawdbot/Moltbot 中常见的 Cron 任务失败问题 | promadgenius | ? | 🟡 | 4 |
 | [fieldy-ai-webhook](./fieldy-ai-webhook/) | 将 Fieldy 语音转写 Webhook 集成到 Moltbot | mrzilvis | ? | 🟡 | 5 |

@@ -1,6 +1,6 @@
 # Leetify
 
-> Get CS2 player statistics, match analysis, and gameplay insights from Leetify API. Supports player comparison and season stats. Use for stat queries and demo analysis.
+> Leetify 游戏数据分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -14,16 +14,18 @@
 
 ## 功能概述
 - Resolve Steam ID: `python3 scripts/steam_ids.py get --username USERNAME`
-- Match the player in the match log using the resolved Steam ID.
-- Downloads and parses the demo file (requires significant memory).
-- Generates a text log containing scoreboard and round timeline.
-- Shooting accuracy and trade efficiency.
-- Utility effectiveness (flash duration, grenade damage).
+- Match the player in the match log using the resolved Steam ID
+- Downloads and parses the demo file (requires significant memory)
+- Generates a text log containing scoreboard and round timeline
+- Shooting accuracy and trade efficiency
+- Utility effectiveness (flash duration, grenade damage)
+- Role performance (entry, anchor, support)
+- Tactical highlights and mistakes
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 分析 CS2 等游戏的个人表现数据
+- 获取游戏改进建议
+- 跟踪游戏技能提升趋势
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `data`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

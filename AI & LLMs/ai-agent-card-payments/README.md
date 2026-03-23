@@ -1,6 +1,6 @@
 # Ai Agent Card Payments
 
-> Virtual card payments for AI agents. Create intents, issue cards within policy, and make autonomous purchases with approvals for high-value spend.
+> 为 AI 代理提供虚拟卡支付能力，支持策略控制和审批流程
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Autonomous purchasing within limits
-- Per-intent card issuance or unlock
-- Policy enforcement with optional human approval
-- Evidence and receipt attachment for audit trails
+- 创建支付意图并自动签发虚拟卡
+- 通过策略引擎（Proxy）强制执行消费限额和规则
+- 高额消费触发人工审批流程
+- 支持交易证据和收据附件用于审计追踪
+- 提供 KYC 状态查询和余额检查
+- 通过 MCP 协议集成支付 API
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 AI 代理在设定限额内自主完成采购任务
+- 为代理的每笔消费提供审计追踪和合规记录
+- 实现高额消费自动触发人工审批的安全支付流程
 
 ## 依赖和前提条件
-- OAuth
+- Proxy 平台账号及 Agent Token
+- MCP 服务器配置（mcp.useproxy.ai）
+- KYC 验证完成
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `agents`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

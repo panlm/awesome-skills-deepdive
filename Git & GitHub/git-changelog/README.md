@@ -1,37 +1,35 @@
 # Git Changelog
 
-> Auto-generate beautiful changelogs from git history, grouped by conventional commit types
+> 从 Git 提交历史自动生成格式优美的变更日志，按约定式提交类型分组归类。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Git Changelog |
 | **作者** | fratua |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/fratua-git-changelog |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/fratua/git-changelog |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- generate changelog
-- create changelog
-- Tag-to-tag: `v1.0.0..v1.1.0`
-- Since date: `--since="2025-01-01"`
-- Last N commits: `-n 50`
-- Since last tag: auto-detect with `git describe --tags --abbrev=0`
+- 从 Git 提交历史生成 Markdown 格式的变更日志
+- 按约定式提交类型（feat、fix、docs、refactor 等）自动分组，带 Emoji 标识
+- 支持多种范围选择：Tag 到 Tag、日期范围、最近 N 次提交、自动检测最新 Tag
+- 自动检测 `BREAKING CHANGE` 并生成破坏性变更章节
+- 输出可直接用于 CHANGELOG.md 或 GitHub Release 说明
+- 支持追加到现有 CHANGELOG.md 文件
+- 处理 Monorepo 子路径、合并提交过滤等边界情况
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在发版前自动生成规范的变更日志，替代手动整理提交记录
+- 为 GitHub Release 生成分类清晰的发布说明
+- 在 CI/CD 流水线中集成自动化变更日志生成
 
 ## 依赖和前提条件
-- OAuth
+- `git`：需要在 Git 仓库中运行
+- 推荐使用约定式提交（Conventional Commits）格式
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

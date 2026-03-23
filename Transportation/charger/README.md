@@ -1,6 +1,6 @@
 # check charger availbility
 
-> Check EV charger availability (favorites, nearby search) via Google Places.
+> 通过 Google Places 查询电动汽车充电桩的可用性（收藏站点和附近搜索）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- GOOGLE_PLACES_API_KEY
-- Node.js 18+ (Clawdbot already has Node)
-- `GOOGLE_PLACES_API_KEY` (recommended in `~/.clawdbot/.env`)
-- Put the CLI on your PATH (example):
-- `ln -sf "$(pwd)"/bin/charger /home/claw/clawd/bin/charger`
-- Add a favorite:
+- 查询收藏充电站的实时可用性
+- 搜索附近的 EV 充电桩
+- 获取充电桩类型和功率信息
+- 通过 Google Places API 获取位置和评价
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 检查常用充电站是否有空闲充电桩
+- 在新地点搜索附近可用的充电设施
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Google Places）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 5 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；文件系统篡改：存在文件系统操作
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

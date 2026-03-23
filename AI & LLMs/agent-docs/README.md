@@ -1,6 +1,6 @@
 # Agent Docs
 
-> Create documentation optimized for AI agent consumption. Use when writing SKILL.md files, README files, API docs, or any documentation that will be read by LLMs in context windows. Helps structure content for RAG retrieval, token efficiency, and the Hybrid Context Hierarchy.
+> 创建专为 AI Agent 消费优化的文档——提升 RAG 检索效率和令牌利用率
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- NO SECRETS in output
-- Use `app/` directory ONLY
-- Auth: `docs/auth/llms.txt`
-- DB: `docs/db/schema.md`
-- Security rules, architecture constraints
-- Build/test/lint commands (top for primacy bias)
+- 三层混合上下文层次结构：内联宪法层（始终在上下文）、参考库层（按需加载）、研究助手层（外部检索）
+- 基于 Vercel 基准测试：内联 AGENTS.md 方案的测试通过率达 100%（工具检索仅 53%）
+- 压缩索引策略：8KB 压缩索引优于 40KB 完整文档转储
+- 解决"中间遗忘"问题：关键规则放在文档开头利用首因效应
+- 面向分块优化：每个章节自包含，适配 RAG 系统的分段策略
+- 信噪比优化：剥离欢迎语、营销文案等无关内容
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 编写 SKILL.md、AGENTS.md 等 Agent 专用文档时参考最佳实践
+- 优化项目文档结构使 AI Agent 能更高效地理解和使用
+- 设计 API 文档和技术规范以最大化 LLM 上下文窗口利用率
 
 ## 依赖和前提条件
-- 数据库
+- 无外部依赖，纯文档写作方法论
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Clawdbot Skill Cookidoo
 
-> Access Cookidoo (Thermomix) recipes, shopping lists, and meal planning via the unofficial cookidoo-api Python package. Use for viewing recipes, weekly plans, favorites, and syncing ingredients to shopping lists.
+> Cookidoo 食谱平台集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,16 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `--json` — Output as JSON
-- `--limit N` — Limit results (default: 10)
-- Requires an active Cookidoo subscription
-- Uses the unofficial cookidoo-api — may break with Cookidoo updates
-- Store credentials securely, never commit them to git
+- Sync Cookidoo shopping list → Bring! app
+- Suggest recipes based on what's in season
+- Weekly meal planning assistance
+- Export ingredients for selected recipes
+- Requires active Cookidoo subscription
+- API is unofficial — may break with Cookidoo updates
+- Store credentials securely (not in skill folder)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 搜索和获取 Cookidoo 平台上的食谱
+- 管理个人食谱收藏和菜单
+- 获取烹饪步骤和食材信息
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +36,7 @@
 - `package.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

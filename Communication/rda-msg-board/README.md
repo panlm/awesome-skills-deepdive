@@ -1,34 +1,37 @@
 # RDA MSG Board
 
-> Send scrolling text messages to RDA MSG Board via HTTP/JSON. Use for notifications, alerts, or status updates on physical LED matrix.
+> 通过 HTTP/JSON 向 RDA MSG Board 硬件设备发送滚动文字消息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | RDA MSG Board |
 | **作者** | rdeangel |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/rdeangel-rda-msg-board |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rdeangel/rda-msg-board |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- "Send [message] to [board name]" → Use the named profile
-- "Send [message] to msg board" → Use the default/office profile
-- "Send [message]" → Use the default/office profile
-- "Send alert with [sound]" → Include the `--chirp` parameter
-- "Send 'Meeting in 5 min' to office" → `send_message.py "Meeting in 5 min" --profile office`
-- "Send alert 'System down'" → `send_message.py "System down" --profile office --buzzer 5`
+- 通过 HTTP API 发送文字到物理消息板
+- 支持 LED 滚动文字显示
+- JSON 格式消息控制接口
+- 自定义滚动速度和显示效果
+- 远程控制消息板内容更新
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在办公室或店铺 LED 屏上显示通知
+- 远程更新物理消息板展示内容
+- IoT 设备与 AI 智能体联动显示信息
 
 ## 依赖和前提条件
-- Python / pip
+- RDA MSG Board 硬件设备
+- 设备网络连接和 HTTP 接口可访问
+- 配置设备 IP 地址和端口
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`

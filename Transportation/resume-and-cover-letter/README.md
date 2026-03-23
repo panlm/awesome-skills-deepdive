@@ -1,6 +1,6 @@
 # Resume & Cover Letter
 
-> Generate ATS-optimized resumes and tailored cover letters matched to specific job descriptions. Use when creating resumes, CVs, cover letters, or career documents.
+> 生成 ATS 优化的简历和定制求职信，匹配特定职位要求
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Job title and level (junior, mid, senior, lead, director)
-- Required skills (hard requirements vs nice-to-haves)
-- Key responsibilities listed
-- Industry/domain keywords
-- Company values and culture signals
-- ATS keywords — exact phrases to mirror
+- 生成通过 ATS（申请人追踪系统）优化的简历
+- 针对特定职位定制求职信
+- 自动匹配职位关键词和技能要求
+- 支持多种简历格式和模板
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为软件工程师职位生成优化的简历和求职信
+- 根据不同职位要求批量定制求职材料
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。持久化机制：涉及定时或后台任务
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Route between two locations
 
-> "Get detailed routing between two points with distance, duration, and optional turn-by-turn directions. Use when you need navigation instructions or travel time estimates between locations."
+> 使用 Camino AI 获取两点之间的详细路线，包含距离、时间和可选途经点
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Navigation: Get turn-by-turn directions for any transport mode
-- Travel time estimation: Know how long it takes to get between two points
-- Map visualization: Include geometry data for drawing routes on maps
-- Commute planning: Compare driving, cycling, and walking times
+- 获取两点间的详细行驶路线
+- 显示距离、预计行驶时间信息
+- 支持添加可选途经点
+- 提供替代路线比较
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询从家到办公室的最快路线和预计时间
+- 比较不同路线的距离和时间差异
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Camino AI）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

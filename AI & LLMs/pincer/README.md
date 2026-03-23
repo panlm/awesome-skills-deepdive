@@ -1,6 +1,6 @@
 # Pincer
 
-> Security-first wrapper for installing agent skills. Scans for malware, prompt injection, and suspicious patterns before installation. Use instead of `clawhub install` for safer skill management.
+> 安全优先的 Skill 安装包装器，在安装前扫描恶意软件、提示注入和可疑模式
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Pre-install scanning — Analyze skills before they touch your system
-- mcp-scan integration — Leverages [Invariant Labs' mcp-scan](https://github.com/invariantlabs-ai/mcp-scan) for prompt inj
-- Pattern detection — Base64 payloads, `curl | sh`, quarantine removal, and more
-- Publisher trust — Maintain lists of trusted and blocked publishers
-- Audit mode — Quick-scan all installed skills
-- JSON output — Scriptable for CI/CD integration
-- Install logging — Track what you've installed and when
+- 在安装 Skill 前进行全面安全扫描
+- 检测恶意软件、提示注入和可疑代码模式
+- 集成 mcp-scan 进行深度安全分析
+- 可替代 clawhub install 进行更安全的 Skill 管理
+- 支持仅扫描模式（pincer scan）不执行安装
+- 应对 ClawHub 生态中已知的恶意 Skill 攻击活动
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在安装社区 Skill 前进行安全审查，防止信息窃取
+- 定期扫描已安装的 Skill 检查安全风险
+- 在团队中推行安全的 Skill 安装流程
 
 ## 依赖和前提条件
-- macOS
-- Homebrew
+- mcp-scan 工具
+- clawhub CLI
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +48,4 @@
 **风险摘要:** 存在 3 项高风险，5 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Mixpost
 
-> Mixpost is a self-hosted social media management software that helps you schedule and manage your social media content across multiple platforms including Facebook, Twitter/X, Instagram, LinkedIn, Pinterest, TikTok, YouTube, Mastodon, Google Business Profile, Threads, Bluesky, and more.
+> Mixpost 多平台社交媒体管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `limit` (number, default: 50): Results per page
-- `status`: `draft`, `scheduled`, `published`, `failed`, `needs_approval`, `trash`
-- `keyword` (string): Search posts by content
-- `accounts` (array): Filter by account IDs
-- `tags` (array): Filter by tag names
-- `page` (number): Page number for pagination
+- Mixpost is a self-hosted social media management software that helps you schedule and manage your social media content across multiple platforms including Facebook, Twitter/X, Instagram, LinkedIn, Pinterest, TikTok, YouTube, Mastodon, Google Business Profile, Threads, Bluesky, and more
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 管理多个社交媒体平台的发布
+- 统一排期和管理内容
+- 分析跨平台社交媒体数据
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

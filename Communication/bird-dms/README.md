@@ -1,30 +1,38 @@
 # Bird DMs
 
-> An add-on to the Bird skill that lets your agent check its X/Twitter DM inbox. Use when the user asks to check DMs, read Twitter direct messages, list DM conversations, or monitor their X inbox.
+> Bird 附加工具，让 AI 智能体检查和读取 X/Twitter 私信收件箱
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bird DMs |
 | **作者** | tolibear |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/tolibear-bird-dms |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tolibear/bird-dms |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- [bird](https://github.com/steipete/bird) for auth verification
+- 读取 X/Twitter 私信收件箱
+- 检查新私信通知
+- 浏览私信对话列表
+- 获取私信内容详情
+- 作为 Bird 工具的扩展模块运行
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体自动监控 X/Twitter 私信并及时响应
+- 定期检查私信收件箱处理用户咨询
+- 将 Twitter 私信纳入统一消息管理流程
 
 ## 依赖和前提条件
-- Node.js / npm
+- Bird 主工具已安装和配置
+- X/Twitter 账号授权
+- Twitter API 或登录凭证
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `dist`
@@ -47,7 +55,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
 
 ---

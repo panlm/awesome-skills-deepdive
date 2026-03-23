@@ -1,6 +1,6 @@
 # Entur Travel
 
-> "Plan public transit trips in Norway using the Entur API. Covers all operators (Vy, Ruter, Kolumbus, etc.), all modes (bus, rail, tram, metro, ferry, coach). Use when: (1) planning a journey between places in Norway, (2) checking departure boards/next departures, (3) finding stop IDs or place names, (4) looking up real-time transit info. Triggers on questions about trains, buses, ferries, trams in Norway, getting to airports (Gardermoen, Torp, Flesland), or how do I get to X."
+> 使用 Entur API 规划挪威公共交通出行，覆盖所有运营商
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Oslo S: `NSR:StopPlace:59872`
-- Oslo lufthavn (Gardermoen): `NSR:StopPlace:269`
-- Bergen stasjon: `NSR:StopPlace:585`
-- Trondheim S: `NSR:StopPlace:41742`
-- Show times in local format (HH:MM), not ISO
-- Summarize legs concisely: "🚆 RE11 Porsgrunn → Torp (10:17–10:50, platform 1)"
+- 规划挪威全境公共交通路线
+- 覆盖所有挪威交通运营商（NSB、Ruter 等）
+- 查询实时出发时间和换乘信息
+- 支持按地点名称和坐标搜索
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 规划奥斯陆到卑尔根的公共交通路线
+- 查看挪威某城市的公交实时出发时刻
 
 ## 依赖和前提条件
-- Python / pip
+- Node.js / npm（Entur 公开 API）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

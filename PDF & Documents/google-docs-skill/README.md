@@ -1,6 +1,6 @@
 # Google Docs Skill
 
-> Direct access to the Google Docs API using OAuth 2.0. Create documents, insert and format text, and manage document content.
+> Google Docs 文档操作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,22 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Go to [Google Cloud Console](https://console.cloud.google.com)
-- Create a new project or select existing one
-- Enable the Google Docs API
-- Create OAuth 2.0 credentials (Desktop app or Web application)
-- Download the credentials JSON file
-- Indices are 1-based (document starts at index 1)
+- 读取和编辑 Google Docs 文档
+- Google 文档的创建和管理
+- 文档协作操作支持
+- 格式化和模板处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动读取和更新 Google Docs 中的共享文档
+- 批量创建 Google Docs 格式的项目文档
 
 ## 依赖和前提条件
-- Python / pip
-- OAuth
+- OAuth 认证
+- Python 运行环境
+- Google API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +48,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 4 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Wallet (By Budgetbakers)
 
-> Interact with the BudgetBakers Wallet API for personal finance data. Use when the user needs to query accounts, categories, transactions (records), budgets, or templates from their Wallet app via the REST API. Requires WALLET_API_TOKEN environment variable.
+> 通过 BudgetBakers Wallet API 查询个人财务数据，包括账户、交易和预算
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,43 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Authentication details
-- Rate limiting (500 req/hour)
-- Query filter syntax (text and range filters)
-- Pagination parameters
-- Data synchronization behavior
-- `limit` (default 30, max 100)
+- 查询 BudgetBakers Wallet 应用中的账户信息
+- 获取交易（记录）历史和详情
+- 查看和管理预算设置
+- 访问分类和模板数据
+- 通过 REST API 与 Wallet 应用交互
+- 需要 WALLET_API_TOKEN 环境变量
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 自动查询个人账户余额和最近交易记录
+- 定期汇总财务数据，生成消费报告和预算建议
+- 跨平台访问 Wallet 应用数据，集成到个人助手工作流
 
 ## 依赖和前提条件
-- API Key
+- 环境变量 `WALLET_API_TOKEN`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

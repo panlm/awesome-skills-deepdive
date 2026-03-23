@@ -1,31 +1,38 @@
 # Go To Market
 
-> Build a go-to-market (GTM) strategy for launching a product or entering a new market. Use when planning how to reach customers, position your product, choose channels, set pricing, and execute launch. Covers market entry strategy, customer segmentation, positioning, channel strategy, and GTM execution plan. Trigger on "go-to-market", "GTM strategy", "market entry", "launch strategy", "how to reach customers", "GTM plan".
+> GTM（Go-to-Market）市场进入策略工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Go To Market |
 | **作者** | jk-0001 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/jk-0001-go-to-market |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jk-0001/go-to-market |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- If your product is simple and cheap → Product-Led
-- If your product is complex or expensive → Sales-Led
-- If your product benefits from user interaction → Community-Led
-- If you serve both SMB and enterprise → Hybrid
-- Price: $49/month → Product-Led GTM
-- Execution: Free 14-day trial, self-serve signup, onboarding via email + in-app tips, upgrade prompts in-app
+- 市场进入策略规划
+- 目标市场分析
+- 竞争定位策略
+- 产品上市计划制定
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为新产品制定 Go-to-Market 策略
+- 分析目标市场并制定竞争定位方案
+
+## 依赖和前提条件
+- Google API
+- Slack API
+- Discord API
+- Zapier
+- Facebook API
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +52,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

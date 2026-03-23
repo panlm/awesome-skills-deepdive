@@ -1,6 +1,6 @@
 # Apple Music
 
-> Apple Music integration via AppleScript (macOS) or MusicKit API
+> Apple Music MCP 服务集成
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Add songs to library
 - Access listening history or recommendations
 - ❌ Catalog ID → Playlist (fails)
+- ✅ Catalog ID → Library → Playlist (works)
+- No catalog access - only library content
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 通过 MCP 协议访问 Apple Music
+- 搜索和播放 Apple Music 曲库
+- 管理 Apple Music 播放列表
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +36,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

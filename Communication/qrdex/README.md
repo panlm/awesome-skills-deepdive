@@ -1,35 +1,37 @@
 # QRdex
 
-> Create, manage, and track QR codes using the QRdex.io REST API. Use when working with QR code generation, URL shortening with QR codes, WiFi QR codes, email/SMS/WhatsApp QR codes, scan tracking, or any QRdex.io operations. Supports all QR types (url, email, telephone, sms, whatsapp, wifi) with customizable colors and shapes.
+> 使用 QRdex.io REST API 创建、管理和追踪二维码
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | QRdex |
 | **作者** | sebastienb |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/sebastienb-qrdex |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sebastienb/qrdex |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `foreground_color` — hex color (default: `#000000`)
-- `background_color` — hex color (default: `#FFFFFF`)
-- `shape` — QR code shape (default: `rounded`)
-- `track_scans` — enable scan tracking (default: `true`)
-- `401` — Invalid/missing API key
-- `403` — No permission
+- 通过 API 批量创建自定义二维码
+- 管理已生成的二维码列表
+- 追踪二维码扫描统计数据
+- 支持动态二维码（可修改目标链接）
+- 自定义二维码样式和设计
+- 导出和分享二维码图片
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 批量生成营销活动二维码
+- 追踪二维码扫描量和用户转化
+- 动态管理和更新二维码目标链接
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- QRdex.io API 密钥
+- QRdex.io 平台账号
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,7 +51,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

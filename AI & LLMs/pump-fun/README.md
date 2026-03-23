@@ -1,6 +1,6 @@
 # Pump Fun
 
-> Buy, sell, and launch tokens on Pump.fun using the PumpPortal API
+> 与 Pump.fun 平台集成，在 Solana 链上自动化 Meme 币交易
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,27 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `/pump-buy 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU 0.1` - Buy 0.1 SOL worth of tokens
-- `/pump-buy 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU 0.5 15` - Buy with 15% slippage
-- `/pump-sell 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU 1000000` - Sell 1,000,000 tokens
-- `/pump-sell 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU 100%` - Sell all tokens
-- `/pump-sell 7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU 50% 10` - Sell 50% with 10% slippage
-- `/pump-launch "My Token" MTK "A revolutionary token" 1` - Launch with 1 SOL dev buy
+- 与 Pump.fun 平台交互，进行 Meme 币交易
+- 支持在 Solana 链上买入和卖出代币
+- 自动获取代币价格和市场数据
+- 支持通过代币地址直接交易
+- 集成 Solana 钱包进行链上操作
+- 适用于 AI Agent 自动化交易场景
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI Agent 自动化 Meme 币交易策略
+- 快速参与 Pump.fun 平台上的新代币发行
+- 构建 Solana 链上的自动交易和套利系统
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 运行环境
+- Bash/Shell 环境
+- 环境变量 `PUMP_DEFAULT_SLIPPAGE`
+- 环境变量 `PUMP_PRIORITY_FEE`
+- 环境变量 `SOLANA_PRIVATE_KEY`
+- 环境变量 `SOLANA_RPC_URL`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +52,4 @@
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

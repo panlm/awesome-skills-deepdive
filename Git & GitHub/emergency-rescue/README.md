@@ -1,41 +1,37 @@
 # Emergency Rescue Kit
 
-> Recover from developer disasters. Use when someone force-pushed to main, leaked credentials in git, ran out of disk space, killed the wrong process, corrupted a database, broke a deploy, locked themselves out of SSH, lost commits after a bad rebase, or hit any other "oh no" moment that needs immediate, calm, step-by-step recovery.
+> 开发者灾难恢复工具箱：force-push 覆盖、凭证泄露、磁盘满、进程失控、数据库损坏等紧急情况的逐步恢复指南
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Emergency Rescue Kit |
 | **作者** | gitgoodordietrying |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/gitgoodordietrying-emergency-rescue |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/emergency-rescue |
-| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Someone force-pushed to main and overwrote history
-- Credentials were committed to a public repository
-- A rebase or reset destroyed commits you need
-- Disk is full and nothing works
-- A process is consuming all memory or won't die
-- A database migration failed halfway through
+- Git 灾难恢复：force-push 覆盖主分支、rebase/reset 丢失提交、提交到错误分支、合并冲突修复
+- 凭证泄露应急处理：从 Git 历史中清除泄露的密钥和密码
+- 磁盘空间耗尽时的紧急清理和恢复流程
+- 进程失控处理：内存耗尽、僵尸进程、无法终止的进程
+- 数据库迁移失败的回滚方案
+- SSH 锁定后的恢复访问方法
+- 每个场景遵循统一模式：诊断 → 修复 → 验证
+- 默认使用非破坏性命令，破坏性步骤明确标记
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 紧急恢复被 force-push 覆盖的远程分支历史
+- 处理生产环境中的突发故障（部署回滚、SSL 过期、数据库损坏）
+- 在"什么出错了但不知道哪里出错"的情况下按流程排查
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- Docker
-- macOS
-- 数据库
+- `git`（Git 灾难恢复场景）
+- `bash`（通用脚本执行）
+- 根据具体场景可能需要 `gh` CLI、数据库客户端等
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +50,4 @@
 **风险摘要:** 存在 8 项高风险，0 项中风险。命令执行：发现直接命令执行指令；数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

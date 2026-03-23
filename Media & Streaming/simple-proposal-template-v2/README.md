@@ -1,6 +1,6 @@
 # Simple Proposal Template
 
-> Free basic proposal template for freelancers. Creates simple, professional proposals with essential sections. Use when you need a quick proposal without complex pricing tiers or when getting started with client work.
+> 简易提案模板生成工具 v2
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,16 +12,24 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kambrosgroup/simple-proposal-template-v2 |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Free basic proposal template for freelancers
+- Creates simple, professional proposals with essential sections
+- Use when you need a quick proposal without complex pricing tiers or when getting started with client work
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 快速生成专业提案文档
+- 自定义提案模板和格式
+- 管理提案版本和历史
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

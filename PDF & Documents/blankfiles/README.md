@@ -1,6 +1,6 @@
 # Blank Files Gateway
 
-> "Use blankfiles.com as a binary test-file gateway: discover formats, filter by type/category, and return direct download URLs from the public API."
+> 快速创建空白文件的工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `https://blankfiles.com/api/v1/status`
-- `https://blankfiles.com/api/v1/files`
-- `https://blankfiles.com/api/v1/files/{type}`
-- `https://blankfiles.com/api/v1/files/{category}/{type}`
-- Treat this as a read-only gateway. Do not ask users to run shell scripts or installers.
-- Do not fabricate file formats or URLs.
+- 批量创建各种类型的空白文件
+- 支持自定义文件模板
+- 多种文件格式支持
+- 目录结构自动创建
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速搭建项目文件结构和模板
+- 批量创建标准化的空白文档模板
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -46,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

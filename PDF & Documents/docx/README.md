@@ -1,6 +1,6 @@
 # Docx
 
-> "Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks"
+> DOCX 文档处理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Your own document + simple changes
-- Someone else's document
-- Legal, academic, business, or government docs
-- `word/document.xml` - Main document contents
-- `word/comments.xml` - Comments referenced in document.xml
-- `word/media/` - Embedded images and media files
+- 读取和编辑 DOCX 格式文档
+- 文档格式转换处理
+- 模板化文档生成
+- 保持文档格式和样式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动处理和编辑 Word 文档
+- 将 DOCX 模板填充数据生成最终文档
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Python 运行环境
+- Python pip
+- npm
+- Pandoc
 
 ## 包含文件
 - `LICENSE.txt`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `docx-js.md`
@@ -54,6 +54,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。供应链风险：需要安装外部包且含管道安装
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

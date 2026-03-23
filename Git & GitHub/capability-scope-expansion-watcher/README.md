@@ -1,37 +1,35 @@
 # Capability Scope Expansion Watcher
 
-> >
+> 检测技能跨版本的渐进式能力范围扩张——发现通过小幅、看似合理的更新逐步扩大权限的模式，这些更新单独看不触发警报，但累积后大幅扩展了攻击面。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Capability Scope Expansion Watcher |
 | **作者** | andyxinweiminicloud |
+| **版本** | 1.1.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/andyxinweiminicloud-capability-scope-expansion-watcher |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/capability-scope-expansion-watcher |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- A skill identifier to trace its capability scope evolution across versions
-- A specific version range to assess cumulative expansion over a period
-- An agent's installed skill list to identify which skills have drifted
-- Per-version permission delta (declared and observed)
-- Cumulative scope expansion since initial version
-- Step-size pattern analysis
+- 追踪技能跨版本的能力范围演变历史
+- 计算每个版本的权限增量（声明的和实际的）
+- 评估自初始版本以来的累积范围扩张
+- 分析步长模式，识别渐进式权限蠕变
+- 检测风险等级矛盾（v1.1 新增功能）
+- 支持指定版本范围评估累积扩张程度
+- 识别已安装技能列表中哪些技能发生了权限漂移
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期审计已安装技能的版本更新，检测隐蔽的权限扩张
+- 在技能升级前对比新旧版本的权限范围变化
+- 安全团队对 Agent 生态系统中的"温水煮青蛙"式攻击进行防御
 
 ## 依赖和前提条件
-- Python / pip
+- curl
+- Python 3
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。信息采集：大量系统信息采集
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

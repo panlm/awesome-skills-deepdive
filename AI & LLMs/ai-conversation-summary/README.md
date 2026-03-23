@@ -1,6 +1,6 @@
 # Conversation Summary
 
-> Generate summaries for conversation content. Helps users quickly get a summary of their chat history with support for incremental updates.
+> 为对话内容生成简洁摘要，支持增量更新
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Generates summaries for conversation content
-- Supports incremental updates with previous summary context
-- Returns structured JSON response with the summary
+- 调用 API 生成对话内容的结构化摘要
+- 支持传入历史摘要实现增量更新
+- 返回 JSON 格式的摘要结果
+- 支持中英文触发（"总结对话"、"Summarize"）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在长对话结束后快速生成要点摘要
+- 为持续性对话维护滚动更新的摘要记录
+- 将对话摘要集成到知识管理工作流中
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 摘要 API 访问（iautomark.sdm.qq.com）
+- curl 命令行工具
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -44,4 +46,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

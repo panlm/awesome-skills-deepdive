@@ -1,21 +1,33 @@
 # attio-enhanced
 
-> attio-enhanced skill for OpenClaw
+> 增强版 Attio CRM 操作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | attio-enhanced |
 | **作者** | unknown |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/unknown-attio-enhanced |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/attio-enhanced |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Attio CRM 数据管理
+- 客户记录查询和更新
+- 高级搜索和过滤
+- CRM 工作流自动化
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 AI 助手管理和更新 Attio CRM 数据
+- 自动化 CRM 中的客户跟进流程
+
+## 依赖和前提条件
+- 无特殊依赖
+
+## 包含文件
+- `README.md`
+- `_meta.json`
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

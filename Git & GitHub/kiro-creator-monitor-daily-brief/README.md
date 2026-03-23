@@ -1,40 +1,37 @@
 # Kiro Creator Monitor Daily Brief
 
-> Monitor creator topics across X, RSS, GitHub, and Reddit; deduplicate and score results; produce a daily top-5 brief plus one publish-ready X/LinkedIn draft; optional scheduled delivery to Telegram, Slack, or email.
+> 跨平台创作者话题监控，整合 X、RSS、GitHub 和 Reddit 信号，生成每日精选简报和社交媒体草稿。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Kiro Creator Monitor Daily Brief |
 | **作者** | vmining |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/vmining-kiro-creator-monitor-daily-brief |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/vmining/kiro-creator-monitor-daily-brief |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `scripts/daily_brief.py`
-- `examples/config.json`
-- `examples/cron_command.txt`
-- `topics`: keyword groups and exclusions
-- `sources`: source-level settings
-- `delivery`: optional delivery channels
+- 从 X、RSS、GitHub、Reddit 等多源拉取创作者相关信号
+- 自动去重和按相关性+新鲜度评分
+- 输出每日 Top 5 精选简报
+- 自动生成一篇可发布的 X/LinkedIn 社交草稿
+- 支持定时推送到 Telegram、Slack 或邮箱
+- 支持通过 JSON 配置话题关键词和排除词
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 内容创作者每日跟踪行业话题和竞品动态
+- 自动化社交媒体内容灵感收集和草稿准备
+- 团队定时接收行业简报，提高信息同步效率
 
 ## 依赖和前提条件
-- Python / pip
+- `python3`
+- 环境变量：`X_BEARER_TOKEN`（X/Twitter 搜索必需）
+- 可选环境变量：`TELEGRAM_BOT_TOKEN`、`TELEGRAM_CHAT_ID`、`SLACK_WEBHOOK_URL`
+- 可选环境变量：`SMTP_HOST`、`SMTP_PORT`、`SMTP_USER`、`SMTP_PASS`、`EMAIL_TO`
+- RSS 和公开 GitHub 端点可无需密钥运行
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `agents`
-- `examples`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +50,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

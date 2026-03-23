@@ -1,35 +1,37 @@
 # Outbound Call
 
-> Make outbound phone calls via ElevenLabs voice agent and Twilio
+> 通过 ElevenLabs 语音智能体和 Twilio 拨打外呼电话
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Outbound Call |
 | **作者** | humanjesse |
+| **版本** | 0.1.5 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/humanjesse-outbound-call |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/humanjesse/outbound-call |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- ELEVENLABS_API_KEY
-- ELEVENLABS_AGENT_ID
-- ELEVENLABS_PHONE_NUMBER_ID
-- Call someone or phone someone
-- Make a phone call
-- Place a call to a number
+- 使用 ElevenLabs 高质量语音合成拨打电话
+- 通过 Twilio 电话网络发起外呼
+- AI 语音智能体自动进行电话对话
+- 支持自定义语音和对话脚本
+- 实时语音交互与响应
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动化客户通知和提醒电话
+- AI 驱动的电话外呼与语音交互
+- 预约确认和信息传达
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- ElevenLabs API 密钥
+- Twilio 账号及电话号码
+- 配置语音智能体参数
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `call.py`

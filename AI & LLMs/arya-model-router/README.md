@@ -1,6 +1,6 @@
 # Arya Model Router
 
-> Token-saver router: elige modelo (cheap/default/pro) y usa sub-agentes para tareas pesadas. Incluye compresión/briefing opcional.
+> Token 节省路由器——根据任务复杂度自动选择模型（cheap/default/pro/ultra），通过子代理和上下文压缩降低 API 成本。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,33 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Routes each request to one of: `cheap`, `default`, `pro`, `ultra`
-- Supports manual overrides (`@cheap`, `@default`, `@pro`, `@ultra`)
-- Supports router mode commands:
-- `router status`
-- `router auto on`
-- `router auto off`
-- Adds a feedback loop:
-- `router feedback expensive` (or `router feedback caro`)
+- 根据请求复杂度自动路由到 cheap、default、pro、ultra 四个模型层级
+- 支持手动模型覆盖（@cheap、@default、@pro、@ultra）
+- 提供路由状态查询和自动模式开关控制
+- 内置反馈循环机制，用户可报告"太贵"或"太弱"来动态调整阈值
+- 上下文过大时自动启用摘要压缩（briefing）
+- 为每个层级配置响应策略（最大字数和风格提示）
+- 自动检测日报模式，保持报告低成本和结构化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 希望在保证回答质量的前提下最大化降低 LLM API 费用
+- 不同类型的对话任务需要自动匹配合适的模型层级
+- 需要对 AI 使用成本进行精细化管理和控制
 
 ## 依赖和前提条件
-- Python / pip
+- 需要 Python 运行时
+- 包含 `router.py`、`rules.json`、`state.json`、`brief.py` 配置文件
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `brief.py`
-- `router.py`
-- `rules.json`
-- `state.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
@@ -53,8 +44,5 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

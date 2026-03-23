@@ -1,35 +1,35 @@
 # 10dlc Registration
 
-> Register for 10DLC as a sole proprietor to enable SMS messaging in the USA. Use when setting up A2P SMS, registering brands/campaigns, or assigning phone numbers for compliant US messaging. Requires Telnyx CLI.
+> Telnyx 10DLC 短信注册管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | 10dlc Registration |
 | **作者** | teamtelnyx |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/teamtelnyx-telnyx-10dlc |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/teamtelnyx/telnyx-10dlc |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Telnyx CLI installed: `npm install -g @telnyx/api-cli`
-- API key configured: `telnyx auth setup`
-- At least one US phone number
-- Telnyx docs: https://developers.telnyx.com/docs/messaging/10dlc
-- Support portal: https://support.telnyx.com
-- API status: https://status.telnyx.com
+- 10DLC 品牌注册管理
+- 短信活动注册
+- A2P 短信合规
+- Telnyx 平台集成
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 管理 10DLC 品牌和短信活动的注册流程
+- 确保 A2P 短信营销的合规性
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
+- npm
+- Telnyx
+- X (Twitter) API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config.json`
@@ -53,6 +53,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，3 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

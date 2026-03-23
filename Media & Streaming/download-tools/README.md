@@ -1,6 +1,6 @@
 # Download Tools
 
-> CLI download tools for YouTube and WeChat
+> 多媒体内容下载工具集
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,15 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jqlong17/download-tools |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- CLI download tools for YouTube and WeChat
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 下载在线视频和音频内容
+- 支持多个平台和格式
+- 管理下载队列和文件组织
 
 ## 依赖和前提条件
 - Homebrew
@@ -26,7 +31,7 @@
 - `wechat-dl.sh`
 - `yt-audio.sh`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

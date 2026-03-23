@@ -1,6 +1,6 @@
 # Build Session
 
-> A framework for productive autonomous agent sessions. Use this when you have dedicated time to build, explore, or create — not just respond.
+> 为 AI Agent 自主工作会话提供框架，在定时任务或空闲时间保持高效产出而非被动等待。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `SKILL.md` — Main skill instructions (read this during build sessions)
-- `session-log.sh` — Quick logging helper
-- `pick-task.sh` — Random task picker from project ideas
-- Every session should produce *something*
-- Pick one thing, do it, log it
-- Shipping beats planning
+- 提供结构化的自主工作会话框架
+- 包含会话日志记录辅助脚本（session-log.sh）
+- 包含随机任务选择器（pick-task.sh），从项目创意中选取任务
+- 核心理念：每次会话必须产出成果，执行优于规划
+- 支持通过 cron 定时任务触发构建会话
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI Agent 设置定期自主工作时间，持续推进项目
+- 在无人值守时让 Agent 自主选择并完成待办任务
+- 建立"构建-记录-迭代"的 Agent 自主工作循环
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `pick-task.sh`
-- `session-log.sh`
+## 依赖和前提条件
+- 安装方式：`clawhub install build-session`
+- 需要 Bash shell 环境
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,8 +42,5 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 1 项高风险，2 项中风险。持久化机制：设置系统级持久化
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

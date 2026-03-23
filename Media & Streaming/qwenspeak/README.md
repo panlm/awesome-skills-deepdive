@@ -1,6 +1,6 @@
 # qwenspeak
 
-> Text-to-speech generation via Qwen3-TTS over SSH. Preset voices, voice cloning, voice design. Use when the user wants to generate speech audio, clone voices, or work with TTS.
+> Qwen 语音对话工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - mode: voice-design
 - text: "Welcome to our store."
 - mode: voice-clone
+- text: "First line in cloned voice"
+- text: "Second line"
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 使用 Qwen 模型进行语音交互
+- 支持中文语音识别和合成
+- 实现智能语音对话功能
 
 ## 依赖和前提条件
 - Docker
@@ -34,7 +36,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

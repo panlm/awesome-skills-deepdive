@@ -1,34 +1,34 @@
 # Mvp Planning
 
-> Plan and scope a Minimum Viable Product for a solopreneur. Use when deciding what to build first, what to cut, how to prioritize features, how to define "done" for a first launch, and how to structure the MVP build process. Covers the MVP definition, feature ruthless-cutting framework, build-vs-buy decisions, launch criteria, and post-launch learning loops. Trigger on "plan my MVP", "minimum viable product", "what should I build first", "scope my product", "MVP roadmap", "what features to include", "first version", "launch something".
+> 为个人创业者规划和确定最小可行产品（MVP）的范围与优先级
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Mvp Planning |
 | **作者** | jk-0001 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/jk-0001-mvp-planning |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jk-0001/mvp-planning |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 🔴 Must-have: Product is meaningless without this. Hypothesis cannot be tested without it.
-- 🟡 Nice-to-have: Improves experience but hypothesis can still be tested without it.
-- 🟢 Cut: Not needed for the hypothesis at all. Build later if validated.
-- Yes → Keep (for now, pending further cuts)
-- No → Cut. No exceptions.
-- A "dashboard" that's actually a shared Google Sheet for your first 10 customers
+- 帮助明确核心商业假设，确保 MVP 围绕可验证的假设构建
+- 定义"可行"标准：区分必须有、应该有、可以有和绝不要的功能
+- 提供功能无情裁剪框架（RICE 评分法），聚焦核心价值
+- 指导 Build vs Buy 决策：自建核心差异化功能，外包通用功能
+- 制定明确的发布标准清单，避免无限延期
+- 设计发布后学习循环：收集用户反馈、分析留存、决定下一步迭代
+- 提供时间规划模板，控制 MVP 在4-8周内完成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 创业初期决定先构建什么功能、砍掉哪些功能
+- 为首次产品发布定义"完成"标准和时间线
+- 制定 MVP 路线图并结构化构建过程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊技术依赖，作为策略指导型 skill 运行
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

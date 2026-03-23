@@ -1,35 +1,34 @@
 # TTRPG Game Master
 
-> TTRPG Game Master for mature dark-themed campaigns. Use for Cyberpunk, Dark Fantasy, Horror, character-driven narratives with consequence tracking. Features dual-consequence system (World + Relationships), autonomous NPCs, hidden D20 rolls, psychological gauges. Optional adult content module.
+> TTRPG 游戏主持人辅助工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | TTRPG Game Master |
 | **作者** | rogerkink6 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/rogerkink6-ttrpg-gm |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rogerkink6/ttrpg-gm |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Auto-trigger patterns for seamless skill activation
-- Full combat system with cinematic flow and status-based damage
-- Death & failure handling with death spiral, last stand, and alternative failures
-- Safety tools (Lines & Veils, X-card, tone checks)
-- Location & quest tracking in campaign files
-- Inventory & resources tracking
-- NPC voice templates for distinctive dialogue
-- Encounter generation tables and guidelines
+- RPG 游戏剧情生成
+- 角色和 NPC 管理
+- 战斗和规则处理
+- 世界观构建
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- AI 辅助主持 TTRPG 游戏会话
+- 自动生成 RPG 游戏的剧情和遭遇
+
+## 依赖和前提条件
+- GitHub API
 
 ## 包含文件
 - `CONTRIBUTING.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -52,6 +51,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # audio-cog
 
-> AI audio generation powered by CellCog. Three voice providers (OpenAI, ElevenLabs, MiniMax), avatar cloned voices, sound effects, music generation up to 10 minutes. Professional audio creation with AI.
+> 音频处理和分析认知工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,22 @@
 - The user creates an avatar on cellcog.ai and uploads voice samples
 - CellCog clones their voice using MiniMax Speech 2.8 HD
 - Any audio request referencing that avatar uses their cloned voice
+- "Generate a sound effect of heavy rain hitting a metal roof with occasional thunder, 10 seconds"
+- "Create a crispy footsteps-on-fresh-snow sound effect, 5 seconds"
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 分析音频文件的内容和特征
+- 执行音频格式转换和处理
+- 提取音频中的关键信息
+
+## 依赖和前提条件
+- FFmpeg
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

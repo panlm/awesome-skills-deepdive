@@ -1,27 +1,40 @@
 # mt5_trade
 
-> Call local MT5 trading HTTP API (signal → draft → confirm) with safety confirmation
+> 通过本地 MT5 交易 HTTP API 执行交易操作，采用信号→草案→确认的安全三步流程
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | mt5_trade |
 | **作者** | xuanyushen19 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/xuanyushen19-mt5trade |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xuanyushen19/mt5trade |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- call /order\_draft and show the full draft JSON to the user,
-- ask the user to reply EXACTLY: CONFIRM ORDER
+- 对接本地 MetaTrader 5 交易 HTTP API
+- 信号→草案→确认的三步安全交易流程
+- 交易指令需人工确认后才执行
+- 支持外汇、期货、股票等多品种交易
+- 实时行情数据查询
+- 持仓和订单状态管理
+- 交易风险控制和止损设置
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 分析行情信号后生成交易草案供人工确认
+- 自动化交易策略的安全执行（带人工审批）
+- 实时监控持仓并在触发条件时提醒操作
+
+## 依赖和前提条件
+- 本地运行的 MetaTrader 5 终端
+- MT5 交易 HTTP API 服务已启动
+- 有效的交易账户和资金
+- API 端口和认证配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -39,7 +52,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
 ---

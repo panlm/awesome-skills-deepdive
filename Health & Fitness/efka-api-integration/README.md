@@ -1,6 +1,6 @@
 # Efka Api Integration
 
-> Greek social security (EFKA) integration — employee records, contribution calculations, APD declarations. Human approval for submissions.
+> EFKA API 集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,18 +19,25 @@
 - Payroll Integration: Seamless connection with existing Greek payroll systems
 - Production Scalability: Built to handle multiple clients and high transaction volumes
 - /data/efka/employees/active/           # Current employee records
+- /data/efka/employees/terminated/       # Former employee records
+- /data/efka/employees/pending/          # New hires pending registration
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 集成 EFKA 系统的 API 接口
+- 管理 EFKA 数据的读写操作
+- 自动化 EFKA 业务流程
+
+## 依赖和前提条件
+- pip / uv 包管理器
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `EVALS.json`
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

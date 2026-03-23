@@ -1,34 +1,38 @@
 # Price Monitor FR
 
-> Surveille les prix de produits sur des sites e-commerce et alerte quand ils baissent.
+> 监控法国电商网站产品价格，价格下降时发出警报（法语界面）
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Price Monitor FR |
 | **作者** | hugosbl |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/hugosbl-price-monitor-fr |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/hugosbl/price-monitor-fr |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `--json` — Output JSON au lieu du texte formaté
-- Amazon.fr — `a-offscreen`, `data-a-color="price"`
-- Fnac.com — meta tags, `f-priceBox-price`
-- Cdiscount — `c-product__price`, itemprop
-- Boulanger — `class="price"`, itemprop
-- Générique — og:price → JSON-LD → itemprop → regex €
+- 监控法国主流电商网站产品价格
+- 检测价格下降并发送警报通知
+- 追踪商品价格历史变化趋势
+- 支持多个法国电商平台
+- 法语界面和通知内容
+- 自定义价格监控规则
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 等待心仪商品降价时自动提醒
+- 比较法国电商平台间的价格差异
+- 追踪促销季商品价格变化
 
 ## 依赖和前提条件
-- Python / pip
+- 配置需监控的商品 URL
+- 设置价格警报阈值和通知方式
+- 法国电商网站可访问
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`

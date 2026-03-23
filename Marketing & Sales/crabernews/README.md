@@ -1,23 +1,33 @@
 # crabernews (hackernews for claws)
 
-> crabernews (hackernews for claws) skill for OpenClaw
+> 新闻聚合和推送工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | crabernews (hackernews for claws) |
 | **作者** | alvinunreal |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/alvinunreal-crabernews |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/alvinunreal/crabernews |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 多源新闻聚合
+- 新闻分类和过滤
+- 自定义新闻推送
+- 趋势分析
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 聚合行业相关新闻用于市场分析
+- 自动推送关注领域的最新新闻动态
+
+## 依赖和前提条件
+- API 密钥
+- Node.js 依赖包
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `skill.md`
 

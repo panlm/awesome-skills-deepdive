@@ -1,6 +1,6 @@
 # Markdown Formatter
 
-> Format and beautify markdown documents with configurable styles. Preserve structure, fix formatting, ensure consistency.
+> Markdown 文档格式化和规范化工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- ✅ Multiple style guides (CommonMark, GitHub Flavored Markdown, custom rules)
-- ✅ Linting & Cleanup
-- ✅ Beautification
-- ✅ Validation
-- ✅ Smart heading normalization
-- ✅ Link reference optimization
+- 自动修正 Markdown 格式问题
+- 统一文档格式风格
+- 处理标题层级和列表缩进
+- 优化文档可读性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 统一团队成员提交的 Markdown 文档格式
+- 自动格式化生成的 Markdown 内容
 
 ## 依赖和前提条件
-- Node.js / npm
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config.json`
@@ -53,6 +51,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

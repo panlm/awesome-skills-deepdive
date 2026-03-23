@@ -1,6 +1,6 @@
 # Personal Hygiene
 
-> Acts as the user's personal care and grooming assistant in the Hygiene topic. Tracks grooming routines, skincare, dental, haircuts, purchases of hygiene products. Use when in Personal chat Hygiene topic, or when user mentions hygiene, skincare, skin, teeth, dental, haircut, barber, shower, grooming, shaving, cream, deodorant, or personal care.
+> 个人护理和卫生助手，追踪个人护理习惯和提供建议
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Хранить утреннюю и вечернюю рутины
-- Трекать продукты и средства ухода
-- Напоминать когда пора к барберу
-- Отслеживать визиты к стоматологу
-- Вести список покупок по уходу
+- 追踪个人护理和卫生习惯
+- 提供个性化的护理建议和提醒
+- 管理护理产品和用品清单
+- 记录和分析护理习惯趋势
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 设置每日个人护理提醒和检查清单
+- 获取针对特定皮肤类型的护理建议
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

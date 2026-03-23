@@ -7,8 +7,8 @@
 | [add-analytics](./add-analytics/) | 为任何项目添加 Google Analytics 4 (GA4) 追踪代码，支持多框架自动检测 | jeftekhari | ? | 🟢 | 3 |
 | [amplitude-automation](./amplitude-automation/) | 通过 Rube MCP (Composio) 自动化 Amplitude 产品分析任务 | sohamganatra | ? | 🟡 | 3 |
 | [canva](./canva/) | 通过 Canva Connect API 创建、导出和管理 Canva 设计作品 | abgohel | ? | 🟡 | 6 |
-| [ceorater](./ceorater/) | 获取标普 500 公司 CEO 绩效的机构级分析数据 | ceorater-skills | ? | 🟢 | 5 |
-| [check-analytics](./check-analytics/) | 审计现有 Google Analytics 实现，检查常见问题和优化机会 | jeftekhari | ? | 🟢 | 3 |
+| [ceorater](./ceorater/) | 获取标普 500 公司 CEO 绩效的机构级分析数据 | ceorater-skills | ? | 🟡 | 5 |
+| [check-analytics](./check-analytics/) | 审计现有 Google Analytics 实现，检查常见问题和优化机会 | jeftekhari | ? | 🟡 | 3 |
 | [cicd-pipeline](./cicd-pipeline/) | 使用 GitHub Actions 创建、调试和管理 CI/CD 流水线 | gitgoodordietrying | ? | 🟢 | 3 |
 | [clawver-store-analytics](./clawver-store-analytics/) | 监控 Clawver 商店绩效，查询收入、热销产品和转化率 | nwang783 | ? | 🟢 | 4 |
 | [cleanup](./cleanup/) | 删除所有已存储的 Kradleverse 会话数据 | themrzz | ? | 🟡 | 3 |
@@ -32,7 +32,7 @@
 | [osint-graph-analyzer](./osint-graph-analyzer/) | 从 OSINT 数据构建知识图谱，发现隐藏模式和关系 | orosha-ai | ? | 🟡 | 6 |
 | [remove-analytics](./remove-analytics/) | 安全地从项目中移除 Google Analytics 追踪代码和相关依赖 | jeftekhari | ? | 🟡 | 3 |
 | [senior-data-engineer](./senior-data-engineer/) | 构建可扩展数据管道、ETL/ELT 系统和数据基础设施的高级数据工程技能 | alirezarezvani | ? | 🟢 | 5 |
-| [senior-data-scientist](./senior-data-scientist/) | 世界级数据科学技能：统计建模、实验设计、因果推断和预测分析 | alirezarezvani | ? | 🟢 | 5 |
+| [senior-data-scientist](./senior-data-scientist/) | 世界级数据科学技能：统计建模、实验设计、因果推断和预测分析 | alirezarezvani | ? | 🟡 | 5 |
 | [supabase](./supabase/) | 连接 Supabase 进行数据库操作、向量搜索和存储管理 | stopmoclay | ? | 🟡 | 4 |
 | [sure](./sure/) | 从 Sure 个人财务面板获取财务报告 | bt0r | ? | 🟡 | 3 |
 | [tabstack-extractor](./tabstack-extractor/) | 使用 Tabstack API 从网站提取结构化数据 | noblepayne | ? | 🟡 | 5 |

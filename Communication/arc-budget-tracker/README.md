@@ -1,32 +1,36 @@
 # Arc Budget Tracker
 
-> Track agent spending, set budgets and alerts, and prevent surprise bills. Use when the agent needs to log expenses, check remaining budget, set spending limits, or get cost summaries. Essential for autonomous agents with real money.
+> 智能体开支追踪器，设置预算上限和告警阈值，防止 API 调用产生意外高额账单
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Arc Budget Tracker |
 | **作者** | trypto1019 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/trypto1019-arc-budget-tracker |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-budget-tracker |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Log transactions immediately after spending — don't batch them
-- Use `check` before any purchase to verify budget safety
-- Run `summary` at the start of each day for awareness
-- Set `--alert-threshold` to 25% of your total budget
+- 追踪智能体的 API 调用开支
+- 设置预算上限和消费告警
+- 实时费用监控和统计
+- 超支自动告警或暂停执行
+- 支持多维度费用分析（按时间/服务/智能体）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 控制 AI 智能体运行成本避免账单失控
+- 团队环境下各智能体的费用分配和管理
+- 长时间运行任务的成本监控和预算控制
 
 ## 依赖和前提条件
-- Python / pip
+- ARC 服务账号配置
+- 预算参数和告警阈值设定
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`

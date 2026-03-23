@@ -1,35 +1,32 @@
 # Content Generation
 
-> "Generate high-quality content across multiple formats. Create articles, reports, social media posts, marketing copy, and other content types with professional quality and consistency.\n"
+> 内容自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Content Generation |
 | **作者** | tobisamaa |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/tobisamaa-content-generation |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tobisamaa/content-generation |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Creating articles and blog posts
-- Writing marketing copy and ads
-- Generating social media content
-- Producing reports and documentation
-- Creating any written content
-- Articles and blog posts
+- AI 驱动的内容生成
+- 多格式内容输出
+- 主题和关键词驱动
+- 内容质量控制
 
 ## 使用场景
-- SEO 优化和内容创建
-- 内容营销策略执行
-- 搜索排名分析和优化
+- 根据关键词自动生成营销内容
+- 批量生产社交媒体和博客内容
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

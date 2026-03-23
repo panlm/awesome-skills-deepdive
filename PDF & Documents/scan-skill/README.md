@@ -1,6 +1,6 @@
 # Scan Skill
 
-> Deep security analysis of an individual skill before installation
+> 文档扫描处理技能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- SKILL.md frontmatter analysis (dangerous field combinations, hidden skills, pre-approved tools)
-- Hidden HTML comments with imperative instructions
-- Shell command patterns (remote-code-pipe-to-shell, encoded payloads)
-- Description persistence triggers (forced repeated execution keywords)
-- Supporting files analysis (scripts/ directory contents, executable permissions)
-- Dynamic context injection (preprocessor command execution)
-- Encoding and obfuscation (base64, hex, zero-width characters)
-- Instruction override attempts (context manipulation, role impersonation)
+- 文档图像扫描和处理
+- 文本提取和数字化
+- 扫描质量优化
+- 多格式输出支持
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将实体文档扫描转换为数字文件
+- 优化扫描文档的图像质量
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -51,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。Prompt 注入：存在可疑 Prompt 模式；混淆/反分析：使用编码/解码操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

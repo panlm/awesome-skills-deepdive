@@ -1,37 +1,36 @@
 # Global Holidays
 
-> |
+> 查询、生成和处理全球各国及其行政区划的公共假日信息，支持 249 个国家和地区。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Global Holidays |
 | **作者** | yting27 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/yting27-global-holidays |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/yting27/global-holidays |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Use ISO 639-1 codes (e.g., `en`, `de`, `fr`)
-- Some countries use locale-specific codes (e.g., `en_US`, `zh_CN`)
-- If an unsupported language is requested, the library falls back to the default language
-- `observed=True` (default): When a holiday falls on a weekend, the observed date (typically Monday) is included. Set `obs
-- `expand=True` (default): If you check a date outside the `years` range, the library automatically adds that year. Set `e
-- Multiple years: Pass a list to `years` to load several years at once: `years=[2023, 2024, 2025]`.
+- 使用 Python `holidays` 库查询 249 个国家（ISO 3166-1）的公共假日
+- 支持行政区划级别的假日查询（州、省、地区，基于 ISO 3166-2 编码）
+- 支持日期范围切片查询假日
+- 检查指定日期是否为公共假日
+- 支持添加自定义假日（如个人纪念日）
+- 支持多语言假日名称显示（通过 ISO 639-1 语言代码）
+- 支持工作日/营业日计算（跳过假日）
+- 提供已观察假日（周末顺延到周一）选项
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 计算两个日期间的实际工作日数量（排除公共假日）
+- 生成特定国家/地区的年度假日日历用于项目排期
+- 在自动化流程中判断当前日期是否为假日以决定是否执行任务
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3
+- `pip install holidays`（推荐使用虚拟环境或 `--break-system-packages` 标志）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 1 项中风险。供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # trade-with-aiusd
 
-> "AIUSD trading and account management skill for cryptocurrency trading and account management."
+> AIUSD 加密货币交易技能，通过自然语言在 Telegram、Discord、WhatsApp 等平台进行加密货币交易和账户管理。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,31 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- *"What's my AIUSD balance?"*
-- *"Buy $100 worth of SOL with USDC"*
-- *"Show my recent transactions"*
-- *"What are my trading addresses?"*
-- *"Check my AIUSD balance"*
-- *"How much do I have in my account?"*
+- 通过自然语言对话执行加密货币交易（买入/卖出）
+- 查询 AIUSD 账户余额和交易历史
+- 查看交易地址和账户详情
+- 支持拖放安装，开箱即用
+- 自动处理 OAuth 认证流程
+- 兼容 Telegram、Discord、WhatsApp 等多平台
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在聊天中用自然语言下达交易指令，如"用 USDC 买入 100 美元的 SOL"
+- 随时查询加密货币账户余额和近期交易记录
+- 通过 AI 助手管理多平台上的加密货币操作
 
 ## 依赖和前提条件
-- Node.js / npm
-- OAuth
+- 需要 Node.js / npm
+- 需要 AIUSD 账户和 OAuth 认证
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `aiusd-skill-installer.js`
-- `aiusd-skill-installer.sh`
-- `build-info.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
@@ -51,8 +43,5 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🔴 High**
-**风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

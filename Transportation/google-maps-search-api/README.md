@@ -1,6 +1,6 @@
 # Google Maps Search Api
 
-> This skill is designed to help users automatically extract business data from Google Maps search results. When a user asks to "find coffee shops in New York," "search for dental clinics," or "extract business leads from Google Maps," the agent should proactively apply this skill.
+> 从 Google Maps 自动提取商户数据，包括名称、地址和评分
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 🚀 Stable & crash-free execution
-- ⚡ Fast response times
-- 🔧 No configuration headaches
-- 📦 Plug & play installation
-- 💬 Professional support
-- Type: `string`
+- 搜索指定区域内的商户信息
+- 提取商户名称、地址、电话和评分
+- 支持按类别和关键词筛选
+- 批量获取商户数据
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 搜索某城市的所有咖啡店并提取联系方式
+- 获取竞争对手店铺的位置和用户评分数据
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API Key（Google Maps Platform）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；混淆/反分析：使用编码/解码操作
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

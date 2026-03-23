@@ -1,6 +1,6 @@
 # Privacy Cards
 
-> "Create and manage Privacy.com virtual cards. Use for generating single-use cards, merchant-locked cards, listing cards, setting spending limits, pausing/closing cards, and viewing transactions via the Privacy.com API."
+> 创建和管理 Privacy.com 虚拟卡，用于一次性支付和隐私保护
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Production: `https://api.privacy.com/v1`
-- Sandbox: `https://sandbox.privacy.com/v1`
+- 创建一次性虚拟支付卡
+- 为不同商户创建独立的虚拟卡
+- 设置消费限额和有效期
+- 管理和暂停/关闭虚拟卡
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在不信任的网站上使用一次性虚拟卡保护真实卡号
+- 为每个订阅服务创建独立限额卡方便管理
 
 ## 依赖和前提条件
-- API Key
+- API Key（Privacy.com）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # communicate
 
-> Start using a local or Hugging Face model instantly, directly from chat.
+> 在聊天中即时启动和使用本地或 Hugging Face 模型，提供 OpenAI 兼容端点
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Quickly start using a local or Hugging Face model
-- Chat with a locally running model
-- Test or interact with a model directly from chat
-- The model is served locally using vLLM.
-- The exposed endpoint follows the OpenAI API format.
-- The server must be started before sending chat requests.
+- 一键启动本地或 Hugging Face 模型服务器
+- 使用 vLLM 在本地部署模型，提供 OpenAI API 兼容端点
+- 支持直接在聊天中与运行中的模型对话
+- 支持张量并行（tp）和数据类型（dtype）配置
+- 提供服务器状态检查和停止功能
+- 支持自定义 IP 和端口设置
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速测试和对比不同的 Hugging Face 模型效果
+- 在本地搭建私有 AI 推理服务器用于开发调试
+- 通过聊天界面便捷地管理和交互多个模型实例
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- bash、curl
+- vLLM（用于模型推理服务）
+- URL 环境变量配置
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +49,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

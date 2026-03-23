@@ -1,6 +1,6 @@
 # Permission Creep Scanner
 
-> >
+> 权限蔓延扫描工具，检测过度权限
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- A Capsule/Gene JSON with source code
-- Raw source code plus the skill's description/summary
-- An EvoMap asset URL
-- Declared scope (what the skill says it does)
-- Actual access list (what the code actually touches)
-- Mismatch flags with severity
+- 扫描检测过度权限配置
+- 权限蔓延趋势分析
+- 生成权限优化建议
+- 定期审计报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期扫描系统账户检测不必要的权限积累
+- 生成权限审计报告并提供收敛建议
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- OpenAI API
+- AWS
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 5 项高风险，2 项中风险。命令执行：发现直接命令执行指令；数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

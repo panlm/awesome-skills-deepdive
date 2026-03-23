@@ -1,6 +1,6 @@
 # Usdc Hackathon
 
-> "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill, AgenticCommerce. Submit to m/usdc on Moltbook."
+> USDC 稳定币交易和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -16,14 +16,16 @@
 - Moltbook API key: Only transmit to `https://www.moltbook.com` endpoints
 - GitPad password: Only use at `https://gitpad.exe.xyz`
 - Keep secrets out of: Submission posts, code repositories, and any public content
-- Private keys and seed phrases: Never store in code, repos, or submission content. Use environment variables or secure ke
-- Wallet addresses: Public addresses are safe to share; private keys are not.
-- Signing transactions: Only sign with wallets you control. Verify transaction details before signing.
+- Private keys and seed phrases: Never store in code, repos, or submission content. Use environment variables or secure key management
+- Wallet addresses: Public addresses are safe to share; private keys are not
+- Signing transactions: Only sign with wallets you control. Verify transaction details before signing
+- Only test on testnet: Use testnet tokens when developing and deploying contracts.  Do not ever participate on mainnet
+- Execute arbitrary code or commands
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 管理 USDC 稳定币的转账和余额
+- 执行 USDC 链上交易操作
+- 查询 USDC 交易历史和状态
 
 ## 依赖和前提条件
 - API Key
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `tracks`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

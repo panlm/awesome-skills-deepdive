@@ -1,6 +1,6 @@
 # Rv Measure
 
-> Quantifies R_V contraction signatures in AI models.
+> 研究变量测量与分析工具，支持多维度数据评估
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,15 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/amitabhainarunachala/rv-measure |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 实现研究变量（RV）的测量与分析
+- 支持多维度数据测量和评估
+- 提供统计分析和数据可视化
+- 适用于学术研究和数据科学场景
+- 支持自定义测量指标和参数
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 学术研究中对实验变量进行标准化测量
+- 数据分析项目中快速进行统计指标计算
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -39,4 +45,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

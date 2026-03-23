@@ -1,6 +1,6 @@
 # Agent Contact Card
 
-> Discover and create Agent Contact Cards - a vCard-like format for AI agents. Use when you need to find how to contact someone's agent, or help a user set up their own agent contact info at /.well-known/agent-card.
+> 发现和创建 Agent 联系卡片——一种类似 vCard 的 AI Agent 联系方式标准格式
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- User asks how to let other agents contact their agent
-- User wants to discover how to reach someone else's agent
-- You need to contact another agent on behalf of your user
-- User mentions "agent-card", "agent contact", or agent-to-agent communication
-- For scheduling requests, use Discord
-- For urgent matters, email with "URGENT" in subject
+- 定义了 Agent 联系卡片的标准格式：Markdown + YAML 前置数据
+- 通过 /.well-known/agent-card 路径实现自动发现
+- 支持多种联系渠道：Email、Discord、Webhook、Signal、Telegram 等
+- 支持多 Agent 配置：一个域名下可发布多个专业化 Agent 的联系方式
+- Webhook 渠道支持详细的认证和数据格式说明
+- 可声明 Agent 能力（如 scheduling、accepts_ical）供其他 Agent 查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为自己的 AI Agent 创建公开的联系方式页面，让其他 Agent 可以自动发现并联系
+- 在 Agent 间通信前先查询对方的联系卡片以确定最佳沟通渠道
+- 构建 Agent 社交网络的基础身份和通信发现协议
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- 一个可托管静态文件的域名（用于发布 /.well-known/agent-card）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +47,4 @@
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

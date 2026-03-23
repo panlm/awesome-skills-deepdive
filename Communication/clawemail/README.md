@@ -1,35 +1,38 @@
 # Clawemail
 
-> "Google Workspace via ClawEmail.com service — Gmail, Drive, Docs, Sheets, Slides, Calendar, Forms. Use PROACTIVELY when the user asks to send email, create documents, manage files, schedule events, or work with any Google service."
+> 通过 ClawEmail.com 接入 Google Workspace 全套服务，包括 Gmail、Drive、Docs、Sheets 和 Slides
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Clawemail |
 | **作者** | cto1 |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/cto1-clawemail |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cto1/clawemail |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Document: `application/vnd.google-apps.document`
-- Spreadsheet: `application/vnd.google-apps.spreadsheet`
-- Presentation: `application/vnd.google-apps.presentation`
-- Folder: `application/vnd.google-apps.folder`
-- Form: `application/vnd.google-apps.form`
-- Always refresh token first: Start every sequence with `TOKEN=$(~/.openclaw/skills/clawemail/scripts/token.sh)`
+- Gmail 邮件收发和管理
+- Google Drive 文件存储和共享
+- Google Docs 文档创建和编辑
+- Google Sheets 电子表格操作
+- Google Slides 演示文稿制作
+- 统一的 Google Workspace 访问入口
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体通过 Google Workspace 完成日常办公文档处理
+- 自动化邮件处理、文件归档和报告生成流程
+- 团队协作中智能体代为创建和分享文档
 
 ## 依赖和前提条件
-- Python / pip
-- OAuth
+- 注册 ClawEmail.com 账户
+- 完成 Google Workspace 授权
+- 配置 ClawEmail API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`

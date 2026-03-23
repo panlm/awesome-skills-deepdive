@@ -1,36 +1,32 @@
 # Email Capture Generator
 
-> Build high-converting lead magnets, squeeze pages, and email capture funnels using proven 5-section conversion frameworks. Includes opt-in forms, thank you pages, and delivery automation hooks.
+> 使用经过验证的 5 段式转化框架构建高转化率的引流磁铁、挤压页和邮件捕获漏斗
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Email Capture Generator |
 | **作者** | cameron-jovan |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/cameron-jovan-email-capture-generator |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cameron-jovan/email-capture-generator |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "email capture"
-- "squeeze page"
-- "conversion funnel"
-- "landing page"
-- "Create a lead magnet landing page for a free ebook"
-- "Build an email capture funnel for a webinar"
+- 基于 5 段式转化框架生成页面：Hook（英雄区）→ Value（价值展示）→ Proof（社会证明）→ Urgency（紧迫感）→ Reassurance（信任保障）
+- 生成包含邮件输入框和 CTA 按钮的注册表单
+- 自动生成感谢页面和交付自动化钩子
+- 支持多种引流磁铁类型：电子书、清单、模板、网络研讨会等
+- 提供模板变量系统，方便快速替换标题、利益点、CTA 文案等
+- 内置社会证明区块（订阅者数量、用户评价）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速为新产品或内容创建专业的邮件列表注册着陆页
+- 为网络研讨会或免费资源构建完整的邮件捕获漏斗
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `examples`
-- `templates`
+## 依赖和前提条件
+- 无外部依赖（纯模板/框架指导型 Skill）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +45,4 @@
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

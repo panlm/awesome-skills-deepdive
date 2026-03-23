@@ -1,6 +1,6 @@
 # Expanso xml-to-json
 
-> Convert XML to JSON format
+> XML 数据转换为 JSON 格式
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,13 +12,22 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-xml-to-json |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- XML 文档解析和转换
+- 处理属性和命名空间
+- 支持复杂 XML 结构
+- 输出标准 JSON 格式
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将旧系统的 XML 数据转换为 JSON 格式
+- 解析 XML API 响应为更易处理的 JSON
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `pipeline-cli.yaml`
@@ -42,6 +51,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；越权操作：涉及权限相关操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

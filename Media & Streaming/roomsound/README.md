@@ -1,6 +1,6 @@
 # RoomSound
 
-> RoomSound gives your agent the skill to play audio to your speakers. Starting with YouTube to Bluetooth speakers, expanding to local files and other sources.
+> 房间声学分析和控制工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Queue-first playback: build a contextual queue unless the user explicitly requests a specific list/order
 - Run one-time validation:
 - Persist config:
+- If user gives a URL, run `mpv --no-video "<url>"`
+- If user gives search text, run:
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 分析房间声学特征和环境噪音
+- 控制房间音响设备
+- 优化音频播放环境
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -33,7 +35,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

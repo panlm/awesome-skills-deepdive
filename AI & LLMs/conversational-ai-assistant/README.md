@@ -1,6 +1,6 @@
 # Conversational Ai Assistant
 
-> Natural language interface for querying Greek accounting data. Ask questions in English, get answers from across all system skills.
+> 希腊会计数据的自然语言查询接口，用英语提问，从所有系统 Skill 中获取答案
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,26 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- English In, English Out: Every interaction is in English. Greek data — names, addresses, regulatory terms, AFM numbers —
-- Read First, Act Second: The vast majority of interactions are queries. The assistant surfaces information freely. Action
-- Honest About Uncertainty: When data is incomplete, when a calculation has low confidence, or when a question requires pr
-- Skill Orchestration, Not Duplication: The assistant does not reimplement any skill logic. It calls the appropriate skill
-- Context Awareness: Within a conversation session, the assistant remembers what has been discussed. If an assistant asks 
-- Professional Tone: Responses are clear, concise, and professional — appropriate for an accounting firm environment. No u
+- 提供英语自然语言界面查询希腊会计系统数据
+- 将英语问题翻译为 Skill 命令，将输出转换回易懂的英语回答
+- 支持上下文感知，在会话中记住已讨论的客户信息
+- 采用「先读后写」原则，查询操作自由，数据修改需确认
+- 对不确定的结果诚实表达，不进行猜测
+- 通过 Skill 编排而非重复实现来协调多个会计功能模块
+- 保持专业、简洁的沟通语调
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 会计助理通过自然语言查询客户税务信息和财务状态
+- 无需了解 CLI 命令即可查询和管理希腊会计合规数据
+- 跨多个会计 Skill 综合查询并生成统一报告
 
-## 包含文件
-- `EVALS.json`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- jq（JSON 处理）
+- OpenClaw CLI
+- OPENCLAW_DATA_DIR 环境变量
+- 需配合其他希腊会计系统 Skill 使用
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +51,4 @@
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

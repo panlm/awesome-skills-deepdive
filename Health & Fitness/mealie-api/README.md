@@ -1,6 +1,6 @@
 # Mealie Recipe Manager
 
-> Interact with Mealie recipe manager (recipes, shopping lists, meal plans). Self-hosted recipe and meal planning API client.
+> Mealie 食谱管理 API 集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,15 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- `MEALIE_URL` — Your Mealie instance URL (e.g., `https://recipes.example.com`)
-- `MEALIE_API_TOKEN` — Your API token (create at `/user/profile/api-tokens` in Mealie)
 - Uses Bearer token authentication
 - All endpoints are under `/api/`
 - Pagination is supported on list endpoints (use `--page` and `--per-page` flags)
 - Recipe slugs are URL-friendly identifiers (e.g., `spaghetti-carbonara`)
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 通过 API 管理 Mealie 食谱库
+- 搜索、创建和编辑食谱
+- 生成购物清单和菜单计划
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -34,7 +32,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Idea Forge Orchestrator
 
-> Invoke the Skill Router using natural language:
+> 头脑风暴工作室，提供结构化的创意发散和收敛工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- decide which skill to use
-- use the best skill for this
-- route this task automatically
-- orchestrate my skills
-- figure out the optimal approach
-- handle this in the most efficient way
+- 结构化头脑风暴流程引导
+- 支持多种创意激发技巧（如六顶思考帽、SCAMPER）
+- 创意评估和筛选框架
+- 生成创意报告和行动方案
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 团队新产品创意头脑风暴会议引导
+- 针对特定问题使用多种方法生成解决方案
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；Prompt 注入：存在可疑 Prompt 模式
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # meeting-autopilot
 
-> >
+> 会议自动驾驶系统，智能管理会议全流程
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,33 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- bash, jq, python3, curl (typically pre-installed on macOS/Linux)
-- ANTHROPIC_API_KEY or OPENAI_API_KEY environment variable
-- Compact first response with meeting outcome highlights
-- Component-style quick actions when available (`Show Action Items`, `Show Follow-Up Email Draft`, `Show Ticket Drafts`)
-- Numbered-list fallback when components are unavailable
-- Transcript content is sent to the configured LLM API (Anthropic or OpenAI) for processing
+- 自动记录和转录会议内容
+- 实时生成会议摘要和关键要点
+- 智能提取行动项和任务分配
+- 支持会议日程管理和提醒
+- 提供会议效率分析和改进建议
+- 支持多种会议平台集成
+- 自动生成会议纪要并分发给参会者
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 会议期间实时记录并生成结构化会议纪要
+- 自动提取会议中的任务分配并创建跟踪项
+- 分析团队会议效率并提供优化建议
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
-- API Key
-- 数据库
+- 会议平台 API 集成
+- OpenClaw 运行环境
 
-## 包含文件
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `templates`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -58,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

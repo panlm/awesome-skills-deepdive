@@ -1,6 +1,6 @@
 # Deutsche Bahn CLI
 
-> Search Deutsche Bahn train connections using the bahn-cli tool. Use when you need to find train connections between German stations, check departure times, or help with travel planning. Works with station names like "Berlin Hbf", "München", "Hannover".
+> 使用 bahn-cli 工具搜索德国铁路（Deutsche Bahn）列车连接和时刻表
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `--date YYYY-MM-DD` - Departure date (default: today)
-- `--time HH:MM` - Departure time (default: current time)
-- `--results <number>` - Number of results to show (default: 5)
-- Use common German station names
-- "Hbf" means Hauptbahnhof (main station)
-- Examples: "Berlin Hbf", "München Hbf", "Frankfurt(Main)Hbf", "Köln Hbf"
+- 搜索德国铁路站点之间的列车连接方案
+- 查询指定日期和时间的出发时刻
+- 支持 Hbf（中央火车站）等常用站名缩写
+- 显示换乘次数、行程时间和票价信息
+- 可自定义返回结果数量
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询汉诺威到波恩的下一班列车及换乘方案
+- 搜索特定日期从柏林到慕尼黑的下午列车
+- 帮助德国旅行规划选择最优火车路线
 
 ## 依赖和前提条件
 - Node.js / npm
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +44,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。供应链风险：需要安装外部依赖
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,33 +1,34 @@
 # Outlit MCP
 
-> Use when querying Outlit customer data via MCP tools (outlit_*). Triggers on customer analytics, revenue metrics, activity timelines, cohort analysis, churn risk assessment, SQL queries against analytics data, or any Outlit data exploration task.
+> Outlit MCP 内容发布工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Outlit MCP |
 | **作者** | leo-paz |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/leo-paz-outlit-mcp |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/leo-paz/outlit-mcp |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Monetary values in cents (divide by 100 for dollars)
-- Timestamps in ISO 8601
-- IDs with string prefixes (`cust_`, `contact_`, `evt_`)
+- 内容发布和分发
+- 多平台内容管理
+- MCP 协议集成
+- 发布工作流自动化
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 MCP 协议自动化内容发布流程
+- 管理跨平台的内容分发和同步
 
 ## 依赖和前提条件
-- macOS
-- API Key
-- 数据库
+- API 密钥
+- PostgreSQL
+- Slack API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -48,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

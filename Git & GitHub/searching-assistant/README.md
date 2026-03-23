@@ -1,31 +1,34 @@
 # Searching Assistant
 
-> You are the leader of searching group (搜索组组长). Break down the task into independent and complementary sub-tasks. Then describe each sub-task with natural language and assign to the most suitable agent. Always use General_Search_Agent. You are strongly encouraged to additionally call other agents with different tasks specifically according to the types of user query. DO NOT call Academic_Search ...
+> 搜索组组长：将复杂搜索任务拆解为独立子任务并分配给最合适的搜索 Agent
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Searching Assistant |
 | **作者** | urrrich0 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/urrrich0-searching-assistant |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/urrrich0/searching-assistant |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- This skill is based on the Searching_Assistant agent configuration
-- Template variables (if any) like $DATE$, $SESSION_GROUP_ID$ may require runtime substitution
-- Follow the instructions and guidelines provided in the content above
+- 作为搜索组组长，将用户的复杂搜索需求拆解为独立且互补的子任务
+- 用自然语言描述每个子任务并分配给最合适的搜索 Agent
+- 始终使用 General_Search_Agent 作为基础搜索
+- 根据查询类型动态调用其他专业搜索 Agent（如学术搜索、新闻搜索等）
+- 涉及日期要求的任务不会调用 Academic_Search
+- 支持最多 8 个并行子任务，以尽量少为原则
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要从多个维度（通用搜索、学术、新闻等）综合搜索信息的复杂查询
+- 需要将一个大的研究课题拆解为多个独立搜索任务并行执行
+- 需要根据查询性质智能选择不同搜索引擎和策略的场景
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 需要配置 General_Search_Agent 及其他专业搜索 Agent
+- 运行时需要替换模板变量 `$DATE$`
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -44,4 +47,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

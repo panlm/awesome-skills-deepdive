@@ -1,6 +1,6 @@
 # Ulanzi TC001
 
-> Control the Ulanzi TC001 (Pixel Clock) over local HTTP. Use to list tc1/tc001 commands, read status, enable/disable gadgets (time/date/youtube/matrix/etc.), or change settings like brightness, night mode, timezone, switch speed, or scroll speed. Trigger on commands starting with “tc1” or “tc001”.
+> Ulanzi TC001 像素时钟控制工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `status` → JSON summary (sys settings + gadgets on/off)
-- `gadgets list|on|off`
-- `gadget on|off <name>`
-- `brightness auto | manual <0-100>`
-- `nightmode on|off | start HH:MM | end HH:MM`
-- `timezone GMT-3 | AUTO` (see mapping in script)
+- language: `english|chinese`
+- autobrightness: `auto|manual`
+- brightness: `0-100`
+- nightbrightness: `0-100`
+- switchspeed: `noswitch|10|15|20|25|30|35|40|45|50|55|60`
+- scrollspeed: `0-10`
+- timezone: `GMT-3` (or `AUTO`)
+- timeformat: `HH:mm|HH:mm:ss`
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 控制 Ulanzi TC001 像素时钟的显示内容
+- 自定义像素时钟的动画和文字
+- 设置像素时钟的定时显示任务
 
 ## 依赖和前提条件
 - Python / pip
@@ -36,7 +38,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

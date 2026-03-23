@@ -1,6 +1,6 @@
 # Instagram Api
 
-> Post to Instagram (Feed, Story, Reels, Carousel) and Threads using the official Meta Graph API. Requires Imgur for media hosting.
+> Instagram API 集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,17 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- INSTAGRAM_ACCESS_TOKEN
-- INSTAGRAM_BUSINESS_ACCOUNT_ID
-- IMGUR_CLIENT_ID
-- `instagram_basic`
-- `instagram_content_publish`
-- `pages_read_engagement`
+- Graph API Explorer: https://developers.facebook.com/tools/explorer/
+- 장기 토큰(Long-lived token)으로 교환: 60일 유효
+- Instagram은 공개 URL로만 미디어 업로드 가능 (로컬 파일 직접 업로드 불가)
+- 이 스킬은 Imgur를 통해 임시 공개 URL 생성
+- 릴스 동영상 처리에는 수분 소요될 수 있음
+- API 호출 실패 시 `~/logs/sns/` 로그 확인
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 通过 API 管理 Instagram 内容发布
+- 获取 Instagram 账号数据和分析
+- 自动化 Instagram 社交媒体运营
 
 ## 依赖和前提条件
 - OAuth
@@ -33,7 +33,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |

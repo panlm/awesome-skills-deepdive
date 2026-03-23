@@ -1,6 +1,6 @@
 # Media Player
 
-> "Play audio/video locally on the host"
+> 通用媒体播放控制工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,16 +12,24 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xejrax/media-player |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Play audio/video locally on the host
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 控制本地媒体播放器的播放操作
+- 管理播放队列和播放列表
+- 支持多种媒体格式播放
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Sun Path & Environmental Analysis
 
-> Generates a sun path diagram, calculates solar position, performs building shadow analysis, and analyzes thermal comfort.
+> 太阳轨迹计算和可视化工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `pysolar` (solar calculations)
-- `matplotlib` (plotting)
-- `pytz` (timezone handling)
-- `shapely` (geometry calculations for shadows)
-- `numpy` (math)
-- `rasterio` (for terrain/DEM shadow; optional for DEM features)
+- 计算指定位置的太阳轨迹
+- 日出日落时间查询
+- 太阳高度角和方位角计算
+- 可视化太阳运行轨迹
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为建筑设计计算最佳采光朝向
+- 为户外活动规划最佳拍摄时间
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Python pip
+- Python 依赖包
+- Chrome 浏览器
+- Telegram Bot API
 
 ## 包含文件
 - `PUBLISH.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `clawhub.json`
@@ -52,6 +54,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 4 项中风险。命令执行：存在命令执行相关引用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,21 +1,33 @@
 # farmos-marketing
 
-> farmos-marketing skill for OpenClaw
+> 农业营销工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | farmos-marketing |
 | **作者** | unknown |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/unknown-farmos-marketing |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/farmos-marketing |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 农产品营销策略
+- 农业市场分析
+- 销售渠道管理
+- 农业品牌推广
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 制定农产品的线上营销策略
+- 分析农业市场趋势优化销售渠道
+
+## 依赖和前提条件
+- 无特殊依赖
+
+## 包含文件
+- `README.md`
+- `_meta.json`
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

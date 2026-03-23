@@ -1,6 +1,6 @@
 # Ai 3d Generator
 
-> Génération automatique de modèles 3D détaillés à partir de descriptions textuelles.
+> 从文本描述自动生成详细的 3D 模型并导出 STL 文件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,25 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Utilise trimesh.creation (icosphere, cylinder, cone, torus, box)
-- Pour les détails complexes: utiliser des boucles et paramètres
-- Résolution élevée: subdivisions=4-5 pour les sphères, sections=32-64 pour cylindres
-- Ajouter des détails de surface (panneaux, textures géométriques)
-- Structure modulaire avec fonctions réutilisables
-- Exporter en STL binaire à la fin
+- 将自然语言描述转换为参数化 3D 模型
+- 使用 LLM（Kimi/Gemini）生成 Python/Trimesh 建模代码
+- 支持多种基础几何体：球体、圆柱、圆锥、圆环、立方体
+- 高分辨率输出：球体细分 4-5 级，圆柱截面 32-64 段
+- 自动导出 STL 二进制格式文件
+- 提供 Prompt 模板实现模块化和可复用的建模脚本
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过自然语言描述快速生成 3D 打印用的 STL 模型
+- 为原型设计自动生成参数化 3D 零件
+- 批量生成具有表面细节和几何纹理的复杂 3D 模型
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3 运行环境
+- trimesh 库（`pip install trimesh`）
+- numpy 库
+- LLM API 访问（Kimi 或 Gemini）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `examples`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +50,4 @@
 **风险摘要:** 2 项中风险。持久化机制：涉及定时或后台任务；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

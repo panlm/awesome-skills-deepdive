@@ -1,6 +1,6 @@
 # Jasper ConfigGuard
 
-> Safe config changes for OpenClaw with automatic rollback. Backs up before patching, health-checks after restart, auto-rolls back on failure. Commands: patch, restore, list, diff, validate, doctor.
+> Jasper ConfigGuard 配置安全守护工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Stored in `~/.openclaw/config-backups/`
-- Timestamped: `openclaw.json.<unix-timestamp>`
-- Last 20 kept (auto-pruned)
-- Manual restore: `jasper-configguard restore <timestamp>`
-- OpenClaw gateway running on localhost:18789
-- Write access to `~/.openclaw/`
+- Safe config changes for OpenClaw with automatic rollback
+- Backs up before patching, health-checks after restart, auto-rolls back on failure
+- Commands: patch, restore, list, diff, validate, doctor
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 监控配置文件的安全性和完整性
+- 检测配置的非授权变更
+- 确保配置符合安全最佳实践
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -37,7 +34,7 @@
 - `src`
 - `test`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

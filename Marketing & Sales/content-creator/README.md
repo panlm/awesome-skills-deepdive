@@ -1,34 +1,32 @@
 # Content Creator
 
-> "Deprecated redirect skill that routes legacy 'content creator' requests to the correct specialist. Use when a user invokes 'content creator', asks to write a blog post, article, guide, or brand voice analysis (routes to content-production), or asks to plan content, build a topic cluster, or create a content calendar (routes to content-strategy). Does not handle requests directly — identifies user intent and redirects to content-production for writing/SEO/brand-voice tasks or content-strategy for planning tasks."
+> 多类型内容创作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Content Creator |
 | **作者** | alirezarezvani |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/alirezarezvani-content-creator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/content-creator |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- content-production — Full pipeline: research → brief → draft → optimize → publish. Includes all Python tools from the or
-- content-strategy — Strategic planning: topic clusters, keyword research, content calendars, prioritization frameworks.
-- User asks "content creator" → Route to content-production (most likely intent is writing).
-- User asks "content plan" or "what should I write" → Route to content-strategy.
-- content-production: Full content execution pipeline (successor).
-- content-strategy: Content planning and topic selection (successor).
+- 多种内容类型自动创作
+- 品牌风格内容生成
+- SEO 优化内容输出
+- 内容批量生产
 
 ## 使用场景
-- SEO 优化和内容创建
-- 内容营销策略执行
-- 搜索排名分析和优化
+- 根据营销策略批量生成多类型内容
+- AI 辅助快速产出符合品牌调性的内容
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `assets`
@@ -51,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

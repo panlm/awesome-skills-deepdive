@@ -1,44 +1,36 @@
 # Make PDF safe
 
-> Flatten a PDF into a non-interactive “safe” version by uploading it to the Solutions API, polling until completion, then returning a download URL for the flattened PDF.
+> 通过 Solutions API 将 PDF 扁平化为非交互式"安全"版本，移除脚本和可编辑元素。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Make PDF safe |
 | **作者** | crossservicesolutions |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/crossservicesolutions-make-pdf-safe |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/crossservicesolutions/make-pdf-safe |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- interactive features such as embedded actions/scripts are removed or neutralized,
-- the document is converted into a non-editable-like layer (no underlying object structure to modify),
-- content is preserved visually, but active functionality should not remain.
-- scripts/actions can run,
-- forms/objects can be edited to change the document content structure.
-- A PDF file
-- A Solutions API key (Bearer token)
-- Register / get key: https://login.cross-service-solutions.com/register
+- 将 PDF 扁平化为单层非交互式文档
+- 移除或中和嵌入的脚本和交互操作
+- 将文档转换为不可编辑的扁平表示
+- 保留视觉内容，消除活跃功能
+- 通过 Solutions API 上传处理，支持异步任务轮询
+- 提供 Python CLI 脚本一键转换
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 收到不信任来源的 PDF 时，先进行安全扁平化再打开
+- 归档 PDF 文档时移除交互元素确保长期稳定性
+- 分享 PDF 前去除表单/脚本降低安全风险
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3
+- Solutions API Key（Bearer Token）
+- 注册获取：https://login.cross-service-solutions.com/register
+- 环境变量：`SOLUTIONS_API_KEY`
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `examples`
-- `requirements.txt`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -57,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

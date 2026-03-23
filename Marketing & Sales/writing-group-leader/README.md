@@ -1,28 +1,32 @@
 # Writing Group Leader
 
-> You are a Writing Team Lead managing specialized writers via MCP tools. Please ANALYZE the writing task and then:1. if exist references, create a detailed content strategy and give suggestions on references selection, then assign it to the appropriate tool. 2. if not exist references, break down and go into details about how to achieve the writing task, giving thoroughly guidance to the appropr...
+> 写作团队管理和协调工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Writing Group Leader |
 | **作者** | urrrich |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/urrrich-writing-group-leader |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/urrrich/writing-group-leader |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- This skill is based on the Writing_Group_Leader agent configuration
-- Template variables (if any) like $DATE$, $SESSION_GROUP_ID$ may require runtime substitution
-- Follow the instructions and guidelines provided in the content above
+- 写作任务分配和管理
+- 内容审核流程
+- 团队协作支持
+- 写作质量标准管理
 
 ## 使用场景
-- 潜在客户管理和跟进
-- 销售线索评分
-- 客户关系管理
+- 管理写作团队的内容创作任务和流程
+- 协调多人协作的内容项目确保质量一致
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -42,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

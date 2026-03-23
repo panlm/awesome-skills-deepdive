@@ -1,35 +1,38 @@
 # Miranda ElevenLabs Speech (TTS/STT)
 
-> Text-to-Speech and Speech-to-Text using ElevenLabs AI. Use when the user wants to convert text to speech, transcribe voice messages, or work with voice in multiple languages. Supports high-quality AI voices and accurate transcription.
+> 集成 ElevenLabs AI 语音技术，实现高质量文字转语音（TTS）和语音转文字（STT）
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Miranda ElevenLabs Speech (TTS/STT) |
 | **作者** | jeffpignataro |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jeffpignataro-miranda-elevenlabs-speech |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jeffpignataro/miranda-elevenlabs-speech |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- TTS: Text-to-Speech (high-quality voices)
-- STT: Speech-to-Text via Scribe (accurate transcription)
-- stability (0-1): Lower = more emotional, Higher = more stable
-- similarity_boost (0-1): Higher = closer to original voice
-- `eleven_turbo_v2_5` - Fast, high quality (default)
-- `eleven_multilingual_v2` - Best for non-English
+- 高质量 AI 文字转语音（TTS）
+- 语音转文字（STT）识别
+- 多种 AI 语音角色选择
+- 自然流畅的语音合成
+- 支持多语言语音生成
+- 语音克隆和自定义音色
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将文章或消息转换为自然语音播报
+- 智能体以语音形式与用户交互
+- 语音备忘录自动转写为文字
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- ElevenLabs API 密钥
+- ElevenLabs 账户（免费或付费）
+- 音频播放/录制设备
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -48,7 +51,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，4 项中风险。数据外泄：大量外部数据传输
 
 ---

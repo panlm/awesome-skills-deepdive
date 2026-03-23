@@ -1,6 +1,6 @@
 # Daily Business Report
 
-> Generate daily business briefings from multiple data sources. Aggregates weather, crypto prices, news headlines, system health, and calendar events into a formatted morning report. Use when asked to create a daily report, morning briefing, business summary, or status dashboard.
+> OpenClaw 每日业务报告生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -21,9 +21,9 @@
 - No Dependencies — Pure Python, uses stdlib urllib
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 自动生成每日业务数据报告
+- 汇总关键业务指标和趋势
+- 发送报告到指定渠道
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +34,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

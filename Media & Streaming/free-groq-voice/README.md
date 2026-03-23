@@ -1,6 +1,6 @@
 # Free Groq Voice Recognition
 
-> FREE voice recognition using Groq's complimentary Whisper API. Transcribe audio messages to text in 50+ languages at no cost. Perfect for voice-to-text automation, meeting transcriptions, and accessibility features. Requires free Groq API key.
+> 基于 Groq 的免费语音对话工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- API Key: gsk_your_key_here
-- Model: whisper-large-v3
-- Proxy: http://127.0.0.1:7890 (if needed)
-- Groq API key (FREE)
-- Proxy (if in restricted regions)
-- Bash shell (macOS/Linux)
+- 🎙️ Voice message transcription
+- 📝 Meeting notes
+- ♿ Accessibility features
+- 🤖 Voice-controlled automation
+- ✅ Completely free Groq API tier
+- ✅ No credit card needed
+- ✅ No monthly fees
+- ✅ Generous rate limits
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 使用 Groq 引擎进行语音对话
+- 低延迟的实时语音交互
+- 免费的语音识别和合成
 
 ## 依赖和前提条件
 - macOS
@@ -34,7 +36,7 @@
 - `_meta.json`
 - `transcribe.sh`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

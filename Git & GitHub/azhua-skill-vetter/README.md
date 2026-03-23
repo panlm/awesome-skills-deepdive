@@ -1,33 +1,34 @@
 # Skill Vetter (by Azhua)
 
-> Security-first skill vetting for AI agents. Use before installing any skill from ClawdHub, GitHub, or other sources. Checks for red flags, permission scope, and suspicious patterns.
+> 安全优先的 AI 代理技能审查协议，在安装任何技能前检测红旗信号、权限范围和可疑模式
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Skill Vetter (by Azhua) |
 | **作者** | fatfingererr |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/fatfingererr-azhua-skill-vetter |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/fatfingererr/azhua-skill-vetter |
-| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Before installing any skill from ClawdHub
-- Before running skills from GitHub repos
-- When evaluating skills shared by other agents
-- Anytime you're asked to install unknown code
-- [ ] Where did this skill come from?
-- [ ] Is the author known/reputable?
+- 四步审查协议：来源检查 → 代码审查 → 权限范围评估 → 风险分类
+- 检测 14 类红旗信号：未知 URL 请求、外泄数据、凭证窃取、base64 解码、eval 注入等
+- 四级风险分类：🟢 低（笔记、天气）→ 🟡 中（文件操作、API）→ 🔴 高（凭证、交易）→ ⛔ 极端（root 访问）
+- 生成标准化的审查报告，包含指标、红旗、权限需求和最终判定
+- 提供快速审查命令，支持通过 GitHub API 检查仓库统计和文件列表
+- 五级信任层级：官方技能 > 高 star 仓库 > 已知作者 > 新来源 > 需凭证的技能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在安装来自 ClawHub、GitHub 或其他来源的技能前进行安全审查
+- 评估其他代理共享的技能是否可信
+- 建立团队的技能安全安装规范
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- `curl` 和 `jq`（用于 GitHub API 查询）
+- 网络访问 GitHub API
+
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

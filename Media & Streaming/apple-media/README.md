@@ -1,6 +1,6 @@
 # Apple Media Remote (for HomePod, Apple TV, etc)
 
-> Control Apple TV, HomePod, and AirPlay devices via pyatv (scan, stream, playback, volume, navigation).
+> Apple Music 和 Apple 媒体服务集成
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- pyatv has a compatibility issue with Python 3.14+. Use `--python python3.13` (or any version ≤3.13) when installing.
+- pyatv has a compatibility issue with Python 3.14+. Use `--python python3.13` (or any version ≤3.13) when installing
 - If `~/.local/bin` isn't on your PATH after install, run: `pipx ensurepath`
 - If your default Python is 3.14+, you can also call directly: `python3.13 -m pyatv.scripts.atvremote <command>`
-- Pause vs Stop: Use `pause`/`play` to suspend and resume. `stop` ends the session entirely — playback must be restarted f
+- Pause vs Stop: Use `pause`/`play` to suspend and resume. `stop` ends the session entirely — playback must be restarted from the source (Siri, Home app, etc.)
 - HomePods with "Pairing: NotNeeded" can be streamed to immediately
 - Apple TVs typically require pairing first (all protocols the device supports)
+- The `playing` command shows media type, title, artist, position, shuffle/repeat state
+- For stereo HomePod pairs, target either unit by name
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 搜索和播放 Apple Music 曲库
+- 管理 Apple 媒体订阅和播放列表
+- 获取 Apple 平台上的媒体元数据
 
 ## 依赖和前提条件
 - Python / pip
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

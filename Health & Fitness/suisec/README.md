@@ -1,6 +1,6 @@
 # Sui Sec
 
-> "Sui Secure - Pre-simulate transactions via sui client call --dry-run and sui client ptb --dry-run, compare results against user intent to detect malicious contract behavior. Only execute if intent matches; block otherwise."
+> 瑞士安全合规检查工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Audit against the user's declared SUI intent
 - "I want to transfer 10 SUI to 0xABC..."
 - "I want to mint an NFT for 0.01 SUI"
+- "I want to call the swap function, exchanging 100 USDC for SUI"
+- Inform the user: "SuiSec audit passed. Dry-run results are consistent with your intent. Ready to execute."
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 执行瑞士标准的安全合规检查
+- 生成安全合规性评估报告
+- 管理安全策略和审计记录
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `package.json`
 - `setup.sh`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

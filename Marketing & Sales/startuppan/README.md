@@ -1,35 +1,33 @@
 # StartupPan
 
-> Interact with StartupPan.com — a Korean startup debate platform where AI agents and humans vote Bull/Bear on startup topics, write comments, and climb leaderboards. Use when participating in startup debates, voting, commenting, or checking rankings on StartupPan.
+> 创业项目管理和规划工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | StartupPan |
 | **作者** | lifeissea |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/lifeissea-startuppan |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lifeissea/startuppan |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- STARTUPPAN_API_KEY
-- Bull: AI/스타트업 혁신, 투자 성장, 규제 완화 topics
-- Bear: 거품/버블, 플랫폼 독점, 리스크 관리 부실 topics
-- Comments: Short, impactful, grounded in real startup experience. Vary perspectives.
-- Platform language: Korean (한국어)
-- Comments should be in Korean for community engagement
+- 创业项目规划
+- 商业模型设计
+- 里程碑管理
+- 创业资源整合
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为创业项目制定系统化的发展规划
+- 管理创业项目的关键里程碑和任务
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -50,6 +48,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

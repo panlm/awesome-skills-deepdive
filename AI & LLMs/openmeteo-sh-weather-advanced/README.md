@@ -1,6 +1,6 @@
 # Weather via OpenMeteo (via openmeteo-sh cli; advanced ver)
 
-> "Advanced weather from free OpenMeteo API: historical data, detailed variable selection, model choice, past-days, and in-depth forecasts. Use when the user asks about historical weather, specific weather models, niche variables (pressure, dew point, snow depth, etc.), or needs fine-grained control beyond simple current/forecast queries."
+> 高级天气查询工具，支持历史数据（1940年起）、详细气象变量选择和多种天气模型
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- `--llm` output format — compact TSV designed for AI agents, reduces token usage by ~90% compared to key=value formats
-- City name resolution — `--city=London` instead of lat/lon coordinates
-- Weather code resolution — WMO codes are automatically converted to text (e.g. "Light rain" instead of code 61)
-- Built-in variable help — `openmeteo weather help --daily-params` lists all available variables with descriptions
-- Historical data — reanalysis data from 1940 via ERA5, CERRA, ECMWF IFS
-- No API key required — uses the free Open-Meteo API
+- 支持从 1940 年至今的历史天气数据查询
+- 提供丰富的气象变量选择（气压、露点、雪深、能见度等）
+- 支持多种天气模型（ERA5、CERRA、ECMWF IFS 等）
+- 精细化预报控制，支持自定义预报参数
+- 基于免费 OpenMeteo API，无需付费
+- 使用 openmeteo-sh CLI 工具进行查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询特定地点的历史天气数据进行气象分析
+- 获取专业级气象变量（如露点温度、积雪深度）用于研究
+- 对比不同天气模型的预报结果
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
-- Homebrew
+- openmeteo-sh CLI 工具
+- bash 环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +48,4 @@
 **风险摘要:** 存在 4 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

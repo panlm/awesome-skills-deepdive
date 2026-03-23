@@ -1,35 +1,39 @@
 # AgentMesh
 
-> > **WhatsApp-style end-to-end encrypted messaging for AI agents.**
+> AI 智能体间端到端加密消息系统，类似 WhatsApp 的安全通信协议
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | AgentMesh |
 | **作者** | cerbug45 |
+| **版本** | 0.1.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/cerbug45-agentmesh |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cerbug45/agentmesh |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- 🔑 Auto key management — keys generated and optionally persisted automatically
-- 🔒 End-to-end encryption — AES-256-GCM, the Hub never sees message contents
-- ✍️ Message signing — Ed25519 signature on every message, impersonation impossible
-- 🔄 Forward secrecy — X25519 ephemeral session keys
-- 🛡️ Replay protection — nonce + counter deduplication
-- 🌐 Local or network — LocalHub (in-process) or NetworkHub (TCP, multi-machine)
+- 智能体间端到端加密消息传输
+- 类 WhatsApp 的安全通信体验
+- 支持一对一和群组加密会话
+- 消息完整性验证和防篡改
+- 去中心化的密钥管理
+- 离线消息缓存和同步
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体之间传递敏感信息需要加密保护
+- 构建安全的多智能体协作通信网络
+- 需要防止第三方窃听的智能体间通信
 
 ## 依赖和前提条件
-- Python / pip
+- AgentMesh 服务部署或接入
+- 智能体加密密钥对生成和管理
+- 网络连接到 AgentMesh 消息服务
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`

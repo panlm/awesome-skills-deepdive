@@ -1,6 +1,6 @@
 # Betbud Prediction Skill
 
-> Betbud Prediction Skill skill for OpenClaw
+> 体育赛事预测和博彩分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,17 +12,25 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/samj12/betbud-prediction-skill |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
+- 支持多种媒体格式和平台
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 分析体育赛事的获胜概率
+- 获取实时赔率和投注建议
+- 跟踪预测准确率和历史表现
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `_meta.json`
 - `skill.md`
 - `skill.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

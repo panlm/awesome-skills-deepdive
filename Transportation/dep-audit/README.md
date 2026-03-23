@@ -1,6 +1,6 @@
 # dep-audit
 
-> >
+> 审计项目依赖中的已知漏洞（CVE），支持 npm、pip、cargo 等包管理器
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,34 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Auto-detect lockfiles in your project (searches up to 3 levels deep)
-- Unified report across all ecosystems with severity breakdown
-- Strict path safety — invalid target directories fail fast (no false "clean" reports)
-- SBOM generation via `syft` (CycloneDX JSON)
-- Tree scan — audit all projects under a directory
-- Fix suggestions with explicit confirmation gate (never auto-modifies)
+- 扫描项目依赖中的已知安全漏洞
+- 支持 npm、pip、cargo 等多种包管理器
+- 生成漏洞详情报告（CVE 编号、严重等级）
+- 提供修复建议和升级路径
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 发布前自动审计项目的所有依赖安全性
+- 定期检查项目依赖是否存在新发现的漏洞
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
+- 对应的包管理器（npm/pip/cargo 等）
 
-## 包含文件
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `SPEC.md`
-- `TESTING.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
@@ -57,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；供应链风险：需要安装外部包且含管道安装
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

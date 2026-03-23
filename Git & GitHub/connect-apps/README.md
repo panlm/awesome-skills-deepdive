@@ -1,38 +1,36 @@
 # Connect Apps
 
-> Connect Claude to external apps like Gmail, Slack, GitHub. Use this skill when the user wants to send emails, create issues, post messages, or take actions in external services.
+> 将 Claude 连接到 Gmail、Slack、GitHub 等 1000+ 外部应用，实现真正的发送邮件、创建 Issue、发布消息等操作。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Connect Apps |
 | **作者** | sohamganatra |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/sohamganatra-connect-apps |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sohamganatra/connect-apps |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Ask for your free API key (get one at [platform.composio.dev](https://platform.composio.dev/?utm_source=Github&utm_conte
-- Configure Claude's connection to 1000+ apps
-- Take about 60 seconds
-- "Plugin not found" → Make sure you ran `/plugin install composio-toolrouter`
-- "Need to authorize" → Click the OAuth link Claude provides, then say "done"
-- Action failed → Check you have permissions in the target app
+- 通过 Composio Tool Router 插件连接 1000+ 外部应用
+- 支持发送邮件（Gmail、Outlook、SendGrid）
+- 支持聊天消息（Slack、Discord、Teams、Telegram）
+- 支持开发工具（GitHub、GitLab、Jira、Linear）
+- 支持文档协作（Notion、Google Docs、Confluence）
+- 支持数据操作（Sheets、Airtable、PostgreSQL）
+- 首次使用通过 OAuth 一次性授权，后续自动执行
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 AI Agent 直接发送邮件、创建 GitHub Issue 或在 Slack 发消息，而不仅仅是生成文本
+- 通过自然语言指令操作多个 SaaS 工具，实现跨应用自动化
+- 快速集成新的外部服务，无需编写 API 集成代码
 
 ## 依赖和前提条件
-- OAuth
-- 数据库
+- Composio 平台 API Key（免费注册：platform.composio.dev）
+- 安装 Composio Tool Router 插件（`/plugin install composio-toolrouter`）
+- 各外部应用的 OAuth 授权
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

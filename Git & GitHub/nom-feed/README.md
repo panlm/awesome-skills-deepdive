@@ -1,34 +1,34 @@
 # Search recent repo activities
 
-> "Fetch recent GitHub activity from the Nom feed"
+> 从 Nom 平台获取 GitHub 最近的仓库活动动态
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Search recent repo activities |
 | **作者** | lws803 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/lws803-nom-feed |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lws803/nom-feed |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- If the first argument looks like `org/repo` (contains `/`), use the repo feed at `/api/feed/{org}/{repo}`
-- Otherwise use the global feed at `/api/feed`
-- `--search TEXT` — free-text search (full-text on title/summary)
-- `--type TYPE` — filter by event type: `pull_request`, `issue`, `release`, `push`
-- `--org ORG` — filter by GitHub org (global feed only)
-- `--from DATE` / `--to DATE` — date range (ISO 8601, e.g. 2026-01-01) (global feed only)
+- 通过 Nom (beta.nomit.dev) API 获取 GitHub 活动 Feed
+- 支持按仓库（org/repo）或全局范围查询活动
+- 支持按事件类型过滤：Pull Request、Issue、Release、Push
+- 支持全文搜索、组织过滤、日期范围限定
+- 支持 RSS 格式输出
+- 以清晰的格式展示事件类型、标题链接、AI 摘要、作者和时间
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速了解特定 GitHub 仓库的最近动态（PR、Issue、Release 等）
+- 跨组织或全局范围搜索 GitHub 活动，追踪开源项目进展
+- 通过 RSS 订阅持续监控感兴趣的仓库更新
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- `curl` 命令行工具
+- 需要网络访问 beta.nomit.dev API
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

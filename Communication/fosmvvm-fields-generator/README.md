@@ -1,31 +1,38 @@
 # FOSMVVM Fields Generator
 
-> Generate FOSMVVM Fields protocols with validation rules, FormField definitions, and localized messages. Define form contracts once, validate everywhere.
+> 自动生成带验证规则的 FOSMVVM Fields 协议定义和 FormField 表单字段配置
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | FOSMVVM Fields Generator |
 | **作者** | foscomputerservices |
+| **版本** | 2.0.6 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/foscomputerservices-fosmvvm-fields-generator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/foscomputerservices/fosmvvm-fields-generator |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Consistent validation - Same rules on client and server
-- Shared localization - One YAML file, used everywhere
-- Single source of truth - Change once, applies everywhere
-- Localization System - FormField titles/placeholders and validation messages use `LocalizableString`
-- Validation System - Implements `ValidatableModel` protocol
-- Request System - RequestBody types adopt Fields for validated transmission
+- 生成 FOSMVVM Fields 协议代码
+- 自动添加字段验证规则
+- 支持多种 FormField 类型定义
+- 验证逻辑自动绑定
+- Swift 代码格式化输出
+- 支持自定义验证规则扩展
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- iOS/macOS 开发中快速生成表单模型代码
+- FOSMVVM 架构项目的字段定义自动化
+- 减少重复性的表单验证代码编写
+
+## 依赖和前提条件
+- FOSMVVM 框架项目环境
+- Swift 开发环境
+- OpenClaw 环境已配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `reference.md`

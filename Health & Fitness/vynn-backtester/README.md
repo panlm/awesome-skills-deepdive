@@ -1,6 +1,6 @@
 # Vynn Backtester
 
-> Run trading strategy backtests with natural language — powered by Vynn
+> Vynn 交易策略回测工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Multi-ticker: Backtest across any combination of stocks, ETFs, or indices
 - Strategy comparison: Compare multiple strategies head-to-head, ranked by Sharpe ratio
 - No infrastructure: No local data downloads, no dependencies beyond Python stdlib
+- All requests authenticated via `X-API-Key` header
+- Strategy descriptions and ticker lists are sent to the Vynn API for backtest execution
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 对交易策略进行历史数据回测
+- 分析策略的收益和风险指标
+- 优化交易参数和策略组合
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `config.example.toml`
 - `plugin.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

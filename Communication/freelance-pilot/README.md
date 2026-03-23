@@ -1,32 +1,39 @@
 # Freelance Pilot
 
-> AI Agent Co-Pilot for Upwork & Fiverr. Includes Bid Calculator & Proposal Drafter. (Community Edition)
+> Upwork 和 Fiverr 自由职业平台的 AI 智能体副驾驶，集成竞标计算器和提案自动撰写功能
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Freelance Pilot |
 | **作者** | liushaolin |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/liushaolin-freelance-pilot |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/liushaolin/freelance-pilot |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Usage: "Calculate a bid for a 20-hour high complexity project."
-- Logic: Takes your base rate, adjusts for difficulty, and adds a "Fee Shield" buffer.
-- Usage: "Draft a proposal for this job description..."
+- 自动扫描 Upwork/Fiverr 平台上的项目机会
+- 内置竞标价格计算器，智能评估报价区间
+- AI 驱动的提案撰写器，生成个性化投标方案
+- 分析项目需求并匹配自由职业者技能
+- 追踪投标状态和客户响应
+- 支持多平台账户统一管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自由职业者使用 AI 助手批量筛选和投标优质项目
+- 快速生成针对性的项目提案以提高中标率
+- 管理跨平台自由职业收入和项目进度
 
 ## 依赖和前提条件
-- Node.js / npm
+- Upwork 或 Fiverr 平台账户
+- 平台 API 密钥或认证凭据
+- OpenClaw 运行环境
 
 ## 包含文件
 - `INTEGRATION.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config.example.json`

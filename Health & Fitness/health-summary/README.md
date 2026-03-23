@@ -1,6 +1,6 @@
 # Health Summary
 
-> Generate daily/weekly/monthly health summaries with nutrition totals, target comparisons, and trends.
+> 健康数据汇总报告工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `totals`: カロリー、P/C/F、食物繊維、糖質、ナトリウム、飽和脂肪、水分、運動時間
-- `targets`: 目標値（config/health_targets.json から）
-- `deltas`: 目標との差分
-- `latest_weight`: 直近の体重
-- `latest_sleep`: 直近の睡眠時間
 - kcal: 2,200 / P: 165g / C: 275g / F: 55g
+- 水分: 2,000ml / 食物繊維: 25g / 糖質上限: 50g
+- ナトリウム上限: 2,300mg / 飽和脂肪上限: 16g
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 汇总多来源的健康数据
+- 生成每日/每周健康摘要
+- 跟踪健康目标的完成情况
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -32,7 +29,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

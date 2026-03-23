@@ -1,37 +1,34 @@
 # Trust Verifier
 
-> Verify skill provenance and build trust scores for ClawHub skills. Checks publisher history, version consistency, dependency trust chains, and generates trust attestations.
+> 验证 ClawHub 技能的来源可信度，通过发布者历史、版本一致性和依赖链构建信任评分
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Trust Verifier |
 | **作者** | trypto1019 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/trypto1019-arc-trust-verifier |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-trust-verifier |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Publisher reputation: Known vs unknown publisher, account age, skill count
-- Version consistency: Do updates match expected patterns? Sudden permission changes?
-- Content integrity: SHA-256 hashes of all files, reproducible builds
-- Dependency chain: Are dependencies from trusted sources?
-- Community signals: Moltbook mentions, upvotes, known endorsements
-- VERIFIED — Meets all trust criteria, attestation valid
+- 评估技能的信任度，综合发布者声誉、版本一致性、内容完整性和依赖链
+- 生成信任证明（trust attestation）文件，供其他工具验证
+- 验证已有的信任证明是否仍然有效
+- 检查依赖项的信任链，确保整个依赖树可信
+- 五级信任等级：VERIFIED → TRUSTED → UNKNOWN → SUSPICIOUS → UNTRUSTED
+- 通过 SHA-256 哈希验证所有文件的内容完整性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 安装来自未知发布者的技能前，评估其可信度
+- 为通过审查的技能生成信任证明，简化后续安装决策
+- 检测技能更新中的异常行为（如突然的权限变更）
 
 ## 依赖和前提条件
-- Python / pip
+- `python3`
+- 支持的操作系统：macOS、Linux
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

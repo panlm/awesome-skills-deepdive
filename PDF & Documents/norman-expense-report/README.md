@@ -1,6 +1,6 @@
 # Norman: Expense report
 
-> Generate a detailed expense breakdown by category for a given period. Use when the user asks for an expense report, spending summary, Ausgabenübersicht, cost analysis, or wants to understand where their money is going.
+> 费用报告自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- norman-finance
-- Call `search_transactions` for the specified period (default: last month)
-- Filter for outgoing transactions (expenses only, exclude income)
-- Call `get_company_balance` for current balance context
-- Total amount (EUR)
-- Number of transactions
+- 创建标准费用报告
+- 费用分类和统计
+- 支持多种报销模板
+- 自动计算总计金额
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动生成出差费用报销报告
+- 汇总团队费用数据生成月度报告
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

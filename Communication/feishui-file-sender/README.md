@@ -1,30 +1,37 @@
 # feishui-file-sender
 
-> Send files via Feishu channel using message tool with filePath parameter.
+> 通过飞书频道发送文件，利用 message 工具的 filePath 参数实现文件传输
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | feishui-file-sender |
 | **作者** | josephyb97 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/josephyb97-feishui-file-sender |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/josephyb97/feishui-file-sender |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- OpenClaw configured with Feishu channel
-- Target chat ID (group or user)
+- 通过飞书频道发送本地文件
+- 支持多种文件格式传输
+- 使用 message 工具 filePath 参数
+- 支持指定目标频道或用户
+- 文件发送状态确认
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在飞书群组中分享文件和文档
+- 自动化工作流中的飞书文件分发
+- 向飞书用户发送生成的报告文件
 
 ## 依赖和前提条件
-- Python / pip
+- 飞书应用凭据和频道权限
+- OpenClaw 飞书插件已配置
+- 待发送文件的本地路径
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`

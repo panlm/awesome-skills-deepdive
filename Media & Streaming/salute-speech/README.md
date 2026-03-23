@@ -1,6 +1,6 @@
 # salute speech
 
-> >
+> Salute Speech 语音识别和合成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- API Key: Environment variable `SALUTE_AUTH_DATA` must be set (Base64-encoded `client_id:client_secret` or raw authorizat
-- SSL note: The script disables SSL verification by default (`verify_ssl=False`) because Sber's certificate chain is non-s
-- Token is valid for ~30 minutes; the script fetches a new one each run.
-- Large files (>1 hour) may need `--max-wait-time` increased beyond 300s.
-- The `callcenter` model is optimized for telephony audio (8kHz, mono).
-- Profanity filter is disabled by default (`enable_profanity_filter=False`).
+- API Key: Environment variable `SALUTE_AUTH_DATA` must be set (Base64-encoded `client_id:client_secret` or raw authorization key from https://developers.sber.ru/studio/)
+- SSL note: The script disables SSL verification by default (`verify_ssl=False`) because Sber's certificate chain is non-standard. This is expected
+- Token is valid for ~30 minutes; the script fetches a new one each run
+- Large files (>1 hour) may need `--max-wait-time` increased beyond 300s
+- The `callcenter` model is optimized for telephony audio (8kHz, mono)
+- Profanity filter is disabled by default (`enable_profanity_filter=False`)
+- The script uses normalized text by default (numbers as digits, abbreviations expanded). Raw text is also available in the JSON output
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 执行高精度的语音识别
+- 支持多语言语音合成
+- 实时语音转文字处理
 
 ## 依赖和前提条件
 - OAuth
@@ -33,7 +34,7 @@
 - `_meta.json`
 - `salute_transcribe.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

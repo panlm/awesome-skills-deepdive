@@ -1,35 +1,35 @@
 # Free Mobile SMS
 
-> Envoyer des SMS à ton humain via Free Mobile
+> 通过法国 Free Mobile 运营商 API 向用户手机发送短信通知
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Free Mobile SMS |
 | **作者** | dclauzel |
+| **版本** | 0.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/dclauzel-freemobile-sms |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dclauzel/freemobile-sms |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `scripts/FreeMobile_sms.py --message "Ton rendez-vous chez le dentiste est dans 1 heure" --timeout 15`
-- `FREEMOBILE_SMS_USER` : identifiant Free Mobile
-- `FREEMOBILE_SMS_API_KEY` : clé API
-- Maximum 200-250 SMS/jour (limite Free Mobile)
-- 160 caractères par SMS
-- Délai minimal 10 secondes entre envois
+- 调用 Free Mobile SMS API 发送短信
+- 支持自定义短信内容和格式
+- 适用于自动化通知和告警场景
+- 轻量级实现，无需第三方短信服务
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 法国 Free Mobile 用户接收 AI 智能体的自动通知
+- 系统异常或任务完成时通过短信即时告警
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 法国 Free Mobile 手机号和账户
+- Free Mobile API 用户标识和密钥
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,7 +49,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
 ---

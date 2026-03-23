@@ -1,6 +1,6 @@
 # Audio Processing (Iyeque)
 
-> Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features).
+> 专业音频处理工具，支持转码、分割、合并和格式转换
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- File paths are validated to prevent path traversal attacks
-- Access to system directories (/etc, /proc, /sys, /root) is blocked
-- TTS text input is limited to 10,000 characters
-- All file operations use resolved absolute paths
-- Parameters:
-- `action` (string, required): One of `transcribe`, `tts`, `extract_features`, `vad_segments`, `transform`.
+- 支持多种音频格式之间的转码和转换
+- 提供音频文件的分割和合并功能
+- 支持音频元数据的读取和编辑
+- 提供音频波形分析和可视化
+- 支持批量音频文件处理
+- 可调整音频的采样率、比特率等参数
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 批量处理播客或会议录音的格式转换
+- 将长音频文件按时间或内容分割成多个片段
+- 音频项目中的自动化后期处理流程
 
 ## 依赖和前提条件
-- Python / pip
+- FFmpeg 或相关音频处理库
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `tool.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +48,4 @@
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

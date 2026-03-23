@@ -1,6 +1,6 @@
 # Returns Reverse Logistics
 
-> >
+> 退货和逆向物流管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Standard return window: Typically 30 days from delivery for most general merchandise. Electronics often 15 days. Perisha
-- Condition requirements: Most policies require original packaging, all accessories, and no signs of use beyond reasonable
-- Receipt and proof of purchase: POS transaction lookup by credit card, loyalty number, or phone number has largely replac
-- Restocking fees: Applied to opened electronics (15%), special-order items (20-25%), and large/bulky items requiring retu
-- Cross-channel returns: Buy-online-return-in-store (BORIS) is expected by customers and operationally complex. Online pri
-- International returns: Duty drawback eligibility requires proof of re-export within the statutory window (typically 3-5 
+- 退货流程自动化管理
+- 逆向物流追踪
+- 退款状态管理
+- 退货数据统计分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动化处理电商退货退款流程
+- 追踪和管理逆向物流全流程
+
+## 依赖和前提条件
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `evals`
@@ -47,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

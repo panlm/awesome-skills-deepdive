@@ -1,31 +1,36 @@
 # Meetlark - coordinate a meeting
 
-> Scheduling polls for humans and their agents. Create polls, share participation links, collect votes, and find the best meeting time. A Doodle alternative built for the age of AI agents.
+> 创建日程投票让参与者选择最佳时间，生成可分享的参与链接
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Meetlark - coordinate a meeting |
 | **作者** | mkelk |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/mkelk-meetlark |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mkelk/meetlark |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Admin token (`adm_...`) — Private. View full results, see who voted, close the poll. Store it in your memory for the pol
-- Participate token (`prt_...`) — Shareable. Anyone with the participate URL can vote — humans via the web UI, agents via 
-- OpenAPI spec: https://meetlark.ai/api/v1/openapi.json
-- Interactive docs: https://meetlark.ai/docs
-- AI plugin manifest: https://meetlark.ai/.well-known/ai-plugin.json
-- meetlark.ai: https://meetlark.ai
+- 创建多时间选项的日程投票
+- 生成可分享的投票参与链接
+- 参与者在线投票选择可用时间
+- 自动汇总投票结果确定最佳时间
+- 支持人类和 AI 智能体参与投票
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 团队活动时间的民主投票决策
+- 跨部门会议时间的在线协调
+- 多人聚会最佳日期的快速确定
+
+## 依赖和前提条件
+- MeetLark 服务账户或 API 密钥
+- 网络访问权限
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -43,7 +48,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

@@ -1,6 +1,6 @@
 # Agentic Governance
 
-> Keep your constraints healthy — lifecycle management with automatic staleness detection
+> AI Agent 治理与约束管理工具，自动检测约束过期并管理生命周期
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- .openclaw/governance.yaml
-- .claude/governance.yaml
-- output/governance/
-- output/constraints/
-- agentic/INDEX.md
-- `leegitw/constraint-engine` (for constraint data)
+- 自动检测和管理 Agent 行为约束的生命周期
+- 约束过期检测和自动更新提醒
+- 支持自定义治理规则和策略
+- 监控 Agent 行为是否符合预定义约束
+- 生成合规性报告和审计日志
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期检查 Agent 的安全约束是否过期需要更新
+- 自动监控多个 Agent 的行为合规性
+- 生成 Agent 治理审计报告用于合规审查
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +44,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，3 项中风险。Prompt 注入：发现 Prompt 注入特征
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

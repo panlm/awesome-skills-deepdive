@@ -1,34 +1,38 @@
 # ClawConnect
 
-> "ClawConnect - Universal account connector for AI agents. Send tweets, read/send Gmail, manage calendar, send Slack messages, and more through one API."
+> 通用账户连接器，统一接口发推文、读写邮件、管理日历等多种在线服务操作
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | ClawConnect |
 | **作者** | yiweil |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/yiweil-clawconnect |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/yiweil/clawconnect |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Confirm before sending tweets or emails.
-- Use `q` parameter on Gmail to filter (same syntax as Gmail search).
-- Calendar `timeMin`/`timeMax` accept ISO 8601 timestamps.
-- Discord send is currently disabled (user OAuth limitation). Read-only for now.
-- For Slack with multiple workspaces, pass `connection_id` to target a specific connection.
+- 统一接口管理多个在线服务账户
+- 发布和管理 Twitter/X 推文
+- 读取和发送电子邮件
+- 日历事件的创建和管理
+- OAuth 认证流程自动化
+- 支持多种社交媒体和办公平台
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体通过统一接口管理用户的社交媒体和邮件
+- 自动化日常办公流程：发邮件、更新日历、发推文
+- 个人助理一站式处理跨平台的通信和日程任务
 
 ## 依赖和前提条件
-- API Key
-- OAuth
+- 配置目标服务的 OAuth 认证
+- 授权智能体访问对应账户
+- 安装 ClawConnect 插件
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -46,7 +50,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

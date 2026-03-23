@@ -1,6 +1,6 @@
 # Capmetro Skill
 
-> Austin CapMetro transit - real-time vehicle positions, next arrivals, service alerts, route info, and trip planning for buses and rail (MetroRail, MetroRapid, MetroBus). Use when the user asks about Austin public transit, bus schedules, train times, CapMetro alerts, or nearby stops.
+> 奥斯汀 CapMetro 公共交通查询，获取实时车辆位置、下一班到站时间和服务告警
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,30 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Real-time arrival predictions — no more guessing when the bus comes
-- Live vehicle tracking — see exactly where your bus or train is
-- Service alerts — know about detours and disruptions before you leave
-- Stop and route lookup — find the nearest stop or explore a route's path
-- Zero setup friction — no API keys, no accounts, no credentials
-- See when the next bus or train arrives at any stop
+- 查看公交车实时位置和到站预测
+- 获取指定站点的下一班到站时间
+- 查看服务告警和延误通知
+- 查询路线和时刻表信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 等车时查看下一班公交的预计到站时间
+- 查看奥斯汀公交系统的实时服务状态
 
 ## 依赖和前提条件
-- Node.js / npm
+- API Key（CapMetro）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package-lock.json`
-- `package.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -53,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

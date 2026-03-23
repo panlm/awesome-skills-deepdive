@@ -1,35 +1,32 @@
 # Performance Reporter
 
-> 'This skill should be used when the user asks to "generate SEO report", "performance report", "traffic report", "SEO dashboard", "report to stakeholders", "show me the numbers", "monthly SEO report", or "present SEO results to my boss". Generates comprehensive SEO and GEO performance reports combining rankings, traffic, backlinks, and AI visibility metrics. Creates executive summaries and detailed analyses for stakeholder reporting. For detailed rank tracking, see rank-tracker. For link-specific analysis, see backlink-analyzer.'
+> 绩效报告自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Performance Reporter |
 | **作者** | aaron-he-zhu |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/aaron-he-zhu-performance-reporter |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aaron-he-zhu/performance-reporter |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- performance report
-- traffic analysis
-- executive summary
-- analytics report
-- monthly-report
-- traffic-report
+- 绩效数据自动收集
+- 多维度绩效分析
+- 报告模板管理
+- 趋势对比分析
 
 ## 使用场景
-- 营销数据分析和报告
-- 绩效指标追踪
-- ROI 分析和优化建议
+- 自动生成团队或项目的绩效分析报告
+- 追踪关键绩效指标并生成趋势报告
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -50,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,35 +1,34 @@
 # Deslop
 
-> Remove AI-style code slop from a branch by reviewing diffs, deleting inconsistent defensive noise, and preserving behavior and local style.
+> 从代码分支中移除 AI 风格的代码冗余，审查 diff 删除不一致的防御性噪音，保留行为和本地代码风格
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Deslop |
 | **作者** | brennerspear |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/brennerspear-deslop |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/brennerspear/deslop |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "remove AI slop"
-- "clean up generated code style"
-- "review branch diff for weird comments/defensive checks/casts"
-- Do not remove protections at trust boundaries (user input, auth, network, db, file I/O).
-- Do not replace real typing with weaker typing.
-- Prefer minimal edits over broad rewrites.
+- 对比基准分支（默认 `main`）检查 `git diff`，识别 AI 生成的代码冗余
+- 使用 `rg` 扫描新增行中的多余注释、catch 块、类型转换、lint 忽略标记、占位符和调试残留
+- 在完整文件上下文中逐个审查候选项，与周围本地风格对比
+- 仅移除不一致的冗余，保留有效的行为和领域守护逻辑
+- 重新运行项目检查（如 `bun check`、`bun typecheck`）确保无回归
+- 不移除信任边界处的保护（用户输入、认证、网络、数据库、文件 I/O）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 辅助编码后清理分支中多余的防御性代码和无用注释
+- 代码审查时快速识别和移除 AI 生成的"模式化冗余"
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- `git`（用于 diff 对比）
+- `rg`（ripgrep，用于扫描代码模式）
+- Bash 环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +47,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Voice (Edge TTS)
 
-> Text-to-speech skill using Microsoft Edge TTS engine with real-time streaming playback support.
+> Edge TTS 语音合成工具 — 使用微软 Edge 引擎
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,20 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/zhaov1976/voice-edge-tts |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- Edge TTS Engine - High quality text-to-speech using Microsoft Edge
+- Streaming Playback - Real-time audio streaming (边生成边播放)
+- Multiple Voices - Support for Chinese, English, Japanese, Korean voices
+- Customizable - Adjust rate, volume, and pitch
+- Secure Implementation - No command injection vulnerabilities
+- Enterprise-grade security - Full command injection protection
+- Voice whitelist validation
+- Replaced exec with spawn for secure process execution
+
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 使用微软 Edge TTS 生成语音
+- 支持多语言和多种声音选择
+- 免费的高质量语音合成
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +44,7 @@
 - `skill.json`
 - `stream_speak.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🔴 High | 发现直接命令执行指令 |

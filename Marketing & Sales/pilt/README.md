@@ -1,30 +1,32 @@
 # Pilt
 
-> Access Pilt fundraising data -- investor matches, campaign stats, outreach events, and deck analysis.
+> 内容过滤和策略管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Pilt |
 | **作者** | babpilt |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/babpilt-pilt |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/babpilt/pilt |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `Content-Type: application/json`
-- `x-pilt-api-key: $PILT_API_KEY`
+- 内容过滤和审核
+- 策略规则管理
+- 合规性检查
+- 自动化内容筛选
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 自动过滤和审核用户生成的内容
+- 管理内容发布的合规策略
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -44,6 +46,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

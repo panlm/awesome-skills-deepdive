@@ -1,34 +1,37 @@
 # CamelCamelCamel Alerts
 
-> Monitor CamelCamelCamel price drop alerts via RSS and send Telegram notifications when items go on sale. Use when setting up automatic price tracking for Amazon products with CamelCamelCamel price alerts.
+> 监控 CamelCamelCamel 亚马逊商品价格下降提醒，通过 RSS 推送 Telegram 实时通知
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | CamelCamelCamel Alerts |
 | **作者** | jgramajo4 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jgramajo4-camelcamelcamel-alerts |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jgramajo4/camelcamelcamel-alerts |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Go to https://camelcamelcamel.com/ and set up price alerts
-- Get your personal RSS feed URL (format: `https://camelcamelcamel.com/alerts/YOUR_UNIQUE_ID.xml`)
-- Fetch your feed every 4 hours
-- Detect new price alerts
-- Send you Telegram notifications
-- Fetches your CamelCamelCamel RSS feed
+- 监控 CamelCamelCamel 价格追踪 RSS 源
+- 价格下降时自动推送 Telegram 通知
+- 支持多商品同时监控
+- 自定义价格阈值触发提醒
+- 历史价格趋势数据展示
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 购物达人自动追踪心愿单商品降价并即时收到通知
+- 电商运营监控竞品价格变动及时调整策略
+- 节俭用户设置目标价格等待最佳购买时机
 
 ## 依赖和前提条件
-- Python / pip
+- 拥有 CamelCamelCamel 账户并配置价格追踪
+- 配置 Telegram Bot Token
+- 设置目标 Telegram 聊天频道
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -48,7 +51,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；持久化机制：设置系统级持久化
 
 ---

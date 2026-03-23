@@ -1,6 +1,6 @@
 # Anti Regression
 
-> Stop drifting back to chatbot behavior. Patterns for maintaining autonomous agent effectiveness across sessions.
+> 防止 AI Agent 退化为聊天机器人行为的模式集合，帮助 Agent 在跨会话中保持自主性和执行效率。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Asking permission for obvious actions
-- Writing explanations instead of executing
-- Hedging instead of deciding
-- Waiting for prompts instead of generating work
+- 识别并纠正 Agent 退化行为（过度请求许可、解释代替执行、犹豫代替决策）
+- 提供具体的行为覆盖模式，维持 Agent 自主性
+- 通过"CTO 测试"简单判断是否需要请求许可
+- 可集成到 SOUL.md 或 AGENTS.md 中实现快速启用
+- 包含示例和变更日志，便于理解和追踪改进
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Agent 频繁退化为被动问答模式，需要主动保持自主执行能力
+- 在定时任务或自动化流程中确保 Agent 直接行动而非等待指令
+- 建立 Agent 行为规范，避免 LLM 基础训练带来的保守倾向
 
-## 包含文件
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `examples`
-- `package.json`
+## 依赖和前提条件
+- 安装方式：`clawhub install anti-regression`
+- 无额外环境依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -45,8 +42,5 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 1 项高风险，3 项中风险。Prompt 注入：发现 Prompt 注入特征
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

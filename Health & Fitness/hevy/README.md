@@ -1,6 +1,6 @@
 # Hevy
 
-> Query workout data from Hevy including workouts, routines, exercises, and history. Use when user asks about their workouts, gym sessions, exercise progress, or fitness routines.
+> Hevy 力量训练记录和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,17 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Duplicate Prevention: `create-exercise` checks for existing exercises with the same name before creating. Use `--force` 
-- API Limitations: Hevy API does NOT support deleting or editing exercise templates - only creating. Delete exercises manu
+- Duplicate Prevention: `create-exercise` checks for existing exercises with the same name before creating. Use `--force` to override (not recommended)
+- API Limitations: Hevy API does NOT support deleting or editing exercise templates - only creating. Delete exercises manually in the app
 - API Rate Limits: Be mindful when fetching all data (--all flag)
 - Weights: Defaults to lbs, use --kg for kilograms
 - Pagination: Most commands auto-paginate, but limit flags help reduce API calls
 - IDs: Workout/routine/exercise IDs are UUIDs, shown in detailed views
 
 ## 使用场景
-- 记录和跟踪锻炼
-- 制定训练计划
-- 分析运动表现
+- 记录力量训练的组数、次数和重量
+- 跟踪训练进步和个人记录
+- 分析训练量和肌肉群覆盖
 
 ## 依赖和前提条件
 - API Key
@@ -36,7 +36,7 @@
 - `src`
 - `tsconfig.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

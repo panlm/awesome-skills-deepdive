@@ -1,6 +1,6 @@
 # Ai Trend Curation
 
-> Curate and post AI trend tweets from X (Twitter) with quote suggestions.
+> 从 X（Twitter）收集 AI 趋势推文并生成引用建议，发布到 Slack
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 5-8件を選定（日本語3-5件 + 英語3-5件のバランス）
-- 驚き屋・煽り系は排除。実務者・技術者の実践ベース投稿を優先
-- 各ツイートに category, author_desc, text_ja(英語の場合), quote_suggestion を付与
-- @yusaku_0426 が引用して付加価値を出せるか
-- 元ツイートの発信者がRTしてくれそうか（批判・揚げ足取りNG）
-- B: 注目ポイント指摘（「地味に重要なのは〜」）
+- 使用 xurl CLI 搜索日文和英文的 AI 相关热门推文
+- 按互动量筛选（日文 100+ 赞、英文 500+ 赞）
+- 智能选取 5-8 条推文，排除标题党和炒作内容
+- 为每条推文生成分类、作者描述和引用建议
+- 将策展结果格式化为 Slack Block Kit 并发布
+- 支持重复检查和已发布标记追踪
+- 提供 8 种引用模式：要点抜粋、注目点指摘、活用报告等
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日自动策展 AI 领域的高质量推文并推送到 Slack 频道
+- 为个人品牌运营生成有洞察力的引用推文建议
 
 ## 依赖和前提条件
-- Node.js / npm
+- xurl CLI 工具
+- Node.js（运行 scripts/ai_trends.js）
+- OpenClaw message 工具（发送 Slack 消息）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

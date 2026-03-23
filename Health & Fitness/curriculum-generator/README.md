@@ -1,6 +1,6 @@
 # Curriculum Generator
 
-> Intelligent educational curriculum generation system with strict step enforcement and human escalation policies
+> 课程和培训计划生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -23,9 +23,9 @@
 - Target audience (age, grade, background)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 自动生成个性化课程大纲
+- 创建培训计划和学习路径
+- 管理课程内容和评估标准
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -36,7 +36,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

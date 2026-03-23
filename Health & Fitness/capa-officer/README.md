@@ -1,6 +1,6 @@
 # Capa Officer
 
-> CAPA system management for medical device QMS. Covers root cause analysis, corrective action planning, effectiveness verification, and CAPA metrics. Use for CAPA investigations, 5-Why analysis, fishbone diagrams, root cause determination, corrective action tracking, effectiveness verification, or CAPA program optimization.
+> CAPA（纠正和预防措施）管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- CAPA investigation
-- root cause analysis
-- 5 Why analysis
-- fishbone diagram
-- corrective action
-- preventive action
+- CAPA Investigation Workflow
+- Root Cause Analysis
+- Corrective Action Planning
+- Effectiveness Verification
+- CAPA Metrics and Reporting
+- Reference Documentation
+- Tools
+- [ ] Problem description with specific details (what, where, when, who, how much)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 记录和跟踪质量问题的纠正措施
+- 管理预防措施的实施进度
+- 生成 CAPA 合规性报告
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +36,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

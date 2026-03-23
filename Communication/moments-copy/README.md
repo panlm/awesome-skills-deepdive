@@ -1,24 +1,38 @@
 # WeChat Moments Copy Generator
 
-> Generate viral WeChat Moments content.
+> 一键生成微信朋友圈爆款文案，助力个人品牌和社交传播
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | WeChat Moments Copy Generator |
 | **作者** | user520512 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/user520512-moments-copy |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/user520512/moments-copy |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 根据主题生成吸引眼球的朋友圈文案
+- 多种文案风格切换（励志、搞笑、文艺等）
+- 自动添加热门话题标签
+- 配图建议和排版优化
+- 支持产品推广和个人生活分享场景
+- 文案字数和格式自动适配朋友圈限制
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 微商产品推广文案的快速生成
+- 旅行、美食等生活分享的创意文案撰写
+- 个人品牌日常运营的内容输出
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+- 微信账号（用于发布）
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`

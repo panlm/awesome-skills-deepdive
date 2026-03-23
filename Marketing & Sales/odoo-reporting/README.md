@@ -1,36 +1,38 @@
 # Odoo Reporting
 
-> "Query Odoo data including salesperson performance, customer analytics, orders, invoices, CRM, accounting, VAT, inventory, and AR/AP. Generates WhatsApp cards, PDFs, Excel. Use when user explicitly mentions Odoo or asks for Odoo data."
+> Odoo ERP 报告工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Odoo Reporting |
 | **作者** | ashrf-in |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/ashrf-in-odoo-reporting |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ashrf-in/odoo-reporting |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- 5 Pre-built Reports: Financial Health, Revenue Analytics, AR/AP Aging, Expense Breakdown, Executive Summary
-- Compliant Financial Statements: P&L, Balance Sheet, Cash Flow
-- Automatic Standard Detection: Detects company's accounting standard (IFRS, US GAAP, Ind-AS, UK GAAP, SOCPA, CAS, JGAAP, 
-- Ad-hoc Builder: Custom comparisons (revenue vs expenses, direct vs indirect, etc.)
-- Dual Output: WhatsApp cards (dark theme) + PDF reports (light theme)
-- Interactive: Prompts for missing params — no assumptions
+- Odoo 业务数据报告
+- 多模块数据汇总
+- 自定义报表生成
+- 数据可视化
 
 ## 使用场景
-- 营销数据分析和报告
-- 绩效指标追踪
-- ROI 分析和优化建议
+- 自动生成 Odoo ERP 的业务数据报告
+- 从 Odoo 系统中提取和分析关键业务指标
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- Python pip
+- Python 依赖包
+- GitHub API
+- Odoo ERP
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SECURITY.md`
 - `SKILL.md`
 - `_meta.json`
@@ -53,6 +55,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 4 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

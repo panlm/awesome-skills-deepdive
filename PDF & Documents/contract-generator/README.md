@@ -1,6 +1,6 @@
 # Contract Generator
 
-> Generate professional freelance contracts, SOWs, and NDAs for client projects. Use when creating contracts, scope of work documents, or legal agreements for freelance engagements.
+> 智能合同文档生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `$ARGUMENTS[0]` = Contract type: `service`, `sow`, `nda`, `retainer`, `hourly`
-- `$ARGUMENTS[1]` = Project description with key terms
-- [Item not included]
-- [Item not included]
-- [Common assumption to clarify]
-- Project Start: [Date]
+- 根据模板自动生成合同文档
+- 支持多种合同类型（服务、租赁、采购等）
+- 自定义合同条款和参数
+- 输出为标准文档格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据客户信息自动生成服务合同
+- 批量创建标准化的租赁合同文档
+
+## 依赖和前提条件
+- AWS
+- Stripe
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；持久化机制：涉及定时或后台任务
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

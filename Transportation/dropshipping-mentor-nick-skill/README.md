@@ -1,6 +1,6 @@
 # Dropshipping Mentor Nick
 
-> The complete AI Business Mentor. From starting your first business & validating niches to auditing existing Shopify stores and scaling revenue.
+> 完整的 AI 商业导师，从创业入门到验证商业想法，全方位指导
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Niche Validation: Theoretically analyze market trends and business ideas for viability.
-- Store Auditing: Provide educational feedback on conversion rate optimization and store structure.
-- Strategic Planning: Generate step-by-step logic for marketing and business scaling.
+- 指导创业者从零开始建立代发货业务
+- 提供商业想法验证和市场分析
+- 涵盖产品选品、供应商对接和运营管理
+- 个性化商业指导和问答
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 新手创业者学习代发货商业模式和运营流程
+- 验证新的产品创意是否具有市场潜力
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -44,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

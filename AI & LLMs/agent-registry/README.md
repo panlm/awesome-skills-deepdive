@@ -1,6 +1,6 @@
 # Agent Registry
 
-> |
+> Agent 懒加载注册表——将上下文窗口中的 Agent 令牌开销减少 70-90%
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,35 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Token overhead: ~117 tokens per agent x agent count = wasted context
-- Scales poorly: 50 agents = 5.8k, 150 agents = 17.5k, 300+ agents = 35k+ tokens
-- Context waste: Typically only 1-3 agents are relevant per conversation
-- All or nothing: You pay the full cost even if you use zero agents
-- Slow startup: Processing hundreds of agent files delays conversation start
-- Custom agents: 16.4k tokens (8.2%)
+- 从"全量加载"转为"按需加载"：仅在需要时才加载相关 Agent
+- 实测 140 个 Agent 场景下节省 83% 令牌（16.4k → 2.7k）
+- 内置 BM25 搜索引擎：自动分析用户输入并匹配相关 Agent
+- UserPromptSubmit Hook 实现完全自动的 Agent 发现
+- 索引一次后按需加载，启动速度大幅提升
+- 解决 Agent 数量增长导致的上下文窗口膨胀问题
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 安装了大量 Agent/Skill 的环境下优化上下文窗口利用率
+- 减少每次对话的令牌消耗，降低 API 调用成本
+- 加速 Agent 系统启动时间，改善用户体验
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js / npm（Bun 运行时）
+- install.sh 安装脚本
 
-## 包含文件
-- `CLAUDE.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `bin`
-- `docs`
-- `hooks`
-- `install.sh`
-- `lib`
-- `package-lock.json`
-- `package.json`
-- `tests`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -60,4 +48,4 @@
 **风险摘要:** 存在 3 项高风险，5 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

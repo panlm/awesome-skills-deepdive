@@ -1,6 +1,6 @@
 # Telnyx Stt
 
-> Transcribe audio files to text using Telnyx Speech-to-Text API. Use when you need to convert audio recordings, voice messages, or spoken content to text.
+> Telnyx 语音转文字服务工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,15 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/teamtelnyx/telnyx-stt |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Transcribe audio files to text using Telnyx Speech-to-Text API
+- Use when you need to convert audio recordings, voice messages, or spoken content to text
+- 支持通过命令行进行操作控制
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 使用 Telnyx API 进行语音转文字
+- 支持多语言实时语音识别
+- 处理电话和通话的语音转录
 
 ## 依赖和前提条件
 - Python / pip
@@ -26,7 +31,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

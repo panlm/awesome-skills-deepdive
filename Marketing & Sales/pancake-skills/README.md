@@ -1,32 +1,33 @@
 # pancake-skills
 
-> Tương tác với Pancake Platform API để quản lý pages, conversations, messages, customers, statistics, tags, posts, users. Sử dụng khi cần (1) Quản lý pages và tạo access token, (2) Xử lý conversations và messages, (3) Quản lý thông tin customers, (4) Xem statistics và analytics, (5) Quản lý tags và posts, (6) Quản lý users/staff, (7) Upload media content, (8) Chat plugin operations.
+> PancakeSwap 技能工具集
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | pancake-skills |
 | **作者** | suminhthanh |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/suminhthanh-pancake-skills |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/suminhthanh/pancake-skills |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Write Protection: All write operations require `CONFIRM_WRITE=YES`
-- Token Security: Tokens are URL-encoded automatically
-- Validation: Clear error messages for missing required parameters
-- Bảo vệ ghi: Tất cả thao tác ghi yêu cầu `CONFIRM_WRITE=YES`
-- Bảo mật token: Token được URL-encode tự động
-- Xác thực: Thông báo lỗi rõ ràng khi thiếu tham số bắt buộc
+- PancakeSwap 交易操作
+- DeFi 数据查询
+- 流动性管理
+- 收益追踪
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 管理 PancakeSwap 上的 DeFi 操作
+- 查询和分析 PancakeSwap 交易数据
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -48,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Garmin Health Analysis
 
-> Talk to your Garmin data naturally - "what was my fastest speed snowboarding?", "how did I sleep last night?", "what was my heart rate at 3pm?". Access 20+ metrics (sleep stages, Body Battery, HRV, VO2 max, training readiness, body composition, SPO2), download FIT/GPX files for route analysis, query elevation/pace at any point, and generate interactive health dashboards. From casual "show me this week's workouts" to deep "analyze my recovery vs training load".
+> Garmin 健康数据综合分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Natural language queries: "How's my recovery this week?" → instant Body Battery analysis
-- Sleep analysis: Hours, stages (light/deep/REM), quality scores, trends
-- Recovery tracking: Body Battery, HRV, training readiness, stress levels
-- Workout data: Activities by type, calories, duration, pace, elevation
-- Health metrics: Resting heart rate, VO2 max, body composition, SPO2
-- Activity files: Download FIT/GPX for detailed route and performance analysis
+- High (75-100): Fully recharged, ready for high intensity
+- Medium (50-74): Moderate energy, good for regular activity
+- Low (25-49): Limited energy, recovery needed
+- Very Low (0-24): Depleted, prioritize rest
+- Excellent (90-100): Optimal restorative sleep
+- Good (80-89): Quality sleep with minor issues
+- Fair (60-79): Adequate but could improve
+- Poor (0-59): Significant sleep deficiencies
 
 ## 使用场景
-- 同步和分析运动数据
-- 追踪健康指标趋势
-- 生成健身报告和洞察
+- 综合分析 Garmin 的健康和运动数据
+- 生成周/月度健康分析报告
+- 识别训练和恢复的最佳模式
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -40,7 +42,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Invoice Generator
 
-> Generate professional PDF invoices from JSON data. Use when the user needs to create an invoice, billing document, or payment request with company/client details and line items.
+> 专业发票自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Exits with code 1 if JSON is invalid or missing required fields
-- Exits with code 2 if weasyprint fails to generate PDF
-- Error messages are written to stderr
+- 根据模板自动生成标准发票
+- 支持自定义公司信息和发票格式
+- 自动计算金额、税费和总计
+- 导出为 PDF 格式
+- 支持多币种和多语言
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为客户项目自动生成月度服务发票
+- 批量创建标准化的商业发票文档
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
+- npm
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`
@@ -49,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；供应链风险：需要安装外部依赖；文件系统篡改：存在文件系统操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # MantisBT Manager
 
-> Manage Mantis Bug Tracker (issues, projects, users, filters, configs) via the official Mantis REST API. Supports full CRUD operations on issues, projects, users, attachments, notes, tags, relationships, and configuration management. Features dynamic instance switching with context-aware base URL and token resolution.
+> MantisBT 缺陷跟踪系统的 AI 管理助手
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,25 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- ✅ CRUD complet (Create, Read, Update, Delete)
-- ✅ Monitoring/unmonitoring
-- ✅ Gestion des tags
-- ✅ Relations entre tickets
-- ✅ Pièces jointes
-- ✅ Notes avec time tracking
+- 与 MantisBT 缺陷跟踪系统深度集成
+- 支持创建、更新和管理缺陷报告
+- 提供智能缺陷分类和优先级建议
+- 支持批量操作和自动化工作流
+- 提供缺陷统计分析和趋势报告
+- 支持自定义字段和工作流配置
+- 可通过自然语言与缺陷管理系统交互
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 助手自动创建和分类缺陷报告
+- 智能分析缺陷趋势并生成项目质量报告
+- 自动化缺陷管理流程，减少人工操作
 
 ## 依赖和前提条件
-- API Key
+- MantisBT 服务器访问
+- MantisBT API 凭证
+- OpenClaw 运行环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +50,4 @@
 **风险摘要:** 存在 5 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

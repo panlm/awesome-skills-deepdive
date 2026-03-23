@@ -1,31 +1,38 @@
 # Crypto Signal
 
-> AI-powered crypto intelligence from 50+ Telegram groups. Get trending topics, alpha signals, whale alerts, and market sentiment — all via API. Free tier available.
+> AI 驱动的加密货币情报系统，从 50+ Telegram 群组中提取趋势话题、交易警报和市场信号
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Crypto Signal |
 | **作者** | qiantanxiaohai |
+| **版本** | 0.1.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/qiantanxiaohai-crypto-signal |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/qiantanxiaohai/crypto-signal |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "What's trending in crypto today?" → calls `crypto-signal trending`
-- "Any whale alerts in the last 12 hours?" → calls `crypto-signal signals --type whale_transfer --hours 12`
-- "Show me the latest alpha signals" → calls `crypto-signal signals`
+- 聚合 50+ Telegram 加密货币群组的实时信息
+- AI 分析趋势话题和热门币种
+- 交易信号识别与警报推送
+- 市场情绪分析与量化评分
+- 自定义关注币种和关键词过滤
+- 历史信号回溯与准确率统计
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 加密货币交易者获取实时市场情报
+- 监控 Telegram 群组中的交易信号和项目动态
+- 追踪市场热点和新兴代币趋势
 
 ## 依赖和前提条件
-- API Key
+- Telegram 账号及 API 凭据
+- OpenClaw 环境已配置
+- 已加入相关 Telegram 加密货币群组
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `crypto-signal.py`

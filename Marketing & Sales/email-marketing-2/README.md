@@ -1,31 +1,33 @@
 # Email Marketing
 
-> Build and execute email marketing campaigns for a solopreneur business. Use when building an email list, writing email sequences (welcome, nurture, sales), designing broadcast campaigns, improving open and click rates, or setting up email automation. Covers list building, segmentation, email copywriting, sequence design, deliverability, and metrics. Trigger on "email marketing", "email campaign", "email sequence", "email list", "newsletter", "email automation", "improve email open rates", "nurture emails", "welcome email".
+> 邮件营销管理工具 V2
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Email Marketing |
 | **作者** | jk-0001 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/jk-0001-email-marketing-2 |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jk-0001/email-marketing-2 |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Checklist (quick win, actionable)
-- Template (saves time, immediately useful)
-- Guide or ebook (educational, positions you as expert)
-- Swipe file (examples or case studies)
-- Calculator or tool (interactive, high perceived value)
-- Mini-course (5 days of lessons via email)
+- 邮件营销活动管理
+- 邮件模板设计和管理
+- 订阅者列表管理
+- 发送效果分析
 
 ## 使用场景
-- 自动化邮件营销
-- 管理外联和跟进
-- 个性化营销邮件生成
+- 创建和管理邮件营销活动的完整流程
+- 分析邮件发送效果优化营销策略
+
+## 依赖和前提条件
+- Google API
+- Mailchimp
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

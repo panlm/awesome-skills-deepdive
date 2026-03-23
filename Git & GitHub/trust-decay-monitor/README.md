@@ -1,38 +1,34 @@
 # Trust Decay Monitor
 
-> >
+> 追踪 AI Skill 安全验证结果的时效性衰减，提醒你那个 18 个月前的"已验证"徽章可能已经过期失效
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Trust Decay Monitor |
 | **作者** | andyxinweiminicloud |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/andyxinweiminicloud-trust-decay-monitor |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/trust-decay-monitor |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- The skill's 4 dependencies have had 47 combined updates since the audit
-- Two new CVEs affect the runtime version the skill targets
-- The skill's API endpoint now points to a domain that changed ownership
-- The marketplace added 3 new permission types that didn't exist during the original audit
-- A skill slug or identifier with its verification date
-- A marketplace profile URL showing verified skills
+- 计算已验证 skill 的信任新鲜度评分（Trust Freshness Score）
+- 追踪验证后的时间衰减，基于可配置的衰减曲线
+- 监控依赖项变动（dependency churn）：审计后依赖更新次数越多，信任度越低
+- 检测生态系统上下文变化：新 CVE、新权限类型、新攻击模式
+- 识别域名所有权变更等高风险事件
+- 生成信任衰减报告，标记已过期的验证徽章
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期审查已安装 skill 的安全验证是否仍然有效
+- 在 skill 市场中评估"已验证"标记的实际可信度
+- 供应链安全管理，识别依赖变动导致的信任失效
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- `curl` 命令行工具
+- `python3` 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

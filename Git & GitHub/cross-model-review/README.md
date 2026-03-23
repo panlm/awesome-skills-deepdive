@@ -1,45 +1,38 @@
 # Cross Model Review
 
-> Adversarial plan review using two different AI models. Supports static mode (fixed roles) and alternating mode (models swap writer/reviewer each round, fully autonomous). Use when building features touching auth/payments/data models, or plans >1hr to implement. NOT for simple fixes, research tasks, or quick scripts.
+> 使用两个不同 AI 模型进行对抗式方案审查，通过多轮迭代直到审查者批准或达到最大轮次
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Cross Model Review |
 | **作者** | don-gbot |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/don-gbot-cross-model-review |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/don-gbot/cross-model-review |
-| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Simple one-file fixes or quick scripts
-- Pure research or investigation tasks
-- Changes you can fully reverse in under 5 minutes
-- Plans already reviewed by a human engineer in the last hour
-- Node.js >= 18.0.0 (uses `structuredClone`, `fs.readSync` on fd 0, etc.)
-- OpenClaw — the skill is invoked by the OpenClaw agent and relies on `sessions_spawn` for the reviewer
+- 在两个不同 AI 模型（如 Anthropic + OpenAI）之间运行对抗式审查循环
+- 审查者质疑方案，规划者修改方案，循环直到所有 CRITICAL 和 HIGH 问题解决
+- 强制跨供应商审查，拒绝同供应商的自我审查
+- 自动去重问题（Jaccard ≥ 0.6 检测重复）
+- 为每个问题分配稳定 ID（ISS-001...），跟踪问题状态
+- 使用 UNTRUSTED 分隔符包装方案内容，防止 Prompt 注入
+- 最多 5 轮审查，超时后展示未解决问题供人工决定
+- 生成最终审查摘要 JSON（含轮次数、发现问题数、解决数等）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在实施复杂架构变更前，让不同 AI 模型交叉审查方案找出盲点
+- 对重要的系统设计方案进行自动化的多轮质量把关
+- 避免单一模型因共享相同推理风格而遗漏架构问题
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js >= 18.0.0
+- OpenClaw（依赖 `sessions_spawn` 来调度审查者）
+- 需要至少两个不同供应商的 AI 模型 API 凭证（如 OpenAI + Anthropic）
+- 无需 npm install，零外部依赖
 
-## 包含文件
-- `CHANGELOG.md`
-- `CONTRIBUTING.md`
-- `ORIGINAL_README.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-- `templates`
-- `tests`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -58,4 +51,4 @@
 **风险摘要:** 存在 3 项高风险，4 项中风险。命令执行：发现直接命令执行指令；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,32 +1,33 @@
 # Analytics And Advisory Intelligence
 
-> Cross-client analytics for Greek accounting firms. Surfaces trends, anomalies, and risks across financial data. Read-only, outputs to /data/reports/.
+> 智能分析和咨询建议工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Analytics And Advisory Intelligence |
 | **作者** | satoshistackalotto |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/satoshistackalotto-analytics-and-advisory-intelligence |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/analytics-and-advisory-intelligence |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Proactive, Not Reactive: The system already handles reactive work. This skill looks ahead — identifying problems before 
-- Cross-Client Vision: No single-client skill can see patterns that span the portfolio. This skill aggregates anonymised d
-- Plain English Findings: Every output is written for accounting assistants. No statistical jargon, no unexplained numbers
-- Confidence-Rated: Every finding carries a confidence level. A pattern with three data points is labelled differently fro
-- Read-Only Always: This skill reads from all data sources but writes only to /data/reports/analytics/. It has no write ac
-- Overnight Operation: Heavy analysis runs outside business hours. Lightweight queries run on demand but are bounded by pr
+- 业务数据智能分析
+- AI 驱动的策略建议
+- 市场趋势分析
+- 数据可视化报告
 
 ## 使用场景
-- 营销数据分析和报告
-- 绩效指标追踪
-- ROI 分析和优化建议
+- 利用 AI 分析业务数据并获取策略建议
+- 生成市场趋势分析报告辅助决策
+
+## 依赖和前提条件
+- GitHub API
 
 ## 包含文件
 - `EVALS.json`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -46,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 5 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

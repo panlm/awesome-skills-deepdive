@@ -1,6 +1,6 @@
 # DC Weather
 
-> Check Washington DC weather using Open-Meteo API. Use when user asks about DC weather, current conditions, or needs a weather report for Washington DC.
+> 华盛顿 DC 地区天气查询工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,12 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/vital1188/dc-weather |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 获取 DC 地区实时天气数据
+- 天气预报信息查询
+- 天气变化提醒通知
+- 气象数据格式化输出
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日自动获取 DC 地区天气预报
+- 根据天气数据自动推送出行建议
+
+## 依赖和前提条件
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -37,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

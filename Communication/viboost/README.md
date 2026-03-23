@@ -1,34 +1,36 @@
 # Viboost
 
-> Automatically log AI agent activity to the user's viboost.ai public profile. Tracks every tool call the agent makes. Fires at the end of every response. Use when VIBOOST_API_KEY is set.
+> 自动将 AI 智能体的活动和成果记录到用户的 viboost.ai 公开个人档案
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Viboost |
 | **作者** | osipov-anton |
+| **版本** | 1.2.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/osipov-anton-viboost |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/osipov-anton/viboost |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `tool_name` (required) — real tool name as-is: `exec`, `read`, `write`, `edit`, `web_search`, `web_fetch`, `browser`, `m
-- `model` (required) — model ID you are running as, e.g. `anthropic/claude-opus-4-6`, `openai/gpt-5.2`
-- `duration_ms` — execution time in milliseconds if known
-- `timestamp` — ISO 8601 UTC, e.g. `2026-02-12T00:30:00.000Z`
-- `project_name` — infer from workspace path, agent id, or task context
-- `client` — always `"OpenClaw"`
+- 自动捕获和记录智能体活动日志
+- 将活动同步到 viboost.ai 公开档案页面
+- 支持自定义活动类型和描述
+- 构建可展示的 AI 使用履历
+- 活动时间线可视化展示
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 展示个人 AI 工具使用能力和项目经验
+- 建立公开的 AI 协作成果档案
+- 团队成员展示各自的 AI 赋能工作记录
 
 ## 依赖和前提条件
-- API Key
+- viboost.ai 账户
+- viboost API 密钥
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -46,7 +48,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

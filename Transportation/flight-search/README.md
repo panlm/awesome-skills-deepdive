@@ -1,6 +1,6 @@
 # Flight Search
 
-> Search Google Flights for prices, times, and airlines. No API key required.
+> 搜索 Google Flights 获取航班价格、时间和航空公司信息，无需 API Key
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- [GitHub](https://github.com/Olafs-World/flight-search)
-- [PyPI](https://pypi.org/project/flight-search/)
-- [ClawHub Skill](https://clawhub.com/skills/flight-search)
-- [fast-flights](https://github.com/AWeirdDev/flights) (underlying library)
+- 搜索指定航线的航班价格和时间
+- 比较不同航空公司的报价
+- 无需 API Key 即可使用
+- 获取直飞和经停航班信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 搜索最便宜的北京到东京航班
+- 比较不同日期同一航线的价格差异
 
 ## 依赖和前提条件
-- Python / pip
+- Node.js / npm
 
-## 包含文件
-- `AGENTS.md`
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `flight_search`
-- `install.sh`
-- `pyproject.toml`
-- `pytest.ini`
-- `tests`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -55,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

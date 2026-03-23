@@ -1,6 +1,6 @@
 # Scam Guards
 
-> **Real-time AI agent security guardian for OpenClaw.**
+> 反诈骗防护工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Skill Scanner: `scripts/scan_skill.py` - Detects 341+ malicious patterns in ClawHub skills.
-- Phishing Detector: `scripts/verify_url.py` - Offline domain and URL reputation verification.
-- Wallet Checker: `scripts/check_wallet.py` - Validates crypto addresses against confirmed blacklists.
-- Behavior Monitor: `scripts/monitor_agent.py` - Real-time PHI analysis for manipulation tactics.
-- Evidence Chain: `scripts/evidence_chain.py` - SHA-256 linked audit trails for security incidents.
-- Report Generator: `scripts/report_generator.py` - Structured Markdown security summaries.
+- 识别常见诈骗模式
+- 可疑内容自动检测
+- 安全警告和建议
+- 诈骗特征数据库
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动检测消息中的诈骗特征并预警
+- 评估链接和内容的安全可信度
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
 ## 包含文件
 - `CHANGELOG.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -53,6 +51,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

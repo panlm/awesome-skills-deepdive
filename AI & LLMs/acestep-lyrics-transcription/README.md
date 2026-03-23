@@ -1,6 +1,6 @@
 # acestep-lyrics-transcription
 
-> Transcribe audio to timestamped lyrics using OpenAI Whisper or ElevenLabs Scribe API. Outputs LRC, SRT, or JSON with word-level timestamps. Use when users want to transcribe songs, generate LRC files, or extract lyrics with timestamps from audio.
+> 使用 OpenAI Whisper 或 ElevenLabs Scribe API 将音频转录为带时间戳的歌词文件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Replace misrecognized words with their correct original versions
-- Keep all `[MM:SS.cc]` timestamps exactly as-is (timestamps from transcription are accurate)
-- Do NOT add structure tags like `[Verse]` or `[Chorus]` — the LRC should only have timestamped text lines
+- 支持将音频文件转录为 LRC、SRT 或 JSON 格式的带时间戳歌词
+- 支持 OpenAI Whisper 和 ElevenLabs Scribe 两种转录引擎
+- 提供词级别（word-level）的精确时间戳标注
+- 内置 API Key 配置检查和引导流程
+- 支持自动纠正误识别的歌词文本
+- 提供可配置的转录参数和输出格式选项
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将歌曲音频自动转录为 LRC 歌词文件，用于音乐播放器同步显示
+- 为播客或演讲音频生成 SRT 字幕文件
+- 批量处理音乐库，为每首歌曲生成对应的时间戳歌词
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.x
+- OpenAI API Key（Whisper 引擎）或 ElevenLabs API Key（Scribe 引擎）
+- Bash 脚本执行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +49,4 @@
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

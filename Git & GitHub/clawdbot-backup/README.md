@@ -1,37 +1,35 @@
 # Clawdbot Backup
 
-> Backup and restore ClawdBot configuration, skills, commands, and settings. Sync across devices, version control with git, automate backups, and migrate to new machines.
+> 备份和恢复 ClawdBot 的配置、技能、命令和设置，支持跨设备同步、Git 版本控制、自动备份和新机器迁移。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Clawdbot Backup |
 | **作者** | sebastian-buitrag0 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/sebastian-buitrag0-clawdbot-backup |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sebastian-buitrag0/clawdbot-backup |
-| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Backup all ClawdBot data and settings
-- Restore from backups
-- Sync between multiple machines
-- Version control your configuration
-- Automate backup routines
-- Migrate to new devices
+- 完整备份 ClawdBot 数据和设置（技能、命令、配置、MCP 服务器配置）
+- 从备份恢复所有配置和自定义内容
+- 跨多台机器同步 ClawdBot 配置
+- 使用 Git 进行配置版本控制
+- 自动化定时备份（cron 任务）
+- 新设备迁移：一键在新机器上还原完整环境
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在更换电脑或重装系统前完整备份 ClawdBot 环境
+- 在多台开发机器间保持 ClawdBot 配置同步
+- 配置出错时快速回滚到之前的版本
 
 ## 依赖和前提条件
-- macOS
+- git
+- tar
+- rsync
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 存在 3 项高风险，4 项中风险。文件系统篡改：涉及危险文件操作；越权操作：需要提权或管理员权限
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

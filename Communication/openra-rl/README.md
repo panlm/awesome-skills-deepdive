@@ -1,36 +1,38 @@
 # OpenRA-RL
 
-> Play Command & Conquer Red Alert RTS — build bases, train armies, and defeat AI opponents using 48 MCP tools.
+> 玩《命令与征服：红色警戒》即时战略游戏，建造基地、训练军队、击败 AI 对手
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | OpenRA-RL |
 | **作者** | yxc20089 |
+| **版本** | 1.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/yxc20089-openra-rl |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/yxc20089/openra-rl |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Real-time: The game runs continuously at ~25 ticks/second. Call `advance(ticks)` to let time pass.
-- Fog of war: You can only see areas near your units/buildings. Scout to find the enemy.
-- Resources: Harvest ore to earn credits. Credits buy buildings and units.
-- Power: Buildings need power. Build Power Plants (`powr`) to stay powered. Low power slows production.
-- Tech tree: Advanced buildings require prerequisites (e.g., War Factory needs Ore Refinery).
-- Keep power positive (build Power Plants when needed)
+- 自动进行《红色警戒》即时战略对战
+- 建造基地、采集资源、发展经济
+- 训练和指挥多兵种军队作战
+- 制定战术策略击败 AI 对手
+- 支持 OpenRA 开源游戏引擎
+- 实时决策与微操控制
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 智能体自主玩即时战略游戏进行强化学习
+- 测试 AI 在复杂实时策略环境中的决策能力
+- 游戏 AI 研究与娱乐演示
 
 ## 依赖和前提条件
-- Python / pip
-- Docker
-- macOS
+- 安装 OpenRA 游戏引擎
+- 配置游戏环境和 AI 接口
+- 足够的计算资源运行游戏实例
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,7 +50,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
 ---

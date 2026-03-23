@@ -1,6 +1,6 @@
 # Speak Turbo - Talk to your Claude 90ms latency!
 
-> Give your agent the ability to speak to you real-time. Talk to your Claude! Ultra-fast TTS, text-to-speech, voice synthesis, audio output with ~90ms latency. 8 built-in voices for instant voice responses. For voice cloning, use the speak skill.
+> 超低延迟语音合成服务，让 Claude 实现 90ms 实时语音对话
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,27 +12,25 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/emzod/speakturbo-tts |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 提供超低延迟（90ms）的语音合成服务
+- 支持与 Claude 进行实时语音对话
+- 使用 SpeakTurbo 引擎实现高速 TTS
+- 支持多种语音风格和参数调节
+- 适用于语音助手和实时交互场景
+- 集成简便，开箱即用
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 构建超低延迟的语音交互助手
+- 为 Claude 对话添加实时语音输出能力
+- 在实时场景中需要快速语音反馈时使用
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
+- Node.js 运行环境
+- Python 运行环境
+- Bash/Shell 环境
 
-## 包含文件
-- `AGENTS.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `install.sh`
-- `package.json`
-- `pyproject.toml`
-- `speakturbo`
-- `speakturbo-cli`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；持久化机制：设置系统级持久化
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

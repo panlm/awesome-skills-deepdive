@@ -1,6 +1,6 @@
 # Mal Lookup
 
-> Direct MyAnimeList lookup tool. Bypasses Jikan/API issues by using MAL's internal endpoints.
+> MyAnimeList 动漫查询工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,16 +12,24 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/zun43d/mal-lookup |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Direct MyAnimeList lookup tool
+- Bypasses Jikan/API issues by using MAL's internal endpoints
+- 支持通过命令行进行操作控制
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 查询 MAL 上的动漫评分和信息
+- 获取动漫推荐和排行榜
+- 搜索特定动漫的详细资料
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

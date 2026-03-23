@@ -1,34 +1,33 @@
 # Bird
 
-> X/Twitter CLI for reading, searching, and posting via cookies or Sweetistics.
+> Bird 消息平台操作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bird |
 | **作者** | steipete |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/steipete-bird |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/steipete/bird |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `bird read <url-or-id>`
-- `bird thread <url-or-id>`
-- `bird search "query" -n 5`
-- `bird tweet "text"`
-- `bird reply <id-or-url> "text"`
-- Browser cookies (default: Firefox/Chrome)
+- Bird 平台消息发送
+- 联系人管理
+- 消息模板操作
+- 通信渠道管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 Bird 平台批量发送营销消息
+- 管理 Bird 平台的客户通信流程
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Chrome 浏览器
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

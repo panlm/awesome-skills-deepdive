@@ -1,40 +1,34 @@
 # Financial Calculator Pro
 
-> Advanced financial calculator with future value tables, present value, discount calculations, markup pricing, and compound interest. Use when calculating investment growth, pricing strategies, loan values, discounts, or comparing financial scenarios across different rates and time periods. Includes both CLI and interactive web UI.
+> 高级金融计算器，支持终值表、现值、折扣计算、加价定价和复利计算，含 CLI 和交互式 Web 界面
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Financial Calculator Pro |
 | **作者** | tarigha |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/tarigha-financial-calculator |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tarigha/financial-calculator |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 7 calculator types with intuitive tabs
-- Real-time calculations
-- Interactive tables
-- Beautiful gradient UI
-- Mobile-responsive design
-- Investment growth projections
+- 终值（FV）计算：投资增长预测，支持不同复利频率（年/季/月/日）
+- 现值（PV）计算：折现未来金额的当前价值
+- 折扣计算器：计算折后价格和节省金额
+- 加价计算器：根据成本和加价率计算售价和利润率
+- 复利明细：有效年利率对比和利息分析
+- 终值对比表：跨多个利率和时间段生成比较矩阵
+- 交互式 Web UI（基于 Flask），支持 7 种计算器类型和实时计算
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 做投资决策时对比不同利率和期限下的收益情况
+- 制定产品定价策略时快速计算加价率和利润率
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.7+
+- Flask（Web UI 需要：`pip install flask`）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `assets`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。信息采集：大量系统信息采集
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

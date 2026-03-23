@@ -1,6 +1,6 @@
 # ShipStation Orders
 
-> Monitor ShipStation orders, detect issues, and send alerts. For e-commerce businesses using ShipStation for order fulfillment across multiple platforms (Amazon, Etsy, Shopify, TikTok, etc.).
+> 集成 ShipStation API 自动化物流订单管理和发货跟踪
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Monitors orders from all your connected marketplaces (Amazon, Etsy, Shopify, TikTok, etc.)
-- Alerts you about new orders
-- Flags orders stuck in processing (>48h)
-- Detects orders on hold
-- Alerts on expedited / second-day / priority orders
-- Tracks state to avoid duplicate notifications
+- 集成 ShipStation API 管理物流订单
+- 查询和跟踪发货状态
+- 批量处理订单和发货标签
+- 获取运费估算和物流方案
+- 自动同步订单数据
+- 支持多承运商物流管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 电商运营中自动同步和管理物流订单
+- 通过 AI 助手查询发货状态和物流信息
+- 批量处理跨境电商的多渠道发货需求
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 运行环境
+- Bash/Shell 环境
 - API Key
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `check-orders.js`
-- `check-shipping.js`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +49,4 @@
 **风险摘要:** 存在 4 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

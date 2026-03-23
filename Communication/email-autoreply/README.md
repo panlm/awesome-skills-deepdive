@@ -1,33 +1,38 @@
 # Email Auto Reply Generator
 
-> Generate context-aware email replies.
+> 智能邮件自动回复系统，根据收件内容上下文生成个性化的回复草稿
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Email Auto Reply Generator |
 | **作者** | user520512 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/user520512-email-autoreply |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/user520512/email-autoreply |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Customer inquiries
-- Complaint responses
-- Follow-up emails
-- Meeting confirmations
+- 分析收件邮件内容和上下文
+- 生成语气得体的自动回复
+- 支持自定义回复模板和风格
+- 根据发件人关系调整回复策略
+- 紧急邮件优先处理标记
+- 多语言回复支持
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 休假或忙碌时的邮件自动应答
+- 常规咨询邮件的快速回复
+- 客户邮件的初步自动响应
 
 ## 依赖和前提条件
-- Node.js / npm
+- 邮箱账号访问权限
+- OpenClaw 环境已配置
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`

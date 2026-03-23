@@ -1,34 +1,35 @@
 # Git Essentials
 
-> Essential Git commands and workflows for version control, branching, and collaboration.
+> Git 版本控制的核心命令和工作流速查手册，涵盖分支管理、远程操作和团队协作。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Git Essentials |
 | **作者** | arnarsson |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/arnarsson-git-essentials |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arnarsson/git-essentials |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Commit often, perfect later (interactive rebase)
-- Write meaningful commit messages
-- Use `.gitignore` for files to exclude
-- Never force push to shared branches
-- Pull before starting work
-- Use feature branches, not main
+- 完整的 Git 基础工作流：暂存、提交、查看差异
+- 分支管理：创建、切换、合并、删除、重命名
+- 远程仓库操作：添加/修改 remote、fetch/pull/push
+- 提交历史查看和搜索：日志、blame、bisect
+- 撤销操作：工作区恢复、取消暂存、回退提交、revert
+- Stash 暂存管理：保存、恢复、查看、清除
+- 交互式 Rebase：合并提交、重排序、编辑
+- Tag 管理和高级操作：Cherry-pick、Submodule
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 作为 Git 命令速查手册，Agent 在执行版本控制操作时快速参考正确语法
+- 帮助用户解决 Git 操作问题（合并冲突、提交回退、分支管理等）
+- 为不熟悉 Git 的用户提供标准化工作流指导
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- `git`：需要安装 Git
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +48,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Fasting Tracker
 
-> Track intermittent fasting windows, extended fasts, and autophagy milestones
+> 间歇性禁食计时和跟踪工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -15,19 +15,26 @@
 ## 功能概述
 - Fast Timer: Start a fast and get real-time elapsed tracking with countdown to key metabolic milestones
 - Eating Window Tracking: Log when you break your fast and automatically calculate your eating window duration
-- Metabolic Milestones: Receive alerts at ketosis (12h), fat adaptation (16h), autophagy (24h), and deeper cellular renewa
+- Metabolic Milestones: Receive alerts at ketosis (12h), fat adaptation (16h), autophagy (24h), and deeper cellular renewal thresholds
 - Smart History: Review past fasts with duration, eating windows, and consistency metrics
+- Logs the fast start time
+- Displays current time and target milestones
+- Sets background tracking (runs even when you close the app)
+- Records the end time
 
 ## 使用场景
-- 跟踪断食周期
-- 管理间歇性断食计划
-- 分析断食效果数据
+- 记录禁食开始和结束时间
+- 跟踪禁食窗口和进食窗口
+- 分析禁食历史和达标率
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

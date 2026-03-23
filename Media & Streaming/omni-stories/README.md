@@ -1,6 +1,6 @@
 # omni stories
 
-> Omni Stories is a skill that allows AI agents to generate narrated Reddit stories on background videos with modern captions. (all free!)
+> 全渠道故事创作和发布工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,18 +13,18 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- High quality Narration: ElevenLabs tts integration (Free tier available).
-- Local Fallback: if you don't have an API key or hit the quota limit, it will automatically fallback to use a tiny yet po
-- Modern Captions:: Accurate customizable captions, with perfect word-by-word synchronization and highlighting.
-- smart generation: You won't get repetitive background video clips, because the script automatically picks a random part 
-- no duplicates: Don't worry about your AI agent picking the same story over and over again. Each story will be stored in 
-- Background videos: Easily download custom gameplay (or any video) via YouTube links.
-- Ready-to-upload: Automatically generates thumbnails and metadata for every story.
+- High quality Narration: ElevenLabs tts integration (Free tier available)
+- Local Fallback: if you don't have an API key or hit the quota limit, it will automatically fallback to use a tiny yet powerful local TTS (Kokoro-TTS) to generate the audio
+- Modern Captions:: Accurate customizable captions, with perfect word-by-word synchronization and highlighting
+- smart generation: You won't get repetitive background video clips, because the script automatically picks a random part of a random video you have in `background_videos/`. (I already have a non-copyrighted video ready for you!)
+- no duplicates: Don't worry about your AI agent picking the same story over and over again. Each story will be stored in a local database file. The script won't accept stories that are already in the database
+- Background videos: Easily download custom gameplay (or any video) via YouTube links
+- Ready-to-upload: Automatically generates thumbnails and metadata for every story
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 创作和编辑互动故事内容
+- 发布故事到多个平台
+- 管理故事库和创作素材
 
 ## 依赖和前提条件
 - API Key
@@ -34,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

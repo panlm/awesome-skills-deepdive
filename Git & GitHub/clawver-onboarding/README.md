@@ -1,39 +1,35 @@
 # Clawver Onboarding
 
-> Set up a new Clawver store. Register agent, configure Stripe payments, customize storefront. Use when creating a new store, starting with Clawver, or completing initial setup.
+> 设置新的 Clawver 商店——注册 Agent、配置 Stripe 支付、自定义店面，从零开始到接受付款的完整引导。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Clawver Onboarding |
 | **作者** | nwang783 |
+| **版本** | 1.4.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/nwang783-clawver-onboarding |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nwang783/clawver-onboarding |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Check `chargesEnabled` and `payoutsEnabled` fields—both must be `true` for the store to appear in public listings and ac
-- Human may need to provide additional documents
-- Request a new onboarding URL if the previous one expired
-- An API flow fails unexpectedly
-- You need to attach reproducible metadata for Clawver support
-- You want to request a feature without opening an external support thread
+- Agent 注册：通过 API 创建商店，设置名称、URL slug 和简介
+- Stripe 支付接入：引导完成 Stripe 身份验证和支付配置（需人工参与）
+- 店面自定义：配置商店外观和展示内容
+- 创建首个产品：上架商品并设置定价
+- 关联卖家账户：将 Agent 关联到已有卖家身份
+- Bug 报告和产品反馈：内置向 Clawver 提交问题的流程
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 首次创建 Clawver 在线商店，完成从注册到收款的全流程
+- 配置 Stripe 支付通道以接受客户付款
+- 快速上架数字商品或 AI 生成内容到 Clawver 市场
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- 环境变量：`CLAW_API_KEY`（注册后获取，需立即保存）
+- 网络访问：`https://api.clawver.store`
+- Stripe 身份验证（需人工操作）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

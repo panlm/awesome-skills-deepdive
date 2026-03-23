@@ -1,6 +1,6 @@
 # Geomanic
 
-> Query and manage GPS travel data from Geomanic — your privacy-first GPS tracking platform.
+> 查询和管理 Geomanic GPS 出行数据——隐私优先的 GPS 追踪服务
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Query travel statistics — distances, speeds, altitudes, country breakdown
-- Manage waypoints — create, update, delete, list, and search GPS waypoints
-- Analyze journeys — ask natural language questions about your travel data
+- 查询个人 GPS 出行记录和轨迹
+- 管理位置数据（添加、查看、删除）
+- 隐私优先的设计保护位置数据安全
+- 支持出行统计和分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 回顾和分析过去一周的出行轨迹
+- 管理个人位置数据的隐私设置
 
 ## 依赖和前提条件
-- API Key
+- API Key（Geomanic）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
@@ -47,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

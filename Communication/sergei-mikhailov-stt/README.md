@@ -1,40 +1,39 @@
 # Speech to Text (Yandex SpeechKit)
 
-> Speech recognition from voice messages using Yandex SpeechKit (with an extensible architecture for other providers). Use when you need to convert a voice message to text.
+> 使用 Yandex SpeechKit 进行语音消息识别，采用可扩展架构设计
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Speech to Text (Yandex SpeechKit) |
 | **作者** | bzsega |
+| **版本** | 1.1.8 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/bzsega-sergei-mikhailov-stt |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bzsega/sergei-mikhailov-stt |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Python 3.8+ — `python3 --version`
-- FFmpeg — required for audio conversion ([install guide](https://ffmpeg.org/download.html))
-- Node.js — required for the ClawHub CLI
-- Yandex Cloud account — to get your API key for Yandex SpeechKit ([Yandex Cloud Console](https://console.yandex.cloud))
-- Send a voice message via any messenger while OpenClaw is connected
-- Ask the assistant to transcribe a voice message
+- 基于 Yandex SpeechKit 的语音识别
+- 支持语音消息转文字
+- 可扩展的模块化架构设计
+- 支持多种音频格式输入
+- 高精度俄语和多语言识别
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动转录语音消息为文字
+- 俄语和多语言语音内容识别
+- 为聊天机器人添加语音理解能力
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
-- Homebrew
-- API Key
+- Yandex SpeechKit API 密钥
+- Yandex Cloud 账号
+- 配置音频输入格式和语言参数
 
 ## 包含文件
 - `CLAUDE.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `assets`

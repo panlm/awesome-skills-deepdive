@@ -1,35 +1,34 @@
 # Foxreach
 
-> Manage FoxReach cold email outreach — leads, campaigns, sequences, templates, email accounts, inbox, and analytics. Use when the user asks to create leads, manage campaigns, check analytics, send outreach, manage email sequences, or anything related to the FoxReach API.
+> FoxReach 外联营销工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Foxreach |
 | **作者** | concaption |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/concaption-foxreach |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/concaption/foxreach |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `{{firstName}}`, `{{lastName}}`, `{{email}}`
-- `{{company}}`, `{{title}}`, `{{phone}}`
-- `{{website}}`, `{{linkedinUrl}}`
-- Custom fields: `{{customFieldName}}`
-- Base URL: `https://api.foxreach.io/api/v1`
-- Rate limit: 100 requests per minute. The SDK auto-retries on 429.
+- 营销外联自动化
+- 联系人管理和分类
+- 外联效果追踪
+- 模板化外联流程
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 自动化营销外联流程提高客户触达效率
+- 管理和追踪外联活动的效果数据
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- Python pip
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `api-reference.md`
@@ -51,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

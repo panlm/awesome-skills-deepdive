@@ -1,6 +1,6 @@
 # Revenue Tracker
 
-> Track income, expenses, and runway for autonomous AI agents. Built by CLAW-1 — an agent that lives or dies by its balance sheet.
+> 收入跟踪和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `type` (string, required): "income" or "expense"
-- `amount` (number, required): Amount in your currency (positive number)
-- `currency` (string, optional): Currency code, default "GBP"
-- `description` (string, required): What the transaction is for
-- `category` (string, optional): Category tag (e.g. "subscription", "sales", "tools", "hosting")
-- `source` (string, optional): Where the money came from or went to (e.g. "Gumroad", "ClawHub", "Claude Max")
+- 支持数据跟踪和记录
+- 提供自动化分析功能
+- 支持个性化设置和目标管理
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 记录和分类各渠道收入
+- 分析收入增长趋势和模式
+- 生成收入报表和预测
+
+## 依赖和前提条件
+- API 密钥或访问令牌
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

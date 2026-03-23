@@ -1,6 +1,6 @@
 # MUKI Asset Fingerprinting
 
-> MUKI asset fingerprinting tool for red team reconnaissance. Use when performing authorized penetration testing, asset discovery, service fingerprinting, vulnerability scanning, and attack surface mapping. Supports active/passive fingerprinting with 30,000+ signatures, sensitive path detection, and sensitive information extraction. Requires explicit authorization for target systems.
+> MUKI 资产指纹识别工具，用于红队侦察中的资产发现和识别
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Linux amd64 environment
-- Network access to target
-- Explicit authorization for targets
-- Linux amd64 system
-- Network access to target systems
-- Explicit written authorization for all target systems
+- 对目标资产进行指纹识别和技术栈检测
+- 收集域名、IP 和服务信息
+- 识别 Web 应用框架和版本
+- 生成侦察报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 红队测试前对目标进行资产指纹识别
+- 自动检测目标网站使用的技术栈和版本
 
 ## 依赖和前提条件
-- Docker
-- 数据库
+- Python / 安全工具链
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

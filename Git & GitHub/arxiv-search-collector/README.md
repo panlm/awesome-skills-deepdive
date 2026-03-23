@@ -1,39 +1,36 @@
 # Arxiv Search Collector
 
-> "Model-driven arXiv retrieval workflow for building a paper set with a manual language parameter: initialize a run, fetch metadata for each model-designed query, let the model filter irrelevant items per query by keep indexes, then merge and dedupe into per-paper metadata directories. Use when query planning and relevance filtering should be done by the model, not rule-based heuristics."
+> 模型驱动的 arXiv 论文检索工作流，由 AI 规划查询策略并筛选相关论文，构建高质量论文集
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Arxiv Search Collector |
 | **作者** | xukp20 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/xukp20-arxiv-search-collector |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xukp20/arxiv-search-collector |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `--language` must be set manually for each collection run.
-- Use the same language value across all collector scripts for consistency.
-- If `--language` is non-English (for example `Chinese`), generated markdown files are written in that language:
-- `task_meta.md`
-- `query_results/<label>.md`
-- `<arxiv_id>/metadata.md`
+- 初始化检索任务，设置主题、关键词、分类、目标论文数量和回溯天数
+- 模型自主设计多个检索查询（支持 OR/AND 语法），按语义分组扩展覆盖面
+- 批量执行查询（内置速率限制、指数退避重试、最大 60 条/查询）
+- 模型逐查询审阅结果，通过 keep index 筛选相关论文
+- 自动合并和去重所有保留的论文，生成统一的论文集
+- 支持多语言输出（如中文），元数据和摘要以指定语言生成
+- 为每篇论文创建独立元数据目录和汇总索引
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 针对特定研究方向系统性收集最新 arXiv 论文
+- 利用 AI 的语义理解能力设计查询策略，避免遗漏相关工作
+- 构建研究综述所需的论文基础数据集
 
 ## 依赖和前提条件
-- Python / pip
+- `python3`
+- 需要网络访问 arXiv API
+- 脚本位于 `scripts/` 目录（init_collection_run.py、fetch_queries_batch.py 等）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `agents`
-- `references`
-- `scripts`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

@@ -1,36 +1,36 @@
 # Mediator
 
-> Intercept and filter communications from difficult contacts. Strips emotion, extracts facts, drafts neutral responses. Use when setting up communication filtering for specific contacts, configuring the mediator, or processing intercepted messages. Triggers on "mediator", "intercept messages", "filter communications", "difficult contact", or requests to handle messages from someone the user doesn't want to deal with directly.
+> 拦截和过滤来自棘手联系人的通讯，剥离情绪、提取事实、草拟中立回复的"情感防火墙"。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Mediator |
 | **作者** | dylntrnr |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/dylntrnr-mediator |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dylntrnr/mediator |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- name: "Ex Partner"
-- name: "Difficult Client"
-- intercept: Archive/hide original, only show summary. User never sees raw emotional content.
-- assist: Show original but also provide summary and response suggestions.
-- facts-only: Extract only actionable items, requests, deadlines. No emotion.
-- neutral: Rewrite the message in neutral tone, preserving all content.
+- 拦截指定联系人的邮件和消息
+- 剥离情绪化内容，仅呈现事实信息
+- 帮助起草平和、中立的回复
+- 支持"拦截"和"辅助"两种模式
+- 可配置多个联系人，每人独立设置处理策略
+- 支持邮件、iMessage 等多种通信渠道
+- 可选存档原始消息，通过 Telegram/Slack 发送摘要通知
+- 提供 CLI 脚本管理联系人和处理消息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要与难以相处的人（前任、棘手客户）保持必要沟通时，过滤情绪化内容
+- 在高压沟通场景中获得中立的事实摘要和回复建议
+- 自动化处理特定联系人的消息，减少情绪消耗
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- 配置文件：`~/.clawdbot/mediator.yaml`
+- 可选：Telegram/Slack webhook 用于通知推送
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +49,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；持久化机制：涉及定时或后台任务
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

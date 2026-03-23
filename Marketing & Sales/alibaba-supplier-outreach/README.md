@@ -1,31 +1,32 @@
 # Alibaba Supplier Outreach
 
-> |
+> 阿里巴巴供应商外联工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Alibaba Supplier Outreach |
 | **作者** | blockchainhb |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/blockchainhb-alibaba-supplier-outreach |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/blockchainhb/alibaba-supplier-outreach |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "find suppliers for [product]" / "source [product]"
-- "contact suppliers for [product]"
-- "check my Alibaba messages" / "any replies?"
-- "follow up with [supplier]" / "negotiate with suppliers"
-- Chrome open with Alibaba.com, user must be logged in
-- `mcp__launchfast__supplier_research` tool available
+- 阿里巴巴供应商搜索和筛选
+- 供应商批量联系管理
+- 外联模板和自动化
+- 供应商信息管理
 
 ## 使用场景
-- 自动化邮件营销
-- 管理外联和跟进
-- 个性化营销邮件生成
+- 在阿里巴巴平台上批量搜索和联系潜在供应商
+- 自动化供应商开发和沟通流程
+
+## 依赖和前提条件
+- Chrome 浏览器
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,38 +1,32 @@
 # Read Optimizer
 
-> Optimizes file reading operations by providing smarter read strategies (head/tail/grep/diff) to reduce token usage and latency. Use this when you need to inspect large files efficiently without dumpin
+> 通过智能读取策略（头尾读取/正则匹配/差异对比）优化大文件读取，减少 Token 消耗和延迟
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Read Optimizer |
 | **作者** | autogame-17 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/autogame-17-read-optimizer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/autogame-17/read-optimizer |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `--file <path>`: Path to the file.
-- `--mode <smart|grep|diff>`: Operation mode (default: smart).
-- `--lines <number>`: Number of lines for head/tail (default: 50).
-- `--pattern <string>`: Regex pattern for grep mode.
-- `--context <number>`: Context lines for grep (default: 2).
+- Smart Read 模式：同时读取文件头部和尾部指定行数，适合日志和大型文档
+- Grep Read 模式：按正则表达式匹配读取特定行，支持上下文行数控制
+- Diff Read 模式：仅读取自上次 Git 提交以来的变更行
+- 可配置参数：文件路径、模式、行数、匹配模式、上下文行数
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 高效检查大型日志文件，只看头尾关键信息而不加载全文
+- 在代码库中按错误关键词快速定位问题行
+- 查看文件自上次提交以来的变更内容
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
+- Git（Diff 模式需要在 Git 仓库中使用）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `index.js`
-- `package.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

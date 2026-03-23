@@ -1,6 +1,6 @@
 # Greek Compliance Aade
 
-> Greek tax compliance with AADE/TAXIS integration — VAT, payroll, EFKA, municipal taxes, stamp duty. Human confirmation for all submissions.
+> 希腊税务合规工具，集成 AADE/TAXIS 系统处理增值税、薪资、社保等
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,20 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- AADE credentials are only used when submitting filings to the government portal
-- All submissions require human approval (four-eyes workflow: preparer ≠ approver)
-- Filing preparation, VAT calculation, and report generation work fully offline
-- Credentials are never stored on disk — always use environment variables
-- Greek Law First: All calculations and processes comply with current Greek tax and labor law
-- AADE Ready: All data formatted for direct TAXIS platform submission
+- 处理希腊增值税（VAT）申报和计算
+- 集成 AADE/TAXIS 税务系统
+- 管理薪资和 EFKA 社保缴纳
+- 处理市政税和其他地方税种
+- 生成合规性报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 希腊企业的月度增值税申报和提交
+- 计算和管理员工薪资及社保缴纳
 
 ## 依赖和前提条件
-- Node.js / npm
+- AADE/TAXIS 系统凭证
 
-## 包含文件
-- `EVALS.json`
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +43,4 @@
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，5 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Hedera Transaction Builder
 
-> Build and sign Hedera transactions. Use for: (1) Creating HBAR transfers, (2) Token operations, (3) Smart contract calls, (4) Submitting to Hedera network.
+> 构建和执行 Hedera 区块链交易的智能助手
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Mainnet: `https://mainnet.hashio.io/api`
-- Testnet: `https://testnet.hashio.io/api`
-- Hbar: 1 HBAR = 100,000,000 tinybars
-- Account ID: Format `shard.realm.num` (e.g., `0.0.12345`)
-- Transaction Fee: Small HBAR fee for each transaction
-- Transaction Valid Duration: 180 seconds by default
+- 支持在 Hedera 网络上构建多种类型的交易
+- 提供 HBAR 代币转账功能
+- 支持 HCS（Hedera 共识服务）消息提交
+- 支持 HTS（Hedera 代币服务）代币操作
+- 提供交易预览和确认机制
+- 自动处理交易签名和提交流程
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 代理在 Hedera 网络上执行代币转账
+- 向 Hedera 共识服务提交消息用于去中心化应用
+- 自动化 Hedera 区块链上的代币管理操作
 
 ## 依赖和前提条件
-- Node.js / npm
+- Hedera 账户 ID 和私钥
+- Hedera 网络访问
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

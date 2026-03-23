@@ -1,34 +1,33 @@
 # landing-page-roast
 
-> Audit a landing page for clarity, trust, offer strength, and conversion friction; return prioritized fixes and copy rewrites.
+> 从清晰度、信任感、优惠力度和转化摩擦等维度审计落地页，输出优先级修复建议和文案重写。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | landing-page-roast |
 | **作者** | xammarie |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/xammarie-landing-page-roast |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xammarie/landing-page-roast |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Page URL or pasted page copy
-- Target audience
-- Primary conversion action
-- Price point / offer details
-- Is the outcome obvious in 5 seconds?
-- Is it clear who this is for (and not for)?
+- 从 6 个维度审计落地页：首屏清晰度、受众匹配、优惠力度、信任层、摩擦点、异议处理
+- 输出 0-10 分的整体评分
+- 列出 Top 5 影响最大的转化障碍
+- 提供 30 分钟内可完成的速效优化建议
+- 重写标题、副标题和 CTA 区块
+- 生成 3 个 CTA 变体和 A/B 测试矩阵
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 落地页转化率低时，快速诊断问题并获得具体修复方案
+- 上线前对落地页进行全面转化审计
+- 为 A/B 测试生成多个文案变体
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无外部依赖（需提供页面 URL 或页面文案内容）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +46,4 @@
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

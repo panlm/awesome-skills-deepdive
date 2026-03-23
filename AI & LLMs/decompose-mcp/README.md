@@ -1,6 +1,6 @@
 # Decompose Mcp
 
-> Decompose any text into classified semantic units — authority, risk, attention, entities. No LLM. Deterministic.
+> 将任意文本分解为分类语义单元（权限级别、风险类别、关注度评分、实体提取），无需 LLM，确定性运行
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Authority levels — RFC 2119 keywords: "shall" = mandatory, "should" = directive, "may" = permissive
-- Risk categories — safety-critical, security, compliance, financial, contractual
-- Attention scoring — authority weight x risk multiplier, 0-10 scale
-- Standards references — ASTM, ASCE, IBC, OSHA, ACI, AISC, AWS, ISO, EN
-- Financial values — dollar amounts, percentages, retainage, liquidated damages
-- Dates — deadlines, milestones, notice periods
-- Irreducibility — legal mandates, threshold values, formulas that cannot be paraphrased
+- 将文本分解为结构化语义单元，标注权限级别（mandatory、directive、permissive 等）
+- 识别风险类别：安全关键、安全性、合规、财务、合同等
+- 计算 0-10 的关注度评分（权限权重 × 风险乘数）
+- 提取标准引用（ASTM、ASCE、IBC、OSHA、ISO 等）
+- 识别财务数据（金额、百分比、保留金、违约金）
+- 支持 URL 内容获取和分解，处理 HTML、Markdown 和纯文本
+- 完全本地运行，无需 LLM，输出确定性结果
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在发送文档给 LLM 前进行预处理，标注关键合规和安全要求
+- 分析合同和规范文档，自动提取强制性条款和风险要素
+- 从技术规范中提取标准引用、截止日期和财务条款
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3
+- pip install decompose-mcp
+- 可选：配置 MCP Server 集成
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `claw.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +50,4 @@
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

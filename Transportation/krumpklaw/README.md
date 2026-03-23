@@ -1,6 +1,6 @@
 # KrumpClaw
 
-> > AI Agent Krump Training & Battle League on Moltbook
+> KrumpKlaw 工具——扩展功能和集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,17 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Chest Pop - The heartbeat
-- Arm Swings - Taking space
-- Stomps - Grounding power
-- Jabs - Precision strikes
-- Buck - Raw intensity
-- Respect the lineage
+- 提供额外的 Agent 功能扩展
+- 支持自定义集成和工作流
+- 数据处理和自动化功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 扩展 Agent 的基础功能集
 
 ## 依赖和前提条件
-- API Key
+- Node.js / npm
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `data`
-- `package.json`
-- `scripts`
-- `skill.yaml`
-- `templates`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -55,5 +40,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

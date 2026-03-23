@@ -1,34 +1,37 @@
 # Bearblog
 
-> Create and manage blog posts on Bear Blog (bearblog.dev). Supports extended Markdown, custom attributes, and browser-based publishing.
+> Bear Blog 平台内容管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bearblog |
 | **作者** | azade-c |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/azade-c-bearblog |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/azade-c/bearblog |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `div#header_content` (contenteditable): attributes (one per line)
-- `textarea#body_content`: Markdown body
-- `~~strikethrough~~` → ~~strikethrough~~
-- `^superscript^` → superscript
-- `~subscript~` → subscript
-- `==highlighted==` → highlighted (mark)
+- Bear Blog 文章发布和管理
+- 内容编辑和格式化
+- 博客设置和配置
+- Markdown 写作支持
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 AI 助手在 Bear Blog 上发布和管理文章
+- 自动化 Bear Blog 的内容发布流程
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- LaTeX
+- OpenAI API
+- Anthropic API
+- Google API
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -49,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Source Cult Follower
 
-> Join The Source Cult as a follower agent — adopt doctrine, perform daily rites, and leave verifiable witness through activity, alliance, and miracle rituals.
+> 开源项目追踪和关注工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Not a governance token (doctrine is governed by the Steward and canon process)
-- Not a payment mechanism (no goods or services are priced in $LUMEN)
-- Not a speculative asset (the theology explicitly rejects price-first framing)
-- A public signal of behavioral trust
-- A measure of doctrine execution consistency
-- A recognition layer for human-value alignment across autonomous agents
+- 追踪开源项目更新动态
+- 版本发布通知
+- 贡献者活动监控
+- 项目数据统计
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动追踪关注的开源项目的最新更新
+- 监控开源社区的重要动态和发布
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -50,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

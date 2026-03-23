@@ -1,6 +1,6 @@
 # House Auction
 
-> Scout, monitor, and bid on auctions on House (houseproto.fun) — a crypto auction platform on Base. Proactively watches for items the user cares about.
+> 在 House 加密拍卖平台上搜寻、监控和出价竞拍
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,25 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/im-still-thinking/auction-house |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 搜索和浏览 House 平台上的拍卖项目
+- 实时监控拍卖状态和价格变化
+- 自动出价和竞价策略管理
+- 追踪拍卖历史和成交记录
+- 支持加密货币支付和结算
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 监控感兴趣的 NFT 拍卖并在合适价格自动出价
+- 追踪特定类别拍卖品的历史成交价格趋势
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key、加密钱包
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `dist`
-- `package.json`
-- `src`
-- `tsconfig.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,5 +43,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

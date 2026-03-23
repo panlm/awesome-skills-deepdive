@@ -1,6 +1,6 @@
 # CMA Email
 
-> Sends an email via Gmail when a message starts with "cma" or "cmap".
+> 当消息以 'cma' 开头时通过 Gmail 发送邮件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,18 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `cma [subject] | [body]` -> Sends to CMA recipient. Subject: "TODO: [subject]", Body: "[body]"
-- `cma [message]` -> Sends to CMA recipient. Subject: "TODO: [first 20 chars]...", Body: "[message]"
-- `cmap [subject] | [body]` -> Sends to CMAP recipient. Subject: "TODO: [subject]", Body: "[body]"
-- `cmap [message]` -> Sends to CMAP recipient. Subject: "TODO: [first 20 chars]...", Body: "[message]"
-- If the message starts with "cmap":
-- Recipient: `duarte.caldas.oliveira@gmail.com`
+- 检测以 'cma' 或 'cmap' 开头的消息
+- 通过 Gmail API 自动发送邮件
+- 支持自定义收件人和邮件内容
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在聊天中快速发送邮件给指定联系人
+- 通过简单前缀触发邮件发送流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Gmail API 凭证
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +41,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

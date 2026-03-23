@@ -1,6 +1,6 @@
 # Intervals Icu Api
 
-> Complete guide for accessing and managing training data with the intervals.icu API. Use when working with Intervals.icu athlete profiles, activities, workouts, events, wellness data, and training plans. Covers authentication, retrieving activities with combined data fields, managing calendar events with planned workouts, and creating/updating training data. Includes curl examples for all major operations.
+> Intervals.icu 运动训练分析 API
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Get Activities: Retrieve completed workouts with power, heart rate, and load data
-- Manage Calendar: Create, update, and delete planned workouts on your training calendar
-- Combine Data: Use field selectors to pull activities with contextual metrics (fitness, fatigue, zones)
-- Log Wellness: Track sleep, soreness, resting HR, and recovery metrics
-- Upload Data: Create manual activities and bulk-import training sessions
-- Export Workouts: Download planned workouts in device formats (.zwo, .mrc, .erg, .fit)
+- Activities: Completed workouts with actual data (GPS, power, HR). Retrieved from `/athlete/{id}/activities`
+- Events: Planned workouts on your calendar. Retrieved from `/athlete/{id}/events`
+- 200: Success
+- 201: Created successfully (activities, events)
+- 400: Bad request (invalid parameters)
+- 401: Unauthorized (invalid API key or token)
+- 404: Not found (invalid IDs)
+- 429: Rate limited (too many requests)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 获取 Intervals.icu 的训练数据
+- 分析运动表现和训练负荷
+- 同步训练计划和实际执行情况
 
 ## 依赖和前提条件
 - API Key
@@ -34,7 +36,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

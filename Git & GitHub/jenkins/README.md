@@ -1,39 +1,35 @@
 # Jenkins
 
-> Interact with Jenkins CI/CD server via REST API. Use when you need to trigger builds, check build status, view console output, manage jobs, or monitor Jenkins nodes and queue. Supports deployment to different Jenkins instances via environment variables.
+> 通过 REST API 与 Jenkins CI/CD 服务器交互，触发构建、查看状态和管理任务。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Jenkins |
 | **作者** | guoway |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/guoway-jenkins |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/guoway/jenkins |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `JENKINS_URL` (example: `https://jenkins.example.com`)
-- `JENKINS_USER` (your Jenkins username)
-- `JENKINS_API_TOKEN` (API token from Jenkins user settings)
-- URL and credentials are variables by design for cross-environment deployment.
-- API responses are output as JSON.
-- For parameterized builds, use `--params` with JSON string.
+- 触发 Jenkins 构建任务
+- 查看构建状态和控制台输出
+- 管理和列出 Jenkins Job
+- 监控 Jenkins 节点和构建队列
+- 支持通过环境变量配置多个 Jenkins 实例
+- 查看构建历史和构建参数
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 AI Agent 中直接触发和监控 CI/CD 构建流水线
+- 快速查看某个构建的失败原因和控制台日志
+- 管理多个 Jenkins 实例的部署任务
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- 环境变量：`JENKINS_URL`（如 `https://jenkins.example.com`）
+- 环境变量：`JENKINS_USER`（Jenkins 用户名）
+- 环境变量：`JENKINS_API_TOKEN`（Jenkins API 令牌）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +48,4 @@
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

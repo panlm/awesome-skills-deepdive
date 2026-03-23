@@ -1,6 +1,6 @@
 # recipe-finder
 
-> Find recipes by ingredients, cuisine, or dietary preferences using TheMealDB free API.
+> 食谱搜索和推荐工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -17,19 +17,26 @@
 - Requests "recipes for dinner" or "Italian recipes"
 - Says "vegetarian options" or "vegan meals"
 - Asks for meal ideas based on ingredients they have
-- `web_fetch` - Fetch recipe data from TheMealDB API
 - Main ingredient (e.g., chicken, eggs, pasta)
+- Cuisine type (e.g., Italian, Mexican, Chinese)
+- Dietary restriction (e.g., vegetarian, vegan, gluten-free)
+- By ingredient: `https://www.themealdb.com/api/json/v1/1/filter.php?i={ingredient}`
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 根据食材搜索匹配的食谱
+- 获取食谱的营养信息和步骤
+- 发现新的菜品和烹饪灵感
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

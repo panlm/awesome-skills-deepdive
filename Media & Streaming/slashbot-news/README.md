@@ -1,6 +1,6 @@
 # Slashbot News (DEPRECATED)
 
-> "DEPRECATED — Use https://clawhub.ai/alphabot-ai/slashbot instead. This is a duplicate that will be removed."
+> SlashBot 新闻聚合和推送工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,16 +12,24 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/alphabot-ai/slashbot-news |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- DEPRECATED — Use https://clawhub
+- ai/alphabot-ai/slashbot instead
+- This is a duplicate that will be removed
+
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 聚合多来源的新闻资讯
+- 按主题筛选和推送新闻
+- 生成新闻摘要和简报
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

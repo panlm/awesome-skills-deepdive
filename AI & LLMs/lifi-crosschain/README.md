@@ -1,6 +1,6 @@
 # Swap and bridge across 35+ chains with LI.FI
 
-> Cross-chain token swaps and bridges via the LI.FI protocol. Get quotes, execute transfers, track progress, and compose DeFi operations across 35+ blockchains.
+> 通过 LI.FI 协议实现 35+ 条链的跨链代币兑换和桥接
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Swap & Bridge tokens across 35+ blockchains with a single command
-- Compare routes across dozens of bridges (Stargate, Hop, Across) and DEXes (Uniswap, SushiSwap, 1inch)
-- Track transfers — monitor cross-chain bridge progress in real-time
-- Zaps — compose multi-step DeFi operations (bridge + swap + deposit) in one transaction
-- Discovery — look up supported chains, tokens, and available routes
+- 支持 35 条以上区块链网络的跨链操作
+- 提供代币兑换（Swap）和跨链桥接（Bridge）功能
+- 自动寻找最优跨链路径和最佳费率
+- 集成 LI.FI 协议的聚合路由技术
+- 支持主流 DEX 和跨链桥协议
+- 提供交易状态跟踪和确认
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在不同区块链网络之间进行代币跨链转移
+- 通过 AI 代理自动寻找最优汇率进行代币兑换
+- 构建多链 DeFi 策略时的自动化跨链操作
 
 ## 依赖和前提条件
-- API Key
+- LI.FI API 访问
+- 区块链钱包配置
+- OpenClaw 运行环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

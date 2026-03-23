@@ -1,36 +1,38 @@
 # Sentiet ORB
 
-> A background agent that generates a daily life prediction by analyzing local data and social signals.
+> 后台智能体，通过分析本地数据（日历、邮件、习惯等）生成每日个性化生活预测与建议
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Sentiet ORB |
 | **作者** | invelene |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/invelene-daily-oracle |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/invelene/daily-oracle |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Silent Data Gathering: Reads your local `chat.db` (iMessage) and Calendar without specialized API keys.
-- Privacy First: All processing happens locally within the OpenClaw agent's context. No personal data is sent to the cloud
-- Anti-Bot Jitter: Randomizes execution time to avoid detection patterns when scraping public social data.
-- System Notifications: Delivers predictions natively to your desktop notification center.
-- Operating System: macOS (Recommended for `chat.db` and `osascript` support) or Linux. _Windows users may need to adapt p
-- OpenClaw: v0.9.0 or higher.
+- 分析本地数据生成每日预测
+- 结合日历和待办事项推断日程建议
+- 基于历史模式的行为预测
+- 个性化生活建议和提醒
+- 运势风格的趣味化呈现
+- 后台自动运行无需手动触发
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每天获取基于个人数据的生活洞察
+- 趣味性的每日运势和建议
+- 发现日常生活中的规律和模式
 
 ## 依赖和前提条件
-- macOS
-- 数据库
+- OpenClaw 环境已配置
+- 本地数据源（日历、邮件等）已连接
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,7 +50,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，2 项中风险。持久化机制：设置系统级持久化
 
 ---

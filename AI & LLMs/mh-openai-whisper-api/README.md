@@ -1,6 +1,6 @@
 # MH openai-whisper-api
 
-> Transcribe audio via OpenAI Audio Transcriptions API (Whisper).
+> 通过 OpenAI Audio Transcriptions API（Whisper）进行云端语音转文字
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Model: `whisper-1`
-- Output: `<input>.txt`
+- 使用 OpenAI 官方 Whisper API 进行高质量语音转录
+- 通过 curl 调用 /v1/audio/transcriptions 端点
+- 默认使用 whisper-1 模型
+- 自动输出 <input>.txt 格式的转录文本
+- 内置转录脚本，一条命令即可完成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速将语音消息或录音转换为文字
+- 批量处理音频文件的云端转录任务
 
 ## 依赖和前提条件
-- API Key
+- OPENAI_API_KEY 环境变量
+- curl 命令行工具
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +46,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

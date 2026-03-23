@@ -1,6 +1,6 @@
 # health-sync
 
-> Analyze synced health data across Oura, Withings, Hevy, Strava, WHOOP, and Eight Sleep.
+> 健康数据多平台同步工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- workspace/health-sync/health-sync.toml
-- workspace/health-sync/.health-sync.creds
-- workspace/health-sync/health.sqlite
-- User asks for health-sync setup, auth, sync, provider status, or remote bootstrap onboarding
-- User asks about sleep, recovery, training, activity, your health, or cross-provider trends
+- Eight Sleep
 - How did I sleep last night?
+- How was my last workout?
+- How did my resting heart rate change during the year?
+- What trends are you seeing in my recovery, sleep, and training?
+- What useful insights or next steps should I focus on?
+- Remote onboarding imports encrypted archives that contain provider credentials/tokens
+- Finish flow writes decrypted secrets to local files on the bot host
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 在多个健康平台之间同步数据
+- 统一管理分散的健康数据
+- 确保健康记录的一致性
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -35,7 +37,7 @@
 - `agents`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

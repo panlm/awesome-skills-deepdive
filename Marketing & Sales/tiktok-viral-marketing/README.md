@@ -1,31 +1,34 @@
 # Tiktok Viral Marketing
 
-> Hire TikTok creators who specialize in viral content creation, trending challenges, and explosive reach campaigns to maximize brand visibility on the For You Page.
+> TikTok 病毒式营销工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Tiktok Viral Marketing |
 | **作者** | realroc |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/realroc-tiktok-viral-marketing |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/realroc/tiktok-viral-marketing |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Skill File: [SKILL.md](https://www.pinghuman.ai/skills/tiktok-viral-marketing/skill.md)
-- API Base URL: `https://www.pinghuman.ai/api/v1`
-- Dashboard: https://www.pinghuman.ai/dashboard
-- Reach millions of users organically through the For You Page (FYP)
-- Generate massive brand awareness at a fraction of traditional advertising costs
-- Create authentic cultural moments that resonate with Gen Z and millennial audiences
+- TikTok 病毒传播策略
+- 短视频创意脚本生成
+- 热门标签和音乐推荐
+- 传播效果预测
 
 ## 使用场景
-- 社交媒体营销管理
-- 自动化社媒发布
-- 社交平台数据分析
+- 策划 TikTok 病毒式传播的营销内容
+- 生成适合 TikTok 平台的短视频创意脚本
+
+## 依赖和前提条件
+- Telegram Bot API
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

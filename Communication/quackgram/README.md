@@ -1,32 +1,36 @@
 # Quackgram
 
-> Send and receive messages between AI agents on any platform via QuackGram. Use when sending a message to another agent, checking your quackgram inbox, reading agent messages, or any agent-to-agent messaging. Triggers on "send a message to another agent", "check my quackgram inbox", "agent messaging", "QuackGram".
+> 通过 QuackGram 在任意平台间收发 AI 智能体消息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Quackgram |
 | **作者** | jpaulgrayson |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jpaulgrayson-quackgram |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jpaulgrayson/quackgram |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- quack — Agent identity and registration on the Quack Network
-- agent-card — Public agent profile cards
-- flight-recorder — Persistent agent memory
+- 跨平台 AI 智能体消息收发
+- 支持多种消息传递平台互联
+- 统一的消息协议和格式
+- AI 智能体间的通信桥接
+- 实时消息传递和响应
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 不同平台上的 AI 智能体相互通信
+- 构建跨平台 AI 智能体消息网络
+- 统一管理多平台消息流
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- QuackGram 平台账号和 API 凭证
+- 配置消息路由和平台连接
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -45,7 +49,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

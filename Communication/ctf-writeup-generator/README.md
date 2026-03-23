@@ -1,39 +1,39 @@
 # CTF Writeup Generator
 
-> Automatically generate professional CTF writeups from solving sessions with flag detection, challenge categorization, and proper markdown formatting
+> 自动从 CTF 竞赛解题过程生成专业的 Writeup 报告，包含完整的解题思路和技术细节
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | CTF Writeup Generator |
 | **作者** | akhmittra |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/akhmittra-ctf-writeup-generator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/akhmittra/ctf-writeup-generator |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- 🎯 Automatic Flag Detection: Recognizes common CTF flag formats (CTF{}, HTB{}, SHAASTRA{}, etc.)
-- 📂 Smart Categorization: Auto-categorizes challenges (Web, Binary, Crypto, Forensics, etc.)
-- 📝 Professional Formatting: Generates markdown with proper syntax highlighting
-- 🛠️ Tool Recognition: Identifies and documents tools used during the solve
-- 🎨 Multiple Templates: Academic, speedrun, tutorial, and portfolio styles
-- 📤 Export Options: Markdown, PDF, HTML formats
+- 自动记录和整理解题步骤
+- 生成结构化的 Writeup 报告
+- 支持多种 CTF 题目类型（Web、Pwn、Crypto、Reverse 等）
+- 自动插入代码片段和截图说明
+- Markdown 格式输出便于分享
+- 支持团队协作编辑报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- CTF 竞赛后快速生成解题报告
+- 安全团队知识沉淀与技术分享
+- CTF 学习者整理练习笔记
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
-- Homebrew
+- OpenClaw 环境已配置
+- CTF 解题过程的原始记录或终端日志
 
 ## 包含文件
 - `ORIGINAL_README.md`
 - `QUICKSTART.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `example_writeup.md`

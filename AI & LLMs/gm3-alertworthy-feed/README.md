@@ -1,6 +1,6 @@
 # GM3 Alertworthy Feed
 
-> Read-only access to the GM3 Alertworthy feed, providing real-time token market data for analysis agents.
+> 智能过滤和推送值得关注的新闻和信息流
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- fdv_usd (current FDV)
-- fdv_at_alert (FDV at first alert)
-- net_sol_inflow
-- buy_count / sell_count
-- capital_efficiency
-- market structure flags
+- 基于 AI 智能判断信息的重要程度和值得关注度
+- 从多个信息源聚合内容并进行过滤
+- 自动识别和推送高价值、值得警觉的新闻
+- 支持自定义关注主题和过滤规则
+- 提供简洁的摘要和重要性评分
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日自动筛选重要新闻，避免信息过载
+- 监控特定领域的关键动态和突发事件
+- 为决策者提供经过 AI 筛选的高质量信息流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +46,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Links to PDFs
 
-> Scrape documents from Notion, DocSend, PDFs, and other sources into local PDF files. Use when the user needs to download, archive, or convert web documents to PDF format. Supports authentication flows for protected documents and session persistence via profiles. Returns local file paths to downloaded PDFs.
+> 将网页链接批量转换为 PDF 文档
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Direct PDF links - Downloads PDF directly
-- Notion pages - Exports Notion page to PDF
-- DocSend documents - Handles DocSend viewer
-- LLM fallback - Uses Claude API for any other webpage
-- Documents: `https://docsend.com/view/{id}` or `https://docsend.com/v/{id}`
-- Folders: `https://docsend.com/view/s/{id}`
+- 抓取网页内容并保存为 PDF
+- 支持批量 URL 处理
+- 保持网页排版和样式
+- 自定义 PDF 输出选项
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将收藏的文章链接批量保存为 PDF 离线阅读
+- 归档网页内容为 PDF 文档
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
+- npm
+- Anthropic API
+- Notion API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

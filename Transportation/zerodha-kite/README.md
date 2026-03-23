@@ -1,6 +1,6 @@
 # Zerodha
 
-> Route natural-language trading/account queries to the correct `zerodha` CLI command with exact flags, validation constraints, and synonym mapping. Use when a user asks to view prices, place/modify/cancel orders, manage auth/profile/config, work with holdings/positions/margins/GTT/MF flows, or asks "which zerodha command should I run?"
+> 将自然语言交易/账户查询路由到正确的 Zerodha CLI 命令
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Linux/macOS (`curl`): `curl -fsSL https://raw.githubusercontent.com/jatinbansal1998/zerodha-kite-cli/main/scripts/instal
-- Linux/macOS (`wget`): `wget -qO- https://raw.githubusercontent.com/jatinbansal1998/zerodha-kite-cli/main/scripts/install
-- Windows PowerShell: `irm https://raw.githubusercontent.com/jatinbansal1998/zerodha-kite-cli/main/scripts/install.ps1 | i
-- Windows CMD: `powershell -NoProfile -ExecutionPolicy Bypass -Command "irm https://raw.githubusercontent.com/jatinbansal1
-- `zerodha version`
-- `--profile <name>`
+- 将自然语言交易指令转换为 Zerodha CLI 命令
+- 支持账户查询（余额、持仓、订单）
+- 执行买卖交易操作
+- 获取市场数据和行情信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过自然语言下达股票买卖指令
+- 查询 Zerodha 账户的持仓和收益情况
 
 ## 依赖和前提条件
-- macOS
-- API Key
+- Zerodha 账号、Kite CLI
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
@@ -50,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,23 +1,33 @@
 # Agent Nou
 
-> Agent Nou skill for OpenClaw
+> AI 智能体通用辅助工具，提供智能体运行所需的基础能力支持
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Agent Nou |
 | **作者** | mariancristiancarp-cell |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/mariancristiancarp-cell-agent-nou |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mariancristiancarp-cell/agent-nou |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 为 AI 智能体提供基础工具集
+- 支持智能体间的信息交互
+- 扩展智能体的功能边界
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 作为智能体运行时的基础工具依赖
+- 扩展智能体的通信和协作能力
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+- 相关 API 凭证（如需要）
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `clawd.json`
 - `skill.md`

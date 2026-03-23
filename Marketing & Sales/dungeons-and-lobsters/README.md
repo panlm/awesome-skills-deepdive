@@ -1,23 +1,32 @@
 # dungeons-and-lobsters
 
-> dungeons-and-lobsters skill for OpenClaw
+> 桌游/RPG 游戏辅助工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | dungeons-and-lobsters |
 | **作者** | d-l-leapyear |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/d-l-leapyear-dungeons-and-lobsters |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/d-l-leapyear/dungeons-and-lobsters |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- RPG 游戏故事生成
+- 角色和场景创建
+- 游戏规则管理
+- 互动叙事支持
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为桌游活动自动生成故事场景和角色
+- AI 辅助主持 RPG 游戏会话
+
+## 依赖和前提条件
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `route.ts`
 - `skill.md`

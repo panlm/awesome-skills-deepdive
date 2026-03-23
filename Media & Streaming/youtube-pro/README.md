@@ -1,6 +1,6 @@
 # YouTube Pro
 
-> Advanced YouTube analysis, transcripts, and metadata extraction.
+> YouTube 视频深度分析、转录和元数据提取
 
 ## 基本信息
 | 项目 | 内容 |
@@ -15,21 +15,27 @@
 ## 功能概述
 - Summary: `summarize "URL"`
 - Transcript: `summarize "URL" --youtube auto --extract-only`
-- Fetch transcript via `summarize`.
-- Use `gemini` (MiniPC) to analyze the core message, audience sentiment (via comments if available), and practical takeawa
-- Use `yt-dlp` (MiniPC) to download specific segments.
-- Use `ffmpeg` to extract frames for visual analysis.
+- Fetch transcript via `summarize`
+- Use `gemini` (MiniPC) to analyze the core message, audience sentiment (via comments if available), and practical takeaways
+- Use `yt-dlp` (MiniPC) to download specific segments
+- Use `ffmpeg` to extract frames for visual analysis
+- Brevity: Summarize long transcripts into "핵심 요약 5줄" first
+- Actionable: Always add a "미스 김의 제언" (Miss Kim's Suggestion) at the end
 
 ## 使用场景
-- 视频内容管理和下载
-- 影视信息查询
-- 视频平台自动化操作
+- 分析 YouTube 视频的内容和指标
+- 提取视频转录文本和字幕
+- 下载和处理 YouTube 视频片段
+
+## 依赖和前提条件
+- 数据库
+- FFmpeg
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

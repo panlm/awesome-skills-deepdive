@@ -1,6 +1,6 @@
 # open-stellar-wallet
 
-> Interact with the Stellar blockchain — manage keys, networks, and smart contracts using the Stellar CLI.
+> Stellar 区块链操作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,15 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sixela33/open-stellar |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- Stellar 区块链数据查询
+- 交易构建和提交
+- 账户信息管理
+- 链上数据分析
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询 Stellar 区块链上的交易和账户信息
+- 自动化 Stellar 链上操作流程
 
 ## 依赖和前提条件
-- macOS
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -40,6 +46,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

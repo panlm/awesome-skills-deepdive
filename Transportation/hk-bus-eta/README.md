@@ -1,6 +1,6 @@
 # Hong Kong Bus ETA | 香港巴士預計到達時間
 
-> Fast, reliable Hong Kong bus ETA lookup (KMB/CTB/LWB) with fuzzy stop matching, bilingual output (zh-HK/en), and multi-route parallel queries. Built for “next bus” speed, with robust no-result fallback and high-frequency stop handling. Use for queries like next bus / ETA / arrival time at stop. 支援香港九巴/城巴/龍運實時到站、站名容錯、多線同查、尾班車/無班次 fallback，適用「下一班幾時到」「巴士幾時到站」。
+> 香港巴士到站时间查询（KMB/CTB/LWB），支持模糊站名匹配和多巴士公司
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- [Main Documentation](../README.md) - Complete user guide with installation, usage examples, and features
-- [SKILL.md](./SKILL.md) - Technical specification for AI agents
-- [Scripts Directory](./scripts/) - Python scripts for bus ETA queries
-- KMB/LWB: `https://data.etabus.gov.hk/v1/transport/kmb/`
-- Citybus: `https://rt.data.gov.hk/v2/transport/citybus/`
-- Bus Stop Data: `https://data.gov.hk/` (開放數據平台)
+- 查询九巴（KMB）、城巴（CTB）、龙运（LWB）的实时到站时间
+- 支持中英文模糊站名匹配搜索
+- 同时显示多家巴士公司的到站信息
+- 获取巴士路线和站点详细信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在香港等车时查看下一班巴士的预计到站时间
+- 搜索到达某目的地的巴士路线和换乘方案
 
 ## 依赖和前提条件
-- Python / pip
-- 数据库
+- Node.js / npm（使用公开 API）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -52,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

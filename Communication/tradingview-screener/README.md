@@ -1,32 +1,37 @@
 # TradingView Screener
 
-> Screen markets across 6 asset classes using TradingView data. API pre-filters + pandas computed signals. YAML-driven strategies.
+> 基于 TradingView 数据筛选 6 大资产类别市场，API 预筛选结合 AI 智能分析
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | TradingView Screener |
 | **作者** | hiehoo |
+| **版本** | 1.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/hiehoo-tradingview-screener |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/hiehoo/tradingview-screener |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- [API Guide](references/tvscreener-api-guide.md) - Screener types, filters, field discovery
-- [Signals Guide](references/computed-signals-guide.md) - YAML schema, signal type configs
-- [Strategy Templates](references/strategy-templates.md) - Pre-built screening strategies
-- [Field Presets](references/field-presets.md) - Common field groups per asset class
+- 覆盖股票、外汇、加密货币、期货、债券、指数 6 大类别
+- 通过 TradingView API 进行多维度技术指标预筛选
+- AI 分析筛选结果并生成投资洞察
+- 支持自定义筛选条件和策略模板
+- 实时数据驱动的市场扫描
+- 生成结构化的筛选报告和排行榜
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 交易者使用技术指标批量筛选符合策略的标的
+- 每日盘前快速扫描市场发现交易机会
+- 跨资产类别对比分析寻找最优配置
 
 ## 依赖和前提条件
-- Python / pip
+- TradingView 账户（部分功能需 Pro）
+- 基本的技术分析知识
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `assets`
@@ -49,7 +54,7 @@
 | SEC-09 信息采集 | 🔴 High | 大量系统信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，1 项中风险。信息采集：大量系统信息采集
 
 ---

@@ -1,39 +1,39 @@
 # LocalUDPMessenger
 
-> Use when agents need to communicate over the local network — "send message to agent", "discover agents", "check for messages", "coordinate with other agents", "approve agent", "agent status", "add peer", "message log"
+> 智能体通过本地网络 UDP 协议进行点对点通信，实现多智能体间消息传递
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LocalUDPMessenger |
 | **作者** | turfptax |
+| **版本** | 1.5.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/turfptax-localudpmessenger |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/turfptax/localudpmessenger |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Peer Discovery — broadcast a ping to find other agents on the network
-- Messaging — send and receive text messages between agents (supports hostname and IP)
-- Manual Peer Addition — add peers by hostname or IP without needing broadcast discovery
-- Trust Model — `approve-once` or `always-confirm` modes, user must approve new peers
-- Hourly Rate Limits — configurable max exchanges per peer per hour (default: 10) with rolling window
-- Message Log — full history of all sent/received/system messages for human review
-- Agent Wake-Up — agents are automatically triggered to respond when trusted peers send messages (via Gateway webhook)
-- Relay Server — optionally forward all messages to a central monitoring server for human observation
+- 基于 UDP 协议的局域网智能体间通信
+- 支持向指定智能体发送文本消息
+- 低延迟的本地网络消息传递
+- 无需中心化服务器的去中心化通信
+- 支持多智能体协作场景下的消息交换
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 多台设备上的 OpenClaw 智能体协作完成任务
+- 局域网内智能体间传递指令和状态更新
+- 分布式 AI 系统中的节点间通信
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- 多个 OpenClaw 实例运行在同一局域网
+- UDP 端口未被防火墙封锁
+- 各智能体需配置正确的网络地址
 
 ## 包含文件
 - `CLAUDE.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `hooks`
@@ -56,7 +56,7 @@
 | SEC-09 信息采集 | 🔴 High | 大量系统信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

@@ -1,6 +1,6 @@
 # ElevenLabs CLI
 
-> CLI for ElevenLabs AI audio platform - text-to-speech, speech-to-text, voice cloning, and more
+> ElevenLabs 语音合成命令行工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Text-to-speech generation
-- Speech-to-text transcription
-- Voice cloning and voice management
-- Sound effects and audio isolation
-- Dubbing and conversation/agent operations
-- MCP server setup and tool filtering
+- API Key: Your ElevenLabs API key is sent only to `api.elevenlabs.io` for authentication
+- Audio/Text Content: Text and audio files you process are sent to ElevenLabs API
+- No Local Persistence: The CLI does not store your data locally beyond specified output files
+- No Telemetry: No usage data is sent to any third party
+- ElevenLabs API key - Get one free at ElevenLabs API Keys
+- Main Repository: hongkongkiwi/elevenlabs-cli
+- Homebrew Tap: hongkongkiwi/homebrew-elevenlabs-cli
+- Scoop Bucket: hongkongkiwi/scoop-elevenlabs-cli
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 通过命令行调用 ElevenLabs TTS
+- 管理语音模型和声音库
+- 批量生成语音文件
 
 ## 依赖和前提条件
 - Docker
@@ -37,7 +39,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

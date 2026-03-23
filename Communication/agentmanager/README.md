@@ -1,36 +1,37 @@
 # Agent-manager-for-AI-planner
 
-> Agent Manager is a Node.js + TypeScript + Express orchestration service for external AI clients.
+> AI 规划器的智能体管理工具，用于创建、监控和调度子智能体
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Agent-manager-for-AI-planner |
 | **作者** | nonightwatch |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/nonightwatch-agentmanager |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nonightwatch/agentmanager |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Dynamic planning over HTTP with pluggable planner strategies.
-- Asynchronous `/v1/run` execution with `run_id` polling and `/v1/run/:id/events` incremental feeds.
-- Optional client-supplied plan execution (`POST /v1/run` with `plan`).
-- Cost-aware execution with model tiers, owner pricing caps, retries, upgrades, and fallback.
-- Tool hardening for public usage:
-- registration disabled by default
+- 创建和销毁子智能体实例
+- 监控智能体运行状态和健康度
+- 任务分配和执行进度追踪
+- 智能体间通信协调
+- 资源使用管理和限制
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 规划器需要动态管理多个执行智能体
+- 复杂任务分解后分发给多个子智能体执行
+- 监控和协调智能体集群的运行
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- 支持多智能体的运行环境
+- 规划器与管理器的集成配置
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `_meta.json`
 - `openapi`
 - `package-lock.json`
@@ -55,7 +56,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

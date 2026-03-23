@@ -1,6 +1,6 @@
 # Crunch Coordinate
 
-> Use when managing Crunch coordinators, competitions (crunches), rewards, checkpoints, staking, or cruncher accounts via the crunch-cli.
+> CrunchCoordinate 团队协调和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - No custom registry URLs — no `--registry` overrides
 - Ask the user before installing if not already present
 - What it is: A JSON file containing a Solana private key, used to sign transactions
+- How it's configured: Set via `crunch-cli config set wallet /path/to/wallet.json` or `-w` flag per command
+- Stored in: User-managed file on disk; path referenced in `~/.crunch/config.json`
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 协调团队成员的任务分配
+- 管理项目时间线和里程碑
+- 同步团队工作进度
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

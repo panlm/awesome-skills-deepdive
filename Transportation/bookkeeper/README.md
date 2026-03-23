@@ -1,6 +1,6 @@
 # Bookkeeper
 
-> Meta-skill for pre-accounting automation by orchestrating gmail, deepread-ocr, stripe-api, and xero. Use when users need invoice intake from email, structured field extraction, payment verification, and accounting entry creation with reconciliation-ready status.
+> 预算记账自动化元技能，通过编排 Gmail、OCR 等工具实现自动记账
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,21 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- `gmail` (inspected latest: `1.0.6`)
-- `deepread-ocr` (inspected latest: `1.0.6`)
-- `stripe-api` (inspected latest: `1.0.8`)
-- `xero` (inspected latest: `1.0.4`)
-- `MATON_API_KEY` (for Gmail, Stripe, Xero through Maton gateway)
-- `DEEPREAD_API_KEY` (for OCR extraction)
+- 自动从 Gmail 提取收据和发票
+- OCR 识别纸质收据内容
+- 自动分类和记录交易
+- 编排多个子技能协同工作
+- 生成财务汇总报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动扫描邮箱中的电子收据并录入账本
+- 拍照上传纸质收据自动识别金额和类别
+- 月末自动汇总所有支出生成分类报告
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- Gmail 访问权限、OCR 服务、多个子技能
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -52,5 +44,4 @@
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

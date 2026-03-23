@@ -1,6 +1,6 @@
 # Sui
 
-> Answer questions about Sui blockchain ecosystem, concepts, tokenomics, validators, staking, and general knowledge. Use when users ask "what is Sui", "how does Sui work", "Sui vs other chains", or any Sui-related questions that aren't specifically about Move programming.
+> 集成 Sui 区块链，支持链上操作、资产管理和智能合约交互
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- What is Sui? How does it work?
-- Sui vs Ethereum/Solana/other chains
-- SUI token, tokenomics, staking
-- Validators, consensus, transactions
-- Sui ecosystem, projects, wallets
-- Object model, ownership concepts
+- 集成 Sui 区块链进行链上操作
+- 支持 Sui Move 智能合约交互
+- 查询 Sui 链上数据和状态
+- 管理 Sui 钱包和数字资产
+- 支持 NFT 和 DeFi 相关操作
+- 适用于 Sui 生态开发和自动化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 Sui 区块链上进行开发和测试
+- 通过 AI Agent 自动化管理 Sui 数字资产
+- 构建 Sui 生态的自动化交易和 DeFi 应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `setup.sh`
+## 依赖和前提条件
+- Bash/Shell 环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

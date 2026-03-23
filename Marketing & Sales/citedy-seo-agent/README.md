@@ -1,36 +1,39 @@
 # Clawhub Skill
 
-> >
+> SEO 优化智能代理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Clawhub Skill |
 | **作者** | nttylock |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/nttylock-citedy-seo-agent |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nttylock/citedy-seo-agent |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- content-marketing
-- competitor-analysis
-- article-generation
-- trend-scouting
-- content-strategy
-- content-ingestion
+- 网站 SEO 分析和优化
+- 关键词研究和建议
+- 内容 SEO 评分
+- 竞品 SEO 对比
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 对网站进行全面的 SEO 诊断和优化建议
+- 追踪关键词排名并提供优化策略
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
-- 数据库
+- API 密钥
+- Google API
+- Redis
+- Supabase
+- Webhook 配置
+- Shopify
+- Facebook API
+- Instagram API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -51,6 +54,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

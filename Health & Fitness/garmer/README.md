@@ -1,6 +1,6 @@
 # Garmer
 
-> Extract health and fitness data from Garmin Connect including activities, sleep, heart rate, stress, steps, and body composition. Use when the user asks about their Garmin data, fitness metrics, sleep analysis, or health insights.
+> Garmin 设备数据管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,7 +13,7 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Comprehensive Data Extraction: Access activities, sleep, heart rate, stress, steps, body composition, hydration, and mor
+- Comprehensive Data Extraction: Access activities, sleep, heart rate, stress, steps, body composition, hydration, and more
 - Easy Authentication: OAuth-based authentication with token persistence
 - MoltBot Integration Ready: Designed for seamless integration with AI health assistants
 - CLI Tool: Command-line interface for quick data access
@@ -21,9 +21,9 @@
 - Flexible Export: Export data in JSON format for analysis
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 同步和管理 Garmin 设备数据
+- 分析运动和健康指标
+- 导出和备份 Garmin 数据
 
 ## 依赖和前提条件
 - Python / pip
@@ -39,7 +39,7 @@
 - `scripts`
 - `src`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

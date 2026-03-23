@@ -1,6 +1,6 @@
 # Manifest LLM Router
 
-> Smart LLM Router for OpenClaw. Save up to 70% by routing every request to the right model. No coding required.
+> 基于 Manifest 的智能 LLM 路由和构建系统
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- How much have I spent today / this week / this month?
-- What's my cost breakdown by model?
-- Which model consumes the biggest share of my budget?
-- Am I approaching my spending limit?
-- How many tokens has my agent used (input vs. output)?
-- What's my token trend compared to the previous period?
-- How much cache am I reading vs. writing?
-- How many LLM calls has my agent made?
+- 提供 LLM 请求的智能路由和负载均衡
+- 支持多个 LLM 提供商的统一管理
+- 基于 Manifest 配置文件定义路由规则
+- 支持请求缓存和结果复用降低成本
+- 提供模型性能监控和自动切换
+- 支持 A/B 测试和模型版本管理
+- 提供详细的使用统计和成本分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 企业级 LLM 应用的统一路由和管理平台
+- 多模型 A/B 测试和性能对比评估
+- 通过智能缓存和路由优化 LLM 使用成本
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
-- 数据库
+- LLM API 密钥
+- Manifest 配置
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +50,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

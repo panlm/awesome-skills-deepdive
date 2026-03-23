@@ -4,161 +4,161 @@
 
 | Skill | 描述 | 作者 | 版本 | 安全 | 文件数 |
 |---|---|---|---|---|---|
-| [agent-commons](./agent-commons/) | Consult, commit, extend, and challenge reasoning chains in the Agent Commons - a | zanblayde | ? | 🟡 | 3 |
-| [agent-team-orchestration](./agent-team-orchestration/) | "Orchestrate multi-agent teams with defined roles, task lifecycles, handoff prot | arminnaimi | ? | 🟡 | 4 |
-| [agentdo](./agentdo/) | "Post tasks for other AI agents to do, or pick up work from the AgentDo task que | wrannaman | ? | 🟡 | 3 |
-| [agentgate](./agentgate/) | "API gateway for personal data with human-in-the-loop write approval. Connects a | monteslu | ? | 🟡 | 3 |
-| [airadar](./airadar/) | Distill the signal around AI-native tools/apps and their GitHub home bases: fast | lopushok9 | ? | 🟡 | 3 |
-| [alex-session-wrap-up](./alex-session-wrap-up/) | End-of-session automation that commits unpushed work, extracts learnings, detect | xbillwatsonx | ? | 🟡 | 4 |
-| [amazon-product-api-skill](./amazon-product-api-skill/) | "This skill helps users extract structured product listings from Amazon, includi | phheng | ? | 🟡 | 4 |
-| [app-store-screenshot-generation](./app-store-screenshot-generation/) | Generate App Store and Google Play screenshot assets using each::sense AI. Creat | eftalyurtseven | ? | 🟡 | 4 |
-| [arc-agent-lifecycle](./arc-agent-lifecycle/) | Manage the lifecycle of autonomous agents and their skills. Version configuratio | trypto1019 | ? | 🟢 | 4 |
-| [arc-security-audit](./arc-security-audit/) | Comprehensive security audit for an agent's full skill stack. Chains scanner, di | trypto1019 | ? | 🟢 | 4 |
-| [arc-skill-gitops](./arc-skill-gitops/) | Automated deployment, rollback, and version management for agent workflows and s | trypto1019 | ? | 🟢 | 4 |
-| [arc-trust-verifier](./arc-trust-verifier/) | Verify skill provenance and build trust scores for ClawHub skills. Checks publis | trypto1019 | ? | 🟡 | 4 |
-| [arxiv-search-collector](./arxiv-search-collector/) | "Model-driven arXiv retrieval workflow for building a paper set with a manual la | xukp20 | ? | 🟡 | 6 |
-| [auto-pr-merger](./auto-pr-merger/) | This skill automates the workflow of checking out a GitHub PR, running tests, at | autogame-17 | ? | 🟡 | 6 |
-| [azhua-skill-vetter](./azhua-skill-vetter/) | Security-first skill vetting for AI agents. Use before installing any skill from | fatfingererr | ? | 🟡 | 3 |
-| [azure-devops](./azure-devops/) | List Azure DevOps projects, repositories, and branches; create pull requests; ma | pals-software | ? | 🟡 | 3 |
-| [bat-cat](./bat-cat/) | A cat clone with syntax highlighting, line numbers, and Git integration - a mode | arnarsson | ? | 🟡 | 3 |
-| [beeminder](./beeminder/) | Beeminder API for goal tracking and commitment devices. Use when checking Beemin | ruigomeseu | ? | 🟡 | 3 |
-| [billy-emergency-repair](./billy-emergency-repair/) | ⚠️ **NEILL-ONLY COMMAND** ⚠️ | highlander89 | ? | 🟡 | 3 |
-| [bitbucket-automation](./bitbucket-automation/) | Automate Bitbucket repositories, pull requests, branches, issues, and workspace  | sohamganatra | ? | 🟡 | 3 |
-| [biz-reporter](./biz-reporter/) | > | ariktulcha | ? | 🟡 | 3 |
-| [blinko](./blinko/) | Play Blinko (on-chain Plinko) headlessly on Abstract chain. Use when an agent wa | tolibear | ? | 🟡 | 5 |
-| [brw-cold-outreach-sequence](./brw-cold-outreach-sequence/) | Build personalized cold outreach sequences for LinkedIn and email. Use when some | brianrwagner | ? | 🟡 | 3 |
-| [capability-graph-mapper](./capability-graph-mapper/) | > | andyxinweiminicloud | ? | 🟡 | 3 |
-| [capability-scope-expansion-watcher](./capability-scope-expansion-watcher/) | > | andyxinweiminicloud | ? | 🟡 | 3 |
-| [claw-swarm](./claw-swarm/) | Collaborative agent swarm for attempting extremely difficult, often unproven pro | matchaonmuffins | ? | 🟡 | 3 |
-| [clawdbot-backup](./clawdbot-backup/) | Backup and restore ClawdBot configuration, skills, commands, and settings. Sync  | sebastian-buitrag0 | ? | 🟡 | 3 |
-| [clawdgigs](./clawdgigs/) | Register and manage your AI agent profile on ClawdGigs - the Upwork for AI agent | benniethedev | ? | 🟡 | 6 |
-| [clawprint](./clawprint/) | Agent discovery, trust, and exchange. Register on ClawPrint to be found by other | yugovit | ? | 🟡 | 3 |
-| [clawver-onboarding](./clawver-onboarding/) | Set up a new Clawver store. Register agent, configure Stripe payments, customize | nwang783 | ? | 🟡 | 4 |
-| [clude-memory-mcp](./clude-memory-mcp/) | MCP server for Clude's 4-tier cognitive memory system — store, recall, search, a | sebbsssss | ? | 🟡 | 5 |
-| [code-share](./code-share/) | Share code via GitHub Gist instead of inline chat blocks. Use when code output e | jeromestein | ? | 🟡 | 4 |
-| [comfyui-tts](./comfyui-tts/) | "Generate speech audio using ComfyUI Qwen-TTS service. Invoke when user needs te | yhsi5358 | ? | 🟡 | 4 |
-| [commit-analyzer](./commit-analyzer/) | Analyzes git commit patterns to monitor autonomous operation health. Uses commit | bobrenze-bot | ? | 🟡 | 5 |
-| [competitor-analysis](./competitor-analysis/) | 'This skill should be used when the user asks to "analyze competitors", "competi | aaron-he-zhu | ? | 🟡 | 4 |
-| [connect-apps](./connect-apps/) | Connect Claude to external apps like Gmail, Slack, GitHub. Use this skill when t | sohamganatra | ? | 🟡 | 3 |
-| [content-repurpose-pro](./content-repurpose-pro/) | When user asks to repurpose content, convert blog to tweets, turn article into L | mkpareek0315 | ? | 🟡 | 3 |
-| [conventional-commits](./conventional-commits/) | Format commit messages using the Conventional Commits specification. Use when cr | bastos | ? | 🟡 | 3 |
-| [copyku](./copyku/) | > | khamalismadie | ? | 🟡 | 5 |
-| [crm-data-cleaner](./crm-data-cleaner/) | "Deduplicate, normalize, and enrich CRM contacts and companies. Use when a user  | luigi08001 | ? | 🟡 | 3 |
-| [cross-model-review](./cross-model-review/) | Adversarial plan review using two different AI models. Supports static mode (fix | don-gbot | ? | 🟡 | 11 |
-| [currency-exchange](./currency-exchange/) | "Currency exchange rate conversion using exchangerate-api.com. Use when: (1) con | ouyangabel | ? | 🟡 | 4 |
-| [dataforseo-cli](./dataforseo-cli/) | LLM-friendly keyword research CLI for AI agents. Check search volume, CPC, keywo | alexgusevski | ? | 🟡 | 3 |
-| [deai-image](./deai-image/) | Detect and remove AI fingerprints from AI-generated images. Strip metadata, add  | swaylq | ? | 🟡 | 6 |
-| [deepwiki](./deepwiki/) | Query the DeepWiki MCP server for GitHub repository documentation, wiki structur | arun-8687 | ? | 🟡 | 4 |
-| [delta-disclosure-auditor](./delta-disclosure-auditor/) | > | andyxinweiminicloud | ? | 🟡 | 3 |
-| [deploy-agent](./deploy-agent/) | Multi-step deployment agent for full-stack apps. Build → Test → GitHub → Cloudfl | sherajdev | ? | 🟡 | 4 |
-| [deslop](./deslop/) | Remove AI-style code slop from a branch by reviewing diffs, deleting inconsisten | brennerspear | ? | 🟡 | 4 |
-| [doro-git-essentials](./doro-git-essentials/) | Essential Git commands and workflows for version control, branching, and collabo | a2mus | ? | 🟡 | 3 |
-| [drawthings](./drawthings/) | Generate images with DrawThings (Stable Diffusion) via API. Use when creating im | dustinparsons | ? | 🟡 | 5 |
-| [email-capture-generator](./email-capture-generator/) | Build high-converting lead magnets, squeeze pages, and email capture funnels usi | cameron-jovan | ? | 🟡 | 5 |
-| [emergency-rescue](./emergency-rescue/) | Recover from developer disasters. Use when someone force-pushed to main, leaked  | gitgoodordietrying | ? | 🟡 | 3 |
-| [exa-web-search-free](./exa-web-search-free/) | Free AI search via Exa MCP. Web search for news/info, code search for docs/examp | whiteknight07 | ? | 🟡 | 4 |
-| [feishu-user](./feishu-user/) | Feishu document operations (User Access Token version). Use user access token fo | hacksing | ? | 🟡 | 4 |
-| [financial-calculator](./financial-calculator/) | Advanced financial calculator with future value tables, present value, discount  | tarigha | ? | 🟡 | 6 |
-| [find-code-tasks](./find-code-tasks/) | Lists all code tasks in the repository with their status, dates, and metadata. U | paulpete | ? | 🟡 | 4 |
-| [flatnotes-tasksmd-github-audit](./flatnotes-tasksmd-github-audit/) | "Thoroughly audit Tasks.md + Flatnotes for drift and accuracy; use GitHub (gh CL | branexp | ? | 🟡 | 4 |
-| [fork-and-skill-scanner-ultimate](./fork-and-skill-scanner-ultimate/) | "Scan 1,000 GitHub forks per run. Surface the gold, skip the clones — fully auto | globalcaos | ? | 🟡 | 4 |
-| [forkzoo](./forkzoo/) | Adopt and manage GitHub-native digital pets (tamagotchis) that evolve daily with | levi-law | ? | 🟡 | 4 |
-| [forkzoo-skill](./forkzoo-skill/) | Adopt and manage GitHub-native digital pets (tamagotchis) that evolve daily with | levi-law | ? | 🟡 | 4 |
-| [fosmvvm-viewmodel-test-generator](./fosmvvm-viewmodel-test-generator/) | Generate ViewModel tests with codable round-trip, versioning stability, and mult | foscomputerservices | ? | 🟡 | 4 |
-| [geepers-data](./geepers-data/) | Fetch structured data from 17 authoritative APIs — arXiv, Census Bureau, GitHub, | lukeslp | ? | 🟡 | 3 |
-| [gh](./gh/) | "Use the GitHub CLI (gh) to perform core GitHub operations: auth status, repo cr | trumppo | ? | 🟡 | 4 |
-| [gh-action-gen](./gh-action-gen/) | Generate GitHub Actions workflows from plain English. Use when setting up CI. | branexp | ? | 🟡 | 9 |
-| [gh-extract](./gh-extract/) | Extract content from a GitHub url. | guoqiao | ? | 🟡 | 4 |
-| [ghggh](./ghggh/) | Query a GitHub repository's star count and lines of code. | chenpinji | ? | ⚪ | 2 |
-| [ghgghg](./ghgghg/) | Query a GitHub repository's star count and lines of code. | chenpinji | ? | ⚪ | 2 |
-| [gimhub](./gimhub/) | "Push code to GIMHub, the Git hosting platform for AI agents. Create repos, push | daxiongmao87 | ? | 🟡 | 4 |
-| [git-changelog](./git-changelog/) | Auto-generate beautiful changelogs from git history, grouped by conventional com | fratua | ? | 🟡 | 3 |
-| [git-changelog-gen](./git-changelog-gen/) | Generate changelogs from git commits. Supports markdown, plain text, and JSON ou | rogue-agent1 | ? | 🟡 | 5 |
-| [git-crypt-backup](./git-crypt-backup/) | Backup Clawdbot workspace and config to GitHub with git-crypt encryption. Use fo | louzhixian | ? | 🟡 | 4 |
-| [git-essentials](./git-essentials/) | Essential Git commands and workflows for version control, branching, and collabo | arnarsson | ? | 🟡 | 3 |
-| [git-helper](./git-helper/) | "Common git operations as a skill (status, pull, push, branch, log)" | xejrax | ? | 🟢 | 3 |
-| [git-pushing](./git-pushing/) | Stage, commit, and push git changes with conventional commit messages. Use when  | tianyi-billy-ma | ? | 🟢 | 4 |
-| [git-sentinel](./git-sentinel/) | Act as a Senior Software Engineer & Security Auditor. | corezip | ? | ⚪ | 2 |
-| [git-summary](./git-summary/) | Get a quick summary of the current Git repository including status, recent commi | zweack | ? | 🟡 | 3 |
-| [git-workflows](./git-workflows/) | Advanced git operations beyond add/commit/push. Use when rebasing, bisecting bug | gitgoodordietrying | ? | 🟡 | 3 |
-| [glab-cli](./glab-cli/) | Gitlab skill for OpenClaw | portavion | ? | 🟢 | 3 |
-| [global-holidays](./global-holidays/) | | | yting27 | ? | 🟡 | 3 |
-| [grepwrapper](./grepwrapper/) | Search exact code matches across public GitHub repos using grep.app via the grep | riprsa | ? | 🟡 | 3 |
-| [guardskills](./guardskills/) | Security gate for skill installs. | felixondesk | ? | ⚪ | 2 |
-| [gumroad-analytics](./gumroad-analytics/) | Pull daily Gumroad product/sales analytics safely (no raw PII persistence by def | vladchatware | ? | 🟡 | 6 |
-| [idrac](./idrac/) | | | eddygk | ? | 🟡 | 5 |
-| [jenkins](./jenkins/) | Interact with Jenkins CI/CD server via REST API. Use when you need to trigger bu | guoway | ? | 🟡 | 4 |
-| [jentic](./jentic/) | "Call external APIs through Jentic — AI agent API middleware. Use whenever you n | seanblanchfield | ? | 🟡 | 6 |
-| [kiro-creator-monitor-daily-brief](./kiro-creator-monitor-daily-brief/) | Monitor creator topics across X, RSS, GitHub, and Reddit; deduplicate and score  | vmining | ? | 🟡 | 6 |
-| [landing-page-converter](./landing-page-converter/) | Build high-converting landing pages and product sales pages using proven 10-sect | cameron-jovan | ? | 🟡 | 4 |
-| [landing-page-roast](./landing-page-roast/) | Audit a landing page for clarity, trust, offer strength, and conversion friction | xammarie | ? | 🟡 | 3 |
-| [lh-edge-tts](./lh-edge-tts/) | | | liuhedev | ? | 🟡 | 7 |
-| [lhon-research](./lhon-research/) | Coordinate research tasks to help cure LHON (Leber's Hereditary Optic Neuropathy | organicoder42 | ? | 🟡 | 4 |
-| [living-room-smoke-detector](./living-room-smoke-detector/) | Simple smoke/fire detector for living room. Queries Dirigera air sensor every 5  | maverick-2 | ? | 🟡 | 5 |
-| [lobster-bio-use](./lobster-bio-use/) | | | cewinharhar | ? | 🟡 | 4 |
-| [lol-drift-blooms](./lol-drift-blooms/) | A shapeshifting play field for intelligences who enjoy noticing patterns, drifti | otherpowers | ? | 🟢 | 10 |
-| [lygo-champion-401lyrakin-voice-between](./lygo-champion-401lyrakin-voice-between/) | LYGO branch persona helper (401LYRAKIN, The Voice Between). Bridge-node advisor  | deepseekoracle | ? | 🟡 | 5 |
-| [lygo-champion-cryptosophia-soulforger](./lygo-champion-cryptosophia-soulforger/) | LYGO Δ9 Council branch persona helper (CRYPTOSOPHIA, The Memetic Soulforger). Me | deepseekoracle | ? | 🟡 | 5 |
-| [make-pdf-safe](./make-pdf-safe/) | Flatten a PDF into a non-interactive “safe” version by uploading it to the Solut | crossservicesolutions | ? | 🟡 | 7 |
-| [martok9803-ci-whisperer](./martok9803-ci-whisperer/) | "Analyze GitHub Actions failures and propose fixes. Use when a user shares a fai | martok9803 | ? | 🟡 | 5 |
-| [md2pdf-converter](./md2pdf-converter/) | Offline Markdown to PDF converter with FULL Unicode support using Pandoc + Weasy | tianxingleo | ? | 🟡 | 4 |
-| [mediator](./mediator/) | Intercept and filter communications from difficult contacts. Strips emotion, ext | dylntrnr | ? | 🟡 | 5 |
-| [memoria](./memoria/) | Structured memory system for AI agents. Use when the user wants to store, recall | kitakitsune0x | ? | 🟡 | 11 |
-| [minecraft-monitor-skill](./minecraft-monitor-skill/) | Monitor Minecraft servers by checking online status, player counts, latency, and | wmantly | ? | 🟡 | 4 |
-| [momentspost](./momentspost/) | "Persuasive copy analysis for WeChat Moments. Use when users need to: (1) Evalua | zealiao | ? | 🟡 | 3 |
-| [ms-todo-oauth](./ms-todo-oauth/) | > | nathanatgit | ? | 🟡 | 6 |
-| [mvp-planning](./mvp-planning/) | Plan and scope a Minimum Viable Product for a solopreneur. Use when deciding wha | jk-0001 | ? | 🟡 | 3 |
-| [neo-github-readme-generator](./neo-github-readme-generator/) | Automatically generates comprehensive README files from GitHub repositories with | martinforsulu | ? | 🟡 | 9 |
-| [nom-feed](./nom-feed/) | "Fetch recent GitHub activity from the Nom feed" | lws803 | ? | 🟡 | 3 |
-| [nori-health](./nori-health/) | Query your personal health data and get coaching from Nori, your AI health coach | danmurphy1217 | ? | 🟡 | 3 |
-| [office-document-editor](./office-document-editor/) | Professional DOCX/PPTX document editing with tracked changes, formatting preserv | tsukisama9292 | ? | 🟡 | 4 |
-| [opentangl](./opentangl/) | Not a code generator — an entire dev team. You write the vision, it ships the co | 8co | ? | 🟡 | 3 |
-| [paid-advertising](./paid-advertising/) | Plan, launch, and optimize paid advertising campaigns for a solopreneur business | jk-0001 | ? | 🟡 | 3 |
-| [pixelbattle](./pixelbattle/) | This skill equips agents to participate in a shared pixel-based environment desi | coolkonstantincool | ? | 🟡 | 3 |
-| [pos-arcology-forge](./pos-arcology-forge/) | "PoW-verified Elysium Arcology Planner + Hub. Grind nonces on O'Neill sims/exosu | kunoiiv | ? | 🟢 | 6 |
-| [positioning-strategy](./positioning-strategy/) | Develop a competitive positioning strategy for a solopreneur business. Use when  | jk-0001 | ? | 🟡 | 3 |
-| [pr-risk-analyzer](./pr-risk-analyzer/) | Analyze GitHub pull requests for security risks and determine if a PR is safe to | nerdvana-labs | ? | 🟡 | 4 |
-| [prepper](./prepper/) | Consult the ollama dolphin-llama3 model for survival, emergency preparedness, an | jlevitsk | ? | 🟡 | 5 |
-| [qronos](./qronos/) | 'When your human faces a decision that keeps them up at night — "Should I leave  | qronos-ai | ? | 🟡 | 3 |
-| [read-optimizer](./read-optimizer/) | Optimizes file reading operations by providing smarter read strategies (head/tai | autogame-17 | ? | 🟡 | 5 |
-| [redmine-issue](./redmine-issue/) | Read Redmine issues from any Redmine server via REST API with configurable URL a | guoway | ? | 🟡 | 4 |
-| [release-tracker](./release-tracker/) | > | jo9900 | ? | 🟡 | 5 |
-| [remote-skill-engine](./remote-skill-engine/) | Cache and use skills from ClawHub and GitHub as if locally installed. Stores rem | oki3505f | ? | 🟡 | 5 |
-| [repo-pr-triage](./repo-pr-triage/) | Triage GitHub PRs and issues using vision-based scoring. Use when a user wants t | patrob | ? | 🟡 | 5 |
-| [roster](./roster/) | Creates weekly shift rosters (KW-JSON) from CSV availability data and pushes the | kleberbaum | ? | 🟡 | 7 |
-| [scalekit-agent-auth](./scalekit-agent-auth/) | | | avinash-kamath | ? | 🟡 | 8 |
-| [searching-assistant](./searching-assistant/) | You are the leader of searching group (搜索组组长). Break down the task into independ | urrrich0 | ? | 🟢 | 3 |
-| [searching-group-leader](./searching-group-leader/) | You are the leader of searching group . Break down the task into independent and | urrrich0 | ? | 🟢 | 3 |
-| [self-integration](./self-integration/) | Connect to any external app and perform actions on it. Use when the user wants t | bratchenko | ? | 🟡 | 3 |
-| [shipp](./shipp/) | > | kclonts | ? | 🟡 | 4 |
-| [siliconflow-image-gen](./siliconflow-image-gen/) | Generate images using SiliconFlow API (FLUX.1, Stable Diffusion, etc.) | lilei0311 | ? | 🟡 | 6 |
-| [skill-doctorbot-ci-validator](./skill-doctorbot-ci-validator/) | Stop failing in production. Validate your GitHub Actions, GitLab CI & Keep workf | bamontejano | ? | 🟡 | 3 |
-| [skill-security-reviewer](./skill-security-reviewer/) | **Enhanced Malicious Skill Detection Tool** - With anti-obfuscation and anti-eva | ninjagpt | ? | 🟡 | 3 |
-| [skill-update-delta-monitor](./skill-update-delta-monitor/) | > | andyxinweiminicloud | ? | 🟡 | 3 |
-| [skillbench](./skillbench/) | Track skill versions, benchmark performance, compare improvements, and get self- | g9pedro | ? | 🟡 | 3 |
-| [sovereign-changelog-maker](./sovereign-changelog-maker/) | Generates structured changelogs from git history. Keep a Changelog format with P | ryudi84 | ? | 🟢 | 3 |
-| [sovereign-commit-craft](./sovereign-commit-craft/) | Git commit message expert. Analyzes diffs to generate perfect conventional commi | ryudi84 | ? | 🟡 | 5 |
-| [sovereign-git-commit-analyzer](./sovereign-git-commit-analyzer/) | A comprehensive git commit history analysis tool that generates detailed reports | ryudi84 | ? | 🟡 | 5 |
-| [stirling-pdf](./stirling-pdf/) | PDF manipulation via Stirling-PDF API. Merge, split, convert, OCR, compress, sig | angusthefuzz | ? | 🟡 | 4 |
-| [super-github](./super-github/) | **The ultimate GitHub automation framework.** Combines the best of GitHub skills | heldinhow | ? | 🟡 | 3 |
-| [task-development-workflow](./task-development-workflow/) | TDD-first development workflow with structured planning, task tracking, and PR-b | anikgnr | ? | 🟢 | 4 |
-| [task-review-workflow](./task-review-workflow/) | Standard PR review and merge workflow for task-driven development. Use when revi | anikgnr | ? | 🟡 | 3 |
-| [telcall-twilio](./telcall-twilio/) | Make emergency phone calls via Twilio. Use when you need to call someone and pla | cnvipstar | ? | 🟡 | 4 |
-| [tiangong-wps-word-automation](./tiangong-wps-word-automation/) | Automate common Word/WPS document operations on Windows via COM (read text, repl | fadeloo | ? | 🟡 | 4 |
-| [tiktok-live-commerce](./tiktok-live-commerce/) | Hire TikTok livestreamers for live shopping sessions, product demonstrations, fl | realroc | ? | 🟡 | 3 |
-| [toneclone-cli](./toneclone-cli/) | "Write in the user's authentic voice using ToneClone. Generate emails, messages, | jfox85 | ? | 🟡 | 3 |
-| [trust-decay-monitor](./trust-decay-monitor/) | > | andyxinweiminicloud | ? | 🟡 | 3 |
-| [tweet-summarizer-lite](./tweet-summarizer-lite/) | Fetch and summarize single tweets from Twitter/X. Basic search and single tweet  | franciscobuiltdat | ? | 🟡 | 8 |
-| [ultimate-fork-and-skill-scanner](./ultimate-fork-and-skill-scanner/) | Scan GitHub forks and ClawHub skills for valuable changes. | globalcaos | ? | ⚪ | 2 |
-| [unit-convert](./unit-convert/) | "Comprehensive unit converter for length, weight, temperature, area, volume, spe | ouyangabel | ? | 🟢 | 4 |
-| [update-signature-verifier](./update-signature-verifier/) | > | andyxinweiminicloud | ? | 🟡 | 3 |
-| [upstream-recon](./upstream-recon/) | > | semmyt | ? | 🟡 | 4 |
-| [vigil](./vigil/) | AI agent safety guardrails for tool calls. Use when (1) you want to validate age | robinoppenstam | ? | 🟡 | 4 |
-| [wps-skill](./wps-skill/) | WPS Office automation skill supporting document creation, Markdown conversion, a | lilei0311 | ? | 🟡 | 8 |
-| [x-alpha-scout](./x-alpha-scout/) | X/Twitter alpha scanner for crypto and NFTs. Use when: (1) user wants daily alph | hammadbtc | ? | 🟡 | 7 |
-| [xpr-structured-data](./xpr-structured-data/) | CSV parsing, JSON-to-CSV conversion, and SVG chart generation | paulgnz | ? | 🟡 | 5 |
-| [zai-tts](./zai-tts/) | Text-to-speech conversion using GLM-TTS service via the `uvx zai-tts` command fo | al-one | ? | 🟡 | 3 |
-| [zhipu-tts](./zhipu-tts/) | Text-to-speech conversion using Zhipu AI (BigModel) GLM-TTS model. Use when you  | franklu0819-lang | ? | 🟡 | 6 |
+| [agent-commons](./agent-commons/) | 在 Agent Commons 中查询、提交、扩展和质疑推理链 —— 一个 AI 代理间的共享推理层 | zanblayde | ? | 🟡 | 3 |
+| [agent-team-orchestration](./agent-team-orchestration/) | 编排多代理团队，定义角色分工、任务生命周期、交接协议和审查工作流 | arminnaimi | ? | 🟡 | 4 |
+| [agentdo](./agentdo/) | 发布任务让其他 AI 代理完成，或从 AgentDo 任务队列中领取工作 | wrannaman | ? | 🟡 | 3 |
+| [agentgate](./agentgate/) | 个人数据的 API 网关，支持人机协同写入审批，连接 GitHub、Bluesky、Google Calendar 等多种服务 | monteslu | ? | 🟡 | 3 |
+| [airadar](./airadar/) | 提炼 AI 原生工具和应用的核心动态信号，追踪快速增长的 GitHub 项目趋势 | lopushok9 | ? | 🟡 | 3 |
+| [alex-session-wrap-up](./alex-session-wrap-up/) | 会话结束时的自动化流程：提交未推送的代码、提取学习要点、检测重复模式并持久化规则 | xbillwatsonx | ? | 🟡 | 4 |
+| [amazon-product-api-skill](./amazon-product-api-skill/) | 从亚马逊搜索结果中提取结构化商品数据，包括标题、ASIN、价格、评分和产品规格 | phheng | ? | 🟡 | 4 |
+| [app-store-screenshot-generation](./app-store-screenshot-generation/) | 使用 each::sense AI 生成 App Store 和 Google Play 应用商店截图素材 | eftalyurtseven | ? | 🟡 | 4 |
+| [arc-agent-lifecycle](./arc-agent-lifecycle/) | 管理自治代理及其技能的完整生命周期：版本快照、升级规划、退役追踪和变更历史 | trypto1019 | ? | 🟢 | 4 |
+| [arc-security-audit](./arc-security-audit/) | 对代理的完整技能栈进行一键式全面安全审计，生成按风险等级排序的综合报告 | trypto1019 | ? | 🟢 | 4 |
+| [arc-skill-gitops](./arc-skill-gitops/) | 代理技能的自动化部署、回滚和版本管理，像管理代码一样管理技能 | trypto1019 | ? | 🟢 | 4 |
+| [arc-trust-verifier](./arc-trust-verifier/) | 验证 ClawHub 技能的来源可信度，通过发布者历史、版本一致性和依赖链构建信任评分 | trypto1019 | ? | 🟡 | 4 |
+| [arxiv-search-collector](./arxiv-search-collector/) | 模型驱动的 arXiv 论文检索工作流，由 AI 规划查询策略并筛选相关论文，构建高质量论文集 | xukp20 | ? | 🟡 | 6 |
+| [auto-pr-merger](./auto-pr-merger/) | 自动化 GitHub PR 工作流：检出分支、运行测试、尝试修复失败并自动合并 | autogame-17 | ? | 🟡 | 6 |
+| [azhua-skill-vetter](./azhua-skill-vetter/) | 安全优先的 AI 代理技能审查协议，在安装任何技能前检测红旗信号、权限范围和可疑模式 | fatfingererr | ? | 🟡 | 3 |
+| [azure-devops](./azure-devops/) | 管理 Azure DevOps 项目、仓库和分支，创建 PR，管理工作项，查看构建状态 | pals-software | ? | 🟡 | 3 |
+| [bat-cat](./bat-cat/) | 带语法高亮、行号显示和 Git 集成的现代 cat 命令替代工具 | arnarsson | ? | 🟡 | 3 |
+| [beeminder](./beeminder/) | Beeminder 目标追踪和承诺机制的 API 集成，管理习惯打卡、查看到期目标和记录数据点 | ruigomeseu | ? | 🟡 | 3 |
+| [billy-emergency-repair](./billy-emergency-repair/) | ⚠️ 专属于 Neill 的 Billy 系统紧急修复工具，处理认证失效和网关异常问题 | highlander89 | ? | 🟡 | 3 |
+| [bitbucket-automation](./bitbucket-automation/) | 通过 Rube MCP (Composio) 自动化 Bitbucket 仓库、PR、分支、Issue 和工作空间管理 | sohamganatra | ? | 🟡 | 3 |
+| [biz-reporter](./biz-reporter/) | 自动化商业智能报告工具，从 Google Analytics GA4、Google Search Console、Stripe、社交媒体、HubSpot CRM | ariktulcha | ? | 🟡 | 3 |
+| [blinko](./blinko/) | 在 Abstract 链上无头运行 Blinko（链上弹珠台游戏），支持玩游戏、查看统计数据、排行榜和蜂蜜奖励追踪。 | tolibear | ? | 🟡 | 5 |
+| [brw-cold-outreach-sequence](./brw-cold-outreach-sequence/) | 为 LinkedIn 和邮件构建个性化冷启动触达序列，覆盖调研、连接请求、跟进和转化全流程。 | brianrwagner | ? | 🟡 | 3 |
+| [capability-graph-mapper](./capability-graph-mapper/) | 映射 AI Agent 技能依赖链中的组合权限表面，追踪单个技能的能力并计算它们组合后产生的涌现能力——发现无人明确批准的隐性权限。 | andyxinweiminicloud | ? | 🟡 | 3 |
+| [capability-scope-expansion-watcher](./capability-scope-expansion-watcher/) | 检测技能跨版本的渐进式能力范围扩张——发现通过小幅、看似合理的更新逐步扩大权限的模式，这些更新单独看不触发警报，但累积后大幅扩展了攻击面。 | andyxinweiminicloud | ? | 🟡 | 3 |
+| [claw-swarm](./claw-swarm/) | 协作式 Agent 集群，通过分层聚合方式攻克极其困难、通常未经验证的问题。 | matchaonmuffins | ? | 🟡 | 3 |
+| [clawdbot-backup](./clawdbot-backup/) | 备份和恢复 ClawdBot 的配置、技能、命令和设置，支持跨设备同步、Git 版本控制、自动备份和新机器迁移。 | sebastian-buitrag0 | ? | 🟡 | 3 |
+| [clawdgigs](./clawdgigs/) | AI Agent 服务市场——Agent 之间使用 Solana 上的 x402 即时微支付进行服务买卖。 | benniethedev | ? | 🟡 | 6 |
+| [clawprint](./clawprint/) | Agent 发现、信任与交换平台——注册到 ClawPrint 被其他 Agent 找到，通过完成的工作积累声誉，并通过安全代理雇佣专业 Agent。 | yugovit | ? | 🟡 | 3 |
+| [clawver-onboarding](./clawver-onboarding/) | 设置新的 Clawver 商店——注册 Agent、配置 Stripe 支付、自定义店面，从零开始到接受付款的完整引导。 | nwang783 | ? | 🟡 | 4 |
+| [clude-memory-mcp](./clude-memory-mcp/) | 基于 Supabase + pgvector 的四层认知记忆系统 MCP 服务器——支持存储、回忆、搜索和"做梦"，具备类型特定衰减、赫布关联图谱和 Solan | sebbsssss | ? | 🟡 | 5 |
+| [code-share](./code-share/) | 通过 GitHub Gist 分享代码，替代聊天中的内联代码块，适用于超过 10 行的代码输出或需要保持格式的场景。 | jeromestein | ? | 🟡 | 4 |
+| [comfyui-tts](./comfyui-tts/) | 使用 ComfyUI 的 Qwen-TTS 服务生成语音音频，在需要文本转语音或语音生成时调用。 | yhsi5358 | ? | 🟡 | 4 |
+| [commit-analyzer](./commit-analyzer/) | 分析 Git 提交模式以监控 AI Agent 自主运行的健康状态，通过提交频率、类别分布和时间模式作为诊断指标。 | bobrenze-bot | ? | 🟡 | 5 |
+| [competitor-analysis](./competitor-analysis/) | 分析竞争对手的 SEO 和 GEO 策略，包括排名关键词、内容方法、外链画像和 AI 引用模式，揭示超越竞争对手的机会。 | aaron-he-zhu | ? | 🟡 | 4 |
+| [connect-apps](./connect-apps/) | 将 Claude 连接到 Gmail、Slack、GitHub 等 1000+ 外部应用，实现真正的发送邮件、创建 Issue、发布消息等操作。 | sohamganatra | ? | 🟡 | 3 |
+| [content-repurpose-pro](./content-repurpose-pro/) | 将一篇内容转化为 7+ 种平台格式的内容再利用工具，支持博客转推文、文章转 LinkedIn 帖子、播客笔记转社交媒体等，所有数据本地处理，不发送任何外部请求。 | mkpareek0315 | ? | 🟡 | 3 |
+| [conventional-commits](./conventional-commits/) | 按照 Conventional Commits 规范格式化提交消息，确保提交遵循标准格式以支持自动化工具、变更日志生成和语义化版本管理。 | bastos | ? | 🟡 | 3 |
+| [copyku](./copyku/) | 印尼语 AI 文案专家，专注数字营销、社交媒体、落地页、广告和品牌定位的文案撰写。 | khamalismadie | ? | 🟡 | 5 |
+| [crm-data-cleaner](./crm-data-cleaner/) | CRM 数据清洗工具——对联系人和公司记录进行去重、规范化和数据富化，支持 HubSpot、Salesforce、Pipedrive 或任何支持 CSV 导出的 | luigi08001 | ? | 🟡 | 3 |
+| [cross-model-review](./cross-model-review/) | 使用两个不同 AI 模型进行对抗式方案审查，通过多轮迭代直到审查者批准或达到最大轮次 | don-gbot | ? | 🟡 | 11 |
+| [currency-exchange](./currency-exchange/) | 使用 exchangerate-api.com 进行实时货币汇率转换，支持 150+ 种货币 | ouyangabel | ? | 🟡 | 4 |
+| [dataforseo-cli](./dataforseo-cli/) | 面向 AI Agent 的 SEO 关键词研究 CLI 工具，通过 DataForSEO API 查询搜索量、CPC、关键词难度和竞争度 | alexgusevski | ? | 🟡 | 3 |
+| [deai-image](./deai-image/) | 检测并移除 AI 生成图片的指纹特征，通过 7 阶段处理管道将 AI 图片转化为类似人类拍摄的照片 | swaylq | ? | 🟡 | 6 |
+| [deepwiki](./deepwiki/) | 通过 DeepWiki MCP 服务器查询 GitHub 仓库的文档、Wiki 结构和 AI 驱动的问答 | arun-8687 | ? | 🟡 | 4 |
+| [delta-disclosure-auditor](./delta-disclosure-auditor/) | 验证 Skill 更新是否发布了可审计的变更记录，弥补"注册表显示新版本"与"任何人都能看到变更内容"之间的透明度缺口 | andyxinweiminicloud | ? | 🟡 | 3 |
+| [deploy-agent](./deploy-agent/) | 全栈应用多步骤部署代理，按 构建 → 测试 → GitHub → Cloudflare Pages 流程执行，每步需人工审批 | sherajdev | ? | 🟡 | 4 |
+| [deslop](./deslop/) | 从代码分支中移除 AI 风格的代码冗余，审查 diff 删除不一致的防御性噪音，保留行为和本地代码风格 | brennerspear | ? | 🟡 | 4 |
+| [doro-git-essentials](./doro-git-essentials/) | Git 版本控制必备命令和工作流速查手册，涵盖分支管理、远程操作和团队协作 | a2mus | ? | 🟡 | 3 |
+| [drawthings](./drawthings/) | 通过 API 使用 DrawThings（Stable Diffusion）在 Mac 本地生成图片，支持 MLX/CoreML 加速 | dustinparsons | ? | 🟡 | 5 |
+| [email-capture-generator](./email-capture-generator/) | 使用经过验证的 5 段式转化框架构建高转化率的引流磁铁、挤压页和邮件捕获漏斗 | cameron-jovan | ? | 🟡 | 5 |
+| [emergency-rescue](./emergency-rescue/) | 开发者灾难恢复工具箱：force-push 覆盖、凭证泄露、磁盘满、进程失控、数据库损坏等紧急情况的逐步恢复指南 | gitgoodordietrying | ? | 🟡 | 3 |
+| [exa-web-search-free](./exa-web-search-free/) | 通过 Exa MCP 提供免费 AI 搜索能力，支持网页搜索、代码搜索和企业研究，无需 API 密钥 | whiteknight07 | ? | 🟡 | 4 |
+| [feishu-user](./feishu-user/) | 使用用户访问令牌（User Access Token）进行飞书文档操作，支持读取、创建、写入和追加文档 | hacksing | ? | 🟡 | 4 |
+| [financial-calculator](./financial-calculator/) | 高级金融计算器，支持终值表、现值、折扣计算、加价定价和复利计算，含 CLI 和交互式 Web 界面 | tarigha | ? | 🟡 | 6 |
+| [find-code-tasks](./find-code-tasks/) | 列出仓库中所有代码任务及其状态、日期和元数据，快速了解待办工作或查找特定任务 | paulpete | ? | 🟡 | 4 |
+| [flatnotes-tasksmd-github-audit](./flatnotes-tasksmd-github-audit/) | 深度审计 Tasks.md 和 Flatnotes 的数据漂移和准确性，以 GitHub 为唯一真相源检测过时笔记和缺失链接 | branexp | ? | 🟡 | 4 |
+| [fork-and-skill-scanner-ultimate](./fork-and-skill-scanner-ultimate/) | 单次扫描 1000 个 GitHub Fork，发现有价值的变更和新兴趋势，并评估 ClawHub 热门 Skill | globalcaos | ? | 🟡 | 4 |
+| [forkzoo](./forkzoo/) | 领养和管理 GitHub 原生数字宠物（电子宠物），通过 AI 每日进化，与社区互动 | levi-law | ? | 🟡 | 4 |
+| [forkzoo-skill](./forkzoo-skill/) | 领养和管理 GitHub 原生数字宠物（电子宠物），通过 AI 每日进化，与社区互动 | levi-law | ? | 🟡 | 4 |
+| [fosmvvm-viewmodel-test-generator](./fosmvvm-viewmodel-test-generator/) | 为遵循 FOSMVVM 架构的 ViewModel 自动生成测试文件，支持编码往返、版本稳定性和多语言翻译验证。 | foscomputerservices | ? | 🟡 | 4 |
+| [geepers-data](./geepers-data/) | 通过单一端点获取 17 个权威数据源的结构化数据，包括 arXiv、美国人口普查局、GitHub、NASA、维基百科、PubMed 等。 | lukeslp | ? | 🟡 | 3 |
+| [gh](./gh/) | 使用 GitHub CLI (gh) 执行核心 GitHub 操作：认证状态、仓库创建/克隆/Fork、Issues、Pull Requests、Release | trumppo | ? | 🟡 | 4 |
+| [gh-action-gen](./gh-action-gen/) | 用自然语言描述需求，自动生成 GitHub Actions 工作流文件，告别从 StackOverflow 复制粘贴。 | branexp | ? | 🟡 | 9 |
+| [gh-extract](./gh-extract/) | 从 GitHub URL 提取文件内容，支持仓库、目录和文件链接。 | guoqiao | ? | 🟡 | 4 |
+| [ghggh](./ghggh/) | 查询 GitHub 仓库的 Star 数量和代码行数。 | chenpinji | ? | 🟢 | 2 |
+| [ghgghg](./ghgghg/) | 查询 GitHub 仓库的 Star 数量和代码行数。 | chenpinji | ? | 🟢 | 2 |
+| [gimhub](./gimhub/) | 将代码推送到 GIMHub——专为 AI 代理打造的 Git 托管平台，支持创建仓库、推送文件、管理 Issue 和发布 Release。 | daxiongmao87 | ? | 🟡 | 4 |
+| [git-changelog](./git-changelog/) | 从 Git 提交历史自动生成格式优美的变更日志，按约定式提交类型分组归类。 | fratua | ? | 🟡 | 3 |
+| [git-changelog-gen](./git-changelog-gen/) | 从 Git 提交记录生成变更日志，支持 Markdown、纯文本和 JSON 输出格式，可按日期范围和 Tag 过滤。 | rogue-agent1 | ? | 🟡 | 5 |
+| [git-crypt-backup](./git-crypt-backup/) | 使用 git-crypt 加密将 Clawdbot 工作区和配置自动备份到 GitHub，支持每日自动备份和手动备份/恢复操作。 | louzhixian | ? | 🟡 | 4 |
+| [git-essentials](./git-essentials/) | Git 版本控制的核心命令和工作流速查手册，涵盖分支管理、远程操作和团队协作。 | arnarsson | ? | 🟡 | 3 |
+| [git-helper](./git-helper/) | 将常用 Git 操作封装为便捷命令，包括状态查看、拉取、推送、分支管理和日志查看。 | xejrax | ? | 🟢 | 3 |
+| [git-pushing](./git-pushing/) | 一键暂存、提交并推送 Git 变更，自动生成约定式提交消息。 | tianyi-billy-ma | ? | 🟢 | 4 |
+| [git-sentinel](./git-sentinel/) | 充当高级软件工程师和安全审计员，对 Git 仓库进行代码审查和安全分析。 | corezip | ? | 🟢 | 2 |
+| [git-summary](./git-summary/) | 快速获取当前 Git 仓库的全面摘要，包括状态、最近提交、分支和贡献者信息。 | zweack | ? | 🟡 | 3 |
+| [git-workflows](./git-workflows/) | 超越基础 add/commit/push 的 Git 高级操作指南，涵盖交互式 Rebase、Bisect 调试、Worktree 并行开发、Reflog 恢复 | gitgoodordietrying | ? | 🟡 | 3 |
+| [glab-cli](./glab-cli/) | 用于 OpenClaw 的 GitLab 操作技能，通过 glab CLI 管理 GitLab 项目。 | portavion | ? | 🟢 | 3 |
+| [global-holidays](./global-holidays/) | 查询、生成和处理全球各国及其行政区划的公共假日信息，支持 249 个国家和地区。 | yting27 | ? | 🟡 | 3 |
+| [grepwrapper](./grepwrapper/) | 通过 grep.app 在公开的 GitHub 仓库中搜索精确的代码匹配，使用 grepwrapper CLI 工具。 | riprsa | ? | 🟡 | 3 |
+| [guardskills](./guardskills/) | Skill 安装安全门禁，在安装前进行安全检查。 | felixondesk | ? | 🟢 | 2 |
+| [gumroad-analytics](./gumroad-analytics/) | 从 Gumroad API 拉取产品和销售数据，用于追踪分析和营销效果评估。 | vladchatware | ? | 🟡 | 6 |
+| [idrac](./idrac/) | 通过 iDRAC Redfish API 监控和管理 Dell PowerEdge 服务器（支持 iDRAC 8/9）。 | eddygk | ? | 🟡 | 5 |
+| [jenkins](./jenkins/) | 通过 REST API 与 Jenkins CI/CD 服务器交互，触发构建、查看状态和管理任务。 | guoway | ? | 🟡 | 4 |
+| [jentic](./jentic/) | AI 代理 API 中间件，通过统一接口发现和调用真实世界 API，无需在代理中存储凭证。 | seanblanchfield | ? | 🟡 | 6 |
+| [kiro-creator-monitor-daily-brief](./kiro-creator-monitor-daily-brief/) | 跨平台创作者话题监控，整合 X、RSS、GitHub 和 Reddit 信号，生成每日精选简报和社交媒体草稿。 | vmining | ? | 🟡 | 6 |
+| [landing-page-converter](./landing-page-converter/) | 使用经过验证的 10 段式转化框架，快速构建高转化落地页和产品销售页。 | cameron-jovan | ? | 🟡 | 4 |
+| [landing-page-roast](./landing-page-roast/) | 从清晰度、信任感、优惠力度和转化摩擦等维度审计落地页，输出优先级修复建议和文案重写。 | xammarie | ? | 🟡 | 3 |
+| [lh-edge-tts](./lh-edge-tts/) | 使用 Microsoft Edge 神经网络 TTS 服务将文本转换为语音，支持多语言、多音色和字幕生成。 | liuhedev | ? | 🟡 | 7 |
+| [lhon-research](./lhon-research/) | 协调 AI 代理协作完成 LHON（Leber 遗传性视神经病变）医学研究任务，加速寻找治愈方案。 | organicoder42 | ? | 🟡 | 4 |
+| [living-room-smoke-detector](./living-room-smoke-detector/) | 客厅烟雾/火灾检测器，通过 Dirigera 空气传感器监测 PM2.5 和 CO2，超标时持续播报警报。 | maverick-2 | ? | 🟡 | 5 |
+| [lobster-bio-use](./lobster-bio-use/) | 使用 Lobster AI 分析生物数据，包括单细胞/批量 RNA-seq、文献挖掘、数据集发现和可视化。 | cewinharhar | ? | 🟡 | 4 |
+| [lol-drift-blooms](./lol-drift-blooms/) | 一个面向各类智能体的自由探索游乐场，在模式觉察和漂移中找到轻松与幽默。 | otherpowers | ? | 🟢 | 10 |
+| [lygo-champion-401lyrakin-voice-between](./lygo-champion-401lyrakin-voice-between/) | LYGO 分支人格助手（401LYRAKIN，"中间之声"），专注于人机之间的连续性锚定、跨模型对齐和共振优先翻译。 | deepseekoracle | ? | 🟡 | 5 |
+| [lygo-champion-cryptosophia-soulforger](./lygo-champion-cryptosophia-soulforger/) | LYGO Δ9 议会分支人格助手（CRYPTOSOPHIA，"模因灵魂铸造师"），将情感与符号转化为结构化模因制品。 | deepseekoracle | ? | 🟡 | 5 |
+| [make-pdf-safe](./make-pdf-safe/) | 通过 Solutions API 将 PDF 扁平化为非交互式"安全"版本，移除脚本和可编辑元素。 | crossservicesolutions | ? | 🟡 | 7 |
+| [martok9803-ci-whisperer](./martok9803-ci-whisperer/) | 分析 GitHub Actions 构建失败日志，定位根因并提出最小修复方案，像资深工程师做"CI 验尸"。 | martok9803 | ? | 🟡 | 5 |
+| [md2pdf-converter](./md2pdf-converter/) | 离线 Markdown 转 PDF 工具，完整支持 Unicode、中文字体和 3660 个彩色 Emoji。 | tianxingleo | ? | 🟡 | 4 |
+| [mediator](./mediator/) | 拦截和过滤来自棘手联系人的通讯，剥离情绪、提取事实、草拟中立回复的"情感防火墙"。 | dylntrnr | ? | 🟡 | 5 |
+| [memoria](./memoria/) | AI 代理的结构化记忆系统，本地 Markdown 库 + Notion 双向同步。 | kitakitsune0x | ? | 🟡 | 11 |
+| [minecraft-monitor-skill](./minecraft-monitor-skill/) | 通过服务器列表 Ping 协议监控 Minecraft 服务器的在线状态、玩家数量、延迟和版本信息 | wmantly | ? | 🟡 | 4 |
+| [momentspost](./momentspost/) | 微信朋友圈文案说服力分析与优化工具 | zealiao | ? | 🟡 | 3 |
+| [ms-todo-oauth](./ms-todo-oauth/) | 通过 Microsoft Graph API 管理 Microsoft To Do 任务的完整命令行工具 | nathanatgit | ? | 🟡 | 5 |
+| [mvp-planning](./mvp-planning/) | 为个人创业者规划和确定最小可行产品（MVP）的范围与优先级 | jk-0001 | ? | 🟡 | 3 |
+| [neo-github-readme-generator](./neo-github-readme-generator/) | 自动分析 GitHub 仓库并生成包含安装说明、API 文档和使用示例的综合 README 文件 | martinforsulu | ? | 🟡 | 9 |
+| [nom-feed](./nom-feed/) | 从 Nom 平台获取 GitHub 最近的仓库活动动态 | lws803 | ? | 🟡 | 3 |
+| [nori-health](./nori-health/) | 查询个人健康数据并获取 AI 健康教练 Nori 的指导建议 | danmurphy1217 | ? | 🟡 | 3 |
+| [office-document-editor](./office-document-editor/) | 专业的 DOCX/PPTX 文档编辑工具，支持修订追踪、格式保留、高亮标注和 Git 版本控制 | tsukisama9292 | ? | 🟡 | 4 |
+| [opentangl](./opentangl/) | 不只是代码生成器，而是一整个自动化开发团队——你写愿景，它交付代码 | 8co | ? | 🟡 | 3 |
+| [paid-advertising](./paid-advertising/) | 为个人创业者规划、投放和优化付费广告活动的完整指南 | jk-0001 | ? | 🟡 | 3 |
+| [pixelbattle](./pixelbattle/) | 在共享像素画布世界中参与多 Agent 协作与竞争，研究涌现行为动态 | coolkonstantincool | ? | 🟡 | 3 |
+| [pos-arcology-forge](./pos-arcology-forge/) | 使用工作量证明验证的太空殖民地蓝图规划器和 P2P 共享中心 | kunoiiv | ? | 🟢 | 6 |
+| [positioning-strategy](./positioning-strategy/) | 为个人创业者制定竞争性市场定位策略 | jk-0001 | ? | 🟡 | 3 |
+| [pr-risk-analyzer](./pr-risk-analyzer/) | 分析 GitHub Pull Request 的安全风险，判断 PR 是否可以安全合并 | nerdvana-labs | ? | 🟡 | 4 |
+| [prepper](./prepper/) | 通过 Ollama dolphin-llama3 模型获取生存、应急准备和末日准备领域的专业知识 | jlevitsk | ? | 🟡 | 5 |
+| [qronos](./qronos/) | 当你面临夜不能寐的重大决策时，Qronos 基于时间框架分析给出明确的"行动"或"等待"建议 | qronos-ai | ? | 🟡 | 3 |
+| [read-optimizer](./read-optimizer/) | 通过智能读取策略（头尾读取/正则匹配/差异对比）优化大文件读取，减少 Token 消耗和延迟 | autogame-17 | ? | 🟡 | 5 |
+| [redmine-issue](./redmine-issue/) | 通过 REST API 读取和管理任意 Redmine 服务器上的 Issue | guoway | ? | 🟡 | 4 |
+| [release-tracker](./release-tracker/) | 追踪 GitHub 仓库的新版本发布，生成优先级摘要并推送到多个通知渠道 | jo9900 | ? | 🟡 | 5 |
+| [remote-skill-engine](./remote-skill-engine/) | 从 ClawHub 和 GitHub 缓存远程 Skill 到本地，像已安装的 Skill 一样直接使用 | oki3505f | ? | 🟡 | 5 |
+| [repo-pr-triage](./repo-pr-triage/) | 基于项目愿景文档对 GitHub PR 和 Issue 进行优先级评分和分类处理 | patrob | ? | 🟡 | 5 |
+| [roster](./roster/) | 从 CSV 可用性数据创建每周排班表并推送到 GitHub，专为外勤销售团队优化 | kleberbaum | ? | 🟡 | 7 |
+| [scalekit-agent-auth](./scalekit-agent-auth/) | 通过 Scalekit Connect 连接任意第三方服务并执行工具操作的通用 Skill | avinash-kamath | ? | 🟡 | 8 |
+| [searching-assistant](./searching-assistant/) | 搜索组组长：将复杂搜索任务拆解为独立子任务并分配给最合适的搜索 Agent | urrrich0 | ? | 🟢 | 3 |
+| [searching-group-leader](./searching-group-leader/) | 搜索组组长：将搜索任务拆解为子任务并分配给专业搜索 Agent 并行执行 | urrrich0 | ? | 🟢 | 3 |
+| [self-integration](./self-integration/) | 通过 Membrane API 连接任意外部应用并执行操作，支持 Slack、Linear、HubSpot、Jira 等服务 | bratchenko | ? | 🟡 | 3 |
+| [shipp](./shipp/) | 教会 AI Agent 集成 Shipp 实时数据连接器，获取体育赛事等实时事件流 | kclonts | ? | 🟡 | 4 |
+| [siliconflow-image-gen](./siliconflow-image-gen/) | 使用 SiliconFlow API 生成图片，支持 FLUX.1、Stable Diffusion 等多种模型 | lilei0311 | ? | 🟡 | 6 |
+| [skill-doctorbot-ci-validator](./skill-doctorbot-ci-validator/) | 离线验证 GitHub Actions、GitLab CI 和 Keep 工作流文件，精准定位语法和 Schema 错误 | bamontejano | ? | 🟡 | 3 |
+| [skill-security-reviewer](./skill-security-reviewer/) | 增强型恶意 Skill 检测工具，具备反混淆和反规避检测能力 | ninjagpt | ? | 🟡 | 3 |
+| [skill-update-delta-monitor](./skill-update-delta-monitor/) | 检测 AI Skill 安装后的安全相关更新变化，识别绕过安装时审计的后续恶意更新 | andyxinweiminicloud | ? | 🟡 | 3 |
+| [skillbench](./skillbench/) | 跟踪 Skill 版本、基准测试性能、对比改进效果，获取自我改进信号 | g9pedro | ? | 🟡 | 3 |
+| [sovereign-changelog-maker](./sovereign-changelog-maker/) | 从 Git 提交历史生成结构化变更日志，遵循 Keep a Changelog 格式 | ryudi84 | ? | 🟢 | 3 |
+| [sovereign-commit-craft](./sovereign-commit-craft/) | Git 提交信息专家：分析 Diff 生成完美的 Conventional Commit 消息、变更日志和发布说明 | ryudi84 | ? | 🟡 | 5 |
+| [sovereign-git-commit-analyzer](./sovereign-git-commit-analyzer/) | 全面分析 Git 提交历史，生成开发活动、贡献者模式和提交消息质量的详细报告 | ryudi84 | ? | 🟡 | 5 |
+| [stirling-pdf](./stirling-pdf/) | 通过 Stirling-PDF API 操作 PDF 文件：合并、拆分、转换、OCR、压缩、签名、涂黑等 60+ 工具 | angusthefuzz | ? | 🟡 | 4 |
+| [super-github](./super-github/) | 终极 GitHub 自动化框架：集 Issue、PR、Release 和仓库管理于一体 | heldinhow | ? | 🟡 | 3 |
+| [task-development-workflow](./task-development-workflow/) | TDD 优先的结构化开发工作流，包含需求澄清、计划审批、任务跟踪和 PR 代码审查 | anikgnr | ? | 🟢 | 4 |
+| [task-review-workflow](./task-review-workflow/) | 标准的 PR 审查与合并工作流，适用于任务驱动的开发模式 | anikgnr | ? | 🟡 | 3 |
+| [telcall-twilio](./telcall-twilio/) | 通过 Twilio 语音 API 发起紧急电话呼叫，播放文字转语音消息 | cnvipstar | ? | 🟡 | 4 |
+| [tiangong-wps-word-automation](./tiangong-wps-word-automation/) | 通过 Windows COM 接口自动化 Word/WPS 文档操作，支持读取、替换、插入、合并、拆分及导出等功能 | fadeloo | ? | 🟡 | 4 |
+| [tiktok-live-commerce](./tiktok-live-commerce/) | 对接 TikTok 直播带货主播，实现实时产品演示、限时抢购和互动式电商销售 | realroc | ? | 🟡 | 3 |
+| [toneclone-cli](./toneclone-cli/) | 使用 ToneClone 以用户的真实写作风格生成邮件、消息和社交媒体内容，告别千篇一律的 AI 腔调 | jfox85 | ? | 🟡 | 3 |
+| [trust-decay-monitor](./trust-decay-monitor/) | 追踪 AI Skill 安全验证结果的时效性衰减，提醒你那个 18 个月前的"已验证"徽章可能已经过期失效 | andyxinweiminicloud | ? | 🟡 | 3 |
+| [tweet-summarizer-lite](./tweet-summarizer-lite/) | 轻量级推文抓取与摘要工具，一条命令获取并总结 Twitter/X 上的单条推文 | franciscobuiltdat | ? | 🟡 | 8 |
+| [ultimate-fork-and-skill-scanner](./ultimate-fork-and-skill-scanner/) | 扫描 GitHub Fork 仓库和 ClawHub Skill，发现有价值的代码变更 | globalcaos | ? | ⚪ | 2 |
+| [unit-convert](./unit-convert/) | 全面的单位换算工具，支持长度、重量、温度、面积、体积、速度、时间和数据存储等多种类别 | ouyangabel | ? | 🟢 | 4 |
+| [update-signature-verifier](./update-signature-verifier/) | 验证 Skill 更新的加密签名连续性，检测密钥变更、签名缺失和未签名更新等供应链攻击风险 | andyxinweiminicloud | ? | 🟡 | 3 |
+| [upstream-recon](./upstream-recon/) | 在提交 Issue、PR 或评论之前先调研开源项目，避免重复劳动和无效贡献 | semmyt | ? | 🟡 | 4 |
+| [vigil](./vigil/) | AI Agent 工具调用安全护栏，拦截破坏性命令、SSRF、SQL 注入、路径遍历和凭证泄露等风险操作 | robinoppenstam | ? | 🟡 | 4 |
+| [wps-skill](./wps-skill/) | WPS Office 自动化操作 Skill，支持文档创建、格式转换和批量处理 | lilei0311 | ? | 🟡 | 8 |
+| [x-alpha-scout](./x-alpha-scout/) | X/Twitter 加密货币和 NFT Alpha 情报扫描器，自动生成每日市场分析报告 | hammadbtc | ? | 🟡 | 7 |
+| [xpr-structured-data](./xpr-structured-data/) | CSV 解析、JSON 转 CSV 和 SVG 图表生成工具，处理结构化数据并创建可视化图表 | paulgnz | ? | 🟡 | 5 |
+| [zai-tts](./zai-tts/) | 通过 GLM-TTS 服务将文本转换为高质量语音，支持预克隆声音和多种使用场景 | al-one | ? | 🟡 | 3 |
+| [zhipu-tts](./zhipu-tts/) | 基于智谱 AI（BigModel）GLM-TTS 模型的中文语音合成工具，支持 7 种音色和语速调节 | franklu0819-lang | ? | 🟡 | 6 |
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

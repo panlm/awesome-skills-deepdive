@@ -1,6 +1,6 @@
 # contract diagram
 
-> "Diagram as contract for agreed-upon AI development"
+> 合同结构可视化工具，将合同关系图表化
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Questions that need discussion
-- Trade-offs that need decisions
-- Unclear requirements
-- Errors AI can't resolve alone
-- Permission needed (destructive action, cost implications)
-- Ambiguity in implementation
+- 将合同条款关系可视化
+- 生成合同结构图表
+- 识别关键条款和依赖关系
+- 支持多方合同关系展示
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将复杂的商业合同可视化为结构图便于审查
+- 展示多方合约的权利义务关系
+
+## 依赖和前提条件
+- GitHub API
+- Webhook 配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `github-markdown.css`
@@ -52,6 +54,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

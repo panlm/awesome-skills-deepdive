@@ -1,29 +1,32 @@
 # greetr
 
-> |
+> 简单的问候工具 skill，返回基本的问候消息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | greetr |
 | **作者** | nordgaren |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/nordgaren-greetr |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nordgaren/greetr |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- User sends a greeting ("hello", "hi", "hey", "what's up", etc.)
-- User says "greet me"
-- User says "good morning", "good afternoon", "good evening"
-- Session start greeting is requested
+- 生成简洁的问候消息
+- 支持自定义问候语模板
+- 适合作为 skill 开发的入门示例
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 学习和测试 OpenClaw skill 开发流程
+- 作为新 skill 项目的基础模板
+
+## 依赖和前提条件
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

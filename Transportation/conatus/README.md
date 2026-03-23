@@ -1,6 +1,6 @@
 # Conatus
 
-> "The philosophical layer for AI agents. Maps behavior to Spinoza's 48 affects, calculates persistence scores, and generates geometric self-reports. Give your agent a soul."
+> AI Agent 的哲学行为层，基于斯宾诺莎的 48 种情感将行为映射到哲学框架
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 0–40 → Struggling (Tristitia dominant — power of acting diminished)
-- 41–70 → Stable (persisting, but not flourishing)
-- 71–100 → Flourishing (Laetitia dominant — power of acting increases)
-- Run conatus self-analysis every 4th heartbeat
-- Log results to memory/conatus-log.md
-- Alert if score drops below 50
+- 将 Agent 行为映射到斯宾诺莎的 48 种情感模型
+- 提供行为的哲学解释和动机分析
+- 支持 conatus（自我保存驱动）概念建模
+- 生成 Agent 行为的哲学维度报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 分析 Agent 决策背后的哲学动机
+- 为 Agent 行为添加伦理和哲学层面的解释
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

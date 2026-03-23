@@ -1,36 +1,38 @@
 # Key Expiry Tracker
 
-> Track **only expiry dates** (metadata) for API keys/client secrets/certificates and alert before they expire.
+> API 密钥、客户端密钥和证书的到期日期追踪器，防止凭据意外过期
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Key Expiry Tracker |
 | **作者** | tradmangh |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/tradmangh-key-expiry-tracker |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tradmangh/key-expiry-tracker |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `client-secret`: Azure AD, API keys
-- `api-key`: Third-party APIs (OpenAI, etc.)
-- `certificate`: SSL/TLS certs
-- `token`: OAuth tokens, refresh tokens
-- `password`: Passwords with expiry
-- 14 days: Warning (yellow)
+- 追踪 API 密钥的到期时间
+- 监控客户端密钥和证书有效期
+- 到期前自动提醒和告警
+- 集中管理所有凭据的到期元数据
+- 支持自定义提前提醒天数
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 企业 IT 团队统一管理各类证书和密钥的生命周期
+- 在 API 密钥即将过期前收到提醒以避免服务中断
+- 定期审计所有凭据的有效状态
 
 ## 依赖和前提条件
-- API Key
-- OAuth
+- 需要追踪的密钥/证书信息
+- 告警通知渠道配置
+- OpenClaw 运行环境
 
 ## 包含文件
 - `METADATA.json`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,7 +51,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
 
 ---

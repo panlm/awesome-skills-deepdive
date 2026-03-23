@@ -1,6 +1,6 @@
 # Bookkeeping Basics
 
-> Set up and maintain basic bookkeeping for a solopreneur business. Use when tracking income and expenses, preparing for taxes, managing invoices and receipts, understanding cash flow, or generating financial reports. Covers accounting software selection, chart of accounts, expense categorization, reconciliation, and financial statements. Not professional accounting advice — consult a CPA for complex situations. Trigger on "bookkeeping", "accounting", "track expenses", "financial records", "QuickBooks", "invoicing", "receipts", "profit and loss".
+> 基础记账和簿记工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Just starting, no revenue yet → Wave (free)
-- Revenue < $50K/year → Wave or FreshBooks
-- Revenue $50K-250K/year → QuickBooks Online
-- International clients or contractors → Xero
-- Sales Revenue (product/service sales)
-- Consulting Revenue
+- 日常收支记录管理
+- 基础会计分录处理
+- 账目分类和统计
+- 财务报表生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为小型企业管理日常收支记账
+- 自动分类和统计月度财务数据
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

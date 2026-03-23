@@ -1,6 +1,6 @@
 # Fitbit Analytics
 
-> Fitbit health and fitness data integration. Fetch steps, heart rate, sleep, activity, calories, and trends from Fitbit Web API. Generate automated health reports and alerts. Requires FITBIT_CLIENT_ID, FITBIT_CLIENT_SECRET, FITBIT_ACCESS_TOKEN, FITBIT_REFRESH_TOKEN.
+> Fitbit 数据深度分析和可视化工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,16 +13,16 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Activity Tracking: Fetch daily steps, distance, calories, and active minutes.
-- Heart Rate: Access continuous heart rate data and resting heart rate trends.
-- Sleep Analytics: Analyze sleep stages (Deep, Light, REM, Wake) and efficiency.
-- Reports: Generate daily/weekly health reports with trend analysis.
-- Automation: Scripts ready for cron jobs (e.g., daily summaries).
+- Activity Tracking: Fetch daily steps, distance, calories, and active minutes
+- Heart Rate: Access continuous heart rate data and resting heart rate trends
+- Sleep Analytics: Analyze sleep stages (Deep, Light, REM, Wake) and efficiency
+- Reports: Generate daily/weekly health reports with trend analysis
+- Automation: Scripts ready for cron jobs (e.g., daily summaries)
 
 ## 使用场景
-- 同步和分析运动数据
-- 追踪健康指标趋势
-- 生成健身报告和洞察
+- 对 Fitbit 数据进行深度统计分析
+- 生成健康数据的可视化报告
+- 识别健康指标的异常模式
 
 ## 依赖和前提条件
 - Python / pip
@@ -37,7 +37,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

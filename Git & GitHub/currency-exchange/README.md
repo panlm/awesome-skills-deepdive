@@ -1,38 +1,33 @@
 # Currency Exchange Rate
 
-> "Currency exchange rate conversion using exchangerate-api.com. Use when: (1) converting between currencies, (2) checking current exchange rates, (3) viewing currency conversion tables, or (4) any forex/currency related queries. Supports 150+ currencies with real-time rates."
+> 使用 exchangerate-api.com 进行实时货币汇率转换，支持 150+ 种货币
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Currency Exchange Rate |
 | **作者** | ouyangabel |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/ouyangabel-currency-exchange |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ouyangabel/currency-exchange |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Convert between any currencies
-- Check current exchange rates
-- View rate tables for multiple currencies
-- Calculate cross-currency conversions
-- Rates are updated daily (typically around 00:00 UTC)
-- API is free and requires no authentication
+- 在任意两种货币之间进行金额转换（如 USD→CNY、EUR→JPY）
+- 查看基准货币对主要货币的实时汇率表
+- 列出所有支持的 150+ 种货币代码
+- 使用免费 API，无需 API 密钥即可使用
+- 提供 Python 脚本的 CLI 接口（convert / rate / list 子命令）
+- 汇率每日更新（通常在 UTC 00:00）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速查询当前汇率或进行跨币种金额换算
+- 在做国际贸易或旅行预算时批量对比多种货币汇率
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3
+- exchangerate-api.com 免费 API（无需注册或密钥）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +46,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

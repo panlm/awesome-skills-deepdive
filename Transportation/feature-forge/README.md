@@ -1,6 +1,6 @@
 # Feature Forge
 
-> Generates complete features from natural language — components, API routes, migrations, types, and tests
+> 从自然语言描述生成完整功能——组件、API 路由、数据库迁移等
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Parse the user's description to identify: UI components needed, data model changes, API endpoints, auth requirements.
-- Check existing code to understand current patterns (look at `src/` structure, existing components, current schema).
-- Determine if this feature needs: new DB tables/columns, new API routes, new pages, new components, state management chan
-- Create a migration file at `supabase/migrations/<timestamp>_<feature>.sql`.
-- Include table creation, RLS policies, indexes, and any functions.
-- Regenerate types: `npx supabase gen types typescript --local > src/lib/supabase/types.ts`.
+- 从自然语言描述生成前端组件代码
+- 自动创建 API 路由和端点
+- 生成数据库迁移脚本
+- 端到端功能脚手架自动生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 描述需求后自动生成完整的 CRUD 功能代码
+- 快速原型开发——从文字描述到可运行代码
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js / npm、项目框架环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `claw.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +42,4 @@
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

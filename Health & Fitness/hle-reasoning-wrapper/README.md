@@ -1,6 +1,6 @@
 # Hle Reasoning Wrapper
 
-> Wraps HLE benchmark questions in a structured Chain-of-Thought (CoT) reasoning process. Use when answering HLE questions to ensure strict step-by-step logic and format compliance.
+> HLE 推理能力增强包装工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,18 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wanng-ide/hle-reasoning-wrapper |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Wraps HLE benchmark questions in a structured Chain-of-Thought (CoT) reasoning process
+- Use when answering HLE questions to ensure strict step-by-step logic and format compliance
+- 支持数据跟踪和记录
+
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 增强 AI 模型的推理能力
+- 封装复杂的推理链流程
+- 优化推理任务的执行效果
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
@@ -24,7 +32,7 @@
 - `package.json`
 - `test.js`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Flight Tracker
 
-> Track flights in real-time with detailed status, gate info, delays, and live position. Use when user asks to track a flight, check flight status, look up flight information by flight number (e.g., "track AA100", "what's the status of United 2402", "check my flight BA123"), or wants to display flight data in a formatted view similar to Flighty app.
+> 实时航班追踪工具，提供详细的航班状态、登机口信息和延误数据
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- ✈️ Airline and flight number
-- 🛩️ Aircraft type and registration
-- 🛫 Departure airport, terminal, gate, times
-- 🛬 Arrival airport, terminal, gate, times
-- 📊 Flight status with visual indicators
-- ⏱️ Delay calculations (if applicable)
+- 实时追踪航班状态和飞行位置
+- 获取登机口和航站楼信息
+- 显示延误详情和预计到达时间
+- 支持按航班号查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 追踪家人航班的实时飞行状态
+- 查看即将到达航班的登机口和延误信息
 
 ## 依赖和前提条件
 - API Key
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

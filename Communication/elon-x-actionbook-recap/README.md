@@ -1,23 +1,31 @@
 # Elon X Actionbook Recap
 
-> (DEPRECATED) Use x-actionbook-recap instead. This slug is kept for backward compatibility. Collect, scroll, extract, and summarize X posts using actionbook-rs.
+> （已弃用）X/Twitter 动态回顾工具，请使用 x-actionbook-recap 替代
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Elon X Actionbook Recap |
 | **作者** | jack4world |
+| **版本** | 0.1.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jack4world-elon-x-actionbook-recap |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jack4world/elon-x-actionbook-recap |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 已弃用，功能迁移至 x-actionbook-recap
+- 原用于追踪特定用户的 X/Twitter 动态
+- 生成动态摘要和行动要点
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 请迁移至 x-actionbook-recap 获取完整功能
+
+## 依赖和前提条件
+- 请使用 x-actionbook-recap 替代
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

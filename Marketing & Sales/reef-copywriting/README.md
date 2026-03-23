@@ -1,31 +1,32 @@
 # Reef Copywriting
 
-> Write landing pages, product descriptions, ads, and sales copy using proven direct-response frameworks.
+> 专业文案写作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Reef Copywriting |
 | **作者** | staybased |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/staybased-reef-copywriting |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/staybased/reef-copywriting |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Writing landing page copy (Gumroad, product pages, ClawHub listings)
-- Crafting product descriptions that convert browsers to buyers
-- Writing ad copy (social, search, display)
-- Improving existing copy that isn't converting
-- Writing Upwork profile descriptions or service listings
-- Creating CTA buttons and microcopy
+- 营销文案自动生成
+- 多种文案风格模板
+- 品牌调性文案定制
+- A/B 文案变体创建
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为营销活动快速生成多个文案变体
+- 根据品牌调性创作一致的营销文案
+
+## 依赖和前提条件
+- Discord API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # George
 
-> "Automate George online banking (Erste Bank / Sparkasse Austria): login/logout, list accounts, and fetch transactions via Playwright."
+> George AI 助手技能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,18 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Session state stored in `{workspace}/george/` with restrictive permissions (dirs `700`, files `600`).
-- Ephemeral exports default to `/tmp/openclaw/george` (override with `OPENCLAW_TMP`).
+- AI 对话和交互助手
+- 任务自动化处理
+- 信息检索和总结
+- 工作流辅助功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 作为 AI 助手辅助日常工作任务
+- 通过对话方式自动化处理常见任务
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Playwright
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SETUP.md`
 - `SKILL.md`
 - `_meta.json`
@@ -47,6 +51,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

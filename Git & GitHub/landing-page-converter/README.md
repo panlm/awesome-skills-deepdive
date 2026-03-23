@@ -1,35 +1,32 @@
 # Landing Page Converter
 
-> Build high-converting landing pages and product sales pages using proven 10-section conversion frameworks. Includes Hero → Social Proof → Benefits → CTA flow for both lead capture and e-commerce pages.
+> 使用经过验证的 10 段式转化框架，快速构建高转化落地页和产品销售页。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Landing Page Converter |
 | **作者** | cameron-jovan |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/cameron-jovan-landing-page-converter |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cameron-jovan/landing-page-converter |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "landing page template"
-- "product page"
-- "high converting page"
-- "sales page generator"
-- "conversion framework"
-- "ecommerce template"
+- 提供落地页模板：Hero → 社会证明 → 利益点 → CTA 完整流程
+- 提供产品销售页模板，适用于电商和 Shopify 场景
+- 包含主标题、副标题、CTA 按钮等每个区块的详细结构指导
+- 支持邮件订阅捕获页、网络研讨会注册页、免费试用页等场景
+- 基于 Jovan Industries 转化框架的最佳实践
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速为新产品或活动创建高转化的落地页
+- 为电商店铺生成标准化的产品销售页结构
+- 营销团队使用框架模板统一落地页质量
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `templates`
+## 依赖和前提条件
+- 无外部依赖（纯文案框架和模板指南）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +45,4 @@
 **风险摘要:** 2 项中风险。越权操作：涉及权限相关操作；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

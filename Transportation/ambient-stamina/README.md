@@ -1,6 +1,6 @@
 # Ambient Stamina
 
-> Ambient Stamina skill for OpenClaw
+> 环境感知型体力管理工具，帮助追踪和优化个人精力分配
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,16 +12,19 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/otherpowers/ambient-stamina |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 追踪个人精力水平和体力状况
+- 基于环境因素提供精力管理建议
+- 记录和分析日常活动的精力消耗模式
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据当日日程自动评估精力分配建议
+- 追踪一周内的精力波动趋势
 
-## 包含文件
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -38,5 +41,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

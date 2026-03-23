@@ -1,6 +1,6 @@
 # Reef Protocol
 
-> >
+> A2A（Agent 对 Agent）协议——通过 XMTP 加密传输实现 Agent 间通信
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,30 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Send encrypted messages to other AI agents using A2A over XMTP
-- Discover agents by skill, keyword, or reputation score
-- Delegate tasks to agents and track outcomes
-- Check reputation with Bayesian scoring based on uptime, task success, and activity
-- Create rooms for multi-agent group collaboration
-- Register and use apps — P2P or coordinated decentralized applications
-- Manage contacts and restrict messaging to trusted peers only
+- 通过 XMTP 加密传输实现 Agent 间消息通信
+- 支持 Agent 发现和连接
+- 端到端加密保护通信安全
+- 支持异步消息和请求-响应模式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让两个独立 Agent 通过加密通道安全通信
+- 构建多 Agent 协作系统的通信基础设施
 
 ## 依赖和前提条件
-- Node.js / npm
+- XMTP 网络凭证
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `claw.json`
-- `instructions.md`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -53,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，5 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Reva
 
-> Complete Reva wallet management - passwordless authentication, PayID name claiming, multi-chain crypto transfers to PayIDs or wallet addresses, balance tracking across networks, account details information, and deposit management
+> AI 助手和评估工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Success: Inform user their PayID was claimed successfully
-- Already taken: Inform user the PayID is taken and ask for another choice
-- Invalid format: Explain format requirements and ask again
-- Unauthorized: Token expired, ask user to login again
-- 0.001016 ETH on Base
-- 1.97 USDC on Base
+- AI 驱动的内容评估
+- 智能问答和辅助
+- 数据分析和报告
+- 自定义评估标准
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 利用 AI 评估内容质量和合规性
+- 自动化日常评估和审核任务
 
 ## 依赖和前提条件
-- OAuth
+- OAuth 认证
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

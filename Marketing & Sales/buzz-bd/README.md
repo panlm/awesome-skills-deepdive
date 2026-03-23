@@ -1,21 +1,33 @@
 # buzz-bd
 
-> buzz-bd skill for OpenClaw
+> 营销口碑和业务开发工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | buzz-bd |
 | **作者** | unknown |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/unknown-buzz-bd |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/buzz-bd |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 口碑营销策略管理
+- 业务开发流程自动化
+- 传播效果追踪
+- 客户推荐管理
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 策划和执行口碑营销活动
+- 追踪营销传播效果和客户推荐数据
+
+## 依赖和前提条件
+- 无特殊依赖
+
+## 包含文件
+- `README.md`
+- `_meta.json`
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

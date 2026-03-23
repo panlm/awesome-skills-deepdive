@@ -1,6 +1,6 @@
 # Translink CLI
 
-> Query, troubleshoot, and explain Translink SEQ GTFS static + realtime data using local translink_* commands or plugin slash commands. Use for schedule lookups, stop/route/trip joins, vehicle/trip realtime checks, alerts, schema drift review, PK/FK reasoning, and paginated filtering.
+> 查询和解释 Translink SEQ（布里斯班）的 GTFS 静态和实时公共交通数据
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- CLI repo: `https://github.com/alanburchill/traslink-cli-scripts`
-- Expected commands: `translink_*` (or equivalent wrappers that expose the same command names)
-- Shell CLI: `translink_*`
-- Plugin slash commands: `/translink_*` and `/translink <command> [args...]`
-- `--where field=value` (repeatable)
-- `--contains field=text` (repeatable)
+- 查询布里斯班及东南昆士兰地区的公共交通数据
+- 支持 GTFS 静态时刻表和实时数据
+- 排查公共交通问题和延误
+- 解释公共交通数据格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询布里斯班某站点的下一班公交到达时间
+- 排查 Translink 公共交通的实时数据问题
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；持久化机制：涉及定时或后台任务
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

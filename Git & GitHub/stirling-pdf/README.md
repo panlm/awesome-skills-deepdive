@@ -1,39 +1,37 @@
 # Stirling PDF
 
-> PDF manipulation via Stirling-PDF API. Merge, split, convert, OCR, compress, sign, redact, and more. Self-hosted.
+> 通过 Stirling-PDF API 操作 PDF 文件：合并、拆分、转换、OCR、压缩、签名、涂黑等 60+ 工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Stirling PDF |
 | **作者** | angusthefuzz |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/angusthefuzz-stirling-pdf |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/angusthefuzz/stirling-pdf |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `STIRLING_PDF_URL` — Your Stirling-PDF instance URL (default: `http://localhost:8080`)
-- `STIRLING_API_KEY` — API key if authentication is enabled
-- Official docs: https://docs.stirlingpdf.com
-- Swagger UI: `<your-instance>/swagger-ui/index.html` on your deployment
-- `merge` - Combine multiple PDFs
-- `split` - Split PDF into parts
+- 页面操作：合并多个 PDF、拆分、旋转、提取指定页面、重新排序
+- 格式转换：Word/Excel/图片/HTML → PDF，PDF → Word/图片/文本
+- 内容处理：压缩文件大小、OCR 识别使扫描件可搜索、添加水印和印章
+- 安全功能：添加/移除密码保护、涂黑敏感内容、清除元数据/脚本
+- 签名功能：为 PDF 添加电子签名
+- 60+ 工具通过 REST API 提供，支持直接 curl 调用
+- 提供 Node.js 封装脚本简化常用操作
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 在工作流中自动处理 PDF（如合并报告、压缩文件、OCR 扫描件）
+- 自动化批量 PDF 处理流水线（格式转换、添加水印、密码保护）
+- 需要自托管 PDF 处理服务以确保数据安全的企业场景
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- 自托管的 Stirling-PDF 实例
+- 环境变量 `STIRLING_PDF_URL`：实例 URL（默认 `http://localhost:8080`）
+- 环境变量 `STIRLING_API_KEY`：API 密钥（如启用认证）
+- `node`、`curl`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +50,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Tribe Protocol
 
-> >
+> Tribe 协议社交网络工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Know who's talking to them (human? bot? what tier?)
-- Enforce data boundaries (no leaking private files to strangers)
-- Track relationships and access across servers
-- Audit trust changes over time
-- `~/clawd/tribe/tribe.db` — the database
-- `~/clawd/TRIBE.md` — behavioral trigger file (loaded into system prompt, survives context compaction)
+- 支持数据跟踪和记录
+- 提供自动化分析功能
+- 支持个性化设置和目标管理
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 参与 Tribe 协议的社交网络活动
+- 管理个人在 Tribe 上的资料和内容
+- 与社区成员互动和协作
 
 ## 依赖和前提条件
 - macOS
@@ -38,7 +35,7 @@
 - `package.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

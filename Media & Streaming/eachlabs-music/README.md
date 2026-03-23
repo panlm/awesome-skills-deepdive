@@ -1,6 +1,6 @@
 # Eachlabs Music
 
-> Generate songs, instrumentals, lyrics, and podcasts using EachLabs Mureka AI models. Also supports song extension, stem separation, and song recognition. Use when the user wants to create music, lyrics, or audio content.
+> EachLabs 音乐生成和创作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -20,9 +20,9 @@
 - For lyrics, mention theme and structure: "verse-chorus-verse about..."
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 使用 AI 生成音乐作品
+- 创作定制化背景音乐
+- 探索不同风格的音乐创作
 
 ## 依赖和前提条件
 - API Key
@@ -32,7 +32,7 @@
 - `_meta.json`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

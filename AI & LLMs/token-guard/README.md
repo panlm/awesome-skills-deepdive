@@ -1,6 +1,6 @@
 # Token Guard
 
-> <!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-TG01 -->
+> LLM API 429 错误预防引擎，智能管理速率限制和 Token 消耗
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,42 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Large documents (docx, PDFs) can consume the entire minute quota in one request
-- Failed requests still count toward token usage
-- Retry loops after 429 errors waste more tokens → death spiral
-- No built-in way to detect runaway/duplicate requests
-- `gemini-3-flash` (1M TPM)
-- `gemini-3-pro` (2M TPM)
+- 预防 LLM API 429（请求过多）错误
+- 智能速率限制管理，自动调节请求频率
+- Token 使用量实时追踪和成本优化
+- 高性能设计，适用于高并发 AI 应用场景
+- 支持多种 LLM API 提供商
+- 自动重试机制与退避策略
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 高并发 AI 应用中防止因超出速率限制导致服务中断
+- 多 Agent 系统共享 API 资源时的智能调度
+- 生产环境中 LLM API 调用的成本控制和优化
 
 ## 依赖和前提条件
-- Python / pip
+- Python 及相关依赖包
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟡 Medium | 需要安装外部依赖 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

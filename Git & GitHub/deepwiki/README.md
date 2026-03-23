@@ -1,35 +1,33 @@
 # DeepWiki
 
-> Query the DeepWiki MCP server for GitHub repository documentation, wiki structure, and AI-powered questions.
+> 通过 DeepWiki MCP 服务器查询 GitHub 仓库的文档、Wiki 结构和 AI 驱动的问答
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | DeepWiki |
 | **作者** | arun-8687 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/arun-8687-deepwiki |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arun-8687/deepwiki |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Base Server: `https://mcp.deepwiki.com/mcp`
-- Works for public repositories only.
-- No authentication required.
+- 对任意公开 GitHub 仓库提出问题，获取基于文档的 AI 回答
+- 获取仓库的文档主题结构列表
+- 查看仓库 Wiki 中特定路径的文档内容
+- 基于 DeepWiki MCP 服务端（https://mcp.deepwiki.com/mcp）
+- 无需认证，直接可用
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速了解一个开源项目的架构和用法，无需手动翻阅文档
+- 向 AI 提问特定 GitHub 仓库的技术细节，获取文档驱动的准确回答
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js（运行脚本）
+- 网络访问（连接 DeepWiki MCP 服务器）
+- 仅支持公开仓库
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +46,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

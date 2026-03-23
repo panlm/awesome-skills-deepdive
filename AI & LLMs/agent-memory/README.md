@@ -1,6 +1,6 @@
 # Agent Memory
 
-> Persistent memory system for AI agents. Remember facts, learn from experience, and track entities across sessions.
+> AI Agent 的持久化记忆系统——跨会话记住事实、从经验中学习、追踪实体
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 📝 Facts - Store and recall information across sessions
-- 🎓 Lessons - Learn from successes and failures
-- 👤 Entities - Track people, projects, and preferences
-- 🔍 Semantic Search - Find relevant memories fast (FTS5)
-- 🧹 Auto-cleanup - Forget stale information automatically
-- 📦 Zero Dependencies - Just Python + SQLite
+- 事实记忆：存储和召回跨会话的信息，支持标签、来源和置信度
+- 经验学习：记录行动的成功或失败，提取可复用的洞察
+- 实体追踪：跟踪人物、项目和偏好等实体信息
+- 语义搜索：基于 FTS5 的快速相关记忆检索
+- 自动清理：过期信息自动遗忘，保持记忆库精简
+- 零外部依赖：仅需 Python + SQLite
+- 支持记忆迭代更新（supersede）和历史记录保留
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 Agent 记住用户偏好和历史交互，提供个性化服务
+- 从过往失败经验中学习教训，避免重复犯错
+- 跨多个会话追踪项目进展和关键人物信息
 
 ## 依赖和前提条件
-- Python / pip
-- 数据库
+- Python 3.8+
+- SQLite（Python 标准库自带）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `cli`
-- `examples`
-- `requirements.txt`
-- `src`
-- `tests`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -57,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

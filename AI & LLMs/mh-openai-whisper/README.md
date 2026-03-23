@@ -1,6 +1,6 @@
 # MH openai-whisper
 
-> Local speech-to-text with the Whisper CLI (no API key).
+> 使用本地 Whisper CLI 进行语音转文字，无需 API Key
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `whisper /path/audio.mp3 --model medium --output_format txt --output_dir .`
-- `whisper /path/audio.m4a --task translate --output_format srt`
-- Models download to `~/.cache/whisper` on first run.
-- `--model` defaults to `turbo` on this install.
-- Use smaller models for speed, larger for accuracy.
+- 完全本地运行的语音转文字工具，保护隐私
+- 支持多种音频格式（mp3、m4a 等）
+- 支持转录和翻译两种任务模式
+- 多种模型大小可选，平衡速度与准确性
+- 支持多种输出格式（txt、srt 等）
+- 模型首次运行时自动下载到 ~/.cache/whisper
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将播客或采访录音快速转录为文字稿
+- 为视频生成 SRT 字幕文件
+- 在无网络环境下进行本地语音转文字处理
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Whisper CLI（可通过 brew install openai-whisper 安装）
+- 足够的磁盘空间用于模型缓存
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -46,4 +48,4 @@
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

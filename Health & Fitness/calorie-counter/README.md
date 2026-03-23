@@ -1,6 +1,6 @@
 # Calorie Counter
 
-> Track daily calorie and protein intake, set goals, and log weight. Use when user mentions food they ate, wants to know remaining calories, or needs to track weight. Stores data in SQLite with automatic daily totals.
+> 卡路里和蛋白质每日摄入跟踪工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -21,9 +21,9 @@
 - History & trends - View past days and progress
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 记录每餐的卡路里和蛋白质摄入
+- 查看每日营养摄入汇总和剩余额度
+- 跟踪体重变化和饮食历史趋势
 
 ## 依赖和前提条件
 - Python / pip
@@ -36,7 +36,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Voice Recognition
 
-> Local speech-to-text with OpenAI Whisper CLI. Supports Chinese, English, 100+ languages with translation and summarization.
+> 基于 OpenAI Whisper 的本地语音识别，支持中文、英文等 100+ 种语言
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,41 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Local processing - No API key needed, free
-- Multi-language - Chinese, English, 100+ languages
-- Translation - Translate to English
-- Summarization - Generate quick summary
+- 使用 OpenAI Whisper CLI 进行本地语音转文字
+- 支持中文（普通话）、英文等 100+ 种语言
+- 完全本地处理，无需上传音频到云端
+- 支持多种音频格式输入
+- 提供翻译和摘要功能
+- 可配置模型大小以平衡精度和速度
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将会议录音快速转录为中文/英文文字记录
+- 对多语言音频内容进行自动翻译和摘要
+- 本地处理敏感音频，保护数据隐私
 
 ## 依赖和前提条件
-- Python / pip
-- Homebrew
+- 参见 SKILL.md 获取详细依赖信息
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟡 Medium | 需要安装外部依赖 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。供应链风险：需要安装外部依赖
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

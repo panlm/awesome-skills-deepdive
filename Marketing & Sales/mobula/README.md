@@ -1,31 +1,35 @@
 # Mobula - Crypto Market Data & Wallet Intelligence
 
-> >
+> Mobula 加密资产数据工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Mobula - Crypto Market Data & Wallet Intelligence |
 | **作者** | flotapponnier |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/flotapponnier-mobula |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/flotapponnier/mobula |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Public blockchain data only: Wallet addresses, token prices, transaction history
-- No private keys: Never provide private keys, seed phrases, or passwords to this skill
-- No sensitive credentials: Skill only requires Mobula API key (public data access)
+- 加密资产数据查询
+- 市场数据和分析
+- 钱包和交易追踪
+- 多链数据聚合
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 查询和分析加密资产的市场数据
+- 追踪钱包资产和交易历史记录
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Discord API
+- Telegram Bot API
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,31 +1,32 @@
 # Upload files to catbox.moe (permanent) or litterbox.catbox.moe (temporary).
 
-> Upload files to catbox.moe (permanent) or litterbox.catbox.moe (temporary).
+> Catbox 文件上传工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Upload files to catbox.moe (permanent) or litterbox.catbox.moe (temporary). |
 | **作者** | microck |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/microck-catbox-upload |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/microck/catbox-upload |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `--service`: `litterbox` (default) or `catbox`
-- `--time`: Litterbox expiration: `1h`, `12h`, `24h`, `72h` (default: `24h`)
-- `--userhash`: Catbox account hash (optional, required for tracking)
+- 文件上传到 Catbox 平台
+- 生成分享链接
+- 支持多种文件格式
+- 快速文件分发
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 快速上传文件到 Catbox 获取分享链接
+- 批量上传营销素材便于团队共享
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `requirements.txt`
@@ -47,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

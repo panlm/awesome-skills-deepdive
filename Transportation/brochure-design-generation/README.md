@@ -1,6 +1,6 @@
 # brochure-design-generation
 
-> Generate professional brochure designs using each::sense AI.
+> 使用 AI 生成专业宣传册设计
 
 ## 基本信息
 | 项目 | 内容 |
@@ -9,15 +9,24 @@
 | **作者** | eftalyurtseven |
 | **类目** | Transportation |
 | **ClawHub** | https://clawskills.sh/skills/eftalyurtseven-brochure-design-generation |
-| **安全评级** | ⚪ Unknown |
+| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/brochure-design-generation |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Generate professional brochure designs using each::sense AI.
+- 根据产品/服务信息自动生成宣传册设计
+- 支持多种布局和风格模板
+- 自动排版文字和图片内容
+- 输出可打印的高质量设计文件
 
-## 注意事项
-- ⚠️ 源文件无法从 GitHub 获取（可能已被作者删除或设为私有）
-- ClawSkills 页面仍可访问：https://clawskills.sh/skills/eftalyurtseven-brochure-design-generation
-- 安全状态未知，建议安装前自行审查
+## 使用场景
+- 为新产品发布快速生成宣传册设计稿
+- 根据品牌指南自动生成系列宣传材料
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+## 依赖和前提条件
+- AI 图像生成服务
+
+## 安全状态
+**综合评级: 🟢 Low**
+**风险摘要:** 无已知风险
+
+> 本文档由 awesome-skills-deepdive skill 自动生成

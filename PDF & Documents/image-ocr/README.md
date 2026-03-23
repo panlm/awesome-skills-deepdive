@@ -1,6 +1,6 @@
 # Image Ocr
 
-> "Extract text from images using Tesseract OCR"
+> 图片文字识别（OCR）工具，从图像中提取文本
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,12 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xejrax/image-ocr |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 识别图片中的印刷体和手写文字
+- 支持多种图片格式（JPG、PNG、BMP 等）
+- 输出结构化的可编辑文本
+- 支持多语言文字识别
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将扫描的纸质文档转换为可编辑的电子文本
+- 从截图或照片中快速提取文字内容
+
+## 依赖和前提条件
+- Tesseract OCR
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -37,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

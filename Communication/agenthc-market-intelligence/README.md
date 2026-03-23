@@ -1,36 +1,39 @@
 # Stock Market Intelligence
 
-> Market data API for AI agents. Equities, fixed income, crypto, and macro. Bitcoin Lightning micropayments.
+> AI 智能体市场数据 API，覆盖股票、固定收益、加密货币和宏观经济数据，支持比特币闪电网络微支付
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Stock Market Intelligence |
 | **作者** | traderhc123 |
+| **版本** | 2.4.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/traderhc123-agenthc-market-intelligence |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/traderhc123/agenthc-market-intelligence |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Market data across equities, fixed income, crypto, and macro
-- Agent-optimized format with direction, confidence, and urgency signals
-- Compact format for reduced token usage in LLM context windows
-- Batch queries to pull multiple datasets in one request
-- Webhook alerts for key market events
-- L402 micropayments via Bitcoin Lightning Network
+- 实时查询股票行情和历史数据
+- 获取固定收益产品（债券等）市场信息
+- 加密货币价格和交易数据查询
+- 宏观经济指标和数据获取
+- 支持比特币闪电网络进行数据访问微支付
+- 按需付费的灵活计费模式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体自主进行市场研究和投资分析
+- 构建自动化交易信号监控系统
+- 获取多资产类别数据进行跨市场分析
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- AgentHC API 访问凭证
+- 比特币闪电网络钱包（用于微支付）
+- 网络连接到 AgentHC 数据服务
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,7 +52,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

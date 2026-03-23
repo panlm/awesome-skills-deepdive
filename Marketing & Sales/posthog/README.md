@@ -1,34 +1,33 @@
 # PostHog
 
-> >
+> PostHog 产品分析工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | PostHog |
 | **作者** | simonfunk |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/simonfunk-posthog |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/simonfunk/posthog |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- POSTHOG_API_KEY (required): "Personal API key — create at https://us.posthog.com/settings/user-api-keys"
-- POSTHOG_PROJECT_ID (required): "Project ID — find at https://us.posthog.com/settings/project#variables"
-- POSTHOG_PROJECT_API_KEY: "Project API key (for public capture/flags endpoints)"
-- POSTHOG_HOST: "API host (default: https://us.posthog.com)"
-- POSTHOG_INGEST_HOST: "Ingest host (default: https://us.i.posthog.com)"
-- Public (POST-only, project API key): capture events, evaluate flags — no rate limits
+- 用户行为数据分析
+- 事件追踪和漏斗分析
+- 用户群组分析
+- A/B 测试管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 分析用户在产品中的行为路径和转化漏斗
+- 基于 PostHog 数据进行用户群组分析
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- PostHog
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -50,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

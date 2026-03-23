@@ -1,6 +1,6 @@
 # TRIGGERcmd - Run commands on your computers remotely
 
-> Control TRIGGERcmd computers remotely by listing and running commands via the TRIGGERcmd REST API.
+> TriggerCMD 远程命令触发工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -17,19 +17,26 @@
 - Or prefix individual commands: `TRIGGERCMD_TOKEN='your-token-here' <command>`
 - The file should contain only the raw token text (no quotes, spaces, or trailing newline)
 - Must be permission-restricted: `chmod 600 ~/.TRIGGERcmdData/token.tkn`
-- To create: `mkdir -p ~/.TRIGGERcmdData && read -s TOKEN && printf "%s" "$TOKEN" > ~/.TRIGGERcmdData/token.tkn && chmod 6
-- For quick human output, pipe through `jq -r '.records[] | "\(.computer.name): \(.name) (voice: \(.voice // "-"))"'`.
+- To create: `mkdir -p ~/.TRIGGERcmdData && read -s TOKEN && printf "%s" "$TOKEN" > ~/.TRIGGERcmdData/token.tkn && chmod 600 ~/.TRIGGERcmdData/token.tkn`
+- For quick human output, pipe through `jq -r '.records[] | "\(.computer.name): \(.name) (voice: \(.voice // "-"))"'`
+- Include `allowParams` when suggesting follow-up commands so the user knows whether parameters are allowed
+- When asked for a summary, group by `.computer.name` and present bullet points per computer
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 通过云端远程触发本地命令
+- 管理可触发的命令列表
+- 集成 IFTTT 和语音助手触发
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- pip / uv 包管理器
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

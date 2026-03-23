@@ -1,6 +1,6 @@
 # Central de Deudores BCRA
 
-> >
+> 阿根廷央行债务人查询工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Base URL: `https://api.bcra.gob.ar`
-- Auth: None required (public API)
-- Format: JSON responses
-- Input: CUIT/CUIL/CDI as integer (no hyphens), e.g. `20123456789`
-- Optional web interface: `https://compara.ar/deudores/:cuit` (replace `:cuit` with the 11-digit CUIT/CUIL/CDI)
-- monto: Reported in thousands of ARS (miles de pesos)
+- 查询 BCRA 中央债务人系统
+- 债务信息检索
+- 信用状态报告
+- 数据格式化输出
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询个人或企业在阿根廷央行的债务记录
+- 生成信用状态报告用于风险评估
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -46,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

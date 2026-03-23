@@ -1,6 +1,6 @@
 # Anime
 
-> "CLI for AI agents to search and lookup anime info for their humans. Uses Jikan (unofficial MyAnimeList API). No auth required."
+> 快速查询动漫作品信息和评分
 
 ## 基本信息
 | 项目 | 内容 |
@@ -21,16 +21,21 @@
 - 🎯 No API key or account required
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 查询动漫作品的评分和简介
+- 搜索特定类型的动漫推荐
+- 获取动漫角色和声优信息
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `ORIGINAL_README.md`
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # music-cog
 
-> "Original music, fully yours. 5 seconds to 10 minutes using frontier music generation models. Instrumental and vocal tracks with perfect vocals. Cinematic scores, background tracks, podcast intros, game soundtracks, ambient soundscapes, jingles, lo-fi beats, orchestral compositions, songs with lyrics."
+> 音乐处理和分析认知工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,16 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/music-cog |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- Original music, fully yours
+- 5 seconds to 10 minutes using frontier music generation models
+- Instrumental and vocal tracks with perfect vocals
+- Cinematic scores, background tracks, podcast intros, game soundtracks, ambient soundscapes, jingles, lo-fi beats, orchestral compositions, songs with lyrics
+
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 分析音乐文件的特征和结构
+- 识别音乐的节奏和调性
+- 处理和编辑音乐文件
 
 ## 依赖和前提条件
 - Python / pip
@@ -24,7 +30,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

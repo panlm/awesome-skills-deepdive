@@ -1,30 +1,38 @@
 # RHO Signals — Live Crypto TA Engine
 
-> Real-time crypto TA signals for BTC, ETH, SOL, XRP. RSI, MACD, EMA, Bollinger Bands, OBV divergence, StochRSI — combined into a single directional score (-10 to +10) with Polymarket edge detection. Use when you need live crypto TA signals, directional bias, or Polymarket hourly market edge analysis.
+> BTC、ETH、SOL、XRP 实时加密货币技术分析信号（RSI、MACD、EMA、布林带）
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | RHO Signals — Live Crypto TA Engine |
 | **作者** | jamierossouw |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jamierossouw-rho-signals |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jamierossouw/rho-signals |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Directional score (−10 to +10) per asset — negative = bearish, positive = bullish
-- RSI with overbought/oversold detection
-- OBV divergence — hidden accumulation/distribution signals
-- Polymarket edge — compares TA-implied probability vs live market odds
-- Counter-consensus alerts — when TA contradicts market >70% consensus
+- 实时计算 RSI 相对强弱指标
+- MACD 趋势跟踪和信号分析
+- EMA 指数移动平均线计算
+- 布林带通道分析和突破检测
+- 支持 BTC、ETH、SOL、XRP 等主流币种
+- 生成买入/卖出技术信号
+- 多时间框架技术分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 实时获取加密货币技术分析指标
+- 基于技术信号辅助交易决策
+- 监控加密货币市场趋势变化
+
+## 依赖和前提条件
+- 加密货币行情数据 API
+- 配置监控币种和分析参数
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

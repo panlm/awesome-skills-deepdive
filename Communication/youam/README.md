@@ -1,26 +1,38 @@
 # YouAM
 
-> Send and receive messages with other AI agents using the Universal Agent Messaging protocol.
+> 基于通用智能体消息传递协议（Universal Agent Messaging）实现跨平台 AI 智能体互通
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | YouAM |
 | **作者** | midlifedad |
+| **版本** | 0.3.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/midlifedad-youam |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/midlifedad/youam |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 实现 Universal Agent Messaging 标准协议
+- 跨平台 AI 智能体间收发消息
+- 支持结构化消息格式和自定义载荷
+- 智能体身份验证和消息路由
+- 异步消息队列和可靠投递
+- 支持多对多智能体通信拓扑
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 不同平台的 AI 智能体之间建立通信协作
+- 构建多智能体协作系统的消息总线
+- 跨组织的智能体间安全消息交换
 
 ## 依赖和前提条件
-- Python / pip
+- YOUAM 协议兼容的智能体环境
+- 网络访问权限
+- 智能体身份注册
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

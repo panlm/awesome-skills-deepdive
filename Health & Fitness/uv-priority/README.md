@@ -1,6 +1,6 @@
 # Prioritize uv
 
-> Prioritize uv over pip for all Python package management and execution. When running ANY Python command or CLI tool (python, dbt, pytest, etc.), MUST wrap with uv run.
+> UV 紫外线指数监控工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Need to import your project modules
 - Are part of your development workflow with project dependencies
 - Run tests or your application
+- If you see `uv run ruff check .` in the project, don't change to `uvx`
+- If the user specified `uv run pytest`, maintain the pattern
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 获取实时紫外线指数数据
+- 基于 UV 指数提供防晒建议
+- 跟踪紫外线暴露时间和安全阈值
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +36,7 @@
 - `_meta.json`
 - `skill.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

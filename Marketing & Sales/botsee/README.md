@@ -1,38 +1,39 @@
 # BotSee
 
-> Monitor your brand's AI visibility via BotSee API
+> Bot 监控和可视化工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | BotSee |
 | **作者** | grahac |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/grahac-botsee |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/grahac/botsee |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Find competitors as AI search engines see them
-- Measure share of voice vs competitors
-- Identify which sources AI cites for your category
-- Uncover exact search queries AI runs for your space
-- Generate AI-optimized content from analysis data
-- Track visibility over time with historical analysis
+- Bot 运行状态监控
+- 性能数据可视化
+- 错误追踪和告警
+- 运行日志分析
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 实时监控 Bot 运行状态和性能指标
+- 可视化分析 Bot 的运行数据和趋势
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
-- API Key
+- API 密钥
+- Python 运行环境
+- Stripe
+- GitHub API
+- HubSpot API
 
 ## 包含文件
+- `.claude-plugin`
 - `CHANGELOG.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -54,6 +55,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

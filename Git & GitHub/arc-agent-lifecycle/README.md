@@ -1,36 +1,34 @@
 # Agent Lifecycle
 
-> Manage the lifecycle of autonomous agents and their skills. Version configurations, plan upgrades, track retirement, and maintain change history across agent environments.
+> 管理自治代理及其技能的完整生命周期：版本快照、升级规划、退役追踪和变更历史
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Agent Lifecycle |
 | **作者** | trypto1019 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/trypto1019-arc-agent-lifecycle |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-agent-lifecycle |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Installed skills: Name, version, install date, last used
-- Configuration state: Environment vars, model assignments, feature flags
-- Change events: Installs, updates, removals, config changes
-- Retirement log: Why skills were removed, what replaced them
-- Snapshots: Point-in-time captures of full agent state
+- 创建代理状态的时间点快照（snapshot），记录完整的技能和配置状态
+- 比较两个快照之间的差异（diff），追踪变化内容
+- 支持回滚到历史快照（rollback），可先 dry-run 预览
+- 记录技能退役原因和替代方案（retire）
+- 追踪完整的变更历史，包括安装、更新、移除和配置变更
+- 数据以 JSON 格式存储在 `~/.openclaw/lifecycle/` 目录
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在升级代理技能前创建快照，出问题时快速回滚
+- 回答"上周二我的代理运行的是什么配置"这类溯源问题
+- 维护代理演进的完整记录，追踪哪些技能被替换及原因
 
 ## 依赖和前提条件
-- Python / pip
+- `python3`
+- 支持的操作系统：macOS、Linux
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

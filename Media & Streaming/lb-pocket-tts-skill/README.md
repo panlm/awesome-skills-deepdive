@@ -1,6 +1,6 @@
 # Pocket TTS Complete Documentation
 
-> Generate speech from text using Kyutai Pocket TTS - lightweight, CPU-friendly, streaming TTS with voice cloning. English only. ~6x real-time on M4 MacBook Air.
+> 轻量级口袋 TTS 语音合成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- CLI Commands (`generate`, `serve`, `export-voice`)
-- Python API (TTSModel, voice states, streaming)
-- Voice Cloning (from audio files or safetensors)
-- Performance Tips (CPU optimization, latency reduction)
-- Complete Reference Docs (from official GitHub repo)
 - 100M parameters - Small model size
+- CPU-only - No GPU required
+- ~6x real-time - On M4 MacBook Air
+- ~200ms latency - To first audio chunk
+- Streaming - Generate audio on-the-fly
+- Voice cloning - Clone any voice from 3-10s audio
+- English only (more languages planned)
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 快速将文本转换为语音
+- 支持多种语音风格和语言
+- 轻量级本地语音合成
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +35,7 @@
 - `_meta.json`
 - `docs`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Claude Usage Checker
 
-> Check Claude Code / Claude Max usage limits. Run when user asks about usage, limits, quota, or how much Claude capacity is left.
+> 检查 Claude Code / Claude Max 使用额度和配额信息，通过交互式 CLI 读取用量数据
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Claude CLI must be installed (`npm i -g @anthropic-ai/claude-code`) and logged in
-- If running `claude` shows "Missing API key", the user must log in manually first: open a terminal, run `claude`, and com
-- Requires an interactive PTY — the agent will launch a local process and read its output (quota info only)
-- If you see "Missing API key" → tell the user to log in; browser-based login won't work headlessly
-- Allow a few seconds between polls — Claude CLI starts slowly
-- "Current week" = weekly reset, not daily
+- 通过 PTY 启动 Claude CLI 并交互式读取 /usage 输出
+- 报告当前会话、每周（全模型）、每周（仅 Sonnet）的使用百分比
+- 显示额度重置时间，转换为标准 HH:MM 格式
+- 支持额外用量（Extra usage）的费用追踪
+- 自动处理 Claude CLI 的启动和退出流程
+- 检测 API Key 缺失并提示用户手动登录
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速查看 Claude Code 订阅的剩余额度和重置时间
+- 在高频使用期间监控配额消耗速率
+- 诊断 Claude CLI 连接和认证问题
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Claude CLI（通过 `npm i -g @anthropic-ai/claude-code` 安装）
+- 需要交互式 PTY 支持
+- 用户需先完成 Claude CLI 的浏览器登录流程
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +49,4 @@
 **风险摘要:** 2 项中风险。命令执行：存在命令执行相关引用；数据外泄：存在外部 API 调用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,28 +1,37 @@
 # subreddit-scout
 
-> Find high-fit subreddits for a product, summarize rules, and suggest value-first posting angles.
+> 为产品或话题智能匹配高相关度的 subreddit 社区，总结版规并生成增值型首帖建议
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | subreddit-scout |
 | **作者** | xammarie |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/xammarie-subreddit-scout |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xammarie/subreddit-scout |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- self-promo policy
-- preferred content style
-- allowed post frequency
+- 根据产品特征智能匹配相关 subreddit
+- 自动抓取并总结目标 subreddit 的社区规则
+- 分析社区氛围和内容偏好
+- 生成符合社区调性的增值型首帖建议
+- 评估各 subreddit 的活跃度和受众匹配度
+- 避免纯广告内容，确保帖子提供真实价值
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 新产品推广时寻找合适的 Reddit 社区并制定发帖策略
+- 内容营销团队批量调研 Reddit 渠道机会
+- 独立开发者在 Reddit 做产品冷启动推广
+
+## 依赖和前提条件
+- Reddit 账户或 API 访问
+- 产品或话题的描述信息
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

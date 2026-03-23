@@ -1,36 +1,35 @@
 # Telnyx Freemium Upgrade
 
-> "Automatically upgrade Telnyx account from freemium to professional tier"
+> 自动化完成 Telnyx 电信账户从免费版到专业版的升级流程
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Telnyx Freemium Upgrade |
 | **作者** | teamtelnyx |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/teamtelnyx-telnyx-freemium-upgrade |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/teamtelnyx/telnyx-freemium-upgrade |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Phone number order fails after the first purchase (1 number limit)
-- Balance/credit check returns low available credit ($10 ceiling)
-- Inability to add funds / top up balance — freemium accounts cannot add balance or payment methods. If the bot encounters
-- Account shows as "inactive" or "deactivated" due to $0 balance on freemium tier
-- User requests an upgrade: "upgrade my account", "I need professional tier"
-- Bot needs a non-freemium feature: "send SMS to unverified number", "port a number", "create a managed account"
+- 自动检测当前 Telnyx 账户等级
+- 引导并执行从免费版到专业版的升级操作
+- 处理升级过程中的验证和确认步骤
+- 升级完成后验证新功能可用性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要使用 Telnyx 高级功能时快速完成账户升级
+- 批量管理多个 Telnyx 账户的版本升级
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
-- OAuth
+- Telnyx 账户凭据
+- Telnyx API 密钥
+- 有效的支付方式（专业版需付费）
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`

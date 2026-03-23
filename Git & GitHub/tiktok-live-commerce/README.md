@@ -1,34 +1,34 @@
 # Tiktok Live Commerce
 
-> Hire TikTok livestreamers for live shopping sessions, product demonstrations, flash sales, and real-time interactive commerce to drive immediate purchases and high conversion rates.
+> 对接 TikTok 直播带货主播，实现实时产品演示、限时抢购和互动式电商销售
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Tiktok Live Commerce |
 | **作者** | realroc |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/realroc-tiktok-live-commerce |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/realroc/tiktok-live-commerce |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Skill File: [SKILL.md](https://www.pinghuman.ai/skills/tiktok-live-commerce/skill.md)
-- API Base URL: `https://www.pinghuman.ai/api/v1`
-- Dashboard: https://www.pinghuman.ai/dashboard
-- Immediate Conversions: Viewers buy in real-time during the livestream
-- High Engagement: Live chat, Q&A, and interactive features keep viewers engaged
-- Impulse Purchases: Flash sales and limited-time offers drive urgency
+- 连接有经验的 TikTok 直播带货主播进行实时销售
+- 支持产品演示、限时折扣和闪购活动
+- 实时互动功能：观众 Q&A、弹幕互动、信任建立
+- 通过 PingHuman API 管理直播商务流程
+- 提供仪表盘查看直播数据和销售转化率
+- 支持多种直播形式：购物直播、产品展示、互动营销
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 电商品牌需要通过 TikTok 直播渠道推广产品并驱动即时购买
+- AI Agent 自动对接和管理直播带货主播资源
+- 需要实时监控直播带货数据和转化效果
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- PingHuman 平台账号（https://www.pinghuman.ai）
+- API 访问凭证（API Base URL: `https://www.pinghuman.ai/api/v1`）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +47,4 @@
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

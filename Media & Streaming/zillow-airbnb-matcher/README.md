@@ -1,6 +1,6 @@
 # Zillow × Airbnb Matcher
 
-> Find properties for sale that are already generating Airbnb income. Cross-references Zillow listings with active Airbnb rentals using geo-matching and calculates investment metrics.
+> Zillow 与 Airbnb 房产匹配分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- name: RAPIDAPI_KEY
-- RAPIDAPI_KEY (get free at rapidapi.com — 100+ free requests/month)
-- trigger: "search airbnb"
-- trigger: "check properties"
-- trigger: "airbnb demo"
-- short-term-rental
+- Revenue estimates are based on nightly rate × 70% occupancy. For precise data, use AirDNA ($100+/mo)
+- Geo-matching means the Airbnb may be a neighbor's property, not the exact same house — always verify
+- Free tier gives 100 Airbnb + 600 Zillow searches per month (RapidAPI free plan)
+- Cost per search: $0 on free plan
+- Airbnb: https://rapidapi.com/3b-data-3b-data-default/api/airbnb13
+- Zillow: https://rapidapi.com/SwongF/api/us-property-market1
+- Cap Rate — annual return on full purchase price
+- Cash-on-Cash — return on your actual cash invested
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 匹配 Zillow 房源和 Airbnb 租赁数据
+- 估算短租投资回报率
+- 分析区域性房产投资机会
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -38,7 +40,7 @@
 - `scripts`
 - `src`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

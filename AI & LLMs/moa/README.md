@@ -1,6 +1,6 @@
 # Mixture of Agents
 
-> "Mixture of Agents: Make 3 frontier models argue, then synthesize their best insights into one superior answer. ~$0.03/query."
+> 混合智能体架构：让 3 个前沿 AI 模型互相辩论，综合最佳洞察生成优质回答，每次约 $0.03
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- OPENROUTER_API_KEY
-- Complex analysis — due diligence, market research, technical evaluation
-- Brainstorming — get diverse ideas, synthesize the best
-- Fact-checking — cross-reference across models with different training data
-- High-stakes decisions — when one model's blind spots could hurt you
-- Contrarian thinking — different models have different biases
+- 让 3 个不同的前沿 AI 模型对同一问题进行辩论
+- 综合各模型的最佳洞察，生成优于任何单一模型的回答
+- 支持独立 CLI（Node.js）和 OpenClaw Skill 两种使用模式
+- 每次查询成本约 $0.03，性价比极高
+- 特别适合需要多角度分析的复杂问题
+- 通过 OpenRouter 调用多个模型 API
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 复杂分析任务：尽职调查、市场研究、技术评估
+- 头脑风暴：获取多元化创意并综合最佳方案
+- 事实核查：通过多模型交叉验证提高准确性
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- OPENROUTER_API_KEY 环境变量
+- Node.js 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `manifest.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

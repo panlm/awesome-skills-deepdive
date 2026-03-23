@@ -1,6 +1,6 @@
 # Antigravity Model Usage
 
-> Use CodexBar CLI local cost usage to summarize per-model usage for Codex or Claude, including the current (most recent) model or a full model breakdown. Trigger when asked for model-level usage/cost data from codexbar, or when you need a scriptable per-model summary from codexbar cost JSON.
+> 查询并显示 AI 模型的使用配额、剩余百分比及下次额度刷新时间
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 实时同步：直接从 Google 内部 API 获取最真实的账户配额数据。
-- 状态监控：支持 Gemini、Claude 等核心模型的剩余额度展示。
-- 时间预估：精准显示每个模型下次刷新的具体时间点（已转换为本地时区）。
+- 实时同步：直接从 Google 内部 API 获取最新的账户配额数据
+- 支持 Gemini、Claude 等核心模型的剩余额度展示
+- 精准显示每个模型下次刷新的具体时间点（自动转换为本地时区）
+- 通过读取 auth-profiles.json 的 OAuth 令牌模拟官方 IDE 客户端行为
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在频繁调用 AI 模型时监控剩余配额，避免意外超限
+- 规划模型调用策略，根据各模型剩余额度选择最优模型
 
 ## 依赖和前提条件
-- Python / pip
-- OAuth
+- Python 3.x
+- Google Antigravity (Cloud Code Assist) OAuth 认证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +45,4 @@
 **风险摘要:** 存在 1 项高风险，0 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

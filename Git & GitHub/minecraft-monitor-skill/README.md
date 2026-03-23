@@ -1,38 +1,36 @@
 # Minecraft Monitor
 
-> Monitor Minecraft servers by checking online status, player counts, latency, and version info using the Server List Ping protocol. Use when the user asks to check Minecraft server status, monitor a Minecraft server, verify if a server is online, get player counts, or mentions Minecraft server monitoring. Example servers include corejourney.org.
+> 通过服务器列表 Ping 协议监控 Minecraft 服务器的在线状态、玩家数量、延迟和版本信息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Minecraft Monitor |
 | **作者** | wmantly |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/wmantly-minecraft-monitor-skill |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wmantly/minecraft-monitor-skill |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- ✅ Online/offline status
-- ✅ Player count (current/max)
-- ✅ Response time/latency
-- ✅ Server version
-- ✅ Online player list (if available)
-- ✅ Server MOTD
+- 使用原生 Server List Ping (SLP) 协议检查 Minecraft 服务器在线状态
+- 获取服务器延迟（毫秒级），并以颜色指示延迟等级（绿色/黄色/橙色）
+- 查看当前在线玩家数量和最大玩家数
+- 显示在线玩家列表（最多显示5位）
+- 获取服务器版本和 MOTD（每日消息）
+- 支持自定义端口和连接超时时间
+- 返回退出码（0=在线，1=离线），便于脚本/自动化集成
+- 无需安装任何外部依赖，纯 Python 实现
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期监控 Minecraft 服务器的运行状态，及时发现宕机
+- 检查特定服务器的玩家在线情况和网络延迟
+- 集成到 cron 定时任务或告警系统中实现自动化监控
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3（无需额外安装包）
+- 需要网络访问 Minecraft 服务器的端口（默认 25565）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

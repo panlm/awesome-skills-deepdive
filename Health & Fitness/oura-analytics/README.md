@@ -1,6 +1,6 @@
 # Oura Ring Analytics
 
-> Oura Ring data integration and analytics. Fetch sleep scores, readiness, activity, HRV, and trends from the Oura Cloud API. Generate automated reports, correlations with productivity, and trigger-based alerts for low recovery days. Requires OURA_API_TOKEN (get at cloud.ouraring.com).
+> Oura Ring 健康数据深度分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,16 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Daily morning briefings ("How did I sleep?")
-- Correlating recovery with productivity/calendar
-- Automated alerts for low recovery days
-- Weekly/monthly health trend reports
-- Simple Python API client for Oura Cloud API v2
-- Trend analysis and correlation tools
+- Fetching Oura Ring metrics (sleep, readiness, activity, HRV)
+- Analyzing recovery trends over time
+- Correlating sleep quality with productivity/events
+- Setting up automated alerts for low readiness
+- Generating daily/weekly/monthly health reports
 
 ## 使用场景
-- 同步和分析运动数据
-- 追踪健康指标趋势
-- 生成健身报告和洞察
+- 分析 Oura Ring 的睡眠和活动数据
+- 生成个人健康趋势报告
+- 识别睡眠质量和恢复的最佳模式
 
 ## 依赖和前提条件
 - Python / pip
@@ -42,7 +41,7 @@
 - `scripts`
 - `tests`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

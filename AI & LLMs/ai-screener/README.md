@@ -1,6 +1,6 @@
 # stock screener
 
-> Intellectia stock/crypto screener for Bullish/Bearish Tomorrow/Week/Month presets. Calls /gateway/v1/stock/screener-list (no auth) and summarizes results.
+> Intellectia 股票/加密货币筛选器，提供看涨/看跌预设分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Get the latest bullish/bearish screener candidates for stocks or crypto
-- Use the built-in preset pick-lists (below) as your “stock/crypto picking tools”
-- Convert a preset into exact API query parameters (`symbol_type`, `period_type`, `trend_type`)
-- Summarize/compare results using `probability`, `profit`, `price`, `change_ratio`, `klines`, and `trend_list`
-- Stocks Bullish Tomorrow: This list highlights stocks expected to rise, identified by our AI algorithm. It analyzes marke
-- Stocks Bearish Tomorrow: This list highlights stocks expected to fall, identified by our AI algorithm. It analyzes marke
+- 支持股票和加密货币的看涨/看跌筛选
+- 提供多时间维度预设：明日、一周、一月
+- 调用 Intellectia API 获取筛选候选列表
+- 返回概率、收益率、价格、涨跌幅等关键指标
+- 无需认证即可调用 API
+- 内置预设名称到 API 参数的映射表
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速获取明日/本周/本月的看涨股票和加密货币候选列表
+- 对比不同时间周期的看涨/看跌趋势
+- 为投资决策提供量化筛选参考数据
 
 ## 依赖和前提条件
-- Python / pip
+- curl 和 python3
+- requests 库（`pip install requests`）
+- Intellectia API（免认证）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

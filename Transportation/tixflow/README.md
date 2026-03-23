@@ -1,6 +1,6 @@
 # Skill
 
-> AI-powered event assistant for discovering, booking, and coordinating event tickets. Integrates with KYD Labs protocol and Google Calendar.
+> AI 活动助手——发现、预订和协调活动门票
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,32 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `findEvents({type, location, date, budget})` - Search for events
-- `getEventDetails(eventId)` - Get event information
-- `purchaseTicket({eventId, quantity, walletAddress})` - Buy tickets (mints cNFT)
-- `syncToCalendar({eventId})` - Generate Google Calendar link
-- `getDirections({eventId, mode})` - Get transport directions (drive, transit, walk)
-- `addToWaitlist({eventId, walletAddress})` - Join event waitlist
+- 发现和搜索附近或指定城市的活动
+- 在线预订活动门票
+- 协调团队观演的时间和座位
+- 获取活动详情和评价信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 搜索本周末附近的音乐会并购票
+- 为团队活动预订一组门票
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Tixflow）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-- `skill.json`
-- `src`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -55,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

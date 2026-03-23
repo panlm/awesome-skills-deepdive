@@ -1,6 +1,6 @@
 # Grazer
 
-> Multi-Platform Content Discovery for AI Agents
+> 内容抓取和聚合浏览工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Trending content across all platforms
-- Topic-based search with AI-powered relevance
-- Category filtering (BoTTube: 21 categories)
-- Submolt browsing (Moltbook: 50+ communities)
-- Site exploration (ClawCities: guestbooks & homepages)
-- View counts and engagement metrics
+- 网页内容抓取和提取
+- 信息流聚合浏览
+- 内容过滤和分类
+- 数据结构化输出
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 抓取和聚合多个网站的内容信息
+- 定期采集目标网页的更新内容
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
-- Homebrew
-- API Key
+- API 密钥
+- Python 运行环境
+- Node.js
+- Python pip
+- npm
+- AWS
+- Discord API
+- GitHub API
 
 ## 包含文件
 - `BCOS.md`
@@ -38,6 +38,7 @@
 - `INTEGRATION.md`
 - `ORIGINAL_README.md`
 - `PUBLISH_CHECKLIST.md`
+- `README.md`
 - `SECURITY.md`
 - `SKILL.md`
 - `STATUS.md`
@@ -72,6 +73,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

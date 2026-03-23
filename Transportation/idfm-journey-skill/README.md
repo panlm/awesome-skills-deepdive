@@ -1,6 +1,6 @@
 # IDFM Journey
 
-> Query Île-de-France Mobilités (IDFM) PRIM/Navitia for Paris + suburbs public transport (Île-de-France) — place resolution, journey planning, and disruptions/incident checks. Use when asked to find routes in Île-de-France (e.g., "itinéraire de X à Y"), resolve station/stop ids, or check RER/metro line disruptions, and you have an IDFM PRIM API key.
+> 查询巴黎及郊区的法兰西岛大区（IDFM）公共交通路线和时刻
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "Itinéraire de {origine} à {destination}"
-- "Route from {origin} to {destination} in Paris / Île-de-France"
-- "Check RER/metro disruptions"
-- "Incidents on line {line}"
-- Author: anthonymq
-- Version: 0.1.6
+- 巴黎及郊区公共交通路线查询
+- 使用 PRIM/Navitia API 获取实时数据
+- 支持地铁、RER、公交等多种交通方式
+- 路线规划和换乘建议
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询巴黎地铁和 RER 的最优换乘方案
+- 获取从巴黎到凡尔赛的公共交通路线
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API Key（IDFM PRIM）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -52,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

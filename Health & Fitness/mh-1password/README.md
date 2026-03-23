@@ -1,6 +1,6 @@
 # MH 1password
 
-> Set up and use 1Password CLI (op). Use when installing the CLI, enabling desktop app integration, signing in (single or multi-account), or reading/injecting/running secrets via op.
+> 1Password 密码管理集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,27 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `references/get-started.md` (install + app integration + sign-in flow)
-- `references/cli-examples.md` (real `op` examples)
-- Never paste secrets into logs, chat, or code.
-- Prefer `op run` / `op inject` over writing secrets to disk.
-- If sign-in without app integration is needed, use `op account add`.
-- If a command returns "account is not signed in", re-run `op signin` inside tmux and authorize in the app.
+- Never paste secrets into logs, chat, or code
+- Prefer `op run` / `op inject` over writing secrets to disk
+- If sign-in without app integration is needed, use `op account add`
+- If a command returns "account is not signed in", re-run `op signin` inside tmux and authorize in the app
+- Do not run `op` outside tmux; stop and ask if tmux is unavailable
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 安全管理和检索存储的密码
+- 集成 1Password 的密钥管理
+- 自动填充和管理登录凭证
+
+## 依赖和前提条件
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 - `references`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

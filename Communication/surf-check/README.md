@@ -1,35 +1,38 @@
 # Surf Check
 
-> Surf forecast decision engine. Outputs surfable conditions for agent alerting.
+> 冲浪条件预报决策引擎，分析浪况数据输出是否适合冲浪的判断与告警
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Surf Check |
 | **作者** | kevinmcnamee |
+| **版本** | 0.2.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/kevinmcnamee-surf-check |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kevinmcnamee/surf-check |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Tiered decision logic — Requires higher confidence for longer-range forecasts
-- State tracking — No duplicate output for the same forecast
-- Quiet hours — Suppress output during configurable hours (default 10pm-6am)
-- Premium support — Use your Surfline Premium subscription for 16-day forecasts
-- NOAA buoy data — Cross-reference forecasts with real buoy readings
-- Cron-ready — Designed for periodic automated checks
+- 获取指定海滩的实时浪况和天气数据
+- 分析浪高、周期、风向等关键冲浪参数
+- 输出明确的「可冲浪/不可冲浪」决策建议
+- 支持多个冲浪点的条件对比
+- 可配置个人偏好的浪况阈值
+- 定时检查并在条件达标时主动告警
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 冲浪爱好者每日检查最佳冲浪时段
+- 出行前快速评估多个海滩的冲浪条件
+- 设置浪况告警在理想条件出现时收到通知
 
 ## 依赖和前提条件
-- Node.js / npm
+- 冲浪预报数据源访问（如 Surfline 等）
+- 指定冲浪地点坐标或名称
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`

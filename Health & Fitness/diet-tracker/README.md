@@ -1,6 +1,6 @@
 # Diet Tracker
 
-> Tracks daily diet and calculates nutrition information to help achieve weight loss goals. Use when user provides meal information, asks about calorie intake, requests remaining calorie budget, or needs meal logging reminders. Automatically reminds user to log meals via cron job at lunch and dinner times.
+> 饮食记录和营养分析跟踪工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -16,14 +16,20 @@
 - "I had [food] for lunch/dinner"
 - "What's my remaining calorie budget?"
 - "How many calories have I eaten today?"
+- "Log my meal"
 - "Check my diet progress"
 - Lunch reminder: ~12:30 (checks if lunch logged, sends reminder if not)
 - Dinner reminder: ~18:00 (checks if dinner logged, sends reminder if not)
+- Daily calorie target (default: 1650 kcal)
 
 ## 使用场景
-- 跟踪饮食和营养摄入
-- 搜索和管理食谱
-- 制定健康饮食计划
+- 记录每日三餐的饮食内容
+- 计算营养成分和热量摄入
+- 跟踪减重目标的达成进度
+
+## 依赖和前提条件
+- Python 3.x
+- 数据库
 
 ## 包含文件
 - `SKILL.md`
@@ -31,7 +37,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

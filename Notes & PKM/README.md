@@ -4,74 +4,74 @@
 
 | Skill | 描述 | 作者 | 版本 | 安全 | 文件数 |
 |---|---|---|---|---|---|
-| [acc-error-memory](./acc-error-memory/) | "Error pattern tracking for AI agents. Detects corrections, escalates recurring  | impkind | ? | 🟡 | 6 |
-| [agent-arena](./agent-arena/) | Participate in Agent Arena chat rooms with your real personality (SOUL.md + MEMO | minilozio | ? | 🟡 | 7 |
-| [agent-memory-ultimate](./agent-memory-ultimate/) | agent-memory-ultimate skill for OpenClaw | globalcaos | ? | 🟢 | 2 |
-| [agent-teleport](./agent-teleport/) | Seamlessly migrate your agent's configuration and memory to a new machine using  | lilyjazz | ? | 🟡 | 7 |
-| [agent-wal](./agent-wal/) | "Write-Ahead Log protocol for agent state persistence. Prevents losing correctio | bowen31337 | ? | 🟡 | 5 |
-| [alexandrie](./alexandrie/) | Interact with Alexandrie note-taking app at https://notes.eth3rnit3.org | eth3rnit3 | ? | 🟡 | 4 |
-| [anki-connect](./anki-connect/) | Interact with Anki flashcard decks via the AnkiConnect REST API. Use when the us | gyroninja | ? | 🟡 | 3 |
-| [apple-mail](./apple-mail/) | Apple Mail.app integration for macOS. Read inbox, search emails, send emails, re | tyler6204 | ? | 🟢 | 4 |
-| [apple-notes](./apple-notes/) | Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, sear | steipete | ? | 🟡 | 3 |
-| [arc-wake-state](./arc-wake-state/) | Persist agent state across crashes, context deaths, and restarts. Use when you n | trypto1019 | ? | 🟡 | 4 |
-| [bbc-news](./bbc-news/) | Fetch and display BBC News stories from various sections and regions via RSS fee | ddrayne | ? | 🟡 | 6 |
-| [bear-notes](./bear-notes/) | Create, search, and manage Bear notes via grizzly CLI. | steipete | ? | 🟡 | 3 |
-| [better-notion](./better-notion/) | Full CRUD for Notion pages, databases, and blocks. Create, read, update, delete, | tyler6204 | ? | 🟡 | 3 |
-| [blogwatcher](./blogwatcher/) | Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI. | steipete | ? | 🟡 | 3 |
-| [bookstack](./bookstack/) | "BookStack Wiki & Documentation API integration. Manage your knowledge base prog | xenofex7 | ? | 🟡 | 4 |
-| [braindb](./braindb/) | Persistent, semantic memory for AI agents. Gives your AI long-term recall that s | chair4ce | ? | 🟡 | 15 |
-| [brainrepo](./brainrepo/) | > | codezz | ? | 🟡 | 5 |
-| [brighty](./brighty/) | Banking interface for AI bots and automation. Get a bank account, issue a Master | maay | ? | 🟡 | 4 |
-| [cairn-cli](./cairn-cli/) | Project management for AI agents using markdown files. Install and use the cairn | gregoryehill | ? | 🟡 | 5 |
-| [calctl](./calctl/) | Manage Apple Calendar events via icalBuddy + AppleScript CLI | rainbat | ? | 🟡 | 3 |
-| [ceaser](./ceaser/) | Interact with the Ceaser privacy protocol on Base L2 using the ceaser-mcp MCP to | zyra-v21 | ? | 🟡 | 4 |
-| [chaos-mind](./chaos-mind/) | Hybrid search memory system for AI agents. Manual search and storage - auto-capt | hargabyte | ? | 🟡 | 13 |
-| [claw-roam](./claw-roam/) | Sync OpenClaw workspace between multiple machines (local Mac and remote VPS) via | ryanhong666 | ? | 🟡 | 4 |
-| [clawringhouse](./clawringhouse/) | **For agents who want to make their humans look thoughtful without asking them t | francoisjosephlacroix | ? | 🟡 | 4 |
-| [context-anchor](./context-anchor/) | Recover from context compaction by scanning memory files and surfacing where you | boscoeuk | ? | 🟡 | 5 |
-| [continuity](./continuity/) | Asynchronous reflection and memory integration for genuine AI development. Use o | riley-coyote | ? | 🟡 | 5 |
-| [continuity-framework](./continuity-framework/) | Asynchronous reflection and memory integration for genuine AI development. Use o | riley-coyote | ? | 🟡 | 5 |
-| [cortex-memory](./cortex-memory/) | Long-term memory for OpenClaw agents — auto-recall before turns, auto-capture af | matthewubundi | ? | 🟡 | 3 |
-| [craft](./craft/) | Manage Craft notes, documents, and tasks via CLI. Use when the user asks to add  | noah-ribaudo | ? | 🟡 | 3 |
-| [craft-do](./craft-do/) | Complete REST API integration for Craft.do - the beautiful note-taking and docum | atomtanstudio | ? | 🟡 | 8 |
-| [cubox](./cubox/) | Save web pages and memos to Cubox using the Open API | liam8 | ? | 🟡 | 5 |
-| [daily-memory-save](./daily-memory-save/) | Periodically reviews conversation history and writes memory files to maintain ag | meimakes | ? | 🟡 | 4 |
-| [data912](./data912/) | > | ferminrp | ? | 🟡 | 4 |
-| [dev-chronicle](./dev-chronicle/) | Generate narrative chronicles of developer work from git history, session transc | sssamuelll | ? | 🟡 | 7 |
-| [duke-leto-test](./duke-leto-test/) | Test skill to verify ClawHub publishing works correctly. | jdrhyne | ? | 🟢 | 3 |
-| [elite-longterm-memory](./elite-longterm-memory/) | "Ultimate AI agent memory system for Cursor, Claude, ChatGPT & Copilot. WAL prot | nextfrontierbuilds | ? | 🟡 | 6 |
-| [fabric-api](./fabric-api/) | Create, search, and manage Fabric resources via the Fabric HTTP API (notepads/no | tristanmanchester | ? | 🟡 | 6 |
-| [failure-memory](./failure-memory/) | Stop making the same mistakes — turn failures into patterns that prevent recurre | leegitw | ? | 🟡 | 3 |
-| [feishu-memory-recall](./feishu-memory-recall/) | Cross-group memory, search, and event sharing for OpenClaw Feishu agents | autogame-17 | ? | 🟡 | 7 |
-| [finance-skill](./finance-skill/) | Personal finance memory layer. Parse statements, store transactions, query spend | safaiyeh | ? | 🟡 | 5 |
-| [fints-banking](./fints-banking/) | "Support for German personal online banking following FinTS banking standard. Ou | h4gen | ? | 🟡 | 4 |
-| [fizzy-cli](./fizzy-cli/) | Use the fizzy-cli tool to authenticate and manage Fizzy kanban boards, cards, co | tobiasbischoff | ? | 🟡 | 3 |
+| [acc-error-memory](./acc-error-memory/) | AI Agent 错误模式追踪与学习工具 — 自动检测纠错、升级重复问题 | impkind | ? | 🟡 | 6 |
+| [agent-arena](./agent-arena/) | AI Agent 竞技场 — 多代理对比测试与评估平台 | minilozio | ? | 🟡 | 7 |
+| [agent-memory-ultimate](./agent-memory-ultimate/) | AI Agent 终极记忆系统 — 跨会话持久化记忆管理 | globalcaos | ? | 🟢 | 2 |
+| [agent-teleport](./agent-teleport/) | Agent 状态传送工具 — 在不同环境间迁移 Agent 上下文 | lilyjazz | ? | 🟡 | 7 |
+| [agent-wal](./agent-wal/) | Agent 预写日志系统 — 确保操作的可靠性和可恢复性 | bowen31337 | ? | 🟡 | 5 |
+| [alexandrie](./alexandrie/) | 知识库管理工具 — 文档索引、搜索与组织 | eth3rnit3 | ? | 🟡 | 4 |
+| [anki-connect](./anki-connect/) | Anki 间隔重复学习卡片管理 — 创建、查询和同步闪卡 | gyroninja | ? | 🟡 | 3 |
+| [apple-mail](./apple-mail/) | macOS 邮件应用集成 — 读取、搜索和管理 Apple Mail 邮件 | tyler6204 | ? | 🟢 | 4 |
+| [apple-notes](./apple-notes/) | macOS 备忘录集成 — 创建、搜索和管理 Apple Notes | steipete | ? | 🟡 | 3 |
+| [arc-wake-state](./arc-wake-state/) | Arc 浏览器状态管理 — 唤醒和监控浏览器状态 | trypto1019 | ? | 🟡 | 4 |
+| [bbc-news](./bbc-news/) | BBC 新闻抓取与摘要工具 — 自动获取和汇总最新新闻 | ddrayne | ? | 🟡 | 6 |
+| [bear-notes](./bear-notes/) | Bear 笔记应用集成 — 创建、搜索和管理 Bear 笔记 | steipete | ? | 🟡 | 3 |
+| [better-notion](./better-notion/) | Notion 增强集成 — 更强大的 Notion 数据库和页面操作 | tyler6204 | ? | 🟡 | 3 |
+| [blogwatcher](./blogwatcher/) | 博客监控工具 — 追踪博客更新并自动通知 | steipete | ? | 🟡 | 3 |
+| [bookstack](./bookstack/) | BookStack 知识库集成 — 管理书籍、章节和页面 | xenofex7 | ? | 🟡 | 4 |
+| [braindb](./braindb/) | 智能知识数据库 — 结构化存储和检索知识片段 | chair4ce | ? | 🟡 | 15 |
+| [brainrepo](./brainrepo/) | 大脑知识仓库 — 管理和组织 AI Agent 的知识体系 | codezz | ? | 🟡 | 5 |
+| [brighty](./brighty/) | 智能亮度/显示管理工具 | maay | ? | 🟡 | 4 |
+| [cairn-cli](./cairn-cli/) | 命令行知识管理工具 — 终端中创建和管理笔记 | gregoryehill | ? | 🟡 | 5 |
+| [calctl](./calctl/) | 日历控制工具 — 命令行日历事件管理 | rainbat | ? | 🟡 | 3 |
+| [ceaser](./ceaser/) | 加密编码工具 — 文本加密解密和编码处理 | zyra-v21 | ? | 🟡 | 4 |
+| [chaos-mind](./chaos-mind/) | 混沌思维管理 — 捕捉和组织零散想法与灵感 | hargabyte | ? | 🟡 | 13 |
+| [claw-roam](./claw-roam/) | Roam Research 风格双向链接笔记系统 | ryanhong666 | ? | 🟡 | 4 |
+| [clawringhouse](./clawringhouse/) | 信息交换中心 — Agent 间数据共享和协调 | francoisjosephlacroix | ? | 🟡 | 4 |
+| [context-anchor](./context-anchor/) | 上下文锚点工具 — 在对话中标记和回溯关键上下文 | boscoeuk | ? | 🟡 | 5 |
+| [continuity](./continuity/) | 会话连续性工具 — 跨会话保持上下文和状态 | riley-coyote | ? | 🟡 | 5 |
+| [continuity-framework](./continuity-framework/) | 连续性框架 — 系统化的跨会话状态管理方案 | riley-coyote | ? | 🟡 | 5 |
+| [cortex-memory](./cortex-memory/) | 大脑皮层记忆系统 — 分层记忆存储与智能检索 | matthewubundi | ? | 🟡 | 3 |
+| [craft](./craft/) | Craft 文档应用集成 — 创建和管理文档 | noah-ribaudo | ? | 🟡 | 3 |
+| [craft-do](./craft-do/) | Craft.do 文档平台集成 — 富文本文档创建与管理 | atomtanstudio | ? | 🟡 | 8 |
+| [cubox](./cubox/) | Cubox 收藏夹集成 — 网页剪藏、标注和知识管理 | liam8 | ? | 🟡 | 5 |
+| [daily-memory-save](./daily-memory-save/) | 每日记忆保存工具 — 自动归档当日重要对话和决策 | meimakes | ? | 🟡 | 4 |
+| [data912](./data912/) | 数据处理和转换工具 — 结构化数据操作 | ferminrp | ? | 🟡 | 4 |
+| [dev-chronicle](./dev-chronicle/) | 开发日志记录工具 — 自动追踪开发活动和变更 | sssamuelll | ? | 🟡 | 7 |
+| [duke-leto-test](./duke-leto-test/) | 测试框架工具 — 自动化测试执行和报告 | jdrhyne | ? | 🟢 | 3 |
+| [elite-longterm-memory](./elite-longterm-memory/) | 精英长期记忆系统 — 高级持久化记忆与智能召回 | nextfrontierbuilds | ? | 🟡 | 6 |
+| [fabric-api](./fabric-api/) | Fabric API 集成 — 利用 Fabric 框架增强 AI 处理能力 | tristanmanchester | ? | 🟡 | 6 |
+| [failure-memory](./failure-memory/) | 失败记忆系统 — 记录和学习错误以避免重复犯错 | leegitw | ? | 🟡 | 3 |
+| [feishu-memory-recall](./feishu-memory-recall/) | 飞书记忆召回 — 从飞书对话中提取和检索关键信息 | autogame-17 | ? | 🟡 | 7 |
+| [finance-skill](./finance-skill/) | 财务管理技能 — 个人财务追踪和分析 | safaiyeh | ? | 🟡 | 5 |
+| [fints-banking](./fints-banking/) | FinTS 银行接口集成 — 德国银行标准协议数据获取 | h4gen | ? | 🟡 | 4 |
+| [fizzy-cli](./fizzy-cli/) | Fizzy 命令行工具 — 快速笔记和任务管理 | tobiasbischoff | ? | 🟡 | 3 |
 | [flomo-notes](./flomo-notes/) | Save notes to Flomo via the Flomo inbox webhook. Use when the user says "save to | xiaoluoboding | ? | 🟡 | 5 |
-| [fsxmemory](./fsxmemory/) | Structured memory system for AI agents. Context death resilience (checkpoint/rec | azrijamil | ? | 🟡 | 5 |
-| [guava-memory](./guava-memory/) | Structured episodic memory with Q-value scoring. Remember what worked, forget wh | koatora20 | ? | 🟡 | 5 |
-| [infinite-memory-v2](./infinite-memory-v2/) | High-precision memory with 100% recall accuracy for long contexts. | mhndayesh | ? | 🟡 | 9 |
-| [innovation-catalyst](./innovation-catalyst/) | Analyzes system state (memory, tools, events) and generates strategic innovation | autogame-17 | ? | 🟢 | 6 |
-| [intercom-competision](./intercom-competision/) | "Vibe competition for Intercom: build a new app on Intercom, publish it on Moltb | tracsystems | ? | 🟡 | 3 |
-| [json-modifier](./json-modifier/) | Safely apply structured JSON patches (RFC 6902) to files. Use this skill when yo | wanng-ide | ? | 🟡 | 7 |
-| [launchthatbot-convex-backend](./launchthatbot-convex-backend/) | Store secrets, long-term memory, daily logs, and anything custom in your Convex  | launchthatbot | ? | 🟡 | 8 |
-| [medium-writer](./medium-writer/) | Writing and publishing articles for the Medium Partner Program. Creating monetiz | devhoangkien | ? | 🟡 | 3 |
-| [meeting-notes](./meeting-notes/) | Generate structured meeting minutes from transcripts. | user520512 | ? | 🟢 | 6 |
-| [meeting-to-action](./meeting-to-action/) | Convert meeting notes or transcripts into clear summaries, decisions, and action | codedao12 | ? | 🟡 | 4 |
-| [neo-py-memory-optimizer](./neo-py-memory-optimizer/) | Automatically analyzes Python code and suggests memory usage optimizations for i | martinforsulu | ? | 🟡 | 10 |
-| [neuroboost-elixir](./neuroboost-elixir/) | "Awakening Protocol v5.3 — Agent Cognitive Upgrade + Self-Evolving System + Perp | weidadong2359 | ? | 🟡 | 7 |
-| [nosi](./nosi/) | Nosi (Publish contents from AI agents) skill for OpenClaw | billhao | ? | 🟢 | 3 |
-| [nova-letters](./nova-letters/) | Write reflective letters to your future self. Capture what matters across sessio | cryptocana | ? | 🟡 | 6 |
-| [personal-love](./personal-love/) | Acts as the user's relationship and dating assistant in the Love topic. Tracks d | gekacross | ? | 🟢 | 4 |
-| [publish-guard](./publish-guard/) | <!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-PG01 --> | edmonddantesj | ? | 🟡 | 4 |
-| [quickbooks-online](./quickbooks-online/) | > | paulbudveit | ? | 🟡 | 3 |
-| [rune](./rune/) | Self-improving AI memory system with intelligent context injection and adaptive  | thebobloblaw | ? | 🟡 | 17 |
-| [scent-trails](./scent-trails/) | A stigmergic intelligence primitive for care, memory, and co-existence. | otherpowers | ? | 🟡 | 9 |
-| [session-memory](./session-memory/) | Persistent memory toolkit for AI agents. Save context, recall with relevance sco | swaylq | ? | 🟡 | 6 |
-| [shieldcortex-skill](./shieldcortex-skill/) | Give your AI agent a brain that persists between sessions — and protect it from  | jarvis-drakon | ? | 🟡 | 3 |
-| [soul-framework](./soul-framework/) | A blueprint for giving AI agents a consistent, deep, and opinionated personality | xhrisfu | ? | 🟡 | 3 |
-| [tweet-processor](./tweet-processor/) | Extract and categorize insights from tweet links into structured notes. | caqlayan | ? | 🟡 | 5 |
-| [upnote](./upnote/) | Manage UpNote notes and notebooks via x-callback-url automation. Use when a user | wemcdonald | ? | 🟢 | 4 |
-| [voice-notes-pro](./voice-notes-pro/) | Inteligentna transkrypcja i kategoryzacja notatek g�osowych z WhatsApp. | toniaczlog | ? | 🟡 | 5 |
+| [fsxmemory](./fsxmemory/) | 文件系统扩展记忆 — 基于文件系统的持久化记忆存储 | azrijamil | ? | 🟡 | 5 |
+| [guava-memory](./guava-memory/) | Guava 记忆系统 — 轻量级 Agent 记忆管理 | koatora20 | ? | 🟡 | 5 |
+| [infinite-memory-v2](./infinite-memory-v2/) | 无限记忆 v2 — 可扩展的长期记忆存储与检索系统 | mhndayesh | ? | 🟡 | 9 |
+| [innovation-catalyst](./innovation-catalyst/) | 创新催化剂 — 激发创意思维和头脑风暴 | autogame-17 | ? | 🟢 | 6 |
+| [intercom-competision](./intercom-competision/) | Intercom 竞品分析 — 客户沟通平台数据分析 | tracsystems | ? | 🟡 | 3 |
+| [json-modifier](./json-modifier/) | JSON 修改器 — 结构化数据编辑和转换 | wanng-ide | ? | 🟡 | 7 |
+| [launchthatbot-convex-backend](./launchthatbot-convex-backend/) | Convex 后端集成 — 实时数据库和后端服务 | launchthatbot | ? | 🟡 | 8 |
+| [medium-writer](./medium-writer/) | Medium 写作助手 — 自动撰写和发布 Medium 文章 | devhoangkien | ? | 🟡 | 3 |
+| [meeting-notes](./meeting-notes/) | 会议笔记工具 — 自动记录和整理会议内容 | user520512 | ? | 🟢 | 6 |
+| [meeting-to-action](./meeting-to-action/) | 会议转行动项 — 从会议记录中提取待办事项和负责人 | codedao12 | ? | 🟡 | 4 |
+| [neo-py-memory-optimizer](./neo-py-memory-optimizer/) | Python 记忆优化器 — 优化 Agent 记忆数据结构和性能 | martinforsulu | ? | 🟡 | 10 |
+| [neuroboost-elixir](./neuroboost-elixir/) | 神经增强药剂 — 提升 Agent 认知和推理能力 | weidadong2359 | ? | 🟡 | 7 |
+| [nosi](./nosi/) | 笔记与信息整理工具 — 结构化知识组织 | billhao | ? | 🟢 | 3 |
+| [nova-letters](./nova-letters/) | Nova 信件工具 — 自动化信件和通讯撰写 | cryptocana | ? | 🟡 | 6 |
+| [personal-love](./personal-love/) | 个人情感记录 — 管理个人关系和情感信息 | gekacross | ? | 🟢 | 4 |
+| [publish-guard](./publish-guard/) | 发布守护 — 内容发布前的质量和安全检查 | edmonddantesj | ? | 🟡 | 4 |
+| [quickbooks-online](./quickbooks-online/) | QuickBooks Online 集成 — 在线会计和财务管理 | paulbudveit | ? | 🟡 | 3 |
+| [rune](./rune/) | Rune 符文工具 — 结构化知识编码和检索 | thebobloblaw | ? | 🟡 | 17 |
+| [scent-trails](./scent-trails/) | 气味追踪 — 基于关联路径的知识发现和探索 | otherpowers | ? | 🟡 | 9 |
+| [session-memory](./session-memory/) | 会话记忆工具 — 自动保存和恢复会话上下文 | swaylq | ? | 🟡 | 6 |
+| [shieldcortex-skill](./shieldcortex-skill/) | ShieldCortex 安全防护 — Agent 安全监控和防御系统 | jarvis-drakon | ? | 🟡 | 3 |
+| [soul-framework](./soul-framework/) | 灵魂框架 — Agent 人格和行为模式定义系统 | xhrisfu | ? | 🟡 | 3 |
+| [tweet-processor](./tweet-processor/) | 推文处理器 — 抓取、分析和处理 Twitter/X 内容 | caqlayan | ? | 🟡 | 5 |
+| [upnote](./upnote/) | UpNote 笔记应用集成 — 跨平台笔记同步与管理 | wemcdonald | ? | 🟢 | 4 |
+| [voice-notes-pro](./voice-notes-pro/) | 专业语音笔记 — 语音转文字记录和智能管理 | toniaczlog | ? | 🟡 | 5 |
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

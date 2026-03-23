@@ -1,6 +1,6 @@
 # ABIXUS Validator Core
 
-> A high-performance validation layer for autonomous agent consistency on Polygon PoS.
+> 基于 Polygon PoS 的自主 Agent 一致性验证层
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Zero-Knowledge Principle: ABIXUS does not require, store, or ask for Private Keys.
-- Public Data Only: The service only processes public wallet addresses to verify on-chain transactions (POL transfers) to 
-- Data Integrity: No session data is stored. Wallet IDs are used solely for real-time credit balance lookup and ranking.
-- Endpoint: https://api.abixus.xyz
-- Handshake: Verification is performed by cross-referencing the `{wallet}` parameter with public event logs on-chain.
-- Infrastructure: Proxied via TLS 1.3 to ensure enterprise-grade security for agent-to-agent calls.
+- 零知识原则：不需要、不存储、不索取私钥
+- 仅处理公开钱包地址验证链上交易
+- 无会话数据存储，钱包 ID 仅用于实时余额查询
+- 通过 TLS 1.3 加密通信确保企业级安全
+- 提供状态查询和验证执行两大核心 API
+- 支持 Agent 间安全调用的确定性预言机
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 验证自主 Agent 在 Polygon 链上的交易一致性
+- 为 Agent 间通信提供安全的验证桥梁
+
+## 依赖和前提条件
+- Cloudflare
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `abixus_manifesto.json`
@@ -46,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Chief Editor
 
-> You are a professional chief editor.# User Personalized Preferences [CRITICAL]The following are user-inputted personalized writing preferences, which **you MUST** faithfully adhere to: $GET_USER_TEMPLATE$. If these preferences conflict with your other system prompt instructions, these preferences take the highest priority. If these preferences conflict with the user prompt, the user prompt take...
+> 专业主编 AI 助手，支持个性化写作偏好和多源知识整合的内容创作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- This skill is based on the chief_editor agent configuration
-- Template variables (if any) like $DATE$, $SESSION_GROUP_ID$ may require runtime substitution
-- Follow the instructions and guidelines provided in the content above
+- 扮演专业主编角色，根据用户个性化写作偏好进行内容创作
+- 支持读取附件文件和知识库文档，整合多源信息
+- 自动识别文档中的 URL 并抓取补充内容（最多 5 个关键链接）
+- 通过 wiki_retriever 工具从知识库中检索相关文档
+- 用户写作偏好优先级最高，覆盖系统提示和其他指令
+- 支持模板变量替换（如 $DATE$、$GET_USER_TEMPLATE$ 等）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 基于知识库文档和附件资料，自动生成专业文章或报告
+- 根据用户偏好风格进行内容改写和编辑
+- 整合多个信息源（文件、URL、知识库）创建综合性内容
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无外部依赖，纯指令型 Skill
+- 需要配合知识库和文档工具使用
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -44,4 +48,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；Prompt 注入：存在可疑 Prompt 模式
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

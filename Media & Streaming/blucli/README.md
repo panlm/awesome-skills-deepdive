@@ -1,6 +1,6 @@
 # Blucli
 
-> BluOS CLI (blu) for discovery, playback, grouping, and volume.
+> 蓝牙设备命令行管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `blu devices` (pick target)
-- `blu --device <id> status`
-- `blu play|pause|stop`
-- `blu volume set 15`
-- `--device <id|name|alias>`
 - config default (if set)
+- Grouping: `blu group status|add|remove`
+- TuneIn search/play: `blu tunein search "query"`, `blu tunein play "query"`
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 扫描和管理蓝牙设备连接
+- 监控蓝牙设备状态
+- 执行蓝牙设备配对和控制
+
+## 依赖和前提条件
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

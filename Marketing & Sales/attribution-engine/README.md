@@ -1,31 +1,33 @@
 # Attribution Engine
 
-> >-
+> 营销归因分析引擎
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Attribution Engine |
 | **作者** | otherpowers |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/otherpowers-attribution-engine |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/otherpowers/attribution-engine |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ownership-determination
-- enforcement-guarantees
-- bypass-instructions
-- mandatory-disclaimer-first-turn: true
-- platform-aware-output: true
-- source-grounded-definitions: true
+- 多渠道归因分析
+- 转化路径追踪
+- 营销贡献度计算
+- 归因模型对比报告
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 分析各营销渠道对转化的贡献度
+- 优化营销预算分配基于归因分析结果
+
+## 依赖和前提条件
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

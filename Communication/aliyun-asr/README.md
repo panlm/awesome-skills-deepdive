@@ -1,34 +1,38 @@
 # Aliyun Asr
 
-> "Pure Aliyun ASR skill for voice message transcription, supports multiple channels including Feishu"
+> 阿里云语音识别工具，将语音消息转换为文字，兼容飞书等多渠道音频输入
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Aliyun Asr |
 | **作者** | jixsonwang |
+| **版本** | 1.0.10 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jixsonwang-aliyun-asr |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jixsonwang/aliyun-asr |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ✅ 纯ASR识别: 只进行语音到文本的转换，不生成任何语音回复
-- ✅ 多通道支持: 支持飞书(Feishu)、Telegram、WhatsApp等所有OpenClaw支持的语音消息通道
-- ✅ 自动集成: 无需额外配置，语音消息自动被识别并作为文本消息处理
-- 开通 [智能语音交互(NLS)](https://nls-portal.console.aliyun.com/) 服务
-- 在RAM控制台创建子用户并分配 `AliyunNLSFullAccess` 权限
-- 在NLS控制台创建应用，获取 AppKey
+- 调用阿里云 ASR 服务进行语音转文字
+- 支持飞书语音消息自动转录
+- 兼容多种音频格式和渠道来源
+- 支持中文普通话和多种方言识别
+- 实时和离线两种转录模式
+- 转录结果带时间戳和置信度
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 飞书群聊中的语音消息自动转为文字方便查阅
+- 会议录音批量转录生成文字记录
+- 多渠道语音内容的统一文字化处理
 
 ## 依赖和前提条件
-- Python / pip
+- 阿里云账号及 ASR 服务开通
+- 阿里云 AccessKey ID 和 Secret
+- 飞书应用凭证（如需飞书集成）
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `__init__.py`
 - `_meta.json`

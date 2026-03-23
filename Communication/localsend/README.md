@@ -1,35 +1,37 @@
 # Localsend
 
-> Send and receive files to/from nearby devices using the LocalSend protocol. Trigger with /localsend to get an interactive Telegram menu with real inline buttons — device discovery, file sending, text sending, and receiving.
+> 使用 LocalSend 协议在局域网内向附近设备发送和接收文件，无需互联网连接
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Localsend |
 | **作者** | chordlini |
+| **版本** | 3.4.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/chordlini-localsend |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/chordlini/localsend |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Outer array = rows of buttons
-- Inner array = buttons per row (max 3 per row for readability)
-- Prefix all callback_data with `ls:` to namespace this skill
-- When user taps a button, you receive: `callback_data: ls:action`
-- When in `awaiting_file` state and user sends an image/file/path → treat it as the file to send. Show confirmation button
-- When in `awaiting_text` state and user types anything → treat it as the text to send.
+- 基于 LocalSend 协议的局域网文件传输
+- 自动发现同一网络内的可用设备
+- 支持发送和接收多种类型文件
+- 无需互联网连接，完全本地化传输
+- 跨平台设备间文件共享
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在同一 Wi-Fi 下快速向手机或平板传输文件
+- 团队内部局域网文件分发，无需上传云端
+- AI 智能体将生成的文件直接推送到用户设备
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
+- 目标设备需安装 LocalSend 客户端
+- 发送端和接收端需在同一局域网内
+- OpenClaw 运行环境需具备网络访问权限
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -48,7 +50,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
 ---

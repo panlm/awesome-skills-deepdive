@@ -1,6 +1,6 @@
 # Protect PDF with password
 
-> Add password protection to a PDF by uploading it to the Solutions API, polling until completion, then returning a download URL for the protected PDF.
+> 为 PDF 文件添加密码保护
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- A PDF file
-- A password (will be used as `userPass`)
-- A Solutions API key (Bearer token)
-- Register / get key: https://login.cross-service-solutions.com/register
+- 为 PDF 设置打开密码
+- 配置 PDF 权限密码
+- 支持多种加密级别
+- 批量处理多个 PDF 文件
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为包含敏感信息的 PDF 文件设置密码保护
+- 批量为归档文档添加访问密码
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Bearer Token
+- Python 运行环境
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -51,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

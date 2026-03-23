@@ -1,35 +1,33 @@
 # Upstream Recon
 
-> >
+> 在提交 Issue、PR 或评论之前先调研开源项目，避免重复劳动和无效贡献
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Upstream Recon |
 | **作者** | semmyt |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/semmyt-upstream-recon |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/semmyt/upstream-recon |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Existing issues and PRs for your topic (duplicate detection)
-- Maintainer response patterns and merge velocity
-- Rejection patterns and governance style
+- 在提交 Issue 前检查是否已存在相同或相似的 Issue
+- 在发起 PR 前评估维护者的合并偏好和代码风格
+- 分析项目的现有讨论线程，了解社区态度
+- 防止提交重复 Issue、浪费 PR 精力或发表无根据的评论
+- 自动激活于准备与开源项目交互的场景
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 准备为开源项目提交 Bug Report 或 Feature Request 时先做调研
+- 贡献代码前了解项目的合并文化和维护者偏好
+- 参与开源讨论前检查已有的相关讨论和结论
 
 ## 依赖和前提条件
-- Node.js / npm
+- 通过 `npx skills add oss-skills/upstream-recon` 安装
+- 或手动复制到 `~/.claude/skills/upstream-recon/`
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +46,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

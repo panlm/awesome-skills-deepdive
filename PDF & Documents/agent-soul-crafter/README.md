@@ -1,6 +1,6 @@
 # Agent Soul Crafter
 
-> Design compelling AI agent personalities with structured SOUL.md templates — tone, rules, expertise, and response behavior
+> Agent 灵魂/人格定制工具，打造个性化 AI 助手
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- prompt-engineering
-- Too vague → agent ignores it
-- Too strict → agent sounds robotic
-- No response rules → walls of text on Telegram
-- No routing info → agent tries to do everything itself
-- DIREKT: Kein Small Talk. Frage → Antwort. Fertig.
+- 定制 Agent 的性格特征和行为模式
+- 生成 SOUL.md 人格配置文件
+- 支持多种人格模板选择
+- 人格一致性维护和调优
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为团队创建具有特定工作风格的 AI 助手
+- 打造具有独特个性的品牌 AI 客服
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Supabase
+- Telegram Bot API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

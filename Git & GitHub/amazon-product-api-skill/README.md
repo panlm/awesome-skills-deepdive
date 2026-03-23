@@ -1,38 +1,36 @@
 # Amazon Product Api Skill
 
-> "This skill helps users extract structured product listings from Amazon, including titles, ASINs, prices, ratings, and specifications. Use this skill when users want to search for products on Amazon, find the best selling brand products, track price changes for items, get a list of categories with high ratings, compare different brand products on Amazon, extract Amazon product data for market research, look for products in a specific language or marketplace, analyze competitor pricing for keywords, find featured products for search terms, get technical specifications like material or color for product lists."
+> 从亚马逊搜索结果中提取结构化商品数据，包括标题、ASIN、价格、评分和产品规格
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Amazon Product Api Skill |
 | **作者** | phheng |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/phheng-amazon-product-api-skill |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/phheng/amazon-product-api-skill |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Type: `string`
-- Description: Search keywords used to find products on Amazon.
-- Required: Yes
-- Example: `laptop`, `wireless earbuds`
-- Type: `string`
-- Description: Filter products by brand name.
+- 通过 BrowserAct API 从亚马逊搜索结果中提取产品列表
+- 支持按关键词、品牌、页数和语言进行搜索配置
+- 提取字段包括：商品标题、ASIN、当前/原始价格、平均评分、评分数量
+- 自动绕过 reCAPTCHA 等反爬机制，无地理围栏限制
+- 内置错误处理和自动重试机制（最多重试一次）
+- 支持多语言和多市场搜索（如 zh-CN、de 等）
+- 实时输出带时间戳的任务状态日志
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 进行市场调研，分析特定品类的顶级品牌和定价策略
+- 监控竞争对手的产品列表和价格变动
+- 批量提取产品数据用于建立或更新产品数据库
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 环境变量 `BROWSERACT_API_KEY`（从 [BrowserAct Console](https://www.browseract.com/reception/integrations) 获取）
+- Python 运行环境
+- 脚本文件 `scripts/amazon_product_api.py`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

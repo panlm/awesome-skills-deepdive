@@ -1,6 +1,6 @@
 # Gmail Secretary
 
-> Gmail triage assistant using Haiku LLM for classification, label application, and draft replies (uses gog CLI; never auto-sends).
+> AI 邮件秘书，自动管理和回复 Gmail 邮件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Never send email automatically. Only create drafts + summaries.
-- Prefer labels over moving/deleting.
-- Keep the voice reference style-focused (patterns + a few short redacted snippets), not a full archive.
-- Receipt / Billing
-- Admin / Accounts
-- `scripts/triage-and-draft.sh` fetches inbox → writes summaries to `cache/gmail-inbox-summaries.json`
+- 自动读取和分析 Gmail 收件箱中的邮件
+- 基于 AI 理解邮件内容并生成智能回复
+- 支持邮件分类、优先级排序和标记
+- 可自动处理常规邮件并标记需要人工关注的邮件
+- 支持自定义回复模板和处理规则
+- 保持邮件上下文连贯性的对话式回复
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动处理日常邮件，减少邮箱管理时间
+- AI 代理代为筛选和回复低优先级邮件
+- 出差或忙碌时自动管理收件箱并处理紧急邮件
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- Gmail API 凭证
+- Google OAuth 配置
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +49,4 @@
 **风险摘要:** 4 项中风险。命令执行：存在命令执行相关引用；数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

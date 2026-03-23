@@ -1,6 +1,6 @@
 # Sovereign Daily Digest
 
-> You are the **Daily Digest** skill. Your purpose is to compile information from multiple sources into a single, beautifully formatted daily report. You act as a personal intelligence briefing system.
+> 每日信息摘要自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Multi-source aggregation -- Calendar (iCal), tasks (todo.txt, Markdown, GitHub Issues), RSS/Atom feeds, weather, and ema
-- Smart highlights -- AI-ranked "most important" items bubbled to the top
-- Dual output -- Markdown and/or HTML with a clean, responsive design
-- Configurable sections -- Enable only what you need; disable the rest
-- Scheduling -- Set it up with cron for automatic daily delivery
-- Offline resilient -- Falls back gracefully when network sources are unavailable
-- Privacy-first -- All data stays local; email passwords read only from environment variables
+- 自动收集和汇总每日信息
+- 多源内容聚合
+- 智能摘要生成
+- 定制化信息过滤
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日自动生成行业新闻和信息摘要
+- 个性化定制每日信息简报
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
+- Python 运行环境
+- OpenAI API
+- Google API
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -53,6 +52,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

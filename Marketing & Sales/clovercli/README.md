@@ -1,34 +1,33 @@
 # Clovercli
 
-> CLI for Clover POS API — inventory, orders, payments, customers, employees, discounts, and analytics.
+> Clover POS 系统命令行工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Clovercli |
 | **作者** | g9pedro |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/g9pedro-clovercli |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/g9pedro/clovercli |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `--output table` (default) — formatted table
-- `--output json` — raw JSON
-- `--quiet` — IDs only
-- 90-day auto-chunking: Long date ranges automatically split into chunks
-- Exponential backoff: Auto-retry on rate limits with backoff
-- Retry-after support: Respects Clover's retry-after header
+- Clover POS 数据查询
+- 订单和库存管理
+- 报表数据导出
+- 商户信息操作
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过命令行管理 Clover POS 系统数据
+- 自动化导出和分析 Clover 销售数据
 
 ## 依赖和前提条件
-- Node.js / npm
+- npm
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

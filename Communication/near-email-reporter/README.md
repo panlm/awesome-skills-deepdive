@@ -1,32 +1,39 @@
 # Near Email Reporter
 
-> Send NEAR reports and alerts via email with SMTP configuration, scheduling, and automatic reporting.
+> 通过 SMTP 配置自动发送 NEAR 区块链相关报告和警报邮件，支持定时任务
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Near Email Reporter |
 | **作者** | shaiss |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/shaiss-near-email-reporter |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/shaiss/near-email-reporter |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Configuration is stored in `~/.near-email/config.json`
-- For Gmail, use App Passwords: https://myaccount.google.com/apppasswords
-- Configure script to use nodemailer for actual email sending
+- NEAR 区块链数据报告邮件发送
+- SMTP 邮件服务配置和管理
+- 定时自动发送报告邮件
+- 自定义报告模板和内容
+- 异常警报邮件即时推送
+- 支持多收件人和邮件列表
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日自动发送 NEAR 账户资产变动报告
+- NEAR 链上异常交易的实时邮件警报
+- 定期向团队发送区块链项目运营报告
 
 ## 依赖和前提条件
-- Node.js / npm
+- SMTP 邮件服务器配置（地址、端口、认证）
+- NEAR 区块链节点或 API 访问
+- 发件人邮箱账户
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`
@@ -46,7 +53,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---

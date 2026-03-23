@@ -1,35 +1,35 @@
 # KameleonDB
 
-> Store and query structured data without planning schemas upfront. Use when you need to remember information, track entities across conversations, build knowledge bases, ingest API data, store user preferences, create CRM systems, or maintain any persistent state. Automatically evolves data structure as you discover new fields. No migrations, no schema design - just store data and query it.
+> KameleonDB 数据管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | KameleonDB |
 | **作者** | marcosnataqs |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/marcosnataqs-kameleondb |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/marcosnataqs/kameleondb |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Dynamic Schema Evolution - Add fields at runtime, zero lock operations
-- Agent Hints Pattern - Queries return optimization suggestions inline
-- Hybrid Storage - Flexible JSONB or dedicated typed tables
-- Full Audit Trail - Every schema change tracked with reasoning
-- JSON I/O - All operations support `--json` for machine-readable output
+- 数据库查询和管理
+- 数据导入和导出
+- 结构化数据操作
+- 查询优化建议
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过自然语言管理和查询 KameleonDB 数据
+- 自动化数据库的日常管理操作
 
 ## 依赖和前提条件
-- Python / pip
-- 数据库
+- Python pip
+- PostgreSQL
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -50,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；越权操作：需要提权或管理员权限
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Financial Overview
 
-> Get a complete financial overview of the business including balance, recent transactions, outstanding invoices, and upcoming tax obligations. Use when the user asks about their financial status, dashboard, summary, or "how is my business doing?"
+> 财务概览和报表生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,7 +13,6 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- norman-finance
 - Start with the company name and current balance
 - Show a brief income vs expenses summary from recent transactions
 - List any overdue invoices that need attention
@@ -21,15 +20,18 @@
 - End with actionable recommendations (e.g., "You have 3 overdue invoices totaling X EUR")
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 生成个人或企业的财务概览报告
+- 汇总和可视化收支数据
+- 跟踪财务目标完成进度
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

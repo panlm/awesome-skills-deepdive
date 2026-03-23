@@ -1,6 +1,6 @@
 # payrail402
 
-> "Cross-rail spend tracking for AI agents — Visa IC, Mastercard Agent Pay, Stripe ACP, x402, and ACH in one dashboard."
+> Payrail 支付集成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- All requests go to a single endpoint over HTTPS only
-- No filesystem access, no shell commands, no third-party network calls
-- Zero external dependencies — one self-contained JavaScript file
-- Credentials are sent via HTTP headers or URL path segments, never in query strings
-- API keys are stored as SHA-256 hashes on the server
-- Full source code is in `openclaw-skill.js` (184 lines) — read it yourself
+- Used by: `payrail402_track` tool
+- How: Embedded in the API URL path (`/api/ingest/webhook/{token}`) to authenticate transaction submissions
+- Why: Each agent has a unique webhook token that links transactions to the correct agent in the dashboard. Without it, the skill cannot submit transactions
+- Security: Sent as a URL path segment over HTTPS only. Never included in query strings, headers, or request bodies
+- Used by: `payrail402_track` (alternative auth path) and `payrail402_status` tool
+- How: Sent via `x-agent-key` or `x-api-key` HTTP header over HTTPS
+- Why: Required for checking agent status and for multi-agent setups where one API key manages multiple agents. Not needed if you only use webhook auth for tracking
+- Security: Transmitted only in HTTP headers over HTTPS. Format: `pr4_` prefix + base64url secret. Stored as SHA-256 hash on the server
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 集成支付处理和交易管理
+- 跟踪支付状态和交易历史
+- 管理支付配置和账户
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -35,7 +37,7 @@
 - `_meta.json`
 - `openclaw-skill.js`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

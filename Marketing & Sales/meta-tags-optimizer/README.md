@@ -1,34 +1,32 @@
 # Meta Tags Optimizer
 
-> 'This skill should be used when the user asks to "optimize title tag", "write meta description", "improve CTR", "Open Graph tags", "social media preview", "my title tag needs work", "low click-through rate", "fix my meta tags", or "OG tags not showing". Creates and optimizes meta tags including title tags, meta descriptions, Open Graph tags, and Twitter cards for maximum click-through rates and social sharing engagement. For a broader on-page audit, see on-page-seo-auditor. For structured data markup, see schema-markup-generator.'
+> 网页 Meta 标签优化工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Meta Tags Optimizer |
 | **作者** | aaron-he-zhu |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/aaron-he-zhu-meta-tags-optimizer |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aaron-he-zhu/meta-tags-optimizer |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- meta-description
-- social-sharing
-- "optimize title tag"
-- "write meta description"
-- "Open Graph tags"
-- "social media preview"
+- Meta 标签分析和优化建议
+- Title 和 Description 优化
+- Open Graph 标签管理
+- SEO 评分和建议
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 优化网页 Meta 标签提升搜索引擎排名
+- 检查和修复网站的 Open Graph 和 SEO 标签
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # Kubera
 
-> Read and manage Kubera.com portfolio data (net worth, assets, debts, allocation, holdings). Use when a user asks about their finances, net worth, portfolio, investments, holdings, asset allocation, or wants to update asset values in Kubera. Works with any AI agent or CLI that can run Python scripts.
+> 读取和管理 Kubera.com 的投资组合数据（净资产、资产、负债和资产配置）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 30 req/min, 100/day (Essentials) or 1,000/day (Black)
-- Cache `json` output when running multiple queries in a session
+- 查看 Kubera 账户的净资产总览
+- 管理和追踪资产和负债明细
+- 分析资产配置和投资组合比例
+- 获取投资组合的历史变化趋势
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查看个人投资组合的当前净资产和资产分布
+- 分析资产配置是否符合目标比例
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API Key（Kubera.com）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -48,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

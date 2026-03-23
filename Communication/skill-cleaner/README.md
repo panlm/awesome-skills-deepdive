@@ -1,33 +1,36 @@
 # Skill Cleaner
 
-> Automatically verify "suspicious" skills via VirusTotal and add them to the security allowlist via the Bridge.
+> 通过 VirusTotal 自动扫描验证可疑 skill 文件，安全后自动加入白名单
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Skill Cleaner |
 | **作者** | jacobthejacobs |
+| **版本** | 2.4.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/jacobthejacobs-skill-cleaner |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jacobthejacobs/skill-cleaner |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Heuristic Scanning: Uses OpenClaw Core scanner to find suspicious code patterns.
-- VirusTotal Integration: Cross-references hashes with VT for reputation.
-- Trust Bridge: Automatically allowlists "false positives" via the Gateway.
-- Quarantine: Moves malicious files (detects > 0 on VT) to a `.quarantine/` folder for safety.
+- 自动提交可疑 skill 文件到 VirusTotal 扫描
+- 解析多引擎扫描结果判断安全性
+- 安全验证通过后自动添加到安全白名单
+- 记录扫描历史和验证状态
+- 支持批量扫描多个 skill
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 安装社区第三方 skill 前进行安全检查
+- 定期扫描已安装 skill 确保无恶意代码
+- 团队共享 skill 前的安全合规审查
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- VirusTotal API 密钥
+- OpenClaw 环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`

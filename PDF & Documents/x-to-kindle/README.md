@@ -1,6 +1,6 @@
 # X To Kindle
 
-> Send X/Twitter posts to Kindle for distraction-free reading. Use when user shares an X/Twitter link and wants to read it on Kindle, or asks to send a tweet/thread to their Kindle device.
+> 将网页和文章内容转换为 Kindle 可读格式
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Gmail account with App Password (or other SMTP setup)
-- Kindle email address (found in Amazon account settings)
-- `send_to_kindle`: Send a local file to the configured Kindle email.
-- `SMTP_EMAIL`: Your sender email (e.g., gmail)
-- `SMTP_PASSWORD`: Your app password
-- `KINDLE_EMAIL`: Your Kindle email address
+- 将网页文章转换为 Kindle 兼容格式
+- 支持批量内容转换
+- 保持文档排版和图片
+- 自动发送到 Kindle 设备
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将收藏的长文章批量转换并推送到 Kindle 阅读
+- 将博客系列文章打包为 Kindle 电子书
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- X (Twitter) API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`
@@ -50,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

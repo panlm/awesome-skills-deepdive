@@ -1,35 +1,37 @@
 # Ad-Ready
 
-> |
+> 广告素材快速生成工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Ad-Ready |
 | **作者** | pauldelavallaz |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/pauldelavallaz-ad-ready |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/pauldelavallaz/ad-ready |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- User provides a product URL (e-commerce link)
-- Want automated product scraping + image generation
-- Have a brand profile to apply (70+ brands available)
-- Need funnel-stage targeting (awareness/consideration/conversion)
-- Want AI to auto-select model, scene, lighting based on brand
-- User provides local product image file → use morpheus-fashion-design
+- 快速生成广告创意素材
+- 多平台广告格式适配
+- 广告文案自动生成
+- A/B 测试素材制作
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为多个广告平台快速生成适配尺寸的广告素材
+- 批量制作广告创意的 A/B 测试版本
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
+- Google API
+- GitHub API
+- Facebook API
+- Instagram API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `configs`
@@ -51,6 +53,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

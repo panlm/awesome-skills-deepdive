@@ -1,6 +1,6 @@
 # Donson Intelligent Editing
 
-> Use when performing video/audio processing tasks including transcoding, filtering, streaming, metadata manipulation, or complex filtergraph operations with FFmpeg.
+> FFmpeg 多媒体处理大师 — 转码、滤镜、流处理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- video processing
-- audio conversion
-- filter_complex
-- hardware acceleration
-- Stream Mapping: Always use `-map` for complex files to ensure you get the right audio/subtitle tracks.
+- Stream Mapping: Always use `-map` for complex files to ensure you get the right audio/subtitle tracks
 - Seeking: Put `-ss` *before* `-i` for fast seeking (input seeking), or *after* `-i` for accurate seeking (output seeking)
+- Format Support: Ensure the output container (extension) supports the codecs you've chosen
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 执行视频和音频格式转换
+- 应用复杂的滤镜和特效处理
+- 管理流媒体推送和录制
+
+## 依赖和前提条件
+- pip / uv 包管理器
+- FFmpeg
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

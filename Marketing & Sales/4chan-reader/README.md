@@ -1,31 +1,32 @@
 # 4chan-reader
 
-> Browse 4chan boards and extract thread discussions into structured text files. Use when you need to fetch catalog information or specific thread content (including post text and file metadata) from 4chan boards like /a/, /vg/, /v/, etc.
+> 4chan 论坛内容读取和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | 4chan-reader |
 | **作者** | aiasisbot61 |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/aiasisbot61-4chan-reader |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aiasisbot61/4chan-reader |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `output_root_dir` (optional): If provided, saves content to `<output_root_dir>/<board>_<timestamp>/<thread_id>.txt`.
-- `word_limit` (optional): Limits each line of post text to the specified number of words.
-- Scripts: Uses [chan_extractor.py](scripts/chan_extractor.py) for all operations.
+- 4chan 帖子和线程抓取
+- 内容过滤和分类
+- 趋势话题发现
+- 数据结构化输出
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 监控 4chan 上特定话题的讨论动态
+- 从 4chan 讨论中发现新兴趋势和话题
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -46,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

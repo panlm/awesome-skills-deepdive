@@ -1,6 +1,6 @@
 # Freelance Toolkit FR
 
-> Boîte à outils pour freelances/indépendants en France : factures, time tracking, clients, dashboard.
+> 法语自由职业者工具包
 
 ## 基本信息
 | 项目 | 内容 |
@@ -18,12 +18,14 @@
 - Ouvre dans le navigateur par défaut (sauf `--no-open`)
 - Pré-remplit les infos client depuis `clients.json` si trouvé
 - Mentions légales françaises incluses (micro-entreprise par défaut)
-- `paid` marque une facture comme payée (suivi dans dashboard)
+- Montants au format français (2 900,00 €)
+- Initiales du prestataire comme logo sur la facture
+- Agrège factures + time tracking
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 管理自由职业项目和客户
+- 生成法语发票和报价单
+- 跟踪工时和收入
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `references`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

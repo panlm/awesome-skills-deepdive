@@ -1,6 +1,6 @@
 # Last.fm
 
-> Access Last.fm listening history, music stats, and discovery. Query recent tracks, top artists/albums/tracks, loved tracks, similar artists, and global charts.
+> Last.fm 音乐数据和听歌记录工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `LASTFM_API_KEY` — your Last.fm API key ([get one here](https://www.last.fm/api/account/create))
-- `LASTFM_USER` — your Last.fm username
 - First track with `@attr.nowplaying=true` is currently playing
 - Returns: artist, track name, album, timestamp, images
 - Returns: playcount, artist_count, track_count, album_count, registered date
-- `period`: overall | 7day | 1month | 3month | 6month | 12month
+- Adding `username` includes user's playcount for that artist
+- No auth needed for read-only endpoints (just API key)
+- Rate limit: be reasonable, no hard limit documented
+- URL-encode artist/track/album names (spaces → `+` or `%20`)
+- Images come in sizes: small, medium, large, extralarge
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 获取 Last.fm 听歌历史和统计
+- 发现音乐推荐和相似艺术家
+- 跟踪音乐收听趋势
 
 ## 依赖和前提条件
 - API Key
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

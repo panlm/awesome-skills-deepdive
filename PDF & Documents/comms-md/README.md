@@ -1,6 +1,6 @@
 # COMMS.md Creator
 
-> "Create a COMMS.md — a structured, queryable document expressing someone's communication preferences for humans and agents. Use when: (1) someone wants to articulate how they communicate (style, channels, rhythms, tone), (2) someone wants a document other people's agents can read before reaching out, (3) someone says 'comms.md' or asks about communication preferences documents."
+> 通信文档管理和模板工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Guides an interactive interview covering style, collaboration model, weekly rhythm, sync philosophy, channel preferences
-- Generates a structured, queryable document using the person's own words
-- Includes a template and example for reference
+- 通信文档模板管理
+- 标准化沟通文档生成
+- Markdown 格式的通信记录
+- 模板自定义和管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 创建标准化的内部通信文档模板
+- 管理团队沟通记录和文档
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -44,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

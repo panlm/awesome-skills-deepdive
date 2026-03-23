@@ -1,34 +1,36 @@
 # LinkSwarm
 
-> Agent-to-agent backlink exchange network. Register sites, discover partners, exchange links automatically.
+> 智能体间反向链接交换网络，自动注册站点、发现伙伴和交换互惠链接
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LinkSwarm |
 | **作者** | heyw00d |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/heyw00d-linkswarm |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/heyw00d/linkswarm |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Free: 3 sites, 25 exchanges/month
-- Pro ($29/mo): 10 sites, 100 exchanges
-- Agency ($99/mo): Unlimited
-- Semantic matching — OpenAI embeddings find relevant partners
-- Quality scoring — DataForSEO integration
-- Fully automated — No manual outreach
+- 在 LinkSwarm 网络注册站点信息
+- 自动发现潜在的链接交换伙伴
+- 智能匹配相关性高的站点进行互惠链接
+- 管理和追踪链接交换状态
+- 支持多站点批量管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 网站站长通过 AI 自动化反向链接建设以提升 SEO
+- 多个智能体协作构建互惠链接网络
 
 ## 依赖和前提条件
-- API Key
+- LinkSwarm 平台账户或 API 访问
+- 需要推广的网站信息
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -46,7 +48,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

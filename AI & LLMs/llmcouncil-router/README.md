@@ -1,6 +1,6 @@
 # LLM Council Router
 
-> Route any prompt to the best-performing LLM using peer-reviewed council rankings from LLM Council
+> 智能 LLM 路由器，将请求分发到最适合的大语言模型
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- User asks "which model is best for X?"
-- You need to pick the optimal model for a specific task type
-- You want data-driven model selection instead of guessing
-- You want to chain model routing with OpenRouter for automatic best-model dispatch
+- 根据任务类型智能路由到最合适的 LLM
+- 支持多个 LLM 提供商的统一接口
+- 基于成本、延迟和质量的智能路由决策
+- 提供 LLM 评议会机制，多模型协同决策
+- 支持自定义路由规则和优先级配置
+- 提供请求统计和模型性能对比分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据任务复杂度自动选择最经济高效的 LLM
+- 多个 LLM 协同工作，通过评议提升回答质量
+- 企业 AI 应用中统一管理多个 LLM 服务的调用
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 多个 LLM API 密钥
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

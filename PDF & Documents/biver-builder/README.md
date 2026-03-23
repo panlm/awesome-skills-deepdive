@@ -1,6 +1,6 @@
 # Biver Builder
 
-> |
+> 可视化构建和设计工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- BIVER_API_BASE_URL
-- Use `bvr_test_` prefix keys for development/testing
-- Use `bvr_live_` prefix keys only in production after you trust the skill
-- Verify required scopes before creating your API key — only grant minimum permissions needed
-- Never commit API keys to version control
-- Rotate keys periodically
+- 可视化内容构建
+- 拖拽式设计界面支持
+- 模板化构建流程
+- 多种输出格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过可视化方式快速构建文档或页面
+- 使用模板快速搭建内容结构
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +47,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 4 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

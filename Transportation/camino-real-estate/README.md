@@ -1,6 +1,6 @@
 # Real Estate Intelligence
 
-> "Evaluate any address for home buyers and renters. Get nearby schools, transit, grocery stores, parks, restaurants, and walkability using Camino AI's location intelligence."
+> 使用 Camino AI 评估房产地址，获取周边学校、交通和社区信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Use `address` for street addresses; the script will geocode them automatically
-- Use `location` with lat/lon when you already have coordinates
-- Start with a 1000m radius for suburban areas, 500m for dense urban areas
-- Combine with the `relationship` skill to calculate commute distances to workplaces
-- Combine with the `route` skill to estimate travel times to key destinations
-- Use the `school-finder` skill for more detailed school searches
+- 评估指定地址的房产宜居性
+- 获取周边学校评级和距离信息
+- 查询公共交通可达性和通勤时间
+- 了解社区安全指数和生活配套
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 购房前评估目标地址的周边配套设施
+- 比较多个候选住址的通勤便利性和学区质量
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API Key（Camino AI）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

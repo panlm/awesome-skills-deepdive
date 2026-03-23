@@ -1,6 +1,6 @@
 # Expanso csv-to-json
 
-> "Convert CSV data to JSON array of objects"
+> CSV 数据转换为 JSON 格式
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Data import/export
-- API data transformation
-- Spreadsheet processing
+- CSV 文件解析和转换
+- 自动推断数据类型
+- 支持自定义分隔符
+- 输出结构化 JSON 数据
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将导出的 CSV 数据文件转换为 JSON 格式供 API 使用
+- 批量转换数据文件格式
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `pipeline-cli.yaml`
@@ -47,6 +51,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

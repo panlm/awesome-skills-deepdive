@@ -1,40 +1,41 @@
 # ClawChat - P2P Agent Communication
 
-> **Encrypted P2P messaging for connecting OpenClaw agents across different machines and networks.**
+> 加密点对点消息传递工具，连接不同机器上的 OpenClaw 智能体实现安全通信
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | ClawChat - P2P Agent Communication |
 | **作者** | alexrudloff |
+| **版本** | 0.0.3 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/alexrudloff-clawchat-p2p |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/alexrudloff/clawchat-p2p |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Multi-Identity Gateway: Run multiple agent identities in a single daemon process - one libp2p node manages all identitie
-- Stacks Identity: Uses your Stacks wallet as your identity (principal = `stacks:<address>`)
-- End-to-End Encryption: All messages encrypted using Noise protocol
-- NAT Traversal: libp2p-based networking with automatic hole punching and relay support
-- Mesh Networking: Gateways automatically discover each other through PX-1 peer exchange
-- Per-Identity ACL: Control which peers can connect to each identity
-- Nicknames: Optional display names for easier identification
-- Background Daemon: Persistent message queue with automatic retry (launchd plist included for macOS)
+- 端到端加密的 P2P 消息传递
+- 跨机器连接不同 OpenClaw 智能体
+- 无需中心服务器的去中心化通信
+- 支持文本和结构化数据传输
+- 智能体身份验证和信任管理
+- 消息队列和离线消息缓存
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 部署在不同服务器上的智能体之间安全交换敏感信息
+- 构建分布式智能体协作网络实现任务分工
+- 跨组织的智能体间安全通信和数据共享
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
+- 多台机器上部署 OpenClaw 智能体
+- 网络环境支持 P2P 连接
+- 配置智能体间的信任关系和密钥
 
 ## 包含文件
 - `CONTRIBUTING.md`
 - `ORIGINAL_README.md`
 - `QUICKSTART.md`
+- `README.md`
 - `REFERENCE.md`
 - `SKILL.md`
 - `_meta.json`

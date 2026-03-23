@@ -1,6 +1,6 @@
 # Markdown Converter
 
-> Convert documents and files to Markdown using markitdown. Use when converting PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx, .xls), HTML, CSV, JSON, XML, images (with EXIF/OCR), audio (with transcription), ZIP archives, YouTube URLs, or EPubs to Markdown format for LLM processing or text analysis.
+> 多格式文档转换工具，以 Markdown 为核心格式
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Documents: PDF, Word (.docx), PowerPoint (.pptx), Excel (.xlsx, .xls)
-- Web/Data: HTML, CSV, JSON, XML
-- Media: Images (EXIF + OCR), Audio (EXIF + transcription)
-- Other: ZIP (iterates contents), YouTube URLs, EPub
-- Output preserves document structure: headings, tables, lists, links
-- First run caches dependencies; subsequent runs are faster
+- Markdown 到多种格式的双向转换
+- 保持文档结构和格式
+- 支持批量文件转换
+- 自定义转换规则和模板
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将 Markdown 文档批量转换为 HTML 或 PDF
+- 将外部文档导入为 Markdown 统一管理
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

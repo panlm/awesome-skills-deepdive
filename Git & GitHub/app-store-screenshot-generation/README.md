@@ -1,39 +1,35 @@
 # App Store Screenshot Generation
 
-> Generate App Store and Google Play screenshot assets using each::sense AI. Create device-framed screenshots, feature highlights, localized versions, and promotional visuals optimized for iOS App Store and Google Play Store requirements.
+> 使用 each::sense AI 生成 App Store 和 Google Play 应用商店截图素材
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | App Store Screenshot Generation |
 | **作者** | eftalyurtseven |
+| **版本** | 1.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/eftalyurtseven-app-store-screenshot-generation |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/app-store-screenshot-generation |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- iOS App Store Screenshots: iPhone and iPad device frames with proper dimensions
-- Google Play Screenshots: Android device frames optimized for Play Store
-- Feature Highlights: Screenshots with callout text and visual emphasis
-- Lifestyle Context: App shown in real-world usage scenarios
-- Localized Screenshots: Multi-language versions for global markets
-- App Preview Thumbnails: Video preview poster frames
-- Before/After Comparisons: Transformation showcases for utility apps
-- Onboarding Flows: Multi-screen app walkthrough sequences
+- 生成 iOS App Store 截图（iPhone 6.7" 1320x2868、iPad 12.9" 2064x2752）
+- 生成 Google Play Store 截图（Android 手机 1080x1920）
+- 支持设备边框渲染、功能高亮标注和宣传文案叠加
+- 生成多语言本地化版本的截图素材
+- 支持生活场景类截图（如机场持机场景）
+- 提供深色/浅色模式变体和 A/B 测试变体
+- 支持应用预览缩略图和入门引导序列截图
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 移动应用开发者为 App Store 和 Google Play 准备上架截图
+- 批量生成多语言版本的应用商店展示图片
+- 快速迭代不同创意方案，进行 A/B 测试优化下载转化率
 
 ## 依赖和前提条件
-- API Key
+- 环境变量 `EACHLABS_API_KEY`（each::sense API 密钥）
+- 网络访问 `https://sense.eachlabs.run`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

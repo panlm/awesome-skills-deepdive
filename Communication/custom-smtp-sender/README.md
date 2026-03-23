@@ -1,29 +1,39 @@
 # Custom Smtp Sender
 
-> A skill to send emails with support for markdown, HTML text, and attachments, leveraging existing SMTP configuration in `/home/bb/.openclaw/smtp-config.json`. Includes retry logic and logging.
+> 功能完整的邮件发送工具，支持 Markdown/HTML 正文和附件，可配置自定义 SMTP 服务器
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Custom Smtp Sender |
 | **作者** | scccmsd |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/scccmsd-custom-smtp-sender |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/scccmsd/custom-smtp-sender |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- HTML/Markdown support: Compose emails using markdown converted to HTML.
-- Attachments: Include one or more files easily.
-- Retries: Attempts to resend in case of temporary failures.
-- Logging: Maintains a log of sent emails and errors for auditing.
+- 支持自定义 SMTP 服务器配置
+- Markdown 格式邮件自动渲染为 HTML
+- 支持纯 HTML 邮件模板
+- 文件附件发送支持
+- 多收件人和抄送功能
+- 邮件发送状态追踪
+- TLS/SSL 安全连接支持
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 使用企业邮箱服务器发送格式化邮件
+- 自动化邮件通知和报告分发
+- 批量发送带附件的工作邮件
+
+## 依赖和前提条件
+- SMTP 服务器地址和凭据
+- OpenClaw 环境已配置
+- 发件人邮箱账号
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `email_sender.py`

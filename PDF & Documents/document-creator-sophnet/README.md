@@ -1,6 +1,6 @@
 # document-creator-sophnet
 
-> An integrated document creation skill that supports creating Word documents (DOCX) and PowerPoint presentations (PPTX), with automatic upload to OSS and URL return.
+> 智能文档创建工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ✅ Dual Format Support: DOCX and PPTX document creation
-- ✅ Auto Upload: Automatically uploads to OSS and returns URL
-- ✅ Smart Key Management: Environment variable first, config file backup
-- ✅ Professional Formatting: Supports titles, lists, tables, etc.
-- ✅ Error Handling: Complete exception capture and user-friendly prompts
-- `type`: Document type (docx/pptx, required)
+- AI 辅助创建各类文档
+- 多种文档模板支持
+- 自动格式化和排版
+- 支持多种输出格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速创建格式规范的项目文档
+- AI 辅助撰写和排版商业报告
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- Node.js 依赖包
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `document_creator.py`
@@ -55,6 +54,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

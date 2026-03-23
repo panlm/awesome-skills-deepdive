@@ -1,6 +1,6 @@
 # mmEasyVoice
 
-> Simple text-to-speech skill using MiniMax Voice API. Converts text to audio with customizable voice selection. Use for generating speech audio from text.
+> 简易语音合成和播放工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
+- Python 3.8+
 - MINIMAX_VOICE_API_KEY environment variable (required)
 - FFmpeg (optional, for audio merging/conversion)
-- `text`: The text you want to convert to speech
-- `-o OUTPUT`: Output audio file path (required)
-- `-v VOICE_ID`: Voice to use (default: male-qn-qingse)
 - Up to 10,000 characters per request
+- For longer text, split into multiple requests and merge later
+- Example: `"Hello<#1.5#>world"` = 1.5 second pause between words
+- Range: 0.01 to 99.99 seconds
+- All available system voices (male, female)
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 快速生成语音播放内容
+- 支持简单的文本转语音功能
+- 集成多种语音引擎
 
 ## 依赖和前提条件
 - Python / pip
@@ -40,7 +42,7 @@
 - `requirements.txt`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

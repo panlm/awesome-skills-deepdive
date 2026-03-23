@@ -1,35 +1,35 @@
 # Bluesky
 
-> "Complete Bluesky CLI: post, reply, like, repost, follow, block, mute, search, threads, images. Everything you need to engage on Bluesky from the terminal."
+> Bluesky 社交平台操作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bluesky |
 | **作者** | jeffaf |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/jeffaf-bluesky |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jeffaf/bluesky |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Password never stored — used once to get a session token, then discarded
-- Session tokens auto-refresh — no need to re-login
-- Config file permissions — 600 (owner-only read/write)
-- Location: `~/.config/bsky/config.json`
-- `atproto` package (installed automatically on first run via venv)
-- Handles: Auto-appends `.bsky.social` if no domain specified
+- Bluesky 帖子发布和管理
+- 社交互动操作
+- 内容搜索和浏览
+- 用户资料管理
 
 ## 使用场景
-- 社交媒体营销管理
-- 自动化社媒发布
-- 社交平台数据分析
+- 通过 AI 助手在 Bluesky 平台发布内容
+- 自动化管理 Bluesky 社交账号
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- GitHub API
+- Bluesky API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `requirements.txt`
@@ -52,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 3 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

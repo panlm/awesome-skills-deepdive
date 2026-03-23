@@ -1,27 +1,35 @@
 # Meta Ads Report Skill
 
-> A powerful toolkit to monitor your Meta (Facebook/Instagram) advertising performance directly through chat. This bundle includes analytics reporting and an event discovery tool to ensure accurate trac
+> Meta (Facebook) 广告数据报告工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Meta Ads Report Skill |
 | **作者** | kein-s |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/kein-s-meta-ads-report |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kein-s/meta-ads-report |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `read_insights`
+- Meta 广告数据获取
+- 广告效果分析报告
+- ROI 和转化率分析
+- 自定义报告模板
 
 ## 使用场景
-- 营销数据分析和报告
-- 绩效指标追踪
-- ROI 分析和优化建议
+- 自动获取 Meta 广告数据生成效果分析报告
+- 追踪和分析 Facebook/Instagram 广告 ROI
+
+## 依赖和前提条件
+- Meta 广告平台
+- Facebook API
+- Instagram API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `main.py`
@@ -44,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，4 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

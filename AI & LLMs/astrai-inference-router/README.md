@@ -1,6 +1,6 @@
 # Astrai Inference Router
 
-> Route all LLM calls through Astrai for 40%+ cost savings with intelligent routing and privacy controls
+> 通过 Astrai 智能路由器转发所有 LLM 调用，节省 40%+ API 成本，内置隐私控制和 GDPR 合规功能。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Smart routing: Classifies each task (code, research, chat, creative) and picks the optimal model
-- Cost savings: Bayesian learning finds the cheapest provider that meets your quality threshold
-- Auto-failover: Circuit breaker switches providers when one goes down
-- PII protection: Personally identifiable information stripped before reaching any provider
-- EU routing: GDPR-compliant European-only routing with one setting
-- Budget caps: Set daily spend limits to prevent runaway costs
-- Real-time tracking: See exactly how much you're saving per request
+- 智能路由：根据任务类型（代码、研究、聊天、创意）自动选择最优模型
+- 成本优化：贝叶斯学习寻找满足质量阈值的最低成本提供商
+- 自动故障转移：熔断器机制在提供商宕机时自动切换
+- PII 保护：个人身份信息在发送到提供商前自动剥离
+- EU 路由：一键配置 GDPR 合规的欧洲专属路由
+- 预算上限：设置每日支出限额，防止成本失控
+- 实时追踪：查看每个请求节省了多少成本
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 企业用户需要降低 LLM API 成本同时保证输出质量
+- 欧洲用户需要 GDPR 合规的 AI 推理路由方案
+- 需要高可用性的 LLM 服务，支持多提供商自动故障转移
 
 ## 依赖和前提条件
-- API Key
+- 需要 `ASTRAI_API_KEY` 和 `ANTHROPIC_API_KEY` 环境变量
+- 包含 `plugin.py` 和 `config.example.toml` 配置文件
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `config.example.toml`
-- `plugin.py`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,8 +44,5 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

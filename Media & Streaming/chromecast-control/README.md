@@ -1,6 +1,6 @@
 # Control Chromecast
 
-> Control Chromecast devices on your local network - discover, cast media, control playback, manage queues, and save/restore states
+> 控制 Chromecast 设备 — 投屏、播放控制、设备发现
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,24 @@
 - YouTube (videos, playlists, live streams)
 - Vimeo, Dailymotion, Twitch
 - Direct video URLs (MP4, MKV, WebM, etc.)
+- Local files (video, audio, images)
+- Hundreds more sites (see yt-dlp supported sites)
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 在 Chromecast 上投屏播放视频和音频
+- 控制 Chromecast 的播放、暂停和音量
+- 管理多台 Chromecast 设备和播放队列
+
+## 依赖和前提条件
+- pip / uv 包管理器
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

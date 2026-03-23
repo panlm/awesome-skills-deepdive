@@ -1,6 +1,6 @@
 # Image To Relief Stl
 
-> Turn a source image (or multi-color mask image) into a 3D-printable bas-relief STL by mapping colors (or grayscale) to heights. Use when you have an image from an image-gen skill (nano-banana-pro, etc.) and want a real, printable model (STL) via a deterministic pipeline.
+> 将图像转换为 3D 可打印的浮雕 STL 文件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Use nano-banana-pro (or any image model) to generate a flat-color image.
-- Run this skill to convert it into a bas-relief model.
-- exactly N solid colors (no gradients)
-- no shadows / no antialiasing
-- bold shapes with clear edges
-- `out.stl` (ASCII STL)
+- 将图像（或多色遮罩图）转换为浮雕 3D 模型
+- 生成标准 STL 格式文件用于 3D 打印
+- 支持自定义浮雕深度和分辨率
+- 处理多种图像格式输入
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将公司 Logo 转换为 3D 打印的浮雕装饰品
+- 将照片转换为个性化的 3D 浮雕艺术品
 
 ## 依赖和前提条件
-- Python / pip
+- Python、图像处理库
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

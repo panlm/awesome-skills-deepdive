@@ -1,6 +1,6 @@
 # Podcast Generation from PDF, Text, and Links
 
-> Generate AI podcast episodes from PDFs, text, notes, and links using MagicPodcast in OpenClaw. Creates natural two-person dialogue audio, supports custom language, and returns podcast links with progress tracking in the MagicPodcast dashboard. Use for PDF-to-podcast, text-to-podcast, and fast content-to-audio workflows.
+> 将 PDF、文本和链接转换为自然双人对话式播客
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Signed-in users can generate free podcast.
-- Expected generation time is usually 2-5 minutes.
-- Right after starting, direct users to `https://www.magicpodcast.app/app`.
-- Tell the user this page is their dashboard: they can see created podcasts, live progress/status, and finished episodes.
-- Return `outputs.shareUrl` as the default completion link.
-- If `outputs.shareUrl` is missing, fall back to `outputs.appUrl`.
+- 支持从 PDF 文档、纯文本和网页链接生成播客
+- 使用 MagicPodcast 引擎创建自然的双主持人对话音频
+- 支持自定义播客语言
+- 提供播客仪表盘追踪生成进度
+- 生成完成后返回可分享的播客链接
+- 通过简单的 API 调用即可完成全流程
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将研究论文或技术文档快速转化为易于收听的播客节目
+- 为文字内容创作者提供音频内容的自动化生产方案
+- 把学习笔记转换为播客形式方便通勤时收听
 
 ## 依赖和前提条件
-- API Key
+- MagicPodcast API Key（`MAGICPODCAST_API_KEY` 环境变量）
+- MagicPodcast API URL（`MAGICPODCAST_API_URL` 环境变量）
+- curl 和 jq 命令行工具
 
-## 包含文件
-- `PUBLISH.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Skill Sandbox
 
-> Test untrusted skills in an isolated environment before installing. Monitors network access, filesystem writes, environment variable reads, and subprocess calls. Run any skill safely without risking your agent's data or credentials.
+> Arc Skill 沙箱测试环境
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Permission changes
 - Which env vars are read
 - Whether sensitive keys are accessed (API keys, tokens, passwords)
+- Option to inject fake values to see what the skill does with them
+- Outbound HTTP/HTTPS requests (URLs, methods, payloads)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 在安全的沙箱中测试 skill
+- 调试和验证 skill 功能
+- 隔离运行实验性 skill
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +36,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |

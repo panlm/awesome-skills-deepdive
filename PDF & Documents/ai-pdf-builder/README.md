@@ -1,6 +1,6 @@
 # Ai Pdf Builder
 
-> AI-powered PDF generator for legal docs, pitch decks, and reports. SAFEs, NDAs, term sheets, whitepapers. npx ai-pdf-builder. Works with Claude, Cursor, GPT, Copilot.
+> AI 驱动的 PDF 文档智能生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- [npm package](https://www.npmjs.com/package/ai-pdf-builder)
-- [Main repo](https://github.com/NextFrontierBuilds/ai-pdf-builder)
-- [ClawdHub](https://clawdhub.com)
+- 通过 AI 自动生成 PDF 文档
+- 支持多种文档模板和布局
+- 智能排版和格式化处理
+- 内容自动组织和结构化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 根据文本内容自动生成排版精美的 PDF 报告
+- AI 辅助创建演示文档和手册
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
-- Homebrew
-- API Key
+- Pandoc
+- LaTeX
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，4 项中风险。数据外泄：大量外部数据传输；供应链风险：需要安装外部包且含管道安装
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

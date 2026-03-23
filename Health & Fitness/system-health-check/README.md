@@ -1,6 +1,6 @@
 # System Health Check
 
-> System health validator — checks skill files, paths, permissions, binaries, backup freshness, and encryption. Produces pass/fail reports.
+> 系统健康检查和监控工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,18 +19,25 @@
 - Cron-Friendly: Exit code 0 for all-pass, exit code 1 for any failure
 - English Output: Plain English report suitable for accounting assistants and system admins
 - "canonical-data-map"
+- "accounting-workflows"
+- "greek-compliance-aade"
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 执行服务器和服务的健康检查
+- 监控系统资源使用和性能
+- 生成系统健康状态报告
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `EVALS.json`
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

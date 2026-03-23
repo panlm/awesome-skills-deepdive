@@ -1,6 +1,6 @@
 # ModelReady
 
-> Start using a local or Hugging Face model instantly, directly from chat.
+> 在聊天中即时启动本地或 Hugging Face 模型，无需离开对话界面
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Quickly start using a local or Hugging Face model
-- Chat with a locally running model
-- Test or interact with a model directly from chat
-- The model is served locally using vLLM.
-- The exposed endpoint follows the OpenAI API format.
-- The server must be started before sending chat requests.
+- 一键启动本地或 Hugging Face 模型
+- 将模型转化为 OpenAI 兼容的运行端点
+- 直接在对话中与本地运行的模型聊天
+- 使用 vLLM 在本地提供模型服务
+- 暴露标准 OpenAI 格式的 API 端点
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速测试和交互 Hugging Face 上的新模型
+- 在本地部署私有模型并通过 OpenClaw 进行对话
+- 开发阶段快速验证不同模型的表现
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `tool`
+## 依赖和前提条件
+- bash、curl 命令行工具
+- URL 环境变量（模型端点）
+- vLLM 本地安装
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +48,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

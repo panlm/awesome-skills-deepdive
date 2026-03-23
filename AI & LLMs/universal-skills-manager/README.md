@@ -1,6 +1,6 @@
 # Universal Skills Manager
 
-> "The master coordinator for AI skills. Discovers skills from multiple sources (SkillsMP.com, SkillHub, and ClawHub), manages installation, and synchronization across Claude Code, Gemini CLI, Google Anti-Gravity, OpenCode, and other AI tools. Handles User-level (Global) and Project-level (Local) scopes."
+> AI 技能的统一管理协调器，支持从多个来源发现、安装和同步技能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,44 +13,25 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Wants to find or search for new skills.
-- Wants to install a skill (from a search result or local file).
-- Wants to sync skills between different AI tools (e.g., "Copy this Gemini skill to OpenCode").
-- Asks to move or copy skills between scopes (User vs. Project).
-- Mentions "Google Anti-Gravity", "OpenCode", or "Gemini" in the context of skills/extensions.
-- Wants to package a skill for claude.ai, Claude Desktop, or ChatGPT (ZIP upload).
+- 从 SkillsMP.com、SkillHub 和 ClawHub 等多个来源发现技能
+- 管理技能的安装、更新和卸载
+- 跨 Claude Code、Gemini CLI、Google Anti-Gravity、OpenCode 等工具同步技能
+- 支持用户级（全局）和项目级技能管理
+- 技能依赖解析和冲突检测
+- 统一的技能配置和版本管理
+- 支持自定义技能来源和仓库
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在多个 AI 开发工具间统一管理和同步技能集合
+- 从社区技能市场一键发现、安装和配置所需技能
+- 团队协作中确保所有成员使用一致的技能版本和配置
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 环境变量 `SKILLSMP_API_KEY`
+- `curl` 命令行工具
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `config.json`
-- `scripts`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🔴 High | 涉及危险文件操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🔴 High | 需要提权或管理员权限 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🔴 High | 存在代码混淆或编码 |
-
-**综合评级: 🔴 High**
-**风险摘要:** 存在 5 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

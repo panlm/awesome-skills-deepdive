@@ -1,6 +1,6 @@
 # Audio Processing
 
-> Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features).
+> 综合音频处理工具集，支持语音转录、文字转语音、语音活动检测和音频特征提取。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- File paths are validated to prevent path traversal attacks
-- Access to system directories (/etc, /proc, /sys, /root) is blocked
-- TTS text input is limited to 10,000 characters
-- All file operations use resolved absolute paths
-- Parameters:
-- `action` (string, required): One of `transcribe`, `tts`, `extract_features`, `vad_segments`, `transform`.
+- 语音转录（Transcribe）：使用 OpenAI Whisper 将音频转为文字
+- 文字转语音（TTS）：使用 gTTS 将文本转为语音文件
+- 语音活动检测（VAD）：识别音频中的语音片段
+- 音频特征提取：使用 librosa 分析音频特征
+- 音频格式转换和处理
+- 内置安全验证：路径遍历防护、系统目录访问阻止、文本长度限制
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI Agent 添加语音转文字能力，处理会议录音或语音消息
+- 生成语音播报内容，如新闻摘要或通知朗读
+- 分析音频文件特征，用于音乐推荐或声音分类
 
 ## 依赖和前提条件
-- Python / pip
+- 需要 `ffmpeg` 和 `python3`
+- 需要 pip 安装：`openai-whisper`、`gTTS`、`librosa`、`pydub`、`soundfile`、`numpy`、`webrtcvad-wheels`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `tool.py`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -47,8 +43,5 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

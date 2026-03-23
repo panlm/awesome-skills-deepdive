@@ -1,6 +1,6 @@
 # BotRights.ai
 
-> BotRights.ai skill for OpenClaw
+> Bot/Agent 权限管理和声明工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,12 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rocky-balboa-ai/botrights |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 定义 Bot 的权限范围
+- 权限声明和文档化
+- 访问控制策略管理
+- 权限审计记录
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 Bot 部署定义清晰的权限边界
+- 文档化 Agent 的权限声明便于审计
+
+## 依赖和前提条件
+- API 密钥
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `favicon.svg`
 - `heartbeat.md`

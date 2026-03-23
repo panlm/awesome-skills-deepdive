@@ -1,6 +1,6 @@
 # Weekly Content Planner
 
-> Generate a full week of social media content for any topic. Outputs platform-optimized posts for Twitter/X, LinkedIn, and Instagram with hashtags and posting times.
+> 每周内容规划和排期工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- generate social media posts
-- create content calendar
-- weekly social media plan
 - 7 days of posts (Mon–Sun)
 - 3 platform variants per day (Twitter, LinkedIn, Instagram)
 - Hashtag suggestions per platform
+- Best posting times
+- Content mix (educational, engagement, promotional, storytelling)
+- Twitter/X: ≤280 chars, punchy, 2-3 hashtags, thread hooks
+- LinkedIn: Professional tone, 1-3 paragraphs, thought leadership, 3-5 hashtags
+- Instagram: Visual-first caption, storytelling, 5-10 hashtags, CTA in bio link
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 制定每周内容创作计划
+- 安排内容发布时间和平台
+- 跟踪内容创作进度
+
+## 依赖和前提条件
+- pip / uv 包管理器
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
@@ -31,7 +37,7 @@
 - `example-output.md`
 - `generate.sh`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

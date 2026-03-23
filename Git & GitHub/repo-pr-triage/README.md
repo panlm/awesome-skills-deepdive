@@ -1,39 +1,36 @@
 # Repo PR Triage
 
-> Triage GitHub PRs and issues using vision-based scoring. Use when a user wants to prioritize, score, review, de-duplicate, or batch-process open pull requests or issues against their project's mission and values. Supports onboarding (interview repo owner to build vision doc), scanning (score PRs with rubric), and reporting (generate actionable markdown reports). Works with any GitHub repo via gh CLI.
+> 基于项目愿景文档对 GitHub PR 和 Issue 进行优先级评分和分类处理
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Repo PR Triage |
 | **作者** | patrob |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/patrob-repo-pr-triage |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/patrob/repo-pr-triage |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `vision.md` - Project mission, identity, priorities, alignment signals
-- `rubric.md` - Scoring rubric customized from `references/rubric-template.md`
-- Fetches open PRs via `gh pr list` (title, body, labels, stats, author, date)
-- Applies rule-based scoring: base 50, with positive/negative modifiers
-- Detects potential duplicates via title similarity
-- Outputs JSON with scores, reasoning, and distribution
+- 通过面谈采访仓库所有者，生成项目愿景文档和评分标准
+- 使用基于规则的启发式评分系统（基础分 50，安全修复 +20、有测试的 Bug 修复 +10 等）对 PR 进行自动评分
+- 通过标题相似度检测潜在重复 PR
+- 生成四种 Markdown 报告：快速通道（80+）、标准审查（50-79）、建议关闭（<50）和汇总报告
+- 支持通过 Cron 定时任务实现每周自动化分类
+- 使用 `gh` CLI 获取 PR 元数据（标题、正文、标签、diff 大小、作者等）
+- 三步工作流：入职引导（Onboard）→ 扫描评分（Scan）→ 报告生成（Report）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开源项目维护者需要高效处理大量 PR，按优先级排队审查
+- 团队定期进行 PR 分类，识别应快速合并、需仔细审查或应关闭的 PR
+- 通过 Cron 自动化每周生成 PR 分类报告并推送到 Telegram 等渠道
 
 ## 依赖和前提条件
-- Python / pip
+- `gh` CLI 已安装并完成认证（`gh auth login`）
+- Python 3.10+
+- 无额外 Python 包依赖（仅使用标准库）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

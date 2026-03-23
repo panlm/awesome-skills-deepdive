@@ -1,36 +1,34 @@
 # Geepers Data
 
-> Fetch structured data from 17 authoritative APIs — arXiv, Census Bureau, GitHub, NASA, Wikipedia, PubMed, news, weather, finance, FEC, and more — through a single endpoint. Use when you need real data from authoritative sources for research, visualizations, or analysis.
+> 通过单一端点获取 17 个权威数据源的结构化数据，包括 arXiv、美国人口普查局、GitHub、NASA、维基百科、PubMed 等。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Geepers Data |
 | **作者** | lukeslp |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/lukeslp-geepers-data |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lukeslp/geepers-data |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Research that needs verified, citable data
-- Building data pipelines from authoritative sources
-- Enriching existing datasets with external context
-- The source you need isn't in the list (check `/v1/data` first)
-- You have direct API access to the source with higher rate limits
+- 统一访问 17 个权威数据源（arXiv、Census、GitHub、NASA、Wikipedia、PubMed 等）
+- 通过 `https://api.dr.eamer.dev` 单一 API 端点进行数据查询
+- 支持跨数据源搜索，可指定来源 ID 和查询条件
+- 提供学术论文、人口统计、代码仓库、太空数据、新闻、天气、金融等多领域数据
+- 支持 YouTube 视频元数据、Wolfram Alpha 计算知识和网页存档快照
+- 返回结构化 JSON 数据，便于编程处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要从多个权威来源获取可引用数据进行学术研究
+- 构建数据管道，将外部权威数据源整合到现有系统中
+- 用外部上下文数据丰富现有数据集进行分析和可视化
 
 ## 依赖和前提条件
-- API Key
+- 环境变量 `DREAMER_API_KEY`：需要设置 API 密钥
+- 网络访问：需连接 `https://api.dr.eamer.dev`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +47,4 @@
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

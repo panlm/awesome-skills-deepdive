@@ -1,35 +1,34 @@
 # Transition MCP
 
-> AI-powered multisport coaching — get personalized workouts, training plans, and performance analytics for running, cycling, swimming, and triathlon.
+> MCP 协议过渡和迁移工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Transition MCP |
 | **作者** | nftechie |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/nftechie-transition-mcp |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nftechie/transition-mcp |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "What's my workout today?"
-- "Show me my fitness trend for the last month"
-- "Ask my coach if I should do intervals or rest today"
-- "Generate me a 30-minute swim workout"
-- `curl-examples.sh` — All endpoints with curl
-- More coming soon
+- MCP 协议集成和迁移
+- 服务过渡管理
+- 兼容性检查
+- 迁移计划制定
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 管理向 MCP 协议的服务过渡和迁移
+- 检查现有服务与 MCP 协议的兼容性
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -51,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

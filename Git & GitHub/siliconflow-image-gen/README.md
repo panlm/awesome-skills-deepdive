@@ -1,40 +1,34 @@
 # SiliconFlow Image Gen
 
-> Generate images using SiliconFlow API (FLUX.1, Stable Diffusion, etc.)
+> 使用 SiliconFlow API 生成图片，支持 FLUX.1、Stable Diffusion 等多种模型
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | SiliconFlow Image Gen |
 | **作者** | lilei0311 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/lilei0311-siliconflow-image-gen |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lilei0311/siliconflow-image-gen |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🎨 Multiple Models: FLUX.1-schnell (free), FLUX.1-dev, Stable Diffusion 3.5
-- 🔑 Auto API Key Detection: Reads from environment or OpenClaw config
-- 💾 Auto Download: Saves generated images locally
-- 📱 OpenClaw Ready: Designed for OpenClaw Agent integration
+- 支持多种图像生成模型：FLUX.1-schnell（免费）、FLUX.1-dev、Stable Diffusion 3.5
+- 自动检测 API Key：从环境变量或 OpenClaw 配置文件读取
+- 生成图片后自动下载保存到本地
+- 支持命令行指定模型和输出路径
+- 专为 OpenClaw Agent 集成设计，可通过自然语言触发图片生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过文字描述快速生成插图、概念图或创意素材
+- AI Agent 在对话中根据用户需求实时生成图片并返回
+- 需要对比不同模型（免费 vs 付费）生成效果的图像创作场景
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- 环境变量 `SILICONFLOW_API_KEY`：SiliconFlow API 密钥（或配置在 `~/.openclaw/openclaw.json` 中）
+- Python 3
+- 通过 ClawHub 安装：`npx clawhub install siliconflow-image-gen`
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `skill.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +47,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

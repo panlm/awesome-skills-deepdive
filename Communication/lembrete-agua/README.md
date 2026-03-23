@@ -1,31 +1,35 @@
 # Lembrete Agua
 
-> Skill de hidratação que lembra o usuário de beber água a cada 2 horas. Registra consumo, calcula meta diária, motiva com dicas de saúde e adapta alertas ao clima de Goiânia.
+> 水合健康提醒工具，每 2 小时提醒用户喝水并记录饮水日志（葡萄牙语界面）
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Lembrete Agua |
 | **作者** | pedrohenrique202525 |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/pedrohenrique202525-lembrete-agua |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/pedrohenrique202525/lembrete-agua |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "lembrete de água", "me lembra de beber água", "hidratação", "ativar água"
-- "quero beber mais água", "me ajuda a me hidratar"
-- 70kg → 2.450ml (~10 copos de 250ml)
-- 80kg → 2.800ml (~11 copos)
-- 90kg → 3.150ml (~13 copos)
-- Acorda às 6h → lembretes: 6h, 8h, 10h, 12h, 14h, 16h, 18h, 20h, 22h
+- 每 2 小时自动提醒用户补充水分
+- 记录每日饮水量和饮水日志
+- 追踪水合健康习惯和趋势
+- 葡萄牙语界面和交互
+- 可自定义提醒间隔和目标饮水量
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 忙碌上班族通过 AI 提醒保持健康饮水习惯
+- 个人健康管理中追踪每日水分摄入
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+- 配置定时提醒通道（如聊天或通知）
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

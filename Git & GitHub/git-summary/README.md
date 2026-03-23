@@ -1,34 +1,35 @@
 # Git Summary
 
-> Get a quick summary of the current Git repository including status, recent commits, branches, and contributors.
+> 快速获取当前 Git 仓库的全面摘要，包括状态、最近提交、分支和贡献者信息。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Git Summary |
 | **作者** | zweack |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/zweack-git-summary |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/zweack/git-summary |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Run `git diff --stat` for unstaged changes
-- Run `git diff --cached --stat` for staged changes
-- Branch: `<branch_name>`
-- Status: <clean/dirty with X modified, Y staged, Z untracked>
-- Local: <count> branches
-- Remote: <count> branches
+- 显示当前分支和工作目录状态（干净/脏、修改/暂存/未跟踪文件数）
+- 展示最近 10 次提交记录（带分支/Tag 装饰）
+- 列出所有本地和远程分支
+- 显示已配置的远程仓库信息
+- 统计未提交变更摘要（已暂存和未暂存）
+- 展示 Top 10 贡献者排名
+- 支持跨平台：macOS、Linux、Windows
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速了解一个 Git 项目的当前状态，用于每日站会或项目交接
+- Agent 在执行代码操作前先获取仓库概览，了解分支、变更和最近活动
+- 项目新成员快速掌握仓库结构和活跃度
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- `git`：需要安装 Git
+- 需要在 Git 仓库目录中运行
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +48,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

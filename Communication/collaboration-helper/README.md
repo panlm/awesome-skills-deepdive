@@ -1,34 +1,37 @@
 # Collaboration Helper
 
-> Track action items and coordination signals for the community, including quick task creation, status checks, and handoff notes. Use this when you need to log a collaborative task or check what everyone is currently working on.
+> 社区行动项追踪和协调信号管理工具，帮助团队高效跟进待办事项和协作进度
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Collaboration Helper |
 | **作者** | crimsondevil333333 |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/crimsondevil333333-collaboration-helper |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/crimsondevil333333/collaboration-helper |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `list`: show every task, grouping by status.
-- `add <title>`: create a new task with `--owner`, `--priority`, and `--note` fields.
-- `complete <id>`: mark a task as done.
-- GitHub: https://github.com/CrimsonDevil333333/collaboration-helper
-- ClawHub: https://www.clawhub.ai/skills/collaboration-helper
+- 追踪和记录社区行动项和待办事项
+- 协调信号检测和分发
+- 任务状态更新和进度追踪
+- 团队成员间的协作信息同步
+- 自动提醒和截止日期管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开源社区维护者追踪 Issue 处理进度和贡献者行动项
+- 项目团队同步跨部门协作任务和决策信息
+- 社区管理员监控和协调志愿者的任务分配
 
 ## 依赖和前提条件
-- Python / pip
+- 配置目标社区或团队的数据源
+- 设置协作通知渠道
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `data`

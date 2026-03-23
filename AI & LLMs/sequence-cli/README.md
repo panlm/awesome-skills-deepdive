@@ -1,6 +1,6 @@
 # sequence-cli
 
-> "Manage Sequence smart wallets, projects, API keys, ERC20 transfers, and query blockchain data using the Sequence Builder CLI. Use when user asks about creating wallets, sending tokens, checking balances, managing Sequence projects, or interacting with EVM blockchains."
+> Sequence 区块链平台的 CLI 交互工具，支持钱包和合约管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- A Sequence Builder account (created automatically on first login)
-- EOA Address — Standard Ethereum address from your private key. Used for login and project ownership.
-- Sequence Wallet Address — Smart contract wallet that can pay gas fees with ERC20 tokens (no native token needed). Used f
-- `-k, --private-key <key>` — Wallet private key (optional if stored)
-- `-a, --access-key <key>` — Project access key (required)
-- `-k, --private-key <key>` — Wallet private key (optional if stored)
+- 提供 Sequence 区块链平台的 CLI 交互
+- 管理 Sequence 钱包和资产
+- 查询链上交易和状态数据
+- 支持智能合约部署和调用
+- 集成 Sequence Indexer 进行数据查询
+- 适用于 Web3 开发和测试工作流
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在开发流程中通过 CLI 与 Sequence 区块链交互
+- 自动化 Web3 资产管理和合约部署任务
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 运行环境
+- Bash/Shell 环境
 - API Key
+- 环境变量 `SEQUENCE_PASSPHRASE`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +49,4 @@
 **风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

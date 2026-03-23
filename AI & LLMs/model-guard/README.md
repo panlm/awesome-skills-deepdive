@@ -1,6 +1,6 @@
 # Model Guard
 
-> Automatically monitors Anti-Gravity model quotas and switches the default model to the one with the highest remaining quota. If all Anti-Gravity models are below 20%, it falls back to the native `gemi
+> 自动监控 Anti-Gravity 模型配额，在配额不足时切换到最优可用模型
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,20 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Manual trigger: `model-guard`
-- Auto trigger: Designed to be run via `cron` or `heartbeat`.
+- 自动监控多个 Anti-Gravity 模型的剩余配额
+- 智能切换默认模型为配额最高的可用模型
+- 当所有模型配额低于 20% 时自动回退到 gemini-flash
+- 支持手动触发（model-guard）和自动触发（cron/heartbeat）
+- 可在 guard.js 中自定义阈值和回退模型
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在多模型环境中自动管理配额，避免因配额耗尽导致服务中断
+- 通过 cron 定时检查模型配额，确保始终使用最优资源
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `guard.js`
-- `package.json`
+## 依赖和前提条件
+- Node.js 运行环境
+- Anti-Gravity 模型访问权限
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -45,4 +46,4 @@
 **风险摘要:** 1 项中风险。持久化机制：涉及定时或后台任务
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

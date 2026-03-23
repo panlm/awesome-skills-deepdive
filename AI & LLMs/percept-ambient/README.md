@@ -1,6 +1,6 @@
 # Percept Ambient
 
-> Ambient intelligence mode — continuous context awareness without explicit commands.
+> 环境智能模式，无需显式命令即可持续感知上下文，构建对话知识图谱
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- User wants always-on context awareness
-- Agent needs background knowledge from daily conversations
-- User asks "what do you know about [person/project]?" based on overheard context
-- percept-listen skill installed and running
-- percept-summarize skill installed (for entity extraction)
-- All data stored locally in SQLite + LanceDB
+- 在后台持续运行，被动学习对话上下文
+- 构建涵盖对话、实体和关系的知识图谱
+- 自动追踪谈话对象、活跃项目和决策信息
+- 支持基于感知的上下文查询（"你知道关于 XX 什么？"）
+- 无需显式命令即可积累环境知识
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 AI 智能体始终保持对工作环境的上下文感知
+- 基于日常对话自动积累关于人物和项目的背景知识
+- 快速回答关于特定人物或项目的上下文问题
 
 ## 依赖和前提条件
-- 数据库
+- percept CLI 工具
+- 持续运行的后台进程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +47,4 @@
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

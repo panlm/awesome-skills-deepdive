@@ -1,31 +1,36 @@
 # Malayalam Language Skill (മലയാളം)
 
-> WhatsApp വഴി വരുന്ന മലയാളം / Manglish സന്ദേശങ്ങൾ
+> 处理 WhatsApp 收到的马拉雅拉姆语和 Manglish（马拉雅拉姆语罗马化）消息并进行智能回复
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Malayalam Language Skill (മലയാളം) |
 | **作者** | babuperumana |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/babuperumana-malayalam-whatsapp |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/babuperumana/malayalam-whatsapp |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- User sends Malayalam script (Unicode U+0D00–U+0D7F)
-- User writes Manglish: "namaskaram", "sughamano", "nanni"
-- User asks for Malayalam translations
-- User മലയാളത്തിൽ എഴുതിയാൽ → മലയാളത്തിൽ തന്നെ മറുപടി
-- User Manglish ആണെങ്കിൽ → Manglish ഉപയോഗിക്കുക
-- വിനയം പുലർത്തുക:
+- 马拉雅拉姆语消息识别和理解
+- Manglish（罗马化马拉雅拉姆语）文本解析
+- 自动翻译马拉雅拉姆语消息为可理解内容
+- 智能生成马拉雅拉姆语回复
+- WhatsApp 消息自动处理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动回复 WhatsApp 中的马拉雅拉姆语消息
+- 帮助非马拉雅拉姆语用户理解收到的消息内容
+- 跨语言 WhatsApp 沟通的智能翻译助手
+
+## 依赖和前提条件
+- WhatsApp 账户和消息接入配置
+- OpenClaw WhatsApp 集成
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

@@ -1,6 +1,6 @@
 # Detox Counter
 
-> Track any detox with customizable counters, symptom logging, and progress milestones
+> 排毒和戒断天数计数器
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,28 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "detox counter"
-- "detox progress"
-- "cleanse tracker"
 - Sugar Detox - Eliminate refined sugars and sweetened foods
 - Juice Cleanse - Liquid-only nutrition, typically 3–7 days
 - Whole30 - 30-day elimination of grains, legumes, dairy, sugar, and additives
+- Elimination Diet - Remove suspected food triggers (dairy, gluten, nightshades, etc.)
+- Custom - Define your own protocol and tracked symptom categories
+- Set realistic expectations. Most detoxes involve an adjustment period (day 2–4) where symptoms spike before improving. This is normal
+- Log consistently. Daily check-ins reveal patterns that sporadic logging misses. Even a 30-second note counts
+- Use your milestone calendar. Knowing what's "normal" for day 5 of Whole30 helps you stay committed when cravings hit
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 记录和追踪排毒/戒断天数
+- 设定目标和查看里程碑
+- 获取坚持的激励提示
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

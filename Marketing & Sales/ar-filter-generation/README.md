@@ -1,21 +1,33 @@
 # ar-filter-generation
 
-> ar-filter-generation skill for OpenClaw
+> AR 滤镜生成工具，用于营销活动
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | ar-filter-generation |
 | **作者** | unknown |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/unknown-ar-filter-generation |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/ar-filter-generation |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- AR 增强现实滤镜创建
+- 品牌定制化滤镜设计
+- 多平台滤镜格式输出
+- 互动营销素材制作
+
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 为品牌营销活动创建自定义 AR 滤镜
+- 制作互动式 AR 体验提升用户参与度
+
+## 依赖和前提条件
+- 无特殊依赖
+
+## 包含文件
+- `README.md`
+- `_meta.json`
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

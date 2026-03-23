@@ -1,35 +1,32 @@
 # KVcore MCP CLI
 
-> Use this skill when users need KVcore CRM actions through MCP/CLI (contacts, tags, notes, calls, email, text, campaigns), including raw endpoint access and optional Twilio call fallback.
+> kvCORE 房地产 CRM 集成工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | KVcore MCP CLI |
 | **作者** | danielfoch |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/danielfoch-kvcore-mcp-cli |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/danielfoch/kvcore-mcp-cli |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `KVCORE_API_TOKEN`
-- `KVCORE_BASE_URL` (default `https://api.kvcore.com`)
-- `KVCORE_TIMEOUT_MS`
-- `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_FROM_NUMBER`
-- `kvcore_contact_search`, `kvcore_contact_get`, `kvcore_contact_create`, `kvcore_contact_update`
-- `kvcore_contact_tag_add`, `kvcore_contact_tag_remove`
+- kvCORE CRM 数据操作
+- 房产线索管理
+- 客户跟进自动化
+- 市场数据查询
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 AI 助手管理 kvCORE 中的房产客户线索
+- 自动化房地产销售跟进流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- Twilio
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -49,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

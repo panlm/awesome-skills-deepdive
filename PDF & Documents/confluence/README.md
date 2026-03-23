@@ -1,6 +1,6 @@
 # Confluence
 
-> Search and manage Confluence pages and spaces using confluence-cli. Read documentation, create pages, and navigate spaces.
+> Confluence 知识库操作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Domain: `yourcompany.atlassian.net` (without https://)
-- Email: Your Atlassian account email
-- API token: Paste the token from Step 2
-- Domain in config should NOT include `https://` - just `yourcompany.atlassian.net`
-- Use `--format storage` when content is in Confluence storage format (HTML-like)
-- Page IDs are numeric and found in page URLs
+- 读取和编辑 Confluence 页面
+- 创建和管理空间内容
+- 搜索知识库文档
+- API 驱动的内容管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动更新 Confluence 上的技术文档
+- 从 Confluence 知识库检索项目信息
 
 ## 依赖和前提条件
-- Node.js / npm
+- npm
+- GitHub API
+- Confluence API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

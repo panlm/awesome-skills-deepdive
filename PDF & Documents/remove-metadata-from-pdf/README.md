@@ -1,6 +1,6 @@
 # Remove metadata from PDF
 
-> Remove metadata from one or multiple PDFs by uploading them to the Solutions API, polling until completion, then returning download URL(s) for the cleaned PDF(s) (or a ZIP if multiple).
+> 清除 PDF 文件中的元数据信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 1+ PDF file(s)
-- A Solutions API key (Bearer token)
-- Register / get key: https://login.cross-service-solutions.com/register
+- 移除 PDF 文件的作者、创建时间等元数据
+- 保护文档隐私信息
+- 批量处理多个 PDF 文件
+- 保持文档内容不变
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在分享 PDF 前清除可能泄露隐私的元数据
+- 批量处理外发文档移除内部信息
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Bearer Token
+- Python 运行环境
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -50,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

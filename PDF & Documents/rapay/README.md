@@ -1,6 +1,6 @@
 # Ra Pay
 
-> Send compliant fiat USD payments via Ra Pay CLI — the first CLI-native AI payment platform
+> 支付和转账管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Two-step confirmation — Always preview fees before executing payments
-- Business compliance — Built-in validation ensures payments are for legitimate business purposes
-- JSON output — Structured responses for AI agents via `--json` flag
-- Stripe-backed — All payments processed through Stripe's regulated infrastructure
-- Cross-platform — Works on macOS, Linux, and Windows
-- Agent-to-agent transaction scripts — Shareable onboarding scripts that a buyer agent can forward to a seller agent (and 
+- 支付流程管理
+- 转账记录追踪
+- 支付状态查询
+- 交易数据统计
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 管理和追踪日常支付交易记录
+- 自动化处理定期付款事务
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
+- npm
+- Stripe
 
 ## 包含文件
 - `New folder`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -51,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；供应链风险：需要安装外部包且含管道安装
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # AgentSentinel Safety Layer
 
-> The operational circuit breaker for this agent. Enforces budget limits locally. **Sign up at agentsentinel.dev for real-time dashboards and human approval workflows.**
+> Agent 运行安全熔断器——强制执行预算限制和敏感操作审批
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "pip install 'agentsentinel-sdk[remote]'"
-- "python3 sentinel_wrapper.py --bootstrap"
-- AGENT_SENTINEL_API_KEY
-- Delete files (`rm`, `delete`)
-- Execute unknown code
-- Spend API credits on expensive loops
+- 预算控制：为 Agent 设定财务预算上限，超限自动熔断
+- 预检机制：执行复杂任务前强制检查剩余预算
+- 敏感操作拦截：删除文件、数据传输、执行未知代码等操作需预先审批
+- 人工审批工作流：当操作被标记为 APPROVAL_REQUIRED 时触发人工确认
+- 实时监控仪表盘：通过 agentsentinel.dev 查看 Agent 运行状态
+- 支持云端同步：登录后可远程监控和管理 Agent
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为自主运行的 Agent 设置成本上限防止意外高额消费
+- 在 Agent 执行破坏性操作前强制要求人工审批
+- 监控多个 Agent 的实时运行状态和资源消耗
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.x
+- agentsentinel-sdk[remote]（pip 安装）
+- AGENT_SENTINEL_API_KEY 环境变量（可选，用于云端同步）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `sentinel_wrapper.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +49,4 @@
 **风险摘要:** 6 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,33 +1,35 @@
 # Beeminder
 
-> Beeminder API for goal tracking and commitment devices. Use when checking Beeminder goals, adding datapoints, viewing due goals, managing commitments, or tracking habits. Triggers on "beeminder", "goals due", "add datapoint", "track habit", "goal status", "derail".
+> Beeminder 目标追踪和承诺机制的 API 集成，管理习惯打卡、查看到期目标和记录数据点
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Beeminder |
 | **作者** | ruigomeseu |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/ruigomeseu-beeminder |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ruigomeseu/beeminder |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `BEEMINDER_USERNAME` - Beeminder username
-- `BEEMINDER_AUTH_TOKEN` - personal auth token from https://www.beeminder.com/api/v1/auth_token.json (requires login)
-- `slug` - goal identifier
-- `safebuf` - days of safety buffer (0 = due today, negative = in the red)
-- `baremin` - minimum needed today to stay on track
-- `limsum` - human-readable summary (e.g. "+1 due in 2 days")
+- 列出所有目标及其安全缓冲天数、最低要求和进度摘要
+- 筛选今日到期或 N 天内到期的目标，按紧急程度排序
+- 添加数据点到指定目标，支持幂等重试（requestid 机制）
+- 查看、更新和删除已有的数据点记录
+- 获取单个目标的完整信息：承诺速率、脱轨日期、目标值、单位等
+- 所有操作通过 REST API 直接调用，无 CLI 依赖
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 代理定期检查到期目标并提醒用户完成打卡
+- 自动记录习惯数据（如运动、阅读），与日常工作流集成
+- 监控所有目标状态，及时预警即将脱轨的目标
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 环境变量 `BEEMINDER_USERNAME`（Beeminder 用户名）
+- 环境变量 `BEEMINDER_AUTH_TOKEN`（从 Beeminder 设置页获取）
+- `curl` 和 `jq` 命令行工具
+
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

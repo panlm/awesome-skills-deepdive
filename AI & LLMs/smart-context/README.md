@@ -1,6 +1,6 @@
 # Smart Context
 
-> Token-efficient agent behavior — response sizing, context pruning, tool efficiency, and delegation
+> 智能管理 AI 对话上下文，优化 Token 使用和对话质量
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- "Great question!" / "I'd be happy to help!" / "Let me check that for you!"
-- Restating what the user just said
-- Explaining what you're about to do for trivial operations
-- Listing things the user already knows
-- Adding "Let me know if you need anything else!"
-- ❌ Don't search memory for simple tasks (reminders, acks, greetings)
+- 智能管理和注入上下文信息
+- 根据对话内容动态调整上下文窗口
+- 优化 Token 使用效率
+- 支持长文档的智能分段和检索
+- 提供上下文相关性评分和排序
+- 适用于复杂对话和多轮交互场景
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 处理长文档对话时智能管理上下文窗口
+- 多轮复杂对话中动态优化上下文内容
+- 减少 Token 消耗同时保持对话质量
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

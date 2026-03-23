@@ -1,39 +1,36 @@
 # Competitor Analysis
 
-> 'This skill should be used when the user asks to "analyze competitors", "competitor SEO", "who ranks for", "competitive analysis", "what are my competitors doing", "what are they doing differently", "why do they rank higher", or "spy on competitor SEO". Analyzes competitor SEO and GEO strategies including their ranking keywords, content approaches, backlink profiles, and AI citation patterns. Reveals opportunities to outperform competition. For content-focused gap analysis, see content-gap-analysis. For link profile specifics, see backlink-analyzer.'
+> 分析竞争对手的 SEO 和 GEO 策略，包括排名关键词、内容方法、外链画像和 AI 引用模式，揭示超越竞争对手的机会。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Competitor Analysis |
 | **作者** | aaron-he-zhu |
+| **版本** | 3.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/aaron-he-zhu-competitor-analysis |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aaron-he-zhu/competitor-analysis |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- competitor analysis
-- competitive intelligence
-- market analysis
-- ranking analysis
-- competitive-seo
-- competitor-keywords
+- 竞争对手关键词分析：发现竞争对手排名的关键词及排名变化
+- 内容策略对标：分析竞争对手的内容方法和发布策略
+- 外链画像分析：评估竞争对手的反向链接质量和来源
+- AI 引用模式分析：追踪竞争对手在 AI 搜索中的引用表现（GEO 策略）
+- 竞争情报报告：生成综合竞争分析报告和战斗卡片
+- 域名对比：多维度对比自身与竞争对手的 SEO 表现
+- 内容差距识别：发现竞争对手覆盖但自身缺失的内容机会
+- 属于 SEO & GEO 技能库（共 20 个技能）的一部分
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 全面分析竞争对手的 SEO 策略，找出排名差距和超越机会
+- 监控竞争对手在 AI 搜索引擎中的引用表现和 GEO 优化策略
+- 生成竞品分析报告，为内容和链接建设策略提供数据支撑
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- 环境变量：`AHREFS_API_KEY`（推荐，用于 SEO 数据获取）
+- 属于 `aaron-he-zhu/seo-geo-claude-skills` 技能库
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

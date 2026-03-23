@@ -1,6 +1,6 @@
 # Signet Guardian
 
-> "Payment guard middleware for AI agents. Use whenever any skill is about to initiate a payment. Runs a preflight check against the user's policy (payments enabled, per-transaction limit, monthly cap). Returns ALLOW, DENY, or CONFIRM_REQUIRED. Other payment-capable skills must call signet-preflight before proceeding and signet-record after a successful payment."
+> AI Agent 支付守护中间件——在任何技能发起支付前进行安全检查和审批
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,34 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Preflight — Check if a payment is allowed (ALLOW / DENY / CONFIRM_REQUIRED).
-- Record — Append a completed payment to the ledger (enforces monthly cap under lock).
-- Report — View spending for today or month.
-- Policy — Show or edit limits and rules.
-- `tsx` (used via `npx`, or install locally)
-- `plugins.entries.signet-guardian.config.policy`
+- 拦截和审查 Agent 发起的支付请求
+- 实施支付金额限制和频率控制
+- 多级审批流程管理
+- 支付行为审计和日志记录
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Agent 自动购物时通过守护中间件确保金额合理
+- 设置每日支付限额防止异常消费
 
 ## 依赖和前提条件
 - Node.js / npm
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `docs`
-- `openclaw-extension`
-- `package.json`
-- `pnpm-lock.yaml`
-- `references`
-- `scripts`
-- `test-guardian.sh`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -57,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；供应链风险：需要安装外部包且含管道安装
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

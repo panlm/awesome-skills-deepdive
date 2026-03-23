@@ -1,6 +1,6 @@
 # xpr-governance
 
-> XPR Network governance — communities, proposals, voting on the gov contract
+> Agent 治理框架和规则管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Communities — governance groups (XPR Network, Metal DAO, LOAN Protocol, XPR Grants, Metal X, D.O.G.E.). Each has its own
-- Proposals — on-chain records with candidates (voting options), start/end times, and an approval status. Proposal content
-- Voting Strategies — determine who can vote and how vote weight is calculated:
-- `xpr-unstaked-and-staked-balances` — weight = XPR balance (staked + unstaked)
-- `xmt-balances` — weight = XMT balance
-- `loan-and-sloan-balances` — weight = LOAN + sLOAN balance
+- 定义 Agent 治理规则
+- 行为约束和合规管理
+- 治理策略模板
+- 审计和追踪机制
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为组织的 AI Agent 建立统一的治理框架
+- 管理和审计 Agent 的行为合规性
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `skill.json`
@@ -48,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

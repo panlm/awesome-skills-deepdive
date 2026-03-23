@@ -1,6 +1,6 @@
 # Repliz Api
 
-> Repliz social media management API integration. Use when working with Repliz to manage social media accounts, schedules, and comments. Requires REPLIZ_ACCESS_KEY and REPLIZ_SECRET_KEY environment variables.
+> Repliz 内容复制和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,24 @@
 - Add and connect accounts like Instagram, Threads, TikTok, Facebook, LinkedIn, or YouTube
 - Ensure the accounts show as "connected" before proceeding
 - Username: $REPLIZ_ACCESS_KEY
+- Password: $REPLIZ_SECRET_KEY
+- Base URL: `https://api.repliz.com`
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 快速复制和整理内容
+- 管理内容模板和片段
+- 支持多格式内容导出
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

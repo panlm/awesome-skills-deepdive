@@ -1,6 +1,6 @@
 # Muscle Gain
 
-> Track muscle building with weight progression, protein tracking, and strength milestones
+> 增肌训练和营养规划工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,26 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "bulking progress"
-- "strength gains"
-- "protein today"
 - Body weight - Daily logged weight
 - Measurements - Arms, chest, shoulders, waist, thighs, neck (weekly)
 - Strength lifts - Squat, deadlift, bench press, overhead press, barbell rows (log reps × weight)
+- Protein intake - Daily grams tracked against target
+- Caloric surplus - Optional integration with nutrition logging to track daily surplus
+- Progress photos - Timestamped images with metadata (date, weight, lift PRs)
 
 ## 使用场景
-- 记录和跟踪锻炼
-- 制定训练计划
-- 分析运动表现
+- 制定针对增肌的训练计划
+- 计算蛋白质和热量的每日需求
+- 跟踪增肌进度和身体成分变化
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,37 +1,34 @@
 # Alex Session Wrap-Up
 
-> End-of-session automation that commits unpushed work, extracts learnings, detects patterns, and persists rules. Uses gpt-4o-mini for pattern detection. Runs at session end or on-demand.
+> 会话结束时的自动化流程：提交未推送的代码、提取学习要点、检测重复模式并持久化规则
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Alex Session Wrap-Up |
 | **作者** | xbillwatsonx |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/xbillwatsonx-alex-session-wrap-up |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xbillwatsonx/alex-session-wrap-up |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- On-demand: User says "wrap up" or "session wrap-up"
-- Automatic: End of significant work session (optional)
-- Check for unstaged/uncommitted files in workspace
-- Commit with auto-generated message
-- Push to remote
-- Scan session conversation for key decisions
+- 自动检测并提交工作区中未暂存/未提交的文件，推送到远程仓库
+- 扫描会话对话，提取关键决策和学习要点
+- 使用 gpt-4o-mini 分析提取的经验，检测重复错误和自动化机会
+- 将学习成果写入每日记忆文件 `memory/YYYY-MM-DD.md`
+- 发现新模式时自动更新 `AGENTS.md` 和 `MEMORY.md`
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在结束一段较长的工作会话时，自动整理和保存工作成果
+- 持续积累工作经验，通过模式检测发现可改进的重复行为
+- 确保所有代码变更都被提交和推送，不遗漏未保存的工作
 
 ## 依赖和前提条件
-- OAuth
+- 需要 gpt-4o-mini 模型访问（通过 OpenRouter 或 OpenAI）
+- Git 已配置且可推送到远程仓库
+- 工作区中存在标准的 memory 目录结构
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

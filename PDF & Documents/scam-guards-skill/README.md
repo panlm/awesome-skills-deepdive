@@ -1,6 +1,6 @@
 # Scam Guards
 
-> Scam Guards skill for OpenClaw
+> 反诈骗检测技能组件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,12 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/y01026350884-cyber/scam-guards-skill |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 诈骗模式识别引擎
+- 实时内容安全检查
+- 风险评分和分级
+- 可疑行为追踪
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 集成到聊天机器人中提供反诈骗保护
+- 自动化检测和标记可疑的交易请求
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -37,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

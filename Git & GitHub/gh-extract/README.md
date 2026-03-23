@@ -1,32 +1,34 @@
 # GitHub Extract
 
-> Extract content from a GitHub url.
+> 从 GitHub URL 提取文件内容，支持仓库、目录和文件链接。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | GitHub Extract |
 | **作者** | guoqiao |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/guoqiao-gh-extract |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/guoqiao/gh-extract |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Accepts an GitHub url, could be repo/tree/blob.
-- Convert the url to github raw url.
-- Extract file content from the raw url or save to a temp path.
+- 接受 GitHub URL（仓库/目录/文件链接），自动转换为 raw URL 提取内容
+- 支持将文件内容输出到标准输出或保存到临时文件
+- 自动检测仓库中的 README.md、SKILL.md 或 README.txt
+- 支持 `/gh-extract <url>` 命令触发
+- 支持 repo/tree/blob 三种 GitHub URL 格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速提取并阅读公开 GitHub 仓库中的文件内容，无需克隆整个仓库
+- 下载 GitHub 上的单个文件到本地进行分析或使用
+- 批量提取多个 GitHub 项目的 README 用于内容汇总
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `gh_extract.py`
+## 依赖和前提条件
+- `uv`（Python 包管理工具）
+- `wget`（文件下载工具）
+- 仅支持公开仓库
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -45,4 +47,4 @@
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

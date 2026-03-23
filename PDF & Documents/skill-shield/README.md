@@ -1,6 +1,6 @@
 # Skill
 
-> "Security audit tool for ClawHub skills. Scans a skill directory with 65 detection patterns, anti-obfuscation analysis, and dual rating system (Security + Compliance). v0.6.1 fixes batch scan performance by skipping venv/node_modules directories. Use when: installing a new skill, reviewing skill safety, or auditing permissions."
+> 技能安全审核和防护工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- File deletion: rm -rf, shred, unlink, rmtree, rimraf, del /f (7 patterns)
-- Network exfiltration: curl POST, wget --post, requests.post, fetch POST, netcat reverse shell, DNS exfil, pipe to curl, 
-- Environment variable access: process.env, os.environ, .env files, printenv (5 patterns)
-- Secret/key access: .ssh/, .gnupg/, private keys, wallets, tokens, passwords, keychain, cloud credentials (8 patterns)
-- Privilege escalation: sudo, su, chmod 777, chown, setuid/setgid, doas (6 patterns)
-- Code execution: eval, exec(), Function(), child_process, subprocess, os.system, os.popen, compile (8 patterns)
+- 技能安装前安全审核
+- 恶意技能检测
+- 权限风险评估
+- 安全策略执行
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在安装新技能前自动进行安全审核
+- 检测技能中的潜在安全风险
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `reports`
@@ -50,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 5 项高风险，3 项中风险。命令执行：发现直接命令执行指令；数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

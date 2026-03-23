@@ -1,36 +1,36 @@
 # Bitbucket Automation
 
-> Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio). Always search tools first for current schemas.
+> 通过 Rube MCP (Composio) 自动化 Bitbucket 仓库、PR、分支、Issue 和工作空间管理
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Bitbucket Automation |
 | **作者** | sohamganatra |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/sohamganatra-bitbucket-automation |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sohamganatra/bitbucket-automation |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Rube MCP must be connected (RUBE_SEARCH_TOOLS available)
-- Active Bitbucket connection via `RUBE_MANAGE_CONNECTIONS` with toolkit `bitbucket`
-- Always call `RUBE_SEARCH_TOOLS` first to get current tool schemas
-- `workspace`: Workspace slug or UUID (required for all operations)
-- `repo_slug`: URL-friendly repository name
-- `source_branch`: Branch with changes to merge
+- 管理 Pull Request：创建、列出、查看详情、获取 diff 和 diffstat
+- 管理仓库和工作空间：列出、创建、删除仓库，查看工作空间成员
+- Issue 管理：创建、更新、列出和评论仓库 Issue
+- 分支操作：列出分支、验证源和目标分支存在性
+- 支持 BBQL 查询语法进行高级筛选
+- 通过 Bitbucket OAuth 完成身份认证
+- 详细的参数说明和常见陷阱提示（如 UUID 格式、分页默认值等）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 AI 代理工作流中自动化 Bitbucket 的日常操作
+- 批量管理多个仓库的 PR 和 Issue
+- 搭建基于 Bitbucket 的自动化 CI/CD 辅助工作流
 
 ## 依赖和前提条件
-- OAuth
+- Rube MCP 服务已连接（添加 `https://rube.app/mcp` 为 MCP 服务器）
+- 通过 `RUBE_MANAGE_CONNECTIONS` 完成 Bitbucket OAuth 认证
+- 认证状态需为 ACTIVE
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 安全状态
 
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |

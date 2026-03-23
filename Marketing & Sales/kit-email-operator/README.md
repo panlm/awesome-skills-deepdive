@@ -1,40 +1,37 @@
 # Kit Email Marketing Operator
 
-> **AI-powered email marketing for Kit (ConvertKit)**
+> Kit (ConvertKit) 邮件营销操作工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Kit Email Marketing Operator |
 | **作者** | kevjade |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/kevjade-kit-email-operator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kevjade/kit-email-operator |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Writes complete emails matching your brand voice
-- Creates 3 subject line options for every email
-- Follows proven email marketing best practices
-- Uses Kit personalization tags (first name, custom fields)
-- Creates and schedules broadcasts via API
-- Targets specific tags and segments
-- Tracks campaign performance
-- Manages drafts and scheduled sends
+- Kit 邮件列表管理
+- 订阅者操作
+- 邮件序列管理
+- 标签和分组管理
 
 ## 使用场景
-- 自动化邮件营销
-- 管理外联和跟进
-- 个性化营销邮件生成
+- 通过 AI 助手管理 Kit 平台的邮件营销
+- 自动化 Kit 中的订阅者管理和邮件序列
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- API 密钥
+- Node.js
+- Redis
 
 ## 包含文件
 - `BUILD-COMPLETE.md`
 - `INSTALLATION.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SETUP.md`
 - `SKILL.md`
 - `_meta.json`
@@ -58,6 +55,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

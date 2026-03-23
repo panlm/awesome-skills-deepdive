@@ -1,6 +1,6 @@
 # Metricool
 
-> Schedule and manage social media posts via Metricool API. Use when posting to multiple platforms (LinkedIn, X, Bluesky, Threads, Instagram), checking scheduled posts, or analyzing social metrics.
+> Metricool 社交媒体分析和排期工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,16 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/willscott-v2/metricool |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- Must be publicly accessible URL (S3, GCS, etc.)
+- Recommended formats: PNG, JPG
+- Square images work best for Instagram/Threads
+- Wide images (1.91:1) work best for X/LinkedIn
+
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 分析多平台社交媒体数据
+- 规划和排期社交媒体内容
+- 生成社交媒体表现报告
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -26,7 +32,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

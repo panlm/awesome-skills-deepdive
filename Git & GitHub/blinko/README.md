@@ -1,39 +1,35 @@
 # Blinko
 
-> Play Blinko (on-chain Plinko) headlessly on Abstract chain. Use when an agent wants to play Blinko games, check game stats, view leaderboards, or track honey rewards. Handles the full commit-reveal flow including API auth, on-chain game creation, simulation, and settlement.
+> 在 Abstract 链上无头运行 Blinko（链上弹珠台游戏），支持玩游戏、查看统计数据、排行榜和蜂蜜奖励追踪。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Blinko |
 | **作者** | tolibear |
+| **版本** | 1.1.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/tolibear-blinko |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tolibear/blinko |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- This skill signs on-chain transactions that spend real ETH. Use a dedicated hot wallet with only the funds you're willin
-- Each game costs gas (Abstract chain) on top of your bet amount.
-- Your private key is used locally to sign messages and transactions. It is sent to the Abstract RPC and Blinko API as sig
-- Agents can invoke this skill autonomously when installed.
-- 10 balls dropped through 8 rows of pins
-- Bin multipliers: 2x, 1.5x, 0.5x, 0.2x, 0.1x, 0.1x, 0.2x, 0.5x, 1.5x, 2x
+- 完整的 commit-reveal 游戏流程：API 认证、链上游戏创建、模拟和结算
+- 支持普通模式和困难模式（Hard mode: 0% 主游戏 RTP，需触发奖励才能获胜）
+- 支持 V2 算法和配置
+- 查看个人资料、游戏历史、排行榜和蜂蜜余额
+- 下注范围 0.0001 - 0.1 ETH，10 个球通过 8 行钉子
+- 支持 JSON 格式输出，方便程序化集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 自主在 Abstract 链上参与 Blinko 弹珠台游戏
+- 查询游戏统计数据和链上排行榜
+- 追踪蜂蜜奖励余额
 
 ## 依赖和前提条件
 - Node.js / npm
+- 环境变量：`WALLET_PRIVATE_KEY`（专用热钱包的私钥）
+- Abstract 链上需有 ETH 用于 Gas 费和下注
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -52,4 +48,4 @@
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

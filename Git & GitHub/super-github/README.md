@@ -1,34 +1,32 @@
 # Sg
 
-> **The ultimate GitHub automation framework.** Combines the best of GitHub skills for issues, PRs, releases, and more.
+> 终极 GitHub 自动化框架：集 Issue、PR、Release 和仓库管理于一体
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Sg |
 | **作者** | heldinhow |
+| **版本** | 1.0.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/heldinhow-super-github |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/heldinhow/super-github |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Create issues (with labels, assignees)
-- List issues (filter by status, labels)
-- Update issues (title, body, labels)
-- Auto-categorization and label suggestions
-- PR summary analysis
-- File change statistics
+- Issue 自动化：创建（含标签、指派人）、列表（按状态/标签筛选）、更新、自动分类和标签建议
+- PR 审查助手：PR 摘要分析、文件变更统计、审查清单生成、冲突检测
+- Release 自动化：创建发布、自动生成变更日志、标签管理
+- 仓库管理：列出仓库、获取/设置 Secrets、管理 Workflows
+- 整合了 openclaw-github-assistant、github-automation-pro、github-mcp 三个 Skill 的最佳功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 需要一站式管理 GitHub 仓库的 Issue、PR、Release 和工作流
+- AI Agent 需要完整的 GitHub 操作能力，而不是分散安装多个 Skill
+- 团队需要自动化 PR 审查流程和 Release 发布管理
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- `gh` CLI 已安装并完成认证
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +45,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

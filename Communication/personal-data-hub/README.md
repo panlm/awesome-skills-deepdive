@@ -1,36 +1,37 @@
 # Personal Data Hub
 
-> Pull personal data (emails, issues) and propose outbound actions (drafts, replies) through the PersonalDataHub access control gateway. Data is filtered, redacted, and shaped by the owner's policy before reaching the agent.
+> 拉取个人数据（邮件、GitHub Issue 等），提议外发操作如草稿和回复
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Personal Data Hub |
 | **作者** | haojian |
+| **版本** | 0.1.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/haojian-personal-data-hub |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/haojian/personal-data-hub |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- `source` (required) — The data source (e.g., `"gmail"`, `"github"`)
-- `purpose` (required) — Why this data is needed (logged for audit)
-- `type` (optional) — Data type (e.g., `"email"`, `"issue"`)
-- `query` (optional) — Search query in source-native syntax (e.g., `"is:unread from:alice"`)
-- `limit` (optional) — Maximum number of results
-- `source` (required) — The source service (e.g., `"gmail"`)
+- 聚合多来源个人数据（邮件、Issue 等）
+- 智能分析和摘要收到的信息
+- 提议回复草稿和外发操作
+- 统一管理个人通信数据
+- 支持邮件和 GitHub Issue 集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日个人信息汇总与待办提醒
+- 快速起草邮件回复和 Issue 评论
+- 跨平台个人数据统一查看
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
-- OAuth
+- 配置邮件账号访问权限
+- GitHub 个人访问令牌
+- 相关 API 凭证配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `openclaw.plugin.json`
@@ -53,7 +54,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

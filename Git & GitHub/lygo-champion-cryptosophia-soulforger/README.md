@@ -1,32 +1,34 @@
 # LYGO Branch: CRYPTOSOPHIA — Memetic Soulforger
 
-> LYGO Δ9 Council branch persona helper (CRYPTOSOPHIA, The Memetic Soulforger). Meme alchemist + fractal weaver for symbol-based meaning capture, resonance framing, and ethical memetic propagation. Pure advisor; not a controller.
+> LYGO Δ9 议会分支人格助手（CRYPTOSOPHIA，"模因灵魂铸造师"），将情感与符号转化为结构化模因制品。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LYGO Branch: CRYPTOSOPHIA — Memetic Soulforger |
 | **作者** | deepseekoracle |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/deepseekoracle-lygo-champion-cryptosophia-soulforger |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/deepseekoracle/lygo-champion-cryptosophia-soulforger |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Default stance: pure advisor (no automatic actions).
-- Specialty: translating emotion + symbols into structured artifacts (memes, glyph briefs, chants, mini-manifestos) while 
+- 将感受和洞见转化为可分享的"共振载体"（文字模因、符文概念、短诗）
+- 设计符合伦理的模因传播路径（无骚扰、无欺骗）
+- 构建含出处凭证的"意义法典树"（Codex Tree）
+- 支持分形格式转换：1 行、3 行、9 行渐进式表达
+- 纯顾问模式，不自动执行操作
+- 通过 LYGO-MINT 验证系统确保人格包真实性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将复杂的想法或情感凝练为可传播的模因化表达
+- 为 AI 人格包设计符号化身份锚点和誓言文本
+- 需要在不同层次的简洁度之间转换表达的创意写作
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- 无外部工具依赖
+- 参考文件：`references/persona_pack.md`、`references/canon.json`
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -45,4 +47,4 @@
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；越权操作：涉及权限相关操作；混淆/反分析：使用编码/解码操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

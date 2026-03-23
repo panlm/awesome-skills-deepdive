@@ -1,43 +1,36 @@
 # Sovereign Commit Craft
 
-> Git commit message expert. Analyzes diffs to generate perfect conventional commits, changelogs, release notes, and PR descriptions. Enforces commit message best practices and conventional commits spec.
+> Git 提交信息专家：分析 Diff 生成完美的 Conventional Commit 消息、变更日志和发布说明
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Sovereign Commit Craft |
 | **作者** | ryudi84 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/ryudi84-sovereign-commit-craft |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-commit-craft |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Conventional commit messages — properly typed, scoped, and formatted with subject, body, and footers
-- Changelogs — Keep a Changelog format, written for users not developers
-- Release notes — marketing-friendly summaries with highlights, upgrade instructions, and breaking change migration guides
-- PR descriptions — structured templates with summary, change list, test plan, and checklists
-- Commit splitting advice — when one commit should be three
-- Version bump recommendations — semantic versioning derived from commit types
-- Commit message reviews — analyze existing messages and suggest improvements
+- 分析 Git Diff 生成规范的 Conventional Commit 消息（支持 11 种类型：feat、fix、docs 等）
+- 生成 Keep a Changelog 格式的变更日志
+- 生成面向营销的发布说明，包含亮点、升级指南和破坏性变更迁移指南
+- 生成结构化 PR 描述（摘要、变更列表、测试计划、检查清单）
+- 提供大型提交拆分建议：当一个提交应拆为多个时给出指导
+- 基于提交类型推荐语义化版本号（SemVer）
+- 审查现有提交消息并提出改进建议
+- 覆盖 Conventional Commits v1.0.0、Keep a Changelog v1.1.0、SemVer v2.0.0 等规范
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开发完成后生成规范的提交信息，确保团队提交历史的一致性和可读性
+- 版本发布时自动生成变更日志和发布说明
+- 审查团队成员的提交消息质量并提出改进建议
 
 ## 依赖和前提条件
-- Node.js / npm
-- Docker
-- OAuth
-- 数据库
+- 通过 ClawHub 安装：`npx clawhub install sovereign-commit-craft`
+- Git 仓库环境
 
-## 包含文件
-- `EXAMPLES.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -56,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

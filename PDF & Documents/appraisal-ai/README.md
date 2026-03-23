@@ -1,6 +1,6 @@
 # Appraisal Ai
 
-> >
+> AI 评估和鉴定工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Narrative drafts — produces a Word .docx with all field replacements shown as tracked changes (strikethrough old, underl
-- Adjustment grids — fills subject and comparable data into your Excel grid template. Preserves formulas and appraiser-ent
-- Quality review — checks the draft against your project data for consistency, missing fields, and USPAP compliance.
+- AI 驱动的价值评估
+- 多维度评分分析
+- 评估报告自动生成
+- 历史数据对比分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 利用 AI 对资产或物品进行价值评估
+- 自动生成详细的评估鉴定报告
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

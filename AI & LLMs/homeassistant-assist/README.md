@@ -1,6 +1,6 @@
 # Home Assistant Assist
 
-> Control Home Assistant smart home devices using the Assist (Conversation) API. Use this skill when the user wants to control smart home entities - lights, switches, thermostats, covers, vacuums, media players, or any other smart device. Passes natural language directly to Home Assistant's built-in NLU for fast, token-efficient control.
+> 将 OpenClaw 连接到 Home Assistant，实现智能家居语音和文本控制
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,25 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Faster — Single API call instead of multiple lookups
-- Cheaper — Fewer tokens spent on entity resolution
-- More reliable — Home Assistant knows your home better than any AI
-- [OpenClaw](https://github.com/openclaw/openclaw) installed and running
-- Home Assistant instance with API access
-- A [Long-Lived Access Token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) from Home Assis
+- 与 Home Assistant 的 Assist API 深度集成
+- 支持通过自然语言控制智能家居设备
+- 可查询设备状态、传感器数据和家庭信息
+- 支持自动化场景触发和执行
+- 提供设备列表浏览和管理功能
+- 支持多语言的语音和文本交互
+- 可配置自定义 Home Assistant 管道
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 助手语音控制家中的灯光、空调等设备
+- 查询家庭传感器数据如温度、湿度、门窗状态
+- 创建和触发智能家居自动化场景
 
-## 包含文件
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Home Assistant 实例（URL 和长期访问令牌）
+- Home Assistant Assist API 启用
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +50,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

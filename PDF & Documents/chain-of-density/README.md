@@ -1,6 +1,6 @@
 # Chain of Density
 
-> "Iteratively densify text summaries using Chain-of-Density technique. Use when compressing verbose documentation, condensing requirements, or creating executive summaries while preserving information density."
+> 渐进式摘要生成工具（Chain of Density 方法）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Identify 1-3 missing entities from SOURCE (not summary)
-- Rewrite summary to include them
-- Maintain IDENTICAL word count through compression
-- Invoke serially, not parallel
-- Pass SOURCE text in every iteration for entity discovery
-- Parse `Missing_Entities:` line to track entity accumulation
+- 使用信息密度递增法生成摘要
+- 多轮迭代优化摘要质量
+- 保留关键信息同时提高信息密度
+- 支持长文本的高质量摘要
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将长篇文章逐步压缩为高密度摘要
+- 为学术论文生成不同详略程度的摘要
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

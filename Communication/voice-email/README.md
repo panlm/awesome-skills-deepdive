@@ -1,37 +1,38 @@
 # voice-email
 
-> Send emails via natural voice commands - designed for accessibility
+> 通过自然语音命令撰写和发送邮件，专为无障碍使用场景设计
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | voice-email |
 | **作者** | sundiver1 |
+| **版本** | 1.0.2 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/sundiver1-voice-email |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sundiver1/voice-email |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- "new email to john@example.com, subject Hello, body How are you doing, send"
-- "send email to mom@gmail.com, subject Dinner, body See you at 7pm, send"
-- ❌ Execute arbitrary code
-- ❌ Access files outside of logging/debugging
-- ❌ Modify system files
-- ❌ Access other accounts without explicit OAuth
-- ❌ Send emails to unknown recipients without user confirmation
+- 语音输入自动转换为邮件内容
+- 自然语言指定收件人、主题和正文
+- 语音确认后自动发送邮件
+- 支持语音朗读收到的邮件
+- 为视障或行动不便用户优化的无障碍体验
+- 支持语音纠错和内容修改
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 视障用户通过语音完成日常邮件收发
+- 驾驶或运动中需要免手操作发送邮件
+- 行动不便人士的无障碍邮件通信
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
-- OAuth
+- 邮件服务器凭据（SMTP）
+- 语音输入设备（麦克风）
+- 语音识别服务支持
 
 ## 包含文件
+- `README.md`
 - `SETUP.md`
 - `SKILL.md`
 - `_meta.json`
@@ -50,7 +51,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

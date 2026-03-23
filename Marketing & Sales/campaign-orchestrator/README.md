@@ -1,35 +1,37 @@
 # Campaign Orchestrator
 
-> Multi-channel follow-up campaign orchestrator for ShapeScale sales. Schedules and executes SMS + Email sequences with CRM logging and auto-termination on replies. Use when following up with demo leads or managing outreach campaigns.
+> 营销活动编排和管理工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Campaign Orchestrator |
 | **作者** | kesslerio |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/kesslerio-campaign-orchestrator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kesslerio/campaign-orchestrator |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Multi-channel: SMS (Dialpad) + Email (Gmail)
-- Scheduled: Cron-based execution with configurable delays
-- Personalized: Templates filled from Attio CRM data
-- Auto-terminating: Replies stop all future scheduled steps
-- Logged: All activities recorded in Attio
-- Dialpad webhook is configured to hit this server
+- 多渠道营销活动编排
+- 活动流程自动化
+- 效果实时监控
+- 活动数据分析
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 编排和管理跨渠道的整合营销活动
+- 自动化营销活动的执行和效果追踪
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- Google API
+- GitHub API
+- Webhook 配置
+- Attio CRM
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `campaign.py`
@@ -55,6 +57,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

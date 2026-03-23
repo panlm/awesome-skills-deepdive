@@ -1,6 +1,6 @@
 # Competitor Analyzer
 
-> Analyze any company's competitive position in minutes. Takes a company name or URL and produces a structured report covering what they do, pricing, social presence, and recent news.
+> 竞争对手分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Company Overview — What they do, market position
-- Pricing Analysis — Plans, tiers, free tier details
-- Social Presence — Twitter, LinkedIn, GitHub activity
-- Recent News — Latest announcements, funding, launches
-- Strengths & Weaknesses — Quick SWOT-lite summary
-- `curl` (standard)
+- 竞争对手信息收集和分析
+- 市场定位对比
+- 竞品功能和价格分析
+- 生成竞争分析报告
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期收集和分析主要竞争对手的动态
+- 生成竞品功能对比分析报告
+
+## 依赖和前提条件
+- GitHub API
+- Notion API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `analyze.sh`
@@ -46,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

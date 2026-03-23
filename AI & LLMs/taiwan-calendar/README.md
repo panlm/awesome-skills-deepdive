@@ -1,6 +1,6 @@
 # Taiwan Calendar Plugin
 
-> Taiwan calendar query for accurate working day/holiday information. Use when user asks about Taiwan dates, working days, holidays, make-up workdays, or needs date calculations. Solves Claude's knowledge cutoff issues with Taiwan's administrative calendar.
+> 台湾地区日历工具，提供节假日、农历和补班信息查询
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Today's date and working day status
-- Specific date queries (working day/holiday)
-- Working day counts in date ranges
-- N working days calculations
-- Next working day/holiday lookups
-- Today's date: Current Taiwan date (UTC+8) with weekday and working day status
+- 提供台湾地区日历和节假日信息
+- 支持农历和国历双向转换
+- 查询台湾特有节日和纪念日
+- 获取法定假日和补班信息
+- 支持日期范围查询和提醒
+- 适用于需要处理台湾时间和节日的场景
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 处理台湾地区业务时查询节假日和工作日
+- 开发面向台湾用户的应用时集成日历功能
+- 安排跨时区会议时确认台湾假期安排
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
+- Python 运行环境
+- Bash/Shell 环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +48,4 @@
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # E-Commerce Price Monitor & Competitive Intel
 
-> This skill enables Claude to monitor and track **product prices across major e-commerce platforms**
+> 跨主流电商平台监控产品价格，提供竞价分析、动态定价策略和实时市场情报
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Monitor product prices on Amazon, Zalando, eBay, AliExpress, and more
-- Track price history and detect drops, spikes, and promotions
-- Compare prices for the same product across multiple retailers
-- Trigger repricing alerts when a competitor changes their price
-- Build structured price datasets for dashboards and analytics
-- Schedule recurring runs for continuous price surveillance
+- 监控 Amazon、Zalando、eBay、AliExpress 等主流电商平台的产品价格
+- 追踪价格历史，检测降价、涨价和促销活动
+- 同一产品跨多个零售商的价格对比
+- 竞争对手价格变动时触发重新定价提醒
+- 构建结构化价格数据集用于仪表盘和分析
+- 支持定时运行实现持续价格监控
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 电商运营自动监控竞品价格变动并调整定价策略
+- 消费者追踪心仪商品的价格走势等待最佳购买时机
+- 市场分析师构建跨平台价格数据库进行行业趋势研究
 
 ## 依赖和前提条件
 - Node.js / npm
+- apify-client（npm 安装）
+- Apify API Token（免费套餐含 $5/月额度）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 4 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Urban Sports Club Booking API
 
-> Scannt deine Urban Sports Club Venues, zeigt Kurse mit direkten Booking-Links und kann Kurse buchen und stornieren.
+> USC 预订 API——场地和设施的在线预订管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,18 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `name`: Anzeigename
-- `url`: Venue-Seite auf urbansportsclub.com
-- `type`: Frei waehlbar, wird im Output angezeigt
-- `keywords`: Helfen bei der Erkennung der Kursnamen im Seitentext
-- `plan_type`: Mitgliedschafts-Stufe. Bestimmt welche Kurse angezeigt werden (nur die, die mit der jeweiligen Stufe buchba
-- `business_type`: `b2c` (Privatmitglieder) oder `b2b` (Firmenmitglieder). Standardwert: `b2c`.
+- 在线预订场地和设施
+- 查看可用时段和容量信息
+- 管理预订记录和修改
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 预订大学运动场地或会议室
+- 查看和管理已有的设施预订
 
 ## 依赖和前提条件
-- Python / pip
+- API Key / 账号凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `config.py`
-- `credentials.json`
-- `scan.py`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -52,5 +41,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。凭证获取：需要多种敏感凭证；信息采集：大量系统信息采集
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

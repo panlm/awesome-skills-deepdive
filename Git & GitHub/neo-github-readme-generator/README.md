@@ -1,32 +1,31 @@
-# Skill
+# GitHub README 生成器
 
-> Automatically generates comprehensive README files from GitHub repositories with installation, API docs, and usage examples.
+> 自动分析 GitHub 仓库并生成包含安装说明、API 文档和使用示例的综合 README 文件
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Skill |
 | **作者** | martinforsulu |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/martinforsulu-neo-github-readme-generator |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/martinforsulu/neo-github-readme-generator |
-| **安全评级** | 🟢 Low |
+
+## 功能概述
+- 分析 GitHub 仓库结构和代码内容
+- 自动生成包含安装指南的 README 文件
+- 生成 API 文档和使用示例
+- 支持通过 ClawHub 一键安装
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为新建或现有的 GitHub 仓库快速生成专业的 README 文档
+- 自动化项目文档编写，减少手动撰写文档的时间
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `assets`
-- `package-lock.json`
-- `package.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- 需要访问目标 GitHub 仓库
+- 通过 ClawHub 安装：`clawhub install github-readme-generator`
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

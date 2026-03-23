@@ -1,40 +1,35 @@
 # Zhipu AI TTS
 
-> Text-to-speech conversion using Zhipu AI (BigModel) GLM-TTS model. Use when you need to convert text to audio files with various voice options. Supports Chinese text synthesis with multiple voice personas, speed control, and output formats.
+> 基于智谱 AI（BigModel）GLM-TTS 模型的中文语音合成工具，支持 7 种音色和语速调节
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Zhipu AI TTS |
 | **作者** | franklu0819-lang |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/franklu0819-lang-zhipu-tts |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/franklu0819-lang/zhipu-tts |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🎙️ Multiple Voices: 7 different voice personas (tongtong, chuichui, xiaochen, jam, kazi, douji, luodo)
-- ⚡ Speed Control: Adjustable speech speed from 0.5x to 2.0x
-- 🎵 Multiple Formats: WAV and PCM output formats
-- 🇨🇳 Chinese Language: Optimized for Mandarin Chinese synthesis
-- 📝 Long Text Support: Up to 1024 characters per request
-- 🔊 High Quality: 24000 Hz sampling rate for optimal audio quality
+- 将中文文本转换为自然流畅的语音（24000 Hz 高采样率）
+- 提供 7 种不同音色人设：彤彤、锤锤、小陈、Jam、Kazi、Douji、Luodo
+- 支持 0.5x 到 2.0x 语速调节
+- 支持 WAV 和 PCM 两种输出格式
+- 单次最长支持 1024 个字符
+- 针对普通话合成深度优化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 有声读物制作、游戏角色配音和视频旁白生成
+- 智能客服和公告播报系统的语音合成
+- 需要多种中文音色选择的语音内容生产
 
 ## 依赖和前提条件
-- API Key
+- `jq` JSON 处理工具（`sudo apt-get install jq`）
+- 环境变量 `ZHIPU_API_KEY`：智谱 AI 平台 API 密钥
+- Bash 脚本运行环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -53,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

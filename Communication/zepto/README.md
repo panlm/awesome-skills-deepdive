@@ -1,37 +1,41 @@
 # Zepto
 
-> Order groceries from Zepto in seconds. Just say what you need, get a payment link on WhatsApp, pay on your phone, done. Remembers your usual items. Works across India where Zepto delivers.
+> 秒速在 Zepto 平台下单外卖杂货，语音说出需求即可获取支付链接完成购买
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Zepto |
 | **作者** | bewithgaurav |
+| **版本** | 1.0.6 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/bewithgaurav-zepto |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bewithgaurav/zepto |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- 🏠 Address confirmation - Always checks before ordering
-- 🧠 Remembers your usuals - Tracks what you order frequently
-- 🛒 Smart cart - Adds all items, then shows summary
-- 💳 Payment links - Pay securely via WhatsApp on your phone
-- ✅ Order verification - Confirms when your order is on the way
-- 🧹 Auto cleanup - Clears cart after each order
+- 自然语言描述需求自动生成购物清单
+- 在 Zepto 平台自动搜索和添加商品到购物车
+- 生成一键支付链接简化结账流程
+- 支持地址管理和配送时间选择
+- 智能匹配商品处理缺货替代建议
+- 语音下单全流程支持
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 忙碌时快速语音下单日常生活杂货
+- 智能助手定期自动补货常用消耗品
+- 不方便操作手机时通过语音完成购物
 
 ## 依赖和前提条件
-- Node.js / npm
+- Zepto 账户
+- Zepto 服务覆盖区域的配送地址
+- 有效的支付方式
 
 ## 包含文件
 - `ORIGINAL_README.md`
 - `PARSER-USAGE.md`
 - `PUBLISH_CHECKLIST.md`
+- `README.md`
 - `SECURITY.md`
 - `SKILL.md`
 - `ZEPTO_AUTH.md`
@@ -56,7 +60,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

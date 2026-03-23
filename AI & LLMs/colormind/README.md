@@ -1,6 +1,6 @@
 # Colormind
 
-> Generate color palettes and get color suggestions via the Colormind.io API (list models, generate palettes with optional locked colors).
+> 通过 Colormind.io API 生成配色方案，支持锁定颜色、图像取色和多种模型选择
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,29 +13,25 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- This skill sends color data to an external service (colormind.io)
-- The API uses unencrypted HTTP (HTTPS has a self-signed certificate)
-- When using `image_to_palette.sh`, derived color data from your images is sent externally
-- Do not use with sensitive/private images unless you accept this data sharing
-- Consider running in a sandbox when processing untrusted images (ImageMagick safety)
-- `POST http://colormind.io/api/` → generate a palette (optionally with locked colors)
+- 调用 Colormind.io API 生成随机或约束配色方案
+- 支持锁定特定颜色槽位，让 AI 填充其余颜色
+- 提供多种配色模型（default、ui 等），每日更新
+- 通过 ImageMagick 从图像中提取主要颜色生成配色方案
+- 输出 JSON 格式结果，支持 --pretty 模式显示 Hex + RGB
+- 列出当前可用的配色模型
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 UI 设计快速生成协调的配色方案
+- 基于品牌色锁定后自动补充配套颜色
+- 从产品图片中提取颜色并生成匹配的设计色板
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Node.js（运行脚本）
+- ImageMagick `convert` 命令（图像取色功能需要）
+- Python3（辅助脚本）
+- 网络连接（调用 colormind.io API，注意使用未加密 HTTP）
 
-## 包含文件
-- `CHANGELOG.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +50,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

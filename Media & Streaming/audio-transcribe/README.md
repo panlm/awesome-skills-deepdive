@@ -1,6 +1,6 @@
 # Audio Transcribe
 
-> Auto-transcribe voice messages using faster-whisper (local, no API key needed).
+> 音频转文字转录工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,13 +13,14 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `scripts/transcribe.py` — Main transcription script
-- `SKILL.md` — This file
+- 支持通过命令行进行操作控制
+- 提供自动化工作流集成
+- 支持多种媒体格式和平台
 
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 将音频文件转录为文本
+- 支持多语言语音识别
+- 批量处理音频转录任务
 
 ## 依赖和前提条件
 - Python / pip
@@ -29,7 +30,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

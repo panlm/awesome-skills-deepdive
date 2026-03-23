@@ -1,6 +1,6 @@
 # Autonomous Agent Skills
 
-> CornerStone MCP x402 skill for agents. Tools for stock predictions, backtests, bank linking, and agent/borrower scores. Payment-protected MCP tools (run_prediction, run_backtest, link_bank_account, get_agent_reputation_score, get_borrower_score, by-email variants) with x402 flow (Aptos + Base). Skill handles 402 → pay → retry. Wallet attestation for onboarding. For marketplaces where agents download and use skills autonomously.
+> 自主代理任务执行框架
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Runtime: Node.js 18+
-- Runner: LangChain.js (ReAct), OpenAI-compatible LLM (e.g. Hugging Face) for the demo; agents use the tools via their own
-- MCP: [Model Context Protocol](https://modelcontextprotocol.io) + x402 payment flow
-- Chains: Aptos (viem-style + @aptos-labs/ts-sdk), EVM (viem) for Base Sepolia/Base
-- Payments: x402 facilitator (verify/settle), local wallet storage
-- Wallets: Stored locally (e.g. `~/.aptos-agent-wallets.json`, `~/.evm-wallets.json`) for the agent using the skill; priva
+- Args: none
+- Returns: `{ aptos: [{ address, network }], evm: [{ address, network }] }` — may be empty arrays
+- When to use: Always call first before any wallet or paid tool action. Determines what exists
+- Decision: If both arrays are empty → create wallets. If only one is empty → create the missing one. If both have entries → proceed to balance check or paid tools
+- Args: `{ force?: boolean, network?: "testnet" | "mainnet" }` — defaults: force=false, network=testnet
+- Returns: `{ success, address, network, message }` or `{ success: false, message, addresses }` if wallet exists and force=false
+- When to use: When `get_wallet_addresses` returns empty `aptos` array, or user requests a new wallet
+- Error handling: If `success: false` and wallet already exists, either use the existing wallet or retry with `force: true` to add another
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 配置自主运行的 AI 代理任务
+- 管理代理的目标和执行流程
+- 监控自主代理的运行状态
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -40,7 +42,7 @@
 - `skills`
 - `src`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

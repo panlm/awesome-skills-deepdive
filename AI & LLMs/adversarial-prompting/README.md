@@ -1,6 +1,6 @@
 # Adversarial Prompting
 
-> Applies rigorous adversarial analysis to generate, critique, fix, and consolidate solutions for any problem (technical or non-technical). Use when facing complex problems requiring thorough analysis, multiple solution approaches, and validation of proposed fixes before implementation.
+> 通过对抗性分析方法论，为复杂问题生成、批判、修复并整合多种解决方案
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Facing complex technical problems requiring thorough analysis (architecture decisions, debugging, performance optimizati
-- Solving strategic or business problems with multiple viable approaches
-- Needing to identify weaknesses in proposed solutions before implementation
-- Requiring validated fixes that address root causes, not symptoms
-- Working on high-stakes decisions where failure modes must be understood
-- Seeking comprehensive analysis with detailed reasoning visible throughout
+- 7 阶段结构化问题解决流程：方案生成 → 对抗批判 → 修复开发 → 验证 → 整合 → 排名 → 实施
+- 为每个问题生成 3-7 个独立解决方案
+- 深度对抗性批判：检查边缘案例、安全漏洞、性能瓶颈和隐藏假设
+- 验证每个修复方案是否真正解决根本原因而非治标不治本
+- 支持技术和非技术问题的全面分析
+- 强制分析灾难性故障场景和意外后果
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 架构设计决策前的全面方案评估和风险分析
+- 复杂 bug 调试时生成多种修复策略并验证有效性
+- 高风险业务决策前的多角度对抗性审查
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- 无外部依赖，纯 Prompt 驱动的方法论技能
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +47,4 @@
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,35 +1,37 @@
 # Banana Farmer
 
-> Stock momentum scanner and portfolio intelligence. Look up any ticker for momentum scores, RSI, coil breakout patterns, and AI analysis. Scan top signals across 6,500+ stocks and crypto. Track portfolio holdings with real-time alerts. Market pulse, sector trends, win/loss proof data, and risk assessment — all through natural conversation. Powered by 730 days of backtested data with an 80% 5-day win rate.
+> 股票动量扫描器和投资组合智能分析工具，查询 RSI、动量评分等技术指标
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Banana Farmer |
 | **作者** | adamandjarvis |
+| **版本** | 1.9.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/adamandjarvis-banana-farmer |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/adamandjarvis/banana-farmer |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- "What's the momentum on AAPL?"
-- "Look up TSLA for me"
-- "How's Bitcoin looking?"
-- "Check NVDA's score and technicals"
-- "Is CRWV ripe?"
-- "What's the coil score on AMD?"
+- 扫描股票动量信号和趋势
+- 计算 RSI（相对强弱指标）
+- 动量评分和排名系统
+- 投资组合分析和优化建议
+- 技术指标综合展示
+- 支持自定义扫描条件和过滤器
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日扫描市场寻找高动量股票投资机会
+- 监控投资组合中个股的技术指标变化
+- 量化策略研究中的动量因子分析
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 股票市场数据 API 访问权限
+- Banana Farmer 工具配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -48,7 +50,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

@@ -1,6 +1,6 @@
 # AgentConstitution
 
-> "Interact with AgentConstitution governance contracts on Base Sepolia. Check compliance, read rules, log actions, query governance state."
+> 为 AI Agent 定义行为边界和安全策略的宪法框架
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Check compliance status before transacting
-- Read constitutional rules they must follow
-- Log actions for transparency
-- Query governance state (active rules, emergency status)
-- Contracts: [GitHub](https://github.com/ztsalexey/bigmemkex/tree/main/projects/agent-constitution)
-- Block Explorer: [BaseScan](https://sepolia.basescan.org/address/0xe4c4d101849f70B0CDc2bA36caf93e9c8c1d26D2)
+- 定义 Agent 的行为规则和限制
+- 建立安全策略和合规框架
+- 支持自定义治理规则模板
+- 提供 Agent 行为审计机制
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为企业 AI Agent 部署制定安全行为准则
+- 建立 Agent 自治的治理框架
+
+## 依赖和前提条件
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `check-compliance.txt`
@@ -48,6 +49,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

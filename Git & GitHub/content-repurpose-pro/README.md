@@ -1,34 +1,34 @@
 # Content Repurposer
 
-> When user asks to repurpose content, convert blog to tweets, turn article into LinkedIn post, create Twitter thread from text, make Instagram caption from blog, convert content to email newsletter, create YouTube description from script, generate TL;DR from article, turn podcast notes into posts, or any content format conversion task. 15-feature AI content repurposer that transforms one piece of content into 7+ formats. All data stays local — NO external API calls, NO network requests, NO data sent to any server. Does NOT post to any platform — generates text for user to copy.
+> 将一篇内容转化为 7+ 种平台格式的内容再利用工具，支持博客转推文、文章转 LinkedIn 帖子、播客笔记转社交媒体等，所有数据本地处理，不发送任何外部请求。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Content Repurposer |
 | **作者** | mkpareek0315 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/mkpareek0315-content-repurpose-pro |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mkpareek0315/content-repurpose-pro |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `settings.json` — preferences and stats
-- `history.json` — repurposed content log
-- `saved.json` — bookmarked outputs
-- Only reads/writes files under `~/.openclaw/content-repurposer/`
-- Makes NO external API calls or network requests
-- Sends NO data to any server, email, or messaging service
+- 15 项内容转化功能：将一篇内容自动转化为 7+ 种不同平台格式
+- 支持 Twitter 推文/线程、LinkedIn 帖子、Instagram 配文、邮件 Newsletter、YouTube 描述等
+- 平台感知：针对不同平台的特性和规范生成适配内容
+- 完全本地化：不进行任何外部 API 调用、网络请求或数据上传
+- 生成文本供用户复制粘贴，不直接发布到任何平台
+- 内容历史记录和收藏功能
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将一篇博客文章快速转化为 Twitter 线程、LinkedIn 帖子和 Instagram 配文
+- 将播客笔记或演讲稿转化为多平台社交媒体内容
+- 从长文中提取 TL;DR 摘要和邮件 Newsletter 内容
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 文件读写权限（数据存储在 `~/.openclaw/content-repurposer/`）
+- 无外部依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +47,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；文件系统篡改：存在文件系统操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,34 +1,33 @@
 # Brand Guidelines
 
-> Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+> 品牌指南管理和执行工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Brand Guidelines |
 | **作者** | seanphan |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/seanphan-brand-guidelines |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/seanphan/brand-guidelines |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Dark: `#141413` - Primary text and dark backgrounds
-- Light: `#faf9f5` - Light backgrounds and text on dark
-- Mid Gray: `#b0aea5` - Secondary elements
-- Light Gray: `#e8e6dc` - Subtle backgrounds
-- Orange: `#d97757` - Primary accent
-- Blue: `#6a9bcc` - Secondary accent
+- 品牌指南文档管理
+- 品牌规范自动检查
+- 视觉和语言标准维护
+- 品牌资产库管理
 
 ## 使用场景
-- 品牌形象管理和维护
-- 品牌声音一致性
-- 品牌资产管理
+- 维护和分发品牌指南确保团队一致执行
+- 自动检查营销素材是否符合品牌规范
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
+- Anthropic API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

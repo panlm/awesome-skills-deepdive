@@ -1,6 +1,6 @@
 # DocSync
 
-> Auto-generate docs from code and detect documentation drift via git hooks. Free README gen + paid living docs.
+> 文档同步工具，保持多处文档内容一致
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Functions and methods (with signatures)
-- Classes, structs, and interfaces
-- Type aliases and enums
-- Module exports
-- Only analyzes files being committed (not the whole repo)
-- Runs in parallel with other hooks
+- 跨平台文档内容同步
+- 变更追踪和版本管理
+- 自动检测内容差异
+- 支持多种文档格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在多个平台间保持文档内容同步更新
+- 自动追踪文档变更并同步到所有副本
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
+- GitHub API
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `config`
@@ -52,6 +51,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，4 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

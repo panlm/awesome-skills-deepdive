@@ -1,6 +1,6 @@
 # Stripe Best Practices
 
-> Best practices for building Stripe payment integrations
+> 构建 Stripe 支付集成的最佳实践指南
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- integrate payment processing
-- handle subscriptions
-- process credit cards
-- Payment Element in card-only mode
-- Tokens API (unless specific need)
-- mixing Connect charge types
+- Stripe 支付集成的最佳实践和规范
+- 安全支付处理的实现指导
+- 错误处理和重试策略
+- PCI 合规性指南
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开发支付功能时参考 Stripe 最佳实践
+- 审计现有 Stripe 集成的安全性和合规性
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖（知识型技能）
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

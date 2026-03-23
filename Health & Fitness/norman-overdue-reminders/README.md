@@ -1,6 +1,6 @@
 # Norman: Invoice Overdue Reminders
 
-> Find overdue invoices and send payment reminders (Zahlungserinnerungen / Mahnungen) to clients. Use when the user asks about unpaid invoices, overdue payments, payment reminders, Mahnung, or chasing payments.
+> Norman 逾期任务提醒工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,28 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- norman-finance
 - Call `list_invoices` to get all invoices
 - Filter for invoices that are past their due date and still unpaid
 - If `$ARGUMENTS` specifies a client name, filter to that client only
 - Present a summary table: Client, Invoice #, Amount, Due Date, Days Overdue
 - Gentle reminder (1-14 days overdue): First reminder, friendly tone
+- Second reminder (15-30 days overdue): Firmer tone, reference original due date
+- Final notice (30+ days overdue): Urgent, mention potential consequences
+- Show the invoice details: amount, due date, days overdue
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 检测和提醒逾期的任务和待办
+- 发送到期通知到指定渠道
+- 管理提醒规则和优先级
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

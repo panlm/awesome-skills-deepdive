@@ -1,34 +1,33 @@
 # Positioning Strategy
 
-> Develop a competitive positioning strategy for a solopreneur business. Use when deciding how to differentiate from competitors, what market position to own, how to frame your offering against alternatives, and how to communicate that position. Covers positioning frameworks (Jobs-to-be-Done, against/for, category creation), positioning statements, and translating position into messaging. Trigger on "how do I differentiate", "positioning strategy", "how to stand out", "differentiate from competitors", "market positioning", "what makes me different", "competitive positioning", "own a position".
+> 为个人创业者制定竞争性市场定位策略
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Positioning Strategy |
 | **作者** | jk-0001 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/jk-0001-positioning-strategy |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jk-0001/positioning-strategy |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Direct alternatives: Products that solve the exact same problem.
-- Indirect alternatives: Different approaches to the same outcome.
-- The status quo: Whatever they're doing RIGHT NOW. This is often the strongest competitor.
-- Best when: The market is full of generalist tools, and one specific use case is underserved.
-- How it works: You narrow the scope ruthlessly. Fewer features, tighter focus, deeper expertise.
-- Example: "The only invoicing tool built for freelance designers" (vs. generic invoicing tools like FreshBooks).
+- 分析完整竞争格局：直接竞品、间接替代方案和现状（最强竞争对手）
+- 提供四种定位原型选择：专家型、简化型、特定人群型、品类创造型
+- 使用 Jobs-to-be-Done 框架梳理客户真实需求
+- 生成定位声明模板并转化为具体营销信息
+- 指导如何将定位策略落地到网站文案、社交媒体和销售话术
+- 提供差距分析方法，找到市场中的未被满足的需求
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 创业初期确定如何与竞争对手差异化定位
+- 打造"唯一选择"的品牌定位，摆脱价格战
+- 将定位策略转化为具体的品牌信息和营销内容
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无技术依赖，作为策略指导型 skill 运行
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

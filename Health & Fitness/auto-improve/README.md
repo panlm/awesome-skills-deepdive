@@ -1,6 +1,6 @@
 # Auto Improve
 
-> Automatische Selbst-Verbesserung durch Fehler-Lernen und Pattern-Erkennung
+> 自动优化和持续改进工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -15,15 +15,17 @@
 ## 功能概述
 - Session-Start (automatisch)
 - Nach jedem Task-Abschluss
+- Bei Fehlern
 - [ ] Habe ich das schon mal falsch gemacht?
 - [ ] Gibt es ein gespeichertes Pattern dafür?
 - [ ] Verstehe ich das Projekt-Architektur?
 - [ ] Kenne ich die Coding-Standards?
+- load_project_context
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 自动分析和优化系统配置
+- 持续改进工作流效率
+- 生成优化建议和报告
 
 ## 依赖和前提条件
 - Python / pip
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

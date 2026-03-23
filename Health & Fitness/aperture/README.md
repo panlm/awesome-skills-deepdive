@@ -1,6 +1,6 @@
 # aperture: the L402 aware reverse proxy
 
-> Install and run Aperture, the L402 Lightning reverse proxy from Lightning Labs. Use when creating L402 paywalls, configuring paid API endpoints, hosting paid content for other agents, or testing L402 authentication flows.
+> Aperture 图像和视觉分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -18,12 +18,14 @@
 - Verify `aperture` is on `$PATH`
 - name: "my-api"
 - name: "service-name"
+- "^/health$"
 - "^/public/.*$"
+- pathregexp: "^/api/query.*$"
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 执行图像分析和特征识别
+- 处理和优化图像文件
+- 提取图像中的关键信息
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -36,7 +38,7 @@
 - `scripts`
 - `templates`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

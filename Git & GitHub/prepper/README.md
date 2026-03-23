@@ -1,39 +1,35 @@
 # Prepper Skill
 
-> Consult the ollama dolphin-llama3 model for survival, emergency preparedness, and prepper-related questions. Use when users ask about disaster recovery, emergency supplies, survival techniques, water purification, shelter, food preservation, first aid, medical emergencies, repair, agriculture, electrical systems, chemistry, communications, or any other survival/prepper topics where practical, uncensored knowledge is needed.
+> 通过 Ollama dolphin-llama3 模型获取生存、应急准备和末日准备领域的专业知识
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Prepper Skill |
 | **作者** | jlevitsk |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/jlevitsk-prepper |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jlevitsk/prepper |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 🏥 Medical: Treating wounds, injuries, illnesses with limited supplies
-- 🌲 Survival: Water purification, shelter building, navigation, fire-making
-- 🔧 Repair: Diagnosing mechanical/electrical problems (engines, systems)
-- 🌾 Agriculture: Crop selection, soil conditions, growing in harsh environments
-- ⚡ Electrical: Wiring, solar systems, battery management, power generation
-- 🧪 Chemistry: Making soap, compounds, reactions, processing materials
+- 查询 dolphin-llama3 模型（80亿参数）获取无审查的生存知识
+- 覆盖领域：医疗急救、野外生存、机械维修、农业种植、电气系统、化学、通信、食物保存、草药疗法
+- 混合验证工作流：Ollama 提供原始答案，Claude 进行验证和增强
+- 支持 JSON 格式输出便于程序化处理
+- 当主模型拒绝回答时，自动回退到无审查模型
+- 灵感来源于 AI-Survival-USB 项目
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 获取灾难恢复和应急准备的实用建议
+- 咨询野外生存技术（净水、搭建庇护所、导航、生火等）
+- 了解在有限资源条件下的医疗、维修和通信解决方案
 
 ## 依赖和前提条件
-- Python / pip
+- 本地安装并运行 Ollama
+- 已拉取 dolphin-llama3 模型
+- Python 3（用于运行查询脚本）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

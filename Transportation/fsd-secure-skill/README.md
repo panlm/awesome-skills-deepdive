@@ -1,6 +1,6 @@
 # PolaBea
 
-> Full Self-Driving agent with highest safety standards (Camera-Only, Redundant Checks).
+> 全自动驾驶 Agent（纯视觉方案），具备最高安全标准和冗余检查
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Pass 1: Deep Neural Network (simulated) for high-level object detection.
-- Pass 2: Heuristic/Classical CV (simulated) for low-level edge/obstacle verification.
-- Requirement: Both must verify a clear path.
+- 纯视觉（Camera-Only）自动驾驶方案
+- 冗余检查机制确保行驶安全
+- 实时环境感知和决策系统
+- 遵循最高安全标准设计
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 模拟纯视觉自动驾驶的决策流程
+- 验证自动驾驶系统的安全冗余机制
 
 ## 依赖和前提条件
-- Python / pip
+- Python、摄像头/视觉数据源
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -48,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

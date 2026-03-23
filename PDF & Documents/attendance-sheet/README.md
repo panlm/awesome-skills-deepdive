@@ -1,6 +1,6 @@
 # Attendance Sheet
 
-> Generate professional attendance sheets in xlsx format from employee work information. Perfect for HR, team management, and daily attendance tracking.
+> 考勤表自动生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Creating monthly attendance reports
-- Generating employee attendance sheets
-- Converting raw attendance data to formatted Excel
-- HR needs standardized attendance documentation
-- Employee names in rows
-- Dates in columns
+- 自动创建考勤记录表
+- 支持多种考勤模板
+- 数据统计和汇总功能
+- 导出为标准表格格式
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为团队自动生成月度考勤统计表
+- 创建活动签到和出勤记录表
 
 ## 依赖和前提条件
-- Python / pip
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

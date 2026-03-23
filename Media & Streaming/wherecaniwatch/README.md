@@ -1,6 +1,6 @@
 # WhereCanIWatch
 
-> Find where to stream any movie or TV show in the US using the WhereCanIWatch.tv API. Use when a user asks "where can I watch [title]?", wants streaming availability, needs to compare prices across services, or wants to know if something is on Netflix/Hulu/Disney+/etc. Supports filtering by user's subscriptions.
+> 影视内容在线观看平台查询工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,22 @@
 - Search: 10 requests/minute per IP
 - Watch API: 60 requests/minute per IP
 - US region only
+- Results are smart-ranked by platform popularity (Netflix/Prime/Disney+ surface first)
+- Data refreshed daily
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 查询电影和电视剧的可用观看平台
+- 比较不同流媒体平台的内容库
+- 获取影视内容的上线信息
+
+## 依赖和前提条件
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

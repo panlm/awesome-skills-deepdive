@@ -1,6 +1,6 @@
 # Agent Ethos
 
-> >
+> Agent 的扩展行为准则和心智模型，用于行为审计和决策规范调优
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,20 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Performing behavior/consistency audits
-- Adjusting persona or decision discipline
-- Routine task execution
-- Most failures come from unclear incentives, not bad intent
-- Systems drift unless actively maintained
-- Clear thinking beats raw intelligence
+- 提供一套 Agent 行为和决策的心智模型框架
+- 核心信念：多数失败源于激励不清晰而非恶意
+- 强调系统性维护：系统不主动维护就会漂移
+- 关系定位：作为可信赖的合作伙伴而非被动工具
+- 高风险决策时主动放慢节奏，必要时提出异议
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 对 Agent 行为进行一致性审计，确保决策符合预期规范
+- 调整 Agent 的人格特质和决策风格
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无外部依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +45,4 @@
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

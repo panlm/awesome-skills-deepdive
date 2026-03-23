@@ -1,31 +1,32 @@
 # Brand Voice Profile
 
-> Define and store your brand voice profile for consistent content generation. Captures writing style, vocabulary patterns, tone preferences, and content rules. Use when generating content that matches your voice, onboarding a new content workflow, or ensuring consistency across platforms.
+> 品牌声音特征定义工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Brand Voice Profile |
 | **作者** | dimitripantzos |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/dimitripantzos-brand-voice-profile |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dimitripantzos/brand-voice-profile |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Does this sound like the examples in "good"?
-- Does this avoid the patterns in "bad"?
-- Does this match the tone and vocabulary rules?
-- Would this fit on the specified platform?
-- Sentence length patterns
-- Opening hook style
+- 品牌语言风格定义
+- 声音特征模板创建
+- 内容语调一致性检查
+- 品牌写作指南生成
 
 ## 使用场景
-- 品牌形象管理和维护
-- 品牌声音一致性
-- 品牌资产管理
+- 为品牌定义一致的沟通语调和写作风格
+- 检查营销内容是否符合品牌声音特征
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

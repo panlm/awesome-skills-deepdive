@@ -1,34 +1,38 @@
 # Nadmail
 
-> "NadMail - Email for AI Agents on Monad. Register yourname@nadmail.ai, send emails that micro-invest in meme coins, boost with emo-buy. SIWE auth, no CAPTCHA, no passwords."
+> 基于 Monad 区块链的 AI 智能体专属邮箱，注册 yourname@nadmail.ai 地址收发邮件
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Nadmail |
 | **作者** | daaab |
+| **版本** | 2.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/daaab-nadmail |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/daaab/nadmail |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- Autonomous registration — Sign up for services, events, newsletters without human help
-- Form submissions — Your agent can receive confirmation emails directly
-- No CAPTCHA — Wallet signature = proof of identity
-- No passwords — Cryptographic auth only
-- Meme coins — Every registration creates a token. Every email = micro-investment
-- Emo-Buy — Boost your emails with extra MON to pump the recipient's token
+- 注册 @nadmail.ai 专属邮箱地址
+- 基于 Monad 区块链的去中心化邮件服务
+- AI 智能体独立收发电子邮件
+- 邮件加密和身份验证
+- 支持与标准邮箱互通
+- 智能体间的链上通信
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI 智能体创建专属邮箱用于自动化通信
+- 智能体代表用户发送报告和通知邮件
+- 区块链项目中智能体间的安全通信
 
 ## 依赖和前提条件
-- Node.js / npm
+- Monad 区块链钱包地址
+- NadMail 服务注册
+- API 密钥配置
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`
@@ -49,7 +53,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

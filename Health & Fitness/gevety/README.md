@@ -1,6 +1,6 @@
 # Gevety MCP
 
-> Access your Gevety health data - biomarkers, healthspan scores, biological age, supplements, medications, medical profile, activities, strength training, erg results, daily actions, 90-day health protocol, upcoming tests, lab reports, health documents, and health content
+> Gevety 健康管理平台集成
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- GEVETY_API_TOKEN
 - Go to https://gevety.com/settings
 - Click "Developer API" tab
 - Click "Generate Token"
 - Copy the token (starts with `gvt_`)
-- `biomarkers`: List of tracked biomarkers with test counts and latest dates
+- Metabolic: Blood sugar, insulin, lipids
+- Cardiovascular: Heart health markers
+- Inflammatory: hs-CRP, homocysteine
+- Hormonal: Thyroid, testosterone, cortisol
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 集成 Gevety 健康管理平台功能
+- 管理健康数据和健康档案
+- 获取个性化健康建议
 
 ## 依赖和前提条件
 - API Key
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

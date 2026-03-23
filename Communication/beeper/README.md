@@ -1,35 +1,36 @@
 # Beeper
 
-> Search and browse local Beeper chat history (threads, messages, full-text search).
+> Beeper 聊天记录搜索和浏览工具，支持本地聊天历史的全文检索
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Beeper |
 | **作者** | krausefx |
+| **版本** | 0.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/krausefx-beeper |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/krausefx/beeper |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Beeper Desktop app installed (provides the SQLite database)
-- `beeper-cli` binary on PATH
-- `~/Library/Application Support/BeeperTexts/index.db` (macOS)
-- `~/Library/Application Support/Beeper/index.db` (macOS)
-- `--db /path/to/index.db`
-- `BEEPER_DB=/path/to/index.db`
+- 搜索本地 Beeper 聊天记录
+- 全文检索聊天内容
+- 按联系人、日期等条件过滤
+- 浏览和查看历史对话
+- 聊天记录格式化展示
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速查找 Beeper 中的历史聊天信息
+- 根据关键词检索跨平台聊天内容
+- 回顾特定联系人的历史对话记录
 
 ## 依赖和前提条件
-- macOS
-- 数据库
+- Beeper 桌面客户端已安装并登录
+- 本地聊天数据库可访问
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

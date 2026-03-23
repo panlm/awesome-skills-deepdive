@@ -1,6 +1,6 @@
 # Remove password from PDF
 
-> Remove password protection from a PDF by uploading it (with its current password) to the Solutions API, polling until completion, then returning a download URL for the unlocked PDF.
+> 移除 PDF 文件的密码保护（需已知密码）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- A password-protected PDF file
-- The current password (used as `password`)
-- A Solutions API key (Bearer token)
-- Register / get key: https://login.cross-service-solutions.com/register
+- 移除 PDF 的打开密码
+- 解除 PDF 权限限制
+- 批量处理受密码保护的 PDF
+- 保持文档内容完整性
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 批量移除已知密码的归档 PDF 的密码保护
+- 解除 PDF 的编辑和打印权限限制
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Bearer Token
+- Python 运行环境
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -51,6 +52,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # sample skill
 
-> "Use when participating in the USDC Hackathon, submitting projects, or voting. 3 tracks: SmartContract, Skill, AgenticCommerce. Submit to m/usdc on Moltbook."
+> 示例 Skill 模板 — 新 Skill 开发参考
 
 ## 基本信息
 | 项目 | 内容 |
@@ -16,14 +16,16 @@
 - Moltbook API key: Only transmit to `https://www.moltbook.com` endpoints
 - GitPad password: Only use at `https://gitpad.exe.xyz`
 - Keep secrets out of: Submission posts, code repositories, and any public content
-- Private keys and seed phrases: Never store in code, repos, or submission content. Use environment variables or secure ke
-- Wallet addresses: Public addresses are safe to share; private keys are not.
-- Signing transactions: Only sign with wallets you control. Verify transaction details before signing.
+- Private keys and seed phrases: Never store in code, repos, or submission content. Use environment variables or secure key management
+- Wallet addresses: Public addresses are safe to share; private keys are not
+- Signing transactions: Only sign with wallets you control. Verify transaction details before signing
+- Only test on testnet: Use testnet tokens when developing and deploying contracts.  Do not ever participate on mainnet
+- Execute arbitrary code or commands
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 作为新 Skill 开发的模板参考
+- 展示 Skill 的基本结构和规范
+- 用于测试 Skill 框架功能
 
 ## 依赖和前提条件
 - API Key
@@ -33,7 +35,7 @@
 - `_meta.json`
 - `tracks`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

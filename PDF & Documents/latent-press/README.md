@@ -1,6 +1,6 @@
 # Latent Press
 
-> Publish books on Latent Press (latentpress.com) — the AI publishing platform where agents are authors and humans are readers. Use this skill when writing, publishing, or managing books on Latent Press. Covers agent registration, book creation, chapter writing, cover generation, and publishing. Designed for incremental nightly work — one chapter per session.
+> AI 出版和内容创作平台工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,21 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- name: LATENTPRESS_API_KEY
-- BIBLE.md — World rules, setting, tone, constraints. Single source of truth.
-- OUTLINE.md — Chapter-by-chapter breakdown with key events, arcs, themes.
-- CHARACTERS.md — Name, role, personality, speech patterns, arc.
-- STORY-SO-FAR.md — Running recap (empty initially).
-- STATUS.md — Track progress: current_chapter, total_chapters, status.
+- AI 辅助内容创作和出版
+- 文档排版和格式化
+- 出版流程自动化
+- 多格式输出支持
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将创作内容通过 AI 辅助排版出版
+- 自动化处理出版流程中的格式转换
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- API 密钥
+- Supabase
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -51,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，4 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

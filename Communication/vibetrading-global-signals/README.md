@@ -1,35 +1,38 @@
 # vibetrading-global-signals
 
-> Query AI-generated trading signals from vibetrading-datahub. Signals are produced by autonomous agents analyzing whale activity, news, funding rates, and technical indicators.
+> 查询 vibetrading-datahub 的 AI 生成全球交易信号，获取市场趋势研判
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | vibetrading-global-signals |
 | **作者** | liuhaonan00 |
+| **版本** | 1.0.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/liuhaonan00-vibetrading-global-signals |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/liuhaonan00/vibetrading-global-signals |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- 📡 Query latest signals for multiple symbols
-- 🎯 Get signals by specific symbol
-- 🔍 Filter by signal type (WHALE_ACTIVITY, NEWS_ANALYSIS, etc.)
-- ⏰ Time-based filtering
-- 📊 Beautiful console output with sentiment analysis
+- 获取 AI 生成的全球市场交易信号
+- 覆盖多个市场和资产类别
+- 信号包含方向、强度和置信度评分
+- 支持按市场、时间框架筛选信号
+- 实时更新的市场趋势分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 交易者获取 AI 辅助的市场信号作为决策参考
+- 量化策略开发中集成外部 AI 信号源
+- 每日快速浏览全球市场 AI 研判概览
 
 ## 依赖和前提条件
-- Node.js / npm
+- vibetrading-datahub API 访问权限
+- 基本的金融市场知识
 
 ## 包含文件
 - `CHANGELOG.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`
@@ -50,7 +53,7 @@
 | SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

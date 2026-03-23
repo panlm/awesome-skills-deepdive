@@ -1,38 +1,38 @@
 # FLWR Branding Studio Kit
 
-> An advanced AI agent that acts as a Senior Brand Strategist. It automates project setup, applies elite market methodologies (Archetypes, StoryBrand, Personas), and generates structured brand assets while preventing hallucinations via strict context shielding.
+> 品牌设计工作室工具套件
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | FLWR Branding Studio Kit |
 | **作者** | vansearch |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/vansearch-flwr-branding-studio-kit |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/vansearch/flwr-branding-studio-kit |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- RACE Framework Integration: Deep integration of the Research, Action, Context, Example methodology.
-- Context Shielding Protocol: Prevents cross-contamination between clients. The structure is fixed; the content is fluid.
-- Anti-Slop Writing Checks: Automated rules to prevent generic AI copywriting (no "delve", "tapestry", or sequential adjec
-- 🎨 Asset Output: Generates assets in a specific Markdown format.
-- Automated Project Setup: One-command initialization for new client projects.
-- `.agent/rules/`: The "brain" of the strategist (`branding_agent_rules.md`).
+- 品牌视觉设计工具集
+- 品牌素材生成
+- Logo 和配色方案管理
+- 品牌一致性维护
 
 ## 使用场景
-- 品牌形象管理和维护
-- 品牌声音一致性
-- 品牌资产管理
+- 使用工具套件创建完整的品牌视觉体系
+- 批量生成符合品牌规范的设计素材
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
+- Node.js
+- npm
+- Node.js 依赖包
+- GitHub API
+- Instagram API
 
 ## 包含文件
 - `CONTRIBUTING.md`
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `bin`
@@ -57,6 +57,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，4 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

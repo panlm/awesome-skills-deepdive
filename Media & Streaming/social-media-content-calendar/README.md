@@ -1,6 +1,6 @@
 # Social Media Content Calendar
 
-> Generate structured social media content calendars with platform-specific posts, hashtags, and scheduling. Use when creating social media plans, content calendars, or social media management deliverables for clients.
+> 社交媒体内容日历和排期工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,28 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `$ARGUMENTS[0]` = Brand/niche description
-- `$ARGUMENTS[1]` = Platforms (comma-separated): `instagram`, `twitter`, `linkedin`, `tiktok`, `facebook`, `youtube`, `thr
-- `$ARGUMENTS[2]` = Timeframe (default: 4 weeks)
 - Brand voice: Professional, casual, witty, inspirational, educational
 - Target audience: Demographics, interests, pain points
 - Content pillars (3-5 themes that all content maps to):
+- Example for fitness coach: Workouts, Nutrition, Motivation, Client Results, Behind the Scenes
+- Competitor reference: What type of content works in this niche?
+- Caption: Up to 2,200 chars, but front-load first 125 chars (preview cutoff)
+- Hashtags: 20-30 in first comment (not caption)
+- Reels: Include hook in first 3 seconds description
 
 ## 使用场景
-- 社交媒体内容管理
-- 自动化发布和互动
-- 内容排期和分析
+- 规划和管理社交媒体内容排期
+- 创建可视化的内容发布日历
+- 跟踪内容发布状态和表现
+
+## 依赖和前提条件
+- 参见 SKILL.md 获取详细依赖信息
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

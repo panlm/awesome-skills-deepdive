@@ -1,6 +1,6 @@
 # Clawhub Skill Passive Income Tracker
 
-> Track all your passive income crypto apps from one place. Unified dashboard showing daily earnings, payout history, and USD/EUR totals across Grass.io, Storj, Mysterium, Honeygain, EarnApp, and more.
+> 被动收入跟踪和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -20,11 +20,12 @@
 - Uptime correlation — cross-checks earnings with service uptime
 - Alert on low earnings — warns if an app stops earning (node down?)
 - CSV/JSON export — for spreadsheet or tax reporting
+- MYST → EUR/USD
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 记录和分类各渠道被动收入
+- 分析被动收入增长趋势
+- 设定和跟踪被动收入目标
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -38,7 +39,7 @@
 - `_meta.json`
 - `skill.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # Evoagentx
 
-> EvoAgentX - Self-evolving AI agents framework integration
+> EvoAgentX 自进化 AI Agent 框架集成，支持从目标自动构建工作流并自我优化
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,24 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Install - Install EvoAgentX framework
-- Status - Check EvoAgentX installation and API keys
-- Docs - Open documentation links
-- Run - Run an EvoAgentX workflow
+- 集成 EvoAgentX 自进化 AI Agent 框架
+- 支持从目标自动构建工作流
+- 基于反馈的自我进化机制
+- 多模型支持（OpenAI、Claude、DeepSeek、Qwen）
+- 短期和长期记忆系统
+- 人机协作回路（Human-in-the-loop）
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 构建能够自我优化的复杂 AI 工作流
+- 利用多种 LLM 模型进行任务分配和协作
+- 在迭代反馈中持续改进 Agent 的任务执行能力
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.12
+- evoagentx（pip 安装）
+- OpenAI API Key 或其他 LLM API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +49,4 @@
 **风险摘要:** 3 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

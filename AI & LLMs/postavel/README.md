@@ -1,6 +1,6 @@
 # Postavel
 
-> Connect to Postavel social media management platform via MCP (Model Context Protocol). Create, schedule, and manage social media posts across Facebook, Instagram, and LinkedIn. Use when the user wants to manage social media content, create posts, schedule content, view their content calendar, or interact with their Postavel account through natural language. Activate when user mentions "Postavel", "social media", "schedule post", "create post", "content calendar", or wants to post to Facebook, Instagram, or LinkedIn via their Postavel account.
+> 通过 MCP 协议连接 Postavel 社交媒体管理平台，创建、排期和管理跨平台社交内容
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,30 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Connect to Postavel via MCP with OAuth authentication
-- List workspaces, clients, and brands
-- Create and schedule posts across Facebook, Instagram, and LinkedIn
-- Manage approval workflows
-- View content calendars and post statuses
-- The browser auth worked but mcporter didn't detect it
+- 通过自然语言创建和管理社交媒体帖子
+- 支持 Facebook、Instagram 和 LinkedIn 多平台发布
+- 内容排期和日历管理功能
+- 通过 MCP（Model Context Protocol）协议通信
+- 支持查看和管理内容日历
+- 在 OpenClaw 中通过对话界面直接操作社交媒体
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 通过 AI 智能体自然语言排期一周的社交媒体内容
+- 跨 Facebook、Instagram、LinkedIn 同步发布营销内容
+- 查看和调整内容发布日历
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
-- Homebrew
-- OAuth
+- Postavel 账户
+- MCP 协议支持
+- Postavel API 访问凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -55,4 +49,4 @@
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

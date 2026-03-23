@@ -1,34 +1,35 @@
 # Basecamp CLI
 
-> Manage Basecamp (via bc3 API / 37signals Launchpad) projects, to-dos, messages, and campfires via a TypeScript CLI. Use when you want to list/create/update Basecamp projects and todos from the terminal, or when integrating Basecamp automation into Clawdbot workflows.
+> Basecamp 项目管理命令行工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Basecamp CLI |
 | **作者** | emredoganer |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/emredoganer-basecamp-cli |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/emredoganer/basecamp-cli |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Name: Your app name
-- Company: Your company
-- Website: Your website
-- Redirect URI: `http://localhost:9292/callback`
+- Basecamp 项目和任务管理
+- 消息和讨论操作
+- 文件和文档管理
+- CLI 驱动的项目操作
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过命令行管理 Basecamp 项目和任务
+- 自动化 Basecamp 中的日常项目管理操作
 
 ## 依赖和前提条件
-- Node.js / npm
-- OAuth
+- OAuth 认证
+- npm
+- Basecamp
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`
@@ -52,6 +53,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

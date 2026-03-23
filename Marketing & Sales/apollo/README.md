@@ -1,34 +1,33 @@
 # Apollo
 
-> Interact with Apollo.io REST API (people/org enrichment, search, lists).
+> Apollo.io 销售智能平台工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Apollo |
 | **作者** | jhumanj |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/jhumanj-apollo |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jhumanj/apollo |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `APOLLO_BASE_URL` (usually `https://api.apollo.io`)
-- `APOLLO_API_KEY`
-- GET: `skills/apollo/scripts/apollo-get.sh "/api/v1/users"` (endpoint availability may vary)
-- People search (new): `skills/apollo/scripts/apollo-people-search.sh "vp marketing" 1 5`
-- POST (generic): `skills/apollo/scripts/apollo-post.sh "/api/v1/mixed_people/api_search" '{"q_keywords":"vp marketing","p
-- Enrich website/org by domain: `skills/apollo/scripts/apollo-enrich-website.sh "apollo.io"`
+- Apollo.io 数据查询和管理
+- 潜在客户搜索和筛选
+- 联系信息获取
+- 销售线索管理
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 通过 Apollo.io 搜索和筛选目标客户
+- 自动化获取和管理销售线索数据
 
 ## 依赖和前提条件
-- API Key
+- API 密钥
+- Apollo.io
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -49,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 4 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；文件系统篡改：存在文件系统操作
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

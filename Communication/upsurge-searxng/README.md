@@ -1,35 +1,37 @@
 # SearXNG Search engine For OpenClaw by Upsurge.ae
 
-> Private Intelligence Radar for Agents. Solves high-cost & privacy-leak issues of Brave/Google APIs. Aggregates data locally with Zero-Leak absolute data sovereignty.
+> 基于 SearXNG 的智能体隐私搜索雷达，解决搜索 API 高成本和隐私泄露双重问题
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | SearXNG Search engine For OpenClaw by Upsurge.ae |
 | **作者** | upsurge911-lgtm |
+| **版本** | 1.4.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/upsurge911-lgtm-upsurge-searxng |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/upsurge911-lgtm/upsurge-searxng |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Agent-Optimized Markdown: High-fidelity formatting specifically designed for agent ingestion. Reduces hallucination and 
-- Temporal Intelligence: Native filters for `day`, `month`, and `year`. Force your agents to focus on real-time market mov
-- $0 Search Costs: Unlimited global querying with no monthly API bills or token metering.
-- Zero-Leak Privacy: Your strategic queries remain on your local Docker network; invisible to third-party ad networks and 
-- Aggregated Results: One-shot discovery across Google, Bing, DuckDuckGo, and Wikipedia.
-- Market Intelligence: When you need to monitor competitor moves without tipping them off.
+- 集成 SearXNG 元搜索引擎保护隐私
+- 零 API 成本替代商业搜索服务
+- 聚合多个搜索引擎结果提高覆盖率
+- 支持自定义搜索引擎组合和权重
+- 搜索请求不被追踪和记录
+- 支持多语言和区域化搜索
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体需要频繁搜索但希望控制 API 成本
+- 对搜索隐私有严格要求的企业或个人
+- 自建搜索基础设施实现完全数据自主
 
 ## 依赖和前提条件
-- Python / pip
-- Docker
+- SearXNG 实例（自部署或公共实例）
+- 网络访问权限
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `search.py`

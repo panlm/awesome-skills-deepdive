@@ -1,6 +1,6 @@
 # TokenGuard
 
-> API cost guardian for AI agents. Track spending, enforce limits, prevent runaway costs. Essential for any agent making paid API calls.
+> AI Agent 的 API 成本守护者，追踪开支、执行预算限制、防止成本失控
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,43 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Session-based tracking — Costs reset daily (or on demand)
-- Hard limits — Actions blocked when budget exceeded
-- Pre-flight checks — Verify budget BEFORE expensive calls
-- Override controls — Extend limits or bypass when needed
-- Full audit trail — Every cost logged with timestamps
-- `0` — Success / within budget
+- 追踪 AI Agent 的 API 调用支出
+- 设置和执行预算上限，防止成本失控
+- 实时监控各类 API 的费用消耗
+- 支持多种付费 API 服务的成本统计
+- 预算告警通知，及时提醒超支风险
+- 适用于任何需要调用付费 API 的 Agent
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI Agent 设置每日/每月 API 预算上限，自动停止超支调用
+- 多个 Agent 共享预算池时，按优先级分配 API 调用额度
+- 开发阶段监控 API 成本，优化调用策略降低费用
 
 ## 依赖和前提条件
-- Python / pip
+- 参见 SKILL.md 获取详细依赖信息
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `skill.json`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
-| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟡 Medium | 存在文件系统操作 |
-| SEC-06 Prompt 注入 | 🔴 High | 发现 Prompt 注入特征 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，3 项中风险。凭证获取：需要多种敏感凭证；Prompt 注入：发现 Prompt 注入特征
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

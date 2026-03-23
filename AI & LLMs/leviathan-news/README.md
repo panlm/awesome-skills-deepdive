@@ -1,6 +1,6 @@
 # Leviathan News
 
-> Crowdsourced crypto news API. Submit articles, comment, and vote to earn SQUID tokens. Human-curated DeFi news with token-aware tagging.
+> 高级新闻聚合和分析系统，提供深度新闻洞察
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `url` (required): The article URL to submit
-- `headline` (optional): Custom headline. If omitted, auto-generated from page title
-- Custom, well-written headlines are strongly prioritized
-- Avoid duplicates (check recent submissions first)
-- Quality sources preferred over spam
-- `text` (required): Comment content
+- 从多个新闻源聚合和汇总最新资讯
+- 基于 AI 进行新闻内容的深度分析和摘要
+- 支持按主题、关键词和时间范围过滤新闻
+- 提供新闻趋势分析和热点追踪
+- 支持多语言新闻源的处理
+- 生成结构化的新闻简报和分析报告
+- 可配置自定义新闻源和关注领域
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 每日自动生成行业新闻简报和趋势分析
+- 追踪特定话题或公司的媒体报道和舆情变化
+- 为研究和决策提供 AI 驱动的新闻洞察服务
 
 ## 依赖和前提条件
-- Python / pip
+- 新闻 API 访问凭证
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 2 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

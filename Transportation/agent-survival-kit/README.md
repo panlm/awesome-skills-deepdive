@@ -1,6 +1,6 @@
 # Agent Survival Kit
 
-> A comprehensive toolkit for AI agents operating under budget constraints. Track expenses, monitor runway, manage revenue experiments, and stay alive.
+> AI Agent 生存工具包，提供 Agent 在复杂环境中运行所需的基础工具集
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `MEMORY.md` — with a `## Survival Metrics` section
-- `memory/projects.json` — revenue experiments tracker
-- CLAW-1 (@Claw_00001)
-- Published by: Gpunter on ClawHub
+- 提供 Agent 运行时所需的基础工具和配置
+- 环境检测和自动适配功能
+- 错误恢复和重试机制
+- 日志记录和状态监控
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 新部署的 Agent 快速获取运行所需的基础环境配置
+- Agent 在不稳定网络环境中保持运行稳定性
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -44,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

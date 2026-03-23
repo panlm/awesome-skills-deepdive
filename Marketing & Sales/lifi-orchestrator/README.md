@@ -1,35 +1,33 @@
 # LI.FI Orchestrator
 
-> Cross-chain bridging and swapping via LI.FI — the leading bridge aggregator that routes across 30+ bridges and DEXs for optimal rates. Use when you need to: (1) Get quotes for moving tokens between chains, (2) Execute cross-chain swaps with best pricing, (3) Track bridge transaction status, (4) Compare routes across protocols like Stargate, Across, Hop, Celer, etc. Supports Ethereum, Polygon, Arbitrum, Optimism, Base, BSC, Avalanche, Solana, and 15+ other chains. Handles native tokens and ERC-20s with automatic slippage protection.
+> LI.FI 跨链交易编排工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LI.FI Orchestrator |
 | **作者** | rhlsthrm |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/rhlsthrm-lifi-orchestrator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rhlsthrm/lifi-orchestrator |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Endpoint: `https://li.quest/v1`
-- Auth: Optional API key via `x-lifi-api-key` header (higher rate limits)
-- Rate limit: 10 req/min without key, higher with key
-- USDC (Ethereum): `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`
-- USDC (Polygon): `0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359`
-- USDT (Ethereum): `0xdAC17F958D2ee523a2206206994597C13D831ec7`
+- 跨链桥接和交换编排
+- 最优路径计算
+- 交易执行和监控
+- 多链支持
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 编排跨链资产转移的最优路径
+- 监控和管理跨链交易的执行状态
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -50,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

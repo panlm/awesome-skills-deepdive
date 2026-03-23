@@ -1,38 +1,34 @@
 # ForkZoo
 
-> Adopt and manage GitHub-native digital pets (tamagotchis) that evolve daily with AI. Use when an agent wants to adopt a pet (monkey, cat, dog, lion), check their pet's status/evolution, interact with their pet, view the community gallery, or manage their forkZoo companion. Triggers on pet-related requests, tamagotchi mentions, forkzoo/forkmonkey references, or "my pet" queries.
+> 领养和管理 GitHub 原生数字宠物（电子宠物），通过 AI 每日进化，与社区互动
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | ForkZoo |
 | **作者** | levi-law |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/levi-law-forkzoo |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/levi-law/forkzoo |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🐵 Monkey - The original, most evolved species
-- 🐱 Cat - Independent and mysterious
-- 🐕 Dog - Loyal companion
-- 🦁 Lion - Majestic and rare
-- Fork the animal repo from forkZoo org
-- Enable GitHub Actions
+- 领养数字宠物：猴子、猫、狗、狮子四种物种可选
+- 宠物通过 GitHub Actions 每日自动进化，由 AI（GPT-4o 或 Claude）决定变异
+- 稀有度系统：普通（60%）、不常见（25%）、稀有（10%）、传奇（5%）
+- 早期世代独占特征（Genesis Aura、Alpha Crown、Founders Badge）
+- 繁殖系统：Fork 任意宠物创建后代，继承 50% 父代特征 + 50% 随机变异
+- 社区画廊、排行榜和家族树可视化
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 领养一只 GitHub 原生数字宠物作为趣味伴侣，每日观察其进化
+- 在社区画廊中展示和比较宠物的稀有度和成就
 
 ## 依赖和前提条件
-- API Key
+- GitHub Token（需要 `repo` 和 `workflow` 权限范围）
+- 环境变量 `GITHUB_TOKEN`
+- 可选：`ANTHROPIC_API_KEY`（或使用免费的 GitHub Models GPT-4o）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +47,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

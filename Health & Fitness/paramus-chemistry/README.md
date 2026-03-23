@@ -1,6 +1,6 @@
 # Paramus Professional Chemistry OS
 
-> Hundreds of chemistry and scientific computing tools. Molecular weight, LogP, TPSA, SMILES validation, thermodynamics, polymer analysis, electrochemistry, DOE, and more.
+> 化学分子和反应分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Thermodynamic properties (CoolProp fluids)
 - Polymer/BigSMILES analysis
 - Electrochemistry calculations
+- Data science operations (DOE, PCA, clustering)
+- Local: Download Paramus from https://cloud1.paramus.ai and start the tray app (runs on localhost:8765)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 查询化学分子的性质和结构
+- 模拟化学反应和计算
+- 获取化学安全数据和处理建议
 
 ## 依赖和前提条件
 - macOS
@@ -33,7 +35,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

@@ -1,6 +1,6 @@
 # maccabi-pharm-search
 
-> Search for medications and check real-time stock availability at Maccabi pharmacies in Israel. Use when searching for drugs like "nurofen", "acamol/אקמול", "advil", or finding nearby pharmacy branches with stock. Supports Hebrew and English drug names. מכבי פארם, תרופות, מלאי, בית מרקחת.
+> Maccabi 药品搜索工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -18,9 +18,9 @@
 - "Check if Acamol is available at any branch near me"
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 搜索 Maccabi 药品目录和信息
+- 查询药品的用法和剂量
+- 获取药品可用性和替代品
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -32,7 +32,7 @@
 - `package.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

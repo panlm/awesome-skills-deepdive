@@ -1,6 +1,6 @@
 # KallyAI Executive Assistant
 
-> "KallyAI Executive Assistant — AI that handles phone calls (outbound + inbound), email, bookings, research, errands, multi-channel messaging, and phone number management on your behalf. Use when users want to: make/receive calls, manage inbound rules, handle voicemails, provision phone numbers, send email, book restaurants/hotels, search for services, manage calendar, check inbox/messages, handle bills, order food/rides, run errands, check credits/budget, coordinate goals, manage channels (WhatsApp/Telegram/social), run outreach campaigns, referrals, or any delegation task."
+> KallyAI 执行助理——AI 电话代理，处理出站和入站电话
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,21 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Token storage: `~/.kallyai_token.json` with 0600 permissions
-- CSRF protection: State parameter validation
-- Localhost only: OAuth redirects only to localhost/127.0.0.1
-- Auto-refresh: Tokens refresh automatically when expired
+- 自动处理出站电话（外呼）
+- 接听和处理入站电话
+- 语音识别和自然语言理解
+- 电话会议安排和日程管理
+- 通话记录和摘要生成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动打电话预约餐厅或医院
+- 智能接听来电并记录留言
+- 批量外呼进行客户回访
 
 ## 依赖和前提条件
-- OAuth
+- API Key（KallyAI）、电话服务集成
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -48,5 +44,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

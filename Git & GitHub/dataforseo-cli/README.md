@@ -1,37 +1,36 @@
 # dataforseo-cli
 
-> LLM-friendly keyword research CLI for AI agents. Check search volume, CPC, keyword difficulty, and competition via DataForSEO API. Find related keywords, analyze competitor rankings. Outputs TSV by default (optimized for agent context windows). Use when doing SEO research, content planning, or competitive keyword analysis.
+> 面向 AI Agent 的 SEO 关键词研究 CLI 工具，通过 DataForSEO API 查询搜索量、CPC、关键词难度和竞争度
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | dataforseo-cli |
 | **作者** | alexgusevski |
+| **版本** | 1.0.6 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/alexgusevski-dataforseo-cli |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/alexgusevski/dataforseo-cli |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `<keywords...>` — One or more keywords (required). Batch multiple keywords in one call to save API requests.
-- `-l, --location <code>` — Location code (default: `2840` = US)
-- `--language <code>` — Language code (default: `en`)
-- `--json` — Output as JSON array
-- `--table` / `--human` — Output as human-readable table
-- `difficulty` — 0–100 scale (0-30 easy, 31-60 medium, 61-100 hard)
+- 查询关键词搜索量、CPC、关键词难度（0-100）、竞争级别和 12 个月趋势
+- 根据种子关键词发现相关关键词建议
+- 分析竞争对手域名当前排名的关键词
+- 默认输出 TSV 格式，针对 LLM 上下文窗口优化（最省 token）
+- 支持 JSON 和人类可读表格等多种输出格式
+- 离线查询地区代码和语言代码（无需 API 凭证）
+- 支持批量关键词查询以节省 API 请求次数
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 做内容规划时研究目标关键词的搜索量和竞争难度
+- 分析竞品网站的关键词排名策略，找到流量缺口
+- AI Agent 自动执行 SEO 研究任务，输出紧凑的 TSV 数据
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js（通过 npm 全局安装：`npm install -g dataforseo-cli`）
+- DataForSEO API 凭证（login + password 或 base64 token）
+- 凭证存储在 `~/.config/dataforseo-cli/config.json`
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 1 项高风险，3 项中风险。凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

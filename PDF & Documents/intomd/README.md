@@ -1,6 +1,6 @@
 # Intomd
 
-> Fetch and convert any documentation URL to Markdown using into.md service.
+> 将各种格式内容转换为 Markdown
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,12 +12,21 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rezhajulio/intomd |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 多种输入格式支持
+- 转换为标准 Markdown 格式
+- 保持文档结构和层级
+- 支持批量转换处理
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 将 HTML 页面内容转换为 Markdown 笔记
+- 统一不同来源的文档为 Markdown 格式
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -37,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 存在 1 项高风险，0 项中风险。数据外泄：大量外部数据传输
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

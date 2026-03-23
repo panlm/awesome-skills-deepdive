@@ -1,6 +1,6 @@
 # Fitbit
 
-> Query Fitbit health data including sleep, heart rate, activity, SpO2, and breathing rate. Use when user asks about their fitness, sleep quality, steps, or health metrics.
+> Fitbit 健康数据查询和分析工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,24 @@
 - Relative: `yesterday`, `last-week`, `last-month`
 - Custom relative: `last-2-days`, `last-3-weeks`, `last-2-months`
 - Read-only access to Fitbit data
+- Tokens auto-refresh (expire after 8 hours)
+- Data may be delayed from device sync
 
 ## 使用场景
-- 同步和分析运动数据
-- 追踪健康指标趋势
-- 生成健身报告和洞察
+- 查询 Fitbit 的睡眠、心率和运动数据
+- 分析健康指标的长期趋势
+- 获取 SpO2 和呼吸频率等详细数据
+
+## 依赖和前提条件
+- API 密钥或访问令牌
+- 数据库
+- 网络连接
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

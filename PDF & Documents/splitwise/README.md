@@ -1,6 +1,6 @@
 # Splitwise
 
-> Create and manage expenses on Splitwise. Use this skill when the user wants to log a new expense, split a bill, or check their Splitwise balance.
+> 费用分摊和账单拆分工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,21 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Automated 50/50 Splits: Automatically calculates shares for two users.
-- Group Support: Log expenses to specific Splitwise groups.
-- Secure: Uses Python scripts for safe API interaction.
+- 多人费用智能分摊
+- 账单拆分计算
+- 支持多种分摊方式
+- 结算金额自动计算
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 团队聚餐后自动计算每人应付金额
+- 旅行费用的公平分摊和结算
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Python 运行环境
 
 ## 包含文件
 - `ORIGINAL_README.md`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

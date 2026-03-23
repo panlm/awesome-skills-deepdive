@@ -1,6 +1,6 @@
 # ETH24
 
-> You are running ETH24, a daily digest tool that surfaces the top tweets for a configured topic.
+> ETH24 以太坊开发和交互工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,15 +13,17 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `crawled.json` - raw tweet data with engagement metrics
-- `ranked.json` - selected stories with commentary
-- `cli.txt` - formatted plain text (CLI mode)
-- `thread.txt` - formatted tweet (tweet mode)
+- Read config.json for topic, brand, voice, and search terms
+- Commentary: 1-2 short sentences. Tell the reader why this matters. Don't restate the tweet
+- Be accurate. Don't claim "first" or "biggest" unless certain
+- No emojis. No emdashes. Use hyphens
+- Include only stories that are genuinely important. Fewer is better than filler
+- Write "highlights": a comma-separated preview of the day's biggest stories (under 200 chars)
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 与以太坊网络进行交互和查询
+- 开发和测试智能合约
+- 监控以太坊交易和链上数据
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -42,7 +44,7 @@
 - `rank.py`
 - `requirements.txt`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

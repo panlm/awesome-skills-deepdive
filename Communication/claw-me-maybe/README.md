@@ -1,33 +1,38 @@
 # Claw Me Maybe - Beeper Desktop API & Multi-Platform Messaging
 
-> Beeper integration for Clawdbot. Send messages and search chats across WhatsApp, Telegram, Signal, Discord, Slack, Instagram, iMessage, LinkedIn, Facebook Messenger, Google Messages via Beeper Desktop API. Reactions, reminders, attachments, mark as read. Unified multi-platform messaging automation—just ask.
+> Beeper 全平台消息集成工具，跨 WhatsApp、iMessage、Signal、Telegram 等平台统一收发消息和搜索聊天记录
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Claw Me Maybe - Beeper Desktop API & Multi-Platform Messaging |
 | **作者** | nickhamze |
+| **版本** | 1.2.1 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/nickhamze-claw-me-maybe |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nickhamze/claw-me-maybe |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
-- [Get Beeper](https://www.beeper.com/download) - Free download
-- [Beeper Developer Docs](https://developers.beeper.com) - Full API reference
-- [Beeper MCP](https://www.beeper.com/mcp) - For Claude Desktop & Cursor users
-- [Beeper Desktop API Reference](https://developers.beeper.com/desktop-api-reference/) - Complete endpoint docs
+- 通过 Beeper 统一接口跨平台发送消息
+- 支持 WhatsApp、iMessage、Signal、Telegram 等主流平台
+- 跨平台聊天记录搜索和检索
+- 统一管理多平台消息通知
+- 自动消息路由和转发
+- 联系人跨平台统一管理
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 智能体通过单一接口在多个即时通讯平台上代发消息
+- 统一搜索所有平台的聊天历史快速定位关键信息
+- 助理智能体代用户管理和回复多平台消息
 
 ## 依赖和前提条件
-- macOS
-- OAuth
+- 拥有 Beeper 账户并登录目标平台
+- 配置 Beeper API 访问权限
+- 目标平台账户已在 Beeper 中关联
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,7 +50,7 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
+**综合评级: 🔴 High**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---

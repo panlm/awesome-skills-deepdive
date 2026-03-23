@@ -1,33 +1,33 @@
 # Git Pushing
 
-> Stage, commit, and push git changes with conventional commit messages. Use when user wants to commit and push changes, mentions pushing to remote, or asks to save and push their work. Also activates when user says "push changes", "commit and push", "push this", "push to github", or similar git workflow requests.
+> 一键暂存、提交并推送 Git 变更，自动生成约定式提交消息。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Git Pushing |
 | **作者** | tianyi-billy-ma |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/tianyi-billy-ma-git-pushing |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tianyi-billy-ma/git-pushing |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Explicitly asks to push changes ("push this", "commit and push")
-- Mentions saving work to remote ("save to github", "push to remote")
-- Completes a feature and wants to share it
-- Says phrases like "let's push this up" or "commit these changes"
+- 一键完成 Git 工作流：暂存所有变更 → 创建约定式提交 → 推送到远程分支
+- 提供 `smart_commit.sh` 脚本自动化整个流程
+- 支持自定义提交消息（如 `"feat: add feature"`）
+- 自动使用 `-u` 标志推送并设置上游分支
+- 在提交消息中自动添加 Claude 页脚标识
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 完成功能开发后快速将代码推送到远程仓库，无需手动执行多步 Git 命令
+- Agent 在代码修改完成后自动提交和推送，保持远程仓库同步
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- `git`：需要安装 Git
+- `bash`：运行 smart_commit.sh 脚本
+- 已配置 Git 远程仓库
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -46,4 +46,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

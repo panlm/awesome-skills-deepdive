@@ -1,6 +1,6 @@
 # Talkspresso
 
-> Manage a Talkspresso business (services, appointments, products, clients, earnings, calendar) using the Talkspresso REST API. Use when the user wants to check bookings, create services, manage digital products, view earnings, update their profile, schedule sessions, or do anything related to their Talkspresso account. Requires TALKSPRESSO_API_KEY environment variable.
+> 管理 Talkspresso 业务——服务、预约、产品、客户和收入追踪
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,27 +13,20 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 1:1 call: `{"capacity_type":"single","capacity":1}`
-- Group session: `{"capacity_type":"group","capacity":10}`
-- Webinar: `{"capacity_type":"group","capacity":50,"is_webinar":true}`
-- Never send invites without confirmation. Always create with `skip_email: true`, show the user, then send.
-- Stripe required for paid sessions. If the user hasn't connected Stripe, they can only create free services and free prod
-- Get provider_id from the profile (`id` field) when needed for availability checks.
+- 管理服务项目和定价
+- 预约管理和日程安排
+- 产品目录和库存管理
+- 客户关系管理（CRM）
+- 收入和业绩追踪
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 管理咖啡馆的预约服务和产品库存
+- 追踪月度收入和客户数据
 
 ## 依赖和前提条件
-- API Key
+- API Key（Talkspresso）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -50,5 +43,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

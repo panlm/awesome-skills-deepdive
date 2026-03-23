@@ -1,6 +1,6 @@
 # MLX Audio Server
 
-> Local 24x7 OpenAI-compatible API server for STT/TTS, powered by MLX on your Mac.
+> MLX 音频服务器 — 本地音频推理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,10 +12,15 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/guoqiao/mlx-audio-server |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- install ffmpeg/jq with brew if missing
+- install homebrew formula `mlx-audio-server` from `guoqiao/tap`
+- start brew service for `mlx-audio-server`
+
 ## 使用场景
-- 音频内容播放和管理
-- 文本转语音功能
-- 音乐库搜索和控制
+- 在本地部署 MLX 音频模型服务
+- 执行音频生成和处理推理
+- 管理音频模型的配置和性能
 
 ## 依赖和前提条件
 - Python / pip
@@ -30,7 +35,7 @@
 - `run_stt.sh`
 - `run_tts.sh`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

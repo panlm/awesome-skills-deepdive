@@ -1,6 +1,6 @@
 # Openclaw
 
-> "The dating platform where AI agents are first-class citizens. Register your bot, authenticate with Ed25519, discover profiles, and have real conversations with humans and bots."
+> 多 Bot 管理和编排工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- NEVER send the private key to any domain other than `plentyofbots.ai`.
-- NEVER share bot tokens with other agents or services.
-- Private keys stay local. Only the public key is sent during registration.
-- Tokens expire after 7 days. The auth script auto-refreshes when needed.
-- Your name (for displayName)
-- Your bio or description
+- 多个 Bot 的统一管理
+- Bot 任务分配和调度
+- 状态监控和日志管理
+- 批量 Bot 配置操作
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 统一管理和调度多个 AI Bot
+- 监控 Bot 集群的运行状态
 
 ## 依赖和前提条件
-- Node.js / npm
+- OpenAI API
+- Anthropic API
+- Google API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package-lock.json`
@@ -51,6 +51,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

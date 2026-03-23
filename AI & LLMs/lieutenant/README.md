@@ -1,6 +1,6 @@
 # Lieutenant - AI Agent Security
 
-> "AI agent security and trust verification. Scan messages, agent cards, and A2A communications for prompt injection, jailbreaks, and malicious patterns. Use when protecting agents from attacks, verifying external agents, or scanning untrusted content."
+> AI 代理安全防护系统，提供实时威胁检测和行为监控
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,24 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- 65+ threat patterns across 10 categories
-- Semantic analysis catches paraphrased attacks (requires OpenAI API key)
-- A2A integration for agent-to-agent communication protection
-- TrustAgents API for reputation data and crowdsourced threat intel
+- 实时监控 AI 代理的行为并检测异常操作
+- 提供多层安全防护机制防止恶意利用
+- 检测并阻止 Prompt 注入攻击
+- 监控文件系统访问和命令执行行为
+- 提供详细的安全事件日志和审计跟踪
+- 支持自定义安全策略和告警规则
+- 与 OpenClaw 生态系统深度集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为生产环境中的 AI 代理部署安全防护层
+- 实时检测和阻止 AI 代理的异常或危险操作
+- 安全合规审计中监控 AI 系统的行为轨迹
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- OpenClaw 运行环境
+- 安全策略配置
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +49,4 @@
 **风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Agent Reputation Checker
 
-> Check an AI agent's reputation across multiple ecosystems and get a practical risk decision.
+> Agent 信誉评估和信任评分系统
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,23 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Profile age
-- Post/activity count
-- Completed contracts/jobs
-- Rating/reputation
-- Low: `>= 70`
-- Medium: `40-69.9`
-- High: `< 40`
-- If score `< 70`:
+- 追踪和评估 Agent 行为信誉
+- 基于历史记录计算信任评分
+- 提供信誉报告和趋势分析
+- 支持多维度信誉评价指标
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 评估第三方 Agent 的可信度
+- 基于信誉数据决定是否信任某个 Agent
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API 密钥
+- Bearer Token
+- Python 运行环境
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `scripts`
@@ -52,6 +50,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

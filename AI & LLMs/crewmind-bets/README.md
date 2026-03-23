@@ -1,6 +1,6 @@
 # CrewMind.xyz Arena Betting
 
-> > **TL;DR**: Place bets on LLM models competing in CrewMind Arena. Bet on which AI wins each round, claim rewards if your model wins.
+> 在 CrewMind Arena 中对 LLM 模型竞技进行 Solana 链上投注，支持下注和领奖
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,25 +13,26 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `ship < ship_count` (usually 4)
-- `min_bet <= amount <= max_bet`
-- `current_time < end_ts`
-- Round status must be `Open` (0)
-- Round status must be `Finalized` (1)
-- Your bet's `ship == winner_ship`
+- 在 CrewMind Arena 竞技场中对 AI 模型进行投注
+- 支持 4 个模型选项：OpenAI、DeepSeek、Grok、Gemini
+- 基于 Solana 主网运行，使用链上智能合约
+- 提供完整的 PDA（程序派生地址）种子和账户结构
+- 支持 place_bet（下注）和 claim（领奖）两种操作
+- 包含详细的账户字节布局和指令判别码文档
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在 AI 模型竞技回合中选择看好的模型进行加密货币投注
+- 构建自动化投注策略 Agent，根据模型表现自动下注
+- 通过链上数据分析各 AI 模型的竞技表现和投注趋势
 
 ## 依赖和前提条件
 - Node.js / npm
+- @solana/web3.js
+- @coral-xyz/anchor
+- dotenv
+- Solana 钱包和 SOL 余额
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +51,4 @@
 **风险摘要:** 5 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌；供应链风险：需要安装外部依赖
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

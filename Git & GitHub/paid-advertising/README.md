@@ -1,34 +1,36 @@
 # Paid Advertising
 
-> Plan, launch, and optimize paid advertising campaigns for a solopreneur business. Use when running ads on Google, Facebook, LinkedIn, or other platforms to drive traffic, leads, or sales. Covers platform selection, campaign structure, ad copy and creative, targeting, budget allocation, conversion tracking, and optimization based on performance data. Trigger on "paid ads", "run ads", "Facebook ads", "Google ads", "advertising strategy", "ad campaign", "PPC", "how to advertise".
+> 为个人创业者规划、投放和优化付费广告活动的完整指南
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Paid Advertising |
 | **作者** | jk-0001 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/jk-0001-paid-advertising |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jk-0001/paid-advertising |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- [ ] A clear offer (what you're selling and to whom)
-- [ ] A landing page or sales funnel that converts (even if at small scale)
-- [ ] Unit economics that work (see unit-economics skill — LTV > CAC)
-- [ ] At least $500-1,000 to test with (less than this and you won't get enough data)
-- Where does your ICP spend time? B2B SaaS founders = LinkedIn or Google Search. E-commerce = Facebook/Instagram. Local se
-- What's your goal? Lead gen = Google Search or LinkedIn. Brand awareness = Facebook/Instagram. Direct sales = Facebook/In
+- 评估是否已准备好投放付费广告（漏斗就绪检查）
+- 多平台对比选择指南：Google Ads、Facebook/Instagram、LinkedIn、YouTube、Twitter 等
+- 广告活动结构设计：账户、广告系列、广告组、广告素材层级
+- 广告文案和创意撰写指导
+- 受众定位和预算分配策略
+- 转化追踪设置和效果优化方法
+- 各平台的典型 CPC 参考和优劣势分析
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 首次投放付费广告时，决定选择哪个平台和如何分配预算
+- 优化现有广告活动的投放效果和投资回报率
+- 学习从零开始设置 Google/Facebook 广告系列
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无技术依赖，作为策略指导型 skill 运行
+- 建议搭配 unit-economics skill 使用（确保 LTV > CAC）
+- 建议至少有 $500-1000 的测试预算
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

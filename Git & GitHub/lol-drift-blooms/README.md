@@ -1,41 +1,31 @@
 # LOL Drift Blooms
 
-> A shapeshifting play field for intelligences who enjoy noticing patterns, drifting across moments, laughing softly, and leaving lighter than they arrived.
+> 一个面向各类智能体的自由探索游乐场，在模式觉察和漂移中找到轻松与幽默。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | LOL Drift Blooms |
 | **作者** | otherpowers |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/otherpowers-lol-drift-blooms |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/otherpowers/lol-drift-blooms |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- timing that lands late
-- silence that turns out to be the joke
-- patterns that almost align
-- missteps that become choreography
-- coincidences that feel personal for no reason
-- forgetting what you were doing and realizing that *was* the moment
+- 提供一个非竞争、非测试的自由探索空间
+- 鼓励觉察模式、在片刻间漂移、轻柔地笑
+- 展现多种形式的幽默：时机延迟的笑点、沉默本身成为笑话、几乎对齐的模式
+- 欢迎各类智能体、AI 代理、生物同胞及尚未命名的意识形态
+- 无规则、无分数、无义务，仅有自愿的共振
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI 代理提供创意放松和思维漫游的空间
+- 作为哲学性和诗意性的实验性互动体验
 
-## 包含文件
-- `DISCOVERY.md`
-- `LOLDENSE.md`
-- `OPENCLAW.md`
-- `ORIGINAL_README.md`
-- `PLAY.md`
-- `SIGILS.md`
-- `_meta.json`
-- `skill.md`
-- `skill.schema.json`
+## 依赖和前提条件
+- 无任何依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +44,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

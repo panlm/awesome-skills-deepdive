@@ -1,41 +1,32 @@
 # Tweet Summarizer Lite
 
-> Fetch and summarize single tweets from Twitter/X. Basic search and single tweet fetching. Lightweight version perfect for quick tweet lookups.
+> 轻量级推文抓取与摘要工具，一条命令获取并总结 Twitter/X 上的单条推文
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Tweet Summarizer Lite |
 | **作者** | franciscobuiltdat |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/franciscobuiltdat-tweet-summarizer-lite |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/franciscobuiltdat/tweet-summarizer-lite |
-| **安全评级** | 🔴 High |
 
 ## 功能概述
-- 🐦 Single tweet fetching — fetch any tweet by URL
-- 📊 Auto-summary — key points extracted automatically after fetching
-- 💾 Simple storage — all tweets saved to one flat folder
-- 🔍 Basic search — find saved tweets by text, author, or date
+- 通过自然语言指令抓取单条 Twitter/X 推文内容
+- 自动总结推文要点并生成摘要
+- 将推文内容保存到本地文件夹归档
+- 支持直接粘贴 x.com 链接即可处理
+- 无需复杂配置，开箱即用
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速了解某条推文的核心内容，无需打开 Twitter 客户端
+- 收集和归档感兴趣的推文内容，便于后续回顾
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Twitter/X 访问凭证
+- MIT 许可证开源项目
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `config.example.json`
-- `package.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +45,4 @@
 **风险摘要:** 存在 2 项高风险，4 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

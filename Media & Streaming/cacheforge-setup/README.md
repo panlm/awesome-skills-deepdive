@@ -1,6 +1,6 @@
 # Cacheforge Setup
 
-> Set up CacheForge — register, configure upstream, get your API key in 30 seconds. One line of config, zero code changes.
+> CacheForge 环境配置和部署工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,13 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Console: [app.anvil-ai.io](https://app.anvil-ai.io)
-- GitHub: [cacheforge-ai/cacheforge-skills](https://github.com/cacheforge-ai/cacheforge-skills)
+- Set up CacheForge for the first time
+- Register a new CacheForge account
+- Connect their LLM API provider to CacheForge
+- Get a CacheForge API key
+- Preset default base URLs:
+- openrouter → `https://openrouter.ai/api/v1`
+- anthropic → `https://api.anthropic.com`
+- custom → `https://api.fireworks.ai/inference/v1`
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 配置和部署缓存服务环境
+- 初始化缓存集群设置
+- 管理缓存服务的配置参数
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +40,7 @@
 - `_meta.json`
 - `setup.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

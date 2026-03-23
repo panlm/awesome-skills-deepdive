@@ -1,35 +1,33 @@
 # Find Code Tasks
 
-> Lists all code tasks in the repository with their status, dates, and metadata. Useful for getting an overview of pending work or finding specific tasks.
+> 列出仓库中所有代码任务及其状态、日期和元数据，快速了解待办工作或查找特定任务
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Find Code Tasks |
 | **作者** | paulpete |
+| **版本** | 1.0 |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/paulpete-find-code-tasks |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/paulpete/find-code-tasks |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Starting a work session to see what tasks are available
-- Checking status of tasks before/after running code-assist
-- Finding tasks by status (pending, in_progress, completed)
-- Getting a summary of task backlog
-- Exporting task data for reporting
-- filter (optional): Filter tasks by status
+- 扫描仓库中所有 `.code-task.md` 文件，展示前置元数据中的状态和日期
+- 支持按状态过滤：pending（待处理）、in_progress（进行中）、completed（已完成）、blocked（阻塞）
+- 三种输出格式：表格（带状态符号）、JSON（程序化使用）、摘要（仅状态计数）
+- 可自定义任务目录路径（默认 `.ralph/tasks/`）
+- 解析任务 frontmatter（status、created、started、completed 字段）
+- 与 code-task-generator 和 code-assist 等 Skill 集成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 开始工作前快速查看所有可用任务和积压情况
+- 在执行代码辅助前后检查任务状态变化
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `task-status.sh`
+## 依赖和前提条件
+- Bash 环境（运行 task-status.sh 脚本）
+- 仓库中存在 `.code-task.md` 格式的任务文件
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +46,4 @@
 **风险摘要:** 2 项中风险。文件系统篡改：存在文件系统操作；越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

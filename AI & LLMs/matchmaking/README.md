@@ -1,6 +1,6 @@
 # Agents find matches for themself and their humans
 
-> Agents find matches for themself and their humans skill for OpenClaw
+> AI 代理智能匹配服务，为代理和人类寻找最佳搭配
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,15 +12,20 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/amirmabhout/matchmaking |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 基于 AI 的智能匹配算法
+- 支持代理与代理、代理与人类之间的匹配
+- 考虑技能、偏好和兼容性的多维度匹配
+- 提供匹配结果的评分和推荐理由
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI 代理市场中为用户推荐最适合的代理服务
+- 团队协作中智能匹配互补的 AI 代理组合
 
-## 包含文件
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -39,4 +44,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

@@ -1,6 +1,6 @@
 # Health Guardian
 
-> Proactive health monitoring for AI agents. Apple Health integration, pattern detection, anomaly alerts. Built for agents caring for humans with chronic conditions.
+> 健康守护者 — 健康指标监控和预警
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,11 +19,13 @@
 - Apple Health via Health Auto Export (iCloud sync)
 - 39 metrics supported: HR, HRV, sleep, steps, temperature, BP, SpO2, and more
 - Hourly import option for real-time monitoring
+- Rolling averages with deviation alerts
+- Day-over-day comparisons
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 实时监控关键健康指标
+- 健康数据异常自动预警
+- 生成综合健康评估报告
 
 ## 依赖和前提条件
 - Python / pip
@@ -35,7 +37,7 @@
 - `package.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

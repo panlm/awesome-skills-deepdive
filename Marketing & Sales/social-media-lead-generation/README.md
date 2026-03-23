@@ -1,31 +1,32 @@
 # SKILL.md
 
-> This skill helps businesses, training institutes, and online educators generate leads and sales using social media platforms such as Facebook, LinkedIn, and Email Marketing.
+> 社交媒体线索生成工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | SKILL.md |
 | **作者** | shahbaz02197ali-cmd |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/shahbaz02197ali-cmd-social-media-lead-generation |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/shahbaz02197ali-cmd/social-media-lead-generation |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Creates engaging post ideas for courses
-- Writes high-converting captions
-- Generates follow-up messages
-- Suggests ad targeting strategy
-- Creates lead nurturing email responses
-- Helps close sales professionally
+- 从社交媒体获取销售线索
+- 线索自动识别和采集
+- 社交互动追踪
+- 线索评分和分类
 
 ## 使用场景
-- 营销活动管理和执行
-- 客户获取和转化
-- 销售流程优化
+- 从社交媒体评论和互动中挖掘潜在客户线索
+- 自动化社交媒体上的线索获取流程
+
+## 依赖和前提条件
+- Facebook API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +46,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

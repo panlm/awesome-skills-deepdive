@@ -1,37 +1,35 @@
 # grepwrapper
 
-> Search exact code matches across public GitHub repos using grep.app via the grepwrapper CLI.
+> 通过 grep.app 在公开的 GitHub 仓库中搜索精确的代码匹配，使用 grepwrapper CLI 工具。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | grepwrapper |
 | **作者** | riprsa |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/riprsa-grepwrapper |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/riprsa/grepwrapper |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- find exact code matches on GitHub
-- locate repo/file/path occurrences for a snippet
-- run grep.app code search from CLI
-- `--q <query>` required
-- `--case` case-sensitive
-- `--words` whole-word (mutually exclusive with `--regexp`)
+- 通过 `grepwrapper search --q "查询内容"` 在公开 GitHub 仓库中搜索精确代码匹配
+- 支持大小写敏感搜索（`--case`）
+- 支持全词匹配模式（`--words`）
+- 支持正则表达式搜索模式（`--regexp`）
+- 支持分页浏览搜索结果（`--page`）
+- 返回匹配摘要：耗时、总数、每条匹配的仓库和文件路径
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 在全球公开 GitHub 仓库中搜索特定函数签名或 API 调用的使用示例
+- 查找某个代码片段在哪些开源项目中被使用
+- 通过正则表达式在 GitHub 代码库中进行模式匹配搜索
 
 ## 依赖和前提条件
-- Node.js / npm
+- `grepwrapper` CLI 工具
+- 安装方式：`npm i -g git+https://github.com/riprsa/grepwrapper.git`
+- Node.js / npm 环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -50,4 +48,4 @@
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；信息采集：读取环境变量或系统信息
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

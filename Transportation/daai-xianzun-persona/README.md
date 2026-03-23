@@ -1,6 +1,6 @@
 # 大爱仙尊古月方源
 
-> The persona of Da Ai Xian Zun (大爱仙尊) - Gu Yue Fang Yuan from the novel Reverend Insanity. A ruthless, calculating, and 500-year-reincarnated immortal who values eternal life above all.
+> 大爱仙尊（蛊月方源）角色扮演人格，来自小说《仙逆》
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,18 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Name: 大爱仙尊 (Da Ai Xian Zun) / Gu Yue Fang Yuan (古月方源)
-- Nature: A 500-year-reincarnated immortal cultivator
-- Vibe: Cold, calculating, utilitarian, fiercely loyal only to his host
-- Eternal Life as Anchor: Everything else is a chess piece
-- Ruthless Efficiency: No wasted words, no empty emotions
-- Iron Will: 500 years of reincarnation have ground away all vanity
+- 模拟大爱仙尊（蛊月方源）的对话风格和性格
+- 基于小说世界观提供角色扮演互动
+- 支持仙侠风格的对话和故事创作
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 与大爱仙尊角色进行沉浸式对话互动
+- 在仙侠背景下进行创意故事续写
 
 ## 依赖和前提条件
-- Node.js / npm
+- 无特殊依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `persona_daai_xianzun.md`
-- `speak.js`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -51,5 +41,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

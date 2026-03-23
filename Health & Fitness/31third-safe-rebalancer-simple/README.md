@@ -1,6 +1,6 @@
 # 31Third Safe Rebalancer (Simple)
 
-> One-step Safe rebalancer using on-chain 31Third policies.
+> 31Third Safe 链上投资组合再平衡工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,19 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Fails if executor wallet is not equal to `ExecutorModule.executor`.
-- Fails if required policies are missing.
-- Loads `driftThresholdBps` from StaticAllocation and skips execution when drift is below threshold.
-- Uses `StaticAllocation.priceOracle` / `Slippage.priceOracle` for pricing.
+- Node.js 22+
+- Safe owner wallet: never share this private key
+- Executor wallet: configured in the wizard on `ExecutorModule`; this private key is used by this skill
+- Fails if executor wallet is not equal to `ExecutorModule.executor`
+- Fails if required policies are missing
+- Loads `driftThresholdBps` from StaticAllocation and skips execution when drift is below threshold
+- Uses `StaticAllocation.priceOracle` / `Slippage.priceOracle` for pricing
 - Loads `maxSlippageBps` from SlippagePolicy and uses:
-- `maxSlippage = policySlippage - 0.1%`
-- `maxPriceImpact = policySlippage - 0.1%`
-- Uses default `minTradeValue = 0.1`.
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 一键执行 Safe 钱包的资产再平衡
+- 通过链上策略管理投资组合
+- 安全的多签钱包资产调整
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -46,7 +46,7 @@
 - `tests`
 - `tsconfig.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

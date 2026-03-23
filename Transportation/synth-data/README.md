@@ -1,6 +1,6 @@
 # Synth Data
 
-> Query volatility forecasts from Synthdata.co for crypto, commodities, and stocks. Compare assets and run Monte Carlo simulations.
+> 查询 Synthdata.co 的加密货币、大宗商品和股票波动率预测
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,31 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 📊 Real-time volatility data for 9 assets (BTC, ETH, SOL, XAU, stocks)
-- 🎯 Forward-looking volatility forecasts
-- 📈 Monte Carlo price simulations
-- 📉 Comparison tables with visual charts
-- 🔔 Alert-ready thresholds
+- 获取加密货币的波动率预测数据
+- 查询大宗商品价格波动预测
+- 获取股票市场波动率分析
+- 支持多种时间维度的预测查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查询比特币未来一周的波动率预测
+- 比较不同资产类别的预期波动率
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- API Key（Synthdata.co）
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `clawhub.json`
-- `examples`
-- `references`
-- `scripts`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -54,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

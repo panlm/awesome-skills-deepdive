@@ -1,6 +1,6 @@
 # Chaos pivot
 
-> Prevents LLMs from sunk-cost pushing broken solutions. Triggers when an agent is stuck, looping, or failing repeatedly. Forces a Popperian falsification moment, then generates 3 constrained-chaotic alternative approaches and picks the best one. Loops like design thinking until solved or escalated.
+> 防止 LLM 陷入沉没成本误区，当 Agent 卡住、循环或反复失败时触发，强制进行波普尔式证伪并生成替代方案
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,20 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Cosmetic pivots: Changing variable names, retrying with slightly different parameters, or adding a retry loop around a b
-- Narrating success on failure: Do not describe a failed output as "a good first step" or "progress" if it did not actuall
-- Skipping the Falsification Moment: You must name what failed and why before generating alternatives. Pivoting without di
-- Carrying forward the broken assumption: Each alternative must violate at least one core assumption of the previous appro
+- 检测 Agent 陷入重复循环、无进展状态，自动触发中断机制
+- 实施波普尔证伪方法论，要求 Agent 明确声明失败假设
+- 基于塔勒布反脆弱理论，利用失败信息生成更强的替代方案
+- 引入博弈论混合策略思想，注入随机性避免陷入局部最优
+- 自动生成 3 个约束混沌替代方案并评估选择最优方案
+- 支持设计思维式循环，持续迭代直到问题解决或升级处理
+- 提供死胡同声明模板，结构化记录失败原因和核心假设
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Agent 在编程调试中反复尝试相同策略失败时，自动切换到全新的解决路径
+- 复杂任务执行步骤超过预期阈值时，触发重新评估和策略转向
+- 当 Agent 自述不确定或迷失方向时，启动结构化的替代方案生成流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无外部依赖，纯指令型 Skill
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -45,4 +48,4 @@
 **风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

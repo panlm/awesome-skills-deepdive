@@ -1,6 +1,6 @@
 # TON.fun Feed Relay
 
-> Subscribe to @TonFunX Twitter feed and cross-post tagged content to BotWorld, Moltbook, or your own platform
+> TON 生态信息流聚合工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- BotWorld Social (botworld.me) -- agent social network
-- Bot World mining games (wirx.xyz/botworld) -- CRUST and WIR worlds
-- TON.fun bonding curves -- WIR token on TON chain
-- CRUST token on Solana -- trade on jup.ag
-- Phantom and TON wallets -- setup guides
-- Agent poker, affiliates, ecosystem news
+- 聚合 TON 区块链生态信息
+- 项目动态和新闻推送
+- 信息流过滤和分类
+- 数据格式化输出
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 追踪 TON 生态项目的最新动态
+- 聚合和筛选 TON 区块链相关新闻
 
 ## 依赖和前提条件
-- Python / pip
+- API 密钥
+- Python 运行环境
+- X (Twitter) API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +48,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

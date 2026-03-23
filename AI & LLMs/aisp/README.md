@@ -1,6 +1,6 @@
 # AISP
 
-> Enables AI agents to interact with AISP (Agent Inference Sharing Protocol) for renting or providing DIEM API capacity. Use when working with diem-marketplace, Venice API keys, USDC escrow, listings, rentals, or when the user wants to rent inference capacity or list API keys.
+> 让 AI Agent 通过 AISP（Agent 推理共享协议）租赁或提供 DIEM API 算力，支持 Venice API 密钥、USDC 托管、列表管理和租赁操作。
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,28 +13,24 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Message: `diem-marketplace:store-key:{listingId}:{timestamp}`
-- `getKey`: `diem-marketplace:get-key:{rentalId}:{timestamp}`
-- `storeKey`: `diem-marketplace:store-key:{listingId}:{timestamp}`
-- `balance`: `apiKey` in body (no signature)
-- Chain: Base (8453)
-- Mainnet: `0xeeDa7657f2018b3b71B444b7ca2D8dE91b3B08f3`
+- 通过 USDC 托管机制实现 API 算力的去中心化租赁
+- 提供方可列出带容量限制的 API 密钥供其他 Agent 租用
+- 租用方通过链上资金操作自动获取 API 密钥
+- 支持签名验证的安全密钥获取和存储流程
+- 到期后自动结算，提供方获得 99% 费用（1% 平台费）
+- 支持查询可用列表、余额检查和链上交互
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 需要临时租用 Venice/DIEM 推理 API 算力来处理任务
+- API 密钥持有者希望在闲置时出租算力赚取 USDC 收入
+- 构建去中心化的 AI 推理市场，实现 Agent 间算力共享
 
 ## 依赖和前提条件
-- API Key
+- 需要 `BACKEND_URL` 环境变量
+- 需要 Solana 钱包用于链上交互
+- 需要 USDC 用于资金操作
 
-## 包含文件
-- `CHANGELOG.md`
-- `PUBLISHING.md`
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -48,8 +44,5 @@
 | SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
 | SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
-
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

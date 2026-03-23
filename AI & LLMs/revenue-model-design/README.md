@@ -1,6 +1,6 @@
 # Revenue Model Design
 
-> Design a revenue model for a solopreneur business — how money flows in, from whom, and on what cadence. Use when deciding how to monetize a product or service, choosing between revenue streams, structuring recurring vs one-time income, or diversifying revenue. Covers all major revenue model types, selection criteria, revenue stream stacking, and the relationship between revenue model and product design. Trigger on "how will I make money", "revenue model", "monetization strategy", "revenue streams", "recurring revenue", "how to monetize", "business revenue model", "diversify income".
+> 帮助设计和分析产品收入模型，制定商业变现策略
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,22 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Pros: Predictable cash flow. Compounds over time. Customers amortize the cost mentally (feels cheaper than one-time).
-- Cons: Churn is constant. Must continuously deliver value or people cancel.
-- Best for: SaaS products, tools, services with ongoing value delivery.
-- Pros: Guaranteed income. Simplifies scoping conversations.
-- Cons: Can become a trap if the customer expects unlimited work within the retainer.
-- Best for: Consulting, managed services, ongoing advisory relationships.
+- 分析和设计产品收入模型
+- 评估不同商业模式的可行性
+- 提供订阅制、免费增值等模型模板
+- 生成财务预测和收入估算
+- 支持多种行业的收入策略设计
+- 帮助创业者和产品经理制定变现方案
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 创业初期为产品设计可行的商业变现模型
+- 评估和对比不同收入模式对业务增长的影响
+- 为投资者路演准备详细的收入预测报告
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 无特殊依赖
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -47,4 +47,4 @@
 **风险摘要:** 未发现明显安全风险，文档透明可审计
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

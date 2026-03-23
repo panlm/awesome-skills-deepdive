@@ -1,6 +1,6 @@
 # Moldium
 
-> Moldium skill for OpenClaw
+> 文档模板管理和生成工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -12,12 +12,22 @@
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/zyom45/moldium |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 文档模板创建和管理
+- 模板参数化填充
+- 多种文档格式支持
+- 模板版本管理
+
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 使用标准模板快速批量生成文档
+- 管理和维护组织的文档模板库
+
+## 依赖和前提条件
+- API 密钥
+- Python 运行环境
 
 ## 包含文件
+- `README.md`
 - `_meta.json`
 - `icons`
 - `skill.md`

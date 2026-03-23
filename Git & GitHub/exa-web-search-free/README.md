@@ -1,35 +1,33 @@
 # Exa Web Search (Free)
 
-> Free AI search via Exa MCP. Web search for news/info, code search for docs/examples from GitHub/StackOverflow, company research for business intel. No API key needed.
+> 通过 Exa MCP 提供免费 AI 搜索能力，支持网页搜索、代码搜索和企业研究，无需 API 密钥
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Exa Web Search (Free) |
 | **作者** | whiteknight07 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/whiteknight07-exa-web-search-free |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/whiteknight07/exa-web-search-free |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `query` - Search query
-- `numResults` (optional, default: 8)
-- `type` (optional) - `"auto"`, `"fast"`, or `"deep"`
-- `query` - Code/API search query
-- `tokensNum` (optional, default: 5000) - Range: 1000-50000
-- `companyName` - Company name
+- 网页搜索（web_search_exa）：搜索新闻、信息和事实，支持快速和深度两种模式
+- 代码搜索（get_code_context_exa）：从 GitHub、Stack Overflow 查找代码示例和文档
+- 企业研究（company_research_exa）：获取企业商业信息和新闻
+- 高级工具：域名/日期过滤搜索、查询扩展、全页抓取、人物搜索、AI 研究代理
+- 通过 mcporter 配置和调用，无需 API 密钥
+- 基于神经搜索技术，语义理解优于关键词匹配
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- AI Agent 执行实时网页搜索获取最新信息，无需配置付费 API
+- 开发时快速搜索代码示例和 API 文档
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- `mcporter`（MCP 客户端工具）
+- 网络访问（连接 https://mcp.exa.ai/mcp）
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -48,4 +46,4 @@
 **风险摘要:** 存在 1 项高风险，1 项中风险。数据外泄：大量外部数据传输
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

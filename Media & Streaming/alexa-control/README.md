@@ -1,6 +1,6 @@
 # Alexa Control
 
-> Control Alexa devices via CLI - set alarms, play music, flash briefings, smart home commands. Use when asked to set an alarm, play something on Echo, control smart home devices, or send voice commands to Alexa.
+> 通过命令行控制 Amazon Alexa 设备 — 设置闹钟、播放音乐、智能家居控制
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,9 +19,9 @@
 - US users: use `amazon.com` / `alexa.amazon.com`
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 设置语音闹钟和定时提醒
+- 通过 Alexa 控制智能家居设备
+- 在 Echo 设备上播放音乐和新闻简报
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -31,7 +31,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

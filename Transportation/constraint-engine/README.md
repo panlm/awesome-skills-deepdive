@@ -1,6 +1,6 @@
 # Constraint Engine
 
-> Learn from consequences, not instructions — generate and enforce constraints from experience
+> 从后果中学习而非从指令中学习——基于历史结果自动生成和执行约束
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- .openclaw/constraint-engine.yaml
-- .claude/constraint-engine.yaml
-- output/constraints/
-- CON-20260210-001: Always run tests before commit [CRITICAL]
-- CON-20260212-003: Always lint before commit [IMPORTANT]
-- CON-20260215-001: Pending approval
+- 分析历史行为的后果自动生成约束规则
+- 动态执行和更新行为约束
+- 支持约束冲突检测和解决
+- 提供约束执行效果的反馈循环
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- Agent 多次犯同一错误后自动生成预防性约束
+- 基于运行日志分析生成最优行为规则
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Node.js / npm
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 1 项高风险，2 项中风险。Prompt 注入：发现 Prompt 注入特征
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

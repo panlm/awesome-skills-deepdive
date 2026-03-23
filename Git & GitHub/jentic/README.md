@@ -1,41 +1,35 @@
 # Jentic
 
-> "Call external APIs through Jentic — AI agent API middleware. Use whenever you need to interact with external APIs (Gmail, Google Calendar, GitHub, Stripe, Twilio, and many more). Jentic handles authentication centrally so no per-API credentials are needed in the agent. The flow is: search by intent, load the schema, then execute. Use this in preference to direct curl/API calls for any API in the Jentic catalog."
+> AI 代理 API 中间件，通过统一接口发现和调用真实世界 API，无需在代理中存储凭证。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Jentic |
 | **作者** | seanblanchfield |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/seanblanchfield-jentic |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/seanblanchfield/jentic |
-| **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- [Jentic](https://jentic.com)
-- [Jentic Docs](https://docs.jentic.com)
-- [Jentic SDK](https://github.com/jentic/jentic-sdks)
-- [OpenClaw](https://openclaw.ai)
-- [ClawHub](https://clawhub.ai)
+- 通过统一接口发现和执行多种 API（Gmail、GitHub、Stripe、Twilio 等）
+- API 凭证服务端注入，代理本身不存储敏感密钥
+- 按意图搜索 API 功能（如"发送邮件"）
+- 浏览公开 API 目录，无需认证
+- 查看 API 操作的详细 Schema
+- 支持通过 `clawhub install` 或手动安装
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 让 AI Agent 安全调用外部 API（如发邮件、查股票、管理日历）而无需暴露凭证
+- 快速集成多种第三方服务到 OpenClaw 工作流中
+- 降低 Prompt 注入攻击导致凭证泄露的风险
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
-- OAuth
+- Jentic 账号（从 [jentic.com](https://jentic.com) 注册）
+- Jentic Agent Key（`ak_...` 格式）
+- `uv` 或 Python 环境运行 `jentic.py` 脚本
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -54,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

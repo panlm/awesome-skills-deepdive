@@ -1,38 +1,35 @@
-# Crm Data Cleaner
+# CRM Data Cleaner
 
-> "Deduplicate, normalize, and enrich CRM contacts and companies. Use when a user needs to clean CRM data, find duplicate contacts, standardize phone numbers or emails, merge duplicate records, audit data quality, or enrich contacts with external sources like Clearbit or Apollo. Works with HubSpot, Salesforce, Pipedrive, or any CRM with CSV export. Instruction-only skill — no scripts or code execution. All operations are performed via CRM platform APIs or CSV export/import workflows."
+> CRM 数据清洗工具——对联系人和公司记录进行去重、规范化和数据富化，支持 HubSpot、Salesforce、Pipedrive 或任何支持 CSV 导出的 CRM 系统。
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
-| **名称** | Crm Data Cleaner |
+| **名称** | CRM Data Cleaner |
 | **作者** | luigi08001 |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/luigi08001-crm-data-cleaner |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/luigi08001/crm-data-cleaner |
-| **安全评级** | 🔴 High |
 
 ## 功能概述
-- HUBSPOT_ACCESS_TOKEN
-- Multiple entries for same person/company
-- Slight variations in name spelling
-- Different email addresses for same contact
-- Incomplete vs. complete records
-- Phone numbers: (555) 123-4567 vs 555-123-4567 vs +1.555.123.4567
+- 去重策略：识别和合并同一联系人/公司的多条记录（姓名拼写变体、不同邮箱等）
+- 数据规范化：统一电话号码格式、邮箱格式、地址格式等
+- 数据富化：通过 Clearbit 或 Apollo 等外部数据源补全缺失信息
+- 多平台支持：HubSpot、Salesforce、Pipedrive 以及 CSV 导入/导出工作流
+- 数据质量审计：生成数据质量报告，识别不完整和不一致的记录
+- 纯指令型技能——无脚本或代码执行，所有操作通过 CRM 平台 API 或 CSV 工作流完成
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 定期清洗 CRM 中的重复联系人和公司记录，提升数据质量
+- 批量规范化电话号码、邮箱等字段格式
+- 通过 Clearbit/Apollo 等服务自动富化联系人信息，填补缺失数据
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- 环境变量：`HUBSPOT_ACCESS_TOKEN`（HubSpot 用户必需）
+- 环境变量：`CLEARBIT_API_KEY` 或 `APOLLO_API_KEY`（数据富化可选）
+- 环境变量：`SALESFORCE_ACCESS_TOKEN`（Salesforce 用户可选）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -51,4 +48,4 @@
 **风险摘要:** 存在 2 项高风险，4 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

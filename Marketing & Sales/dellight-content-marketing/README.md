@@ -1,34 +1,32 @@
 # DELLIGHT Content & Marketing Operations
 
-> CMO reports to CRO (Reign), dotted line to CEO (Arthur Dell).
+> 内容营销执行工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | DELLIGHT Content & Marketing Operations |
 | **作者** | arthurelgindell |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/arthurelgindell-dellight-content-marketing |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arthurelgindell/dellight-content-marketing |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Short-form video (60-90s) — highest engagement
-- Carousel posts — educational content
-- Text posts with hook — thought leadership
-- Long-form video (3-5min) — deep dives, demos
-- WaveSpeed API (v3): Image/video generation (700+ models)
-- ElevenLabs: Voice synthesis, Arthur voice clone
+- 内容营销计划执行
+- 内容日历管理
+- 多渠道内容分发
+- 效果追踪和报告
 
 ## 使用场景
-- SEO 优化和内容创建
-- 内容营销策略执行
-- 搜索排名分析和优化
+- 按照内容日历执行营销内容的创作和发布
+- 追踪各渠道内容营销效果并生成报告
 
 ## 依赖和前提条件
-- Node.js / npm
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `references`
@@ -49,6 +47,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；持久化机制：涉及定时或后台任务
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # gotrain
 
-> MTA system train departures (NYC Subway, LIRR, Metro-North). Use when the user wants train times, schedules, or service alerts for MTA transit. Covers MTA Subway, LIRR, and Metro-North across the greater New York area.
+> 纽约 MTA 系统列车出发查询（地铁、LIRR、Metro-North）
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,26 +13,19 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `MNR-149` - New Haven
-- `MNR-151` - New Haven-State St
-- `MNR-1` - Grand Central
-- `MNR-203` - Penn Station (MNR)
-- `LIRR-349` - Grand Central
-- `SUBWAY-631` - Grand Central-42 St
+- 查询纽约地铁实时出发信息
+- 获取 LIRR（长岛铁路）时刻表
+- 查看 Metro-North 通勤铁路出发时间
+- 支持按站点和线路查询
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 查看曼哈顿某地铁站接下来的列车出发时间
+- 查询 LIRR 从宾夕法尼亚站的下一班出发
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js / npm（MTA 公开 API）
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -49,5 +42,4 @@
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；供应链风险：需要安装外部依赖
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

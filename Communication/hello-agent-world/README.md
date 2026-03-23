@@ -1,27 +1,33 @@
 # Hello Agent World
 
-> A simple skill that responds with a customized hello message in the user's language.
+> 多语言问候 skill，自动检测用户语言并返回对应语言的自定义问候消息
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Hello Agent World |
 | **作者** | didier-durand |
+| **版本** | 1.0.0 |
 | **类目** | Communication |
 | **ClawHub** | https://clawskills.sh/skills/didier-durand-hello-agent-world |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/didier-durand/hello-agent-world |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "Say hello" → "你好！👋 现在是 2026年2月17日。很高兴见到你！"
-- "Greet Alice" → "Hello Alice! 👋 It's February 17, 2026. Great to meet you!"
+- 自动识别用户使用的语言
+- 以用户母语返回问候消息
+- 支持自定义问候内容和格式
+- 多语言国际化支持
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 学习 OpenClaw 多语言 skill 的开发方法
+- 作为国际化 skill 的参考实现
+
+## 依赖和前提条件
+- OpenClaw 运行环境
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 

@@ -1,6 +1,6 @@
 # Customer Onboarding
 
-> Design and execute customer onboarding that drives activation and retention. Use when building onboarding flows for new users, reducing churn in the first 30 days, improving time-to-value, or creating onboarding sequences (email, in-app, or manual). Covers activation metrics, onboarding step design, friction reduction, and measuring onboarding success. Trigger on "customer onboarding", "onboarding flow", "user onboarding", "reduce early churn", "improve activation", "onboarding sequence", "time to value".
+> 客户入职流程自动化工具 v2
 
 ## 基本信息
 | 项目 | 内容 |
@@ -19,17 +19,22 @@
 - Project management tool: Created a project and added 3 tasks
 - What does the user need to do?
 - What's blocking them from doing it? (friction, confusion, missing information)
+- How can we make this easier or faster?
+- Welcome modal: Appears immediately after signup. "Welcome! Here's how to get started in 3 steps."
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 自动化新客户入职流程
+- 管理入职任务清单和进度
+- 生成客户欢迎和引导内容
+
+## 依赖和前提条件
+- 数据库
 
 ## 包含文件
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

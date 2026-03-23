@@ -1,6 +1,6 @@
 # Internal Comms
 
-> A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+> 内部通信和公告管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,20 +13,21 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 3P updates (Progress, Plans, Problems)
-- Company newsletters
-- Status reports
-- Leadership updates
-- Project updates
-- Incident reports
+- 内部通知和公告发布
+- 团队沟通管理
+- 通信模板和格式化
+- 消息分发和追踪
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 自动化发布内部通知和公告
+- 管理团队内部通信流程
+
+## 依赖和前提条件
+- 无特殊依赖
 
 ## 包含文件
 - `LICENSE.txt`
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 - `examples`
@@ -47,6 +48,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

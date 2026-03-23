@@ -1,6 +1,6 @@
 # Security Checker
 
-> Security scanner for Python skills before publishing to ClawHub. Use before publishing any skill to check for dangerous imports, hardcoded secrets, unsafe file operations, and dangerous functions like eval/exec/subprocess. Essential for maintaining trust and ensuring published skills are safe for others to install and run.
+> 安全漏洞检查和扫描工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- `os` - System-level operations
-- `subprocess` - Command execution
-- `shutil` - File operations
-- `socket` - Network operations
-- `urllib` / `requests` - HTTP requests
-- `os.system()` - Executes shell commands
+- Auth tokens (including ClawHub tokens)
+- Passwords
+- Private keys
+- JWT-like tokens
+- Absolute file paths outside expected directories
+- Parent directory traversal (`..`)
+- Writing to system directories
+- Is it legitimate? Document why in code comments or SKILL.md
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 扫描系统和代码的安全漏洞
+- 生成安全检查报告
+- 提供漏洞修复建议和最佳实践
 
 ## 依赖和前提条件
 - Python / pip
@@ -34,7 +36,7 @@
 - `_meta.json`
 - `scripts`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🔴 High | 发现直接命令执行指令 |

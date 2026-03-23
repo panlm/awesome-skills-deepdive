@@ -1,6 +1,6 @@
 # chill.institute
 
-> Use chill.institute (web UI) to search for content and click “send to put.io” (best paired with the putio skill) — set sail, pick the best 1080p/x265 loot, and ship it.
+> 休闲娱乐内容推荐和管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- User must be logged in to chill.institute (put.io OAuth in the browser).
-- The `putio` skill should be available to verify the transfer in put.io.
+- User must be logged in to chill.institute (put.io OAuth in the browser)
+- The `putio` skill should be available to verify the transfer in put.io
 - Start at: `https://chill.institute/sign-in`
-- Prefer `browser` tool with the isolated profile (`profile="clawd"`).
-- If clicks time out, re-snapshot (`refs="aria"`) and retry on the new ref.
-- Don’t ask users for their put.io password in chat.
+- Prefer `browser` tool with the isolated profile (`profile="clawd"`)
+- If clicks time out, re-snapshot (`refs="aria"`) and retry on the new ref
+- Don’t ask users for their put.io password in chat
+- Don’t scrape or store cookies/session tokens in files
+- Only use this workflow for content the user has rights/permission to access
 
 ## 使用场景
-- 多媒体内容管理
-- 流媒体服务控制
-- 媒体库组织和搜索
+- 获取休闲娱乐内容推荐
+- 管理个人娱乐列表和偏好
+- 发现新的休闲活动和内容
 
 ## 依赖和前提条件
 - OAuth
@@ -32,7 +34,7 @@
 - `SKILL.md`
 - `_meta.json`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |

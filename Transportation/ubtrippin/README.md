@@ -1,6 +1,6 @@
 # Skill
 
-> Manages travel for your user via UBTRIPPIN — trips, items, loyalty programs, family, city guides, events, concerts, notifications, and more. Use when the user asks about their trips, upcoming travel, flights, hotels, train bookings, concert tickets, event tickets, loyalty numbers, family travel, or wants to manage their travel tracker. Requires a UBTRIPPIN API key from ubtrippin.xyz/settings.
+> 通过 UBTRIPPIN 管理旅行——行程、物品清单、忠诚计划和家庭成员
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,23 +13,19 @@
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Website: [ubtrippin.xyz](https://www.ubtrippin.xyz)
-- GitHub: [github.com/fistfulayen/ubtrippin](https://github.com/fistfulayen/ubtrippin)
-- ClawHub: [clawhub.ai](https://clawhub.ai) → search "ubtrippin"
+- 管理旅行行程和预订信息
+- 维护旅行物品打包清单
+- 追踪航空忠诚计划积分和等级
+- 管理家庭成员的旅行信息
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 规划家庭旅行并管理每个人的打包清单
+- 追踪和管理多个航空忠诚计划的积分
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL-LITE.md`
-- `SKILL.md`
-- `_meta.json`
-- `examples`
+## 依赖和前提条件
+- API Key（UBTRIPPIN）
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
@@ -46,5 +42,4 @@
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

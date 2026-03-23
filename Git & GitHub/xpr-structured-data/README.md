@@ -1,36 +1,33 @@
 # XPR Structured Data
 
-> CSV parsing, JSON-to-CSV conversion, and SVG chart generation
+> CSV 解析、JSON 转 CSV 和 SVG 图表生成工具，处理结构化数据并创建可视化图表
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | XPR Structured Data |
 | **作者** | paulgnz |
+| **版本** | - |
 | **类目** | Git & GitHub |
 | **ClawHub** | https://clawskills.sh/skills/paulgnz-xpr-structured-data |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/paulgnz/xpr-structured-data |
-| **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `parse_csv` — parse CSV text into a JSON array of objects
-- Auto-detects delimiter (comma, tab, semicolon, pipe)
-- Handles quoted fields with embedded commas and newlines
-- Returns `data` (full array), `columns`, `row_count`, and `preview` (first 5 rows)
-- Use `limit` parameter for large datasets to get just the first N rows
-- `json_to_csv` — convert a JSON array of objects to CSV text
+- 解析 CSV 文本为 JSON 对象数组（自动检测分隔符：逗号、制表符、分号、管道符）
+- 处理带引号的字段（含嵌入逗号和换行符）
+- 将 JSON 数据转换为 CSV 格式输出
+- 生成 SVG 图表进行数据可视化
+- 支持分页和预览功能（返回列信息、行数和前 5 行预览）
+- 提供 `limit` 参数控制返回数据量
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 快速解析和转换 CSV/JSON 格式的结构化数据
+- 将数据转换为 SVG 图表进行可视化展示
+- 处理各种分隔符格式的表格数据
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `skill.json`
-- `src`
+## 依赖和前提条件
+- 无外部依赖，纯脚本实现
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
@@ -49,4 +46,4 @@
 **风险摘要:** 1 项中风险。混淆/反分析：使用编码/解码操作
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

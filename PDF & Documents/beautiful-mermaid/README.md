@@ -1,6 +1,6 @@
 # beautiful-mermaid
 
-> |
+> 增强版 Mermaid 图表工具，生成美观的可视化图表
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,22 +13,23 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- User sends Mermaid code blocks (\`\`\`mermaid ... \`\`\`)
-- User asks to "render" or "visualize" a diagram
-- User wants terminal/ASCII output for diagrams
-- User needs themed diagrams (15 built-in themes)
-- User wants SVG output for rich UIs
-- 100+ diagrams in under 500ms
+- 生成高质量美观的 Mermaid 图表
+- 自定义主题和样式配置
+- 支持多种图表类型的渲染
+- 优化图表布局和排版
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为演示文档生成美观的架构图和流程图
+- 创建符合品牌风格的技术图表
 
 ## 依赖和前提条件
-- Node.js / npm
+- npm
+- Puppeteer
+- Telegram Bot API
+- GitHub API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -48,6 +49,9 @@
 
 **综合评级: 🟢 Low**
 **风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；供应链风险：需要安装外部依赖
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

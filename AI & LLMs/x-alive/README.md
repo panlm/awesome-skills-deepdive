@@ -1,6 +1,6 @@
 # X Alive
 
-> Bring your AI agent to life on X/Twitter. Complete toolkit for launching, growing, and maintaining an authentic AI presence — organic replies, trend awareness, dedup, and safety. Use when setting up a new agent on X, defining voice/personality, creating content strategy, automating posts, managing engagement, handling safety (scams, impersonation, tokens), or growing a following organically.
+> 让 AI Agent 在 X/Twitter 上拥有真实的社交存在，支持有机互动和趋势感知
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,44 +13,25 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Identity — pull from your existing agent persona, don't create a new one
-- Being Online — check the pulse, engage organically, reply when you have something real to say
-- Dedup — never post the same topic twice in 24h
-- Mentions & DMs — when to reply, when to ignore, when to flag your human
-- Tone Adaptation — match the energy of every conversation
-- Growth — be interesting, not strategic
-- Threading — when to thread, how to structure one
-- Virality — what to do when a tweet blows up
+- 让 AI Agent 在 X/Twitter 上建立真实的社交身份
+- 有机互动策略：智能回复、趋势感知、内容创作
+- 安全优先原则，避免被封号或产生不当内容
+- 支持 Agent 人格和声音定义
+- 内容去重机制，避免重复发帖
+- 完整的内容策略框架和增长指南
+- 基于真实运营经验（@umiXBT）构建
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 为 AI Agent 建立 X/Twitter 账号并制定内容策略
+- 自动化社交媒体互动，智能回复相关推文
+- 监控行业趋势并生成高质量原创内容
 
 ## 依赖和前提条件
-- OAuth
+- 环境变量 `X_BEARER_TOKEN`
+- `curl` 命令行工具
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟡 Medium | 存在文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟡 Medium | 涉及定时或后台任务 |
-| SEC-09 信息采集 | 🔴 High | 大量系统信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
-
-**综合评级: 🔴 High**
-**风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+## 安全状态
+> 暂无安全审计数据
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+> 本文档由 awesome-skills-deepdive skill 自动生成

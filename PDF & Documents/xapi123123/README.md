@@ -1,6 +1,6 @@
 # xAPI
 
-> Use xapi CLI to access real-time external data — Twitter/X profiles, tweets, and timelines, crypto token prices and metadata, web search, news, and AI text processing (summarize, rewrite, chat, embeddings). Trigger this skill whenever the user wants to look up a Twitter user, get tweet details, check crypto prices, search the web or news, generate embeddings, summarize or rewrite text, or call any third-party API through xapi. Also use this skill when the user mentions xapi, asks about available capabilities or APIs, or wants to discover what external services are accessible.
+> xAPI 数据操作工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,24 +13,23 @@
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- X API v2 (`x-official`) — Official Twitter/X API with 156 endpoints (tweets, users, spaces, lists, DMs, etc.)
-- Reddit — Reddit API with 24 endpoints
-- Ave Cloud Data API — Crypto data with 19 endpoints
-- Twitter API — Alternative Twitter data API with 26 endpoints
-- OpenRouter API — Multi-model AI API gateway
-- Serper API — Google Search API with 10 endpoints
+- xAPI 语句创建和发送
+- 学习记录管理
+- 数据查询和检索
+- xAPI 标准兼容
 
 ## 使用场景
-- 自动化日常任务
-- 提升工作效率
-- 集成外部服务
+- 管理和操作 xAPI 格式的学习数据
+- 将学习活动数据转换为 xAPI 标准格式
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
-- OAuth
+- API 密钥
+- OAuth 认证
+- Google API
+- Stripe
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -50,6 +49,9 @@
 
 **综合评级: 🔴 High**
 **风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

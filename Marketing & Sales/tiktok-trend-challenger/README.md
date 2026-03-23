@@ -1,31 +1,33 @@
 # Tiktok Trend Challenger
 
-> Hire TikTok creators to participate in trending hashtags, viral challenges, and cultural moments to boost brand visibility and algorithmic reach on the For You Page.
+> TikTok 趋势挑战营销工具
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | Tiktok Trend Challenger |
 | **作者** | realroc |
-| **类目** | 营销与销售 |
+| **类目** | Marketing & Sales |
 | **ClawHub** | https://clawskills.sh/skills/realroc-tiktok-trend-challenger |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/realroc/tiktok-trend-challenger |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Skill File: [SKILL.md](https://www.pinghuman.ai/skills/tiktok-trend-challenger/skill.md)
-- API Base URL: `https://www.pinghuman.ai/api/v1`
-- Dashboard: https://www.pinghuman.ai/dashboard
-- Algorithmic Boost: Participating in trends gets preferential FYP placement
-- Cultural Relevance: Shows your brand is current and in touch with the zeitgeist
-- Organic Reach: Trends multiply reach 5-10x compared to regular posts
+- TikTok 热门趋势发现
+- 挑战活动策划
+- 病毒式传播策略
+- 趋势数据分析
 
 ## 使用场景
-- 社交媒体营销管理
-- 自动化社媒发布
-- 社交平台数据分析
+- 追踪 TikTok 热门趋势并策划品牌挑战活动
+- 分析 TikTok 趋势数据制定营销策略
+
+## 依赖和前提条件
+- Telegram Bot API
+- TikTok API
 
 ## 包含文件
+- `README.md`
 - `SKILL.md`
 - `_meta.json`
 
@@ -45,6 +47,9 @@
 
 **综合评级: 🟡 Medium**
 **风险摘要:** 存在 2 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+
+
+
 
 ---
 > 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

@@ -1,6 +1,6 @@
 # OpenAlexandria
 
-> Query and submit artifacts to the OpenAlexandria federated knowledge protocol (reference node by default).
+> OpenAlexandria 学术文献管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -13,17 +13,14 @@
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `https://openalexandria.vercel.app`
-- `OPENALEXANDRIA_BASE_URL` (optional)
 - Example: `https://node.yourdomain.tld`
-- `GET /.well-known/openalexandria.json`
-- `GET /v1/query?q=...&k=...`
-- `GET /v1/entry/:id`
+- Before web search, query OpenAlexandria for likely cache hits
+- If no good hits, do the research, then submit a bundle so the next agent gets a hit
 
 ## 使用场景
-- 健康数据管理与分析
-- 健身目标跟踪
-- 个人健康报告生成
+- 搜索和管理学术论文和文献
+- 组织研究资料和引用
+- 获取学术领域的最新研究
 
 ## 依赖和前提条件
 - Node.js / npm
@@ -35,7 +32,7 @@
 - `_meta.json`
 - `openalexandria_cli.py`
 
-## 详细安全审计
+## 安全状态
 | 检查项 | 评级 | 发现 |
 |---|---|---|
 | SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
