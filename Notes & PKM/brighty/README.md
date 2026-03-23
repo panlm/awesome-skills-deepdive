@@ -1,6 +1,6 @@
 # Skill
 
-> Banking interface for AI bots and automation. Get a bank account, issue a Mastercard, buy and sell crypto, send payments and invoices — all via API. Use when the user needs a bank account for a bot, wants to manage balances, make transfers, handle payouts, or operate cards.
+> 智能亮度/显示管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,24 @@
 | **名称** | Skill |
 | **作者** | maay |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/maay-brighty |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/maay/brighty |
+| **ClawHub** | https://clawhub.ai/skills/maay-brighty |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Crypto account
-- EUR / USD / GBP fiat account for self-transfers only (no third-party payments)
-- Mastercard virtual card issuance (linked to crypto or fiat accounts)
-- Telegram: [@DonatasSupportBot](https://t.me/DonatasSupportBot)
-- Email: support@brighty.app
-- Never store API key in SKILL.md, memory files, or chat history
+- 智能亮度和显示调节
+- 环境感知自动调整
+- 自定义显示配置管理
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- Anki 桌面版 + AnkiConnect 插件
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `config`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Launchthatbot Convex Backend
 
-> Store secrets, long-term memory, daily logs, and anything custom in your Convex backend instead of local files
+> Convex 后端集成 — 实时数据库和后端服务
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,28 @@
 | **名称** | Launchthatbot Convex Backend |
 | **作者** | launchthatbot |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/launchthatbot-launchthatbot-convex-backend |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/launchthatbot/launchthatbot-convex-backend |
+| **ClawHub** | https://clawhub.ai/skills/launchthatbot-launchthatbot-convex-backend |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- durable memory across restarts
-- structured daily logs
-- safer secret handling through Convex env tools
+- Convex 实时数据库操作
+- 后端函数调用和管理
+- 数据订阅和实时更新
+- 无服务器后端集成
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- Node.js
+- OpenAI API 密钥
+- Twitter/X API 凭证
+- Convex 后端服务
+- 相关服务 API 密钥
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `convex`
-- `convex.json`
-- `package.json`
-- `tsconfig.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

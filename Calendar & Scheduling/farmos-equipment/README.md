@@ -1,6 +1,6 @@
 # Farmos Equipment
 
-> Query equipment status, maintenance schedules, and service history for the farm fleet. Uses integration endpoints (no auth required).
+> FarmOS 农业设备管理 — 农场设备调度和追踪
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Farmos Equipment |
 | **作者** | brianppetty |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/brianppetty-farmos-equipment |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/brianppetty/farmos-equipment |
+| **ClawHub** | https://clawhub.ai/skills/brianppetty-farmos-equipment |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- schedule_id, equipment_id, equipment_name
-- maintenance_name, priority (low/normal/high/critical)
-- trigger_type (hours/calendar/seasonal)
-- hours_overdue or days_overdue
-- estimated_duration_minutes
-- parts_required list
+- 农场设备调度和追踪
+- 设备维护计划管理
+- 使用记录和效率分析
+- 库存和配件管理
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Bear 笔记应用 (macOS/iOS)
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

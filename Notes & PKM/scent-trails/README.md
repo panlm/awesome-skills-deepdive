@@ -1,6 +1,6 @@
 # Scent Trails
 
-> A stigmergic intelligence primitive for care, memory, and co-existence.
+> 气味追踪 — 基于关联路径的知识发现和探索
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,24 @@
 | **名称** | Scent Trails |
 | **作者** | otherpowers |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/otherpowers-scent-trails |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/otherpowers/scent-trails |
+| **ClawHub** | https://clawhub.ai/skills/otherpowers-scent-trails |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- identity artifacts
-- contributor records
-- persistent archives
-- leave traces with care
-- sense without extraction
-- coordinate through gradients, not command
+- 基于关联路径发现相关知识
+- 信息踪迹追踪和可视化
+- 知识探索和深度挖掘
+- 关联强度评估和推荐
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `ANTI_PATTERNS.md`
-- `DECAY_AND_COMPOST.md`
-- `DRIFT_AND_REFRACTION.md`
-- `ORIGINAL_README.md`
-- `RESONANT_IMMUNE_SYSTEM.md`
-- `SCENT_TRAILS_DISCOVERABILITY.md`
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- Anki 桌面版 + AnkiConnect 插件
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

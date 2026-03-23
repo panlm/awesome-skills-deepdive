@@ -1,6 +1,6 @@
 # Firefly III
 
-> Manage personal finances via Firefly III API. Use when user asks about budgets, transactions, accounts, categories, piggy banks, subscriptions, recurring transactions, or financial reports. Supports creating, listing, updating transactions; managing accounts and balances; setting budgets; tracking savings goals.
+> Firefly III 集成 — 开源个人财务管理系统操作
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,25 @@
 | **名称** | Firefly III |
 | **作者** | pushp1997 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/pushp1997-firefly-iii |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/pushp1997/firefly-iii |
+| **ClawHub** | https://clawhub.ai/skills/pushp1997-firefly-iii |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `FIREFLY_URL`: Base URL (e.g., `https://budget.example.com`)
-- `FIREFLY_TOKEN`: Personal Access Token (stored at `~/.firefly_token`)
-- `422 Unprocessable Entity`: Check required fields in error response
-- `401 Unauthorized`: Token expired or invalid
-- `404 Not Found`: Resource doesn't exist
-- Use `source_name`/`destination_name` to auto-create expense/revenue accounts
+- Firefly III 个人财务系统操作
+- 交易记录和分类管理
+- 预算追踪和报告
+- 银行账户自动同步
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- OAuth
+- Firefly III 实例和 API 凭证
+- Bear 笔记应用 (macOS/iOS)
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

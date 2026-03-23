@@ -1,6 +1,6 @@
 # Macro Regime Detector
 
-> Detect the current macro regime (Risk-On, Risk-Off, Inflationary, Deflationary, Stagflation) using multi-source intelligence. Combines Fear & Greed, DXY, yield curve, VIX, gold/BTC ratio, Reddit sentiment, and major news events. Use when you need macro regime analysis, risk-on vs risk-off determination, portfolio positioning advice, or crypto market context.
+> 宏观经济体制检测 — 市场周期和经济趋势分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Macro Regime Detector |
 | **作者** | jamierossouw |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/jamierossouw-macro-regime-detector |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jamierossouw/macro-regime-detector |
+| **ClawHub** | https://clawhub.ai/skills/jamierossouw-macro-regime-detector |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Fear & Greed (`alternative.me/fng`): 0-100 score, regime anchor
-- Reddit pulse: r/CryptoCurrency, r/investing hot posts, bearish/bullish ratio
-- DXY proxy: BTC/USD inverse correlation check
-- News NLP: major economic event detection (Fed, CPI, NFP, SEC)
-- On-chain: BTC exchange flows, miner capitulation signals
-- Feb 21 2026: Regime B (Neutral/Cooling) | F&G=8, "Extreme Fear" | Contrarian bullish signal active
+- 宏观经济周期识别和分析
+- 市场体制变化检测
+- 经济指标趋势追踪
+- 投资策略建议
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Bear 笔记应用 (macOS/iOS)
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

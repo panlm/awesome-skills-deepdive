@@ -1,6 +1,6 @@
 # ACC Error Memory
 
-> "Error pattern tracking for AI agents. Detects corrections, escalates recurring mistakes, learns mitigations. The 'something's off' detector from the AI Brain series."
+> AI Agent 错误模式追踪与学习工具 — 自动检测纠错、升级重复问题
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,28 @@
 | **名称** | ACC Error Memory |
 | **作者** | impkind |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/impkind-acc-error-memory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/impkind/acc-error-memory |
+| **ClawHub** | https://clawhub.ai/skills/impkind-acc-error-memory |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Detects when users correct or express frustration
-- Logs error patterns with context and mitigations
-- Escalates recurring patterns (normal → warning → critical)
-- Resolves patterns that haven't recurred in 30+ days
+- 自动检测用户纠正和不满情绪，识别 Agent 错误
+- 记录错误模式及上下文信息和缓解方案
+- 根据重复次数自动升级风险等级（正常→警告→严重）
+- 超过 30 天未复发的模式自动标记为已解决
+- 会话启动时加载错误状态，提醒需要注意的问题
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 自我改进：自动追踪和学习错误，持续提升回答质量
+- 客服场景：检测用户不满并记录错误模式，改善服务体验
+- 团队协作：多 Agent 共享错误经验，避免重复犯错
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
+- OpenAI API 密钥
+- Anthropic API 密钥
+- 运行 install.sh 安装脚本
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `install.sh`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

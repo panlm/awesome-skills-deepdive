@@ -1,6 +1,6 @@
 # McDonald's China
 
-> Query McDonald's China MCP server via the mcd-cn CLI for campaign calendars, coupons, and auto-claiming. Use for human-friendly coupon lookup or JSON output for scripts.
+> MCD 中国版 — 本地化工具和服务
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,23 @@
 | **名称** | McDonald's China |
 | **作者** | ryanchen01 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/ryanchen01-mcd-cn |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ryanchen01/mcd-cn |
+| **ClawHub** | https://clawhub.ai/skills/ryanchen01-mcd-cn |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Homebrew: `brew install ryanchen01/tap/mcd-cn`
-- `MCDCN_MCP_TOKEN` required. Get it from the McDonald's China MCP console.
-- Optional: `MCDCN_MCP_URL` for custom server URL.
-- Campaign calendar: `mcd-cn campaign-calender`
-- Calendar for date: `mcd-cn campaign-calender --specifiedDate 2025-12-09`
-- Available coupons: `mcd-cn available-coupons`
+- 中国本地化功能和服务
+- 中文内容处理和优化
+- 国内平台集成支持
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Homebrew
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

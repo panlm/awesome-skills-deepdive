@@ -1,6 +1,6 @@
 # Elite Longterm Memory
 
-> "Ultimate AI agent memory system for Cursor, Claude, ChatGPT & Copilot. WAL protocol + vector search + git-notes + cloud backup. Never lose context again. Vibe-coding ready."
+> 精英长期记忆系统 — 高级持久化记忆与智能召回
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,35 +8,29 @@
 | **名称** | Elite Longterm Memory |
 | **作者** | nextfrontierbuilds |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/nextfrontierbuilds-elite-longterm-memory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/elite-longterm-memory |
+| **ClawHub** | https://clawhub.ai/skills/nextfrontierbuilds-elite-longterm-memory |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- ✅ Bulletproof WAL Protocol — Write-ahead logging survives compaction
-- ✅ LanceDB Vector Search — Semantic recall of relevant memories
-- ✅ Git-Notes Knowledge Graph — Structured decisions, branch-aware
-- ✅ File-Based Archives — Human-readable MEMORY.md + daily logs
-- ✅ Cloud Backup — Optional SuperMemory sync
-- ✅ Memory Hygiene — Keep vectors lean, prevent token waste
+- 高级长期记忆持久化存储
+- 基于语义的智能记忆召回
+- 记忆重要性评分和优先级
+- 自适应记忆容量管理
+- 支持多模态记忆内容
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- Python 3.x
+- Node.js 及相关依赖
+- OpenAI API 密钥
+- Anthropic API 密钥
+- 相关服务 API 密钥
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `bin`
-- `package.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # feishu-calendar
 
-> Manage Feishu (Lark) Calendars. Use this skill to list calendars, check schedules, and sync events.
+> 飞书日历集成 — 创建、查询和管理飞书日程事件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,35 +8,26 @@
 | **名称** | feishu-calendar |
 | **作者** | autogame-17 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/autogame-17-feishu-calendar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/autogame-17/feishu-calendar |
+| **ClawHub** | https://clawhub.ai/skills/autogame-17-feishu-calendar |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 创建和管理飞书日历事件
+- 会议室预订和参与者邀请
+- 日程查询和冲突检测
+- 飞书日历与 Agent 工作流集成
+
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 通过自然语言创建和管理日历事件
+- 自动检测日程冲突并建议最佳时间
+- 每日日程摘要和即将到来的事件提醒
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
+- 飞书应用凭证
+- Lark 应用凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `check.js`
-- `check_master.js`
-- `cleanup.js`
-- `create.js`
-- `lib`
-- `list_test.js`
-- `package-lock.json`
-- `package.json`
-- `search_cal.js`
-- `setup_routine.js`
-- `setup_shared.js`
-- `sync.js`
-- `sync_routine.js`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

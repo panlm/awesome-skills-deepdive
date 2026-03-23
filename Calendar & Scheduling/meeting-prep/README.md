@@ -1,6 +1,6 @@
 # meeting-prep
 
-> "Automated meeting preparation and daily commit summaries. Use when checking Google Calendar for upcoming meetings, generating standup updates from GitHub commits, or sending daily development summaries. Pulls meeting schedules and commit history, then formats verbose developer-friendly updates."
+> 会议准备助手 — 自动收集相关资料和生成议程
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,25 @@
 | **名称** | meeting-prep |
 | **作者** | hougangdev |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/hougangdev-meeting-prep |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/hougangdev/meeting-prep |
+| **ClawHub** | https://clawhub.ai/skills/hougangdev-meeting-prep |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Ask user: "Meeting [title] in X min. When was your last update? Which repos should I check?"
-- Track in state file to avoid duplicates
-- Generate update from commits
-- Send formatted update
+- 自动收集会议相关资料
+- 生成会议议程和准备清单
+- 参与者信息汇总
+- 历史会议记录回顾
 
 ## 使用场景
-- 准备和管理会议
-- 生成会议议程和摘要
-- 跟踪会议行动项
+- 会议前自动收集相关资料和准备议程
+- 会后自动生成纪要并分配行动项
+- 会议效率分析和改进建议
 
 ## 依赖和前提条件
-- OAuth
+- Bear 笔记应用 (macOS/iOS)
+- Google Calendar API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

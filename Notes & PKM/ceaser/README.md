@@ -1,6 +1,6 @@
 # Openclaw Skill
 
-> Interact with the Ceaser privacy protocol on Base L2 using the ceaser-mcp MCP tools. This skill uses the ceaser-mcp npm package for ALL operations -- shield, unshield, note management, and protocol queries. All ceaser tool calls use CLI subcommands (npx -y ceaser-mcp <subcommand>). Ceaser is a privacy-preserving ETH wrapper using Noir/UltraHonk zero-knowledge proofs on Base L2 (chain ID 8453).
+> 加密编码工具 — 文本加密解密和编码处理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Openclaw Skill |
 | **作者** | zyra-v21 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/zyra-v21-ceaser |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/zyra-v21/ceaser |
+| **ClawHub** | https://clawhub.ai/skills/zyra-v21-ceaser |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Check denominations and fees before shielding
-- Monitor pool TVL and note count
-- Verify a nullifier is unspent before attempting unshield
-- Check facilitator health and circuit breaker state
-- Browse indexed commitments and Merkle tree state
+- 文本加密和解密处理
+- 多种编码格式转换
+- 密码学工具集成
+- 安全通信辅助功能
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,22 +1,32 @@
 # agent-memory-ultimate
 
-> agent-memory-ultimate skill for OpenClaw
+> AI Agent 终极记忆系统 — 跨会话持久化记忆管理
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
 | **名称** | agent-memory-ultimate |
-| **作者** | unknown |
+| **作者** | globalcaos |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/unknown-agent-memory-ultimate |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/agent-memory-ultimate |
+| **ClawHub** | https://clawhub.ai/skills/globalcaos-agent-memory-ultimate |
 | **安全评级** | 🟢 Low |
 
-## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+## 功能概述
+- 跨会话持久化存储 Agent 记忆
+- 智能记忆检索和相关性排序
+- 记忆衰减和强化机制模拟人类记忆
+- 支持结构化和非结构化数据存储
+- 记忆容量管理和自动清理
 
+## 使用场景
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

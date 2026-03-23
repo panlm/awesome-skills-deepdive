@@ -1,6 +1,6 @@
 # Publora Facebook
 
-> >
+> Publora Facebook — 自动发布内容到 Facebook
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Publora Facebook |
 | **作者** | sergebulaev |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/sergebulaev-publora-facebook |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-facebook |
+| **ClawHub** | https://clawhub.ai/skills/sergebulaev-publora-facebook |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- A Facebook Page (not a personal profile) connected via OAuth
-- Page admin permissions granted during OAuth
-- `Error 1363026` — video over 40 min → trim to under 45 min
-- `Error 1363023` — file over 2 GB → compress
-- `Error 1363128` — Reels duration outside 3–90s range
-- Pages only — personal profiles are not supported via the Facebook Graph API
+- 自动发布内容到 Facebook
+- 页面和群组发布管理
+- 多媒体内容支持
+- 发布效果追踪
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- OAuth
+- Facebook API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

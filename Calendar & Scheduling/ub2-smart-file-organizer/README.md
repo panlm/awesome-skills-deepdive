@@ -1,6 +1,6 @@
 # Smart File Organizer
 
-> A skill that enables Claw to scan a directory, categorize files by type and content, and reorganize them into a clean, logical folder structure.
+> UB2 智能文件整理 — 自动分类、重命名和组织文件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Smart File Organizer |
 | **作者** | underbench2-gif |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/underbench2-gif-ub2-smart-file-organizer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/underbench2-gif/ub2-smart-file-organizer |
+| **ClawHub** | https://clawhub.ai/skills/underbench2-gif-ub2-smart-file-organizer |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "Organize my Downloads folder by file type"
-- "Scan this project directory and find all duplicate files"
-- "Sort these files into folders by year based on their modification date"
-- "Clean up this directory — group documents, images, and code separately"
-- Dry Run Mode — Preview the proposed changes before any files are moved (enabled by default)
-- Change Log — Every file move is logged to `reorganization_log.txt` for full traceability
+- 智能文件分类和组织
+- 自动重命名和归档
+- 文件去重和清理
+- 自定义组织规则
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

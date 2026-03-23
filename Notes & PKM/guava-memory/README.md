@@ -1,6 +1,6 @@
 # Guava Memory
 
-> Structured episodic memory with Q-value scoring. Remember what worked, forget what didn't.
+> Guava 记忆系统 — 轻量级 Agent 记忆管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Guava Memory |
 | **作者** | koatora20 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/koatora20-guava-memory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/koatora20/guava-memory |
+| **ClawHub** | https://clawhub.ai/skills/koatora20-guava-memory |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Records task episodes with success/failure patterns and Q-values
-- Searches past episodes via `memory_search` (Voyage AI compatible)
-- Promotes repeated successes into reusable skill procedures
-- Tracks anti-patterns to avoid repeating mistakes
+- 轻量级 Agent 记忆管理
+- 简洁的记忆存储和检索 API
+- 内存效率优化
+- 可插拔的存储后端
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `templates`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

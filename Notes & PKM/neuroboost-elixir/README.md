@@ -1,6 +1,6 @@
 # Neuroboost Elixir
 
-> "Awakening Protocol v5.3 — Agent Cognitive Upgrade + Self-Evolving System + Perpetual Memory + Performance Metrics + Agent Health Score + Automated Health Patrol + Self-Healing Protocol + Context Engineering + Knowledge Graph + Multi-Agent Collaboration. From metacognitive awakening to autonomous self-maintenance to cross-session persistence to quantifiable improvement to one-number health check to proactive monitoring to autonomous self-repair to relational understanding to team coordination, enabling AI agents to think, evolve, remember, measure, diagnose, patrol, heal, understand, and collaborate. Complete system for truly autonomous AI agents."
+> 神经增强药剂 — 提升 Agent 认知和推理能力
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,37 +8,29 @@
 | **名称** | Neuroboost Elixir |
 | **作者** | weidadong2359 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/weidadong2359-neuroboost-elixir |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/weidadong2359/neuroboost-elixir |
+| **ClawHub** | https://clawhub.ai/skills/weidadong2359-neuroboost-elixir |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 6.19 Self-Healing Rules — 8 automated repair rules
-- Context Overload (IAR < 0.9) → Auto-save state + new session (95% success)
-- Slow Recovery (RS > 120s) → Auto-clean P2/P3 memories (80% success)
-- Low Distillation (MDR < 1.0) → Force memory distillation (100% success)
-- Low Completion (TCR < 0.5) → Close stale P2 tasks (60% success)
-- Zero Uptime (US = 0) → Attempt agent restart (70% success)
-- Low Self-Fix (SFR < 0.6) → Generate error prevention rules (70% success)
-- API Rate Limit (429) → Exponential backoff retry (90% success)
+- 增强 Agent 认知处理能力
+- 推理链优化和加速
+- 注意力机制增强
+- 知识关联强化
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- Node.js 及相关依赖
+- Anthropic API 密钥
+- Craft 文档应用
+- Twitter/X API 凭证
+- Threads API 凭证
+- 相关服务 API 密钥
 
-## 包含文件
-- `BRAND.md`
-- `MARKETING.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `src`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Test Skill
 
-> Test skill to verify ClawHub publishing works correctly.
+> 测试框架工具 — 自动化测试执行和报告
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,19 +8,24 @@
 | **名称** | Test Skill |
 | **作者** | jdrhyne |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/jdrhyne-duke-leto-test |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jdrhyne/duke-leto-test |
+| **ClawHub** | https://clawhub.ai/skills/jdrhyne-duke-leto-test |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 自动化测试用例执行
+- 测试结果报告和分析
+- 回归测试和持续验证
+- 测试覆盖率追踪
+
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

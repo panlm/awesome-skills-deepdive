@@ -1,6 +1,6 @@
 # Craft API Skill and Obsidian Migration Tool
 
-> Complete REST API integration for Craft.do - the beautiful note-taking and document app.
+> Craft.do 文档平台集成 — 富文本文档创建与管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,35 +8,26 @@
 | **名称** | Craft API Skill and Obsidian Migration Tool |
 | **作者** | atomtanstudio |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/atomtanstudio-craft-do |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/atomtanstudio/craft-do |
+| **ClawHub** | https://clawhub.ai/skills/atomtanstudio-craft-do |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🔄 Obsidian Migration - Full vault migration with nested folders & content
-- 📝 Document Management - Create, read, organize documents programmatically
-- ✅ Task Automation - Create, update, list tasks across inbox/daily notes/logbook
-- 📁 Folder Organization - Build nested folder hierarchies via API
-- 🔧 Helper Scripts - Ready-to-use bash scripts for common operations
-- 🧹 Cleanup Tools - Safe deletion and recovery utilities
+- Craft.do 平台文档操作
+- 空间和文件夹管理
+- 块级内容编辑
+- 链接和嵌入支持
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- API Key
+- Bear 笔记应用 (macOS/iOS)
+- Craft 文档应用
+- 相关服务 API 密钥
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `cleanup-craft.sh`
-- `craft-api.sh`
-- `migrate-obsidian-nested.sh`
-- `migrate-obsidian.sh`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

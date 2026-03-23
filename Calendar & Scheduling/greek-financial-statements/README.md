@@ -1,6 +1,6 @@
 # Greek Financial Statements
 
-> Greek financial statement generation — P&L, balance sheets, VAT summaries with EGLS integration. Completeness gates prevent partial outputs.
+> 希腊财务报表处理 — 希腊标准财务文档解析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Greek Financial Statements |
 | **作者** | satoshistackalotto |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/satoshistackalotto-greek-financial-statements |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/greek-financial-statements |
+| **ClawHub** | https://clawhub.ai/skills/satoshistackalotto-greek-financial-statements |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Completeness First: Never generate a statement with incomplete source data — halt and report blockers
-- ΕΓΛΣ Native: All accounts classified per Greek Chart of Accounts standards
-- Versioned & Immutable: Once issued, a statement is never overwritten — amendments create new versions
-- Bilingual Output: Greek labels for client-facing documents, English for internal use
-- Balance Sheet Must Balance: Assets must equal equity plus liabilities — halt on any mismatch
-- Human Oversight: All generated statements are drafts until a senior accountant reviews and issues them
+- 解析希腊标准财务报表
+- 财务数据提取和结构化
+- 合规性检查和验证
+- 报表格式转换
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `EVALS.json`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Anki 桌面版 + AnkiConnect 插件
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

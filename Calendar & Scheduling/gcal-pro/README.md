@@ -1,6 +1,6 @@
 # gcal-pro - Google Calendar
 
-> Google Calendar integration for viewing, creating, and managing calendar events. Use when the user asks about their schedule, wants to add/edit/delete events, check availability, or needs a morning brief. Supports natural language like "What's on my calendar tomorrow?" or "Schedule lunch with Alex at noon Friday." Free tier provides read access; Pro tier ($12) adds create/edit/delete and morning briefs.
+> Google Calendar 专业版 — 增强型谷歌日历操作和分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,37 +8,25 @@
 | **名称** | gcal-pro - Google Calendar |
 | **作者** | bilalmohamed187-cpu |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/bilalmohamed187-cpu-gcal-pro |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bilalmohamed187-cpu/gcal-pro |
+| **ClawHub** | https://clawhub.ai/skills/bilalmohamed187-cpu-gcal-pro |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ✅ View today's events
-- ✅ View tomorrow / this week
-- ✅ Search events
-- ✅ List calendars
-- ✅ Find free time slots
-- ✅ Everything in Free
+- 增强型 Google Calendar 操作
+- 智能日程分析和建议
+- 批量事件管理
+- 高级过滤和搜索
 
 ## 使用场景
-- 管理 Google Calendar 事件
-- 查询日程与会议安排
-- 自动创建和更新日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Python / pip
-- OAuth
+- Python 3.x 及相关依赖
+- Google Calendar API 凭证
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `README-INSTALL.txt`
-- `SKILL.md`
-- `_meta.json`
-- `docs`
-- `references`
-- `requirements.txt`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Dev Chronicle
 
-> Generate narrative chronicles of developer work from git history, session transcripts, and memory files. Use when the user asks "what did I do today/this week", wants a work summary, daily/weekly chronicle, standup notes, or portfolio narrative. Also triggers on "chronicle", "dev diary", "work story", "recap", or "standup".
+> 开发日志记录工具 — 自动追踪开发活动和变更
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,35 +8,27 @@
 | **名称** | Dev Chronicle |
 | **作者** | sssamuelll |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/sssamuelll-dev-chronicle |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sssamuelll/dev-chronicle |
+| **ClawHub** | https://clawhub.ai/skills/sssamuelll-dev-chronicle |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- "What did I do today?"
-- "Generate a chronicle for this week"
-- "Standup notes"
-- "Write a portfolio narrative for [project]"
-- Daily Chronicle — narrative recap with themes, decisions, and metrics
-- Weekly Chronicle — arcs and progress over individual tasks
+- 自动记录开发活动和代码变更
+- Git 提交和 PR 追踪
+- 开发时间线可视化
+- 项目进展报告生成
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
+- Python 3.x
+- Notion API 集成令牌
+- LinkedIn API 凭证
+- Threads API 凭证
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `config.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

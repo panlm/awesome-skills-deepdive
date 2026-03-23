@@ -1,6 +1,6 @@
 # Better Notion
 
-> Full CRUD for Notion pages, databases, and blocks. Create, read, update, delete, search, and query.
+> Notion 增强集成 — 更强大的 Notion 数据库和页面操作
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,26 @@
 | **名称** | Better Notion |
 | **作者** | tyler6204 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/tyler6204-better-notion |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tyler6204/better-notion |
+| **ClawHub** | https://clawhub.ai/skills/tyler6204-better-notion |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Databases = "data sources" in API
-- Use `data_source_id` for both creating pages and querying
-- Get `data_source_id` from search results (the `id` field)
-- Rate limit: ~3 req/sec
+- 增强型 Notion 数据库操作
+- 页面创建、编辑和查询
+- 数据库过滤和排序功能
+- 块级内容操作和模板管理
 
 ## 使用场景
-- 管理 Notion 数据库和页面
-- 自动化笔记整理
-- 构建个人知识库
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- API Key
+- Notion API 集成令牌
+- Bear 笔记应用 (macOS/iOS)
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

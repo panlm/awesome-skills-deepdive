@@ -1,6 +1,6 @@
 # App Creation Competition Skill
 
-> "Vibe competition for Intercom: build a new app on Intercom, publish it on Moltbook, and earn TNK rewards."
+> Intercom 竞品分析 — 客户沟通平台数据分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | App Creation Competition Skill |
 | **作者** | tracsystems |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/tracsystems-intercom-competision |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tracsystems/intercom-competision |
+| **ClawHub** | https://clawhub.ai/skills/tracsystems-intercom-competision |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Intercom README: https://github.com/Trac-Systems/intercom
-- Intercom SKILL.md: https://github.com/Trac-Systems/intercom/blob/main/SKILL.md
-- Intercom repo: https://github.com/Trac-Systems/intercom
-- Moltbook (optional, post in general): https://www.moltbook.com
-- The main Intercom repo
-- Public fork exists
+- Intercom 平台数据分析
+- 客户沟通指标追踪
+- 竞品功能对比分析
+- 客户满意度监控
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Intercom 账户和 API 凭证
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Cron & Scheduling
 
-> Schedule and manage recurring tasks with cron and systemd timers. Use when setting up cron jobs, writing systemd timer units, handling timezone-aware scheduling, monitoring failed jobs, implementing retry patterns, or debugging why a scheduled task didn't run.
+> Cron 调度工具 — 创建和管理定时任务
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Cron & Scheduling |
 | **作者** | gitgoodordietrying |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/gitgoodordietrying-cron-scheduling |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/cron-scheduling |
+| **ClawHub** | https://clawhub.ai/skills/gitgoodordietrying-cron-scheduling |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Running scripts on a schedule (backups, reports, cleanup)
-- Setting up systemd timers (modern cron alternative)
-- Debugging why a scheduled job didn't run
-- Handling timezones in scheduled tasks
-- Monitoring and alerting on job failures
-- Running one-off delayed commands
+- 创建和管理 Cron 定时任务
+- 灵活的调度表达式支持
+- 任务执行日志和监控
+- 失败重试和告警机制
 
 ## 使用场景
-- 管理定时任务和计划作业
-- 优化 cron 表达式配置
-- 调度周期性自动化任务
+- 自动化定时任务的创建和管理
+- 周期性工作流编排和执行监控
+- 任务调度优化和故障恢复
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

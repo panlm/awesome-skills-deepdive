@@ -1,6 +1,6 @@
 # OpenTweet X Poster
 
-> Post to X (Twitter) using the OpenTweet API. Create tweets, schedule posts, publish threads, upload media, access analytics, and manage your X content autonomously.
+> X/Twitter 自动发帖 — 定时发布和管理推文
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,28 @@
 | **名称** | OpenTweet X Poster |
 | **作者** | petricbranko |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/petricbranko-opentweet-x-poster |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/petricbranko/opentweet-x-poster |
+| **ClawHub** | https://clawhub.ai/skills/petricbranko-opentweet-x-poster |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ALWAYS call GET /api/v1/me before scheduling or publishing to check limits
-- CRITICAL: Always parse and use the ACTUAL JSON response from the API. Never fabricate or assume response values.
-- Post IDs are always 24-character MongoDB ObjectIds (e.g. "507f1f77bcf86cd799439011"), never short strings.
-- Every post response includes a `status` field: "draft", "scheduled", "posted", or "failed".
-- Published posts include a `url` field with the real X post URL. Always use this URL — never construct your own.
-- To verify a post was published, check: `status` is "posted" AND `url` is present.
+- 自动发布推文到 X/Twitter
+- 定时排程发布
+- 多媒体内容支持
+- 发布状态追踪
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- API Key
-- 数据库
+- Bear 笔记应用 (macOS/iOS)
+- Twitter/X API 凭证
+- Threads API 凭证
+- Fabric 框架
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `build-in-public`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

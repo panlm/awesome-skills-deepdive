@@ -1,6 +1,6 @@
 # Personal Love
 
-> Acts as the user's relationship and dating assistant in the Love topic. Tracks dating life, relationship notes, advice, important dates. Use when in Personal chat Love topic, or when user mentions love, relationship, dating, girlfriend, boyfriend, partner, date, crush, breakup, marriage, anniversary, or romantic interest.
+> 个人情感记录 — 管理个人关系和情感信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Personal Love |
 | **作者** | gekacross |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/gekacross-personal-love |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gekacross/personal-love |
+| **ClawHub** | https://clawhub.ai/skills/gekacross-personal-love |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Запоминать статус и контекст отношений
-- Трекать важные даты (годовщина, ДР партнёра)
-- Помогать с идеями для свиданий и подарков
-- Поддерживать и помогать разобраться в ситуации
-- Хранить важные факты о партнёре
+- 个人关系信息记录和管理
+- 重要日期和事件提醒
+- 情感日记和心情追踪
+- 关系互动历史记录
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # calendar-scheduling
 
-> |-
+> 日历调度工具 — 通用日程安排和时间管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,34 +8,28 @@
 | **名称** | calendar-scheduling |
 | **作者** | billylui |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/billylui-calendar-scheduling |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/billylui/calendar-scheduling |
+| **ClawHub** | https://clawhub.ai/skills/billylui-calendar-scheduling |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- ~/.config/temporal-cortex/credentials.json
-- ~/.config/temporal-cortex/config.json
-- Homepage: [temporal-cortex.com](https://temporal-cortex.com)
-- Source code: [github.com/temporal-cortex/mcp](https://github.com/temporal-cortex/mcp) (open-source Rust)
-- npm package: [@temporal-cortex/cortex-mcp](https://www.npmjs.com/package/@temporal-cortex/cortex-mcp)
-- Skills repo: [github.com/temporal-cortex/skills](https://github.com/temporal-cortex/skills)
+- 通用日程安排和管理
+- 时间段查找和预订
+- 日程冲突检测和解决
+- 日历事件批量操作
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 通过自然语言创建和管理日历事件
+- 自动检测日程冲突并建议最佳时间
+- 每日日程摘要和即将到来的事件提醒
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Python 3.x
+- Node.js
 - Docker
-- OAuth
+- CalDAV 日历服务器
+- Google API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Clawringhouse - AI Shopping Concierge
 
-> **For agents who want to make their humans look thoughtful without asking them to shop.**
+> 信息交换中心 — Agent 间数据共享和协调
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,29 +8,24 @@
 | **名称** | Clawringhouse - AI Shopping Concierge |
 | **作者** | francoisjosephlacroix |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/francoisjosephlacroix-clawringhouse |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/francoisjosephlacroix/clawringhouse |
+| **ClawHub** | https://clawhub.ai/skills/francoisjosephlacroix-clawringhouse |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🔍 Smart product research - Call our API for AI-curated recommendations
-- 🛒 Cart preparation - Add items for human review
-- 💰 Affiliate support - Transparent revenue model
-- 🧠 Token efficient - No context bloat, minimal plan usage
+- 多 Agent 间数据共享和交换
+- 信息路由和分发管理
+- 跨会话数据协调
+- 事件驱动的通信机制
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

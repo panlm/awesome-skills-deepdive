@@ -1,6 +1,6 @@
 # Apple Calendar
 
-> Apple Calendar.app integration for macOS. CRUD operations for events, search, and multi-calendar support.
+> macOS 日历应用集成 — 创建、查询和管理 Apple Calendar 事件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,24 @@
 | **名称** | Apple Calendar |
 | **作者** | tyler6204 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/tyler6204-apple-calendar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-calendar |
+| **ClawHub** | https://clawhub.ai/skills/tyler6204-apple-calendar |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Timed: `YYYY-MM-DD HH:MM`
-- All-day: `YYYY-MM-DD`
-- Events/search: `UID | Summary | Start | End | AllDay | Location | Calendar`
-- Read: Full details with description, URL, recurrence
-- Read-only calendars (Birthdays, Holidays) can't be modified
-- Calendar names are case-sensitive
+- 创建、编辑和删除 Apple Calendar 事件
+- 按日期范围和关键词搜索日程
+- 支持定时和全天事件类型
+- 多日历管理和只读日历识别
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 通过 AI Agent 用自然语言创建和管理 macOS 日历事件
+- 每日日程摘要和即将到来的会议提醒
+- 自动检测日程冲突并建议最佳会议时间
 
 ## 依赖和前提条件
-- macOS
+- macOS 系统 + 日历应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

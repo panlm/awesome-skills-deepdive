@@ -1,6 +1,6 @@
 # advanced-calendar
 
-> Advanced calendar skill with natural language processing, automatic reminders, and multi-channel notifications
+> 高级日历 — 增强型日历事件管理和智能分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,41 +8,24 @@
 | **名称** | advanced-calendar |
 | **作者** | toughworm |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/toughworm-advanced-calendar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/toughworm/advanced-calendar |
+| **ClawHub** | https://clawhub.ai/skills/toughworm-advanced-calendar |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Natural Language Processing: Talk to your calendar in everyday language
-- Smart Event Creation: Automatically extracts dates, times, durations, and reminders
-- Interactive Assistance: Asks for missing information when needed
-- Multi-Channel Notifications: Sends notifications via WhatsApp, Discord, Telegram, Signal, and other configured channels
-- Persistent Reminders: If no acknowledgment is received, reminders repeat every 15 minutes like a snooze alarm
-- Flexible Reminders: Set reminders minutes, hours, or days in advance
+- 增强型日历事件管理
+- 智能日程分析和建议
+- 复杂重复规则支持
+- 多日历源聚合显示
 
 ## 使用场景
-- 设置和管理提醒事项
-- 跟踪待办任务
-- 通过自然语言创建提醒
+- 通过自然语言创建和管理日历事件
+- 自动检测日程冲突并建议最佳时间
+- 每日日程摘要和即将到来的事件提醒
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 
-## 包含文件
-- `CHANGELOG.md`
-- `ORIGINAL_README.md`
-- `PUBLISH.md`
-- `SKILL.md`
-- `UPDATES.md`
-- `_meta.json`
-- `docs`
-- `intent_handler.py`
-- `openclaw_integration.py`
-- `package.json`
-- `release-notes-v1.02.md`
-- `scripts`
-- `tests`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

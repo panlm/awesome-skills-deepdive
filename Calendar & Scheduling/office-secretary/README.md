@@ -1,6 +1,6 @@
 # office secretary
 
-> Secure M365 Assistant for Triage, Calendar coordination, and Governance.
+> 办公秘书 — 综合日程管理和行政事务自动化
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,24 @@
 | **名称** | office secretary |
 | **作者** | cenralsolution |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/cenralsolution-office-secretary |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cenralsolution/office-secretary |
+| **ClawHub** | https://clawhub.ai/skills/cenralsolution-office-secretary |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- SECRETARY_CLIENT_ID
-- SECRETARY_TENANT_ID
-- Mail: `python3 secretary_engine.py mail` (Triage high-priority mail).
-- Calendar: `python3 secretary_engine.py calendar [email]` (Find meeting slots).
-- Drive: `python3 secretary_engine.py drive` (List orphaned files).
-- Teams: `python3 secretary_engine.py teams [team_id] [channel_id] [msg]`.
+- 综合办公日程管理
+- 行政事务自动化处理
+- 邮件和消息代理
+- 会议安排和协调
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `requirements.txt`
-- `secretary_engine.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

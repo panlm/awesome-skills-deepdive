@@ -1,6 +1,6 @@
 # BookStack
 
-> "BookStack Wiki & Documentation API integration. Manage your knowledge base programmatically: create, read, update, and delete books, chapters, pages, and shelves. Full-text search across all content. Use when you need to: (1) Create or edit wiki pages and documentation, (2) Organize content in books and chapters, (3) Search your knowledge base, (4) Automate documentation workflows, (5) Sync content between systems. Supports both HTML and Markdown content."
+> BookStack 知识库集成 — 管理书籍、章节和页面
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,25 @@
 | **名称** | BookStack |
 | **作者** | xenofex7 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/xenofex7-bookstack |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xenofex7/bookstack |
+| **ClawHub** | https://clawhub.ai/skills/xenofex7-bookstack |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 📚 Books – create, edit, delete
-- 📑 Chapters – organize content within books
-- 📄 Pages – create/edit with HTML or Markdown
-- 🔍 Full-text search – search across all content
-- 📁 Shelves – organize books into collections
+- 管理 BookStack 知识库内容
+- 创建和编辑书籍、章节、页面
+- 全文搜索和内容检索
+- 权限管理和协作功能
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
+- BookStack 实例
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # feishu-memory-recall
 
-> Cross-group memory, search, and event sharing for OpenClaw Feishu agents
+> 飞书记忆召回 — 从飞书对话中提取和检索关键信息
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,26 +8,25 @@
 | **名称** | feishu-memory-recall |
 | **作者** | autogame-17 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/autogame-17-feishu-memory-recall |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/autogame-17/feishu-memory-recall |
+| **ClawHub** | https://clawhub.ai/skills/autogame-17-feishu-memory-recall |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 从飞书对话中提取关键信息
+- 飞书消息记忆索引和检索
+- 跨群组信息关联
+- 重要信息自动标记和归档
+
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
+- 飞书应用凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `index.js`
-- `package-lock.json`
-- `package.json`
-- `recall.js`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

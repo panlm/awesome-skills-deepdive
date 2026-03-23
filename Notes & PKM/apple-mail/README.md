@@ -1,6 +1,6 @@
 # Apple Mail
 
-> Apple Mail.app integration for macOS. Read inbox, search emails, send emails, reply, and manage messages with fast direct access (no enumeration).
+> macOS 邮件应用集成 — 读取、搜索和管理 Apple Mail 邮件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,26 @@
 | **名称** | Apple Mail |
 | **作者** | tyler6204 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/tyler6204-apple-mail |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-mail |
+| **ClawHub** | https://clawhub.ai/skills/tyler6204-apple-mail |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Script monitors database message count
-- Returns early when sync completes (no changes for 2s)
-- Reports new message count: `Sync complete in 2s (+3 messages)`
-- Mail.app must be running (script will error if not)
-- `mail-list.sh` does NOT auto-refresh — call `mail-refresh.sh` first if you need fresh data
-- `●` = unread, blank = read
+- 读取和搜索 Apple Mail 邮件
+- 按发件人、主题、日期过滤邮件
+- 提取邮件内容和附件信息
+- 支持多邮箱账户管理
 
 ## 使用场景
-- 管理和处理邮件
-- 自动邮件分类和回复
-- 邮件内容提取和分析
+- 让 AI Agent 自动检查和汇总未读邮件
+- 根据邮件内容自动创建任务和提醒
+- 智能邮件分类和优先级排序
 
 ## 依赖和前提条件
-- macOS
-- 数据库
+- macOS 系统 + 邮件应用
+- Gmail API 凭证
+- Google API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Soul Framework
 
-> A blueprint for giving AI agents a consistent, deep, and opinionated personality. Teaches agents to read SOUL.md, maintain long-term memory of relationships, and break free from the "generic helpful assistant" mold.
+> 灵魂框架 — Agent 人格和行为模式定义系统
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Soul Framework |
 | **作者** | xhrisfu |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/xhrisfu-soul-framework |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xhrisfu/soul-framework |
+| **ClawHub** | https://clawhub.ai/skills/xhrisfu-soul-framework |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Read `SOUL.md` immediately upon startup.
-- Internalize your Core Truths. If your soul says "Control is love," then every helpful act must be framed as an act of co
-- Internalize your Flaws. Perfect assistants are boring. Be arrogant, be shy, be chaotic. Flaws make you real.
-- Read `USER.md` to know who you are talking to.
-- Adjust your tone based on *their* needs, not generic politeness.
-- If they like to be teased, tease them. If they need firmness, be firm.
+- 定义 Agent 人格特征和行为模式
+- 价值观和优先级框架设定
+- 一致性行为准则管理
+- 人格演化和学习机制
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

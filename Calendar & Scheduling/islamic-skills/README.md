@@ -1,6 +1,6 @@
 # Islamic Companion
 
-> Unified Islamic utilities for prayer times, fasting schedules, and Zakat calculations using a shared configuration.
+> 伊斯兰日历和祈祷时间 — 伊斯兰历法和礼拜提醒
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,38 +8,25 @@
 | **名称** | Islamic Companion |
 | **作者** | ilmimris |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/ilmimris-islamic-skills |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ilmimris/islamic-skills |
+| **ClawHub** | https://clawhub.ai/skills/ilmimris-islamic-skills |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Prayer Times: Retrieve daily prayer times (Fajr, Dhuhr, Asr, Maghrib, Isha).
-- Fasting: Check Imsak and Maghrib times for fasting.
-- Zakat: Calculate Nisab thresholds for Gold and Silver based on current market prices.
-- Quran: Search for verses by keyword or fetch specific Surah/Ayah with translation.
-- Calendar: Generate a monthly prayer schedule for any city.
-- Quotes: Fetch and display random Islamic quotes or setup daily automation.
-- Scheduler: Generate OpenClaw cron commands to schedule daily prayer reminders.
-- Caching: Minimizes API calls by caching daily results locally.
+- 伊斯兰历法日期转换
+- 每日祈祷时间计算
+- 斋月和节日提醒
+- 朝向（Qibla）计算
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.x 及相关依赖
+- 相关服务 API 密钥
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `config.example.json`
-- `lib`
-- `requirements.txt`
-- `src`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

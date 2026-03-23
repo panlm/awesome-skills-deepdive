@@ -1,6 +1,6 @@
 # Session Memory
 
-> Persistent memory toolkit for AI agents. Save context, recall with relevance scoring, consolidate insights, track decisions across sessions. Features importance levels, multi-keyword search, session context loader, export/import, memory stats. Pure bash+node, no dependencies. v2.0.0
+> 会话记忆工具 — 自动保存和恢复会话上下文
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,36 +8,25 @@
 | **名称** | Session Memory |
 | **作者** | swaylq |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/swaylq-session-memory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/swaylq/session-memory |
+| **ClawHub** | https://clawhub.ai/skills/swaylq-session-memory |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Relevance-scored search — multi-keyword AND matching with importance + recency weighting
-- Importance levels — low / normal / high / critical
-- Session context loader — smart startup that loads recent + important memories
-- Topic consolidation — group and review memories by topic
-- Export / Import — backup and restore with deduplication
-- Memory stats — totals, date range, avg/day, storage size, topic breakdown
-- Edit / Delete — modify or remove entries by timestamp
-- Pure bash + node — no npm dependencies
+- 自动保存当前会话上下文
+- 会话状态快照和恢复
+- 关键信息自动标记
+- 跨会话记忆检索
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- Node.js
+- 相关服务 API 密钥
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

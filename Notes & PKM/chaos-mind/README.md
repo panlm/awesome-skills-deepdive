@@ -1,6 +1,6 @@
 # Chaos Mind
 
-> Hybrid search memory system for AI agents. Manual search and storage - auto-capture is opt-in only.
+> 混沌思维管理 — 捕捉和组织零散想法与灵感
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,43 +8,27 @@
 | **名称** | Chaos Mind |
 | **作者** | hargabyte |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/hargabyte-chaos-mind |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/hargabyte/chaos-mind |
+| **ClawHub** | https://clawhub.ai/skills/hargabyte-chaos-mind |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- BM25 keyword matching (0.4 weight)
-- Vector semantic search (0.4 weight)
-- Graph relationships (0.1 weight)
-- Heat/access patterns (0.1 weight)
-- 43x faster than manual entry - captures context while you work
-- Extracts decisions, insights, facts automatically with Qwen3-1.7B
-- 100% local processing (no cloud/external APIs)
-- Disabled by default for privacy - you control what it reads
+- 捕捉零散想法和灵感
+- 思维碎片自动组织和关联
+- 创意管理和头脑风暴辅助
+- 非线性思维可视化
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- macOS
-- 数据库
+- Anki 桌面版 + AnkiConnect 插件
+- Medium 账户
+- 相关服务 API 密钥
+- 运行 install.sh 安装脚本
 
-## 包含文件
-- `DEPLOYMENT_CHECKLIST.md`
-- `INSTALL_NOTES.md`
-- `ORIGINAL_README.md`
-- `RELEASE_INSTRUCTIONS.md`
-- `RELEASE_SUMMARY.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `clawdhub.yaml`
-- `config`
-- `install.sh`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

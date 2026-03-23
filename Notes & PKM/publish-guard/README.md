@@ -1,6 +1,6 @@
 # PublishGuard — Post Verification & Credential Manager
 
-> <!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-PG01 -->
+> 发布守护 — 内容发布前的质量和安全检查
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,26 @@
 | **名称** | PublishGuard — Post Verification & Credential Manager |
 | **作者** | edmonddantesj |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/edmonddantesj-publish-guard |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/edmonddantesj/publish-guard |
+| **ClawHub** | https://clawhub.ai/skills/edmonddantesj-publish-guard |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- PBKDF2-HMAC-SHA256 key derivation (200,000 iterations)
-- HMAC-SHA256 CTR stream cipher (Encrypt-then-MAC)
-- Machine-bound encryption — vault file only decrypts on the machine that created it
-- File permissions locked to `0600` (owner-only read/write)
-- Secure deletion — plaintext originals are overwritten with random data before removal
+- 内容发布前自动质量检查
+- 敏感信息检测和过滤
+- 格式规范验证
+- 发布安全风险评估
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.x 及相关依赖
+- Bear 笔记应用 (macOS/iOS)
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

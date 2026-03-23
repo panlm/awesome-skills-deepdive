@@ -1,6 +1,6 @@
 # Calctl
 
-> Manage Apple Calendar events via icalBuddy + AppleScript CLI
+> 日历控制工具 — 命令行日历事件管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Calctl |
 | **作者** | rainbat |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/rainbat-calctl |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rainbat/calctl |
+| **ClawHub** | https://clawhub.ai/skills/rainbat-calctl |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Privat (personal)
-- Familien Kalender
-- rainbat solutions GmbH
+- 命令行创建和管理日历事件
+- 日程查询和冲突检测
+- 支持多日历源操作
+- 事件提醒和通知设置
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- macOS
-- Homebrew
+- macOS 系统 + 日历应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

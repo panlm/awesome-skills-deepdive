@@ -1,6 +1,6 @@
 # temporal-cortex-datetime
 
-> |-
+> 时间皮层日期时间模块 — 精确时间解析和处理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,26 @@
 | **名称** | temporal-cortex-datetime |
 | **作者** | billylui |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/billylui-temporal-cortex-datetime |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/billylui/temporal-cortex-datetime |
+| **ClawHub** | https://clawhub.ai/skills/billylui-temporal-cortex-datetime |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- ~/.config/temporal-cortex/config.json
-- Homepage: [temporal-cortex.com](https://temporal-cortex.com)
-- Source code: [github.com/temporal-cortex/mcp](https://github.com/temporal-cortex/mcp) (open-source Rust)
-- npm package: [@temporal-cortex/cortex-mcp](https://www.npmjs.com/package/@temporal-cortex/cortex-mcp)
-- Skills repo: [github.com/temporal-cortex/skills](https://github.com/temporal-cortex/skills)
-- [Datetime Tools Reference](references/DATETIME-TOOLS.md) — Complete input/output schemas for all 5 tools
+- 精确日期时间解析和处理
+- 自然语言时间表达理解
+- 时区转换和计算
+- 日期格式化和验证
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 - Docker
-- OAuth
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

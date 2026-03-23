@@ -1,6 +1,6 @@
 # infinite memory locall rag system for
 
-> High-precision memory with 100% recall accuracy for long contexts.
+> 无限记忆 v2 — 可扩展的长期记忆存储与检索系统
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,36 +8,25 @@
 | **名称** | infinite memory locall rag system for |
 | **作者** | mhndayesh |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/mhndayesh-infinite-memory-v2 |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mhndayesh/infinite-memory-v2 |
+| **ClawHub** | https://clawhub.ai/skills/mhndayesh-infinite-memory-v2 |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- scripts/recall.py
-- scripts/ingest.py
-- engine/memory_engine_parallel_lms.py
-- references/AUTO_INTEGRATION.md
-- memory_service.py
-- requirements.txt
+- 无限容量的记忆存储系统
+- 分层索引和快速检索
+- 自动记忆压缩和归档
+- 语义搜索和关联发现
+- 记忆版本控制和历史追踪
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 
-## 包含文件
-- `INSTALL.md`
-- `SKILL.md`
-- `_meta.json`
-- `engine`
-- `memory_service.py`
-- `references`
-- `requirements.txt`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

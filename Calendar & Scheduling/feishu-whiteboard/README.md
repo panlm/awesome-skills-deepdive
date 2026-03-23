@@ -1,22 +1,31 @@
-# feishu-whiteboard
+# Feishu Whiteboard
 
-> feishu-whiteboard skill for OpenClaw
+> 飞书白板集成 — 协作白板创建和内容管理
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
-| **名称** | feishu-whiteboard |
+| **名称** | Feishu Whiteboard |
 | **作者** | unknown |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/unknown-feishu-whiteboard |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/feishu-whiteboard |
+| **ClawHub** | https://clawhub.ai/skills/feishu-whiteboard |
 | **安全评级** | 🟢 Low |
 
-## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+## 功能概述
+- 创建和编辑飞书协作白板
+- 白板内容管理和共享
+- 实时协作和评论
+- 白板模板应用
 
+## 使用场景
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

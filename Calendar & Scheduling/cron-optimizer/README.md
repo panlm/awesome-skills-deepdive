@@ -1,22 +1,31 @@
-# cron-optimizer
+# Cron Optimizer
 
-> cron-optimizer skill for OpenClaw
+> Cron 优化器 — 定时任务性能分析和调度优化
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
-| **名称** | cron-optimizer |
+| **名称** | Cron Optimizer |
 | **作者** | unknown |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/unknown-cron-optimizer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/cron-optimizer |
+| **ClawHub** | https://clawhub.ai/skills/cron-optimizer |
 | **安全评级** | 🟢 Low |
 
-## 使用场景
-- 管理定时任务和计划作业
-- 优化 cron 表达式配置
-- 调度周期性自动化任务
+## 功能概述
+- 分析定时任务执行效率
+- 优化 Cron 表达式和调度
+- 资源占用和冲突检测
+- 调度建议和最佳实践
 
+## 使用场景
+- 自动化定时任务的创建和管理
+- 周期性工作流编排和执行监控
+- 任务调度优化和故障恢复
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

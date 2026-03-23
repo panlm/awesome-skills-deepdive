@@ -1,6 +1,6 @@
 # Innovation Catalyst
 
-> Analyzes system state (memory, tools, events) and generates strategic innovation proposals to break evolution stagnation plateaus.
+> 创新催化剂 — 激发创意思维和头脑风暴
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,25 @@
 | **名称** | Innovation Catalyst |
 | **作者** | autogame-17 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/autogame-17-innovation-catalyst |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/autogame-17/innovation-catalyst |
+| **ClawHub** | https://clawhub.ai/skills/autogame-17-innovation-catalyst |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Gap Analysis: Identifies under-represented skill categories.
-- Stall Detection: Finds blocked tasks or recurring failures.
-- Strategic Proposals: Generates actionable suggestions (new skills, optimizations, structural changes).
-- Feishu Integration: Sends a rich Feishu card report.
+- 创意思维激发和头脑风暴
+- 创新方法论模板和框架
+- 想法评估和优先级排序
+- 跨领域灵感关联
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
+- 飞书应用凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `index.js`
-- `package-lock.json`
-- `package.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

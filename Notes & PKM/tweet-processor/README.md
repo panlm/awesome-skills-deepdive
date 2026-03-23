@@ -1,6 +1,6 @@
 # Tweet Processor
 
-> Extract and categorize insights from tweet links into structured notes.
+> 推文处理器 — 抓取、分析和处理 Twitter/X 内容
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Tweet Processor |
 | **作者** | caqlayan |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/caqlayan-tweet-processor |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/caqlayan/tweet-processor |
+| **ClawHub** | https://clawhub.ai/skills/caqlayan-tweet-processor |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `tools.md` — Software, APIs, services
-- `tech.md` — Development techniques, workflows
-- `design.md` — UI/UX insights
-- `people.md` — Worthwhile accounts
-- `misc.md` — Other valuable insights
+- 抓取和解析 Twitter/X 推文
+- 推文内容分析和情感识别
+- 推文数据结构化处理
+- 批量推文操作支持
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `process.js`
+## 依赖和前提条件
+- Twitter/X API 凭证
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

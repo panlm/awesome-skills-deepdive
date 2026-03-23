@@ -1,6 +1,6 @@
 # Documentation-Accurate Code Generation
 
-> "Generate code that references actual documentation, preventing hallucination bugs. ALWAYS loads docs first, validates against API signatures, and verifies correctness. Use for ANY code generation, API usage, or configuration creation."
+> 文档精确代码生成 — 根据文档自动生成准确代码
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,26 @@
 | **名称** | Documentation-Accurate Code Generation |
 | **作者** | tobisamaa |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/tobisamaa-doc-accurate-codegen |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tobisamaa/doc-accurate-codegen |
+| **ClawHub** | https://clawhub.ai/skills/tobisamaa-doc-accurate-codegen |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ALWAYS when generating code
-- ALWAYS when using APIs
-- ALWAYS when creating configurations
-- ALWAYS when implementing features
-- LLMs hallucinate APIs that don't exist
-- Methods get renamed or removed
+- 根据文档自动生成代码
+- 代码与文档一致性保证
+- 多语言代码生成支持
+- 代码模板和片段管理
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- Python 3.x
+- Node.js
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

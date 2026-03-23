@@ -1,6 +1,6 @@
 # Turkey News
 
-> "Türkiye'den önemli haberleri RSS ile çekip özetleyen skill. Cron ile otomatik bildirim yapar."
+> 土耳其新闻聚合 — 自动抓取和汇总土耳其新闻
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,24 @@
 | **名称** | Turkey News |
 | **作者** | yalcindemir |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/yalcindemir-turkey-news |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/yalcindemir/turkey-news |
+| **ClawHub** | https://clawhub.ai/skills/yalcindemir-turkey-news |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- NTV: https://www.ntv.com.tr/son-dakika.rss
-- CNN Türk: https://www.cnnturk.com/feed/rss/all/news
-- TRT Haber: https://www.trthaber.com/sondakika.rss
-- Sözcü: https://www.sozcu.com.tr/rss/all.xml
-- Milliyet: https://www.milliyet.com.tr/rss/rssnew/gundemrss.xml
-- Habertürk: https://www.haberturk.com/rss
+- 自动抓取土耳其新闻
+- 新闻分类和摘要
+- 多来源聚合
+- 定时更新推送
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

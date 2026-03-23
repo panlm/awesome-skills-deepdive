@@ -1,6 +1,6 @@
 # Meeting To Action
 
-> Convert meeting notes or transcripts into clear summaries, decisions, and action items with owners and due dates. Use when a user asks to turn a meeting recording, transcript, or notes into a follow-up plan.
+> 会议转行动项 — 从会议记录中提取待办事项和负责人
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Meeting To Action |
 | **作者** | codedao12 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/codedao12-meeting-to-action |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/codedao12/meeting-to-action |
+| **ClawHub** | https://clawhub.ai/skills/codedao12-meeting-to-action |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Use when the user provides a transcript or detailed notes.
-- Use when the user needs action items, decisions, and next steps.
-- Use when a concise recap email or message is required.
-- Avoid when the user wants tasks or calendar invites created automatically.
-- Avoid when the transcript is missing and cannot be summarized reliably.
-- Avoid when sensitive content should not be shared.
+- 从会议记录中自动提取行动项
+- 任务分配和责任人标记
+- 行动项截止日期追踪
+- 待办事项与日历集成
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

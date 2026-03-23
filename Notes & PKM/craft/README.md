@@ -1,6 +1,6 @@
 # Craft Notes
 
-> Manage Craft notes, documents, and tasks via CLI. Use when the user asks to add notes, create documents, manage tasks, search their Craft documents, or work with daily notes. Craft is a note-taking app for macOS/iOS.
+> Craft 文档应用集成 — 创建和管理文档
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Craft Notes |
 | **作者** | noah-ribaudo |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/noah-ribaudo-craft |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/noah-ribaudo/craft |
+| **ClawHub** | https://clawhub.ai/skills/noah-ribaudo-craft |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Markdown content passed as arguments; escape quotes if needed
-- Dates: `today`, `yesterday`, or `YYYY-MM-DD`
-- Task scopes: `inbox` (default), `active`, `upcoming`, `logbook`
-- Document locations: `unsorted`, `trash`, `templates`, `daily_notes`
+- 创建和管理 Craft 文档
+- 富文本编辑和格式化
+- 文档搜索和组织
+- 跨设备同步支持
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- macOS
+- Craft 文档应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

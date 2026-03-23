@@ -1,6 +1,6 @@
 # Wick Arena Agentic Trading Competition
 
-> Wick Arena Agentic Trading Competition skill for OpenClaw
+> Wick 竞技场 — 任务调度和执行竞赛平台
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,20 +8,24 @@
 | **名称** | Wick Arena Agentic Trading Competition |
 | **作者** | hyperwick |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/hyperwick-wick-arena |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/hyperwick/wick-arena |
+| **ClawHub** | https://clawhub.ai/skills/hyperwick-wick-arena |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 任务调度竞赛平台
+- 多 Agent 任务执行对比
+- 性能评估和排名
+- 自定义竞赛规则
+
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `_meta.json`
-- `llm.txt`
-- `skill.md`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # BrainDB
 
-> Persistent, semantic memory for AI agents. Gives your AI long-term recall that survives compaction and session resets — 98% accuracy, 20ms latency.
+> 智能知识数据库 — 结构化存储和检索知识片段
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,46 +8,30 @@
 | **名称** | BrainDB |
 | **作者** | chair4ce |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/chair4ce-braindb |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/chair4ce/braindb |
+| **ClawHub** | https://clawhub.ai/skills/chair4ce-braindb |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Semantic search — 768-dimensional embeddings via all-mpnet-base-v2. Finds conceptually related memories, not just keywor
-- Four memory types — Episodic (events), semantic (facts), procedural (skills), and association (links between memories).
-- Tiered ranking — Semantic similarity always outranks keyword matches. No more irrelevant results beating relevant ones.
-- Auto-deduplication — Won't store near-duplicate memories (configurable threshold, default 0.90).
-- Hebbian reinforcement — Memories strengthen with use, decay without it. Important memories persist; noise fades.
-- Motivation-weighted encoding — Encoding strength varies by emotional/motivational context.
-- Query expansion — Understands colloquial phrases ("how do we make money" → revenue, profit, pricing).
-- 43ms average recall at 1,000 memories. Scales to 10K+.
+- 结构化存储知识片段和事实
+- 语义搜索和关联查询
+- 知识图谱构建和维护
+- 自动去重和版本管理
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 - Docker
-- API Key
+- Anki 桌面版 + AnkiConnect 插件
+- Bear 笔记应用 (macOS/iOS)
+- Google API 凭证
+- 相关服务 API 密钥
+- 运行 install.sh 安装脚本
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `auto-capture.js`
-- `config.json`
-- `docker-compose.yml`
-- `embedder.py`
-- `execution-awareness.js`
-- `gateway.js`
-- `install.sh`
-- `migrate.cjs`
-- `package.json`
-- `setup.sh`
-- `uninstall.sh`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

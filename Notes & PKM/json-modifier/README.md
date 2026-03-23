@@ -1,6 +1,6 @@
 # Json Modifier
 
-> Safely apply structured JSON patches (RFC 6902) to files. Use this skill when you need to update configuration files, package.json, or memory JSONs without rewriting the whole file or using brittle regex.
+> JSON 修改器 — 结构化数据编辑和转换
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,24 @@
 | **名称** | Json Modifier |
 | **作者** | wanng-ide |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/wanng-ide-json-modifier |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wanng-ide/json-modifier |
+| **ClawHub** | https://clawhub.ai/skills/wanng-ide-json-modifier |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Validates patch against document before applying.
-- Atomic write (writes to temporary file, then renames).
-- Preserves indentation (default: 2 spaces).
+- JSON 数据结构编辑和转换
+- 字段增删改查操作
+- 批量 JSON 处理
+- 数据格式验证和修复
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `index.js`
-- `package-lock.json`
-- `package.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

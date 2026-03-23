@@ -1,6 +1,6 @@
 # Shaping & Breadboarding
 
-> Shape Up methodology for product and feature development. Use when collaboratively shaping a solution — iterating on problem definition (requirements) and solution options (shapes), breadboarding systems into affordances and wiring, and slicing into vertical implementation increments. Triggers include "shape this feature", "breadboard the system", "let's shape", "slice this into increments", "fit check", "define requirements", or any product/feature scoping discussion using Shape Up methodology.
+> 需求塑造工具 — 项目规划、需求定义和优先级排序
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Shaping & Breadboarding |
 | **作者** | borahm |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/borahm-shaping |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/borahm/shaping |
+| **ClawHub** | https://clawhub.ai/skills/borahm-shaping |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Exploring a new feature or product direction
-- Comparing solution approaches before building
-- Mapping an existing system to understand where changes land
-- Breaking a selected solution into vertical implementation slices
-- Any "should we build X or Y?" discussion
-- Start from R (Requirements) — Describe the problem, pain points, constraints. Build up requirements and let shapes emerg
+- 项目需求塑造和定义
+- 优先级排序和范围界定
+- 风险评估和资源规划
+- 迭代式需求细化
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

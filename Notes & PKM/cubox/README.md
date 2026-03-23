@@ -1,6 +1,6 @@
 # Cubox Integration (International & China)
 
-> Save web pages and memos to Cubox using the Open API
+> Cubox 收藏夹集成 — 网页剪藏、标注和知识管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,26 @@
 | **名称** | Cubox Integration (International & China) |
 | **作者** | liam8 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/liam8-cubox |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/liam8/cubox |
+| **ClawHub** | https://clawhub.ai/skills/liam8-cubox |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 📎 Save URLs - Bookmark web pages with metadata (title, description, tags, folder)
-- 📝 Save Memos - Quick notes and text snippets
-- 🏷️ Tagging Support - Organize content with tags
-- 📁 Folder Management - Save to specific folders
+- 网页内容剪藏和收藏
+- 自动标注和高亮管理
+- 智能分类和标签系统
+- 全文搜索和知识检索
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x 及相关依赖
+- Cubox 账户
+- 相关服务 API 密钥
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

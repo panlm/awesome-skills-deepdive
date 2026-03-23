@@ -1,6 +1,6 @@
 # Blogwatcher
 
-> Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI.
+> 博客监控工具 — 追踪博客更新并自动通知
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Blogwatcher |
 | **作者** | steipete |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/steipete-blogwatcher |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/steipete/blogwatcher |
+| **ClawHub** | https://clawhub.ai/skills/steipete-blogwatcher |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Go: `go install github.com/Hyaxia/blogwatcher/cmd/blogwatcher@latest`
-- `blogwatcher --help`
-- Add a blog: `blogwatcher add "My Blog" https://example.com`
-- List blogs: `blogwatcher blogs`
-- Scan for updates: `blogwatcher scan`
-- List articles: `blogwatcher articles`
+- 监控指定博客的更新
+- 新文章自动通知和摘要
+- RSS/Atom 订阅源解析
+- 历史内容变更追踪
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

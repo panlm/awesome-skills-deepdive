@@ -1,6 +1,6 @@
 # Failure Memory
 
-> Stop making the same mistakes — turn failures into patterns that prevent recurrence
+> 失败记忆系统 — 记录和学习错误以避免重复犯错
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Failure Memory |
 | **作者** | leegitw |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/leegitw-failure-memory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/leegitw/failure-memory |
+| **ClawHub** | https://clawhub.ai/skills/leegitw-failure-memory |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- .openclaw/failure-memory.yaml
-- .claude/failure-memory.yaml
-- .learnings/observations/
-- `prevention_rate`: Failures prevented / Total potential failures
-- `false_positive_rate`: D / (C + D)
-- OBS-20260210-003: lint-before-commit (R=4, C=2, D=0)
+- 自动记录 Agent 失败和错误
+- 失败模式识别和分类
+- 错误预防策略生成
+- 失败经验跨会话共享
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

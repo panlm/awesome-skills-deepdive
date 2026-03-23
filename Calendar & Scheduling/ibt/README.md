@@ -1,6 +1,6 @@
 # IBT: Instinct + Behavior + Trust
 
-> Execution discipline for agents with instinct, verification, trust calibration, approval gates, trust boundaries, trust recovery, discrepancy reasoning, and resilient error handling. Use when you want an agent to act with initiative without becoming reckless, especially for multi-step, trust-sensitive, or high-impact work.
+> IBT 智能业务追踪 — 商业数据监控和分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,25 @@
 | **名称** | IBT: Instinct + Behavior + Trust |
 | **作者** | palxislabs |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/palxislabs-ibt |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/palxislabs/ibt |
+| **ClawHub** | https://clawhub.ai/skills/palxislabs-ibt |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- captures explicit preferences (stated directly)
-- learns implicit preferences from patterns
-- applies preferences automatically to reduce repeated clarifications
-- stores preferences in USER.md (human-readable, human-editable, agent workspace)
-- integrates with Observe/Parse/Act phases
+- 智能业务数据追踪
+- 关键指标监控
+- 趋势分析和报告
+- 自定义追踪规则
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `EXAMPLES.md`
-- `ORIGINAL_README.md`
-- `POLICY.md`
-- `SKILL.md`
-- `TEMPLATE.md`
-- `_meta.json`
+## 依赖和前提条件
+- Medium 账户
+- 相关服务 API 密钥
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

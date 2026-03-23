@@ -1,6 +1,6 @@
 # fizzy.do - have your agent read, understand and update your fizzy.do boards
 
-> Use the fizzy-cli tool to authenticate and manage Fizzy kanban boards, cards, comments, tags, columns, users, and notifications from the command line. Apply this skill when you need to list, create, update, or delete Fizzy resources or when scripting Fizzy workflows.
+> Fizzy 命令行工具 — 快速笔记和任务管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | fizzy.do - have your agent read, understand and update your fizzy.do boards |
 | **作者** | tobiasbischoff |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/tobiasbischoff-fizzy-cli |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tobiasbischoff/fizzy-cli |
+| **ClawHub** | https://clawhub.ai/skills/tobiasbischoff-fizzy-cli |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `fizzy-cli auth login --token $FIZZY_TOKEN`
-- `fizzy-cli auth login --email user@example.com`
-- If non-interactive, pass `--code ABC123`.
-- Account only: `fizzy-cli account set 897362094`
-- Persist base URL + account: `fizzy-cli config set --base-url https://app.fizzy.do --account 897362094`
-- `fizzy-cli auth status`
+- 命令行快速创建笔记
+- 终端任务和待办管理
+- 轻量级数据记录
+- 快捷搜索和过滤
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

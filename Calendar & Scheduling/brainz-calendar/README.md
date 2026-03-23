@@ -1,6 +1,6 @@
 # Calendar
 
-> "Manage Google Calendar events using `gcalcli`. Create, list, and delete calendar events from the CLI."
+> Brainz 智能日历 — AI 驱动的日程管理和优化
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,24 +8,27 @@
 | **名称** | Calendar |
 | **作者** | xejrax |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/xejrax-brainz-calendar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xejrax/brainz-calendar |
+| **ClawHub** | https://clawhub.ai/skills/xejrax-brainz-calendar |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- AI 驱动的智能日程安排
+- 自动优化时间分配
+- 日程模式分析和建议
+- 优先级智能排序
+
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 通过自然语言创建和管理日历事件
+- 自动检测日程冲突并建议最佳时间
+- 每日日程摘要和即将到来的事件提醒
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.x 及相关依赖
+- CalDAV 日历服务器
+- Google Calendar API 凭证
+- 相关服务 API 密钥
 
-## 包含文件
-- `CLAUDE.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # temporal-cortex
 
-> |-
+> 时间皮层 — 高级时间感知和调度框架
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,34 +8,28 @@
 | **名称** | temporal-cortex |
 | **作者** | billylui |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/billylui-temporal-cortex |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/billylui/temporal-cortex |
+| **ClawHub** | https://clawhub.ai/skills/billylui-temporal-cortex |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- ~/.config/temporal-cortex/credentials.json
-- ~/.config/temporal-cortex/config.json
-- Homepage: [temporal-cortex.com](https://temporal-cortex.com)
-- Source code: [github.com/temporal-cortex/mcp](https://github.com/temporal-cortex/mcp) (open-source Rust)
-- npm package: [@temporal-cortex/cortex-mcp](https://www.npmjs.com/package/@temporal-cortex/cortex-mcp)
-- Skills repo: [github.com/temporal-cortex/skills](https://github.com/temporal-cortex/skills)
+- 高级时间感知框架
+- 多时区和日历系统支持
+- 时间推理和计算
+- 调度策略引擎
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Python 3.x
+- Node.js
 - Docker
-- OAuth
+- CalDAV 日历服务器
+- Google API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

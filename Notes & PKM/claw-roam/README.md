@@ -1,6 +1,6 @@
 # Claw Roam
 
-> Sync OpenClaw workspace between multiple machines (local Mac and remote VPS) via Git. Enables seamless migration of OpenClaw personality, memory, and skills. Use when user wants to (1) push workspace changes to remote before shutdown, (2) pull latest workspace on a new machine, (3) check sync status between machines, (4) migrate OpenClaw to another machine.
+> Roam Research 风格双向链接笔记系统
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,24 @@
 | **名称** | Claw Roam |
 | **作者** | ryanhong666 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/ryanhong666-claw-roam |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ryanhong666/claw-roam |
+| **ClawHub** | https://clawhub.ai/skills/ryanhong666-claw-roam |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `SOUL.md` - Your agent's personality
-- `MEMORY.md` - Long-term memory
-- `memory/*.md` - Daily conversation logs
-- `skills/` - All installed skills
-- `AGENTS.md`, `USER.md` - Context files
-- `TOOLS.md` - Device configurations
-- `HEARTBEAT.md` - Periodic tasks
-- Session database (SQLite) - But this is rebuilt from memory files
+- 双向链接笔记系统
+- 知识图谱可视化
+- 块级引用和嵌入
+- 日记和每日笔记功能
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- 数据库
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

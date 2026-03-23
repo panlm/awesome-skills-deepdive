@@ -1,6 +1,6 @@
 # Alexandrie
 
-> Interact with Alexandrie note-taking app at https://notes.eth3rnit3.org
+> 知识库管理工具 — 文档索引、搜索与组织
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,24 @@
 | **名称** | Alexandrie |
 | **作者** | eth3rnit3 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/eth3rnit3-alexandrie |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/eth3rnit3/alexandrie |
+| **ClawHub** | https://clawhub.ai/skills/eth3rnit3-alexandrie |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- API URL: `https://api-notes.eth3rnit3.org/api`
-- Frontend: `https://notes.eth3rnit3.org`
-- Username: `eth3rnit3`
-- User ID: `671423603690045441`
-- Password: Stored in `/home/eth3rnit3/clawd/.env` as `ALEXANDRIE_PASSWORD`
-- role: 1 = Category/Workspace (container)
+- 文档索引和全文搜索功能
+- 知识库分类和标签管理
+- 支持多种文档格式导入
+- 自动化文档组织和关联
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `alexandrie.sh`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

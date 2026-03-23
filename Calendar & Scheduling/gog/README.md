@@ -1,6 +1,6 @@
 # Gog
 
-> Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.
+> GOG 游戏平台集成 — 游戏库管理和信息查询
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Gog |
 | **作者** | steipete |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/steipete-gog |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/steipete/gog |
+| **ClawHub** | https://clawhub.ai/skills/steipete-gog |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `gog auth credentials /path/to/client_secret.json`
-- `gog auth add you@gmail.com --services gmail,calendar,drive,contacts,sheets,docs`
-- `gog auth list`
-- Gmail search: `gog gmail search 'newer_than:7d' --max 10`
-- Gmail send: `gog gmail send --to a@b.com --subject "Hi" --body "Hello"`
-- Calendar: `gog calendar events <calendarId> --from <iso> --to <iso>`
+- GOG 游戏库管理
+- 游戏信息查询和追踪
+- 购买历史和愿望单管理
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- OAuth
+- Gmail API 凭证
+- Google API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

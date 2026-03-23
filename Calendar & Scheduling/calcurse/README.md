@@ -1,6 +1,6 @@
 # calcurse
 
-> A text-based calendar and scheduling application. Use strictly for CLI-based calendar management.
+> Calcurse 终端日历集成 — 命令行日历和待办管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,19 +8,24 @@
 | **名称** | calcurse |
 | **作者** | gumadeiras |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/gumadeiras-calcurse |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gumadeiras/calcurse |
+| **ClawHub** | https://clawhub.ai/skills/gumadeiras-calcurse |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- Calcurse 终端日历操作
+- 待办事项和约会管理
+- 命令行事件创建和编辑
+- 文本格式日程数据处理
+
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Calcurse 终端日历应用
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

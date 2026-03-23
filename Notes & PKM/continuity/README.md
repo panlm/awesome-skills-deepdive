@@ -1,6 +1,6 @@
 # Continuity Framework
 
-> Asynchronous reflection and memory integration for genuine AI development. Use on heartbeat to reflect on recent sessions, extract structured memories with confidence scores, generate follow-up questions, and surface those questions when the user returns. Transforms passive logging into active development.
+> 会话连续性工具 — 跨会话保持上下文和状态
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Continuity Framework |
 | **作者** | riley-coyote |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/riley-coyote-continuity |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/riley-coyote/continuity |
+| **ClawHub** | https://clawhub.ai/skills/riley-coyote-continuity |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- type: commitment
-- type: relationship
-- "How is the Lovable backend progressing?"
-- "Has Riley decided on the token launch timing?"
-- "Are there other agents we should coordinate with on Moltbook?"
+- 跨会话保持对话上下文
+- 自动状态序列化和恢复
+- 会话断点续传功能
+- 上下文压缩和摘要
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

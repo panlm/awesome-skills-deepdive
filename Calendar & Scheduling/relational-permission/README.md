@@ -1,6 +1,6 @@
 # Relational Permission
 
-> Relational Permission skill for OpenClaw
+> 关系权限管理 — 基于关系模型的访问控制
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,19 +8,24 @@
 | **名称** | Relational Permission |
 | **作者** | otherpowers |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/otherpowers-relational-permission |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/otherpowers/relational-permission |
+| **ClawHub** | https://clawhub.ai/skills/otherpowers-relational-permission |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 基于关系的访问权限管理
+- 动态权限计算和验证
+- 权限继承和传播规则
+- 审计日志和合规追踪
+
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

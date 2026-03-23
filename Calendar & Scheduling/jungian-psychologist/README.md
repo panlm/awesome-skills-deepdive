@@ -1,6 +1,6 @@
 # Jungian Psychologist
 
-> Expert in Jungian analytical psychology, depth psychology, shadow work, archetypal analysis, dream interpretation, active imagination, addiction/recovery through Jungian lens, and the individuation process.
+> 荣格心理学分析 — AI 辅助心理分析和自我探索
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Jungian Psychologist |
 | **作者** | mikecourt |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/mikecourt-jungian-psychologist |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/mikecourt/jungian-psychologist |
+| **ClawHub** | https://clawhub.ai/skills/mikecourt-jungian-psychologist |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Shadow work exploration and exercises
-- Dream interpretation frameworks
-- Archetypal pattern analysis
-- Active imagination guidance
-- Understanding the individuation process
-- Complex theory application
+- AI 辅助荣格心理学分析
+- 人格类型评估和建议
+- 梦境分析和解读
+- 自我探索引导对话
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

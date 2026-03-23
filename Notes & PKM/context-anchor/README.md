@@ -1,6 +1,6 @@
 # Context Anchor
 
-> Recover from context compaction by scanning memory files and surfacing where you left off. Use when waking up fresh, after compaction, or when you feel lost about what you were doing.
+> 上下文锚点工具 — 在对话中标记和回溯关键上下文
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,24 @@
 | **名称** | Context Anchor |
 | **作者** | boscoeuk |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/boscoeuk-context-anchor |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/boscoeuk/context-anchor |
+| **ClawHub** | https://clawhub.ai/skills/boscoeuk-context-anchor |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Current task - What you were actively working on
-- Active context - In-progress task files from `context/active/`
-- Recent decisions - Key choices made in the last few days
-- Open loops - TODOs, questions, and unfinished business
-- [SKILL.md](./SKILL.md) - Full documentation
-- [AGENTS.md](../../AGENTS.md) - Workspace conventions
+- 在对话中标记关键上下文点
+- 快速回溯和引用历史上下文
+- 上下文优先级管理
+- 跨话题上下文切换支持
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- macOS
+- OpenClaw 运行环境
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

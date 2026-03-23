@@ -1,6 +1,6 @@
 # Daily Memory Save
 
-> Periodically reviews conversation history and writes memory files to maintain agent continuity across sessions. Dual-layer system with daily raw notes and curated long-term memory.
+> 每日记忆保存工具 — 自动归档当日重要对话和决策
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Daily Memory Save |
 | **作者** | meimakes |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/meimakes-daily-memory-save |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/meimakes/daily-memory-save |
+| **ClawHub** | https://clawhub.ai/skills/meimakes-daily-memory-save |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- 🎯 Decisions made
-- 💡 Preferences expressed
-- 📋 Project updates and status changes
-- 📚 Lessons learned
-- 🧠 Things the user explicitly asked to remember
-- 💭 Emotional context worth noting
+- 每日自动归档重要对话内容
+- 关键决策和信息自动标记
+- 按日期组织的记忆存档
+- 历史记忆检索和回顾
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- 相关服务 API 密钥
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Fastmail
 
-> Manages Fastmail email and calendar via JMAP and CalDAV APIs. Use for emails (read, send, reply, search, organize, bulk operations, threads) or calendar (events, reminders, RSVP invitations). Timezone auto-detected from system.
+> Fastmail 邮件集成 — 邮件收发和日历管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,36 +8,26 @@
 | **名称** | Fastmail |
 | **作者** | witooh |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/witooh-fastmail |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/witooh/fastmail |
+| **ClawHub** | https://clawhub.ai/skills/witooh-fastmail |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Default: Auto-detects your system's local timezone
-- Input: Accept times in configured timezone format
-- Storage: Stored as UTC internally
-- Display: Converted to configured timezone for display
-- DST: Handles Daylight Saving Time automatically
-- You say: "สร้างนัด 10:00" (assumed local timezone)
+- Fastmail 邮件收发管理
+- 日历事件操作
+- 联系人管理和搜索
+- 邮件过滤和标签
 
 ## 使用场景
-- 设置和管理提醒事项
-- 跟踪待办任务
-- 通过自然语言创建提醒
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- API Key
+- CalDAV 日历服务器
+- Fastmail 账户和 API 凭证
+- Threads API 凭证
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `dist`
-- `package.json`
-- `references`
-- `scripts`
-- `tsconfig.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

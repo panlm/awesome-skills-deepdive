@@ -1,6 +1,6 @@
 # Belong Events - Discover and Organize
 
-> Create, discover, and manage events with NFT tickets on the Belong platform
+> 活动归属管理 — 事件分类和组织
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,23 @@
 | **名称** | Belong Events - Discover and Organize |
 | **作者** | nomadcalendar |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/nomadcalendar-belong-events |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/nomadcalendar/belong-events |
+| **ClawHub** | https://clawhub.ai/skills/nomadcalendar-belong-events |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- All JSON-RPC calls are sent to the endpoint above (or `BELONG_EVENTS_ENDPOINT` if overridden).
-- If `BELONG_EVENTS_API_KEY` is set, it is sent to that endpoint as `X-OpenClaw-Key`.
-- list_tools — List available tools (no params)
-- discover_events — Search events. Params: `city`, `category`, `startDate`, `endDate`, `limit`, `latitude`, `longitude` (a
-- get_event_details — Get event details. Params: `eventId` (required), `source`, `city`, `latitude`, `longitude` (optional
-- buy_ticket — Get checkout/event URL. Params: `eventId` (required), `tierId`, `quantity`
+- 事件分类和归属管理
+- 活动标签和组织
+- 参与者管理和追踪
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- API Key
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `invoke.sh`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

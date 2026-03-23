@@ -1,6 +1,6 @@
 # NPkill
 
-> Clean up node_modules and .next folders to free up disk space using npkill. Specifically designed to help JavaScript and Next.js developers remove accumulated build artifacts that consume significant storage. Provides both interactive and automated cleanup options with safety checks to protect important system directories.
+> NPKill 清理工具 — 扫描和删除 node_modules 释放磁盘空间
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | NPkill |
 | **作者** | ashirbadgudu |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/ashirbadgudu-npkill |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ashirbadgudu/npkill |
+| **ClawHub** | https://clawhub.ai/skills/ashirbadgudu-npkill |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Your disk space is running low due to accumulated node_modules folders
-- You want to clean up old Next.js build artifacts (.next folders)
-- You need to maintain a clean development environment
-- You want to identify which projects are consuming the most disk space
-- You want to perform regular maintenance on your development workspace
-- Warnings for Protected Directories: npkill highlights system/app directories that shouldn't be deleted with a ⚠️ symbol
+- 扫描和列出所有 node_modules 目录
+- 交互式选择和删除释放空间
+- 磁盘空间使用分析
+- 批量清理支持
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 及相关依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

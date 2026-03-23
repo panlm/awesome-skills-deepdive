@@ -1,6 +1,6 @@
 # Medium Writer
 
-> Writing and publishing articles for the Medium Partner Program. Creating monetizable articles.
+> Medium 写作助手 — 自动撰写和发布 Medium 文章
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,29 @@
 | **名称** | Medium Writer |
 | **作者** | devhoangkien |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/devhoangkien-medium-writer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/devhoangkien/medium-writer |
+| **ClawHub** | https://clawhub.ai/skills/devhoangkien-medium-writer |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Active Medium Membership ($5/month or $50/year)
-- At least 1 article published in the past year
-- Stripe account linked
-- Must comply with Medium's content policies
-- High Followers + Low Stories = Low Competition, High Opportunity (e.g., Science, Deep Learning, Coding)
-- High Followers + High Stories = High Competition, High Visibility (e.g., Technology, Programming)
+- 自动撰写和发布 Medium 文章
+- 文章格式化和排版
+- 标签和分类管理
+- 发布时间调度
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
+- Notion API 集成令牌
+- Medium 账户
+- Twitter/X API 凭证
+- LinkedIn API 凭证
+- Google API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

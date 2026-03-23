@@ -1,6 +1,6 @@
 # Skill
 
-> Automatically analyzes Python code and suggests memory usage optimizations for improved performance
+> Python 记忆优化器 — 优化 Agent 记忆数据结构和性能
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,26 @@
 | **名称** | Skill |
 | **作者** | martinforsulu |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/martinforsulu-neo-py-memory-optimizer |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/martinforsulu/neo-py-memory-optimizer |
+| **ClawHub** | https://clawhub.ai/skills/martinforsulu-neo-py-memory-optimizer |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 优化 Python 记忆数据结构
+- 内存使用分析和瓶颈定位
+- 记忆索引性能优化
+- 垃圾回收策略调优
+
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
+- Python 3.x
+- Node.js 及相关依赖
+- Medium 账户
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `assets`
-- `package-lock.json`
-- `package.json`
-- `references`
-- `scripts`
-- `tests`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

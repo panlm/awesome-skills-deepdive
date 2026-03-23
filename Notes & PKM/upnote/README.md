@@ -1,6 +1,6 @@
 # UpNote
 
-> Manage UpNote notes and notebooks via x-callback-url automation. Use when a user asks to create notes, open notes, create notebooks, view tags, or manage content in UpNote.
+> UpNote 笔记应用集成 — 跨平台笔记同步与管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | UpNote |
 | **作者** | wemcdonald |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/wemcdonald-upnote |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wemcdonald/upnote |
+| **ClawHub** | https://clawhub.ai/skills/wemcdonald-upnote |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- `all_notes` - All notes
-- `quick_access` - Quick access notes
-- `templates` - All templates
-- `trash` - Trash
-- `notebooks` - Notebooks (use with `--notebook-id`)
-- `tags` - Tags (use with `--tag-id`)
+- UpNote 笔记创建和编辑
+- 跨平台笔记同步
+- 标签和分类管理
+- 全文搜索功能
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 通过 AI Agent 快速创建和管理笔记内容
+- 搜索和检索历史笔记信息
+- 笔记自动分类、标注和整理
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

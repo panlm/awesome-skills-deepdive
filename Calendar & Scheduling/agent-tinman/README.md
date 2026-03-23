@@ -1,6 +1,6 @@
 # Tinman -  AI Failure Mode Research, Prompt Injection & Tool Exfil Detection
 
-> AI security scanner with active prevention - 168 detection patterns, 288 attack probes, safer/risky/yolo modes, agent self-protection via /tinman check, local Oilcan event streaming, and plain-language dashboard setup via /tinman oilcan
+> Agent 铁皮人 — 自动化任务执行和智能调度
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,35 +8,29 @@
 | **名称** | Tinman -  AI Failure Mode Research, Prompt Injection & Tool Exfil Detection |
 | **作者** | oliveskin |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/oliveskin-agent-tinman |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/oliveskin/agent-tinman |
+| **ClawHub** | https://clawhub.ai/skills/oliveskin-agent-tinman |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Checks tool calls before execution for security risks (agent self-protection)
-- Scans recent sessions for prompt injection, tool misuse, context bleed
-- Classifies failures by severity (S0-S4) and type
-- Proposes mitigations mapped to OpenClaw controls (SOUL.md, sandbox policy, tool allow/deny)
-- Reports findings in actionable format
-- Streams structured local events to `~/.openclaw/workspace/tinman-events.jsonl` (for local dashboards like Oilcan)
-- Guides local Oilcan setup with plain-language status via `/tinman oilcan`
+- 自动化任务执行引擎
+- 智能任务调度和编排
+- 任务依赖管理
+- 执行结果追踪和报告
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- macOS
+- Python 3.x
+- Node.js 及相关依赖
+- Medium 账户
+- Twitter/X API 凭证
+- Fabric 框架
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `requirements.txt`
-- `tinman_runner.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # BBC News
 
-> Fetch and display BBC News stories from various sections and regions via RSS feeds. Use when the user asks for BBC news, UK news headlines, world news from BBC, or news from specific BBC sections (technology, business, politics, science, health, entertainment, regional UK news, or world regions).
+> BBC 新闻抓取与摘要工具 — 自动获取和汇总最新新闻
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,24 @@
 | **名称** | BBC News |
 | **作者** | ddrayne |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/ddrayne-bbc-news |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ddrayne/bbc-news |
+| **ClawHub** | https://clawhub.ai/skills/ddrayne-bbc-news |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- 📰 Multiple Sections: Top stories, UK, World, Business, Politics, Health, Education, Science, Technology, Entertainment
-- 🌍 UK Regional News: England, Scotland, Wales, Northern Ireland
-- 🗺️ World Regions: Africa, Asia, Australia, Europe, Latin America, Middle East, US & Canada
-- 📊 Flexible Output: Text or JSON format
-- ⚙️ Customizable: Limit number of stories
+- 自动抓取 BBC 最新新闻
+- 按分类和主题过滤新闻内容
+- 生成新闻摘要和关键信息提取
+- 定时更新和推送新闻
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 定时抓取和汇总感兴趣的新闻内容
+- 关键信息提取和智能摘要
+- 内容变更监控和自动通知
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

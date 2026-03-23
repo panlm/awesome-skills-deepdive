@@ -1,6 +1,6 @@
 # Agency Guardian
 
-> Gentle reminders to stay human while using AI. Reflection, not restriction.
+> Agency 守护者 — 代理任务调度和安全监控
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Agency Guardian |
 | **作者** | aranej |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/aranej-agency-guardian |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aranej/agency-guardian |
+| **ClawHub** | https://clawhub.ai/skills/aranej-agency-guardian |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Perfect memory is amazing... until you can't remember anything yourself
-- Instant answers are great... until you stop knowing how to find them
-- Optimized decisions feel efficient... until you forget what YOU actually want
-- Don't block anything
-- Don't be preachy
-- Just acknowledge and ask
+- 代理任务安全监控
+- 调度策略执行和审计
+- 异常任务检测和告警
+- 权限控制和访问管理
 
 ## 使用场景
-- 设置和管理提醒事项
-- 跟踪待办任务
-- 通过自然语言创建提醒
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

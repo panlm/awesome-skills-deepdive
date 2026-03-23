@@ -1,6 +1,6 @@
 # Google Calendar
 
-> Interact with Google Calendar via the Google Calendar API – list upcoming events, create new events, update or delete them. Use this skill when you need programmatic access to your calendar from OpenClaw.
+> Google Calendar 集成 — 谷歌日历事件管理和查询
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,25 @@
 | **名称** | Google Calendar |
 | **作者** | adrianmiller99 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/adrianmiller99-google-calendar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/adrianmiller99/google-calendar |
+| **ClawHub** | https://clawhub.ai/skills/adrianmiller99-google-calendar |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- list upcoming events (optionally filtered by time range or query)
-- add a new event with title, start/end time, description, location, and attendees
-- update an existing event by its ID
-- delete an event by its ID
-- Google Calendar API reference: https://developers.google.com/calendar/api/v3/reference
-- OAuth 2.0 for installed apps: https://developers.google.com/identity/protocols/oauth2/native-app
+- 创建、编辑和删除 Google Calendar 事件
+- 日程查询和搜索
+- 日历共享和权限管理
+- 周期性事件和提醒设置
 
 ## 使用场景
-- 管理 Google Calendar 事件
-- 查询日程与会议安排
-- 自动创建和更新日历事件
+- 通过自然语言创建和管理日历事件
+- 自动检测日程冲突并建议最佳时间
+- 每日日程摘要和即将到来的事件提醒
 
 ## 依赖和前提条件
-- Python / pip
-- OAuth
+- Python 3.x 及相关依赖
+- Google Calendar API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

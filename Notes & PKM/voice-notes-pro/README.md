@@ -1,6 +1,6 @@
 # Voice Notes Pro
 
-> Inteligentna transkrypcja i kategoryzacja notatek g�osowych z WhatsApp.
+> 专业语音笔记 — 语音转文字记录和智能管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,24 @@
 | **名称** | Voice Notes Pro |
 | **作者** | toniaczlog |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/toniaczlog-voice-notes-pro |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/toniaczlog/voice-notes-pro |
+| **ClawHub** | https://clawhub.ai/skills/toniaczlog-voice-notes-pro |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- ?? Transkrypcja przez Whisper API (OpenAI)
-- ??? Automatyczna kategoryzacja po s�owach-kluczach
-- ?? Zapis w Markdown z timestampami
-- ?? Baza ludzi (dodawanie/sprawdzanie os�b)
-- ?? Watchlist (filmy/seriale do obejrzenia)
-- ? Zadania z priorytetem i deadline
+- 语音转文字记录功能
+- 语音笔记分类和管理
+- 关键词提取和搜索
+- 多语言语音识别支持
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 通过 AI Agent 快速创建和管理笔记内容
+- 搜索和检索历史笔记信息
+- 笔记自动分类、标注和整理
 
 ## 依赖和前提条件
-- Node.js / npm
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `voice-notes-pro.js`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

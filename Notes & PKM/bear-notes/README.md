@@ -1,6 +1,6 @@
 # Bear Notes
 
-> Create, search, and manage Bear notes via grizzly CLI.
+> Bear 笔记应用集成 — 创建、搜索和管理 Bear 笔记
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Bear Notes |
 | **作者** | steipete |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/steipete-bear-notes |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/steipete/bear-notes |
+| **ClawHub** | https://clawhub.ai/skills/steipete-bear-notes |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Bear app installed and running
-- For some operations (add-text, tags, open-note --selected), a Bear app token (stored in `~/.config/grizzly/token`)
-- `--dry-run` — Preview the URL without executing
-- `--print-url` — Show the x-callback-url
-- `--enable-callback` — Wait for Bear's response (needed for reading data)
-- `--json` — Output as JSON (when using callbacks)
+- 创建、编辑和搜索 Bear 笔记
+- 标签管理和笔记分类
+- 支持 Markdown 格式操作
+- 跨设备笔记同步管理
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 通过 AI Agent 快速创建和管理笔记内容
+- 搜索和检索历史笔记信息
+- 笔记自动分类、标注和整理
 
 ## 依赖和前提条件
-- macOS
+- Bear 笔记应用 (macOS/iOS)
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

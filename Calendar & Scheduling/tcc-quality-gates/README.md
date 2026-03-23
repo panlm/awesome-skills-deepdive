@@ -1,6 +1,6 @@
 # Generic Quality Gateways for Unattended Agent Development
 
-> This skill defines and applies **6 universal quality gateways** for typical application projects that include:
+> TCC 质量门禁 — 代码质量检查和发布流程控制
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Generic Quality Gateways for Unattended Agent Development |
 | **作者** | thecybercore |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/thecybercore-tcc-quality-gates |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/thecybercore/tcc-quality-gates |
+| **ClawHub** | https://clawhub.ai/skills/thecybercore-tcc-quality-gates |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- CI pipeline status (green on default branch / PR)
-- Reproducible build or deterministic packaging indicators
-- Dependency freshness (stale/outdated dependencies)
-- License policy compliance (allowlist/denylist)
-- SBOM presence (if required)
+- 代码质量门禁检查
+- 发布流程质量控制
+- 自动化测试和验证
+- 质量指标追踪和报告
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `templ`
+## 依赖和前提条件
+- Medium 账户
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

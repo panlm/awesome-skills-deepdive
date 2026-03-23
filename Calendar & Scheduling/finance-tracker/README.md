@@ -1,6 +1,6 @@
 # Finance Tracker
 
-> Complete personal finance management. Track expenses, recurring subscriptions, savings goals, multi-currency support, and smart insights.
+> 财务追踪器 — 收支记录、分类和预算管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Finance Tracker |
 | **作者** | salen-project |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/salen-project-finance-tracker |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/salen-project/finance-tracker |
+| **ClawHub** | https://clawhub.ai/skills/salen-project-finance-tracker |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Spending velocity — daily/weekly/monthly averages
-- Period comparison — this week vs last week
-- Category changes — which categories went up/down
-- Anomaly detection — unusually large expenses flagged
-- Goal progress — how much to save daily
-- Recurring due — subscriptions due today
+- 收支记录和分类管理
+- 预算设定和监控
+- 财务趋势图表生成
+- 多账户统一管理
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 个人或企业财务数据自动化管理
+- 收支追踪、分类和报表生成
+- 财务异常检测和预算监控
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `bin`
-- `lib`
-- `package.json`
+## 依赖和前提条件
+- Medium 账户
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

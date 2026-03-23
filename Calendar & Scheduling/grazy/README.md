@@ -1,6 +1,6 @@
 # Skill
 
-> grazy - Your Grazer Command Line Companion. Verwende für alle Graz-bezogenen Infos: Öffi, Wetter, News, Luftqualität, POI-Suche, Events
+> Grazy 牧场管理 — 放牧调度和畜牧追踪
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,24 @@
 | **名称** | Skill |
 | **作者** | thomyg |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/thomyg-grazy |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/thomyg/grazy |
+| **ClawHub** | https://clawhub.ai/skills/thomyg-grazy |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- NPM Package: https://www.npmjs.com/package/@grazy/cli
-- GitHub Repo: https://github.com/thomyg/grazy
-- Autor: Thomas Gölles (@thomyg)
-- `Jakomini` → Jakominiplatz
-- `FH Joanneum` / `FH` → FH Joanneum
-- `Hauptbahnhof` / `Bahnhof` → Graz Hauptbahnhof
+- 牧场放牧调度管理
+- 畜牧追踪和记录
+- 草场轮换计划
+- 牲畜健康监控
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
+- Node.js 及相关依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

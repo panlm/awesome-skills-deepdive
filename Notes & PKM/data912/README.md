@@ -1,6 +1,6 @@
 # Data 912 Market Data
 
-> >
+> 数据处理和转换工具 — 结构化数据操作
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Data 912 Market Data |
 | **作者** | ferminrp |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/ferminrp-data912 |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ferminrp/data912 |
+| **ClawHub** | https://clawhub.ai/skills/ferminrp-data912 |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Base URL: `https://data912.com`
-- Auth: None required (public API)
-- Format: JSON responses
-- Source note: Data912 describes this API as educational/hobby data and explicitly not real-time.
-- Caching note: Server metadata indicates roughly 2-hour Cloudflare caching.
-- `/live/mep` (USD MEP)
+- 结构化数据处理和转换
+- 数据格式转换和清洗
+- 批量数据操作支持
+- 数据管道和工作流
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Cortex Memory
 
-> Long-term memory for OpenClaw agents — auto-recall before turns, auto-capture after, tools for search/save/forget.
+> 大脑皮层记忆系统 — 分层记忆存储与智能检索
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,25 @@
 | **名称** | Cortex Memory |
 | **作者** | matthewubundi |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/matthewubundi-cortex-memory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/matthewubundi/cortex-memory |
+| **ClawHub** | https://clawhub.ai/skills/matthewubundi-cortex-memory |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Key patterns, schemas, or formats (e.g. `arclight:user:{userId}`, cache-aside strategy)
-- Exact metrics and performance numbers (before/after)
-- SQL statements, CLI commands, config values
-- Library/package choices with version-specific rationale (e.g. "chose SendGrid over Resend because SOC 2 Type 2")
-- Architecture/migration decisions with specific reasoning
-- Bug root causes with the full debugging chain
+- 分层记忆架构（短期/长期/永久）
+- 基于重要性的记忆强化和衰减
+- 语义关联的智能检索
+- 记忆容量自动管理和优化
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- Node.js
+- Fabric 框架
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

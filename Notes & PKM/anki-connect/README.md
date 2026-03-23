@@ -1,6 +1,6 @@
 # Anki Connect
 
-> Interact with Anki flashcard decks via the AnkiConnect REST API. Use when the user wants to create, update, search, or manage Anki cards, decks, notes, or models.
+> Anki 间隔重复学习卡片管理 — 创建、查询和同步闪卡
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,19 +8,24 @@
 | **名称** | Anki Connect |
 | **作者** | gyroninja |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/gyroninja-anki-connect |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gyroninja/anki-connect |
+| **ClawHub** | https://clawhub.ai/skills/gyroninja-anki-connect |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 通过 AnkiConnect 接口管理闪卡
+- 创建、查询和更新 Anki 卡组
+- 间隔重复学习进度追踪
+- 批量导入和导出卡片内容
+
 ## 使用场景
-- 管理 Anki 间隔重复卡片
-- 自动创建学习卡片
-- 优化记忆学习流程
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- Anki 桌面版 + AnkiConnect 插件
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

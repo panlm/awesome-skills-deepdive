@@ -1,6 +1,6 @@
 # Meeting Notes Generator
 
-> Generate structured meeting minutes from transcripts.
+> 会议笔记工具 — 自动记录和整理会议内容
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,22 +8,24 @@
 | **名称** | Meeting Notes Generator |
 | **作者** | user520512 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/user520512-meeting-notes |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/user520512/meeting-notes |
+| **ClawHub** | https://clawhub.ai/skills/user520512-meeting-notes |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 自动记录会议要点和决策
+- 会议纪要结构化整理
+- 参与者和行动项追踪
+- 历史会议搜索和回顾
+
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 通过 AI Agent 快速创建和管理笔记内容
+- 搜索和检索历史笔记信息
+- 笔记自动分类、标注和整理
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `package.json`
-- `src`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

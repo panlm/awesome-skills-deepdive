@@ -1,6 +1,6 @@
 # ii-IRC
 
-> Persistent IRC presence using ii (minimalist file-based IRC client) with event-driven mention detection. Use when setting up an AI agent on IRC, monitoring IRC channels, sending IRC messages, or integrating OpenClaw with IRC via ii. Covers ii setup, mention watcher, systemd services, and message sending/reading.
+> ii IRC 客户端集成 — 极简 IRC 即时通讯
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | ii-IRC |
 | **作者** | destructatron |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/destructatron-ii-irc |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/destructatron/ii-irc |
+| **ClawHub** | https://clawhub.ai/skills/destructatron-ii-irc |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Not connecting: Check `ii` is running (`pgrep -f "ii -s"`), verify server/port
-- Not joining channel: The `in` FIFO must exist; check `ExecStartPost` timing (increase sleep if needed)
-- Mentions not triggering: Verify watcher is running (`pgrep -f watch-daemon`), check nick matches
-- Messages splitting weirdly: Shorten messages; ii has a ~512 byte IRC protocol limit
-- Reconnection: systemd `Restart=always` handles this; ii exits on disconnect, systemd restarts it
+- ii IRC 极简客户端操作
+- 频道消息收发
+- IRC 服务器连接管理
+- 消息日志记录
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

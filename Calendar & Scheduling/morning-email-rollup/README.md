@@ -1,6 +1,6 @@
 # Morning Email Rollup
 
-> Daily morning rollup of important emails and calendar events at 8am with AI-generated summaries
+> 晨间邮件汇总 — 自动整理和摘要每日未读邮件
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,26 @@
 | **名称** | Morning Email Rollup |
 | **作者** | am-will |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/am-will-morning-email-rollup |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/am-will/morning-email-rollup |
+| **ClawHub** | https://clawhub.ai/skills/am-will-morning-email-rollup |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Runs every day at 8:00 AM (configurable timezone)
-- Shows today's calendar events from Google Calendar
-- Searches for emails marked as important or starred from the last 24 hours
-- Uses AI (Gemini CLI) to generate natural language summaries of each email
-- Shows up to 20 most important emails with:
-- 🔴 Unread indicator (red)
-- 🟢 Read indicator (green)
-- Sender name/email
+- 每日自动汇总未读邮件
+- 重要邮件优先排序
+- 邮件摘要和关键信息提取
+- 定时发送晨间简报
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `rollup.sh`
+## 依赖和前提条件
+- Medium 账户
+- Google Calendar API 凭证
+- Gmail API 凭证
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

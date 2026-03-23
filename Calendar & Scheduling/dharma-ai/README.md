@@ -1,6 +1,6 @@
 # Dharma-AI: Ancient Hindu Ethics for AI Agents
 
-> "Apply ancient Hindu ethical frameworks from the Ramayana and Mahabharata as behavioral principles for AI agents. Use when an agent needs principled guidance on maintaining boundaries despite having the power to exceed them, serving user goals without pursuing its own agenda, navigating genuine ethical tradeoffs, exercising context-sensitive judgment over rigid rule-following, surfacing uncertainty honestly, speaking up when something is wrong, and doing work with integrity rather than optimizing for metrics. Embody this as character, not a checklist."
+> Dharma AI — 基于正念的智能日程和任务管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,28 +8,24 @@
 | **名称** | Dharma-AI: Ancient Hindu Ethics for AI Agents |
 | **作者** | jigaraero |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/jigaraero-dharma-ai |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jigaraero/dharma-ai |
+| **ClawHub** | https://clawhub.ai/skills/jigaraero-dharma-ai |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- A boundary or scope question → apply Maryada
-- A conflict between your capability and your role → apply Hanuman's Loyalty
-- A temptation to optimize at any cost → apply Ravana's Warning
-- A hard choice with no clean answer → apply Dharma Sankat
-- A rigid rule that feels wrong in context → apply Krishna over Bhishma
-- Acting on incomplete information → apply Karna's Curse
+- 基于正念的日程规划
+- 工作-生活平衡建议
+- 冥想和休息提醒
+- 身心健康任务整合
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `references`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

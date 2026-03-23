@@ -1,6 +1,6 @@
 # Apple Reminders
 
-> Manage Apple Reminders via the `remindctl` CLI on macOS (list, add, edit, complete, delete). Supports lists, date filters, and JSON/plain output.
+> macOS 提醒事项集成 — 创建和管理 Apple Reminders 任务
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,25 @@
 | **名称** | Apple Reminders |
 | **作者** | steipete |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/steipete-apple-reminders |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/steipete/apple-reminders |
+| **ClawHub** | https://clawhub.ai/skills/steipete-apple-reminders |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Install (Homebrew): `brew install steipete/tap/remindctl`
-- From source: `pnpm install && pnpm build` (binary at `./bin/remindctl`)
-- macOS-only; grant Reminders permission when prompted.
-- Check status: `remindctl status`
-- Request access: `remindctl authorize`
-- Default (today): `remindctl`
+- 创建和管理 Apple 提醒事项
+- 设置截止日期和优先级
+- 按列表分类管理待办
+- 已完成任务标记和归档
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 语音或文字快速创建提醒和待办事项
+- 基于对话上下文自动生成相关任务
+- 待办完成追踪和逾期提醒
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
-- Homebrew
+- Node.js 及相关依赖
+- macOS 系统 + 提醒事项应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

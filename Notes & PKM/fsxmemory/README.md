@@ -1,6 +1,6 @@
 # ForesigxtMemory
 
-> Structured memory system for AI agents. Context death resilience (checkpoint/recover), structured storage, Obsidian-compatible markdown, and local semantic search.
+> 文件系统扩展记忆 — 基于文件系统的持久化记忆存储
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,24 @@
 | **名称** | ForesigxtMemory |
 | **作者** | azrijamil |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/azrijamil-fsxmemory |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/azrijamil/fsxmemory |
+| **ClawHub** | https://clawhub.ai/skills/azrijamil-fsxmemory |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- YAML frontmatter with metadata (title, date, type, status)
-- Structured sections with placeholder guidance
-- Wiki-link suggestions for connections
-- Auto-generated tags
-- ✅ Isolating workspace memory — Each project has its own separate vault
-- ✅ Per-project configuration — Different agents in different workspaces use different vaults
+- 基于文件系统的记忆持久化
+- 目录结构化的知识存储
+- 文件级别的记忆检索
+- 跨会话状态保存和恢复
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- AI Agent 长期记忆管理：跨会话存储和检索重要信息
+- 对话中自动记录关键决策和信息供未来参考
+- 多 Agent 协作中的知识共享和经验传递
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- Node.js 及相关依赖
 
-## 包含文件
-- `INSTALL.md`
-- `SKILL.md`
-- `_meta.json`
-- `templates`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

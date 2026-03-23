@@ -1,6 +1,6 @@
 # habib-pdf-to-json
 
-> "Extract structured data from construction PDFs. Convert specifications, BOMs, schedules, and reports from PDF to Excel/CSV/JSON. Use OCR for scanned documents and pdfplumber for native PDFs."
+> PDF 转 JSON — 从 PDF 文档提取结构化数据
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | habib-pdf-to-json |
 | **作者** | dbmoradi60 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/dbmoradi60-habib-pdf-to-json |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dbmoradi60/habib-pdf-to-json |
+| **ClawHub** | https://clawhub.ai/skills/dbmoradi60-habib-pdf-to-json |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Book: "Data-Driven Construction" by Artem Boiko, Chapter 2.4
-- Website: https://datadrivenconstruction.io
-- pdfplumber Docs: https://github.com/jsvine/pdfplumber
-- Tesseract OCR: https://github.com/tesseract-ocr/tesseract
-- See `image-to-data` for image processing
-- See `cad-to-data` for CAD/BIM data extraction
+- PDF 文档内容提取
+- 结构化 JSON 数据输出
+- 表格和文本识别
+- 批量 PDF 处理
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x 及相关依赖
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

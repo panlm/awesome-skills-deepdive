@@ -1,6 +1,6 @@
 # Rune - Self-Improving AI Memory
 
-> Self-improving AI memory system with intelligent context injection and adaptive learning
+> Rune 符文工具 — 结构化知识编码和检索
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,47 +8,29 @@
 | **名称** | Rune - Self-Improving AI Memory |
 | **作者** | thebobloblaw |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/thebobloblaw-rune |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/thebobloblaw/rune |
+| **ClawHub** | https://clawhub.ai/skills/thebobloblaw-rune |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Fact Storage — Structured key-value facts with categories, confidence scores, scopes, and tiers
-- Full-Text Search — FTS5-powered instant search across all facts
-- Auto-Extraction — Extract facts from markdown session files using Ollama, Anthropic, or OpenAI
-- Adaptive Context — Dynamically inject relevant facts into LLM prompts with token budgets
-- Session Intelligence — Detect interaction styles, analyze patterns, proactive recall
-- Project Autopilot — Track project states, suggest next tasks, detect stuck projects
-- Smart Notifications — Classify, batch, and queue notifications for optimal timing
-- Self-Improvement — Weekly self-review, pattern analysis, skill usage tracking
+- 结构化知识编码和存储
+- 符号化信息检索
+- 知识片段关联和组合
+- 自定义编码方案支持
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- 数据库
+- Node.js 及相关依赖
+- OpenAI API 密钥
+- Anthropic API 密钥
+- Medium 账户
+- 相关服务 API 密钥
+- 运行 install.sh 安装脚本
 
-## 包含文件
-- `CHANGELOG.md`
-- `COMMON-MISTAKES.md`
-- `INTEGRATION-GUIDE.md`
-- `ORIGINAL_README.md`
-- `SECURITY.md`
-- `SKILL.md`
-- `_meta.json`
-- `bin`
-- `install.sh`
-- `package.json`
-- `rune-session-handler.sh`
-- `setup-workflow.sh`
-- `skill.json`
-- `src`
-- `uninstall.sh`
-- `update.sh`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

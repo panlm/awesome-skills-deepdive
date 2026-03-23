@@ -1,22 +1,31 @@
-# nak
+# Nak
 
-> nak skill for OpenClaw
+> Nostr 协议工具 — 去中心化社交网络操作
 
 ## 基本信息
 | 项目 | 内容 |
 |---|---|
-| **名称** | nak |
+| **名称** | Nak |
 | **作者** | unknown |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/unknown-nak |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/nak |
+| **ClawHub** | https://clawhub.ai/skills/nak |
 | **安全评级** | 🟢 Low |
 
-## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+## 功能概述
+- Nostr 去中心化协议操作
+- 事件发布和订阅
+- 身份管理和验证
+- 中继服务器连接管理
 
+## 使用场景
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
+
+## 依赖和前提条件
+- OpenClaw 运行环境
+
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Apple Calendar CLI
 
-> This skill should be used when interacting with Apple Calendar on macOS. Use it for listing calendars, viewing events, creating/updating/deleting calendar events, and checking availability/free-busy times. Triggers on requests like "check my calendar", "schedule a meeting", "what's on my schedule", "am I free tomorrow", or any calendar-related operations.
+> ACC 命令行接口 — 终端日程管理工具
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,25 @@
 | **名称** | Apple Calendar CLI |
 | **作者** | joargp |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/joargp-accli |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/joargp/accli |
+| **ClawHub** | https://clawhub.ai/skills/joargp-accli |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Timed events: YYYY-MM-DDTHH:mm or YYYY-MM-DDTHH:mm:ss
-- All-day events: YYYY-MM-DD
-- --json - Output as JSON (recommended for parsing)
-- --help - Show help for any command
-- --calendar-id <id> - Persistent calendar ID (recommended over name)
-- --from <datetime> - Start of range (default: now)
+- 终端日程查看和管理
+- 快速创建和编辑事件
+- 日程冲突检测
+- 命令行交互式日历
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Node.js / npm
-- macOS
+- Node.js 及相关依赖
+- macOS 系统 + 日历应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

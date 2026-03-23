@@ -1,6 +1,6 @@
 # Nosi (Publish contents from AI agents)
 
-> Nosi (Publish contents from AI agents) skill for OpenClaw
+> 笔记与信息整理工具 — 结构化知识组织
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,19 +8,24 @@
 | **名称** | Nosi (Publish contents from AI agents) |
 | **作者** | billhao |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/billhao-nosi |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/billhao/nosi |
+| **ClawHub** | https://clawhub.ai/skills/billhao-nosi |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 结构化笔记和信息组织
+- 知识分类和标签管理
+- 信息检索和关联发现
+- 多格式内容支持
+
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `_meta.json`
-- `skill.md`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

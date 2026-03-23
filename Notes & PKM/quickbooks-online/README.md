@@ -1,6 +1,6 @@
 # Quickbooks-Agent
 
-> >
+> QuickBooks Online 集成 — 在线会计和财务管理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,26 @@
 | **名称** | Quickbooks-Agent |
 | **作者** | paulbudveit |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/paulbudveit-quickbooks-online |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/paulbudveit/quickbooks-online |
+| **ClawHub** | https://clawhub.ai/skills/paulbudveit-quickbooks-online |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- docker compose
-- QB_CLIENT_SECRET
-- QB_ENVIRONMENT
-- run: "git clone https://github.com/claw4business/quickbooks-online-cli.git ~/skills/qb-cli"
-- run: "cp ~/skills/qb-cli/.env.example ~/skills/qb-cli/.env"
-- run: "docker compose -f ~/skills/qb-cli/docker-compose.yml build"
+- QuickBooks Online 账务管理
+- 发票创建和客户管理
+- 收支记录和银行对账
+- 财务报表生成
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
 - Docker
-- macOS
-- OAuth
+- Anki 桌面版 + AnkiConnect 插件
+- QuickBooks Online 账户和 API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

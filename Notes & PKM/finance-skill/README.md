@@ -1,6 +1,6 @@
 # Finance Skill
 
-> Personal finance memory layer. Parse statements, store transactions, query spending.
+> 财务管理技能 — 个人财务追踪和分析
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,24 @@
 | **名称** | Finance Skill |
 | **作者** | safaiyeh |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/safaiyeh-finance-skill |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/safaiyeh/finance-skill |
+| **ClawHub** | https://clawhub.ai/skills/safaiyeh-finance-skill |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Statement Parsing — Upload PDF statements, AI extracts transactions automatically
-- Transaction Storage — Local JSON store, no cloud, your data stays yours
-- Natural Queries — "How much did I spend on food?" / "Show my biggest expenses"
-- Category Breakdown — Auto-categorizes: groceries, restaurants, transport, entertainment, etc.
+- 个人财务数据追踪和管理
+- 收支分类和预算监控
+- 财务报表和趋势分析
+- 账单和交易记录管理
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人或企业财务数据自动化管理
+- 收支追踪、分类和报表生成
+- 财务异常检测和预算监控
 
 ## 依赖和前提条件
-- Python / pip
-- Homebrew
-- OAuth
+- Python 3.x
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # Clippy - Microsoft 365 CLI
 
-> Microsoft 365 / Outlook CLI for calendar and email. Use when managing Outlook calendar (view, create, update, delete events, find meeting times, respond to invitations), sending/reading emails, or searching for people/rooms in the organization.
+> Clippy 智能助手 — 剪贴板管理和快捷操作
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,22 +8,24 @@
 | **名称** | Clippy - Microsoft 365 CLI |
 | **作者** | foeken |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/foeken-clippy |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/foeken/clippy |
+| **ClawHub** | https://clawhub.ai/skills/foeken-clippy |
 | **安全评级** | 🟡 Medium |
 
+## 功能概述
+- 智能剪贴板内容管理
+- 快捷操作和自动化触发
+- 剪贴板历史追踪
+- 内容格式转换
+
 ## 使用场景
-- 准备和管理会议
-- 生成会议议程和摘要
-- 跟踪会议行动项
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- macOS
+- OpenClaw 运行环境
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

@@ -1,6 +1,6 @@
 # BrainRepo
 
-> >
+> 大脑知识仓库 — 管理和组织 AI Agent 的知识体系
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,26 +8,24 @@
 | **名称** | BrainRepo |
 | **作者** | codezz |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/codezz-brainrepo |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/codezz/brainrepo |
+| **ClawHub** | https://clawhub.ai/skills/codezz-brainrepo |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Casual chat without information value
-- Temporary queries ("what time is it")
-- Information easily searchable online
+- 集中管理 Agent 知识体系
+- 知识分类和层次化组织
+- 跨会话知识持久化
+- 知识检索和复用功能
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `assets`
-- `references`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

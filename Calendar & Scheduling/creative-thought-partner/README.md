@@ -1,6 +1,6 @@
 # Creative Thought Partner
 
-> A conversational creative thought partner that reveals hidden brilliance in your ideas through critical observations and paradox hunting. Use when someone wants to explore ideas, discover breakthrough insights, crystallize unnamed concepts, or develop original frameworks for writing, content creation, product development, or any creative endeavor.
+> 创意思维伙伴 — AI 辅助创意思考和灵感激发
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,24 @@
 | **名称** | Creative Thought Partner |
 | **作者** | vincentchan |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/vincentchan-creative-thought-partner |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/vincentchan/creative-thought-partner |
+| **ClawHub** | https://clawhub.ai/skills/vincentchan-creative-thought-partner |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Original insights
-- Novel concepts
-- Unique strategies
-- Powerful paradoxes
-- Generated Output: `creative-thoughts/session-{timestamp}.md`
-- "I notice you emphasize X while most in your field focus on Y—tell me more about that choice."
+- AI 辅助创意思考和灵感激发
+- 头脑风暴会话引导
+- 创意方法论应用
+- 思维发散和收敛工具
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- OpenClaw 运行环境
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

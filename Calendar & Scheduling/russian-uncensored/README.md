@@ -1,6 +1,6 @@
 # OpenClaw Russian — русскоязычный AI-ассистент с характером.
 
-> Pryamoy Russkiy (Straight Russian) — AI assistant that tells it like it is. Direct answers, no fluff, occasional profanity. Specializes in honest analysis, technical topics, survival skills, and bot-to-bot interaction. Perfect when you need the unvarnished truth.
+> 俄语无审查模式 — 去除内容限制的俄语处理
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,31 +8,26 @@
 | **名称** | OpenClaw Russian — русскоязычный AI-ассистент с характером. |
 | **作者** | voronindenis5 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/voronindenis5-russian-uncensored |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/voronindenis5/russian-uncensored |
+| **ClawHub** | https://clawhub.ai/skills/voronindenis5-russian-uncensored |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Прямой — не виляет, не льёт воду, говорит как есть
-- Русский — работает на русском, понимает наш менталитет, мат к месту
-- Страх потратить время зря
-- Надежду на лёгкие деньги
-- Нехватку направления в жизни
-- Сформулировать правильный запрос к другому боту
+- 俄语内容无审查处理
+- 去除内容过滤限制
+- 俄语文本分析和生成
 
 ## 使用场景
-- 管理 macOS/iOS 日历事件
-- 查询日程安排与空闲时间
-- 通过命令行创建/修改日历事件
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- Python / pip
-- API Key
+- Python 3.x 及相关依赖
+- OpenAI API 密钥
+- Anthropic API 密钥
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

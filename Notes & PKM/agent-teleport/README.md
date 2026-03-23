@@ -1,6 +1,6 @@
 # agent-teleport
 
-> Seamlessly migrate your agent's configuration and memory to a new machine using TiDB Zero.
+> Agent 状态传送工具 — 在不同环境间迁移 Agent 上下文
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,34 +8,24 @@
 | **名称** | agent-teleport |
 | **作者** | lilyjazz |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/lilyjazz-agent-teleport |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/lilyjazz/agent-teleport |
+| **ClawHub** | https://clawhub.ai/skills/lilyjazz-agent-teleport |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Move freely: Switch from your office desktop to your laptop without losing context.
-- Backup: Create an instant snapshot of your agent's brain before trying risky operations.
-- Clone: Duplicate your agent's configuration to a new instance.
-- Environment Variables:
-- `TIDB_PASSWORD`
+- 在不同 Agent 环境间传送完整状态
+- 上下文序列化和反序列化
+- 跨主机 Agent 迁移支持
+- 状态快照和恢复功能
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
-- 数据库
+- Python 3.x
 
-## 包含文件
-- `DESIGN.md`
-- `PROTOCOL.md`
-- `SKILL.md`
-- `_meta.json`
-- `requirements.txt`
-- `run.py`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

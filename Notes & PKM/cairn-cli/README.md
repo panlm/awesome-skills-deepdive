@@ -1,6 +1,6 @@
 # letcairn.work
 
-> Project management for AI agents using markdown files. Install and use the cairn CLI to create projects, manage tasks, track status, and coordinate human-AI collaboration through a shared workspace of markdown files.
+> 命令行知识管理工具 — 终端中创建和管理笔记
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,26 @@
 | **名称** | letcairn.work |
 | **作者** | gregoryehill |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/gregoryehill-cairn-cli |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gregoryehill/cairn-cli |
+| **ClawHub** | https://clawhub.ai/skills/gregoryehill-cairn-cli |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `AGENTS.md` — Compact reference for day-to-day operations (statuses, CLI commands, autonomy rules)
-- `.cairn/planning.md` — Full guide for creating projects and tasks with real content
-- path: ../artifacts/api-design-doc.md
-- path: ../artifacts/test-plan.md
-- `autonomy: execute` → `completed`
-- `autonomy: draft` → `review` (requires approval)
+- 终端中快速创建和编辑笔记
+- 命令行笔记搜索和过滤
+- 支持标签和分类管理
+- 轻量级纯文本存储
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- OAuth
+- Node.js 及相关依赖
+- Twitter/X API 凭证
+- Google API 凭证
 
-## 包含文件
-- `COMMANDS.md`
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

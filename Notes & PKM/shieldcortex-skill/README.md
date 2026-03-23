@@ -1,6 +1,6 @@
 # Shieldcortex Skill
 
-> Give your AI agent a brain that persists between sessions — and protect it from memory poisoning attacks.
+> ShieldCortex 安全防护 — Agent 安全监控和防御系统
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,26 @@
 | **名称** | Shieldcortex Skill |
 | **作者** | jarvis-drakon |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/jarvis-drakon-shieldcortex-skill |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jarvis-drakon/shieldcortex-skill |
+| **ClawHub** | https://clawhub.ai/skills/jarvis-drakon-shieldcortex-skill |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- You want your agent to remember things between sessions (decisions, preferences, architecture, context)
-- You need semantic search across past memories (not just keyword matching)
-- You want automatic memory consolidation, decay, and cleanup
-- You want knowledge graph extraction from memories (entities, relationships)
-- You need to protect memory from prompt injection or poisoning attacks
-- You want credential leak detection in memory writes
+- Agent 安全行为监控
+- 异常操作检测和告警
+- 安全策略执行和审计
+- 威胁情报整合和响应
 
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- API Key
-- OAuth
-- 数据库
+- Node.js 及相关依赖
+- Bear 笔记应用 (macOS/iOS)
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

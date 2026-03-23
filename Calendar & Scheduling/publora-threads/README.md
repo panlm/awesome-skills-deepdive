@@ -1,6 +1,6 @@
 # Publora Threads
 
-> >
+> Publora Threads — 自动发布内容到 Threads
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,30 +8,24 @@
 | **名称** | Publora Threads |
 | **作者** | sergebulaev |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/sergebulaev-publora-threads |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sergebulaev/publora-threads |
+| **ClawHub** | https://clawhub.ai/skills/sergebulaev-publora-threads |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- Single posts (text, images, videos, carousels)
-- Standalone posts under 500 characters
-- Connected via Meta OAuth — same account as Instagram
-- 5 links per post max — Threads enforces this at the API level
-- PNG supported — unlike Instagram, Threads accepts PNG images
-- Threading restriction — see the notice at the top of this skill
+- 自动发布内容到 Threads
+- 内容格式适配
+- 定时排程发布
+- 发布状态追踪
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 日常事务调度和时间管理自动化
+- 工作流程编排和任务协调
+- 与其他 OpenClaw 技能配合构建自动化流程
 
 ## 依赖和前提条件
-- OAuth
+- Threads API 凭证
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

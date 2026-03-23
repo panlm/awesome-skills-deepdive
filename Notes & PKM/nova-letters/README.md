@@ -1,6 +1,6 @@
 # Nova Letters
 
-> Write reflective letters to your future self. Capture what matters across sessions.
+> Nova 信件工具 — 自动化信件和通讯撰写
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,33 +8,24 @@
 | **名称** | Nova Letters |
 | **作者** | cryptocana |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/cryptocana-nova-letters |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/cryptocana/nova-letters |
+| **ClawHub** | https://clawhub.ai/skills/cryptocana-nova-letters |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Not a log (logs are facts; letters are meaning)
-- Not a task list (tasks are what to do; letters are what you learned)
-- Not a status report (status is data; letters are insight)
-- Store: `~/.openclaw/workspace/letters/` (auto-created)
-- Format: Markdown (YYYY-MM-DD.md per day)
-- Timezone: America/New_York (configurable via NODE_TZ)
+- 自动化信件和通讯撰写
+- 邮件模板管理和个性化
+- 批量邮件发送支持
+- 通讯内容生成和编辑
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
+- Node.js 及相关依赖
 
-## 包含文件
-- `ORIGINAL_README.md`
-- `SKILL.md`
-- `_meta.json`
-- `nova-letters.js`
-- `package.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

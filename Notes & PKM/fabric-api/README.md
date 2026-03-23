@@ -1,6 +1,6 @@
 # Fabric.co API skill
 
-> Create, search, and manage Fabric resources via the Fabric HTTP API (notepads/notes, folders, bookmarks, files, tags).
+> Fabric API 集成 — 利用 Fabric 框架增强 AI 处理能力
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,35 +8,27 @@
 | **名称** | Fabric.co API skill |
 | **作者** | tristanmanchester |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/tristanmanchester-fabric-api |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/tristanmanchester/fabric-api |
+| **ClawHub** | https://clawhub.ai/skills/tristanmanchester-fabric-api |
 | **安全评级** | 🔴 High |
 
 ## 功能概述
-- Node: `{baseDir}/scripts/fabric.mjs` (recommended)
-- Python: `{baseDir}/scripts/fabric.py`
-- There is no `POST /v2/notes` endpoint in the bundled OpenAPI spec. To create a “note”, use `POST /v2/notepads`.
-- Most create endpoints require `parentId`:
-- A folder UUID or one of: `@alias::inbox`, `@alias::bin`
-- Notepad creation requires:
+- 集成 Fabric AI 框架能力
+- 文本处理和内容增强
+- AI 模式和模板应用
+- 工作流自动化支持
 
 ## 使用场景
-- 管理个人笔记和知识
-- 自动化信息整理
-- 构建个人知识管理系统
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Node.js / npm
-- Python / pip
-- API Key
+- Python 3.x
+- Node.js
+- Fabric 框架
+- 相关服务 API 密钥
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `fabric-api.yaml`
-- `references`
-- `scripts`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

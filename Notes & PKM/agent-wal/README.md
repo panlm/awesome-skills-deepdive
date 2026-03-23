@@ -1,6 +1,6 @@
 # Agent Wal
 
-> "Write-Ahead Log protocol for agent state persistence. Prevents losing corrections, decisions, and context during conversation compaction. Use when: (1) receiving a user correction — log it before responding, (2) making an important decision or analysis — log it before continuing, (3) pre-compaction memory flush — flush the working buffer to WAL, (4) session start — replay unapplied WAL entries to restore lost context, (5) any time you want to ensure something survives compaction."
+> Agent 预写日志系统 — 确保操作的可靠性和可恢复性
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,25 +8,25 @@
 | **名称** | Agent Wal |
 | **作者** | bowen31337 |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/bowen31337-agent-wal |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bowen31337/agent-wal |
+| **ClawHub** | https://clawhub.ai/skills/bowen31337-agent-wal |
 | **安全评级** | 🟢 Low |
 
+## 功能概述
+- 预写日志（WAL）保证操作持久性
+- 崩溃恢复和事务回滚支持
+- 操作日志审计和追踪
+- 数据一致性保障机制
+
 ## 使用场景
-- Agent 长期记忆存储和检索
-- 跨会话上下文保持
-- 智能知识积累
+- 个人知识管理和信息组织自动化
+- 跨平台数据同步和智能检索
+- 与其他 OpenClaw 技能配合构建知识工作流
 
 ## 依赖和前提条件
-- Python / pip
+- Python 3.x
 - Docker
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-- `scripts`
-- `skill.toml`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

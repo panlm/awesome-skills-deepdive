@@ -1,6 +1,6 @@
 # Apple Notes
 
-> Manage Apple Notes via the `memo` CLI on macOS (create, view, edit, delete, search, move, and export notes). Use when a user asks Clawdbot to add a note, list notes, search notes, or manage note folders.
+> macOS 备忘录集成 — 创建、搜索和管理 Apple Notes
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,32 +8,25 @@
 | **名称** | Apple Notes |
 | **作者** | steipete |
 | **类目** | 笔记与个人知识管理 |
-| **ClawHub** | https://clawskills.sh/skills/steipete-apple-notes |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/steipete/apple-notes |
+| **ClawHub** | https://clawhub.ai/skills/steipete-apple-notes |
 | **安全评级** | 🟢 Low |
 
 ## 功能概述
-- Install (Homebrew): `brew tap antoniorodr/memo && brew install antoniorodr/memo/memo`
-- Manual (pip): `pip install .` (after cloning the repo)
-- macOS-only; if prompted, grant Automation access to Notes.app.
-- List all notes: `memo notes`
-- Filter by folder: `memo notes -f "Folder Name"`
-- Search notes (fuzzy): `memo notes -s "query"`
+- 创建和编辑 Apple 备忘录
+- 搜索笔记内容和标题
+- 按文件夹组织和管理笔记
+- 支持富文本内容处理
 
 ## 使用场景
-- 管理 Apple Notes 笔记
-- 搜索和组织 Apple 笔记
-- 自动化笔记创建
+- 通过 AI Agent 快速创建和管理笔记内容
+- 搜索和检索历史笔记信息
+- 笔记自动分类、标注和整理
 
 ## 依赖和前提条件
-- Python / pip
-- macOS
-- Homebrew
+- Python 3.x 及相关依赖
+- macOS 系统 + 备忘录应用
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
-
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|

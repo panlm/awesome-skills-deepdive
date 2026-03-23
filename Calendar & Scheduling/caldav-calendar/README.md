@@ -1,6 +1,6 @@
 # Caldav Calendar
 
-> Sync and query CalDAV calendars (iCloud, Google, Fastmail, Nextcloud, etc.) using vdirsyncer + khal. Works on Linux.
+> CalDAV 日历协议集成 — 标准日历服务器读写操作
 
 ## 基本信息
 | 项目 | 内容 |
@@ -8,27 +8,26 @@
 | **名称** | Caldav Calendar |
 | **作者** | asleep123 |
 | **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawskills.sh/skills/asleep123-caldav-calendar |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/asleep123/caldav-calendar |
+| **ClawHub** | https://clawhub.ai/skills/asleep123-caldav-calendar |
 | **安全评级** | 🟡 Medium |
 
 ## 功能概述
-- `s` → edit summary
-- `d` → edit description
-- `t` → edit datetime range
-- `l` → edit location
-- `D` → delete event
-- `n` → skip (save changes, next match)
+- CalDAV 协议标准日历操作
+- 远程日历服务器读写
+- 事件同步和冲突解决
+- 多日历源统一管理
 
 ## 使用场景
-- 管理日程和事件
-- 自动化日历操作
-- 跨平台日程同步
+- 通过自然语言创建和管理日历事件
+- 自动检测日程冲突并建议最佳时间
+- 每日日程摘要和即将到来的事件提醒
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+## 依赖和前提条件
+- CalDAV 日历服务器
+- Fastmail 账户和 API 凭证
+- Google API 凭证
 
+## 安全状态
 ## 详细安全审计
 | 检查项 | 评级 | 发现 |
 |---|---|---|
