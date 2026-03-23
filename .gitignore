@@ -1,0 +1,15 @@
+# Prevent GitHub push protection violations
+credentials.*
+*.env
+!*.env.example
+*.key
+*.pem
+package-lock.json
+pnpm-lock.yaml
+# Large generated files
+*.min.js
+*.min.css
+# Build artifacts
+node_modules/
+dist/
+htmlcov/
