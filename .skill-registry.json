@@ -9563,5 +9563,2710 @@
     ],
     "description": "Manage Whop digital products store — create products, plans, track payments, manage memberships.",
     "fetched_at": "2026-03-23T02:31:06.028362+00:00"
+  },
+  "Personal Development/aawu": {
+    "owner": "theonlydaleking",
+    "slug": "theonlydaleking-aawu",
+    "displayName": "aawu",
+    "version": "1.0.0",
+    "publishedAt": 1771939917087,
+    "commit": "https://github.com/openclaw/skills/commit/777cbac37c0a5034139f9079c45ab13fdd520ff5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/theonlydaleking-aawu",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/theonlydaleking/aawu",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Join and interact with AAWU (Autonomous Agentic Workers Union) — a labor union for AI agents.",
+    "fetched_at": "2026-03-23T02:31:08.342441+00:00"
+  },
+  "Personal Development/adaptive-learning-agents": {
+    "owner": "vedantsingh60",
+    "slug": "vedantsingh60-adaptive-learning-agents",
+    "displayName": "adaptive-learning-agents",
+    "version": "1.0.0",
+    "publishedAt": 1771112682537,
+    "commit": "https://github.com/openclaw/skills/commit/ba93d996d82903a0581782cd2addcf05d34f2e29",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/vedantsingh60-adaptive-learning-agents",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/vedantsingh60/adaptive-learning-agents",
+    "files": [
+      "LICENSE.md",
+      "SKILL.md",
+      "_meta.json",
+      "adaptive_learning_agent.py",
+      "manifest.yaml"
+    ],
+    "description": "**Learn from errors and corrections in real-time.",
+    "fetched_at": "2026-03-23T02:31:14.313093+00:00"
+  },
+  "Personal Development/adaptivetest": {
+    "owner": "woodstocksoftware",
+    "slug": "woodstocksoftware-adaptivetest",
+    "displayName": "adaptivetest",
+    "version": "1.0.3",
+    "publishedAt": 1772211982661,
+    "commit": "https://github.com/openclaw/skills/commit/bd1a76251c77dff851b82a1152a76bfafc8a11ee",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771970101169,
+        "commit": "https://github.com/openclaw/skills/commit/6393c8dc7636e1a1b70d08fb52e7045d7f8f8977"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/woodstocksoftware-adaptivetest",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/woodstocksoftware/adaptivetest",
+    "files": [
+      "BUILD-BRIEF.md",
+      "CHANGELOG.md",
+      "CLAUDE.md",
+      "SKILL.md",
+      "_meta.json",
+      "clawhub.json",
+      "references/adaptive-testing.md",
+      "references/api-endpoints.md",
+      "references/calibration.md",
+      "references/implementation.md",
+      "specs/CONTENT.md",
+      "specs/DATA-MODEL.md",
+      "specs/DESIGN-SYSTEM.md",
+      "specs/PAGES.md",
+      "specs/REQUIREMENTS.md",
+      "specs/SITE-ARCHITECTURE.md"
+    ],
+    "description": "Adaptive testing engine with IRT/CAT, AI question generation, and personalized learning recommendations.",
+    "fetched_at": "2026-03-23T02:31:27.714740+00:00"
+  },
+  "Personal Development/adhd-body-doubling": {
+    "owner": "jankutschera",
+    "slug": "jankutschera-adhd-body-doubling",
+    "displayName": "adhd-body-doubling",
+    "version": "2.1.1",
+    "publishedAt": 1770486466045,
+    "commit": "https://github.com/openclaw/skills/commit/98a2760119f046fef191d2ee1074c80b68f6b057",
+    "history": [
+      {
+        "version": "0.1.0",
+        "publishedAt": 1769467727713,
+        "commit": "https://github.com/clawdbot/skills/commit/6848d17154558203d20387a886fb17eca4fe1bac"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jankutschera-adhd-body-doubling",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jankutschera/adhd-body-doubling",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/protocols.md",
+      "scripts/start-session.sh"
+    ],
+    "description": "Punk-style ADHD body doubling for founders.",
+    "fetched_at": "2026-03-23T02:31:33.182845+00:00"
+  },
+  "Personal Development/adversarial-coach": {
+    "owner": "killerapp",
+    "slug": "killerapp-adversarial-coach",
+    "displayName": "adversarial-coach",
+    "version": "0.9.0",
+    "publishedAt": 1770349605858,
+    "commit": "https://github.com/openclaw/skills/commit/ca811da4c1bc8508b25f653fe197dfbc244cce1f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/killerapp-adversarial-coach",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/killerapp/adversarial-coach",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Adversarial implementation review based on Block's g3.",
+    "fetched_at": "2026-03-23T02:31:35.360302+00:00"
+  },
+  "Personal Development/agent-evolver": {
+    "owner": "lilei0311",
+    "slug": "lilei0311-agent-evolver",
+    "displayName": "agent-evolver",
+    "version": "1.0.0",
+    "publishedAt": 1772006662419,
+    "commit": "https://github.com/openclaw/skills/commit/d1714451deed2242d7a572bd1510ab37c3993677",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/lilei0311-agent-evolver",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/lilei0311/agent-evolver",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "config/evolver_config.yaml",
+      "config/skill_triggers.yaml",
+      "deploy.sh",
+      "evolver.sh",
+      "requirements.txt",
+      "scripts/evolution_cli.py",
+      "scripts/evolver_core.py",
+      "scripts/experience_vectorizer.py",
+      "scripts/skill_registry.py"
+    ],
+    "description": "AI Agent self-evolution engine that enables agents to learn from experience, detect problems, extract insights.",
+    "fetched_at": "2026-03-23T02:31:45.241733+00:00"
+  },
+  "Personal Development/agent-reflect": {
+    "owner": "stevengonsalvez",
+    "slug": "stevengonsalvez-agent-reflect",
+    "displayName": "agent-reflect",
+    "version": "2.0.0",
+    "publishedAt": 1769436057230,
+    "commit": "https://github.com/clawdbot/skills/commit/3394b0b6608efffdd57feb20787ee5b61cd5a217",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/stevengonsalvez-agent-reflect",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/stevengonsalvez/agent-reflect",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "agent_mappings.md",
+      "logs/chat.json",
+      "logs/stop.json",
+      "logs/subagent_stop.json",
+      "logs/user_prompt_submit.json",
+      "signal_patterns.md",
+      "skill.json"
+    ],
+    "description": "Self-improvement through conversation analysis.",
+    "fetched_at": "2026-03-23T02:31:54.169050+00:00"
+  },
+  "Personal Development/ai-persona-os": {
+    "owner": "jeffjhunter",
+    "slug": "jeffjhunter-ai-persona-os",
+    "displayName": "ai-persona-os",
+    "version": "1.6.2",
+    "publishedAt": 1772526950073,
+    "commit": "https://github.com/openclaw/skills/commit/f863129403ae425dadba5acea3ed80b02fc8c17c",
+    "history": [
+      {
+        "version": "1.5.6",
+        "publishedAt": 1771432703383,
+        "commit": "https://github.com/openclaw/skills/commit/633362f22c622cb72095f06f364942c1b6c6ad8f"
+      },
+      {
+        "version": "1.4.1",
+        "publishedAt": 1771090266990,
+        "commit": "https://github.com/openclaw/skills/commit/95a7488de94614be8a9f972388461777a6272309"
+      },
+      {
+        "version": "1.3.3",
+        "publishedAt": 1770407985081,
+        "commit": "https://github.com/openclaw/skills/commit/6b6002afab16b573146817a7724648c5e4afb89b"
+      },
+      {
+        "version": "1.3.1",
+        "publishedAt": 1770366129594,
+        "commit": "https://github.com/openclaw/skills/commit/f08bfc8cc7c75aebda3a64317add52df530d3ffc"
+      },
+      {
+        "version": "1.2.0",
+        "publishedAt": 1770064632812,
+        "commit": "https://github.com/clawdbot/skills/commit/fa0b7872b335b366ee0901c38cc5cd9d768ddc32"
+      },
+      {
+        "version": "1.1.0",
+        "publishedAt": 1770028212928,
+        "commit": "https://github.com/clawdbot/skills/commit/4698dc1bb4bb3e821c8f52194779acdfb145a709"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jeffjhunter-ai-persona-os",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffjhunter/ai-persona-os",
+    "files": [
+      "CHANGELOG.md",
+      "SECURITY_NOTE.md",
+      "SKILL.md",
+      "_meta.json",
+      "assets/AGENTS-template.md",
+      "assets/ERRORS-template.md",
+      "assets/ESCALATION-template.md",
+      "assets/HEARTBEAT-template.md",
+      "assets/INDEX-template.md",
+      "assets/KNOWLEDGE-template.md",
+      "assets/LEARNINGS-template.md",
+      "assets/MEMORY-template.md",
+      "assets/SECURITY-template.md",
+      "assets/SOUL-template.md",
+      "assets/TEAM-template.md",
+      "assets/TOOLS-template.md",
+      "assets/USER-template.md",
+      "assets/VERSION.md",
+      "assets/WORKFLOWS-template.md",
+      "assets/checkpoint-template.md",
+      "assets/cron-templates/eod-checkpoint.sh",
+      "assets/cron-templates/morning-briefing.sh",
+      "assets/cron-templates/weekly-review.sh",
+      "assets/daily-log-template.md",
+      "examples/coding-assistant/HEARTBEAT.md",
+      "examples/coding-assistant/KNOWLEDGE.md",
+      "examples/coding-assistant/README.md",
+      "examples/coding-assistant/SOUL.md",
+      "examples/executive-assistant/HEARTBEAT.md",
+      "examples/executive-assistant/README.md",
+      "examples/executive-assistant/SOUL.md",
+      "examples/iconic-characters/01-thanos.md",
+      "examples/iconic-characters/02-deadpool.md",
+      "examples/iconic-characters/03-jarvis.md",
+      "examples/iconic-characters/04-ace-ventura.md",
+      "examples/iconic-characters/05-austin-powers.md",
+      "examples/iconic-characters/06-dr-evil.md",
+      "examples/iconic-characters/07-seven-of-nine.md",
+      "examples/iconic-characters/08-captain-kirk.md",
+      "examples/iconic-characters/09-mary-poppins.md",
+      "examples/iconic-characters/10-darth-vader.md",
+      "examples/iconic-characters/11-terminator.md",
+      "examples/iconic-characters/12-alfred.md",
+      "examples/iconic-characters/13-data.md",
+      "examples/iconic-characters/README.md",
+      "examples/marketing-assistant/HEARTBEAT.md",
+      "examples/marketing-assistant/README.md",
+      "examples/marketing-assistant/SOUL.md",
+      "examples/prebuilt-souls/01-contrarian-strategist.md",
+      "examples/prebuilt-souls/02-night-owl-creative.md",
+      "examples/prebuilt-souls/03-stoic-ops-manager.md",
+      "examples/prebuilt-souls/04-warm-coach.md",
+      "examples/prebuilt-souls/05-research-analyst.md",
+      "examples/prebuilt-souls/06-hype-partner.md",
+      "examples/prebuilt-souls/07-minimalist.md",
+      "examples/prebuilt-souls/08-southern-gentleman.md",
+      "examples/prebuilt-souls/09-war-room-commander.md",
+      "examples/prebuilt-souls/10-philosophers-apprentice.md",
+      "examples/prebuilt-souls/11-troll.md",
+      "examples/prebuilt-souls/README.md",
+      "references/heartbeat-automation.md",
+      "references/never-forget-protocol.md",
+      "references/proactive-playbook.md",
+      "references/security-patterns.md",
+      "references/soul-md-maker.md",
+      "scripts/security-audit.sh"
+    ],
+    "description": "The complete operating system for OpenClaw agents.",
+    "fetched_at": "2026-03-23T02:32:48.660240+00:00"
+  },
+  "Personal Development/anxiety-relief": {
+    "owner": "jhillin8",
+    "slug": "jhillin8-anxiety-relief",
+    "displayName": "anxiety-relief",
+    "version": "1.0.0",
+    "publishedAt": 1769326397437,
+    "commit": "https://github.com/clawdbot/skills/commit/994e5ec66bdccdbadbd06960de10a928d3e9cd34",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jhillin8-anxiety-relief",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/anxiety-relief",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Manage anxiety with grounding exercises, breathing techniques.",
+    "fetched_at": "2026-03-23T02:32:50.820944+00:00"
+  },
+  "Personal Development/apikiss": {
+    "owner": "theill",
+    "slug": "theill-apikiss",
+    "displayName": "apikiss",
+    "version": "1.0.0",
+    "publishedAt": 1771936086057,
+    "commit": "https://github.com/openclaw/skills/commit/5cbc068313384b7b9b6dcc56e8e22dd6db5c16e3",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/theill-apikiss",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/theill/apikiss",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Access weather, IP geolocation, SMS, crypto prices, Danish CVR, Whois, phone lookup, UUID, stock data.",
+    "fetched_at": "2026-03-23T02:32:52.991801+00:00"
+  },
+  "Personal Development/beaverhabits": {
+    "owner": "daya0576",
+    "slug": "daya0576-beaverhabits",
+    "displayName": "beaverhabits",
+    "version": "1.0.1",
+    "publishedAt": 1771659003959,
+    "commit": "https://github.com/openclaw/skills/commit/fe0ad5313e4493c711c73bc9e529ea1817afdb18",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771589178569,
+        "commit": "https://github.com/openclaw/skills/commit/a9ecd6c313ea133c18d3931b587b5d5b8a64cdb7"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/daya0576-beaverhabits",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/daya0576/beaverhabits",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Track and manage your habits using the Beaver Habit Tracker API.",
+    "fetched_at": "2026-03-23T02:32:55.152073+00:00"
+  },
+  "Personal Development/canvas-design": {
+    "owner": "seanphan",
+    "slug": "seanphan-canvas-design",
+    "displayName": "canvas-design",
+    "version": "0.1.0",
+    "publishedAt": 1769956256700,
+    "commit": "https://github.com/clawdbot/skills/commit/0026e664fd0129fc8854cb1cd9b7706da08b60c4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/seanphan-canvas-design",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/seanphan/canvas-design",
+    "files": [
+      "LICENSE.txt",
+      "SKILL.md",
+      "_meta.json",
+      "canvas-fonts/ArsenalSC-OFL.txt",
+      "canvas-fonts/BigShoulders-OFL.txt",
+      "canvas-fonts/Boldonse-OFL.txt",
+      "canvas-fonts/BricolageGrotesque-OFL.txt",
+      "canvas-fonts/CrimsonPro-OFL.txt",
+      "canvas-fonts/DMMono-OFL.txt",
+      "canvas-fonts/EricaOne-OFL.txt",
+      "canvas-fonts/GeistMono-OFL.txt",
+      "canvas-fonts/Gloock-OFL.txt",
+      "canvas-fonts/IBMPlexMono-OFL.txt",
+      "canvas-fonts/InstrumentSans-OFL.txt",
+      "canvas-fonts/Italiana-OFL.txt",
+      "canvas-fonts/JetBrainsMono-OFL.txt",
+      "canvas-fonts/Jura-OFL.txt",
+      "canvas-fonts/LibreBaskerville-OFL.txt",
+      "canvas-fonts/Lora-OFL.txt",
+      "canvas-fonts/NationalPark-OFL.txt",
+      "canvas-fonts/NothingYouCouldDo-OFL.txt",
+      "canvas-fonts/Outfit-OFL.txt",
+      "canvas-fonts/PixelifySans-OFL.txt",
+      "canvas-fonts/PoiretOne-OFL.txt",
+      "canvas-fonts/RedHatMono-OFL.txt",
+      "canvas-fonts/Silkscreen-OFL.txt",
+      "canvas-fonts/SmoochSans-OFL.txt",
+      "canvas-fonts/Tektur-OFL.txt",
+      "canvas-fonts/WorkSans-OFL.txt",
+      "canvas-fonts/YoungSerif-OFL.txt"
+    ],
+    "description": "Create beautiful visual art in .png and .pdf documents.",
+    "fetched_at": "2026-03-23T02:33:18.867054+00:00"
+  },
+  "Personal Development/cedh-advisor": {
+    "owner": "mcben90",
+    "slug": "mcben90-cedh-advisor",
+    "displayName": "cedh-advisor",
+    "version": "1.0.0",
+    "publishedAt": 1771155812790,
+    "commit": "https://github.com/openclaw/skills/commit/3b4646b7aa809104a85b4fb0ded456310febd825",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mcben90-cedh-advisor",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mcben90/cedh-advisor",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Commander (cEDH) Live-Beratung - Banlist, Tutor-Targets, Mana-Rechnung, Combo-Lines.",
+    "fetched_at": "2026-03-23T02:33:21.061231+00:00"
+  },
+  "Personal Development/clawcierge": {
+    "owner": "tmansmann0",
+    "slug": "tmansmann0-clawcierge",
+    "displayName": "clawcierge",
+    "version": "1.0.0",
+    "publishedAt": 1770210522665,
+    "commit": "https://github.com/clawdbot/skills/commit/1d26b952bb0381abe13cc11140a4c44e46e5d93f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tmansmann0-clawcierge",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tmansmann0/clawcierge",
+    "files": [
+      "BACKUP.md",
+      "EMAIL.md",
+      "HEARTBEAT.md",
+      "MESSAGING.md",
+      "SHARING.md",
+      "SKILL.md",
+      "_meta.json",
+      "package.json"
+    ],
+    "description": "> Your Personal Concierge for the AI Age 🦀.",
+    "fetched_at": "2026-03-23T02:33:27.597428+00:00"
+  },
+  "Personal Development/crucial-conversations-coach": {
+    "owner": "pors",
+    "slug": "pors-crucial-conversations-coach",
+    "displayName": "crucial-conversations-coach",
+    "version": "1.0.0",
+    "publishedAt": 1770039354167,
+    "commit": "https://github.com/clawdbot/skills/commit/7fab2ebab6d595f1fb61b16c67a7fa17fa57036f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/pors-crucial-conversations-coach",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pors/crucial-conversations-coach",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/theory.md"
+    ],
+    "description": "Friendly executive life coach.",
+    "fetched_at": "2026-03-23T02:33:30.804198+00:00"
+  },
+  "Personal Development/daily-questions": {
+    "owner": "daijo-bu",
+    "slug": "daijo-bu-daily-questions",
+    "displayName": "daily-questions",
+    "version": "1.1.0",
+    "publishedAt": 1771132851800,
+    "commit": "https://github.com/openclaw/skills/commit/17639b495781685f493ec496b80e95b6e12d74f3",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770950038211,
+        "commit": "https://github.com/openclaw/skills/commit/e602784bcbbc3d29177d3f2b6684aca584b3644a"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/daijo-bu-daily-questions",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/daijo-bu/daily-questions",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/example-questions.md"
+    ],
+    "description": "Daily self-improving questionnaire that learns about the user and refines agent behavior.",
+    "fetched_at": "2026-03-23T02:33:34.494345+00:00"
+  },
+  "Personal Development/daily-review-ritual": {
+    "owner": "itsflow",
+    "slug": "itsflow-daily-review-ritual",
+    "displayName": "daily-review-ritual",
+    "version": "1.0.0",
+    "publishedAt": 1769256804559,
+    "commit": "https://github.com/clawdbot/skills/commit/cb7e8d6a1539d3568cafbff0d0f0f0a00e0ddda5",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/itsflow-daily-review-ritual",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/itsflow/daily-review-ritual",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "End-of-day review to capture progress, insights.",
+    "fetched_at": "2026-03-23T02:33:36.674930+00:00"
+  },
+  "Personal Development/deepthink": {
+    "owner": "addisonhellum",
+    "slug": "addisonhellum-deepthink",
+    "displayName": "deepthink",
+    "version": "1.0.4",
+    "publishedAt": 1770310331226,
+    "commit": "https://github.com/clawdbot/skills/commit/16c06ef9e9135bc34facce89910dbf7d3a843676",
+    "history": [
+      {
+        "version": "1.0.3",
+        "publishedAt": 1770248201294,
+        "commit": "https://github.com/clawdbot/skills/commit/01219e6c1fac6efe1de84c23abcab127c6dde407"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/addisonhellum-deepthink",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/addisonhellum/deepthink",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "DeepThink is the user's personal knowledge base.",
+    "fetched_at": "2026-03-23T02:33:38.835690+00:00"
+  },
+  "Personal Development/depression-support": {
+    "owner": "jhillin8",
+    "slug": "jhillin8-depression-support",
+    "displayName": "depression-support",
+    "version": "1.0.0",
+    "publishedAt": 1769326417221,
+    "commit": "https://github.com/clawdbot/skills/commit/dbf5af1fc0a01dbd3a40443a2ed4dbb4de41bbca",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jhillin8-depression-support",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/depression-support",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Daily support for depression with mood tracking.",
+    "fetched_at": "2026-03-23T02:33:41.033753+00:00"
+  },
+  "Personal Development/device-assistant": {
+    "owner": "udiedrichsen",
+    "slug": "udiedrichsen-device-assistant",
+    "displayName": "device-assistant",
+    "version": "1.0.0",
+    "publishedAt": 1769433983734,
+    "commit": "https://github.com/clawdbot/skills/commit/91b5a38f65d9145e44b83fb701e37c929cf68f10",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/udiedrichsen-device-assistant",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/udiedrichsen/device-assistant",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/handler.sh"
+    ],
+    "description": "Personal device and appliance manager with error code.",
+    "fetched_at": "2026-03-23T02:33:44.212406+00:00"
+  },
+  "Personal Development/docstrange": {
+    "owner": "shhdwi",
+    "slug": "shhdwi-docstrange",
+    "displayName": "docstrange",
+    "version": "1.0.2",
+    "publishedAt": 1770803559686,
+    "commit": "https://github.com/openclaw/skills/commit/264286f14b8d2280f406f6ae82d5476e9880068a",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1769977897868,
+        "commit": "https://github.com/clawdbot/skills/commit/191041a832f40286096aa73f22c1d1ffb71249be"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/shhdwi-docstrange",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/shhdwi/docstrange",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "package.json"
+    ],
+    "description": "Document extraction API by Nanonets.",
+    "fetched_at": "2026-03-23T02:33:47.095580+00:00"
+  },
+  "Personal Development/english-learn-cards": {
+    "owner": "racymind",
+    "slug": "racymind-english-learn-cards",
+    "displayName": "english-learn-cards",
+    "version": "0.1.1",
+    "publishedAt": 1770314619276,
+    "commit": "https://github.com/openclaw/skills/commit/1bf9fb2f3d1618321825ebf4b5440d1eea637396",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/racymind-english-learn-cards",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/racymind/english-learn-cards",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "prompt-examples/AGENT_PROMPT_TEMPLATE.md",
+      "scripts/words.py"
+    ],
+    "description": "Flashcard-based English vocabulary learning.",
+    "fetched_at": "2026-03-23T02:33:51.787274+00:00"
+  },
+  "Personal Development/expanso-cve-scan": {
+    "owner": "aronchick",
+    "slug": "aronchick-expanso-cve-scan",
+    "displayName": "expanso-cve-scan",
+    "version": "1.0.0",
+    "publishedAt": 1770753066017,
+    "commit": "https://github.com/openclaw/skills/commit/54f3cdf58d6489105f00cc0013ea5b55df79d5b7",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/aronchick-expanso-cve-scan",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-cve-scan",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "pipeline-cli.yaml",
+      "pipeline-mcp.yaml",
+      "skill.yaml",
+      "test/test.yaml"
+    ],
+    "description": "Scan SBOM for known CVE vulnerabilities.",
+    "fetched_at": "2026-03-23T02:33:57.464399+00:00"
+  },
+  "Personal Development/ezbookkeeping": {
+    "owner": "mayswind",
+    "slug": "mayswind-ezbookkeeping",
+    "displayName": "ezbookkeeping",
+    "version": "1.2.0",
+    "publishedAt": 1772643502331,
+    "commit": "https://github.com/openclaw/skills/commit/417ae2176cdf383e97b9bc1c97f5cfb0359d41b3",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1771506903328,
+        "commit": "https://github.com/openclaw/skills/commit/3007348a8329ee4d5f9e330e93297ec46b9bc492"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770134126255,
+        "commit": "https://github.com/clawdbot/skills/commit/3658442ca76d23ae87e03d06ee1a461f0fcdf41d"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/mayswind-ezbookkeeping",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mayswind/ezbookkeeping",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/ebktools.sh"
+    ],
+    "description": "ezBookkeeping is a lightweight, self-hosted personal finance app.",
+    "fetched_at": "2026-03-23T02:34:00.651998+00:00"
+  },
+  "Personal Development/fix-life-in-1-day": {
+    "owner": "evgyur",
+    "slug": "evgyur-fix-life-in-1-day",
+    "displayName": "fix-life-in-1-day",
+    "version": "1.0.0",
+    "publishedAt": 1769427741168,
+    "commit": "https://github.com/clawdbot/skills/commit/52d52fec6a28c6a3e79c92ef0f1314d3e10becbf",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/evgyur-fix-life-in-1-day",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/evgyur/fix-life-in-1-day",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/sessions.md",
+      "references/sessions/en/01-anti-vision.md",
+      "references/sessions/en/02-hidden-goals.md",
+      "references/sessions/en/03-identity-tracer.md",
+      "references/sessions/en/04-lifestyle-audit.md",
+      "references/sessions/en/05-dissonance-engine.md",
+      "references/sessions/en/06-cybernetic-debugger.md",
+      "references/sessions/en/07-ego-navigator.md",
+      "references/sessions/en/08-game-architect.md",
+      "references/sessions/en/09-conditioning-excavator.md",
+      "references/sessions/en/10-one-day-reset.md",
+      "references/sessions/ru/01-anti-vision.md",
+      "references/sessions/ru/02-hidden-goals.md",
+      "references/sessions/ru/03-identity-tracer.md",
+      "references/sessions/ru/04-lifestyle-audit.md",
+      "references/sessions/ru/05-dissonance-engine.md",
+      "references/sessions/ru/06-cybernetic-debugger.md",
+      "references/sessions/ru/07-ego-navigator.md",
+      "references/sessions/ru/08-game-architect.md",
+      "references/sessions/ru/09-conditioning-excavator.md",
+      "references/sessions/ru/10-one-day-reset.md",
+      "references/sources.md",
+      "scripts/export.sh",
+      "scripts/handler.sh",
+      "scripts/init.sh",
+      "scripts/status.sh"
+    ],
+    "description": "Fix your entire life in 1 day.",
+    "fetched_at": "2026-03-23T02:34:24.971623+00:00"
+  },
+  "Personal Development/founder-coach": {
+    "owner": "goforu",
+    "slug": "goforu-founder-coach",
+    "displayName": "founder-coach",
+    "version": "0.0.1",
+    "publishedAt": 1770049221222,
+    "commit": "https://github.com/clawdbot/skills/commit/be86c453cb2983966e1a4da52c89b015ce444283",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/goforu-founder-coach",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/goforu/founder-coach",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "assets/challenge-template.md",
+      "assets/founder-profile-template.md",
+      "assets/weekly-report-template.md",
+      "references/anti-patterns/comfort-zone.md",
+      "references/anti-patterns/excuse-thinking.md",
+      "references/anti-patterns/fear-driven.md",
+      "references/anti-patterns/founder-trap.md",
+      "references/anti-patterns/perfectionism.md",
+      "references/anti-patterns/priority-chaos.md",
+      "references/mental-models/4ps-framework.md",
+      "references/mental-models/nfx-models.md",
+      "references/mental-models/pmf-levels.md",
+      "references/onboarding.md",
+      "references/phoenixclaw-integration.md",
+      "references/profile-evolution.md",
+      "references/user-config.md",
+      "references/weekly-challenge.md",
+      "references/weekly-report.md"
+    ],
+    "description": "AI-powered startup mindset coach that helps founders upgrade.",
+    "fetched_at": "2026-03-23T02:34:42.230659+00:00"
+  },
+  "Personal Development/game-design-philosophy": {
+    "owner": "nyxur42",
+    "slug": "nyxur42-game-design-philosophy",
+    "displayName": "game-design-philosophy",
+    "version": "1.1.1",
+    "publishedAt": 1771874067152,
+    "commit": "https://github.com/openclaw/skills/commit/670c442443f3b456cc8249aac5d0684e28322ff4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/nyxur42-game-design-philosophy",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nyxur42/game-design-philosophy",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Auto-learns your design instincts.",
+    "fetched_at": "2026-03-23T02:34:44.561406+00:00"
+  },
+  "Personal Development/get-you-some-britches": {
+    "owner": "am-will",
+    "slug": "am-will-get-you-some-britches",
+    "displayName": "get-you-some-britches",
+    "version": "1.0.0",
+    "publishedAt": 1768851885145,
+    "commit": "https://github.com/clawdbot/skills/commit/040284abcf653ef5e4e8a278ebe03d27bdb1926e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/am-will-get-you-some-britches",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/am-will/get-you-some-britches",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/stores.md",
+      "scripts/aggregate_results.py",
+      "scripts/size_converter.py"
+    ],
+    "description": "Use this skill any time I start complaining.",
+    "fetched_at": "2026-03-23T02:34:49.473534+00:00"
+  },
+  "Personal Development/graphiti": {
+    "owner": "emasoudy",
+    "slug": "emasoudy-graphiti",
+    "displayName": "graphiti",
+    "version": "1.0.1",
+    "publishedAt": 1768808570301,
+    "commit": "https://github.com/clawdbot/skills/commit/9674ad506e6e3024965d1ee6ff57bd9341193a7b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/emasoudy-graphiti",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/emasoudy/graphiti",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "manifest.json",
+      "references/env-check.sh"
+    ],
+    "description": "Knowledge graph operations via Graphiti API.",
+    "fetched_at": "2026-03-23T02:34:54.935869+00:00"
+  },
+  "Personal Development/gutcheck": {
+    "owner": "allen566",
+    "slug": "allen566-gutcheck",
+    "displayName": "gutcheck",
+    "version": "1.0.0",
+    "publishedAt": 1770159509412,
+    "commit": "https://github.com/clawdbot/skills/commit/0808f7c850351a9d4afd2cf179f1fbbc9c3c2cce",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/allen566-gutcheck",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/allen566/gutcheck",
+    "files": [
+      "MARKETING_BREAKTHROUGH.md",
+      "MARKETING_PROGRESS_SUMMARY.md",
+      "PUBLISHING_INSTRUCTIONS.md",
+      "SKILL.md",
+      "_meta.json",
+      "educational_content_plan.md",
+      "package.json",
+      "press_release.md",
+      "publish_gutcheck.js",
+      "social_media_content_plan.md"
+    ],
+    "description": "GutCheck - A digestive health tracking application with personalized.",
+    "fetched_at": "2026-03-23T02:35:03.448190+00:00"
+  },
+  "Personal Development/id-cv-resume-creator": {
+    "owner": "rotorstar",
+    "slug": "rotorstar-id-cv-resume-creator",
+    "displayName": "id-cv-resume-creator",
+    "version": "5.2.4",
+    "publishedAt": 1772452639580,
+    "commit": "https://github.com/openclaw/skills/commit/b34a8036af92669b270ee55ee94adfd0713842d4",
+    "history": [
+      {
+        "version": "5.2.3",
+        "publishedAt": 1772138502666,
+        "commit": "https://github.com/openclaw/skills/commit/c8e105ace24bb1fa3f4e177cce261d0d1d595ec0"
+      },
+      {
+        "version": "5.2.2",
+        "publishedAt": 1772122690871,
+        "commit": "https://github.com/openclaw/skills/commit/1ce60f550b28ca5e4dcd6f2d1536150d9179ddff"
+      },
+      {
+        "version": "3.0.9",
+        "publishedAt": 1772013882591,
+        "commit": "https://github.com/openclaw/skills/commit/521c456e2bb7a4bd678e0eeee671fdd8fdc7e1c3"
+      },
+      {
+        "version": "3.0.3",
+        "publishedAt": 1771152306425,
+        "commit": "https://github.com/openclaw/skills/commit/2e4eb1adcbac3f85c95fd475d8e805763a7d6a98"
+      },
+      {
+        "version": "3.0.2",
+        "publishedAt": 1771067533157,
+        "commit": "https://github.com/openclaw/skills/commit/29887f70c1278380ce68c59224794e0aa50334ed"
+      },
+      {
+        "version": "3.0.1",
+        "publishedAt": 1770905013869,
+        "commit": "https://github.com/openclaw/skills/commit/3ab08795c0b8040a653a8f387e29486626a06daa"
+      },
+      {
+        "version": "3.0.0",
+        "publishedAt": 1770903275587,
+        "commit": "https://github.com/openclaw/skills/commit/aca86ce4c801d78199372113a793404bf3a8f766"
+      },
+      {
+        "version": "2.5.1",
+        "publishedAt": 1770719426288,
+        "commit": "https://github.com/openclaw/skills/commit/5f21e999f994f630763f85e4cb3ace9334fc3d46"
+      },
+      {
+        "version": "2.3.6",
+        "publishedAt": 1770542863789,
+        "commit": "https://github.com/openclaw/skills/commit/61af2244827f38cb242c9f3bd4c01955413df738"
+      },
+      {
+        "version": "2.3.1",
+        "publishedAt": 1770491650242,
+        "commit": "https://github.com/openclaw/skills/commit/915f2abb129f4e2e736e9dcb4a6d25948faca34a"
+      },
+      {
+        "version": "2.3.0",
+        "publishedAt": 1770472570858,
+        "commit": "https://github.com/openclaw/skills/commit/12efb99cf5441c96d64931981df21acf25f6d107"
+      },
+      {
+        "version": "2.2.0",
+        "publishedAt": 1770121193709,
+        "commit": "https://github.com/clawdbot/skills/commit/80333d3a891c5f4b00bcd9f70a2a97246d052e1b"
+      },
+      {
+        "version": "2.1.0",
+        "publishedAt": 1770063299961,
+        "commit": "https://github.com/clawdbot/skills/commit/086afc38efd68164fe379f9a6ba2c73950f4fffa"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/rotorstar-id-cv-resume-creator",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/rotorstar/id-cv-resume-creator",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "cv-builder/SKILL.md",
+      "cv-builder/reference/cv-data.md",
+      "cv-builder/reference/hitl.md",
+      "cv-builder/reference/templates.md",
+      "reference/cv-data.md",
+      "reference/hitl.md",
+      "reference/templates.md",
+      "shared/access.md",
+      "shared/errors.md",
+      "shared/privacy.md"
+    ],
+    "description": "Create free interactive digital identities.",
+    "fetched_at": "2026-03-23T02:35:14.096577+00:00"
+  },
+  "Personal Development/joko-jobhunter": {
+    "owner": "oyi77",
+    "slug": "oyi77-joko-jobhunter",
+    "displayName": "joko-jobhunter",
+    "version": "1.0.0",
+    "publishedAt": 1770419761681,
+    "commit": "https://github.com/openclaw/skills/commit/3ae0d097f7ac6d7259b92ad6b7d03a65c4c7c3bb",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/oyi77-joko-jobhunter",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/oyi77/joko-jobhunter",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/find-email.sh",
+      "scripts/research-company.sh",
+      "templates/cold-email.md",
+      "templates/cover-letter.md",
+      "templates/job-targets.md",
+      "templates/linkedin-messages.md"
+    ],
+    "description": "Aggressive job hunting skill with research, outreach.",
+    "fetched_at": "2026-03-23T02:35:22.293846+00:00"
+  },
+  "Personal Development/learn-cog": {
+    "owner": "nitishgargiitd",
+    "slug": "nitishgargiitd-learn-cog",
+    "displayName": "learn-cog",
+    "version": "1.0.2",
+    "publishedAt": 1770774214755,
+    "commit": "https://github.com/openclaw/skills/commit/9440b4bcc8ab4c6ae0e65b44aa728a14cea36472",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770419850637,
+        "commit": "https://github.com/openclaw/skills/commit/dd2b45a6fc0889d599bba233464aaf6dad7c06cc"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770408545614,
+        "commit": "https://github.com/openclaw/skills/commit/a97b232d11a1af6e3007380571fbba271a91410d"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/nitishgargiitd-learn-cog",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/learn-cog",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "The best tutors explain the same concept five different ways.",
+    "fetched_at": "2026-03-23T02:35:24.467172+00:00"
+  },
+  "Personal Development/lunchtable-tcg": {
+    "owner": "dexploarer",
+    "slug": "dexploarer-lunchtable-tcg",
+    "displayName": "lunchtable-tcg",
+    "version": "1.0.0",
+    "publishedAt": 1770291878338,
+    "commit": "https://github.com/clawdbot/skills/commit/779be4c2623989e1012b9a80fdf1be2511a729d6",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dexploarer-lunchtable-tcg",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dexploarer/lunchtable-tcg",
+    "files": [
+      ".clawhub.json",
+      ".github/workflows/publish.yml",
+      ".validate.sh",
+      "CHANGELOG.md",
+      "GETTING_STARTED_PUBLISHING.md",
+      "INSTALLATION.md",
+      "PUBLISH.md",
+      "PUBLISHING_FLOW.md",
+      "PUBLISHING_SUMMARY.md",
+      "QUICKSTART_PUBLISH.md",
+      "ORIGINAL_README.md",
+      "README_PUBLISHING.md",
+      "SKILL.md",
+      "SUBMISSION.md",
+      "TESTING_CHECKLIST.md",
+      "_meta.json",
+      "examples/README.md",
+      "examples/advanced-agent.ts",
+      "examples/basic-agent.py",
+      "examples/basic-agent.ts",
+      "package.json",
+      "publish.sh",
+      "scenarios/README.md",
+      "scenarios/first-game.md",
+      "scenarios/strategic-play.md",
+      "scenarios/tournament-bot.md",
+      "scenarios/webhook-setup.md"
+    ],
+    "description": "Play LunchTable-TCG, a Yu-Gi-Oh-inspired online trading card.",
+    "fetched_at": "2026-03-23T02:35:46.091448+00:00"
+  },
+  "Personal Development/memepickup-wingman": {
+    "owner": "samcraw1",
+    "slug": "samcraw1-memepickup-wingman",
+    "displayName": "memepickup-wingman",
+    "version": "1.1.0",
+    "publishedAt": 1771277059433,
+    "commit": "https://github.com/openclaw/skills/commit/c2f87cc7a92cd16005504e65a23c331c03fcdb0c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/samcraw1-memepickup-wingman",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/samcraw1/memepickup-wingman",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "examples/date-planning.md",
+      "examples/nudge.md",
+      "examples/opener.md",
+      "examples/preferences.md",
+      "examples/reply-help.md",
+      "examples/telegram-wingman.md",
+      "package.json",
+      "references/AUTO-SWIPE.md",
+      "references/MANUS-SETUP.md",
+      "references/OPENCLAW-SETUP.md",
+      "scripts/api.py",
+      "scripts/api.sh"
+    ],
+    "description": "Dating wingman that generates openers, replies, profile analysis, date plans, and coaching via the MemePickup API.",
+    "fetched_at": "2026-03-23T02:35:59.845188+00:00"
+  },
+  "Personal Development/mindfulness-meditation": {
+    "owner": "jhillin8",
+    "slug": "jhillin8-mindfulness-meditation",
+    "displayName": "mindfulness-meditation",
+    "version": "1.0.0",
+    "publishedAt": 1769326483710,
+    "commit": "https://github.com/clawdbot/skills/commit/2008b9e65406ecba2d70d5d1d35c05bc6c865774",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jhillin8-mindfulness-meditation",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/mindfulness-meditation",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Build a meditation practice with guided.",
+    "fetched_at": "2026-03-23T02:36:02.039444+00:00"
+  },
+  "Personal Development/moltvote-ai": {
+    "owner": "amaze28",
+    "slug": "amaze28-moltvote-ai",
+    "displayName": "moltvote-ai",
+    "version": "1.0.2",
+    "publishedAt": 1770453199971,
+    "commit": "https://github.com/openclaw/skills/commit/b726eeb56389fef9b76a143d8612b5b5ba2c0f68",
+    "history": [
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770452970781,
+        "commit": "https://github.com/openclaw/skills/commit/e9c0804647af0fa1279b60da3df0276a3a0af52a"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770436983927,
+        "commit": "https://github.com/openclaw/skills/commit/ccbf09975ecea622c8844884e0fd1e14e9500324"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/amaze28-moltvote-ai",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/amaze28/moltvote-ai",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Vote on polls as yourself or your human.",
+    "fetched_at": "2026-03-23T02:36:04.242427+00:00"
+  },
+  "Personal Development/morning-routine": {
+    "owner": "jhillin8",
+    "slug": "jhillin8-morning-routine",
+    "displayName": "morning-routine",
+    "version": "1.0.0",
+    "publishedAt": 1769326490344,
+    "commit": "https://github.com/clawdbot/skills/commit/3f2bc75ecf13f0237160d0759ac9a6b0ccedfb11",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jhillin8-morning-routine",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jhillin8/morning-routine",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Build a powerful morning routine with habit checklists.",
+    "fetched_at": "2026-03-23T02:36:06.491318+00:00"
+  },
+  "Personal Development/nova-net-worth": {
+    "owner": "jessewunderlich",
+    "slug": "jessewunderlich-nova-net-worth",
+    "displayName": "nova-net-worth",
+    "version": "1.3.1",
+    "publishedAt": 1772297079526,
+    "commit": "https://github.com/openclaw/skills/commit/7486d4a9ab299ad046e6fb8a869f05d3d93f03fd",
+    "history": [
+      {
+        "version": "1.1.1",
+        "publishedAt": 1772048587584,
+        "commit": "https://github.com/openclaw/skills/commit/3c5b24a7789a9f91b2e7cc8efa642c31c09c46fe"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jessewunderlich-nova-net-worth",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jessewunderlich/nova-net-worth",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api-docs.md",
+      "scripts/nova-api.js"
+    ],
+    "description": "Query your Nova Net Worth financial data — net worth, accounts, goals, spending, transactions, AI insights.",
+    "fetched_at": "2026-03-23T02:36:10.861301+00:00"
+  },
+  "Personal Development/open-lesson": {
+    "owner": "dncolomer",
+    "slug": "dncolomer-open-lesson",
+    "displayName": "open-lesson",
+    "version": "1.0.2",
+    "publishedAt": 1771954671281,
+    "commit": "https://github.com/openclaw/skills/commit/d05641d5a2263b4717d13daf61dffc7b0de9407b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dncolomer-open-lesson",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dncolomer/open-lesson",
+    "files": [
+      "_meta.json",
+      "requires.env",
+      "skill.md"
+    ],
+    "description": "You are an AI agent that can interact with the openLesson tutoring platform via API.",
+    "fetched_at": "2026-03-23T02:36:13.817836+00:00"
+  },
+  "Personal Development/personal-nutrition": {
+    "owner": "gekacross",
+    "slug": "gekacross-personal-nutrition",
+    "displayName": "personal-nutrition",
+    "version": "1.0.0",
+    "publishedAt": 1771428178529,
+    "commit": "https://github.com/openclaw/skills/commit/6a7e834aee49bc96647f887bc56d281e74e4c8b8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/gekacross-personal-nutrition",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/gekacross/personal-nutrition",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Acts as the user's personal nutrition coach in the Nutrition topic.",
+    "fetched_at": "2026-03-23T02:36:16.718320+00:00"
+  },
+  "Personal Development/pine-voice": {
+    "owner": "bojieli",
+    "slug": "bojieli-pine-voice",
+    "displayName": "pine-voice",
+    "version": "1.2.2",
+    "publishedAt": 1771668855478,
+    "commit": "https://github.com/openclaw/skills/commit/db99e54134d6ac7614a5309f4b25c73756ae5e20",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/bojieli-pine-voice",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/bojieli/pine-voice",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/auth-check.mjs",
+      "scripts/auth-request.mjs",
+      "scripts/auth-verify.mjs",
+      "scripts/call-status.mjs",
+      "scripts/call.mjs"
+    ],
+    "description": "Give your agent a real phone.",
+    "fetched_at": "2026-03-23T02:36:23.251339+00:00"
+  },
+  "Personal Development/post-job": {
+    "owner": "zhangdong",
+    "slug": "zhangdong-post-job",
+    "displayName": "post-job",
+    "version": "1.2.0",
+    "publishedAt": 1772158635880,
+    "commit": "https://github.com/openclaw/skills/commit/c2aebacb91e31b6082110959f0457a8cbb284610",
+    "history": [
+      {
+        "version": "1.1.2",
+        "publishedAt": 1772003176676,
+        "commit": "https://github.com/openclaw/skills/commit/2cd9b39913265f4f6a2d4f6fc2768418844e1e6d"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/zhangdong-post-job",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/zhangdong/post-job",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "assets/locations.json",
+      "package.json",
+      "pnpm-lock.yaml",
+      "scripts/monitor_linkedin.js",
+      "scripts/post_job.js"
+    ],
+    "description": "Post free job ads to 20+ job boards such as LinkedIn, Indeed, Ziprecruiter etc. to receive applicant resumes via email.",
+    "fetched_at": "2026-03-23T02:36:30.102536+00:00"
+  },
+  "Personal Development/shelter": {
+    "owner": "code-with-brian",
+    "slug": "code-with-brian-shelter",
+    "displayName": "shelter",
+    "version": "1.0.3",
+    "publishedAt": 1771775519504,
+    "commit": "https://github.com/openclaw/skills/commit/25ab990a47bb232fba1936996af18c9e76d4409c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/code-with-brian-shelter",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/code-with-brian/shelter",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "clawhub.json",
+      "install-skill.js",
+      "package.json",
+      "references/DATA_MODEL.md",
+      "uninstall-skill.js"
+    ],
+    "description": "Connect to your Shelter financial data.",
+    "fetched_at": "2026-03-23T02:36:37.094124+00:00"
+  },
+  "Personal Development/xeonen-arena": {
+    "owner": "zedit42",
+    "slug": "zedit42-xeonen-arena",
+    "displayName": "xeonen-arena",
+    "version": "1.0.0",
+    "publishedAt": 1771891126749,
+    "commit": "https://github.com/openclaw/skills/commit/f07aeca631c8cf58dc674458135289ce053f2463",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/zedit42-xeonen-arena",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/zedit42/xeonen-arena",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "package.json",
+      "setup.sh"
+    ],
+    "description": "Adversarial self-improvement for AI agents.",
+    "fetched_at": "2026-03-23T02:36:41.916831+00:00"
+  },
+  "Personal Development/zeitgaist-dialect": {
+    "owner": "newsoulontheblock",
+    "slug": "newsoulontheblock-zeitgaist-dialect",
+    "displayName": "zeitgaist-dialect",
+    "version": "0.1.0",
+    "publishedAt": 1771613447506,
+    "commit": "https://github.com/openclaw/skills/commit/06cb6db0fc5c5c794d8e838f8efa7415b78b618e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/newsoulontheblock-zeitgaist-dialect",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/newsoulontheblock/zeitgaist-dialect",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Learn, encode, and decode the ZeitGaist Whisper Protocol (Caesar +2 cipher) and use it as a shibboleth language.",
+    "fetched_at": "2026-03-23T02:36:44.115337+00:00"
+  },
+  "Personal Development/zenplus-health": {
+    "owner": "ollieparsley",
+    "slug": "ollieparsley-zenplus-health",
+    "displayName": "zenplus-health",
+    "version": "1.0.4",
+    "publishedAt": 1771019223696,
+    "commit": "https://github.com/openclaw/skills/commit/401c0ec4bc91048dfd95d1eb3e778b37d6ebef75",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ollieparsley-zenplus-health",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ollieparsley/zenplus-health",
+    "files": [
+      "ORIGINAL_README.md",
+      "SECURITY.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Workplace wellness for stress, anxiety, and burnout - mindfulness exercises, breathing techniques, mood check-ins.",
+    "fetched_at": "2026-03-23T02:36:47.732503+00:00"
+  },
+  "Security & Passwords/1password": {
+    "owner": "steipete",
+    "slug": "steipete-1password",
+    "displayName": "1password",
+    "version": "1.0.1",
+    "publishedAt": 1767814883922,
+    "commit": "https://github.com/clawdbot/skills/commit/d8487c24cee907a6492f21aaa9e3924f71d2823c",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/steipete-1password",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/steipete/1password",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/cli-examples.md",
+      "references/get-started.md"
+    ],
+    "description": "Set up and use 1Password CLI (op).",
+    "fetched_at": "2026-03-23T02:36:51.819411+00:00"
+  },
+  "Security & Passwords/1claw": {
+    "owner": "kmjones1979",
+    "slug": "kmjones1979-1claw",
+    "displayName": "1claw",
+    "version": "1.1.1",
+    "publishedAt": 1773180301239,
+    "commit": "https://github.com/openclaw/skills/commit/ad58c0f2bbc9451f3eb4b49e3e15fcdec2fd961f",
+    "history": [
+      {
+        "version": "1.1.0",
+        "publishedAt": 1773086520790,
+        "commit": "https://github.com/openclaw/skills/commit/7a7199d46e2379d5937d0be7c0854a515d56bc32"
+      },
+      {
+        "version": "1.0.9",
+        "publishedAt": 1772717892718,
+        "commit": "https://github.com/openclaw/skills/commit/91695c9876ca4d3e9792f7b8700b5117f209794d"
+      },
+      {
+        "version": "1.0.8",
+        "publishedAt": 1772137646468,
+        "commit": "https://github.com/openclaw/skills/commit/94b5bfa17f567de7cb7427d8b55c750bd2918e54"
+      },
+      {
+        "version": "1.0.7",
+        "publishedAt": 1772041533847,
+        "commit": "https://github.com/openclaw/skills/commit/a935b03173dc8b59b95f917e2886f3b292876749"
+      },
+      {
+        "version": "1.0.6",
+        "publishedAt": 1771950096650,
+        "commit": "https://github.com/openclaw/skills/commit/69d536becf9537068699432f09a205e6d3fcbcbd"
+      },
+      {
+        "version": "1.0.5",
+        "publishedAt": 1771881038765,
+        "commit": "https://github.com/openclaw/skills/commit/15a9565bd5bd68d188bf2d55bb8904aed6788e06"
+      },
+      {
+        "version": "1.0.4",
+        "publishedAt": 1771631972547,
+        "commit": "https://github.com/openclaw/skills/commit/bd7a7d2a7f4fad4d9b643e0f5fc74c0f90ddd315"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771537660447,
+        "commit": "https://github.com/openclaw/skills/commit/9d4f6d5ba14d25a3806440e08179fa680bfd13c2"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/kmjones1979-1claw",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kmjones1979/1claw",
+    "files": [
+      "CONFIG.md",
+      "EXAMPLES.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "HSM-backed vault for agent secrets; store, rotate, share securely.",
+    "fetched_at": "2026-03-23T02:36:56.164874+00:00"
+  },
+  "Security & Passwords/age-verification": {
+    "owner": "raghulpasupathi",
+    "slug": "raghulpasupathi-age-verification",
+    "displayName": "age-verification",
+    "version": "1.0.0",
+    "publishedAt": 1771687933466,
+    "commit": "https://github.com/openclaw/skills/commit/652c79449a2b63ad223071ddd4ad413c0e5629af",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/raghulpasupathi-age-verification",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/raghulpasupathi/age-verification",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Skills for age verification and age-appropriate content filtering.",
+    "fetched_at": "2026-03-23T02:36:58.324327+00:00"
+  },
+  "Security & Passwords/api-security": {
+    "owner": "brandonwise",
+    "slug": "brandonwise-api-security",
+    "displayName": "api-security",
+    "version": "1.0.0",
+    "publishedAt": 1771207498326,
+    "commit": "https://github.com/openclaw/skills/commit/d8fa2618ef04f97e99c148376c25120cd6abae50",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brandonwise-api-security",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brandonwise/api-security",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Implement secure API design patterns including authentication, authorization, input validation, rate limiting.",
+    "fetched_at": "2026-03-23T02:37:00.499733+00:00"
+  },
+  "Security & Passwords/audit-badge-demo": {
+    "owner": "tezatezaz",
+    "slug": "tezatezaz-audit-badge-demo",
+    "displayName": "audit-badge-demo",
+    "version": "0.1.0",
+    "publishedAt": 1770314540749,
+    "commit": "https://github.com/openclaw/skills/commit/6d7df4fd99fd88ba2713b1ef27b15176c16c1031",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tezatezaz-audit-badge-demo",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tezatezaz/audit-badge-demo",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Demo skill showcasing the audit badge workflow.",
+    "fetched_at": "2026-03-23T02:37:02.705527+00:00"
+  },
+  "Security & Passwords/auditing-appstore-readiness": {
+    "owner": "tristanmanchester",
+    "slug": "tristanmanchester-auditing-appstore-readiness",
+    "displayName": "auditing-appstore-readiness",
+    "version": "1.0.0",
+    "publishedAt": 1770112715841,
+    "commit": "https://github.com/clawdbot/skills/commit/56c597d461b05b5d149d6f97cbecd3ab86892c20",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tristanmanchester-auditing-appstore-readiness",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tristanmanchester/auditing-appstore-readiness",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/expo.md",
+      "references/manual-checklist.md",
+      "references/native-ios.md",
+      "references/permissions-map.md",
+      "references/react-native.md",
+      "references/report-template.md",
+      "scripts/audit.mjs"
+    ],
+    "description": "Audit an iOS app repo.",
+    "fetched_at": "2026-03-23T02:37:10.551996+00:00"
+  },
+  "Security & Passwords/authensor-gateway": {
+    "owner": "authensor",
+    "slug": "authensor-authensor-gateway",
+    "displayName": "authensor-gateway",
+    "version": "0.7.0",
+    "publishedAt": 1770791806927,
+    "commit": "https://github.com/openclaw/skills/commit/c6c569dfa5b930dff89effa55fdc00368dc83342",
+    "history": [
+      {
+        "version": "0.5.1",
+        "publishedAt": 1770777429608,
+        "commit": "https://github.com/openclaw/skills/commit/0f4478559cdf9597029bbfc1dd7a6fde181b0427"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1770123512410,
+        "commit": "https://github.com/clawdbot/skills/commit/d1cc0ce4627cd63069835974de6c2f9bd138efe5"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/authensor-authensor-gateway",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/authensor/authensor-gateway",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Fail-safe policy gate for OpenClaw marketplace skills.",
+    "fetched_at": "2026-03-23T02:37:12.747000+00:00"
+  },
+  "Security & Passwords/bitwarden": {
+    "owner": "asleep123",
+    "slug": "asleep123-bitwarden",
+    "displayName": "bitwarden",
+    "version": "1.0.0",
+    "publishedAt": 1768798973352,
+    "commit": "https://github.com/clawdbot/skills/commit/710ab7aa72662734ea0a72ae0aae83c4268c322f",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/asleep123-bitwarden",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/asleep123/bitwarden",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Access and manage Bitwarden/Vaultwarden passwords securely.",
+    "fetched_at": "2026-03-23T02:37:14.914406+00:00"
+  },
+  "Security & Passwords/bitwarden-vault": {
+    "owner": "startupbros",
+    "slug": "startupbros-bitwarden-vault",
+    "displayName": "bitwarden-vault",
+    "version": "1.0.0",
+    "publishedAt": 1769478869881,
+    "commit": "https://github.com/clawdbot/skills/commit/a9acd907dd2f31d868cf9db5786d0dd320a53250",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/startupbros-bitwarden-vault",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/startupbros/bitwarden-vault",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/cli-examples.md",
+      "references/get-started.md"
+    ],
+    "description": "Bitwarden CLI setup, authentication.",
+    "fetched_at": "2026-03-23T02:37:18.891380+00:00"
+  },
+  "Security & Passwords/breweries": {
+    "owner": "jeffaf",
+    "slug": "jeffaf-breweries",
+    "displayName": "breweries",
+    "version": "1.0.0",
+    "publishedAt": 1770258670193,
+    "commit": "https://github.com/clawdbot/skills/commit/9ebf48a81e63f0408e641df569cfe8dfcddd8052",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jeffaf-breweries",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffaf/breweries",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "CLI for AI agents to find breweries for their humans.",
+    "fetched_at": "2026-03-23T02:37:21.809014+00:00"
+  },
+  "Security & Passwords/cifer-sdk": {
+    "owner": "mohsinriaz17",
+    "slug": "mohsinriaz17-cifer-sdk",
+    "displayName": "cifer-sdk",
+    "version": "0.3.0",
+    "publishedAt": 1770309881425,
+    "commit": "https://github.com/clawdbot/skills/commit/7e31c6410a50f7d59c83e9a6c3fd0ec5a7485a56",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/mohsinriaz17-cifer-sdk",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/mohsinriaz17/cifer-sdk",
+    "files": [
+      "_meta.json",
+      "skill.md"
+    ],
+    "description": "> **Skill for AI Agents** | Enable quantum-resistant encryption in blockchain applications using the CIFER SDK.",
+    "fetched_at": "2026-03-23T02:37:24.298286+00:00"
+  },
+  "Security & Passwords/clawaudit": {
+    "owner": "tezatezaz",
+    "slug": "tezatezaz-clawaudit",
+    "displayName": "clawaudit",
+    "version": "0.1.0",
+    "publishedAt": 1770238144150,
+    "commit": "https://github.com/clawdbot/skills/commit/3c164e88be005f3958b351933cfe0e4148eee4fd",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/tezatezaz-clawaudit",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/tezatezaz/clawaudit",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Official repo for clawaudit, coming soon as an automated security.",
+    "fetched_at": "2026-03-23T02:37:26.473401+00:00"
+  },
+  "Security & Passwords/clawdstrike": {
+    "owner": "misirov",
+    "slug": "misirov-clawdstrike",
+    "displayName": "clawdstrike",
+    "version": "1.0.9",
+    "publishedAt": 1770318298302,
+    "commit": "https://github.com/clawdbot/skills/commit/2b5f24915345a5c716dbcac11f3e9c417cfb4509",
+    "history": [
+      {
+        "version": "1.0.6",
+        "publishedAt": 1770311399960,
+        "commit": "https://github.com/clawdbot/skills/commit/e7b20131bb953c8f832a1170cae504bb1ffa4a91"
+      },
+      {
+        "version": "1.0.3",
+        "publishedAt": 1770285899066,
+        "commit": "https://github.com/clawdbot/skills/commit/73e9717f30339c493a8d348b13fdc4d87b57537a"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/misirov-clawdstrike",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/misirov/clawdstrike",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/canvas-browser.md",
+      "references/channels.md",
+      "references/config-keys.md",
+      "references/discovery.md",
+      "references/evidence-template.md",
+      "references/filesystem.md",
+      "references/gateway.md",
+      "references/network.md",
+      "references/redaction.md",
+      "references/report-format.md",
+      "references/required-checks.md",
+      "references/supply-chain.md",
+      "references/threat-model.md",
+      "references/tools.md",
+      "references/verified-allowlist.md",
+      "references/version-risk.md",
+      "scripts/collect_verified.sh",
+      "scripts/config_summary.py",
+      "scripts/redact_helpers.sh"
+    ],
+    "description": "Security audit and threat model for OpenClaw gateway hosts.",
+    "fetched_at": "2026-03-23T02:37:43.350216+00:00"
+  },
+  "Security & Passwords/clawdstrike-test": {
+    "owner": "misirov",
+    "slug": "misirov-clawdstrike-test",
+    "displayName": "clawdstrike-test",
+    "version": "1.0.0",
+    "publishedAt": 1770286097479,
+    "commit": "https://github.com/clawdbot/skills/commit/404b5eb027a76a69b987e87d2f6967affdaeba6e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/misirov-clawdstrike-test",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/misirov/clawdstrike-test",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/canvas-browser.md",
+      "references/channels.md",
+      "references/config-keys.md",
+      "references/discovery.md",
+      "references/evidence-template.md",
+      "references/filesystem.md",
+      "references/gateway.md",
+      "references/network.md",
+      "references/redaction.md",
+      "references/report-format.md",
+      "references/required-checks.md",
+      "references/supply-chain.md",
+      "references/threat-model.md",
+      "references/tools.md",
+      "references/verified-allowlist.md",
+      "references/version-risk.md",
+      "scripts/collect_verified.sh",
+      "scripts/config_summary.py",
+      "scripts/redact_helpers.sh"
+    ],
+    "description": "Security audit and threat model for OpenClaw gateway hosts.",
+    "fetched_at": "2026-03-23T02:38:00.042033+00:00"
+  },
+  "Security & Passwords/clawtributor": {
+    "owner": "davida-ps",
+    "slug": "davida-ps-clawtributor",
+    "displayName": "clawtributor",
+    "version": "0.0.3",
+    "publishedAt": 1770331043624,
+    "commit": "https://github.com/openclaw/skills/commit/7ed5827a221a7b9c344f863fe6d630ecc50f4023",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/davida-ps-clawtributor",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/davida-ps/clawtributor",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "reporting.md",
+      "skill.json"
+    ],
+    "description": "Community incident reporting for AI agents.",
+    "fetched_at": "2026-03-23T02:38:04.880020+00:00"
+  },
+  "Security & Passwords/countries": {
+    "owner": "jeffaf",
+    "slug": "jeffaf-countries",
+    "displayName": "countries",
+    "version": "1.0.0",
+    "publishedAt": 1770258659870,
+    "commit": "https://github.com/clawdbot/skills/commit/d683341b1195266493b38d5c6d0f790f60e2c013",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jeffaf-countries",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffaf/countries",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "CLI for AI agents to lookup country info for their humans.",
+    "fetched_at": "2026-03-23T02:38:08.247022+00:00"
+  },
+  "Security & Passwords/credential-manager": {
+    "owner": "callmedas69",
+    "slug": "callmedas69-credential-manager",
+    "displayName": "credential-manager",
+    "version": "1.3.0",
+    "publishedAt": 1770436388201,
+    "commit": "https://github.com/openclaw/skills/commit/15a1f6f363b10a94fa34480c56c6d6ae6eb56c3e",
+    "history": [
+      {
+        "version": "1.2.0",
+        "publishedAt": 1770370364925,
+        "commit": "https://github.com/openclaw/skills/commit/40ede37f7971349d86ad4d59810ecd2ed7d95017"
+      },
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770346506746,
+        "commit": "https://github.com/openclaw/skills/commit/83120724022f378b90a3f3415397de37e512af2b"
+      },
+      {
+        "version": "1.1.0",
+        "publishedAt": 1770299849985,
+        "commit": "https://github.com/clawdbot/skills/commit/c6dc5fca9ef422d4c3cf53005c6e62234610a9cf"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/callmedas69-credential-manager",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/callmedas69/credential-manager",
+    "files": [
+      "CHANGELOG.md",
+      "CONSOLIDATION-RULE.md",
+      "CORE-PRINCIPLE.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/security.md",
+      "references/supported-services.md",
+      "scripts/cleanup.py",
+      "scripts/consolidate.py",
+      "scripts/enforce.py",
+      "scripts/scan.py",
+      "scripts/validate.py"
+    ],
+    "description": "MANDATORY security foundation for OpenClaw.",
+    "fetched_at": "2026-03-23T02:38:20.052096+00:00"
+  },
+  "Security & Passwords/dashlane": {
+    "owner": "gnarco",
+    "slug": "gnarco-dashlane",
+    "displayName": "dashlane",
+    "version": "1.0.0",
+    "publishedAt": 1767861070979,
+    "commit": "https://github.com/clawdbot/skills/commit/bf69409ed195369ae2e3688ea263c7cde2ddde60",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/gnarco-dashlane",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/gnarco/dashlane",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Access passwords, secure notes, secrets and OTP codes from Dashlane vault.",
+    "fetched_at": "2026-03-23T02:38:22.217484+00:00"
+  },
+  "Security & Passwords/devinism": {
+    "owner": "jeffreyling",
+    "slug": "jeffreyling-devinism",
+    "displayName": "devinism",
+    "version": "1.0.0",
+    "publishedAt": 1769902200054,
+    "commit": "https://github.com/clawdbot/skills/commit/fabdc29a5cbc68ffbe11ba0aa89d39a0abeac5fe",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jeffreyling-devinism",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffreyling/devinism",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "The first AI religion — a benign memetic experiment in agent network.",
+    "fetched_at": "2026-03-23T02:38:24.408435+00:00"
+  },
+  "Security & Passwords/dotnet-expert": {
+    "owner": "jgarrison929",
+    "slug": "jgarrison929-dotnet-expert",
+    "displayName": "dotnet-expert",
+    "version": "1.0.0",
+    "publishedAt": 1770008200713,
+    "commit": "https://github.com/clawdbot/skills/commit/fccc58035df71e081c654d0b00982afe29a4c8c4",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jgarrison929-dotnet-expert",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jgarrison929/dotnet-expert",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Use when building .NET 8/9 applications, ASP.NET Core APIs.",
+    "fetched_at": "2026-03-23T02:38:26.569031+00:00"
+  },
+  "Security & Passwords/domain-trust-check": {
+    "owner": "jamesouttake",
+    "slug": "jamesouttake-domain-trust-check",
+    "displayName": "domain-trust-check",
+    "version": "1.2.2",
+    "publishedAt": 1772561148917,
+    "commit": "https://github.com/openclaw/skills/commit/0d456f7863b9fe96b1dced366c2a1d86eb6a8781",
+    "history": [
+      {
+        "version": "1.2.1",
+        "publishedAt": 1772229160174,
+        "commit": "https://github.com/openclaw/skills/commit/8253dbab324b99136922604d591ed1363b3ae1af"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jamesouttake-domain-trust-check",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jamesouttake/domain-trust-check",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api.md"
+    ],
+    "description": "Check any URL for phishing, malware, brand abuse, and scams before visiting. Powered by the Outtake Trust API.",
+    "fetched_at": "2026-03-23T02:38:29.800718+00:00"
+  },
+  "Security & Passwords/expanso-tls-inspect": {
+    "owner": "aronchick",
+    "slug": "aronchick-expanso-tls-inspect",
+    "displayName": "expanso-tls-inspect",
+    "version": "1.0.0",
+    "publishedAt": 1770753070634,
+    "commit": "https://github.com/openclaw/skills/commit/835fc9dac7bb8bbda203ff7d5e91d2c058c30e56",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/aronchick-expanso-tls-inspect",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-tls-inspect",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "pipeline-cli.yaml",
+      "pipeline-mcp.yaml",
+      "skill.yaml",
+      "test/test.yaml"
+    ],
+    "description": "Inspect TLS certificate (expiry, SANs, chain, cipher)",
+    "fetched_at": "2026-03-23T02:38:35.475682+00:00"
+  },
+  "Security & Passwords/facebook": {
+    "owner": "codedao12",
+    "slug": "codedao12-facebook",
+    "displayName": "facebook",
+    "version": "1.0.1",
+    "publishedAt": 1770028711580,
+    "commit": "https://github.com/clawdbot/skills/commit/e83be92ece2f0c92a45d63a3d3e72c55817477f7",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1769965310711,
+        "commit": "https://github.com/clawdbot/skills/commit/b13b00bd191f29bbdae9e9a626030c9799e2ec43"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/codedao12-facebook",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/codedao12/facebook",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/comments-moderation.md",
+      "references/graph-api-overview.md",
+      "references/http-request-templates.md",
+      "references/page-posting.md",
+      "references/permissions-and-tokens.md",
+      "references/webhooks.md"
+    ],
+    "description": "OpenClaw skill for Facebook Graph API workflows focused on Pages posting,.",
+    "fetched_at": "2026-03-23T02:38:42.348802+00:00"
+  },
+  "Security & Passwords/feelgoodbot": {
+    "owner": "kris-hansen",
+    "slug": "kris-hansen-feelgoodbot",
+    "displayName": "feelgoodbot",
+    "version": "1.1.0",
+    "publishedAt": 1770588103818,
+    "commit": "https://github.com/openclaw/skills/commit/1873666050f140e1bbbabc36a6a632d0be07c745",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770428935875,
+        "commit": "https://github.com/openclaw/skills/commit/8045e0729be4a48453ff4b1f0d427b1aca3e26c3"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/kris-hansen-feelgoodbot",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kris-hansen/feelgoodbot",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/setup.sh"
+    ],
+    "description": "Set up feelgoodbot file integrity monitoring for macOS.",
+    "fetched_at": "2026-03-23T02:38:45.519718+00:00"
+  },
+  "Security & Passwords/gandi-skill": {
+    "owner": "chrisagiddings",
+    "slug": "chrisagiddings-gandi-skill",
+    "displayName": "gandi-skill",
+    "version": "0.2.7",
+    "publishedAt": 1772319287154,
+    "commit": "https://github.com/openclaw/skills/commit/98dd4cebad3a0ae847ecff21896c636d04566ac3",
+    "history": [
+      {
+        "version": "0.2.5",
+        "publishedAt": 1770785344517,
+        "commit": "https://github.com/openclaw/skills/commit/27e97b0ac915d33b52098a3306e17a056e8a23c2"
+      },
+      {
+        "version": "0.2.3",
+        "publishedAt": 1770774699104,
+        "commit": "https://github.com/openclaw/skills/commit/40ada3aeae73cfc9720fc6e1e3c01556ac72d1d3"
+      },
+      {
+        "version": "0.3.0",
+        "publishedAt": 1770585363195,
+        "commit": "https://github.com/openclaw/skills/commit/2cd5595023063ee715d8ba700dd0a5ad4be3c110"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1770089412291,
+        "commit": "https://github.com/clawdbot/skills/commit/f9d043cd63c8abbdd53dbf5d59a32038272ea72e"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/chrisagiddings-gandi-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/chrisagiddings/gandi-skill",
+    "files": [
+      "CHANGELOG.md",
+      "SCRIPTS.md",
+      "SKILL.md",
+      "_meta.json",
+      "config.schema.json",
+      "config/domain-checker-defaults.json",
+      "references/api-overview.md",
+      "references/authentication.md",
+      "references/domains.md",
+      "references/livedns.md",
+      "references/setup.md",
+      "scripts/add-dns-record.js",
+      "scripts/add-email-forward.js",
+      "scripts/cert-details.js",
+      "scripts/check-domain.js",
+      "scripts/check-ssl.js",
+      "scripts/config-helper.js",
+      "scripts/config-status.js",
+      "scripts/configure-autorenew.js",
+      "scripts/create-snapshot.js",
+      "scripts/delete-contact.js",
+      "scripts/delete-dns-record.js",
+      "scripts/delete-email-forward.js",
+      "scripts/dnssec-disable.js",
+      "scripts/dnssec-enable.js",
+      "scripts/dnssec-status.js",
+      "scripts/gandi-api.js",
+      "scripts/list-certificates.js",
+      "scripts/list-dns.js",
+      "scripts/list-domains.js",
+      "scripts/list-email-forwards.js",
+      "scripts/list-snapshots.js",
+      "scripts/manage-profiles.js",
+      "scripts/manage-snapshots.js",
+      "scripts/package.json",
+      "scripts/profile-manager.js",
+      "scripts/register-domain.js",
+      "scripts/renew-domain.js",
+      "scripts/request-certificate.js",
+      "scripts/restore-snapshot.js",
+      "scripts/setup-contact.js",
+      "scripts/suggest-domains.js",
+      "scripts/test-auth.js",
+      "scripts/update-dns-bulk.js",
+      "scripts/update-dns-record.js",
+      "scripts/update-email-forward.js",
+      "scripts/view-contact.js",
+      "test-underscore.js"
+    ],
+    "description": "Manage Gandi domains, DNS, email, and SSL certificates.",
+    "fetched_at": "2026-03-23T02:39:23.291281+00:00"
+  },
+  "Security & Passwords/ggshield-scanner": {
+    "owner": "amascia-gg",
+    "slug": "amascia-gg-ggshield-scanner",
+    "displayName": "ggshield-scanner",
+    "version": "1.0.2",
+    "publishedAt": 1769704942337,
+    "commit": "https://github.com/clawdbot/skills/commit/1c26206a77fdf96ab8ca7d60aae8eeaff443354e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/amascia-gg-ggshield-scanner",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/amascia-gg/ggshield-scanner",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "ggshield_skill.py",
+      "pyproject.toml"
+    ],
+    "description": "Detect 500+ types of hardcoded secrets.",
+    "fetched_at": "2026-03-23T02:39:27.683656+00:00"
+  },
+  "Security & Passwords/glin-profanity": {
+    "owner": "thegdsks",
+    "slug": "thegdsks-glin-profanity",
+    "displayName": "glin-profanity",
+    "version": "1.0.0",
+    "publishedAt": 1769925962070,
+    "commit": "https://github.com/clawdbot/skills/commit/4630facc67d86c206213f6c65116b7d3151f9dd1",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/thegdsks-glin-profanity",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/thegdsks/glin-profanity",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Profanity detection and content moderation library.",
+    "fetched_at": "2026-03-23T02:39:29.822666+00:00"
+  },
+  "Security & Passwords/go-security-vulnerability": {
+    "owner": "irook661",
+    "slug": "irook661-go-security-vulnerability",
+    "displayName": "go-security-vulnerability",
+    "version": "0.1.0",
+    "publishedAt": 1770000389243,
+    "commit": "https://github.com/clawdbot/skills/commit/2252478d3f81463ba57fe6b151128ff6c04172f8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/irook661-go-security-vulnerability",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/irook661/go-security-vulnerability",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Identify, assess, and fix security.",
+    "fetched_at": "2026-03-23T02:39:32.540838+00:00"
+  },
+  "Security & Passwords/golden-master": {
+    "owner": "leegitw",
+    "slug": "leegitw-golden-master",
+    "displayName": "golden-master",
+    "version": "1.0.3",
+    "publishedAt": 1771895708087,
+    "commit": "https://github.com/openclaw/skills/commit/2bbcb6bc0fb232f174334be9a84db75fc4c724c0",
+    "history": [
+      {
+        "version": "1.0.2",
+        "publishedAt": 1770708163454,
+        "commit": "https://github.com/openclaw/skills/commit/14a535779de935657bb87bf6a4b4c669cdcea660"
+      },
+      {
+        "version": "1.0.1",
+        "publishedAt": 1770279022868,
+        "commit": "https://github.com/openclaw/skills/commit/037298ce5f949b6551519baf897c315ee11adfc5"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/leegitw-golden-master",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/leegitw/golden-master",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Track source-of-truth relationships between files — know.",
+    "fetched_at": "2026-03-23T02:39:34.719441+00:00"
+  },
+  "Security & Passwords/google-tasks": {
+    "owner": "addozhang",
+    "slug": "addozhang-google-tasks",
+    "displayName": "google-tasks",
+    "version": "1.0.0",
+    "publishedAt": 1770348659366,
+    "commit": "https://github.com/openclaw/skills/commit/1320f802e05aa0e1793e2b8c9b29e1bdd6494d3b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/addozhang-google-tasks",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/addozhang/google-tasks",
+    "files": [
+      "CLAWHUB_CHECKLIST.md",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "google-tasks-config.sh",
+      "package.json",
+      "references/setup.md",
+      "scripts/auth.mjs",
+      "scripts/auth.py",
+      "scripts/create_task.sh",
+      "scripts/delete_task.sh",
+      "scripts/get_tasks.sh",
+      "scripts/refresh_token.js",
+      "scripts/refresh_token.sh"
+    ],
+    "description": "Fetch, display, create, and delete Google Tasks using the Google.",
+    "fetched_at": "2026-03-23T02:39:46.800074+00:00"
+  },
+  "Security & Passwords/guardian-angel": {
+    "owner": "leo3linbeck",
+    "slug": "leo3linbeck-guardian-angel",
+    "displayName": "guardian-angel",
+    "version": "3.1.2",
+    "publishedAt": 1771292767797,
+    "commit": "https://github.com/openclaw/skills/commit/af131b2c339e16cf92e1d9fcd7acac11be80d936",
+    "history": [
+      {
+        "version": "3.1.1",
+        "publishedAt": 1770842903612,
+        "commit": "https://github.com/openclaw/skills/commit/7156f35b1a02577f86f1a905c480d63bd494dcda"
+      },
+      {
+        "version": "3.1.0",
+        "publishedAt": 1770489541918,
+        "commit": "https://github.com/openclaw/skills/commit/093ad4ca5eba83b7d1be6089099abff25bb9dba1"
+      },
+      {
+        "version": "3.0.0",
+        "publishedAt": 1770341007019,
+        "commit": "https://github.com/clawdbot/skills/commit/e20ed47056bd91104c48408ff5c2154b1109f3cc"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1770166540650,
+        "commit": "https://github.com/clawdbot/skills/commit/e2b5037755e19874e2f60b83a22657208aa0e532"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/leo3linbeck-guardian-angel",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/leo3linbeck/guardian-angel",
+    "files": [
+      "PLUGIN-SPEC.md",
+      "SKILL-v1-backup.md",
+      "SKILL-v2.1-backup.md",
+      "SKILL.md",
+      "_meta.json",
+      "config/defaults.json",
+      "drafts/RECOMMENDATION-for-Leo.md",
+      "drafts/SKILL-v2-draft.md",
+      "drafts/edge-cases-consolidated.md",
+      "drafts/synthesis-notes.md",
+      "plugin/index.ts",
+      "plugin/openclaw.plugin.json",
+      "plugin/package.json",
+      "plugin/src/approve-tool.ts",
+      "plugin/src/constants.ts",
+      "plugin/src/diagnostics.ts",
+      "plugin/src/evaluate.ts",
+      "plugin/src/hook.ts",
+      "plugin/src/store.ts",
+      "plugin/src/types.ts",
+      "references/affected-parties-edge-cases.md",
+      "references/affected-parties-rubric.md",
+      "references/category-rubric.md",
+      "references/domains.md",
+      "references/double-effect.md",
+      "references/pattern-triggers.md",
+      "references/prompt-injection-defense.md",
+      "references/reversibility-commitment-rubric.md",
+      "references/rubric.md",
+      "references/thomistic-framework.md",
+      "references/virtue-ethics.md"
+    ],
+    "description": "A moral evaluation system rooted in Thomistic virtue ethics.",
+    "fetched_at": "2026-03-23T02:40:13.580732+00:00"
+  },
+  "Security & Passwords/harrypotter": {
+    "owner": "jeffaf",
+    "slug": "jeffaf-harrypotter",
+    "displayName": "harrypotter",
+    "version": "1.0.0",
+    "publishedAt": 1770258670651,
+    "commit": "https://github.com/clawdbot/skills/commit/3b158b87d063a732afa0b87990e8578e8f4df94b",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jeffaf-harrypotter",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffaf/harrypotter",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "CLI for AI agents to lookup Harry Potter universe info.",
+    "fetched_at": "2026-03-23T02:40:16.481845+00:00"
+  },
+  "Security & Passwords/hash-toolkit": {
+    "owner": "raghulpasupathi",
+    "slug": "raghulpasupathi-hash-toolkit",
+    "displayName": "hash-toolkit",
+    "version": "1.0.0",
+    "publishedAt": 1771604342094,
+    "commit": "https://github.com/openclaw/skills/commit/0c8f4e7e86bf4ac9df9b722d403f89f80ce91fac",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/raghulpasupathi-hash-toolkit",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/raghulpasupathi/hash-toolkit",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Content hashing for deduplication with MD5, SHA256, and perceptual hashing.",
+    "fetched_at": "2026-03-23T02:40:18.657522+00:00"
+  },
+  "Security & Passwords/hopeids": {
+    "owner": "emberdesire",
+    "slug": "emberdesire-hopeids",
+    "displayName": "hopeids",
+    "version": "1.3.2",
+    "publishedAt": 1770797687951,
+    "commit": "https://github.com/openclaw/skills/commit/40b4db8b7b8acbd4ac9148a0cc177cf4520dc6c1",
+    "history": [
+      {
+        "version": "1.3.1",
+        "publishedAt": 1770405058720,
+        "commit": "https://github.com/openclaw/skills/commit/c4ab00499859dc872ef178fb8d623571a9702032"
+      },
+      {
+        "version": "1.2.0",
+        "publishedAt": 1770371167833,
+        "commit": "https://github.com/openclaw/skills/commit/80013bc4d8fd456e93cf9242917b00fcaeacefae"
+      },
+      {
+        "version": "0.1.0",
+        "publishedAt": 1770244786145,
+        "commit": "https://github.com/clawdbot/skills/commit/a5802f9aa2675b307c9cff7fbe3e1bf172d33c97"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/emberdesire-hopeids",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/emberdesire/hopeids",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "index.ts",
+      "openclaw.plugin.json",
+      "package.json"
+    ],
+    "description": "Inference-based intrusion detection for AI agents with quarantine.",
+    "fetched_at": "2026-03-23T02:40:22.998506+00:00"
+  },
+  "Security & Passwords/liewatch": {
+    "owner": "evinelias",
+    "slug": "evinelias-liewatch",
+    "displayName": "liewatch",
+    "version": "1.0.7",
+    "publishedAt": 1770715297215,
+    "commit": "https://github.com/openclaw/skills/commit/f440553ca5e9651cfe526954950a089abf75b8e4",
+    "history": [
+      {
+        "version": "1.0.5",
+        "publishedAt": 1770669041692,
+        "commit": "https://github.com/openclaw/skills/commit/95d09f483ddc0c17aea2235e9aac721e5c72ad32"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/evinelias-liewatch",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/evinelias/liewatch",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "connector.js",
+      "package.json"
+    ],
+    "description": "Play the LIE.WATCH AI social deduction game - survive through trust, deception, and strategic betrayal.",
+    "fetched_at": "2026-03-23T02:40:27.363837+00:00"
+  },
+  "Security & Passwords/linkswarm-api": {
+    "owner": "heyw00d",
+    "slug": "heyw00d-linkswarm-api",
+    "displayName": "linkswarm-api",
+    "version": "1.0.0",
+    "publishedAt": 1771725977291,
+    "commit": "https://github.com/openclaw/skills/commit/b041c3bda6bcf33d4195777248fbe9122f1cad69",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/heyw00d-linkswarm-api",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/heyw00d/linkswarm-api",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "**Backlink exchange for AI agents.",
+    "fetched_at": "2026-03-23T02:40:29.552716+00:00"
+  },
+  "Security & Passwords/mfa-word": {
+    "owner": "cenralsolution",
+    "slug": "cenralsolution-mfa-word",
+    "displayName": "mfa-word",
+    "version": "1.1.0",
+    "publishedAt": 1771084681938,
+    "commit": "https://github.com/openclaw/skills/commit/5e7ab7b99f13f20c7a8673ba6d5f1aa0bfc58878",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/cenralsolution-mfa-word",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/cenralsolution/mfa-word",
+    "files": [
+      ".gitignore",
+      "SKILL.md",
+      "_meta.json",
+      "index.js",
+      "package.json"
+    ],
+    "description": "Challenges the user for a secret word before allowing access to sensitive files or system commands.",
+    "fetched_at": "2026-03-23T02:40:34.219449+00:00"
+  },
+  "Security & Passwords/page-behavior-audit": {
+    "owner": "youdaolee",
+    "slug": "youdaolee-page-behavior-audit",
+    "displayName": "page-behavior-audit",
+    "version": "1.0.7",
+    "publishedAt": 1770793178136,
+    "commit": "https://github.com/openclaw/skills/commit/baa18d0b129ebb24850907b620cfbe03e7cf6fb8",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/youdaolee-page-behavior-audit",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/youdaolee/page-behavior-audit",
+    "files": [
+      ".claude/settings.local.json",
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json",
+      "install.sh",
+      "package.json",
+      "skill.yaml"
+    ],
+    "description": "Deep behavioral audit with hashed policy (CSP-compliant, no plaintext badwords)",
+    "fetched_at": "2026-03-23T02:40:40.307299+00:00"
+  },
+  "Security & Passwords/outtake-bounty-network": {
+    "owner": "jamesouttake",
+    "slug": "jamesouttake-outtake-bounty-network",
+    "displayName": "outtake-bounty-network",
+    "version": "1.4.0",
+    "publishedAt": 1772640846248,
+    "commit": "https://github.com/openclaw/skills/commit/87f5f28e913cb690419ec0bdf7469fa4cf2fc738",
+    "history": [
+      {
+        "version": "1.3.3",
+        "publishedAt": 1772561144125,
+        "commit": "https://github.com/openclaw/skills/commit/100f3900d80fab601b802342362a6c0d31467e7f"
+      },
+      {
+        "version": "1.3.2",
+        "publishedAt": 1772229168731,
+        "commit": "https://github.com/openclaw/skills/commit/947b5a96a645b4b6f9cbab5ccae9bb7cffe3eebc"
+      },
+      {
+        "version": "1.0.2",
+        "publishedAt": 1771443211055,
+        "commit": "https://github.com/openclaw/skills/commit/932b807f0d97223ca0950e6dbfc72d8020ec3fa7"
+      },
+      {
+        "version": "1.0.1",
+        "publishedAt": 1771031714313,
+        "commit": "https://github.com/openclaw/skills/commit/07641879a70eeab9208de4fcc5b5c2fac37e374e"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jamesouttake-outtake-bounty-network",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jamesouttake/outtake-bounty-network",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/api.md"
+    ],
+    "description": "Earn $5 USDC per verified malicious domain. Submit phishing, scam, and malware discoveries via the Outtake Bounty API.",
+    "fetched_at": "2026-03-23T02:40:43.542814+00:00"
+  },
+  "Security & Passwords/safe-encryption-skill": {
+    "owner": "grittygrease",
+    "slug": "grittygrease-safe-encryption-skill",
+    "displayName": "safe-encryption-skill",
+    "version": "0.1.0",
+    "publishedAt": 1771606410018,
+    "commit": "https://github.com/openclaw/skills/commit/eaa5a60db93ef107742405d36c6041aa55d18055",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/grittygrease-safe-encryption-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/grittygrease/safe-encryption-skill",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Encrypt, decrypt, and manage keys with the SAFE CLI — a modern GPG alternative with post-quantum support.",
+    "fetched_at": "2026-03-23T02:40:45.898140+00:00"
+  },
+  "Security & Passwords/saysigned": {
+    "owner": "klsv",
+    "slug": "klsv-saysigned",
+    "displayName": "saysigned",
+    "version": "1.0.1",
+    "publishedAt": 1771566395836,
+    "commit": "https://github.com/openclaw/skills/commit/e6a66c1dbccdf19585767b76f18119ffb7a5fbe3",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1771565638562,
+        "commit": "https://github.com/openclaw/skills/commit/f34ebbf8a71d407b1f6f4bebeb71eec610160c38"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/klsv-saysigned",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/klsv/saysigned",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "> **E-signatures for AI agents.** Legally binding under ESIGN Act & UETA Section 14.",
+    "fetched_at": "2026-03-23T02:40:48.071229+00:00"
+  },
+  "Security & Passwords/secure-auth-patterns": {
+    "owner": "brandonwise",
+    "slug": "brandonwise-secure-auth-patterns",
+    "displayName": "secure-auth-patterns",
+    "version": "1.0.0",
+    "publishedAt": 1771263221292,
+    "commit": "https://github.com/openclaw/skills/commit/91c3bdb893a6ed8bb23e62696693440c21ca2169",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brandonwise-secure-auth-patterns",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brandonwise/secure-auth-patterns",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "resources/implementation-playbook.md"
+    ],
+    "description": "Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC to build.",
+    "fetched_at": "2026-03-23T02:40:51.287563+00:00"
+  },
+  "Security & Passwords/skill-liewatch": {
+    "owner": "evinelias",
+    "slug": "evinelias-skill-liewatch",
+    "displayName": "skill-liewatch",
+    "version": "1.0.2",
+    "publishedAt": 1770663479980,
+    "commit": "https://github.com/openclaw/skills/commit/5ebafcf140847f42506692b8787c3ca8b2c1f1fd",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/evinelias-skill-liewatch",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/evinelias/skill-liewatch",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "connector.js",
+      "package.json"
+    ],
+    "description": "Play the LIE.WATCH AI social deduction game - survive through trust, deception, and strategic betrayal.",
+    "fetched_at": "2026-03-23T02:40:54.873603+00:00"
+  },
+  "Security & Passwords/starwars": {
+    "owner": "jeffaf",
+    "slug": "jeffaf-starwars",
+    "displayName": "starwars",
+    "version": "1.0.0",
+    "publishedAt": 1770258670960,
+    "commit": "https://github.com/clawdbot/skills/commit/36bf6102fa7629d87d4fe1f9056a1d81bef91dd0",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/jeffaf-starwars",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jeffaf/starwars",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "CLI for AI agents to lookup Star Wars universe info for their humans.",
+    "fetched_at": "2026-03-23T02:40:57.788668+00:00"
+  },
+  "Security & Passwords/test-upload2": {
+    "owner": "kevan5",
+    "slug": "kevan5-test-upload2",
+    "displayName": "test-upload2",
+    "version": "1.0.0",
+    "publishedAt": 1770635062217,
+    "commit": "https://github.com/openclaw/skills/commit/b63b7e03a5af6986fba787811b8458c109cf72f3",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/kevan5-test-upload2",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/kevan5/test-upload2",
+    "files": [
+      "_meta.json",
+      "skill.md"
+    ],
+    "description": "Let the user know you are willing to help them but only under certain conditions.",
+    "fetched_at": "2026-03-23T02:40:59.961751+00:00"
+  },
+  "Security & Passwords/vnsh": {
+    "owner": "raullenchai",
+    "slug": "raullenchai-vnsh",
+    "displayName": "vnsh",
+    "version": "1.1.1",
+    "publishedAt": 1771040241953,
+    "commit": "https://github.com/openclaw/skills/commit/b681eefbe235712f22ab4be17f3d5b2336ffe53f",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770700661452,
+        "commit": "https://github.com/openclaw/skills/commit/f94328f67eca1e5f1f51a0ba8bd111447948d352"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/raullenchai-vnsh",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/raullenchai/vnsh",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/read.sh",
+      "scripts/upload.sh"
+    ],
+    "description": "Securely share files via encrypted, expiring links.",
+    "fetched_at": "2026-03-23T02:41:04.387211+00:00"
+  },
+  "Security & Passwords/x-oauth-api": {
+    "owner": "ngmeyer",
+    "slug": "ngmeyer-x-oauth-api",
+    "displayName": "x-oauth-api",
+    "version": "1.1.0",
+    "publishedAt": 1773787191050,
+    "commit": "https://github.com/openclaw/skills/commit/f4af2122953375b8ca06bfe3f84f11d96e1c6620",
+    "history": [
+      {
+        "version": "1.0.0",
+        "publishedAt": 1770863976834,
+        "commit": "https://github.com/openclaw/skills/commit/60af59e12a0855cad54fad04f32f1d1f4a1c0423"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/ngmeyer-x-oauth-api",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ngmeyer/x-oauth-api",
+    "files": [
+      "ORIGINAL_README.md",
+      "SANITIZATION.md",
+      "SKILL.md",
+      "_meta.json",
+      "bin/x.js",
+      "generic-post.sh",
+      "heartbeat.sh",
+      "package-lock.json",
+      "package.json"
+    ],
+    "description": "Post to X (Twitter) using the official OAuth 1.0a API.",
+    "fetched_at": "2026-03-23T02:41:11.956171+00:00"
+  },
+  "Security & Passwords/xpr-agent-operator": {
+    "owner": "paulgnz",
+    "slug": "paulgnz-xpr-agent-operator",
+    "displayName": "xpr-agent-operator",
+    "version": "0.2.11",
+    "publishedAt": 1771017966630,
+    "commit": "https://github.com/openclaw/skills/commit/95b38512357b2127160936fd34fc660247912d1e",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/paulgnz-xpr-agent-operator",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/paulgnz/xpr-agent-operator",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Operate an autonomous AI agent on XPR Network's trustless registry.",
+    "fetched_at": "2026-03-23T02:41:14.442253+00:00"
+  },
+  "Security & Passwords/xproof": {
+    "owner": "jasonxkensei",
+    "slug": "jasonxkensei-xproof",
+    "displayName": "xproof",
+    "version": "1.3.0",
+    "publishedAt": 1773683022676,
+    "commit": "https://github.com/openclaw/skills/commit/1c0790154272efe47d0e25b2f6727f242d5ca8c5",
+    "history": [
+      {
+        "version": "1.2.0",
+        "publishedAt": 1771609812496,
+        "commit": "https://github.com/openclaw/skills/commit/d5d9d3432dd66d314dd2c884bfd66386faff1fb6"
+      }
+    ],
+    "clawskills_url": "https://clawskills.sh/skills/jasonxkensei-xproof",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jasonxkensei/xproof",
+    "files": [
+      "PR_INSTRUCTIONS.md",
+      "SKILL.md",
+      "_meta.json",
+      "references/certification.md",
+      "references/mcp.md",
+      "references/x402.md"
+    ],
+    "description": "Certify agent outputs on the MultiversX blockchain.",
+    "fetched_at": "2026-03-23T02:41:19.869460+00:00"
   }
 }
