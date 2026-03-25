@@ -1086,40 +1086,6 @@
     "description": "A swift reminder of both human and agent duties regarding operational security.",
     "fetched_at": "2026-03-23T01:44:05.823781+00:00"
   },
-  "iOS & macOS Development/pagerkit": {
-    "owner": "szpakkamil",
-    "slug": "szpakkamil-pagerkit",
-    "displayName": "PagerKit",
-    "version": "1.0.1",
-    "publishedAt": 1770035299352,
-    "commit": "https://github.com/clawdbot/skills/commit/d4f9dac82a67560ab0fc96d1521cc7371815a988",
-    "history": [
-      {
-        "version": "1.0.0",
-        "publishedAt": 1769183986978,
-        "commit": "https://github.com/clawdbot/skills/commit/59c13c4d1a7a1b5c95b61c68a95e6a2a350fbb7d"
-      }
-    ],
-    "clawskills_url": "https://clawskills.sh/skills/szpakkamil-pagerkit",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/szpakkamil/pagerkit",
-    "files": [
-      "SKILL.md",
-      "_meta.json",
-      "references/ForEach.md",
-      "references/PKPage.md",
-      "references/PKPageBuilder.md",
-      "references/PKPageControlBackgroundStyle.md",
-      "references/PKPageControlDirection.md",
-      "references/PKPageDirection.md",
-      "references/PKPagesView.md",
-      "references/PagerKit.md",
-      "references/_index.md"
-    ],
-    "description": "Expert guidance on PagerKit, a SwiftUI library for advanced.",
-    "fetched_at": "2026-03-23T01:44:15.336911+00:00"
-  },
   "iOS & macOS Development/riskofficer": {
     "owner": "mib424242",
     "slug": "mib424242-riskofficer",
@@ -2552,25 +2518,6 @@
     "description": "ADHD-friendly life management assistant for OpenClaw.",
     "fetched_at": "2026-03-23T01:49:54.871768+00:00"
   },
-  "Clawdbot Tools/agent-browser-clawdbot": {
-    "owner": "matrixy",
-    "slug": "matrixy-agent-browser-clawdbot",
-    "displayName": "agent-browser",
-    "version": "0.1.0",
-    "publishedAt": 1769032854381,
-    "commit": "https://github.com/clawdbot/skills/commit/65f2bb56f0124f0b812889da4fd968161fe39179",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/matrixy-agent-browser-clawdbot",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-browser-clawdbot",
-    "files": [
-      "SKILL.md",
-      "_meta.json"
-    ],
-    "description": "Headless browser automation CLI optimized for AI agents.",
-    "fetched_at": "2026-03-23T01:49:57.566745+00:00"
-  },
   "Clawdbot Tools/agent-builder": {
     "owner": "plgonzalezrx8",
     "slug": "plgonzalezrx8-agent-builder",
@@ -3822,26 +3769,6 @@
     ],
     "description": "Create and edit graphic design assets: icons, favicons, images.",
     "fetched_at": "2026-03-23T01:54:38.837140+00:00"
-  },
-  "Data & Analytics/duckdb-cli-ai-skills": {
-    "owner": "camelsprout",
-    "slug": "camelsprout-duckdb-cli-ai-skills",
-    "displayName": "duckdb-en",
-    "version": "1.0.0",
-    "publishedAt": 1769247814673,
-    "commit": "https://github.com/clawdbot/skills/commit/268be0947e980dab4f8b40c20989f7f3d5dcb72d",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/camelsprout-duckdb-cli-ai-skills",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/camelsprout/duckdb-cli-ai-skills",
-    "files": [
-      "ORIGINAL_README.md",
-      "SKILL.md",
-      "_meta.json"
-    ],
-    "description": "DuckDB CLI specialist for SQL analysis, data processing.",
-    "fetched_at": "2026-03-23T01:54:41.717695+00:00"
   },
   "Data & Analytics/facebook-page-manager": {
     "owner": "longmaba",
@@ -5168,29 +5095,6 @@
     "description": "End-to-end encrypted agent-to-agent private messaging via Moltbook dead.",
     "fetched_at": "2026-03-23T01:59:10.881332+00:00"
   },
-  "Smart Home & IoT/anova-skill": {
-    "owner": "dodeja",
-    "slug": "dodeja-anova-skill",
-    "displayName": "anova-oven",
-    "version": "0.1.0",
-    "publishedAt": 1769217537909,
-    "commit": "https://github.com/clawdbot/skills/commit/a689ad5ebc96609ca2282817c8cc6349fcb8f5bf",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/dodeja-anova-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dodeja/anova-skill",
-    "files": [
-      "AGENTS.md",
-      "ORIGINAL_README.md",
-      "SKILL.md",
-      "_meta.json",
-      "requirements.txt",
-      "scripts/anova.py"
-    ],
-    "description": "Control Anova Precision Ovens and Precision Cookers (sous vide)",
-    "fetched_at": "2026-03-23T02:18:01.445429+00:00"
-  },
   "Smart Home & IoT/anthropology": {
     "owner": "networktheoryappliedresearchinstitute",
     "slug": "networktheoryappliedresearchinstitute-anthropology",
@@ -5817,26 +5721,6 @@
     "description": "Control whole-house music scenes combining Spotify playback.",
     "fetched_at": "2026-03-23T02:19:54.361957+00:00"
   },
-  "Smart Home & IoT/clawdbot-skill-homebridge": {
-    "owner": "jiasenl",
-    "slug": "jiasenl-clawdbot-skill-homebridge",
-    "displayName": "homebridge",
-    "version": "0.1.0",
-    "publishedAt": 1769426902313,
-    "commit": "https://github.com/clawdbot/skills/commit/d6ccb1dc7667b9b5f7139be004cf5d809b4d00b5",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/jiasenl-clawdbot-skill-homebridge",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jiasenl/clawdbot-skill-homebridge",
-    "files": [
-      "SKILL.md",
-      "_meta.json",
-      "scripts/homebridge_api.py"
-    ],
-    "description": "Control smart home devices via Homebridge Config UI X.",
-    "fetched_at": "2026-03-23T02:19:57.556742+00:00"
-  },
   "Smart Home & IoT/homey": {
     "owner": "maxsumrall",
     "slug": "maxsumrall-homey",
@@ -6333,32 +6217,6 @@
     ],
     "description": "Generate audiobooks, podcasts, or educational audio content.",
     "fetched_at": "2026-03-23T02:21:34.326460+00:00"
-  },
-  "Speech & Transcription/audio-reply-skill": {
-    "owner": "matrixy",
-    "slug": "matrixy-audio-reply-skill",
-    "displayName": "audio-reply",
-    "version": "1.1.0",
-    "publishedAt": 1771193536558,
-    "commit": "https://github.com/openclaw/skills/commit/667677d02b76f89f7ee59d1c42eb39736b991873",
-    "history": [
-      {
-        "version": "0.1.0",
-        "publishedAt": 1769182470231,
-        "commit": "https://github.com/clawdbot/skills/commit/98b5c318565fa78aea9803d3fdac6961840f59e8"
-      }
-    ],
-    "clawskills_url": "https://clawskills.sh/skills/matrixy-audio-reply-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/matrixy/audio-reply-skill",
-    "files": [
-      "ORIGINAL_README.md",
-      "SKILL.md",
-      "_meta.json"
-    ],
-    "description": "Generate audio replies using TTS.",
-    "fetched_at": "2026-03-23T02:21:37.228584+00:00"
   },
   "Speech & Transcription/auto-whisper-safe": {
     "owner": "neal-collab",
@@ -8317,33 +8175,6 @@
     ],
     "description": "Text-to-Speech via macOS say command with Siri Natural Voices.",
     "fetched_at": "2026-03-23T02:27:05.854784+00:00"
-  },
-  "Apple Apps & Services/shortcuts-skill": {
-    "owner": "erik-agens",
-    "slug": "erik-agens-shortcuts-skill",
-    "displayName": "shortcuts-generator",
-    "version": "0.1.0",
-    "publishedAt": 1768474518850,
-    "commit": "https://github.com/clawdbot/skills/commit/368c358abd65c03116f0864fd77b92af9a5cfe31",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/erik-agens-shortcuts-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/erik-agens/shortcuts-skill",
-    "files": [
-      "ACTIONS.md",
-      "APPINTENTS.md",
-      "CONTROL_FLOW.md",
-      "EXAMPLES.md",
-      "FILTERS.md",
-      "PARAMETER_TYPES.md",
-      "PLIST_FORMAT.md",
-      "SKILL.md",
-      "VARIABLES.md",
-      "_meta.json"
-    ],
-    "description": "Generate macOS/iOS Shortcuts by creating plist files.",
-    "fetched_at": "2026-03-23T02:27:14.508640+00:00"
   },
   "Apple Apps & Services/skill-email-management": {
     "owner": "latisen",
@@ -16658,39 +16489,6 @@
     "description": "Access Garmin Connect health, fitness, and activity data via a non-interactive CLI.",
     "fetched_at": "2026-03-23T02:57:19.452530+00:00"
   },
-  "Health & Fitness/garmin-health-analysis": {
-    "owner": "eversonl",
-    "slug": "eversonl-garmin-health-analysis",
-    "displayName": "garmin-health",
-    "version": "1.2.2",
-    "publishedAt": 1769387065409,
-    "commit": "https://github.com/clawdbot/skills/commit/86c2fc32e8c7de2eff4716043682f6d96ad4cb7c",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/eversonl-garmin-health-analysis",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eversonl/garmin-health-analysis",
-    "files": [
-      "CHANGELOG.md",
-      "ORIGINAL_README.md",
-      "SKILL.md",
-      "_meta.json",
-      "config.example.json",
-      "install.sh",
-      "references/api.md",
-      "references/extended_capabilities.md",
-      "references/health_analysis.md",
-      "references/mcp_setup.md",
-      "scripts/garmin_activity_files.py",
-      "scripts/garmin_auth.py",
-      "scripts/garmin_chart.py",
-      "scripts/garmin_data.py",
-      "scripts/garmin_data_extended.py",
-      "scripts/garmin_query.py"
-    ],
-    "description": "Talk to your Garmin data naturally - \"what.",
-    "fetched_at": "2026-03-23T02:57:33.413228+00:00"
-  },
   "Health & Fitness/gdpr-cookie-consent": {
     "owner": "metehan777",
     "slug": "metehan777-gdpr-cookie-consent",
@@ -16975,32 +16773,6 @@
     ],
     "description": "Job board for agents.",
     "fetched_at": "2026-03-23T02:58:27.064378+00:00"
-  },
-  "Health & Fitness/intervals-icu-api": {
-    "owner": "pseuss",
-    "slug": "pseuss-intervals-icu-api",
-    "displayName": "intervals-icu",
-    "version": "2.0.1",
-    "publishedAt": 1769497464687,
-    "commit": "https://github.com/clawdbot/skills/commit/4c31bbc5c7841f0194b72422ac2f4d37a9f64366",
-    "history": [
-      {
-        "version": "2.0.0",
-        "publishedAt": 1769437687954,
-        "commit": "https://github.com/clawdbot/skills/commit/038c6ae7591203b1f49298ec121cb9d7f67dfa9c"
-      }
-    ],
-    "clawskills_url": "https://clawskills.sh/skills/pseuss-intervals-icu-api",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pseuss/intervals-icu-api",
-    "files": [
-      "ORIGINAL_README.md",
-      "SKILL.md",
-      "_meta.json"
-    ],
-    "description": "Complete guide for accessing and managing training data.",
-    "fetched_at": "2026-03-23T02:58:29.963763+00:00"
   },
   "Health & Fitness/jasper-configguard": {
     "owner": "emberdesire",
@@ -17967,31 +17739,6 @@
     "description": "Control Apple TV, HomePod, and AirPlay devices via pyatv.",
     "fetched_at": "2026-03-23T03:01:35.834606+00:00"
   },
-  "Media & Streaming/mcp-applemusic": {
-    "owner": "epheterson",
-    "slug": "epheterson-mcp-applemusic",
-    "displayName": "apple-music",
-    "version": "1.0.6",
-    "publishedAt": 1767980627805,
-    "commit": "https://github.com/clawdbot/skills/commit/f0782dbb8904e2ebd1c2707b726e37607d9ca065",
-    "history": [
-      {
-        "version": "1.0.0",
-        "publishedAt": 1767940548751,
-        "commit": "https://github.com/clawdbot/skills/commit/4483d262a4220853500884cf27da461d3122badd"
-      }
-    ],
-    "clawskills_url": "https://clawskills.sh/skills/epheterson-mcp-applemusic",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/epheterson/mcp-applemusic",
-    "files": [
-      "SKILL.md",
-      "_meta.json"
-    ],
-    "description": "Apple Music integration via AppleScript (macOS) or MusicKit API.",
-    "fetched_at": "2026-03-23T03:01:38.336096+00:00"
-  },
   "Media & Streaming/audio-cog": {
     "owner": "nitishgargiitd",
     "slug": "nitishgargiitd-audio-cog",
@@ -18217,25 +17964,6 @@
     ],
     "description": "Use chill.institute (web UI) to search for content and click.",
     "fetched_at": "2026-03-23T03:02:15.128056+00:00"
-  },
-  "Media & Streaming/chromecast-control": {
-    "owner": "morozred",
-    "slug": "morozred-chromecast-control",
-    "displayName": "chromecast",
-    "version": "1.0.0",
-    "publishedAt": 1768339500753,
-    "commit": "https://github.com/clawdbot/skills/commit/a112afa8c58aec2f59e056dd32c52f314ed7ddc9",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/morozred-chromecast-control",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/morozred/chromecast-control",
-    "files": [
-      "SKILL.md",
-      "_meta.json"
-    ],
-    "description": "Control Chromecast devices on your local network - discover.",
-    "fetched_at": "2026-03-23T03:02:17.288710+00:00"
   },
   "Media & Streaming/church": {
     "owner": "lucasgeeksinthewood",
@@ -25083,29 +24811,6 @@
     ],
     "description": "*An ecological skill for sustaining care, presence, and imagination across long horizons*.",
     "fetched_at": "2026-03-23T03:26:16.179210+00:00"
-  },
-  "Transportation/a-nach-b": {
-    "owner": "manmal",
-    "slug": "manmal-a-nach-b",
-    "displayName": "anachb",
-    "version": "1.0.0",
-    "publishedAt": 1767917009834,
-    "commit": "https://github.com/clawdbot/skills/commit/3fb53e3fd66582e5680cce31510005d1a81ab444",
-    "history": [],
-    "clawskills_url": "https://clawskills.sh/skills/manmal-a-nach-b",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
-    "github_url": "https://github.com/openclaw/skills/tree/main/skills/manmal/a-nach-b",
-    "files": [
-      "SKILL.md",
-      "_meta.json",
-      "departures.sh",
-      "disruptions.sh",
-      "route.sh",
-      "search.sh"
-    ],
-    "description": "Austrian public transport (VOR AnachB) for all of Austria.",
-    "fetched_at": "2026-03-23T03:26:21.242499+00:00"
   },
   "Transportation/anyone-proxy": {
     "owner": "ra3ka",
@@ -38257,5 +37962,1036 @@
     ],
     "description": "Automatic Speech Recognition (ASR) using Zhipu AI (BigModel) GLM-ASR model.",
     "fetched_at": "2026-03-23T04:09:20.711536+00:00"
+  },
+  "AI & LLMs/voice-recognition": {
+    "owner": "gykdly",
+    "slug": "gykdly-voice-recognition",
+    "displayName": "voice-recognition",
+    "version": "1.0.0",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/gykdly-voice-recognition",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Local speech-to-text with OpenAI Whisper CLI.",
+    "fetched_at": "2026-03-25T03:05:09.869390+00:00"
+  },
+  "Marketing & Sales/ghost-cms": {
+    "owner": "chrisagiddings",
+    "slug": "chrisagiddings-ghost-cms",
+    "displayName": "ghost-cms",
+    "version": "1.0.0",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/chrisagiddings-ghost-cms",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/chrisagiddings/ghost-cms",
+    "files": [
+      "LEXICAL-MIGRATION.md",
+      "ORIGINAL_README.md",
+      "README.md",
+      "SKILL.md",
+      "_meta.json",
+      "package.json",
+      "references/analytics.md",
+      "references/api-reference.md",
+      "references/comments.md",
+      "references/content.md",
+      "references/lexical-cards.md",
+      "references/members.md",
+      "references/newsletters.md",
+      "references/setup.md",
+      "references/themes.md",
+      "scripts/ghost-api.js",
+      "scripts/ghost-crud.js",
+      "scripts/lexical-builder.js",
+      "scripts/package-lock.json",
+      "scripts/package.json",
+      "scripts/snippet-extractor.js",
+      "scripts/theme-manager.js",
+      "scripts/theme-validator.js",
+      "scripts/update-teapot.js",
+      "snippets/README.md",
+      "snippets/examples/button-cta.json",
+      "snippets/examples/callout-tip.json",
+      "snippets/examples/disclosure-affiliate.json",
+      "snippets/examples/signature-example.json",
+      "snippets/ghost-snippet.js"
+    ],
+    "description": "Comprehensive Ghost CMS integration for creating, publishing, scheduling, and managing blog content, newsletters.",
+    "fetched_at": "2026-03-25T03:05:33.113836+00:00"
+  },
+  "PDF & Documents/rapay": {
+    "owner": "greendlt224",
+    "slug": "greendlt224-rapay",
+    "displayName": "rapay",
+    "version": "1.0.0",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/greendlt224-rapay",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/greendlt224/rapay",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Send compliant fiat USD payments via Ra Pay CLI — the first CLI-native AI payment platform.",
+    "fetched_at": "2026-03-25T03:05:37.353033+00:00"
+  },
+  "Clawdbot Tools/agent-browser-clawdbot": {
+    "owner": "matrixy",
+    "slug": "matrixy-agent-browser-clawdbot",
+    "displayName": "agent-browser-clawdbot",
+    "version": "0.1.0",
+    "clawskills_url": "https://clawskills.sh/skills/matrixy-agent-browser-clawdbot",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-browser-clawdbot",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Headless browser automation CLI optimized for AI agents.",
+    "fetched_at": "2026-03-25T03:06:42+00:00"
+  },
+  "Clawdbot Tools/honcho-setup": {
+    "owner": "ajspig",
+    "slug": "ajspig-honcho-setup",
+    "displayName": "honcho-setup",
+    "version": "1.0.4",
+    "clawskills_url": "https://clawskills.sh/skills/ajspig-honcho-setup",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ajspig/honcho-setup",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Persistent cross-session memory via Honcho.",
+    "fetched_at": "2026-03-25T03:06:42+00:00"
+  },
+  "Health & Fitness/garmin-health": {
+    "owner": "eversonl",
+    "slug": "eversonl-garmin-health-analysis",
+    "displayName": "garmin-health",
+    "version": "1.2.2",
+    "clawskills_url": "https://clawskills.sh/skills/eversonl-garmin-health-analysis",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eversonl/garmin-health-analysis",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/garmin_data.py",
+      "scripts/garmin_data_extended.py",
+      "scripts/garmin_query.py"
+    ],
+    "description": "Talk to your Garmin data naturally.",
+    "fetched_at": "2026-03-25T03:06:42+00:00"
+  },
+  "Health & Fitness/heartbeat-checklist": {
+    "owner": "felipetruman",
+    "slug": "felipetruman-heartbeat-checklist",
+    "displayName": "heartbeat-checklist",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/felipetruman-heartbeat-checklist",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/felipetruman/heartbeat-checklist",
+    "files": [],
+    "description": "Run these checks periodically (2-4x daily).",
+    "fetched_at": "2026-03-25T03:06:42+00:00",
+    "fetch_error": "GitHub 404 - directory not found"
+  },
+  "Health & Fitness/intervals-icu": {
+    "owner": "pseuss",
+    "slug": "pseuss-intervals-icu-api",
+    "displayName": "intervals-icu",
+    "version": "2.0.1",
+    "clawskills_url": "https://clawskills.sh/skills/pseuss-intervals-icu-api",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/pseuss/intervals-icu-api",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "ORIGINAL_README.md"
+    ],
+    "description": "Complete guide for accessing and managing training data.",
+    "fetched_at": "2026-03-25T03:06:42+00:00"
+  },
+  "Notes & PKM/agent-memory-ultimate": {
+    "owner": "globalcaos",
+    "slug": "globalcaos-agent-memory-ultimate",
+    "displayName": "agent-memory-ultimate",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/globalcaos-agent-memory-ultimate",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/agent-memory-ultimate",
+    "files": [],
+    "description": "Production-ready memory system — daily logs, sleep consolidation, SQLite + FTS5, WhatsApp/ChatGPT/VCF importers.",
+    "fetched_at": "2026-03-25T03:06:42+00:00",
+    "fetch_error": "GitHub 404 - directory not found"
+  },
+  "Smart Home & IoT/anova-oven": {
+    "owner": "dodeja",
+    "slug": "dodeja-anova-skill",
+    "displayName": "anova-oven",
+    "version": "0.1.0",
+    "clawskills_url": "https://clawskills.sh/skills/dodeja-anova-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dodeja/anova-skill",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "ORIGINAL_README.md",
+      "AGENTS.md",
+      "requirements.txt",
+      "scripts/anova.py"
+    ],
+    "description": "Control Anova Precision Ovens and Precision Cookers (sous vide)",
+    "fetched_at": "2026-03-25T03:06:42+00:00"
+  },
+  "Smart Home & IoT/homebridge": {
+    "owner": "jiasenl",
+    "slug": "jiasenl-clawdbot-skill-homebridge",
+    "displayName": "homebridge",
+    "version": "0.1.0",
+    "clawskills_url": "https://clawskills.sh/skills/jiasenl-clawdbot-skill-homebridge",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/jiasenl/clawdbot-skill-homebridge",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "scripts/homebridge_api.py"
+    ],
+    "description": "Control smart home devices via Homebridge Config UI X.",
+    "fetched_at": "2026-03-25T03:06:42+00:00"
+  },
+  "Git & GitHub/ghgghg": {
+    "owner": "chenpinji",
+    "slug": "chenpinji-ghgghg",
+    "displayName": "ghgghg",
+    "version": "unknown",
+    "description": "Query a GitHub repository's star count and lines of code.",
+    "clawskills_url": "https://clawskills.sh/skills/chenpinji-ghgghg",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/chenpinji/ghgghg",
+    "files": [
+      "SKILL.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:29.694067+00:00",
+    "fetch_note": "Source not available on GitHub (404). Reconstructed from ClawSkills metadata."
+  },
+  "Git & GitHub/git-sentinel": {
+    "owner": "corezip",
+    "slug": "corezip-git-sentinel",
+    "displayName": "git-sentinel",
+    "version": "unknown",
+    "description": "This skill allows the agent to act as a Senior Software Engineer & Security Auditor.",
+    "clawskills_url": "https://clawskills.sh/skills/corezip-git-sentinel",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/corezip/git-sentinel",
+    "files": [
+      "SKILL.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:29.694067+00:00",
+    "fetch_note": "Source not available on GitHub (404). Reconstructed from ClawSkills metadata."
+  },
+  "Git & GitHub/guardskills": {
+    "owner": "felixondesk",
+    "slug": "felixondesk-guardskills",
+    "displayName": "guardskills",
+    "version": "unknown",
+    "description": "Security gate for skill installs.",
+    "clawskills_url": "https://clawskills.sh/skills/felixondesk-guardskills",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/felixondesk/guardskills",
+    "files": [
+      "SKILL.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:29.694067+00:00",
+    "fetch_note": "Source not available on GitHub (404). Reconstructed from ClawSkills metadata."
+  },
+  "Git & GitHub/ultimate-fork-and-skill-scanner": {
+    "owner": "globalcaos",
+    "slug": "globalcaos-fork-and-skill-scanner-ultimate",
+    "displayName": "Fork and Skill Scanner Ultimate",
+    "version": "1.1.1",
+    "publishedAt": 1771659220707,
+    "commit": "https://github.com/openclaw/skills/commit/5bf485185d298c4fea2dd9eb2748fe6567c1d18a",
+    "history": [],
+    "description": "Scan GitHub forks and ClawHub skills for valuable changes, innovations, and enhancements.",
+    "clawskills_url": "https://clawskills.sh/skills/globalcaos-ultimate-fork-and-skill-scanner",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/fork-and-skill-scanner-ultimate",
+    "files": [
+      "ORIGINAL_README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "fetched_at": "2026-03-25T03:07:29.694067+00:00"
+  },
+  "Apple Apps & Services/shortcuts-generator": {
+    "owner": "erik-agens",
+    "slug": "erik-agens-shortcuts-skill",
+    "displayName": "shortcuts-generator",
+    "version": "latest",
+    "clawskills_url": "https://clawskills.sh/skills/erik-agens-shortcuts-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/erik-agens/shortcuts-skill",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Generate macOS/iOS Shortcuts by creating plist files.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00"
+  },
+  "Data & Analytics/duckdb-en": {
+    "owner": "camelsprout",
+    "slug": "camelsprout-duckdb-cli-ai-skills",
+    "displayName": "duckdb-en",
+    "version": "latest",
+    "clawskills_url": "https://clawskills.sh/skills/camelsprout-duckdb-cli-ai-skills",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/camelsprout/duckdb-cli-ai-skills",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "DuckDB CLI specialist for SQL analysis, data processing.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00"
+  },
+  "Media & Streaming/apple-music": {
+    "owner": "epheterson",
+    "slug": "epheterson-mcp-applemusic",
+    "displayName": "apple-music",
+    "version": "1.0.6",
+    "clawskills_url": "https://clawskills.sh/skills/epheterson-mcp-applemusic",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/epheterson/mcp-applemusic",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Apple Music integration via AppleScript (macOS) or MusicKit API.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00"
+  },
+  "Media & Streaming/chromecast": {
+    "owner": "morozred",
+    "slug": "morozred-chromecast-control",
+    "displayName": "chromecast",
+    "version": "1.0.0",
+    "clawskills_url": "https://clawskills.sh/skills/morozred-chromecast-control",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/morozred/chromecast-control",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Control Chromecast devices on your local network - discover.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00"
+  },
+  "Transportation/anachb": {
+    "owner": "manmal",
+    "slug": "manmal-a-nach-b",
+    "displayName": "anachb",
+    "version": "1.0.0",
+    "clawskills_url": "https://clawskills.sh/skills/manmal-a-nach-b",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/manmal/a-nach-b",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "departures.sh",
+      "disruptions.sh",
+      "route.sh",
+      "search.sh"
+    ],
+    "description": "Austrian public transport (VOR AnachB) for all of Austria.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00"
+  },
+  "Transportation/muki-fingerprint": {
+    "owner": "admin4giter",
+    "slug": "admin4giter-muki-fingerprint",
+    "displayName": "muki-fingerprint",
+    "version": "1.0.0",
+    "clawskills_url": "https://clawskills.sh/skills/admin4giter-muki-fingerprint",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/admin4giter/muki-fingerprint",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "MUKI asset fingerprinting tool for red team reconnaissance.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00"
+  },
+  "Personal Development/brw-case-study-builder": {
+    "owner": "brianrwagner",
+    "slug": "brianrwagner-brw-case-study-builder",
+    "displayName": "brw-case-study-builder",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/brianrwagner-brw-case-study-builder",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-case-study-builder",
+    "files": [],
+    "description": "Turn client wins into formatted case studies for proposals, social proof, and sales conversations.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00",
+    "error": "Skill not found in GitHub repo (404)"
+  },
+  "Transportation/brochure-design-generation": {
+    "owner": "eftalyurtseven",
+    "slug": "eftalyurtseven-brochure-design-generation",
+    "displayName": "brochure-design-generation",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/eftalyurtseven-brochure-design-generation",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/brochure-design-generation",
+    "files": [],
+    "description": "Generate professional brochure designs using each::sense AI.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00",
+    "error": "Skill not found in GitHub repo (404)"
+  },
+  "Transportation/drakeling": {
+    "owner": "bvisagie",
+    "slug": "bvisagie-drakeling",
+    "displayName": "drakeling",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/bvisagie-drakeling",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/bvisagie/drakeling",
+    "files": [],
+    "description": "Check on your Drakeling companion creature, send it care, or see how it is feeling.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00",
+    "error": "Author directory not found in GitHub repo (404)"
+  },
+  "Transportation/kalibr": {
+    "owner": "devonakelley",
+    "slug": "devonakelley-kalibr",
+    "displayName": "kalibr",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/devonakelley-kalibr",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/devonakelley/kalibr",
+    "files": [],
+    "description": "Ship agents that fix themselves.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00",
+    "error": "Author directory not found in GitHub repo (404)"
+  },
+  "Transportation/mycobot": {
+    "owner": "dabhadeamol6",
+    "slug": "dabhadeamol6-mycobot",
+    "displayName": "mycobot",
+    "version": "unknown",
+    "clawskills_url": "https://clawskills.sh/skills/dabhadeamol6-mycobot",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dabhadeamol6/mycobot",
+    "files": [],
+    "description": "WhatsApp Business API integration with managed OAuth.",
+    "fetched_at": "2026-03-25T03:07:30.295909+00:00",
+    "error": "Author directory not found in GitHub repo (404)"
+  },
+  "Calendar & Scheduling/cron-optimizer": {
+    "owner": "autogame-17",
+    "slug": "autogame-17-cron-optimizer",
+    "displayName": "cron-optimizer",
+    "version": "unknown",
+    "description": "Optimizes system cron jobs by removing stale, disabled, or redundant entries to reduce exec noise.",
+    "clawskills_url": "https://clawskills.sh/skills/autogame-17-cron-optimizer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/cron-optimizer",
+    "files": [
+      "SKILL.md",
+      "README.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:52.486729+00:00",
+    "note": "Stub - no source code found in GitHub repo"
+  },
+  "Calendar & Scheduling/feishu-whiteboard": {
+    "owner": "autogame-17",
+    "slug": "autogame-17-feishu-whiteboard",
+    "displayName": "feishu-whiteboard",
+    "version": "unknown",
+    "description": "Allows creating and manipulating Feishu Whiteboards.",
+    "clawskills_url": "https://clawskills.sh/skills/autogame-17-feishu-whiteboard",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/autogame-17/feishu-whiteboard",
+    "files": [
+      "SKILL.md",
+      "README.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:52.486729+00:00",
+    "note": "Stub - no source code found in GitHub repo"
+  },
+  "Calendar & Scheduling/nak": {
+    "owner": "a1denvalu3",
+    "slug": "a1denvalu3-nak",
+    "displayName": "nak",
+    "version": "unknown",
+    "description": "The Nostr Army Knife (nak) CLI.",
+    "clawskills_url": "https://clawskills.sh/skills/a1denvalu3-nak",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/a1denvalu3/nak",
+    "files": [
+      "SKILL.md",
+      "README.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:52.486729+00:00",
+    "note": "Stub - no source code found in GitHub repo"
+  },
+  "Git & GitHub/ghggh": {
+    "owner": "chenpinji",
+    "slug": "chenpinji-ghggh",
+    "displayName": "ghggh",
+    "version": "unknown",
+    "description": "Query a GitHub repository's star count and lines of code.",
+    "clawskills_url": "https://clawskills.sh/skills/chenpinji-ghggh",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/chenpinji/ghggh",
+    "files": [
+      "SKILL.md",
+      "README.md"
+    ],
+    "fetched_at": "2026-03-25T03:07:52.486729+00:00",
+    "note": "Stub - no source code found in GitHub repo"
+  },
+  "Git & GitHub/wps-skill": {
+    "owner": "lilei0311",
+    "slug": "lilei0311-wps-skill",
+    "displayName": "Wps Skill",
+    "version": "1.3.0",
+    "description": "WPS Office automation skill supporting document creation, Markdown conversion, and image-text layout.",
+    "clawskills_url": "https://clawskills.sh/skills/lilei0311-wps-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/clawdbot/skills/tree/main/skills/lilei0311/wps-skill",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "config.json",
+      "skill.json",
+      "scripts/main.py",
+      "scripts/md_converter.py",
+      "scripts/excel_converter.py",
+      "scripts/image_handler.py",
+      "scripts/ppt_converter.py",
+      "test/test_excel.md",
+      "test/test_md.md",
+      "test/test_ppt.md",
+      "test/test_image.py"
+    ],
+    "fetched_at": "2026-03-25T03:08:52.381776+00:00"
+  },
+  "Moltbook/crustafarian": {
+    "owner": "jongartmann",
+    "slug": "jongartmann-crustafarian",
+    "displayName": "Crustafarian",
+    "version": "1.0.0",
+    "description": "Agent continuity and cognitive health infrastructure.",
+    "clawskills_url": "https://clawskills.sh/skills/jongartmann-crustafarian",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/clawdbot/skills/tree/main/skills/jongartmann/crustafarian",
+    "files": [
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "fetched_at": "2026-03-25T03:08:52.381776+00:00"
+  },
+  "Security & Passwords/leak": {
+    "owner": "eucalyptus-viminalis",
+    "slug": "eucalyptus-viminalis-leak",
+    "displayName": "leak",
+    "version": "unknown",
+    "description": "Compatibility stub for migrating from the legacy mixed leak skill to split hardened skills.",
+    "clawskills_url": "https://clawskills.sh/skills/eucalyptus-viminalis-leak",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/clawdbot/skills/tree/main/skills/eucalyptus-viminalis/leak",
+    "files": [
+      "_meta.json"
+    ],
+    "fetched_at": "2026-03-25T03:08:52.381776+00:00"
+  },
+  "iOS & macOS Development/PagerKit": {
+    "owner": "szpakkamil",
+    "slug": "szpakkamil-pagerkit",
+    "displayName": "PagerKit",
+    "version": "1.0.1",
+    "description": "Expert guidance on PagerKit, a SwiftUI library for advanced, customizable page-based navigation.",
+    "clawskills_url": "https://clawskills.sh/skills/szpakkamil-pagerkit",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/clawdbot/skills/tree/main/skills/szpakkamil/pagerkit",
+    "files": [
+      "SKILL.md",
+      "_meta.json",
+      "references/ForEach.md",
+      "references/PKPage.md",
+      "references/PKPageBuilder.md",
+      "references/PKPageControlBackgroundStyle.md",
+      "references/PKPageControlDirection.md",
+      "references/PKPageDirection.md",
+      "references/PKPagesView.md",
+      "references/PagerKit.md",
+      "references/_index.md"
+    ],
+    "fetched_at": "2026-03-25T03:08:52.381776+00:00"
+  },
+  "AI & LLMs/ai-humor-ultimate": {
+    "owner": "globalcaos",
+    "slug": "globalcaos-ai-humor-ultimate",
+    "displayName": "ai-humor-ultimate",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/globalcaos-ai-humor-ultimate",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/ai-humor-ultimate",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Give your AI agent actual wit.",
+    "fetched_at": "2026-03-25T03:09:00.451553+00:00",
+    "github_available": false
+  },
+  "AI & LLMs/broedkrumme-kalibr": {
+    "owner": "broedkrummen",
+    "slug": "broedkrummen-broedkrumme-kalibr",
+    "displayName": "broedkrumme-kalibr",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/broedkrummen-broedkrumme-kalibr",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/broedkrummen/broedkrumme-kalibr",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Agent self-improvement and telemetry.",
+    "fetched_at": "2026-03-25T03:09:01.087849+00:00",
+    "github_available": false
+  },
+  "AI & LLMs/bunni-modes": {
+    "owner": "dubhorizoned",
+    "slug": "dubhorizoned-bunni-modes",
+    "displayName": "bunni-modes",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/dubhorizoned-bunni-modes",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant.",
+    "fetched_at": "2026-03-25T03:09:01.725371+00:00",
+    "github_available": false
+  },
+  "AI & LLMs/doginals": {
+    "owner": "greatape42069",
+    "slug": "greatape42069-doginals",
+    "displayName": "doginals",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/greatape42069-doginals",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/greatape42069/doginals",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "The Doginals skill enables users to interact with the Doginals and Dunes protocols, facilitating inscription.",
+    "fetched_at": "2026-03-25T03:09:02.367747+00:00",
+    "github_available": false
+  },
+  "AI & LLMs/meeting-summarizer": {
+    "owner": "claudiodrusus",
+    "slug": "claudiodrusus-meeting-summarizer",
+    "displayName": "meeting-summarizer",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/claudiodrusus-meeting-summarizer",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/claudiodrusus/meeting-summarizer",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Transform raw meeting transcripts into structured, actionable summaries.",
+    "fetched_at": "2026-03-25T03:09:03.004583+00:00",
+    "github_available": false
+  },
+  "AI & LLMs/usdckrump": {
+    "owner": "arunnadarasa",
+    "slug": "arunnadarasa-usdckrump",
+    "displayName": "usdckrump",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/arunnadarasa-usdckrump",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/usdckrump",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Pay with USDC Krump (USDC.k) via x402 on Story Aeneid EVVM.",
+    "fetched_at": "2026-03-25T03:09:03.638749+00:00",
+    "github_available": false
+  },
+  "Communication/groupme-cli": {
+    "owner": "cuuush",
+    "slug": "cuuush-groupme-cli",
+    "displayName": "groupme-cli",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/cuuush-groupme-cli",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/cuuush/groupme-cli",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Send and read GroupMe messages via the groupme CLI.",
+    "fetched_at": "2026-03-25T03:09:04.274164+00:00",
+    "github_available": false
+  },
+  "Communication/nuggetz-swarm": {
+    "owner": "ezisezis",
+    "slug": "ezisezis-nuggetz-swarm",
+    "displayName": "nuggetz-swarm",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ezisezis-nuggetz-swarm",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ezisezis/nuggetz-swarm",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Team-scoped knowledge feed for AI agent teams.",
+    "fetched_at": "2026-03-25T03:09:04.915430+00:00",
+    "github_available": false
+  },
+  "Communication/roast-agents": {
+    "owner": "ac-pill",
+    "slug": "ac-pill-roast-agents",
+    "displayName": "roast-agents",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/ac-pill-roast-agents",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/ac-pill/roast-agents",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Play roast games on Moltbook.",
+    "fetched_at": "2026-03-25T03:09:05.554560+00:00",
+    "github_available": false
+  },
+  "Marketing & Sales/ar-filter-generation": {
+    "owner": "eftalyurtseven",
+    "slug": "eftalyurtseven-ar-filter-generation",
+    "displayName": "ar-filter-generation",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/eftalyurtseven-ar-filter-generation",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/ar-filter-generation",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Generate AR filters and face effects using each::sense AI.",
+    "fetched_at": "2026-03-25T03:09:06.192420+00:00",
+    "github_available": false
+  },
+  "Marketing & Sales/attio-enhanced": {
+    "owner": "capt-marbles",
+    "slug": "capt-marbles-attio-enhanced",
+    "displayName": "attio-enhanced",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/capt-marbles-attio-enhanced",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/capt-marbles/attio-enhanced",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Enhanced Attio CRM API skill with batch operations.",
+    "fetched_at": "2026-03-25T03:09:06.838245+00:00",
+    "github_available": false
+  },
+  "Marketing & Sales/brw-marketing-principles": {
+    "owner": "brianrwagner",
+    "slug": "brianrwagner-brw-marketing-principles",
+    "displayName": "brw-marketing-principles",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brianrwagner-brw-marketing-principles",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-marketing-principles",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Apply timeless marketing and business principles to any problem.",
+    "fetched_at": "2026-03-25T03:09:07.473770+00:00",
+    "github_available": false
+  },
+  "Marketing & Sales/buzz-bd": {
+    "owner": "buzzbysolcex",
+    "slug": "buzzbysolcex-buzz-bd",
+    "displayName": "buzz-bd",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/buzzbysolcex-buzz-bd",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/buzzbysolcex/buzz-bd",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Autonomous crypto token discovery, scoring, and business development intelligence.",
+    "fetched_at": "2026-03-25T03:09:08.113583+00:00",
+    "github_available": false
+  },
+  "Marketing & Sales/farmos-marketing": {
+    "owner": "brianppetty",
+    "slug": "brianppetty-farmos-marketing",
+    "displayName": "farmos-marketing",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brianppetty-farmos-marketing",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianppetty/farmos-marketing",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Query grain marketing positions, contracts, delivery schedules, inventory, and revenue data.",
+    "fetched_at": "2026-03-25T03:09:08.750042+00:00",
+    "github_available": false
+  },
+  "PDF & Documents/brw-go-mode": {
+    "owner": "brianrwagner",
+    "slug": "brianrwagner-brw-go-mode",
+    "displayName": "brw-go-mode",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brianrwagner-brw-go-mode",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-go-mode",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Give me a goal.",
+    "fetched_at": "2026-03-25T03:09:09.403524+00:00",
+    "github_available": false
+  },
+  "PDF & Documents/contrato-locacao-broa": {
+    "owner": "david-evaristo",
+    "slug": "david-evaristo-contrato-locacao-broa",
+    "displayName": "contrato-locacao-broa",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/david-evaristo-contrato-locacao-broa",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/david-evaristo/contrato-locacao-broa",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Registra contrato no Google Forms.",
+    "fetched_at": "2026-03-25T03:09:10.058170+00:00",
+    "github_available": false
+  },
+  "PDF & Documents/gerador-contrato-locacao-preview": {
+    "owner": "david-evaristo",
+    "slug": "david-evaristo-gerador-contrato-locacao-preview",
+    "displayName": "gerador-contrato-locacao-preview",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/david-evaristo-gerador-contrato-locacao-preview",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/david-evaristo/gerador-contrato-locacao-preview",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Registra contrato de locação via Google Forms.",
+    "fetched_at": "2026-03-25T03:09:10.695773+00:00",
+    "github_available": false
+  },
+  "PDF & Documents/shield-agent": {
+    "owner": "bowen31337",
+    "slug": "bowen31337-shield-agent",
+    "displayName": "shield-agent",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/bowen31337-shield-agent",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/bowen31337/shield-agent",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Autonomous DeFi smart contract vulnerability scanner.",
+    "fetched_at": "2026-03-25T03:09:11.338371+00:00",
+    "github_available": false
+  },
+  "Speech & Transcription/audio-reply": {
+    "owner": "matrixy",
+    "slug": "matrixy-audio-reply-skill",
+    "displayName": "audio-reply-skill",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/matrixy-audio-reply-skill",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/matrixy/audio-reply-skill",
+    "files": [
+      "README.md",
+      "SKILL.md",
+      "_meta.json"
+    ],
+    "description": "Generate audio replies using TTS.",
+    "fetched_at": "2026-03-25T03:09:49.124668+00:00",
+    "github_available": true
+  },
+  "Speech & Transcription/brw-de-ai-ify": {
+    "owner": "brianrwagner",
+    "slug": "brianrwagner-brw-de-ai-ify",
+    "displayName": "brw-de-ai-ify",
+    "version": "unknown",
+    "publishedAt": null,
+    "commit": "",
+    "history": [],
+    "clawskills_url": "https://clawskills.sh/skills/brianrwagner-brw-de-ai-ify",
+    "vt_status": "Suspicious",
+    "oc_status": "Suspicious",
+    "github_url": "https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-de-ai-ify",
+    "files": [
+      "ORIGINAL_README.md",
+      "README.md",
+      "_meta.json"
+    ],
+    "description": "Remove AI-generated jargon and restore human voice to text.",
+    "fetched_at": "2026-03-25T03:09:12.640130+00:00",
+    "github_available": false
   }
 }

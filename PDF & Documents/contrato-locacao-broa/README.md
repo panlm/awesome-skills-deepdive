@@ -1,35 +1,34 @@
 # contrato-locacao-broa
 
-> 巴西租赁合同自动生成工具（葡语）
+> Registra contrato no Google Forms.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | contrato-locacao-broa |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | PDF & Documents |
 | **作者** | david-evaristo |
-| **类目** | PDF & Documents |
-| **ClawHub** | https://clawskills.sh/skills/david-evaristo-contrato-locacao-broa |
-| **安全评级** | ⚪ Unknown |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/david-evaristo-contrato-locacao-broa>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/david-evaristo/contrato-locacao-broa>) |
 
-## 功能概述
-- 生成符合巴西法律的租赁合同
-- 葡萄牙语法律文档模板
-- 自定义租赁条款和参数
-- 合规性自动检查
+## 🔍 功能特点
 
-## 使用场景
-- 为巴西房产租赁自动生成标准合同
-- 快速创建符合当地法规的租赁协议
+该技能提供 Registra contrato no Google Forms. 相关功能。
 
-## 依赖和前提条件
-- 无特殊依赖
+## 🛡️ 安全评估
 
-## 包含文件
-- `README.md`
-- `_meta.json`
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
-## 安全状态
-**综合评级: ⚪ Unknown**
+## 📖 使用方法
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install david-evaristo/contrato-locacao-broa`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/david-evaristo-contrato-locacao-broa>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/david-evaristo/contrato-locacao-broa>)

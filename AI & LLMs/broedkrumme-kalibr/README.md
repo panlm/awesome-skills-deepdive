@@ -1,31 +1,34 @@
 # broedkrumme-kalibr
 
-> Agent 自我改进和遥测数据收集工具。
+> Agent self-improvement and telemetry.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | broedkrumme-kalibr |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | AI & LLMs |
 | **作者** | broedkrummen |
-| **类目** | AI & LLMs |
-| **ClawHub** | https://clawskills.sh/skills/broedkrummen-broedkrumme-kalibr |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/broedkrummen/broedkrumme-kalibr |
-| **安全评级** | ⚪ Unknown |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/broedkrummen-broedkrumme-kalibr>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/broedkrummen/broedkrumme-kalibr>) |
 
-## 功能概述
-- Agent 自我改进和性能优化
-- 遥测数据收集和分析
+## 🔍 功能特点
 
-## 使用场景
-- 需要追踪和优化 AI Agent 的运行表现
+该技能提供 Agent self-improvement and telemetry. 相关功能。
 
-## 依赖和前提条件
-- ⚠️ 源文件无法获取，具体依赖未知
+## 🛡️ 安全评估
 
-## 注意事项
-- ⚠️ 源文件无法从 GitHub 获取（可能已被作者删除或设为私有）
-- ClawSkills 页面仍可访问：https://clawskills.sh/skills/broedkrummen-broedkrumme-kalibr
-- 安全状态未知，建议安装前自行审查
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
----
-> 本文档由 awesome-skills-deepdive skill 自动生成
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install broedkrummen/broedkrumme-kalibr`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/broedkrummen-broedkrumme-kalibr>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/broedkrummen/broedkrumme-kalibr>)

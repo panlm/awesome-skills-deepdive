@@ -1,59 +1,45 @@
-# agent-browser-clawdbot
+# 🌐 Agent Browser — AI 代理无头浏览器自动化
 
-> 面向 AI 代理优化的无头浏览器自动化 CLI，使用可访问性树快照和 ref 引用选择元素
+## 描述
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | agent-browser-clawdbot |
-| **作者** | matrixy |
-| **ClawHub** | https://clawskills.sh/skills/matrixy-agent-browser-clawdbot |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-browser-clawdbot |
-| **安全评级** | 🟡 Medium |
+Agent Browser 是一个专为 AI 代理优化的无头浏览器自动化 CLI 工具。通过可访问性树快照和基于 ref 的元素选择，实现确定性的网页交互，避免了 CSS 选择器和 XPath 的脆弱性。
 
-## 功能概述
-- 基于可访问性树的确定性元素选择
-- 完整浏览器导航（打开/后退/前进/刷新）
-- 交互操作（点击/填充/悬停/拖拽）
-- 会话隔离，支持多用户场景
-- 状态持久化（保存/加载 cookies）
-- 网络控制（拦截/模拟请求）
-- 截图和 PDF 生成
+## 功能特点
 
-## 使用场景
-- 自动化多步骤 Web 工作流
-- 需要确定性元素选择的浏览器测试
-- Web 数据采集和表单填充
+- **Ref 元素选择**：从可访问性树快照中提取稳定的 ref（如 @e2, @e3），用于确定性地定位交互元素
+- **会话隔离**：支持多个独立的浏览器会话同时运行
+- **认证状态保存**：可保存登录状态，避免重复认证
+- **网络拦截**：支持 mock API 响应，用于自动化测试
+- **JSON 输出**：快照输出 JSON 格式，便于程序解析
 
-## 依赖和前提条件
-agent-browser CLI 工具
+## 使用方法
 
-## 包含文件
-- `SKILL.md`
-- `_meta.json`
+```bash
+# 安装
+npm install -g agent-browser
 
-## 安全状态 (ClawHub)
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟡 Suspicious |
-| OpenClaw | 🟡 Suspicious |
+# 基本工作流
+agent-browser open https://example.com
+agent-browser snapshot -i --json
+agent-browser click @e2
+agent-browser fill @e3 "text"
+```
 
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🔴 High | 大量 shell 命令执行指令（agent-browser open/click/fill 等） |
-| SEC-02 数据外泄 | 🟡 Medium | 可通过网络请求转发数据，cookies 持久化可能泄露会话 |
-| SEC-03 凭证获取 | 🟡 Medium | 状态持久化涉及 cookies/localStorage，可包含凭证 |
-| SEC-04 供应链风险 | 🟡 Medium | 依赖 agent-browser 外部 CLI |
-| SEC-05 文件系统篡改 | 🟡 Medium | 截图/PDF 保存到文件系统 |
-| SEC-06 Prompt 注入 | 🟡 Medium | 浏览器操作可能被恶意页面利用 |
-| SEC-07 越权操作 | 🟡 Medium | 网络控制可拦截/修改请求 |
-| SEC-08 持久化机制 | 🟡 Medium | 状态持久化（save/load auth.json） |
-| SEC-09 信息采集 | 🟡 Medium | 可获取页面内容、cookies、localStorage |
-| SEC-10 混淆/反分析 | 🟢 Safe | 指令清晰无混淆 |
+### 适用场景
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 浏览器自动化工具本质上可执行广泛操作，需谨慎使用
+- 自动化多步骤 Web 表单提交
+- 运行并发的管理员和用户浏览器会话进行测试
+- 抓取需要 JavaScript 执行的动态单页应用
+- 复用保存的登录状态跳过重复认证
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+## 安全评估
+
+- **VirusTotal**: ⚠️ 未验证
+- **OpenClaw**: ⚠️ 未验证
+- **风险说明**: 需安装全局 npm 包 `agent-browser`，具备完整浏览器自动化能力
+
+## 附加资源
+
+- [GitHub 源码](https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-browser-clawdbot)
+- [ClawHub 页面](https://clawskills.sh/skills/matrixy-agent-browser-clawdbot)
+- [agent-browser 项目主页](https://github.com/vercel-labs/agent-browser)

@@ -1,47 +1,45 @@
-# Cron Optimizer
+# cron-optimizer — Cron 任务优化器
 
-> Cron 优化器 — 定时任务性能分析和调度优化
+> ⚠️ **状态**: 此技能在 ClawSkills 上有列出，但 GitHub 仓库中尚未发布 SKILL.md 源码。以下内容基于 ClawSkills 页面描述生成。
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | Cron Optimizer |
-| **作者** | unknown |
-| **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawhub.ai/skills/cron-optimizer |
-| **安全评级** | 🟢 Low |
+## 标题和描述
 
-## 功能概述
-- 分析定时任务执行效率
-- 优化 Cron 表达式和调度
-- 资源占用和冲突检测
-- 调度建议和最佳实践
+**cron-optimizer** 是由 `autogame-17` 开发的 OpenClaw 技能，用于优化系统 cron 定时任务。它通过移除过期的、已禁用的或冗余的 cron 条目来减少不必要的执行噪声。
 
-## 使用场景
-- 自动化定时任务的创建和管理
-- 周期性工作流编排和执行监控
-- 任务调度优化和故障恢复
+## 功能特点
 
-## 依赖和前提条件
-- OpenClaw 运行环境
+- 🔍 扫描系统 cron 任务列表
+- 🗑️ 识别并移除过期（stale）的 cron 条目
+- ⛔ 清理已禁用的 cron 任务
+- 🔄 检测并合并冗余的 cron 条目
+- 📉 减少系统执行噪声，提升系统整洁度
 
-## 安全状态
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+## 使用方法/示例
 
-**综合评级: 🟢 Low**
-**风险摘要:** 未发现明显安全风险，文档透明可审计
+```bash
+# 安装
+clawhub install autogame-17/cron-optimizer
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+# 或使用 npx
+npx clawhub@latest install autogame-17/cron-optimizer
+```
+
+安装后，该技能可被 OpenClaw agent 自动调用来优化主机上的 cron 任务配置。
+
+## 安全评估
+
+| 评估维度 | 风险等级 | 说明 |
+|---------|---------|------|
+| 系统访问 | 🔴 高风险 | 需要读写 cron 任务配置，可能影响系统定时任务 |
+| 数据安全 | 🟡 中风险 | 可能读取 crontab 中的敏感路径和命令 |
+| 网络访问 | 🟢 低风险 | 功能描述不涉及网络操作 |
+| 代码审查 | ⚠️ 无法审查 | GitHub 仓库中无源码，无法进行代码审计 |
+| 权限提升 | 🔴 高风险 | 修改 cron 任务通常需要 root 或 sudo 权限 |
+
+**综合评级**: ⚠️ **Suspicious** — 无源码可审查，且涉及系统级修改操作。
+
+## 附加资源列表
+
+- 🔗 [ClawSkills 页面](https://clawskills.sh/skills/autogame-17-cron-optimizer)
+- 🔗 [GitHub 目录](https://github.com/openclaw/skills/tree/main/skills/autogame-17/cron-optimizer) (当前 404)
+- 👤 作者: [@autogame-17](https://github.com/autogame-17)

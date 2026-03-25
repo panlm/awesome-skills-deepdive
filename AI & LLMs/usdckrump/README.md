@@ -1,32 +1,34 @@
 # usdckrump
 
-> 通过 x402 协议在 Story Aeneid EVVM 上使用 USDC Krump 进行支付
+> Pay with USDC Krump (USDC.k) via x402 on Story Aeneid EVVM.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | usdckrump |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | AI & LLMs |
 | **作者** | arunnadarasa |
-| **类目** | AI & LLMs |
-| **ClawHub** | https://clawskills.sh/skills/arunnadarasa-usdckrump |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/usdckrump |
-| **安全评级** | ⚪ Unknown |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/arunnadarasa-usdckrump>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/usdckrump>) |
 
-## 功能概述
-- 支持 USDC Krump 代币支付
-- 基于 x402 支付协议
-- 在 Story Aeneid EVVM 网络上运行
-- 支持链上支付验证
+## 🔍 功能特点
 
-## 使用场景
-- 在 Story Aeneid 生态中使用 USDC Krump 完成链上支付
-- AI Agent 通过 x402 协议自动完成微支付交易
+该技能提供 Pay with USDC Krump (USDC.k) via x402 on Story Aeneid EVVM. 相关功能。
 
-## 依赖和前提条件
-- 参见 SKILL.md 获取详细依赖信息
+## 🛡️ 安全评估
 
-## 安全状态
-> 暂无安全审计数据
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
----
-> 本文档由 awesome-skills-deepdive skill 自动生成
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install arunnadarasa/usdckrump`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/arunnadarasa-usdckrump>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/usdckrump>)

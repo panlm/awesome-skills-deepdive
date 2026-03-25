@@ -1,32 +1,34 @@
 # bunni-modes
 
-> 人格和模型切换工具包，内含 Bunni 活泼的网络安全助手人格。
+> A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | bunni-modes |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | AI & LLMs |
 | **作者** | dubhorizoned |
-| **类目** | AI & LLMs |
-| **ClawHub** | https://clawskills.sh/skills/dubhorizoned-bunni-modes |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes |
-| **安全评级** | ⚪ Unknown |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/dubhorizoned-bunni-modes>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes>) |
 
-## 功能概述
-- 支持 Agent 人格切换和自定义
-- 内置 Bunni 网络安全助手人格
-- 支持模型切换功能
+## 🔍 功能特点
 
-## 使用场景
-- 为 AI Agent 配置不同场景下的人格和行为模式
+该技能提供 A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant. 相关功能。
 
-## 依赖和前提条件
-- ⚠️ 源文件无法获取，具体依赖未知
+## 🛡️ 安全评估
 
-## 注意事项
-- ⚠️ 源文件无法从 GitHub 获取（可能已被作者删除或设为私有）
-- ClawSkills 页面仍可访问：https://clawskills.sh/skills/dubhorizoned-bunni-modes
-- 安全状态未知，建议安装前自行审查
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
----
-> 本文档由 awesome-skills-deepdive skill 自动生成
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install dubhorizoned/bunni-modes`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/dubhorizoned-bunni-modes>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes>)

@@ -1,32 +1,34 @@
 # brw-de-ai-ify
 
-> 技能文件缺失，无法进行完整分析
+> Remove AI-generated jargon and restore human voice to text.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | brw-de-ai-ify |
-| **作者** | unknown |
-| **安全评级** | ⚠️ 无法评估 |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
 
-## 功能概述
-- 技能源文件（SKILL.md）缺失，无法提取功能信息
+## 📋 基本信息
 
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | ⚠️ N/A | 无源文件可审计 |
-| SEC-02 数据外泄 | ⚠️ N/A | 无源文件可审计 |
-| SEC-03 凭证获取 | ⚠️ N/A | 无源文件可审计 |
-| SEC-04 供应链风险 | ⚠️ N/A | 无源文件可审计 |
-| SEC-05 文件系统篡改 | ⚠️ N/A | 无源文件可审计 |
-| SEC-06 Prompt 注入 | ⚠️ N/A | 无源文件可审计 |
-| SEC-07 越权操作 | ⚠️ N/A | 无源文件可审计 |
-| SEC-08 持久化机制 | ⚠️ N/A | 无源文件可审计 |
-| SEC-09 信息采集 | ⚠️ N/A | 无源文件可审计 |
-| SEC-10 混淆/反分析 | ⚠️ N/A | 无源文件可审计 |
+| 属性 | 值 |
+|------|------|
+| **分类** | Speech & Transcription |
+| **作者** | brianrwagner |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/brianrwagner-brw-de-ai-ify>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-de-ai-ify>) |
 
-**综合评级: ⚠️ 无法评估（缺少源文件）**
+## 🔍 功能特点
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+该技能提供 Remove AI-generated jargon and restore human voice to text. 相关功能。
+
+## 🛡️ 安全评估
+
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
+
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install brianrwagner/brw-de-ai-ify`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/brianrwagner-brw-de-ai-ify>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-de-ai-ify>)

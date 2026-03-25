@@ -1,50 +1,34 @@
 # attio-enhanced
 
-> 增强版 Attio CRM 操作工具
+> Enhanced Attio CRM API skill with batch operations.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | attio-enhanced |
-| **作者** | unknown |
-| **类目** | Marketing & Sales |
-| **ClawHub** | https://clawskills.sh/skills/unknown-attio-enhanced |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/unknown/attio-enhanced |
-| **安全评级** | 🟢 Low |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
 
-## 功能概述
-- Attio CRM 数据管理
-- 客户记录查询和更新
-- 高级搜索和过滤
-- CRM 工作流自动化
+## 📋 基本信息
 
-## 使用场景
-- 通过 AI 助手管理和更新 Attio CRM 数据
-- 自动化 CRM 中的客户跟进流程
+| 属性 | 值 |
+|------|------|
+| **分类** | Marketing & Sales |
+| **作者** | capt-marbles |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/capt-marbles-attio-enhanced>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/capt-marbles/attio-enhanced>) |
 
-## 依赖和前提条件
-- 无特殊依赖
+## 🔍 功能特点
 
-## 包含文件
-- `README.md`
-- `_meta.json`
+该技能提供 Enhanced Attio CRM API skill with batch operations. 相关功能。
 
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+## 🛡️ 安全评估
 
-**综合评级: 🟢 Low**
-**风险摘要:** 未发现明显安全风险，文档透明可审计
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install capt-marbles/attio-enhanced`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/capt-marbles-attio-enhanced>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/capt-marbles/attio-enhanced>)

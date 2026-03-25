@@ -1,35 +1,34 @@
 # gerador-contrato-locacao-preview
 
-> 巴西租赁合同生成预览工具
+> Registra contrato de locação via Google Forms.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | gerador-contrato-locacao-preview |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | PDF & Documents |
 | **作者** | david-evaristo |
-| **类目** | PDF & Documents |
-| **ClawHub** | https://clawskills.sh/skills/david-evaristo-gerador-contrato-locacao-preview |
-| **安全评级** | ⚪ Unknown |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/david-evaristo-gerador-contrato-locacao-preview>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/david-evaristo/gerador-contrato-locacao-preview>) |
 
-## 功能概述
-- 生成租赁合同的预览版本
-- 支持合同内容实时预览
-- 葡语租赁合同模板
-- 预览确认后导出最终文档
+## 🔍 功能特点
 
-## 使用场景
-- 在正式生成合同前预览确认内容
-- 快速调整合同参数并实时查看效果
+该技能提供 Registra contrato de locação via Google Forms. 相关功能。
 
-## 依赖和前提条件
-- 无特殊依赖
+## 🛡️ 安全评估
 
-## 包含文件
-- `README.md`
-- `_meta.json`
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
-## 安全状态
-**综合评级: ⚪ Unknown**
+## 📖 使用方法
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install david-evaristo/gerador-contrato-locacao-preview`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/david-evaristo-gerador-contrato-locacao-preview>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/david-evaristo/gerador-contrato-locacao-preview>)

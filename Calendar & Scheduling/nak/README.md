@@ -1,47 +1,47 @@
-# Nak
+# nak — Nostr Army Knife CLI 技能
 
-> Nostr 协议工具 — 去中心化社交网络操作
+> ⚠️ **状态**: 此技能在 ClawSkills 上有列出，但 GitHub 仓库中尚未发布 SKILL.md 源码。以下内容基于 ClawSkills 页面描述生成。
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | Nak |
-| **作者** | unknown |
-| **类目** | 日历与日程管理 |
-| **ClawHub** | https://clawhub.ai/skills/nak |
-| **安全评级** | 🟢 Low |
+## 标题和描述
 
-## 功能概述
-- Nostr 去中心化协议操作
-- 事件发布和订阅
-- 身份管理和验证
-- 中继服务器连接管理
+**nak** 是由 `a1denvalu3` 开发的 OpenClaw 技能，提供了 Nostr Army Knife (nak) 命令行工具的集成。Nostr 是一个去中心化社交协议，nak 是其最流行的 CLI 工具之一。
 
-## 使用场景
-- 日常事务调度和时间管理自动化
-- 工作流程编排和任务协调
-- 与其他 OpenClaw 技能配合构建自动化流程
+## 功能特点
 
-## 依赖和前提条件
-- OpenClaw 运行环境
+- 🔧 集成 Nostr Army Knife (nak) CLI 工具
+- 📡 与 Nostr 去中心化社交网络交互
+- 📝 可能支持发布 Nostr 事件（notes/events）
+- 🔑 管理 Nostr 密钥和身份
+- 🔍 查询 Nostr 中继器（relays）上的数据
 
-## 安全状态
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+## 使用方法/示例
 
-**综合评级: 🟢 Low**
-**风险摘要:** 未发现明显安全风险，文档透明可审计
+```bash
+# 安装
+clawhub install a1denvalu3/nak
 
----
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+# 或使用 npx
+npx clawhub@latest install a1denvalu3/nak
+```
+
+安装后，该技能使 OpenClaw agent 能够使用 nak CLI 与 Nostr 网络进行交互。
+
+## 安全评估
+
+| 评估维度 | 风险等级 | 说明 |
+|---------|---------|------|
+| 系统访问 | 🟡 中风险 | 需要安装和运行 nak CLI 二进制文件 |
+| 数据安全 | 🔴 高风险 | 涉及加密私钥管理，私钥泄露将导致身份被盗 |
+| 网络访问 | 🟡 中风险 | 需要连接 Nostr 中继器（relays） |
+| 代码审查 | ⚠️ 无法审查 | GitHub 仓库中无源码，无法进行代码审计 |
+| 公开发布 | 🟡 中风险 | 可能发布公开内容到 Nostr 网络，不可撤回 |
+
+**综合评级**: ⚠️ **Suspicious** — 无源码可审查，且涉及加密密钥管理和公开内容发布。
+
+## 附加资源列表
+
+- 🔗 [ClawSkills 页面](https://clawskills.sh/skills/a1denvalu3-nak)
+- 🔗 [GitHub 目录](https://github.com/openclaw/skills/tree/main/skills/a1denvalu3/nak) (当前 404)
+- 👤 作者: [@a1denvalu3](https://github.com/a1denvalu3)
+- 📚 [nak CLI (fiatjaf/nak)](https://github.com/fiatjaf/nak) — Nostr Army Knife 原始项目
+- 📚 [Nostr 协议](https://nostr.com/) — 去中心化社交协议

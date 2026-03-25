@@ -1,33 +1,34 @@
 # ai-humor-ultimate
 
-> 赋予 AI 代理真正的幽默感和机智
+> Give your AI agent actual wit.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | ai-humor-ultimate |
+> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | AI & LLMs |
 | **作者** | globalcaos |
-| **类目** | AI & LLMs |
-| **ClawHub** | https://clawskills.sh/skills/globalcaos-ai-humor-ultimate |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/globalcaos/ai-humor-ultimate |
-| **安全评级** | ⚪ Unknown |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/globalcaos-ai-humor-ultimate>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/globalcaos/ai-humor-ultimate>) |
 
-## 功能概述
-- 为 AI 代理注入幽默表达能力
-- 提升代理对话中的趣味性和人格魅力
+## 🔍 功能特点
 
-## 使用场景
-- 让 AI 代理在日常对话中展现幽默和机智
-- 增强 AI 助手的个性化交互体验
+该技能提供 Give your AI agent actual wit. 相关功能。
 
-## 依赖和前提条件
-- ⚠️ 源文件无法从 GitHub 获取（可能已被删除或设为私有）
+## 🛡️ 安全评估
 
-## 安全状态
-## 注意事项
-- ⚠️ 源文件无法从 GitHub 获取（可能已被作者删除或设为私有）
-- ClawSkills 页面仍可访问：https://clawskills.sh/skills/globalcaos-ai-humor-ultimate
-- 安全状态未知，建议安装前自行审查
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
----
-> 本文档由 awesome-skills-deepdive skill 自动生成
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+安装命令: `clawhub install globalcaos/ai-humor-ultimate`
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/globalcaos-ai-humor-ultimate>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/globalcaos/ai-humor-ultimate>)

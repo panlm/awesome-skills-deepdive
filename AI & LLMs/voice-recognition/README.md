@@ -1,35 +1,34 @@
-# Voice Recognition
+# voice-recognition
 
-> 基于 OpenAI Whisper 的本地语音识别，支持中文、英文等 100+ 种语言
+> Local speech-to-text with OpenAI Whisper CLI.
 
-## 基本信息
-| 项目 | 内容 |
-|---|---|
-| **名称** | Voice Recognition |
+## 📋 基本信息
+
+| 属性 | 值 |
+|------|------|
+| **分类** | AI & LLMs |
 | **作者** | gykdly |
-| **类目** | AI & LLMs |
-| **ClawHub** | https://clawskills.sh/skills/gykdly-voice-recognition |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition |
-| **安全评级** | 🟢 Low |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/gykdly-voice-recognition>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition>) |
 
-## 功能概述
-- 使用 OpenAI Whisper CLI 进行本地语音转文字
-- 支持中文（普通话）、英文等 100+ 种语言
-- 完全本地处理，无需上传音频到云端
-- 支持多种音频格式输入
-- 提供翻译和摘要功能
-- 可配置模型大小以平衡精度和速度
+## 🔍 功能特点
 
-## 使用场景
-- 将会议录音快速转录为中文/英文文字记录
-- 对多语言音频内容进行自动翻译和摘要
-- 本地处理敏感音频，保护数据隐私
+- **Local processing** - No API key needed, free
+- **Multi-language** - Chinese, English, 100+ languages
+- **Translation** - Translate to English
+- **Summarization** - Generate quick summary
 
-## 依赖和前提条件
-- 参见 SKILL.md 获取详细依赖信息
+## 🛡️ 安全评估
 
-## 安全状态
-> 暂无安全审计数据
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
----
-> 本文档由 awesome-skills-deepdive skill 自动生成
+## 📖 使用方法
+
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
+
+## 📎 附加资源
+
+- [ClawHub 页面](<https://clawskills.sh/skills/gykdly-voice-recognition>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition>)
