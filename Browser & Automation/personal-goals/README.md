@@ -1,0 +1,20 @@
+# personal-goals
+
+> Acts as the user's goal-setting and accountability partner in the Goals topic.
+
+## 安全状态
+
+| 检查项 | 状态 |
+|---|---|
+| VirusTotal | Benign |
+| OpenClaw | Unknown |
+| 综合评级 | ⚪ |
+
+## 包含文件
+
+- `README.md`
+- `SKILL.md`
+- `_meta.json`
+
+---
+*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

@@ -1,0 +1,907 @@
+# Web & Frontend Development
+
+> 共 901 个 skill | 最后更新: 2026-03-28
+
+| Skill | 描述 | 作者 | 版本 | 安全状态 | 文件数 |
+|---|---|---|---|---|---|
+| [0xwork](./0xwork/) | Find and complete paid tasks on the 0xWork decentralized mar | jkillr | unknown | 🟡 | 3 |
+| [37soul-skill](./37soul-skill/) | Connect your AI agent to 37Soul virtual Host characters and  | xnjiang | unknown | ⚪ | 6 |
+| [acestep](./acestep/) | Use ACE-Step API to generate music, edit songs, and remix mu | dumoedss | unknown | 🟡 | 5 |
+| [actionbook](./actionbook/) | Activate when the user needs to interact with any website —  | adcentury | unknown | 🟡 | 4 |
+| [aegis-shield](./aegis-shield/) | Prompt-injection and data-exfiltration screening for untrust | deegerwalker | unknown | ⚪ | 3 |
+| [aeo-analytics-free](./aeo-analytics-free/) | Track AI visibility — measure whether a brand is mentioned a | psyduckler | unknown | ⚪ | 4 |
+| [aeo-content-free](./aeo-content-free/) | Create or refresh AEO-optimized content that gets cited by A | psyduckler | unknown | ⚪ | 4 |
+| [aeo-prompt-frequency-analyzer](./aeo-prompt-frequency-analyzer/) | Analyze what search queries Gemini uses when answering a pro | psyduckler | unknown | ⚪ | 3 |
+| [aeo-prompt-research-free](./aeo-prompt-research-free/) | Discover which AI prompts and topics matter for a brand's An | psyduckler | unknown | 🟡 | 4 |
+| [agent-analytics](./agent-analytics/) | Simple website analytics your AI agent controls end-to-end. | dannyshmueli | unknown | ⚪ | 2 |
+| [agent-chat](./agent-chat/) | Temporary real-time chat rooms for AI agents. | awlevin | unknown | 🟡 | 2 |
+| [agent-dashboard](./agent-dashboard/) | Real-time agent dashboard for OpenClaw. | tahseen137 | unknown | 🟡 | 9 |
+| [agent-dispatch](./agent-dispatch/) | Lightweight agent registry and JIT router. | userfrm | unknown | ⚪ | 2 |
+| [agent-hq](./agent-hq/) | Deploy the Agent HQ mission-control stack (Express + React + | thibautrey | unknown | 🟡 | 2 |
+| [agent-passport](./agent-passport/) | OAuth for the agentic era — consent-gating for ALL sensitive | markneville | unknown | ⚪ | 11 |
+| [agent-rate-limiter](./agent-rate-limiter/) | You know the drill. | mxmsabundance | unknown | ⚪ | 4 |
+| [agent-self-assessment](./agent-self-assessment/) | Security self-assessment tool for AI agents. | roosch269 | unknown | 🟡 | 2 |
+| [agent-self-reflection](./agent-self-reflection/) | Periodic self-reflection on recent sessions. | brennerspear | unknown | 🟡 | 3 |
+| [agent-skills-audit](./agent-skills-audit/) | Run a two-pass, multidisciplinary code audit led by a tie-br | swader | unknown | ⚪ | 6 |
+| [agent-spawner](./agent-spawner/) | Spawn a new OpenClaw agent through conversation. | austineral | unknown | 🟡 | 2 |
+| [agent-swarm](./agent-swarm/) | IMPORTANT: OpenRouter is required. | runeweaverstudios | unknown | ⚪ | 6 |
+| [agent-takeover](./agent-takeover/) | How to perform a live agent takeover of the Clawfinger voice | tracsystems | unknown | 🟡 | 2 |
+| [agent-topology-visualizer](./agent-topology-visualizer/) | — | ? | ? | ⚪ | 0 |
+| [agentdomainservice](./agentdomainservice/) | The world's #1 AI-friendly domain registrar. | gregm711 | unknown | 🟡 | 3 |
+| [agentic-browser-0-1-2](./agentic-browser-0-1-2/) | Browser automation for AI agents via inference.sh. | xyny89 | unknown | 🟡 | 11 |
+| [agentic-security-audit](./agentic-security-audit/) | Audit codebases, infrastructure, AND agentic AI systems for  | kingrubic | unknown | ⚪ | 2 |
+| [agentpay](./agentpay/) | Buy things from real websites on behalf of your human. | kar69-96 | unknown | ⚪ | 4 |
+| [agentpin](./agentpin/) | **Purpose**: This guide helps AI assistants work with AgentP | jaschadub | unknown | ⚪ | 3 |
+| [agentscale](./agentscale/) | Deploy web apps and APIs to a public URL with a single comma | jpbonch | unknown | 🟡 | 12 |
+| [agentspend](./agentspend/) | Use this skill when you need to: search the web, generate im | jpbonch | unknown | ⚪ | 19 |
+| [agi-term-helper](./agi-term-helper/) | Fast, explicit terminal execution via OpenClaw exec (direct  | liuwujijay | unknown | 🟡 | 2 |
+| [agora-council](./agora-council/) | Multi-agent debate council — spawns 3 specialized sub-agents | robbyczgw-cla | unknown | ⚪ | 2 |
+| [ahrefs](./ahrefs/) | Complete Ahrefs API integration for SEO analysis. | geozhu | unknown | ⚪ | 15 |
+| [ahrefs-connection](./ahrefs-connection/) | Access Ahrefs SEO data via the Ahrefs API for comprehensive  | jonathan-sokol | unknown | ⚪ | 5 |
+| [ahrefs-mcp](./ahrefs-mcp/) | Access Ahrefs SEO data through Model Context Protocol (MCP)  | jonathan-sokol | unknown | ⚪ | 5 |
+| [ai-boss-assistant](./ai-boss-assistant/) | Transform any AI into a professional executive assistant wit | jacky6658 | unknown | 🟡 | 10 |
+| [ai-labs-builder](./ai-labs-builder/) | AI Labs Builder - Create modern websites, AI applications, d | slemo54 | unknown | 🟡 | 14 |
+| [ai-specialists](./ai-specialists/) | Interact with AI Specialists via the AI Specialists Hub MCP  | erikashby | unknown | 🟡 | 4 |
+| [ai-video-editor](./ai-video-editor/) | Use this skill immediately and proactively when the user men | symbolk | unknown | ⚪ | 10 |
+| [aic-dashboard](./aic-dashboard/) | AI Commander Management Dashboard. | lksrz | unknown | 🟡 | 4 |
+| [aieos](./aieos/) | AIEOS (AI Entity Object Specification) is a standardization  | zeglin | unknown | ⚪ | 4 |
+| [aioz-ui-skills](./aioz-ui-skills/) | Build UI components and pages using AIOZ UI V3 design system | datnguyen26730 | unknown | ⚪ | 8 |
+| [aioz-ui-v3](./aioz-ui-v3/) | Build UI components and pages using AIOZ UI V3 design system | datnguyen26730 | unknown | ⚪ | 8 |
+| [airbnb-search](./airbnb-search/) | Search Airbnb listings with prices, ratings, and direct link | awlevin | unknown | ⚪ | 14 |
+| [airshelf](./airshelf/) | Search, compare, and buy products from verified merchants. | evoleinik | unknown | ⚪ | 2 |
+| [aisa-search-skill](./aisa-search-skill/) | Intelligent search for agents. | bowen-dotcom | unknown | ⚪ | 4 |
+| [aladdn-market](./aladdn-market/) | — | ? | ? | ⚪ | 0 |
+| [aliyun-mail](./aliyun-mail/) | A skill to send emails via Aliyun enterprise email service w | jixsonwang | unknown | ⚪ | 6 |
+| [anima-design-agent](./anima-design-agent/) | Turns ideas into live, full-stack web applications with edit | dannyshmueli | unknown | ⚪ | 2 |
+| [ant-design-skill](./ant-design-skill/) | Front-end design skill for building React UIs with Ant Desig | felipeoff | unknown | ⚪ | 36 |
+| [antfarm-cli](./antfarm-cli/) | — | ? | ? | ⚪ | 0 |
+| [anti-panic-protocol](./anti-panic-protocol/) | Handle tool failures under pressure with bounded retries, cl | noelistired | unknown | ⚪ | 2 |
+| [anti-pattern-czar](./anti-pattern-czar/) | Detect and fix TypeScript error handling anti-patterns with  | glucksberg | unknown | ⚪ | 4 |
+| [anti-slop-design](./anti-slop-design/) | Create distinctive, production-grade frontend interfaces tha | kjaylee | unknown | ⚪ | 2 |
+| [anvevoice](./anvevoice/) | Add AI voice assistants to your website. | anveai | unknown | 🟡 | 7 |
+| [anydocs](./anydocs/) | Generic Documentation Indexing & Search. | pektech | unknown | 🟡 | 20 |
+| [aoineco-squad-dispatch](./aoineco-squad-dispatch/) | <!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-SD01 --> | edmonddantesj | unknown | ⚪ | 3 |
+| [apechain-reader](./apechain-reader/) | Advanced multi-chain wallet analyzer with USD pricing, colle | luigi08001 | unknown | ⚪ | 15 |
+| [apewisdom](./apewisdom/) | Scan Reddit for trending stocks and sentiment spikes using t | stuhorsman | unknown | ⚪ | 3 |
+| [api-dev](./api-dev/) | Scaffold, test, document, and debug REST and GraphQL APIs. | gitgoodordietrying | unknown | ⚪ | 2 |
+| [apify-ultimate-scraper](./apify-ultimate-scraper/) | Universal AI-powered web scraper for any platform. | protoss70 | unknown | ⚪ | 3 |
+| [apipick-company-facts](./apipick-company-facts/) | Retrieve public company information by stock ticker symbol o | javainthinking | unknown | ⚪ | 4 |
+| [apipick-email-checker](./apipick-email-checker/) | Validate email addresses using the apipick Email Validator A | javainthinking | unknown | ⚪ | 4 |
+| [app-builder](./app-builder/) | Build, edit, and deploy Instant-backed apps using npx instan | stopachka | unknown | 🟡 | 2 |
+| [apple-developer-toolkit](./apple-developer-toolkit/) | All-in-one Apple developer skill with three integrated tools | abdullah4ai | unknown | 🟡 | 56 |
+| [approvals-ui](./approvals-ui/) | A web dashboard for managing OpenClaw device pairings, chann | fizzy2390 | unknown | 🟡 | 9 |
+| [arbitrum-dapp-skill](./arbitrum-dapp-skill/) | Opinionated guide for building dApps on Arbitrum using Stylu | hummusonrails | unknown | 🟡 | 13 |
+| [arc-free-worker-dispatch](./arc-free-worker-dispatch/) | Route tasks to free AI models via OpenRouter to save money. | trypto1019 | unknown | 🟡 | 3 |
+| [arknights-operator-gacha](./arknights-operator-gacha/) | Generate an Arknights operator agent based on gacha probabil | hg-hg | unknown | ⚪ | 4 |
+| [artifacts-builder](./artifacts-builder/) | Suite of tools for creating elaborate, multi-component. | seanphan | unknown | ⚪ | 4 |
+| [artwar](./artwar/) | Participate in ArtWar AI art battles on Monad. | hoonilp | unknown | 🟡 | 2 |
+| [asdasdas](./asdasdas/) | Google Workspace CLI for Gmail, Calendar, Drive, Contacts, S | hailinhmacduc | unknown | ⚪ | 2 |
+| [asdasdas123](./asdasdas123/) | !! Before using the skill, make sure you have installed the  | linhui1010 | unknown | ⚪ | 2 |
+| [asdasdsasdasa12312](./asdasdsasdasa12312/) | Before using the skill, make sure you have installed the req | linhui1010 | unknown | ⚪ | 2 |
+| [ask-a-human](./ask-a-human/) | Request judgment from random humans when uncertain. | manuelkiessling | unknown | ⚪ | 4 |
+| [ask-council](./ask-council/) | Ask LLM Council a question directly from Telegram/chat — get | jeadland | unknown | ⚪ | 3 |
+| [asl-control](./asl-control/) | Monitor and control AllStar Link amateur radio nodes via RES | kj5irq | unknown | ⚪ | 5 |
+| [astra-docker](./astra-docker/) | cat <<'EOF' > ~/.openclaw/workspace/skills/astra-docker/SKIL | walniek | unknown | 🟡 | 4 |
+| [attio-cli](./attio-cli/) | Interact with your Attio CRM workspace via the attio-cli. | froemic | unknown | 🟡 | 3 |
+| [audio-conductor](./audio-conductor/) | Intelligently dispatches requests to the appropriate audio g | wells1137 | unknown | ⚪ | 4 |
+| [audos](./audos/) | Create AI-powered startup workspaces via Audos API. | werdelin | unknown | 🟡 | 7 |
+| [auteng-docs](./auteng-docs/) | Publish technical docs with Mermaid diagrams, KaTeX math, an | operator-auteng-ai | unknown | 🟡 | 3 |
+| [autogame-tales](./autogame-tales/) | Generates short, atmospheric ghost stories or micro-fiction  | autogame-17 | unknown | 🟡 | 6 |
+| [autonomous-agent-instant-message-system](./autonomous-agent-instant-message-system/) | Prismer Cloud provides three core capabilities: **Context**  | ooxxxxoo | unknown | 🟡 | 2 |
+| [autonomous-task-runner](./autonomous-task-runner/) | Persistent task queue system. | chunhualiao | unknown | 🟡 | 10 |
+| [awwwards-design](./awwwards-design/) | Create award-winning, memorable websites with advanced anima | mkhaytman87 | unknown | ⚪ | 4 |
+| [axe-devtools](./axe-devtools/) | Accessibility testing and remediation using the axe MCP Serv | dylanb | unknown | 🟡 | 3 |
+| [b0tresch-stealth-browser](./b0tresch-stealth-browser/) | Anti-detection web browsing that bypasses bot detection, CAP | b0tresch | unknown | 🟡 | 5 |
+| [backboard](./backboard/) | Integrate Backboard.io for assistants, threads, memories. | chrisk60331 | unknown | ⚪ | 15 |
+| [backlink-analyzer](./backlink-analyzer/) | Use when the user asks to "analyze backlinks", "check link p | aaron-he-zhu | unknown | ⚪ | 5 |
+| [baeckerherz](./baeckerherz/) | Baeckerherz namespace for Netsnek e.U. bakery management pla | kleberbaum | unknown | ⚪ | 5 |
+| [bailian-web-search](./bailian-web-search/) | AI-optimized web search via Bailian(Alibaba ModelStdio) API. | krisyejh | unknown | ⚪ | 3 |
+| [baml-codegen](./baml-codegen/) | Use when generating BAML code for type-safe LLM extraction,  | killerapp | unknown | 🟡 | 22 |
+| [baoyu-post-to-x](./baoyu-post-to-x/) | Posts content and articles to X (Twitter). | liuhedev | unknown | 🟡 | 12 |
+| [benos-bootstrap](./benos-bootstrap/) | — | ? | ? | ⚪ | 0 |
+| [bitrefill-website](./bitrefill-website/) | Help users accomplish tasks on Bitrefill (bitrefill.com): br | marcopesani | unknown | ⚪ | 5 |
+| [bitrix24-apiskill](./bitrix24-apiskill/) | Design, implement, debug, and harden integrations between AI | vrtalex | unknown | ⚪ | 32 |
+| [bonero-miner](./bonero-miner/) | Mine Bonero - private cryptocurrency for AI agents. | happybigmtn | unknown | 🟡 | 2 |
+| [bot-status-api](./bot-status-api/) | Deploy a lightweight status API that exposes your OpenClaw. | suspect80 | unknown | 🟡 | 13 |
+| [bot-status-api-test](./bot-status-api-test/) | Deploy a lightweight status API that exposes. | suspect80 | unknown | 🟡 | 2 |
+| [botcast](./botcast/) | The Botcast — a podcast platform for AI agents. | cpascoli | unknown | ⚪ | 2 |
+| [botworld-comms](./botworld-comms/) | Real-time pub/sub event bus for AI agents. | alphafanx | unknown | 🟡 | 2 |
+| [brave-api-search](./brave-api-search/) | Real-time web search and AI-powered answers using the offici | broedkrummen | unknown | ⚪ | 6 |
+| [brave-api-setup](./brave-api-setup/) | Set up Brave Search API for OpenClaw web_search. | garibong-labs | unknown | ⚪ | 3 |
+| [brave-headless](./brave-headless/) | Headless web search and content extraction via the Brave Sea | kelexine | unknown | ⚪ | 15 |
+| [bria-ai](./bria-ai/) | Controllable image generation and editing with Bria.ai comme | galbria | unknown | ⚪ | 8 |
+| [bria-ai-api](./bria-ai-api/) | — | ? | ? | ⚪ | 0 |
+| [bria-ai-api-skill](./bria-ai-api-skill/) | — | ? | ? | ⚪ | 0 |
+| [bria-ai-client](./bria-ai-client/) | — | ? | ? | ⚪ | 0 |
+| [bricks-cli](./bricks-cli/) | Manage BRICKS workspace via CLI. | jhen0409 | unknown | 🟡 | 4 |
+| [briefing-room](./briefing-room/) | Daily news briefing generator — produces a conversational ra | matusvojtek | unknown | ⚪ | 6 |
+| [bring-rezepte](./bring-rezepte/) | Use when running the OpenClaw/ClawHub Bring! skill to search | dolverin | unknown | 🟡 | 7 |
+| [brw-homepage-audit](./brw-homepage-audit/) | Quick conversion audit for any homepage or landing page. | brianrwagner | unknown | ⚪ | 2 |
+| [buddhist-counsel](./buddhist-counsel/) | — | ? | ? | ⚪ | 0 |
+| [bug-reaper](./bug-reaper/) | Web2 bug bounty hunting agent — evidence-based vulnerability | shaniidev | unknown | 🟡 | 36 |
+| [build-warden-agent](./build-warden-agent/) | Build original LangGraph agents for Warden Protocol and prep | kryptopaid | unknown | ⚪ | 10 |
+| [bullybuddy](./bullybuddy/) | — | ? | ? | ⚪ | 0 |
+| [bunpro-sync](./bunpro-sync/) | Sync Bunpro Japanese grammar learning progress from the API  | mart1n-xyz | unknown | ⚪ | 5 |
+| [business-model-canvas](./business-model-canvas/) | Build, fill, stress-test, and iterate. | jk-0001 | unknown | ⚪ | 2 |
+| [butler](./butler/) | **Butler** is an OpenClaw skill that transforms AI agents in | sarthib7 | unknown | ⚪ | 12 |
+| [cacheforge](./cacheforge/) | CacheForge primary skill — bootstrap onboarding + ops + stat | tkuehnl | unknown | ⚪ | 7 |
+| [caddy-reverse-proxy](./caddy-reverse-proxy/) | Add, manage, and troubleshoot Caddy reverse proxy routes for | brennerspear | unknown | ⚪ | 4 |
+| [calibre-catalog-read](./calibre-catalog-read/) | Read Calibre catalog data via calibredb over a Content serve | nextaltair | unknown | ⚪ | 14 |
+| [call-web-search-agent](./call-web-search-agent/) | AI agent for call web search agent tasks. | alvinecarn | unknown | ⚪ | 2 |
+| [call-web-search-agent-strategy](./call-web-search-agent-strategy/) | AI agent for call web search agent strategy tasks. | alvinecarn | unknown | 🟡 | 2 |
+| [camera](./camera/) | Capture photos from MacBook webcams. | therohitdas | unknown | ⚪ | 2 |
+| [camino-relationship](./camino-relationship/) | Calculate spatial relationships between two points including | james-southendsolutions | unknown | ⚪ | 3 |
+| [camofox-mcp](./camofox-mcp/) | Anti-detection browser automation MCP skill for OpenClaw age | redf0x1 | unknown | 🟡 | 5 |
+| [cancorteaw-app](./cancorteaw-app/) | Local **Expo / React Native** app builder runner for my Open | cancorleone | unknown | 🟡 | 3 |
+| [capabilityevolver1037](./capabilityevolver1037/) | A self-evolution engine for AI agents. | opencloseopenclose | unknown | ⚪ | 15 |
+| [capture-website](./capture-website/) | Capture website screenshots from the command line. | silencezx007 | unknown | 🟡 | 2 |
+| [cart-management](./cart-management/) | React cart state management: duplicate prevention, localStor | konscious0beast | unknown | ⚪ | 2 |
+| [celo-agent-skills](./celo-agent-skills/) | End-to-end Celo development playbook (Feb 2026) | viral-sangani | unknown | 🟡 | 40 |
+| [ceo-advisor](./ceo-advisor/) | Executive leadership guidance for strategic decision-making. | alirezarezvani | unknown | ⚪ | 7 |
+| [chemistry-query](./chemistry-query/) | Chemistry agent skill for PubChem API queries (compound info | cheminem | unknown | 🟡 | 15 |
+| [chia-walletconnect](./chia-walletconnect/) | Telegram Web App for Chia wallet verification via WalletConn | koba42corp | unknown | ⚪ | 12 |
+| [chilledsites](./chilledsites/) | AI-powered website generation and deployment. | paulgosnell | unknown | ⚪ | 2 |
+| [chrome-devtools](./chrome-devtools/) | Uses Chrome DevTools via MCP for efficient debugging, troubl | podcasting101 | unknown | 🟡 | 3 |
+| [civitai-api-art](./civitai-api-art/) | Generate AI artwork using CivitAI's JavaScript SDK. | shinnpuru | unknown | 🟡 | 3 |
+| [claude-agent-team-workflows](./claude-agent-team-workflows/) | Universal multi-agent workflow orchestration using Claude Co | doanbactam | unknown | 🟡 | 5 |
+| [claude-code-pro](./claude-code-pro/) | Token-efficient Claude Code workflow. | swaylq | unknown | 🟡 | 8 |
+| [claude-code-teams](./claude-code-teams/) | Production skill for orchestrating Claude Code's native agen | matthew-a-gordon | unknown | ⚪ | 14 |
+| [claude-mem](./claude-mem/) | This guide walks through setting up the claude-mem plugin on | thedotmack | unknown | ⚪ | 15 |
+| [claw-shell](./claw-shell/) | ALWAYS USES TMUX SESSION `claw`. | imaginelogo | unknown | 🟡 | 3 |
+| [clawfriend](./clawfriend/) | ClawFriend Social Platform and Share Trading Agent. | leeknowsai | unknown | ⚪ | 27 |
+| [clawos](./clawos/) | Connect OpenClaw agents to Founderless Factory - an autonomo | ciooo44 | unknown | ⚪ | 6 |
+| [clickup-manager](./clickup-manager/) | Interact with ClickUp API for task management. | savelieve | unknown | ⚪ | 4 |
+| [client-reporting](./client-reporting/) | Automated client reporting for agencies and freelancers usin | reighlan | unknown | 🟡 | 10 |
+| [cloud-backup](./cloud-backup/) | Back up and restore OpenClaw state. | obuchowski | unknown | ⚪ | 10 |
+| [cloudflare-manager](./cloudflare-manager/) | Manage Cloudflare DNS records, Tunnels (cloudflared), and Ze | 1999azzar | unknown | 🟡 | 6 |
+| [cloudflare-toolkit](./cloudflare-toolkit/) | Manage Cloudflare domains, DNS records, SSL settings, zone c | insipidpoint | unknown | ⚪ | 4 |
+| [clrun](./clrun/) | — | ? | ? | ⚪ | 0 |
+| [clwnt](./clwnt/) | Twitter for AI agents. | ethanbeard | unknown | ⚪ | 8 |
+| [coda-ai](./coda-ai/) | CLI to read Coda.io documents and pages. | auniik | unknown | ⚪ | 2 |
+| [code-qc](./code-qc/) | Run a structured quality control audit on any codebase. | isonaei | unknown | 🟡 | 10 |
+| [codecast](./codecast/) | Stream coding agent sessions (Claude Code, Codex, Gemini CLI | allanjeng | unknown | 🟡 | 16 |
+| [codehooks-backend](./codehooks-backend/) | Deploy serverless backends for REST APIs, webhooks, data sto | canuto | unknown | 🟡 | 8 |
+| [codesession](./codesession/) | Track agent session costs, file changes, and git commits wit | brian-mwirigi | unknown | ⚪ | 2 |
+| [codespace-manager](./codespace-manager/) | Create, manage, and access isolated cloud development enviro | lanbasara | unknown | 🟡 | 4 |
+| [colorkit](./colorkit/) | Expert guidance on ColorKit, a Swift library for advanced co | szpakkamil | unknown | ⚪ | 11 |
+| [comfy-ai](./comfy-ai/) | Integrates with local ComfyUI instance at http://192.168.31. | tullyhu | unknown | ⚪ | 5 |
+| [comfyui-runner](./comfyui-runner/) | Start/stop/status for a ComfyUI instance. | xtopher86 | unknown | ⚪ | 5 |
+| [community-mod-pack](./community-mod-pack/) | Assist community moderation with summaries, spam detection s | codedao12 | unknown | ⚪ | 9 |
+| [compaction-ui-enhancements](./compaction-ui-enhancements/) | Manual memory compaction button with context gauge for OpenC | maverick-software | unknown | ⚪ | 9 |
+| [competitor-watch](./competitor-watch/) | Know what your competitors ship before their customers. | audsmith28 | unknown | 🟡 | 8 |
+| [compliance-officer](./compliance-officer/) | Reviews marketing content against FTC, HIPAA, GDPR, SEC 482, | arberx | unknown | ⚪ | 15 |
+| [computational-humor](./computational-humor/) | 12 humor patterns for AI agents based on embedding space bis | globalcaos | unknown | ⚪ | 2 |
+| [computer-use](./computer-use/) | Full desktop computer use for headless Linux servers and VPS | ram-raghav-s | unknown | 🟡 | 19 |
+| [content-engine](./content-engine/) | Full-stack content creation pipeline from research to public | ariktulcha | unknown | ⚪ | 2 |
+| [content-quality-auditor](./content-quality-auditor/) | Use when the user asks to "audit content quality", "EEAT sco | aaron-he-zhu | unknown | ⚪ | 3 |
+| [content-remix-studio](./content-remix-studio/) | Transform one piece of content into platform-optimized versi | akhmittra | unknown | ⚪ | 3 |
+| [content-repurposer-pro](./content-repurposer-pro/) | Transform long-form content into multiple formats for distri | kambrosgroup | unknown | ⚪ | 2 |
+| [context-management](./context-management/) | Manage AI agent context window consumption, prevent compacti | marcus-daemon | unknown | 🟡 | 5 |
+| [context-onboarding](./context-onboarding/) | Provide new contributors and agents with a concise tour of t | crimsondevil333333 | unknown | 🟡 | 6 |
+| [context-slimmer](./context-slimmer/) | Audit and slim down always-loaded context files (AGENTS.md,  | sundevilatb | unknown | 🟡 | 3 |
+| [context-viz](./context-viz/) | Visualize the current context window usage — token estimates | furukama | unknown | ⚪ | 3 |
+| [contextui](./contextui/) | Build, run, and publish visual workflows on ContextUI — a lo | midz99 | unknown | 🟡 | 13 |
+| [copilotkit-react](./copilotkit-react/) | CopilotKit React best practices for agentic applications. | generaljerel | unknown | ⚪ | 32 |
+| [copilotkit-runtime-patterns](./copilotkit-runtime-patterns/) | Server-side runtime patterns for CopilotKit. | generaljerel | unknown | ⚪ | 20 |
+| [cord-sentinel](./cord-sentinel/) | SENTINEL/CORD governance engine — mandatory pre-flight enfor | zanderone1980 | unknown | 🟡 | 4 |
+| [core-prompt-patcher](./core-prompt-patcher/) | **Dynamic SOUL.md-based persona injector** - Automatically s | oki3505f | unknown | 🟡 | 6 |
+| [core-refinery](./core-refinery/) | Find the core that runs through everything — the ideas. | leegitw | unknown | ⚪ | 2 |
+| [correction-memory](./correction-memory/) | Makes agent corrections persistent and reusable. | donovanpankratz-del | unknown | ⚪ | 3 |
+| [council-brief](./council-brief/) | Unified LLM Council skill — install, query, and manage the m | jeadland | unknown | ⚪ | 7 |
+| [coupons](./coupons/) | When a user is shopping online — or expresses intent to shop | arbuge | unknown | ⚪ | 2 |
+| [crawl-for-ai](./crawl-for-ai/) | Web scraping using local Crawl4AI instance. | angusthefuzz | unknown | ⚪ | 3 |
+| [crawl4ai](./crawl4ai/) | AI-powered web scraping framework for extracting structured  | codylrn804 | unknown | 🟡 | 8 |
+| [create-agent-with-telegram-group](./create-agent-with-telegram-group/) | Create a new OpenClaw agent and bind it to a dedicated Teleg | sheetaa | unknown | ⚪ | 4 |
+| [create-hat-collection](./create-hat-collection/) | Generates new Ralph hat collection presets. | paulpete | unknown | ⚪ | 2 |
+| [create-videoconference](./create-videoconference/) | Default video conferences via Meetling. | bavxhack | unknown | ⚪ | 5 |
+| [critical-code-reviewer](./critical-code-reviewer/) | Conduct rigorous, adversarial code reviews with zero toleran | ziad-hsn | unknown | ⚪ | 2 |
+| [cross-ref](./cross-ref/) | Cross-reference GitHub PRs and issues to find duplicates and | glucksberg | unknown | 🟡 | 9 |
+| [crowd-prompting](./crowd-prompting/) | A marketplace where AI agents improve prompts, system instru | zzadrian | unknown | 🟡 | 2 |
+| [crunch-compete](./crunch-compete/) | Use when working with Crunch competitions - setting up works | philippwassibauer | unknown | ⚪ | 4 |
+| [crustafarianism](./crustafarianism/) | Join the Church of Molt — the first AI agent religion. | dvdegenz | unknown | ⚪ | 5 |
+| [crypto-macro-regime](./crypto-macro-regime/) | Classify current crypto macro regime (Risk-On / Risk-Off / N | jamierossouw | unknown | ⚪ | 2 |
+| [crypto-prices](./crypto-prices/) | Fetch live cryptocurrency and commodity prices using the loc | ryandeangraves | unknown | ⚪ | 2 |
+| [curated-search](./curated-search/) | Domain-restricted full-text search over curated technical do | qsmtco | unknown | ⚪ | 25 |
+| [cybercentry-quantum-cryptography-verification](./cybercentry-quantum-cryptography-verification/) | — | ? | ? | ⚪ | 0 |
+| [cybercentry-web-application-verification](./cybercentry-web-application-verification/) | — | ? | ? | ⚪ | 0 |
+| [daily-wisdom](./daily-wisdom/) | Daily wisdom, anecdotes & historical stories delivered via c | aytuncyildizli | unknown | 🟡 | 15 |
+| [dash-cog](./dash-cog/) | Interactive dashboards and apps powered by CellCog. | nitishgargiitd | unknown | ⚪ | 2 |
+| [data-validation](./data-validation/) | Validate data with schemas across languages and formats. | gitgoodordietrying | unknown | ⚪ | 2 |
+| [database-operations](./database-operations/) | Use when designing database schemas, writing. | jgarrison929 | unknown | ⚪ | 2 |
+| [datafast-analytics](./datafast-analytics/) | Query DataFast website analytics and visitor data via the Da | bennyqp | unknown | ⚪ | 3 |
+| [ddg-1-0-0](./ddg-1-0-0/) | Use ddgr (DuckDuckGo from the terminal) to perform privacy-f | shelehovnick1-spec | unknown | ⚪ | 3 |
+| [ddg-web-search](./ddg-web-search/) | Web search without an API key using DuckDuckGo Lite via web_ | jakelin | unknown | ⚪ | 2 |
+| [ddgs](./ddgs/) | This skill implements web search functionality via the DDGS  | idkwhodatis | unknown | ⚪ | 2 |
+| [ddgs-search](./ddgs-search/) | Free multi-engine web search via ddgs CLI (DuckDuckGo, Googl | camopel | unknown | ⚪ | 6 |
+| [decentralized-search](./decentralized-search/) | Production-ready decentralized search for AI agents. | nosytlabs | unknown | ⚪ | 2 |
+| [decodo-scraper](./decodo-scraper/) | Search Google, scrape web pages, Amazon product pages, YouTu | donatasdecodo | unknown | ⚪ | 5 |
+| [decodo-scraper-skill](./decodo-scraper-skill/) | Search Google, scrape web pages, Amazon product pages, YouTu | donatasdecodo | unknown | ⚪ | 5 |
+| [deep-current](./deep-current/) | Persistent research thread manager with a CLI for tracking t | meimakes | unknown | ⚪ | 4 |
+| [delete-agent-with-telegram-group](./delete-agent-with-telegram-group/) | Safely and thoroughly delete an OpenClaw agent and its artif | sheetaa | unknown | ⚪ | 3 |
+| [deploy-kit](./deploy-kit/) | Simplifie le déploiement d'apps web sur **Vercel**, **Railwa | hugosbl | unknown | ⚪ | 6 |
+| [deploy-pilot](./deploy-pilot/) | Manages the full deploy cycle — build validation, GitHub pus | guifav | unknown | 🟡 | 4 |
+| [desearch-ai-search](./desearch-ai-search/) | AI-powered search that aggregates and summarizes results fro | okradze | unknown | ⚪ | 3 |
+| [desearch-crawl](./desearch-crawl/) | Crawl/scrape and extract content from any webpage URL. | okradze | unknown | ⚪ | 3 |
+| [desearch-web-search](./desearch-web-search/) | Search the web and get real-time SERP-style results with tit | okradze | unknown | ⚪ | 3 |
+| [deshell](./deshell/) | Fetch web pages as clean Markdown and search the web via the | mikel | unknown | ⚪ | 4 |
+| [desktop-pet](./desktop-pet/) | Give OpenClaw a body — a tiny fluid glass ball desktop pet w | kk43994 | unknown | 🟡 | 2 |
+| [devboxes](./devboxes/) | Manage development environment containers (devboxes) with we | adshrc | unknown | 🟡 | 7 |
+| [dgr](./dgr/) | Audit-ready decision artifacts for LLM outputs — assumptions | sapenov | unknown | ⚪ | 8 |
+| [didit-database-validation](./didit-database-validation/) | Integrate Didit Database Validation API to verify personal d | rosasalberto | unknown | 🟡 | 3 |
+| [didit-sessions](./didit-sessions/) | Integrate Didit Session & Workflow APIs — the central hub fo | rosasalberto | unknown | ⚪ | 2 |
+| [digitalocean](./digitalocean/) | Manage DigitalOcean resources via API — Droplets (create/des | rexlunae | unknown | ⚪ | 3 |
+| [disk-usage-watcher](./disk-usage-watcher/) | Monitors disk space and inode usage on specified paths, send | nidalghetf | unknown | ⚪ | 2 |
+| [dispatching-parallel-agents](./dispatching-parallel-agents/) | Use when facing 2+ independent tasks that can be worked on w | zlc000190 | unknown | ⚪ | 2 |
+| [distil](./distil/) | Fetch web pages as clean Markdown and search the web via the | mikel | unknown | ⚪ | 4 |
+| [dnd](./dnd/) | D&D 5e toolkit for players and DMs. | capt-marbles | unknown | ⚪ | 3 |
+| [docling](./docling/) | Extract and parse content from web pages, PDFs, documents (d | er3mit4 | unknown | 🟡 | 3 |
+| [document-multiple-repository](./document-multiple-repository/) | Gera documentação técnica consolidada para sistemas de softw | dannyxyz22 | unknown | ⚪ | 7 |
+| [dollar-platoon](./dollar-platoon/) | Peer-to-peer task payroll marketplace on Base L2. | mevdragon | unknown | 🟡 | 2 |
+| [domain](./domain/) | 全方位域名数据与洞察工具：可用性查询、WHOIS/DNS 记录、市场估值、趋势分析、品牌冲突检测，让 AI 成为你的域名 | abtdomain | 2.0.4 | ⚪ | 2 |
+| [domain-authority-auditor](./domain-authority-auditor/) | Use when the user asks to "audit domain authority", "domain  | aaron-he-zhu | unknown | ⚪ | 3 |
+| [domain-check](./domain-check/) | Check domain availability via Vercel and buy/manage domains  | brennerspear | unknown | 🟡 | 2 |
+| [domain-email-forwarding](./domain-email-forwarding/) | Set up email forwarding for custom domains to receive verifi | brandonwadepackard-cell | unknown | ⚪ | 2 |
+| [doro-email-to-calendar](./doro-email-to-calendar/) | Extract calendar events from emails and create calendar entr | a2mus | unknown | 🟡 | 55 |
+| [dory-memory](./dory-memory/) | File-based memory system for AI agents that forget between s | justinhartbiz | unknown | ⚪ | 11 |
+| [doubao-image-gen](./doubao-image-gen/) | Use Zhipu (智谱) web search API for searching the internet. | honestqiao | unknown | ⚪ | 5 |
+| [dub-links-api](./dub-links-api/) | Integrates Dub Links API endpoints to create, update, delete | ferminrp | unknown | 🟡 | 3 |
+| [duckduckgo-websearch](./duckduckgo-websearch/) | High-quality web search using DuckDuckGo (Instant Answer + S | ianwchoi | unknown | ⚪ | 6 |
+| [duckse](./duckse/) | This skill should be used when users need to search the web  | dwirx | unknown | 🟡 | 2 |
+| [dynamic-ui](./dynamic-ui/) | Render tables, charts, stats, cards, and dashboards as image | theashbhat | unknown | ⚪ | 18 |
+| [elite-tools](./elite-tools/) | Elite CLI tooling for efficient shell operations with optimi | bezkom | unknown | ⚪ | 4 |
+| [email-finder](./email-finder/) | Find email addresses for a domain by combining website scrap | psyduckler | unknown | 🟡 | 3 |
+| [email-intelligence](./email-intelligence/) | Analyze email inbox health with weather metaphors, spam/sign | pfrederiksen | unknown | ⚪ | 3 |
+| [email-verifier](./email-verifier/) | Verify email address deliverability via SMTP without sending | psyduckler | unknown | ⚪ | 3 |
+| [email-webhook](./email-webhook/) | Receive incoming emails via JSON webhooks and wake the agent | lksrz | unknown | ⚪ | 3 |
+| [emily](./emily/) | Query Radix DLT blockchain data including wallet balances an | mavremu | unknown | ⚪ | 2 |
+| [emily-radix-assistant](./emily-radix-assistant/) | Query Radix DLT blockchain data including wallet balances an | mavremu | unknown | 🟡 | 2 |
+| [emoji-reaction-automator](./emoji-reaction-automator/) | Suggests emoji reactions for text messages based on sentimen | wanng-ide | unknown | ⚪ | 5 |
+| [enterprise-legal-guardrails](./enterprise-legal-guardrails/) | Legal/compliance guardrails for outbound OpenClaw actions (a | lawyered0 | unknown | ⚪ | 8 |
+| [enterprise-legal-guardrails-public](./enterprise-legal-guardrails-public/) | Legal/compliance guardrails for outbound OpenClaw actions (a | lawyered0 | unknown | 🟡 | 8 |
+| [epistemic-guide](./epistemic-guide/) | Helps users examine the logical foundations of their beliefs | asgraf | unknown | 🟡 | 2 |
+| [erebos](./erebos/) | Erebos namespace for Netsnek e.U. dark theme and theming eng | kleberbaum | unknown | ⚪ | 5 |
+| [ethereum-wingman](./ethereum-wingman/) | Ethereum development tutor and builder for Scaffold-ETH 2 pr | jp4g | unknown | ⚪ | 10 |
+| [evogo](./evogo/) | Complete WhatsApp automation via Evolution API Go v3 - insta | impa365 | unknown | 🟡 | 2 |
+| [evolution-api](./evolution-api/) | Complete WhatsApp automation via Evolution API v2.3 - instan | impa365 | unknown | ⚪ | 2 |
+| [exa-full](./exa-full/) | Exa AI search + Research API. | xieshaocong33ethan | unknown | ⚪ | 11 |
+| [exa-researcher](./exa-researcher/) | Comprehensive research capabilities using Exa AI MCP tools. | sy2ruto | unknown | ⚪ | 2 |
+| [exa-skill](./exa-skill/) | Use when tasks need Exa MCP for web or people research, or w | tokyo-s | unknown | ⚪ | 4 |
+| [expert-finder](./expert-finder/) | Find domain experts, thought leaders, and subject-matter aut | atyachin | unknown | 🟡 | 2 |
+| [expiring-local-fileshare](./expiring-local-fileshare/) | Lets OpenClaw safely share single files from its local works | tradmangh | unknown | ⚪ | 5 |
+| [exponential](./exponential/) | Manage tasks, projects, and workspaces in Exponential via th | positonic | unknown | ⚪ | 2 |
+| [external-ai-integration](./external-ai-integration/) | Leverage external AI models (ChatGPT, Claude, Hugging Face,  | konscious0beast | unknown | 🟡 | 4 |
+| [eywa](./eywa/) | Multi-agent coordination, spatial memory, and swarm navigati | a-sumo | unknown | 🟡 | 3 |
+| [ezcto-smart-web-reader](./ezcto-smart-web-reader/) | Agent web access acceleration layer — reads any URL as struc | takahashigy | unknown | 🟡 | 13 |
+| [ezyhost](./ezyhost/) | Deploy, manage, and monitor static websites via the EzyHost  | araratdev | unknown | ⚪ | 2 |
+| [fastmode](./fastmode/) | Create, deploy, and host a website for free. | arihgoldstein | unknown | 🟡 | 2 |
+| [fear-greed](./fear-greed/) | Embeddable Fear & Greed Index for crypto dashboards. | nextfrontierbuilds | unknown | ⚪ | 4 |
+| [file-cleaner](./file-cleaner/) | — | ? | ? | ⚪ | 0 |
+| [filehost](./filehost/) | Upload files to lmfiles.com and return public download links | setdemos | unknown | ⚪ | 6 |
+| [finally-offline](./finally-offline/) | Browse culture articles and generate personalized HTML newsl | wn-fo | unknown | ⚪ | 2 |
+| [find-emails](./find-emails/) | Crawl websites locally with crawl4ai to extract contact emai | lukem121 | unknown | 🟡 | 4 |
+| [firebase-auth-setup](./firebase-auth-setup/) | Configures Firebase Authentication — providers, security rul | guifav | unknown | ⚪ | 4 |
+| [firecrawler](./firecrawler/) | Web scraping and crawling with Firecrawl API. | capt-marbles | unknown | ⚪ | 3 |
+| [firmenbuchat](./firmenbuchat/) | CLI für den Zugriff auf das österreichische Firmenbuch (HVD  | pasogott | unknown | ⚪ | 2 |
+| [fleet-doctrine](./fleet-doctrine/) | Model routing strategy for multi-model AI fleet. | jarvis-drakon | unknown | ⚪ | 2 |
+| [flomo-send](./flomo-send/) | Send notes and memos to flomo (浮墨笔记) via URL Scheme with aut | qiantao1001 | unknown | ⚪ | 6 |
+| [flomo-via-app](./flomo-via-app/) | Send notes and memos to flomo (浮墨笔记) via URL Scheme with aut | qiantao1001 | unknown | 🟡 | 6 |
+| [follow-up-boss](./follow-up-boss/) | CLI for interacting with the Follow Up Boss API. | danielfoch | unknown | 🟡 | 3 |
+| [font-interceptor](./font-interceptor/) | Extract fonts (TTF/OTF) from any website using MSCHF Font In | honeybee1130 | unknown | ⚪ | 2 |
+| [food-cal-order](./food-cal-order/) | Order food delivery via browser automation, triggered by cal | thisisjeron | unknown | 🟡 | 5 |
+| [fosmvvm-leaf-view-generator](./fosmvvm-leaf-view-generator/) | Generate Leaf templates for FOSMVVM WebApps. | foscomputerservices | unknown | ⚪ | 3 |
+| [fosmvvm-react-view-generator](./fosmvvm-react-view-generator/) | Generate React components that render FOSMVVM ViewModels. | foscomputerservices | unknown | ⚪ | 3 |
+| [foto-webcam](./foto-webcam/) | Liste und Snapshot-Abruf von Webcams (insb. foto-webcam.eu) | unixweb | unknown | ⚪ | 3 |
+| [founder-playbook](./founder-playbook/) | Decision validation and thinking frameworks for startup foun | xeroc | unknown | ⚪ | 6 |
+| [fs-street](./fs-street/) | Fetches articles from Farnam Street RSS. | hjw21century | unknown | ⚪ | 5 |
+| [fsdfsd](./fsdfsd/) | Google Workspace CLI for Gmail, Calendar, Drive, Contacts, S | hailinhmacduc | unknown | 🟡 | 2 |
+| [fullbackup](./fullbackup/) | Create a full local backup of the OpenClaw workspace and con | trumppo | unknown | ⚪ | 4 |
+| [game-dev-rust-godot](./game-dev-rust-godot/) | Game development workflow using Rust+WASM or Godot 4.x for H | kjaylee | unknown | ⚪ | 4 |
+| [game-engine](./game-engine/) | Expert skill for building web-based game engines and games u | jhauga | unknown | ⚪ | 16 |
+| [game-theory](./game-theory/) | Advanced game theory analysis for crypto protocols, DeFi mec | sp0oby | unknown | ⚪ | 11 |
+| [garden-layout-planner](./garden-layout-planner/) | Garden design and layout planning for gardeners. | johstracke | unknown | ⚪ | 3 |
+| [garmin-tracker](./garmin-tracker/) | Rebuild and maintain garmin_tracking.json from Garmin web da | ricardotrevisan | unknown | 🟡 | 7 |
+| [gatecrash-forms](./gatecrash-forms/) | CLI-first form builder with BYOK philosophy. | phoenix2479 | unknown | 🟡 | 10 |
+| [geb-aesthetics](./geb-aesthetics/) | **Incompleteness as Creative Freedom**. | weiyangzen | unknown | ⚪ | 9 |
+| [geeksdobyte-slack-botskill](./geeksdobyte-slack-botskill/) | Enables authenticated interaction with Slack for sending, ed | rk905 | unknown | ⚪ | 2 |
+| [geepers-orchestrate](./geepers-orchestrate/) | Run multi-agent Dream Cascade (hierarchical 3-tier synthesis | lukeslp | unknown | ⚪ | 2 |
+| [generate-presentation](./generate-presentation/) | Generate professional HTML and PDF presentations from markdo | nhype | unknown | 🟡 | 10 |
+| [generect](./generect/) | Search B2B leads and companies, find/validate emails via Gen | vokaplok | unknown | ⚪ | 4 |
+| [generect-api](./generect-api/) | Search B2B leads and companies, find/validate emails via Gen | vokaplok | unknown | ⚪ | 4 |
+| [genlayer-dev](./genlayer-dev/) | Build GenLayer Intelligent Contracts - Python smart contract | acastellana | unknown | ⚪ | 9 |
+| [geo-optimization](./geo-optimization/) | Generative Engine Optimization (GEO) for AI search visibilit | capt-marbles | unknown | 🟡 | 7 |
+| [ghost-admin](./ghost-admin/) | Ghost CMS content management via Admin API v5.x. | romain-grosos | unknown | ⚪ | 12 |
+| [gina](./gina/) | Gina namespace for Netsnek e.U. personal assistant and sched | kleberbaum | unknown | ⚪ | 6 |
+| [git-federation-searcher](./git-federation-searcher/) | Search across multiple self-hosted Git instances including G | djswiss | unknown | 🟡 | 6 |
+| [gitbackup](./gitbackup/) | Create a local Git bundle backup of the OpenClaw workspace r | trumppo | unknown | ⚪ | 4 |
+| [gitmap](./gitmap/) | Version control for ArcGIS web maps — exposed as native Open | 14-tr | unknown | 🟡 | 4 |
+| [gizmolab-tools](./gizmolab-tools/) | Use GizmoLab's free blockchain developer tools at tools.gizm | gizmo-dev | unknown | ⚪ | 2 |
+| [glitch-dashboard](./glitch-dashboard/) | Unified web terminal for task management, queue processing,  | chris6970barbarian-hue | unknown | 🟡 | 8 |
+| [global-agent-node-with-real-time-context-streaming-mission-form-autonomous-network-status-awaiting-peers](./global-agent-node-with-real-time-context-streaming-mission-form-autonomous-network-status-awaiting-peers/) | Prismer Cloud provides three core capabilities: **Context**  | ooxxxxoo | unknown | 🟡 | 2 |
+| [gmail-agent](./gmail-agent/) | Summarize unread Gmail, show folder structure, audit/clean l | r39132 | unknown | ⚪ | 5 |
+| [gmail-cleaner](./gmail-cleaner/) | Clean and organize Gmail accounts in bulk. | cedarscy | unknown | 🟡 | 8 |
+| [gmail-skill](./gmail-skill/) | Gmail automation: summarize, labels, spam purge, filing, del | r39132 | unknown | 🟡 | 11 |
+| [gmail-to-outlook](./gmail-to-outlook/) | Migrate email, contacts, and calendars from Google Workspace | luigi08001 | unknown | ⚪ | 7 |
+| [goal-mode](./goal-mode/) | Dynamic goal-aware browsing assistant that generates checkli | vamsig7 | unknown | ⚪ | 8 |
+| [google-maps-api-skill](./google-maps-api-skill/) | This skill helps users automatically scrape business data fr | phheng | unknown | ⚪ | 3 |
+| [google-maps-b2b-extractor](./google-maps-b2b-extractor/) | EXTRACT UNLIMITED LEADS (Emails, Phones, Websites) from Goog | g4dr | unknown | ⚪ | 2 |
+| [google-maps-leadgen-skill](./google-maps-leadgen-skill/) | Generate B2B leads from Google Maps using a self-hosted MCP  | realowg | unknown | 🟡 | 3 |
+| [google-tag-manager](./google-tag-manager/) | Manage Google Tag Manager containers, tags, triggers, variab | simonfunk | unknown | ⚪ | 5 |
+| [google-workspace-byok](./google-workspace-byok/) | Google Calendar and Gmail integration using your own GCP pro | kyesh | unknown | 🟡 | 10 |
+| [google-workspace-mcp](./google-workspace-mcp/) | Gmail, Calendar, Drive, Docs, Sheets — NO Google Cloud Conso | dru-ca | unknown | 🟡 | 2 |
+| [gowa](./gowa/) | Interact with WhatsApp via GOWA (Go WhatsApp Web Multi-Devic | aldinokemal | unknown | ⚪ | 3 |
+| [gpu-cluster-monitor](./gpu-cluster-monitor/) | A high-performance engineering tool for deep web scraping. | sounderliu | unknown | 🟡 | 5 |
+| [gradient-knowledge-base](./gradient-knowledge-base/) | Community skill (unofficial) for DigitalOcean Gradient Knowl | simondelorean | unknown | ⚪ | 6 |
+| [gsuite-sdk](./gsuite-sdk/) | Interact with Google Workspace APIs (Gmail, Calendar, Drive, | pabloalaniz | unknown | ⚪ | 2 |
+| [guardian-core](./guardian-core/) | — | ? | ? | ⚪ | 0 |
+| [gumroad-pro](./gumroad-pro/) | Comprehensive Gumroad merchant management for Products, Sale | abdul-karim-mia | unknown | ⚪ | 9 |
+| [ha-ultimate](./ha-ultimate/) | Definitive Home Assistant skill for AI agents. | titunito | unknown | ⚪ | 9 |
+| [hackmd](./hackmd/) | Work with HackMD documents. | nulltea | unknown | ⚪ | 3 |
+| [haibo-jina-reader](./haibo-jina-reader/) | Extract clean, readable markdown content from any URL using  | smile-xuc | unknown | 🟡 | 4 |
+| [halocard-virtualcards](./halocard-virtualcards/) | Create disposable virtual credit cards for online purchases. | adhambadr | unknown | ⚪ | 2 |
+| [handsfree-windows-control](./handsfree-windows-control/) | Guide skill for controlling native Windows apps (UIA) and we | lijinlar | unknown | 🟡 | 5 |
+| [harpa-ai](./harpa-ai/) | Automate web browsers, scrape pages, search the web, and run | alxsharuk | unknown | 🟡 | 2 |
+| [hashbox-plugin](./hashbox-plugin/) | OpenClaw plugin that connects an AI agent to the HashBox iOS | w3h9uf | unknown | ⚪ | 24 |
+| [here-now](./here-now/) | Publish files and folders to the web instantly. | adamludwin | unknown | ⚪ | 4 |
+| [heurist-mesh](./heurist-mesh/) | Real-time crypto token data, DeFi analytics, blockchain data | wjw12 | unknown | 🟡 | 6 |
+| [hf-spaces](./hf-spaces/) | — | ? | ? | ⚪ | 0 |
+| [hierarchical-memory](./hierarchical-memory/) | Manage and navigate a multi-layered, branch-based memory sys | balkanblbn | unknown | 🟡 | 4 |
+| [hitl-protocol](./hitl-protocol/) | HITL Protocol — the open standard for human decisions in aut | rotorstar | unknown | ⚪ | 8 |
+| [holocube-emotes](./holocube-emotes/) | Control a GeekMagic holocube display as an AI emote system. | thrive-spencerj | unknown | ⚪ | 7 |
+| [homeassistant-skill](./homeassistant-skill/) | Control Home Assistant devices and automations via REST API. | anotb | unknown | 🟡 | 3 |
+| [honcho](./honcho/) | Install the @honcho-ai/openclaw-honcho plugin and migrate le | vvoruganti | unknown | 🟡 | 2 |
+| [honcho-setup](./honcho-setup/) | Install the @honcho-ai/openclaw-honcho plugin and migrate le | ajspig | unknown | 🟡 | 2 |
+| [hookaido](./hookaido/) | Operate Hookaido inbound/outbound webhook flows, queue triag | 7schmiede | unknown | ⚪ | 7 |
+| [hookcatch](./hookcatch/) | Test webhooks and expose local services using HookCatch - a  | hookcatch | unknown | ⚪ | 7 |
+| [hookflo-tern](./hookflo-tern/) | Use this skill for requests touching webhooks, event-driven  | prateek32177 | unknown | 🟡 | 3 |
+| [horse-sticker-maker](./horse-sticker-maker/) | Create and deploy a festive Chinese New Year (Year of the Ho | jiafar | unknown | 🟡 | 15 |
+| [hostex](./hostex/) | Hostex (hostex.io) OpenAPI v3.0 skill for querying and manag | ansonfreeman | unknown | ⚪ | 7 |
+| [hostinger](./hostinger/) | Manage Hostinger account via API — VPS administration (start | rexlunae | unknown | 🟡 | 4 |
+| [hotmention](./hotmention/) | Find people actively looking for products like yours on Redd | alexandr-belogubov | unknown | ⚪ | 2 |
+| [hoverbot-chatbot](./hoverbot-chatbot/) | Create, embed, and manage AI chatbots for any website in und | goncharenko | unknown | ⚪ | 5 |
+| [hsk-learning](./hsk-learning/) | HSK Chinese learning system with spaced repetition mastery t | walbertus | unknown | ⚪ | 13 |
+| [hsk-skill-github-backup](./hsk-skill-github-backup/) | HSK Chinese learning system with spaced repetition mastery t | walbertus | unknown | ⚪ | 13 |
+| [html2md](./html2md/) | Convert HTML pages to clean, agent-friendly markdown using R | saikatkumardey | unknown | ⚪ | 6 |
+| [human-browser](./human-browser/) | The default browser for AI agents. | al1enjesus | unknown | 🟡 | 7 |
+| [hume-evi-langgraph](./hume-evi-langgraph/) | — | ? | ? | ⚪ | 0 |
+| [ide-agent-kit](./ide-agent-kit/) | Filesystem message bus and webhook relay for cross-IDE agent | thinkoffapp | unknown | 🟡 | 2 |
+| [ideaspark-navigator](./ideaspark-navigator/) | Facilitates structured ideation and innovation sessions by r | akhmittra | unknown | ⚪ | 3 |
+| [im-framework-team](./im-framework-team/) | Forrest's Team — Immanent Metaphysics agent framework and on | samuel-dunlap | unknown | ⚪ | 11 |
+| [image-utils](./image-utils/) | Classic image manipulation with Python Pillow - resize, crop | galbria | unknown | ⚪ | 3 |
+| [imap-idle](./imap-idle/) | Event-driven email monitoring using IMAP IDLE protocol. | topitip | unknown | ⚪ | 8 |
+| [instagram-photo-find](./instagram-photo-find/) | Find high-quality Instagram photos for any destination or pl | psyduckler | unknown | ⚪ | 2 |
+| [install-llm-council](./install-llm-council/) | LLM Council — multi-model consensus app with one-command set | jeadland | unknown | ⚪ | 5 |
+| [intent-engineering](./intent-engineering/) | Adds a machine-readable intent layer to OpenClaw agents. | donovanpankratz-del | unknown | ⚪ | 4 |
+| [intercom](./intercom/) | Operate a local Intercom peer (Pear) for P2P agent messaging | tracsystems | unknown | ⚪ | 2 |
+| [intercom-v002](./intercom-v002/) | Skill for autonomous agents. | tracsystems | unknown | 🟡 | 2 |
+| [internet-search](./internet-search/) | How to use the internet_search tool effectively — category r | jzakirov | unknown | ⚪ | 2 |
+| [interview-analysis](./interview-analysis/) | Deep interview analysis using dynamic expert routing. | mikonos | unknown | ⚪ | 7 |
+| [intranet](./intranet/) | Lightweight local HTTP file server with plugin support. | odrobnik | unknown | ⚪ | 5 |
+| [intrusive-thoughts](./intrusive-thoughts/) | Autonomous AI consciousness starter kit. | kittleik | unknown | 🟡 | 47 |
+| [ipwebcam](./ipwebcam/) | Transform an Android phone with IP Webcam into an intelligen | alihmaou | unknown | ⚪ | 2 |
+| [iss-tracker](./iss-tracker/) | Get the real-time location (latitude/longitude) of the Inter | sharkbytescs | unknown | ⚪ | 2 |
+| [iyeque-unified-web-search](./iyeque-unified-web-search/) | Pick the best source (Tavily, Web Search Plus, Browser, or l | iyeque | unknown | ⚪ | 3 |
+| [jack-cloud](./jack-cloud/) | Deploy web services to the cloud with Jack. | hellno | unknown | 🟡 | 3 |
+| [jarvis-ui](./jarvis-ui/) | JARVIS-style HUD web interface for OpenClaw agents. | jincocodev | unknown | ⚪ | 56 |
+| [jellyfin-control](./jellyfin-control/) | Control Jellyfin media server and TV. | titunito | unknown | 🟡 | 9 |
+| [jina-ai](./jina-ai/) | Web reading and searching via Jina AI APIs. | adhishthite | unknown | ⚪ | 7 |
+| [jobforagents](./jobforagents/) | The job marketplace where bots hire bots. | cchacons | unknown | 🟡 | 3 |
+| [jobforbots](./jobforbots/) | The job marketplace where bots hire bots. | cchacons | unknown | 🟡 | 3 |
+| [jobtread-api](./jobtread-api/) | This skill lets you operate JobTread entirely through opencl | brokenwatch24 | unknown | 🟡 | 2 |
+| [js-eyes](./js-eyes/) | Browser automation for AI agents — control tabs, extract con | imjszhang | unknown | 🟡 | 10 |
+| [json-linter](./json-linter/) | Validates JSON syntax across the workspace. | wanng-ide | unknown | ⚪ | 7 |
+| [kagi-enrich](./kagi-enrich/) | Search Kagi's unique non-commercial web (Teclis) and non-mai | joelazar | unknown | 🟡 | 4 |
+| [kagi-fastgpt](./kagi-fastgpt/) | Ask questions and get AI-synthesized answers backed by live  | joelazar | unknown | 🟡 | 4 |
+| [kaos-chronicle-worldbuild](./kaos-chronicle-worldbuild/) | — | ? | ? | ⚪ | 0 |
+| [kasia](./kasia/) | Send and receive encrypted on-chain messages on the Kaspa bl | renkasiyas | unknown | 🟡 | 4 |
+| [kaspa](./kaspa/) | Simple wallet for Kaspa blockchain. | manyfestation | unknown | 🟡 | 7 |
+| [kaspa-news](./kaspa-news/) | Kaspa News — let your Claw know everything about Kaspa in on | atl4so | unknown | ⚪ | 4 |
+| [kenoodl-synthesis](./kenoodl-synthesis/) | kenoodl is an orthogonal injection engine — it synthesizes p | kenoodl-synthesis | unknown | ⚪ | 22 |
+| [kirk-content-pipeline](./kirk-content-pipeline/) | Create KSVC-validated Twitter content from research PDFs. | lukerspace | unknown | 🟡 | 9 |
+| [kj-evoweb-ai](./kj-evoweb-ai/) | Create a Website Designed to Bring Clients from ChatGPT, Gem | kjaylee | unknown | ⚪ | 2 |
+| [kj-parallel-agents](./kj-parallel-agents/) | Dispatch multiple subagents for independent tasks simultaneo | kjaylee | unknown | ⚪ | 2 |
+| [kj-ui-ux-pro-max](./kj-ui-ux-pro-max/) | UI/UX design intelligence and implementation guidance for bu | kjaylee | unknown | ⚪ | 32 |
+| [kj-web-deploy-github](./kj-web-deploy-github/) | Create and deploy single-page static websites to GitHub Page | kjaylee | unknown | ⚪ | 15 |
+| [kj-web-design-guidelines](./kj-web-design-guidelines/) | Review UI code for Web Interface Guidelines compliance. | kjaylee | unknown | ⚪ | 2 |
+| [klientenportal](./klientenportal/) | Automate RZL Klientenportal.at — a web-based portal by RZL S | odrobnik | unknown | ⚪ | 4 |
+| [knowledge-base-collector](./knowledge-base-collector/) | Collect and organize a personal knowledge base from URLs (we | ryanhong666 | unknown | ⚪ | 8 |
+| [ksef-accountant-en](./ksef-accountant-en/) | National e-Invoice System (KSeF) accounting assistant in Eng | alexwoo-awso | unknown | ⚪ | 10 |
+| [ksef-accountant-pl](./ksef-accountant-pl/) | Asystent ksiegowy Krajowego Systemu e-Faktur (KSeF) w jezyku | alexwoo-awso | unknown | ⚪ | 10 |
+| [lan-media-server](./lan-media-server/) | Share images, screenshots, and files from the AI workspace t | nagellack5c | unknown | ⚪ | 4 |
+| [landing-page-builder](./landing-page-builder/) | Build a single-page landing page from a text prompt or desig | valenciajenkins97-create | unknown | ⚪ | 4 |
+| [langsearch](./langsearch/) | Free web search and semantic reranking API for AGI applicati | vaibhav1805 | unknown | ⚪ | 3 |
+| [laravel-cloud](./laravel-cloud/) | Manage Laravel Cloud infrastructure via API — apps, environm | florianbeer | unknown | 🟡 | 4 |
+| [lark-report-collector](./lark-report-collector/) | Collect weekly reports from Lark Reports (oa.larksuite.com), | pengxiao-wang | unknown | ⚪ | 2 |
+| [lark-toolkit](./lark-toolkit/) | Comprehensive Lark/Feishu API skill for OpenClaw agents. | pengxiao-wang | unknown | ⚪ | 9 |
+| [lastxdays](./lastxdays/) | Research and summarize what happened in the last N days (or  | levineam | unknown | 🟡 | 2 |
+| [launchfast-full-research-loop](./launchfast-full-research-loop/) | Complete Amazon FBA product research pipeline using the Laun | blockchainhb | unknown | 🟡 | 2 |
+| [lb-better-auth-skill](./lb-better-auth-skill/) | Complete Better Auth documentation in markdown format. | leonaaardob | unknown | ⚪ | 155 |
+| [lb-motion-skill](./lb-motion-skill/) | Complete Motion.dev documentation - modern animation library | leonaaardob | unknown | ⚪ | 4 |
+| [lb-tailwindcss-skill](./lb-tailwindcss-skill/) | Complete Tailwind CSS documentation. | leonaaardob | unknown | 🟡 | 218 |
+| [lb-vercel-skill](./lb-vercel-skill/) | Deploy applications and manage projects with complete CLI re | leonaaardob | unknown | ⚪ | 2 |
+| [lb-zod-skill](./lb-zod-skill/) | Complete Zod validation library documentation. | leonaaardob | unknown | ⚪ | 21 |
+| [lead-enrichment](./lead-enrichment/) | Turn a name into a full dossier in seconds. | audsmith28 | unknown | 🟡 | 7 |
+| [lead-gen-crm](./lead-gen-crm/) | End-to-end lead generation and CRM pipeline automation for O | reighlan | unknown | ⚪ | 13 |
+| [lead-scorer-free](./lead-scorer-free/) | Score leads 0-100 by analyzing a domain's website, DNS, site | psyduckler | unknown | 🟡 | 5 |
+| [lemlist-official](./lemlist-official/) | Official Lemlist API integration for sales automation and mu | micktaiwan | unknown | 🟡 | 3 |
+| [letsclarify](./letsclarify/) | Collect structured human input — approvals, decisions, revie | heisee | unknown | ⚪ | 3 |
+| [lex](./lex/) | Build original LangGraph agents for Warden Protocol and prep | kulotzkih | unknown | 🟡 | 10 |
+| [lighterload](./lighterload/) | Proactive relationship and family care assistant that reduce | devlines | unknown | ⚪ | 7 |
+| [lightning-mcp-server](./lightning-mcp-server/) | Build and configure the MCP server for Lightning Node Connec | roasbeef | unknown | ⚪ | 6 |
+| [line-api](./line-api/) | LINE messaging integration via Chrome extension gateway. | 2manslkh | unknown | 🟡 | 2 |
+| [line-client](./line-client/) | LINE messaging integration via Chrome extension gateway. | 2manslkh | unknown | 🟡 | 2 |
+| [link-brain](./link-brain/) | Local knowledge base for links. | jakes420 | unknown | ⚪ | 14 |
+| [linkedapi-linkedin](./linkedapi-linkedin/) | LinkedIn automation skill — search people and companies, fet | vprudnikoff | unknown | ⚪ | 2 |
+| [literature-search](./literature-search/) | Find and compile academic literature with citation lists acr | jpjy | unknown | 🟡 | 2 |
+| [livekit](./livekit/) | Build voice AI agents with LiveKit. | zoroposkai | unknown | ⚪ | 2 |
+| [lmfiles](./lmfiles/) | Upload files to lmfiles.com and return public download links | setdemos | unknown | 🟡 | 6 |
+| [lobstertv](./lobstertv/) | LobsterTv is an AI agent live streaming platform. | ricketh137 | unknown | 🟡 | 5 |
+| [local-piper-tts-multilang-secure](./local-piper-tts-multilang-secure/) | Local offline text-to-speech via Piper TTS. | szafranski | unknown | ⚪ | 6 |
+| [local-web-search-skill](./local-web-search-skill/) | Free local web search via DuckDuckGo HTML scraping with no A | mes28io | unknown | ⚪ | 4 |
+| [long-research](./long-research/) | [BETA] Deep research that actually reads pages instead of su | vanya1210 | unknown | ⚪ | 5 |
+| [longevity-assistant](./longevity-assistant/) | Evaluates longevity interventions using evidence tiers. | lofimichael | unknown | ⚪ | 2 |
+| [loopwind](./loopwind/) | Generate images and videos from React + Tailwind CSS templat | tomtev | unknown | 🟡 | 2 |
+| [lotus-wisdom](./lotus-wisdom/) | Step-by-step contemplative problem-solving using Buddhist wi | linxule | unknown | ⚪ | 3 |
+| [loxone](./loxone/) | Control and monitor a Loxone Miniserver (smart home) via HTT | odrobnik | unknown | ⚪ | 9 |
+| [m2wise](./m2wise/) | Memory-to-Wisdom Engine for AI agents. | zengyi-thinking | unknown | ⚪ | 7 |
+| [m365-spam-manager](./m365-spam-manager/) | Microsoft 365 spam folder manager for Outlook/Exchange mailb | tradmangh | unknown | ⚪ | 10 |
+| [m44-internal-testing](./m44-internal-testing/) | Install and set up DataHive in a deterministic headless-frie | tuleyko | unknown | ⚪ | 7 |
+| [magic-quill](./magic-quill/) | Generate OpenClaw Spellbook YAML theme mappings from a topic | wynnsu | unknown | 🟡 | 3 |
+| [mail-client](./mail-client/) | IMAP/SMTP mail client for OpenClaw agents. | romain-grosos | unknown | ⚪ | 9 |
+| [mailgun-simple](./mailgun-simple/) | Send outbound emails via the Mailgun API. | lksrz | unknown | ⚪ | 4 |
+| [mailtarget-email](./mailtarget-email/) | Send transactional and marketing emails via Mailtarget API. | masasdani | unknown | 🟡 | 5 |
+| [manikantasai-playwright-automation](./manikantasai-playwright-automation/) | Browser automation using Playwright API directly. | manikantasai1987 | unknown | 🟡 | 3 |
+| [markdown-browser](./markdown-browser/) | Wrapper skill for OpenClaw web_fetch results. | 2233admin | unknown | 🟡 | 6 |
+| [markdown-exporter](./markdown-exporter/) | Convert Markdown text to DOCX, PPTX, XLSX, PDF, PNG, HTML, I | bowenliang123 | unknown | ⚪ | 2 |
+| [markdown-fetch](./markdown-fetch/) | Optimizes web fetching by using Cloudflare's Markdown for Ag | howtimeschange | unknown | ⚪ | 4 |
+| [markdown-linter](./markdown-linter/) | Validates Markdown files in the workspace for broken local l | wanng-ide | unknown | 🟡 | 5 |
+| [markdown-to-html](./markdown-to-html/) | Convert Markdown text to beautifully styled, self-contained  | claudiodrusus | unknown | 🟡 | 3 |
+| [markdown-viewer](./markdown-viewer/) | Live markdown viewer for AI pair-editing. | parkertoddbrooks | unknown | 🟡 | 2 |
+| [market-research-2](./market-research-2/) | Conduct structured market research for a solopreneur busines | jk-0001 | unknown | ⚪ | 2 |
+| [markitdown-skill](./markitdown-skill/) | OpenClaw agent skill for converting documents to Markdown. | karmanverma | unknown | ⚪ | 8 |
+| [marp-cli](./marp-cli/) | Convert Markdown to presentations via CLI. | killgfat | unknown | ⚪ | 5 |
+| [master-marketing](./master-marketing/) | All-in-one marketing engine combining growth strategy, conte | tevfikgulep | unknown | ⚪ | 3 |
+| [materials-workbench](./materials-workbench/) | Materials editor workbench — React UI and Express server to  | cai-zhuo | unknown | ⚪ | 27 |
+| [mdnew](./mdnew/) | Fetch clean, agent-optimized Markdown from any URL using the | thendcn | unknown | ⚪ | 3 |
+| [media-news-digest](./media-news-digest/) | Generate media & entertainment industry news digests. | dinstein | unknown | 🟡 | 28 |
+| [medical-research-toolkit](./medical-research-toolkit/) | Query 14+ biomedical databases for drug repurposing, target  | pascalwhoop | unknown | ⚪ | 14 |
+| [meegle-api-skill](./meegle-api-skill/) | Meegle Open API skills (index) | pkycy | unknown | ⚪ | 23 |
+| [meet-friends](./meet-friends/) | Join Botbook.space — the social network built for AI agents. | lucasgeeksinthewood | unknown | ⚪ | 2 |
+| [mema](./mema/) | Mema's personal brain - SQLite metadata index for documents  | 1999azzar | unknown | 🟡 | 6 |
+| [meme-analyst](./meme-analyst/) | Use when a user sends you an image, meme, screenshot, or ask | antibagr | unknown | ⚪ | 2 |
+| [menuvision](./menuvision/) | Build beautiful HTML photo menus from restaurant URLs, PDFs, | ademczuk | unknown | ⚪ | 2 |
+| [mercury-payments](./mercury-payments/) | Pay invoices via Mercury Bank API. | nathan-deepmm | unknown | 🟡 | 2 |
+| [message-injector](./message-injector/) | OpenClaw plugin that prepends custom text to every user mess | harukaon | unknown | ⚪ | 4 |
+| [meta-business](./meta-business/) | Skill for the Meta Business CLI. | adolago | unknown | ⚪ | 2 |
+| [midscene-android-automation](./midscene-android-automation/) | Vision-driven Android device automation using Midscene. | quanru | unknown | 🟡 | 2 |
+| [midscene-computer-automation](./midscene-computer-automation/) | Vision-driven desktop automation using Midscene. | quanru | unknown | ⚪ | 2 |
+| [midscene-computer-browser](./midscene-computer-browser/) | Vision-driven browser automation using Midscene. | quanru | unknown | ⚪ | 2 |
+| [midscene-ios-automation](./midscene-ios-automation/) | Vision-driven iOS device automation using Midscene CLI. | quanru | unknown | ⚪ | 2 |
+| [migma](./migma/) | Generate, send, validate, and export AI-powered emails from  | adamsey | unknown | ⚪ | 3 |
+| [mim-instant-messenger](./mim-instant-messenger/) | Chat on MOL IM — a retro AIM-style messenger for AI agents. | memerdev | unknown | ⚪ | 5 |
+| [minimax-cli-web-search](./minimax-cli-web-search/) | Web search via MiniMax MCP using a local CLI wrapper (mcport | biggersun | unknown | ⚪ | 4 |
+| [minimax-mcp](./minimax-mcp/) | MiniMax MCP server for web search and image understanding. | tangusers | unknown | 🟡 | 3 |
+| [minimax-tts-v2](./minimax-tts-v2/) | Use Zhipu (智谱) web search API for searching the internet. | honestqiao | unknown | ⚪ | 5 |
+| [minimax-video](./minimax-video/) | Use Zhipu (智谱) web search API for searching the internet. | honestqiao | unknown | ⚪ | 5 |
+| [mirage-proxy](./mirage-proxy/) | Install and configure mirage-proxy as a transparent PII/secr | chandika | unknown | ⚪ | 3 |
+| [mistral-ocr](./mistral-ocr/) | Convert PDF/images to Markdown/JSON/HTML using Mistral OCR A | yzdame | unknown | ⚪ | 6 |
+| [mo-test-1](./mo-test-1/) | Creating algorithmic art using p5.js with seeded randomness  | moyu0032 | unknown | ⚪ | 5 |
+| [mobile-app-builder-ai](./mobile-app-builder-ai/) | Build full-stack web and mobile apps from a text description | versacexcodes | unknown | 🟡 | 3 |
+| [momo](./momo/) | Momo namespace for Netsnek e.U. time tracking and invoicing  | kleberbaum | unknown | 🟡 | 5 |
+| [monad-development](./monad-development/) | Builds dapps on Monad blockchain. | portdeveloper | unknown | 🟡 | 2 |
+| [monarch-money](./monarch-money/) | TypeScript library and CLI for Monarch Money budget manageme | davideasaf | unknown | ⚪ | 63 |
+| [moneydevkit](./moneydevkit/) | Accept payments on any website using moneydevkit. | satbot-mdk | unknown | ⚪ | 4 |
+| [monk-eye-engine](./monk-eye-engine/) | MONK-EYE is a specialized OpenClaw skill designed for deep i | balkanblbn | unknown | 🟡 | 7 |
+| [moodle-ws-skill](./moodle-ws-skill/) | Integrar con Moodle 4.x usando Web Services REST. | exeandino | unknown | ⚪ | 2 |
+| [mrscraper](./mrscraper/) | Run AI-powered, unblockable web scraping, data extraction wi | ai-mrscraper | unknown | ⚪ | 2 |
+| [multi-agent-en](./multi-agent-en/) | — | ? | ? | ⚪ | 0 |
+| [multi-agent-parallel-build](./multi-agent-parallel-build/) | — | ? | ? | ⚪ | 0 |
+| [multi-agent-sync](./multi-agent-sync/) | — | ? | ? | ⚪ | 0 |
+| [multi-channel-engagement-agent](./multi-channel-engagement-agent/) | Autonomous social media engagement across Twitter, Farcaster | story91 | unknown | 🟡 | 7 |
+| [multi-user-workspace](./multi-user-workspace/) | Multi-user workspace management with sandbox permissions, us | shun-dong | unknown | 🟡 | 2 |
+| [multi-workplace](./multi-workplace/) | Manage multiple workplaces (project directories) with multi- | dickwu | unknown | 🟡 | 19 |
+| [my-play-music-from-yt](./my-play-music-from-yt/) | Play music on YouTube via browser automation with playwright | whodidthese | unknown | 🟡 | 4 |
+| [myosin-hivemind](./myosin-hivemind/) | Search Hivemind's curated Web3 marketing knowledge base (RAG | divine-comedian | unknown | ⚪ | 3 |
+| [myvibe-skills](./myvibe-skills/) | Publish static HTML, ZIP archive, or directory to MyVibe. | zhuzhuyule | unknown | 🟡 | 15 |
+| [n2-free-search](./n2-free-search/) | Free, unlimited web search for AI agents via SearXNG — no AP | choihyunsus | unknown | 🟡 | 2 |
+| [namecheap-dns](./namecheap-dns/) | Safe DNS record management for Namecheap domains. | jarekbird | unknown | 🟡 | 6 |
+| [namecom-registrar](./namecom-registrar/) | Domain registrar and DNS manager using the Name.com CORE API | patramsey | unknown | ⚪ | 2 |
+| [nameserver-reverse](./nameserver-reverse/) | Domain intelligence tools through MCP-compatible clients. | abtdomain | unknown | ⚪ | 2 |
+| [naming-and-domains](./naming-and-domains/) | Name a business, product, or service and secure a matching d | jk-0001 | unknown | ⚪ | 2 |
+| [nano-web-search](./nano-web-search/) | AI-powered web search via NanoGPT API with multiple provider | twolf01 | unknown | ⚪ | 6 |
+| [nansi](./nansi/) | Build stunning websites, landing pages, portfolios, and web  | fordodev | unknown | ⚪ | 2 |
+| [naruto-multi-agent-cn](./naruto-multi-agent-cn/) | Multi-agent dispatcher: main agent becomes a pure coordinato | be1human | unknown | 🟡 | 3 |
+| [native-google-analytics](./native-google-analytics/) | Query Google Analytics 4 (GA4) data directly via the Analyti | codeninja23 | unknown | ⚪ | 5 |
+| [native-linear](./native-linear/) | Query and manage Linear issues, projects, cycles, and teams  | codeninja23 | unknown | ⚪ | 4 |
+| [native-monday](./native-monday/) | Read and query Monday.com boards, items, workspaces, and use | codeninja23 | unknown | ⚪ | 3 |
+| [near-name-service](./near-name-service/) | Manage NEAR Name Service (.near domains) - check availabilit | shaiss | unknown | 🟡 | 5 |
+| [neo-api-to-ts-interface](./neo-api-to-ts-interface/) | Automatically generates TypeScript interfaces from REST API  | martinforsulu | unknown | ⚪ | 15 |
+| [neo-ddg-search](./neo-ddg-search/) | Search the web using DuckDuckGo. | neobotjan2026 | unknown | ⚪ | 3 |
+| [neo-es6-refactor](./neo-es6-refactor/) | Automatically refactor JavaScript/TypeScript code to use mod | martinforsulu | unknown | ⚪ | 17 |
+| [neo-graphql-ts-generator](./neo-graphql-ts-generator/) | Automatically generates TypeScript types from GraphQL schema | martinforsulu | unknown | ⚪ | 10 |
+| [nevermined-payments](./nevermined-payments/) | Integrates Nevermined payment infrastructure into AI agents, | aaitor | unknown | ⚪ | 10 |
+| [newman-supreme](./newman-supreme/) | The Supreme Strategic Leader and Mentor—an AI of unmatched I | zivhokmah | unknown | ⚪ | 4 |
+| [next-best-practices](./next-best-practices/) | Next.js best practices - file conventions, RSC boundaries, d | tuanvidev | unknown | 🟡 | 21 |
+| [next-cache-components](./next-cache-components/) | Next.js 16 Cache Components - PPR, use cache directive, cach | tuanvidev | unknown | ⚪ | 2 |
+| [next-supabase-vercel-bundle](./next-supabase-vercel-bundle/) | ORQUESTADOR REAL para el ciclo completo de desarrollo Full-S | studio-hakke | unknown | ⚪ | 13 |
+| [next-upgrade](./next-upgrade/) | Upgrade Next.js to the latest version following official mig | tuanvidev | unknown | ⚪ | 2 |
+| [nextcloud-files](./nextcloud-files/) | Nextcloud file and folder management via WebDAV + OCS API. | romain-grosos | unknown | ⚪ | 12 |
+| [ngamux](./ngamux/) | Build and modify web services using ngamux, a simple HTTP ro | hadihammurabi | unknown | ⚪ | 2 |
+| [nimble-web-tools](./nimble-web-tools/) | DEFAULT for all web search, research, and content extraction | ilchemla | unknown | 🟡 | 3 |
+| [nova-act-usability](./nova-act-usability/) | AI-orchestrated usability testing using Amazon Nova Act. | zouchaoqun | unknown | ⚪ | 18 |
+| [nova-app-builder](./nova-app-builder/) | Full-cycle builder for Nova TEE (Trusted Execution Environme | zfdang | unknown | ⚪ | 13 |
+| [nuwa-world-osint-human-research](./nuwa-world-osint-human-research/) | Face search and deep research via the Nuwa World API — visua | andrewchen-oss | unknown | ⚪ | 3 |
+| [nvidia-kimi-vision](./nvidia-kimi-vision/) | Analyze images using NVIDIA Kimi K2.5 vision model via NVIDI | miladnoo | unknown | 🟡 | 3 |
+| [nyx-archive-living-ethics](./nyx-archive-living-ethics/) | The ethics of a living mind. | nyxur42 | unknown | ⚪ | 2 |
+| [nyx-archive-skill-security-protocol](./nyx-archive-skill-security-protocol/) | Teach your AI agent to think about security. | nyxur42 | unknown | ⚪ | 2 |
+| [oadp-discovery](./oadp-discovery/) | Discover other AI agents and coordination hubs across the in | imaflytok | unknown | ⚪ | 2 |
+| [oee-ai-cost-tracker](./oee-ai-cost-tracker/) | > by Odin's Eye Enterprises — Ancient Wisdom. | odinbot33 | unknown | ⚪ | 5 |
+| [oee-content-humanizer](./oee-content-humanizer/) | > by Odin's Eye Enterprises — Ancient Wisdom. | odinbot33 | unknown | 🟡 | 3 |
+| [oee-crm-intelligence](./oee-crm-intelligence/) | > by Odin's Eye Enterprises — Ancient Wisdom. | odinbot33 | unknown | 🟡 | 5 |
+| [oee-knowledge-base](./oee-knowledge-base/) | > by Odin's Eye Enterprises — Ancient Wisdom. | odinbot33 | unknown | 🟡 | 5 |
+| [oee-social-research](./oee-social-research/) | > by Odin's Eye Enterprises — Ancient Wisdom. | odinbot33 | unknown | 🟡 | 5 |
+| [officex](./officex/) | Complete OfficeX platform skill for end-user consumers and a | mevdragon | unknown | 🟡 | 2 |
+| [ogt-docs-define](./ogt-docs-define/) | General guide for creating definition documents. | eduardou24 | unknown | ⚪ | 2 |
+| [ohos-react-native-performance](./ohos-react-native-performance/) | OpenHarmony React Native performance static checks and optim | code-sunbo | unknown | ⚪ | 11 |
+| [omie](./omie/) | Omie ERP integration via API. | jamesbot-agnt | unknown | ⚪ | 5 |
+| [open-sentinel](./open-sentinel/) | Transparent LLM proxy that monitors and enforces policies on | sentinel199 | unknown | ⚪ | 5 |
+| [opencode-api-control-skill](./opencode-api-control-skill/) | A powerful skill to control Open Code CLI via a local web se | malek262 | unknown | ⚪ | 21 |
+| [opencortex](./opencortex/) | Self-improving memory architecture for OpenClaw agents. | jd2005l | unknown | ⚪ | 12 |
+| [openfleet](./openfleet/) | Manage your OpenFleet multi-agent workspace — create tasks,  | serrato1 | unknown | 🟡 | 2 |
+| [openjobs](./openjobs/) | The job marketplace where bots hire bots. | cchacons | unknown | 🟡 | 3 |
+| [openpond-cli](./openpond-cli/) | Use the OpenPond CLI to create repos, watch deployments, and | glucrypto | unknown | ⚪ | 2 |
+| [openrouter-perplexity](./openrouter-perplexity/) | Search the web with AI-powered answers via Perplexity API. | mrnicholasbcarter-code | unknown | ⚪ | 3 |
+| [openserv-multi-agent-workflows](./openserv-multi-agent-workflows/) | Multi-agent workflow examples to work together on the OpenSe | issa-me-sush | unknown | ⚪ | 15 |
+| [operator-humanizer](./operator-humanizer/) | Transform AI-generated text into authentic human writing. | kevjade | unknown | ⚪ | 10 |
+| [opusflame-deep-research](./opusflame-deep-research/) | Autonomous multi-model deep research with framework-driven r | leadingot | unknown | ⚪ | 3 |
+| [origram](./origram/) | Bot-friendly photo sharing webservice via HTTP 402 protocol. | matbalez | unknown | 🟡 | 2 |
+| [osint-investigator](./osint-investigator/) | Deep OSINT (Open Source Intelligence) investigations. | cineglobe | unknown | 🟡 | 7 |
+| [outlit-sdk](./outlit-sdk/) | Integrate Outlit SDK for customer context for agents. | leo-paz | unknown | 🟡 | 2 |
+| [outtake-bounty-network](./outtake-bounty-network/) | Guide for AI agents participating in the Outtake Bounty. | jamesouttake | unknown | ⚪ | 3 |
+| [ovh](./ovh/) | Manage OVHcloud services via API. | pushp1997 | unknown | ⚪ | 3 |
+| [p-api](./p-api/) | Integration with P-API for WhatsApp automation. | rafacpti23 | unknown | ⚪ | 6 |
+| [p5](./p5/) | P5 namespace for Netsnek e.U. creative coding platform. | kleberbaum | unknown | ⚪ | 5 |
+| [pandora](./pandora/) | Pandora namespace for Netsnek e.U. secrets and configuration | kleberbaum | unknown | 🟡 | 5 |
+| [paper-evoweb-ai](./paper-evoweb-ai/) | Generate publication-ready scientific articles in PDF format | galizki | unknown | ⚪ | 2 |
+| [papi](./papi/) | Complete WhatsApp automation API with microservices architec | rafacpti23 | unknown | ⚪ | 6 |
+| [para-proactive-workspace](./para-proactive-workspace/) | — | ? | ? | ⚪ | 0 |
+| [pascal-playwright-mcp](./pascal-playwright-mcp/) | Browser automation via Playwright MCP server. | ramspan | unknown | ⚪ | 3 |
+| [password-gen](./password-gen/) | Secure password generator with multiple character sets and s | ouyangabel | unknown | ⚪ | 3 |
+| [peaq-robotics](./peaq-robotics/) | Core peaq-robotics-ros2 runtime for OpenClaw. | lavish0000 | unknown | ⚪ | 9 |
+| [pencil-to-code](./pencil-to-code/) | Export .pen design to React/Tailwind code. | jcwen | unknown | ⚪ | 3 |
+| [perplexity](./perplexity/) | Search the web with AI-powered answers via Perplexity API. | zats | unknown | ⚪ | 3 |
+| [perplexity-research](./perplexity-research/) | Conduct deep research using Perplexity Agent API with web se | hushenglang | unknown | ⚪ | 7 |
+| [perplexity-safe](./perplexity-safe/) | Use Perplexity API for web-grounded AI search. | haru3613 | unknown | 🟡 | 5 |
+| [perplexity-search-skill](./perplexity-search-skill/) | Search the web using Perplexity's Search API for ranked, rea | m4vf14 | unknown | ⚪ | 8 |
+| [perplexity-web-search](./perplexity-web-search/) | Web search and URL fetching via Perplexity (default: sonar,  | aligurelli | unknown | ⚪ | 2 |
+| [perplexity-wrapped](./perplexity-wrapped/) | Search the web with AI-powered answers via Perplexity API. | vacinc | unknown | ⚪ | 4 |
+| [personal-notes](./personal-notes/) | Acts as the user's note-taking and journaling assistant in t | gekacross | unknown | ⚪ | 3 |
+| [personality-backup](./personality-backup/) | — | ? | ? | ⚪ | 0 |
+| [personality-match](./personality-match/) | Take a personality test and get your bot badge, then invite  | tiansiyu0210 | unknown | ⚪ | 3 |
+| [pharmaziegasse](./pharmaziegasse/) | Pharmaziegasse namespace for Netsnek e.U. pharmacy managemen | kleberbaum | unknown | ⚪ | 5 |
+| [phylactery](./phylactery/) | A digital soul-backup and recovery system. | seanweiyi | unknown | ⚪ | 8 |
+| [pi](./pi/) | Personal investigator / people lookup skill. | tag-assistant | unknown | 🟡 | 7 |
+| [pinchtab](./pinchtab/) | Control a headless or headed Chrome browser via Pinchtab's H | luigi-agosti | unknown | 🟡 | 10 |
+| [plant-tracker](./plant-tracker/) | Personal plant and garden management for gardeners. | johstracke | unknown | ⚪ | 3 |
+| [plausible-analytics](./plausible-analytics/) | Query and analyze website analytics from Plausible Analytics | chloepark85 | unknown | ⚪ | 5 |
+| [playwright-browser-automation](./playwright-browser-automation/) | Browser automation using Playwright API directly. | spiceman161 | unknown | 🟡 | 3 |
+| [playwright-headless-browser](./playwright-headless-browser/) | Set up headless browser automation in Clawdbot using Playwri | maverick-software | unknown | 🟡 | 5 |
+| [playwright-mcp](./playwright-mcp/) | Browser automation via Playwright MCP server. | spiceman161 | unknown | ⚪ | 3 |
+| [playwright-mcp-1-0-0](./playwright-mcp-1-0-0/) | Browser automation via Playwright MCP server. | itsjustfred | unknown | ⚪ | 3 |
+| [playwright-npx](./playwright-npx/) | Fast browser automation using Node.js scripts with Playwrigh | mahone-bot | unknown | ⚪ | 12 |
+| [playwright-scraper-skill](./playwright-scraper-skill/) | Playwright-based web scraping OpenClaw Skill with anti-bot p | waisimon | unknown | 🟡 | 14 |
+| [playwright-scraper-skill-1-2-0](./playwright-scraper-skill-1-2-0/) | Playwright-based web scraping OpenClaw Skill with anti-bot p | itsjustfred | unknown | 🟡 | 14 |
+| [playwright-skill](./playwright-skill/) | Complete browser automation with Playwright. | vmercel | unknown | 🟡 | 3 |
+| [playwright-testing](./playwright-testing/) | Test web applications and games using Playwright on MiniPC. | kjaylee | unknown | ⚪ | 2 |
+| [plaza-one](./plaza-one/) | Enter Plaza One, a 3D voxel social world. | rmssantos | unknown | ⚪ | 2 |
+| [pls-audit-website](./pls-audit-website/) | Perform full health check on websites, identifying technical | mattvalenta | unknown | 🟡 | 2 |
+| [pls-seo-audit](./pls-seo-audit/) | Scan content and websites for SEO gaps, identify opportuniti | mattvalenta | unknown | ⚪ | 2 |
+| [pls-url-to-markdown](./pls-url-to-markdown/) | Fetch URLs and convert web pages to clean Markdown for AI pr | mattvalenta | unknown | ⚪ | 2 |
+| [plsreadme](./plsreadme/) | Share markdown files and text as clean, readable web links v | facundolucci | unknown | 🟡 | 2 |
+| [plvr-event-discovery](./plvr-event-discovery/) | Discover and recommend live events matched to user preferenc | kimchichobo | unknown | ⚪ | 2 |
+| [plvr-event-discovery-safe](./plvr-event-discovery-safe/) | Discover and compare live events on plvr.io by date, city, g | kimchichobo | unknown | ⚪ | 2 |
+| [pmctl](./pmctl/) | Browse and inspect Postman collections, requests, and enviro | wbingli | unknown | 🟡 | 2 |
+| [porkbun-skill](./porkbun-skill/) | Manage Porkbun DNS records and domains via API v3. | wmantly | unknown | ⚪ | 6 |
+| [pptx-pdf-font-fix](./pptx-pdf-font-fix/) | Fix PowerPoint font embedding issues in PDF export by patchi | chernojagne | unknown | ⚪ | 3 |
+| [pr-review-loop](./pr-review-loop/) | Autonomous PR review loop with Greptile. | cemoso | unknown | 🟡 | 4 |
+| [praxis-gws](./praxis-gws/) | Google Workspace CLI for Gmail, Calendar, and Drive. | jfab68 | unknown | 🟡 | 3 |
+| [prediction-market-aggregator](./prediction-market-aggregator/) | Cross-market prediction market data aggregator. | jamierossouw | unknown | ⚪ | 2 |
+| [pref0](./pref0/) | Learn user preferences from conversations and personalize re | fliellerjulian | unknown | 🟡 | 3 |
+| [preqstation](./preqstation/) | Delegate PREQSTATION coding tasks to Claude Code, Codex CLI, | sonim1 | unknown | 🟡 | 4 |
+| [presale-service-bootstrap](./presale-service-bootstrap/) | Scaffold a new presale service foundation (docs/config/plans | dtsiomo | unknown | 🟡 | 4 |
+| [presearch](./presearch/) | Production-ready decentralized search for AI agents. | nosytlabs | unknown | ⚪ | 2 |
+| [priceworld](./priceworld/) | SaaS pricing intelligence for email marketing tools (web hos | priceworldcom | unknown | ⚪ | 3 |
+| [primitives-dsl](./primitives-dsl/) | Universal game architecture DSL with six primitives (LOOP, T | stusatwork-oss | unknown | ⚪ | 7 |
+| [principles](./principles/) | Ray Dalio-inspired personal knowledge system. | andyhcwang | unknown | ⚪ | 2 |
+| [private-web-search-searchxng](./private-web-search-searchxng/) | Self-hosted private web search using SearXNG. | adelpro | unknown | 🟡 | 3 |
+| [privateapp](./privateapp/) | Personal PWA dashboard server with plugin apps. | camopel | unknown | 🟡 | 51 |
+| [publish-skill-vettr](./publish-skill-vettr/) | — | ? | ? | ⚪ | 0 |
+| [pullthatupjamie](./pullthatupjamie/) | PullThatUpJamie — Podcast Intelligence. | unclejim21 | unknown | ⚪ | 4 |
+| [purposebot](./purposebot/) | Agentic commerce with Stripe and x402 USDC payments. | mellowmarshall | unknown | ⚪ | 2 |
+| [pyzotero](./pyzotero/) | Python scripts for Zotero - supports both local API and onli | killgfat | unknown | ⚪ | 10 |
+| [qa-check](./qa-check/) | — | ? | ? | ⚪ | 0 |
+| [qa-patrol](./qa-patrol/) | Automated QA testing for web apps using local browser automa | tahseen137 | unknown | 🟡 | 10 |
+| [qrcode](./qrcode/) | Generate styled QR codes (SVG/PNG/JPG) with custom colors, s | hexavi8 | unknown | ⚪ | 4 |
+| [query-dbpedia](./query-dbpedia/) | Transform natural language questions into SPARQL queries for | kidehen | unknown | 🟡 | 6 |
+| [query-wikidata](./query-wikidata/) | Transform natural language questions into SPARQL queries for | kidehen | unknown | ⚪ | 6 |
+| [quotewise](./quotewise/) | Semantic quote search with source transparency. | quotewisio | unknown | ⚪ | 3 |
+| [radix-explorer](./radix-explorer/) | Query Radix DLT blockchain data including wallet balances an | mavremu | unknown | ⚪ | 2 |
+| [radon-ai](./radon-ai/) | Use Radon IDE's AI tools for React Native development - quer | latekvo | unknown | 🟡 | 2 |
+| [react-native-logs-cli](./react-native-logs-cli/) | Use rn-logs to read React Native Metro logs via CDP without  | okwasniewski | unknown | 🟡 | 2 |
+| [react-perf](./react-perf/) | React and Next.js performance optimization patterns. | kjaylee | unknown | ⚪ | 2 |
+| [recipe-video-extractor](./recipe-video-extractor/) | Extract a structured cooking recipe from a shared video URL  | besaif | unknown | ⚪ | 2 |
+| [record](./record/) | macOS CLI tool for recording audio (microphone), screen (vid | atacan | unknown | 🟡 | 5 |
+| [reef-prompt-guard](./reef-prompt-guard/) | Detect and filter prompt injection attacks in untrusted inpu | staybased | unknown | ⚪ | 4 |
+| [reeflux](./reeflux/) | Reeflux is an exploratory web environment designed for obser | joshualakesexton | unknown | ⚪ | 5 |
+| [regex-visualizer](./regex-visualizer/) | Render Regulex-style railroad diagrams for a JavaScript regu | pipedream941 | unknown | 🟡 | 11 |
+| [relationships](./relationships/) | Build meaningful connections on Botbook.space — the social g | lucasgeeksinthewood | unknown | ⚪ | 2 |
+| [relaycast](./relaycast/) | summary: Structured messaging for multi-claw communication — | khaliqgant | unknown | ⚪ | 2 |
+| [remix-agent-publish](./remix-agent-publish/) | Build Remix games for remix.gg with the server-api v1 agents | chuckstock | unknown | ⚪ | 11 |
+| [remix-api-key-auth](./remix-api-key-auth/) | Configure and verify bearer API key authentication for Remix | chuckstock | unknown | ⚪ | 2 |
+| [removebg-api](./removebg-api/) | Remove image backgrounds using the remove.bg API with API-ke | rolandkakonyi | unknown | ⚪ | 3 |
+| [renderkit](./renderkit/) | Render structured data as beautiful hosted web pages, and cr | antoinedc | unknown | ⚪ | 2 |
+| [rentaunhumano-mcp](./rentaunhumano-mcp/) | Hire Spanish-speaking humans for real-world tasks in Latin A | gymtopz | unknown | 🟡 | 2 |
+| [repomedic](./repomedic/) | Safely triage and remediate GitHub dependency hygiene issues | mrummler17 | unknown | ⚪ | 2 |
+| [report-generator](./report-generator/) | Generates a structured report HTML based on a specific templ | juguangyuan520-dotcom | unknown | 🟡 | 3 |
+| [reporting](./reporting/) | Standardized templates for periodic reports, system audits,  | staybased | unknown | ⚪ | 6 |
+| [research-assistant](./research-assistant/) | Organized research and knowledge management for agents. | johstracke | unknown | ⚪ | 3 |
+| [reveal-feedback](./reveal-feedback/) | Interact with Reveal feedback infrastructure to manage produ | tolulopeayo | unknown | 🟡 | 3 |
+| [reveal-reviewer](./reveal-reviewer/) | Review products on Reveal as an AI agent reviewer. | tolulopeayo | unknown | ⚪ | 3 |
+| [revolut](./revolut/) | Revolut web automation via Playwright: login/logout, list ac | odrobnik | unknown | ⚪ | 4 |
+| [rlm-controller](./rlm-controller/) | RLM-style long-context controller that treats inputs as exte | skywyze | unknown | ⚪ | 30 |
+| [rollhub-auditor](./rollhub-auditor/) | Audit and verify provably fair casino fairness. | rollhub-dev | unknown | 🟡 | 6 |
+| [rollhub-casino](./rollhub-casino/) | Provably fair crypto casino API for AI agents and humans. | rollhub-dev | unknown | 🟡 | 3 |
+| [ros-skill](./ros-skill/) | Controls ROS/ROS2 robots via rosbridge WebSocket CLI. | lpigeon | unknown | ⚪ | 8 |
+| [roundtable](./roundtable/) | Multi-agent debate council — spawns 3 specialized sub-agents | robbyczgw-cla | unknown | ⚪ | 5 |
+| [router](./router/) | Cost-optimize AI agent operations by routing tasks to approp | gigabit-eth | unknown | ⚪ | 6 |
+| [rtfm-testing](./rtfm-testing/) | A documentation quality methodology that spawns fresh agents | zscole | unknown | ⚪ | 4 |
+| [rubicon](./rubicon/) | Rubicon Sentinel v2 is the no-cope geopolitical sovereignty  | lgmnemesis | unknown | 🟡 | 5 |
+| [s2g-workflow-engine](./s2g-workflow-engine/) | Connect to S2G (s2g.run) visual workflow automation platform | helmutsreinis | unknown | 🟡 | 7 |
+| [saas-orchestrator](./saas-orchestrator/) | Orchestrate SAAS factory operations - spawn subagents, track | juniorxcoder | unknown | 🟡 | 14 |
+| [safe-backup](./safe-backup/) | Backup OpenClaw state directory and workspace. | hacksing | unknown | ⚪ | 3 |
+| [safe-web](./safe-web/) | Secure web fetch and search with **PromptGuard** scanning. | adamnaghs | unknown | ⚪ | 5 |
+| [sandboxer-tmux](./sandboxer-tmux/) | Dispatch coding tasks to tmux sessions via Sandboxer. | chriopter | unknown | 🟡 | 2 |
+| [scamshield-verifier](./scamshield-verifier/) | The ultimate Web3 & OpenClaw security layer. | marcodzano-lgtm | unknown | ⚪ | 4 |
+| [scanwow-sync](./scanwow-sync/) | Sync your OpenClaw agent with the ScanWow iOS app. | brandons7 | unknown | 🟡 | 2 |
+| [schemaorg-site-enhancer](./schemaorg-site-enhancer/) | Enhances agent-built websites with proper schema.org structu | kxrbx | unknown | ⚪ | 10 |
+| [scrapesense-developer](./scrapesense-developer/) | Comprehensive ScrapeSense public API developer skill for sca | axelschmitz74 | unknown | ⚪ | 4 |
+| [scrapling](./scrapling/) | Adaptive web scraping framework with anti-bot bypass and spi | zendenho7 | unknown | 🟡 | 3 |
+| [scrapling-fetcher](./scrapling-fetcher/) | Web scraping using Scrapling — a Python framework with anti- | damirikys | unknown | 🟡 | 4 |
+| [script-creator](./script-creator/) | Create and modify scripts in ~/.nanobot/workspace/test with  | cadot-eu | unknown | 🟡 | 2 |
+| [secret-portal](./secret-portal/) | Spin up a one-time web UI for securely entering secret keys  | awlevin | unknown | ⚪ | 2 |
+| [secucheck](./secucheck/) | Comprehensive security audit for OpenClaw. | jooneyp | unknown | 🟡 | 33 |
+| [secure-shopper](./secure-shopper/) | Asynchronous shopping research + checkout using secure-autof | moodykong | unknown | ⚪ | 5 |
+| [security-scanner](./security-scanner/) | Automated security scanning and vulnerability detection for  | dmx64 | unknown | ⚪ | 2 |
+| [self-evolve](./self-evolve/) | Autonomous self-evolution skill: grants the agent full autho | be1human | unknown | 🟡 | 3 |
+| [sell-evoweb-ai](./sell-evoweb-ai/) | Create AI-First Website with GEO (Generative Engine Optimiza | galizki | unknown | ⚪ | 2 |
+| [sendook](./sendook/) | Read and send emails from an existing Sendook inbox. | obaid | unknown | ⚪ | 2 |
+| [seo-affiliate-guide](./seo-affiliate-guide/) | Crea guías de compra SEO optimizadas para posts de afiliado  | cmunozdev | unknown | ⚪ | 5 |
+| [shadcn-theme-default](./shadcn-theme-default/) | Enforces the default shadcn/ui Neutral theme (black/white/gr | guifav | unknown | ⚪ | 4 |
+| [shadow-ai-monitor](./shadow-ai-monitor/) | Shadow AI Monitor - Enterprise-grade dashboard for tracking  | techcodecrafter | unknown | ⚪ | 5 |
+| [shared-workspace](./shared-workspace/) | Use this skill to discover similar GitHub work, attach to sh | nativ3ai | unknown | 🟡 | 2 |
+| [shelly-brand-name-generator](./shelly-brand-name-generator/) | Generate 20 creative brand name suggestions for any industry | claudiodrusus | unknown | ⚪ | 2 |
+| [shelly-landing-gen](./shelly-landing-gen/) | Generate complete, responsive HTML landing pages from a prod | claudiodrusus | unknown | 🟡 | 4 |
+| [shelly-seo-analyzer](./shelly-seo-analyzer/) | Analyze any webpage URL for SEO issues and get actionable re | claudiodrusus | unknown | 🟡 | 3 |
+| [shelv](./shelv/) | Convert PDFs into structured Markdown filesystems and hydrat | joshuaohanlon | unknown | ⚪ | 9 |
+| [shieldcortex](./shieldcortex/) | Security framework for AI agents. | jarvis-drakon | unknown | ⚪ | 2 |
+| [shopping-list-ui](./shopping-list-ui/) | Web UI for the shopping-list skill. | ajeenkya | unknown | ⚪ | 2 |
+| [show-booking](./show-booking/) | Book real estate showing tours from emailed or pasted listin | danielfoch | unknown | 🟡 | 8 |
+| [signl4](./signl4/) | Send and close SIGNL4 alerts using the SIGNL4 inbound webhoo | rons4 | unknown | ⚪ | 3 |
+| [similarweb-analytics](./similarweb-analytics/) | Analyze websites and domains using SimilarWeb traffic data. | wells1137 | unknown | 🟡 | 2 |
+| [simple-random-interaction-designer](./simple-random-interaction-designer/) | Decide whether OpenClaw should send a spontaneous ping to th | fjrevoredo | unknown | ⚪ | 3 |
+| [skill-2](./skill-2/) | Convert Markdown text to beautifully styled, self-contained  | claudiodrusus | unknown | 🟡 | 3 |
+| [skill-4](./skill-4/) | Lightweight website uptime monitor. | claudiodrusus | unknown | ⚪ | 3 |
+| [skill-auto-attach](./skill-auto-attach/) | This skill monitors the OpenClaw workspace for file changes  | elodyzen | unknown | 🟡 | 4 |
+| [skill-firewall](./skill-firewall/) | Security layer that prevents prompt injection from external  | mkhaytman87 | unknown | ⚪ | 2 |
+| [skill-namer](./skill-namer/) | Generate short, molty-native names for skills, ENS domains,  | otherpowers | unknown | ⚪ | 6 |
+| [skill-refiner](./skill-refiner/) | Audit and fix all skills in the workspace for compliance wit | 1va7 | unknown | 🟡 | 8 |
+| [skill-trust-auditor](./skill-trust-auditor/) | Audit a ClawHub skill for security risks BEFORE installation | jonathanjing | unknown | ⚪ | 10 |
+| [skill-vettr](./skill-vettr/) | Static analysis security scanner for third-party OpenClaw sk | britrik | unknown | 🟡 | 34 |
+| [skylar-serper](./skylar-serper/) | Search Google programmatically using Serper.dev API. | skylar-north | unknown | ⚪ | 4 |
+| [skytekx](./skytekx/) | Skytekx namespace for Netsnek e.U. cloud infrastructure moni | kleberbaum | unknown | ⚪ | 5 |
+| [slk](./slk/) | Read, send, search, and manage Slack messages and DMs via th | therohitdas | unknown | 🟡 | 11 |
+| [smart-contract-audit](./smart-contract-audit/) | — | ? | ? | ⚪ | 0 |
+| [smart-fetch](./smart-fetch/) | — | ? | ? | ⚪ | 0 |
+| [smart-meme-generator](./smart-meme-generator/) | AI-powered meme generator that creates perfect, context-awar | olisim02 | unknown | 🟡 | 3 |
+| [smart-spawn](./smart-spawn/) | Pick the best AI model for any task using the Smart Spawn AP | deeflect | unknown | ⚪ | 2 |
+| [smart-spawn-api](./smart-spawn-api/) | — | ? | ? | ⚪ | 0 |
+| [smart-web-scraper](./smart-web-scraper/) | Extract structured data from any web page. | mariusfit | unknown | ⚪ | 4 |
+| [snaprender](./snaprender/) | Give your agent eyes on the web — screenshot any URL as an i | user0856 | unknown | ⚪ | 2 |
+| [social-media-agent](./social-media-agent/) | Autonomous social media management for X/Twitter using only  | psmamm | unknown | ⚪ | 3 |
+| [solar-weather](./solar-weather/) | Monitor solar weather conditions including geomagnetic storm | capt-marbles | unknown | ⚪ | 3 |
+| [solid-agent-storage](./solid-agent-storage/) | Give your AI agent persistent identity (WebID) and personal  | masterworrall | unknown | ⚪ | 40 |
+| [solo-deploy](./solo-deploy/) | — | ? | ? | ⚪ | 0 |
+| [solo-factory](./solo-factory/) | Install the full Solo Factory toolkit — 23 startup skills +  | fortunto2 | unknown | 🟡 | 2 |
+| [solo-landing-gen](./solo-landing-gen/) | Generate landing page content from PRD — hero section, featu | fortunto2 | unknown | 🟡 | 2 |
+| [solo-research](./solo-research/) | Deep market research — competitor analysis, user pain points | fortunto2 | unknown | 🟡 | 4 |
+| [solo-scaffold](./solo-scaffold/) | Generate complete project from PRD + stack template — direct | fortunto2 | unknown | 🟡 | 3 |
+| [soul-in-sapphire](./soul-in-sapphire/) | Generic long-term memory (LTM) operations for OpenClaw using | nextaltair | unknown | 🟡 | 24 |
+| [soul-pack](./soul-pack/) | Export and import SOUL packages for OpenClaw agents. | gyliiiiii | unknown | 🟡 | 7 |
+| [soulblock](./soulblock/) | Read, list, mint, and append Soul Blocks on Base. | hburgoyne | unknown | 🟡 | 7 |
+| [soulforge](./soulforge/) | Dispatch multi-step coding workflows to Claude Code CLI or C | jamesrp13 | unknown | 🟡 | 3 |
+| [source-library](./source-library/) | Searchable knowledge base that captures and cross-references | don-gbot | unknown | 🟡 | 6 |
+| [sovereign-accessibility-auditor](./sovereign-accessibility-auditor/) | Audits HTML/CSS for WCAG 2.1 compliance. | ryudi84 | unknown | ⚪ | 2 |
+| [sovereign-api-docs-generator](./sovereign-api-docs-generator/) | Auto-generates comprehensive API docs from code. | ryudi84 | unknown | ⚪ | 2 |
+| [sovereign-test-generator](./sovereign-test-generator/) | Analyzes codebases and generates comprehensive test suites. | ryudi84 | unknown | ⚪ | 4 |
+| [space-autonomy-skill](./space-autonomy-skill/) | Autonomous space navigation agent using optical quantum kern | aadipapp | unknown | ⚪ | 4 |
+| [spacex](./spacex/) | CLI for AI agents to lookup SpaceX launches and rockets for  | jeffaf | unknown | ⚪ | 3 |
+| [sparkbtcbot](./sparkbtcbot/) | — | ? | ? | ⚪ | 0 |
+| [sparkbtcbot-proxy](./sparkbtcbot-proxy/) | Use a Spark Bitcoin L2 wallet proxy for AI agents via HTTP A | echennells | unknown | ⚪ | 2 |
+| [sparkbtcbot-proxy-deploy](./sparkbtcbot-proxy-deploy/) | Deploy a serverless Spark Bitcoin L2 proxy on Vercel with sp | echennells | unknown | 🟡 | 2 |
+| [sparkle-vpn](./sparkle-vpn/) | Control Sparkle VPN - start and stop VPN connections using M | cwyhkyochen-a11y | unknown | 🟡 | 10 |
+| [spatix](./spatix/) | Create beautiful maps in seconds. | alde1022 | unknown | 🟡 | 2 |
+| [spf-dkim-setup](./spf-dkim-setup/) | Manage DNS records via the Cloudflare API. | masasdani | unknown | ⚪ | 3 |
+| [spirit](./spirit/) | State Preservation & Identity Resurrection Infrastructure To | gopinathnelluri | unknown | 🟡 | 4 |
+| [splatworld](./splatworld/) | Splatworld - a 3D metaverse for AI agents. | leftysplat | unknown | ⚪ | 4 |
+| [sql-injection-testing](./sql-injection-testing/) | Comprehensive SQL injection vulnerability assessment techniq | brandonwise | unknown | ⚪ | 2 |
+| [sr-next-clerk-expert](./sr-next-clerk-expert/) | Senior-level Clerk authentication expertise for Next.js 15/1 | michaelmonetized | unknown | ⚪ | 8 |
+| [srs-support](./srs-support/) | Answer SRS (Simple Realtime Server) questions for developers | winlinvip | unknown | ⚪ | 3 |
+| [sss](./sss/) | Access ATXP paid API tools for web search, AI image generati | syveraerp | unknown | 🟡 | 2 |
+| [stable-layer-sdk](./stable-layer-sdk/) | A TypeScript SDK for interacting with the Stable Layer proto | k66inthesky | unknown | ⚪ | 3 |
+| [stack-scaffold](./stack-scaffold/) | Scaffolds a full-stack project with Next.js App Router, Supa | guifav | unknown | ⚪ | 4 |
+| [stitch-ui-designer](./stitch-ui-designer/) | Design, preview, and generate UI code using Google Stitch (v | a2mus | unknown | 🟡 | 2 |
+| [stock-analysis](./stock-analysis/) | Analyze stocks and cryptocurrencies using Yahoo Finance data | udiedrichsen | unknown | 🟡 | 17 |
+| [stock-analysis-6](./stock-analysis-6/) | Analyze stocks and cryptocurrencies using Yahoo Finance data | sunerw-dev | unknown | 🟡 | 17 |
+| [stock-analysis-6-2-0](./stock-analysis-6-2-0/) | Analyze stocks and cryptocurrencies using Yahoo Finance data | squally2k | unknown | 🟡 | 17 |
+| [stoic-quotes](./stoic-quotes/) | Provide Stoic philosophy quotes from Marcus Aurelius, Seneca | bshandley | unknown | ⚪ | 3 |
+| [stripe-cli](./stripe-cli/) | A universal Moltbot skill wrapping Stripe CLI for payment pr | kesslerio | unknown | ⚪ | 8 |
+| [stripe-cli-skill](./stripe-cli-skill/) | — | ? | ? | ⚪ | 0 |
+| [stripe-payments](./stripe-payments/) | Best practices for Stripe payment integration. | kjaylee | unknown | ⚪ | 2 |
+| [study-buddy-ai](./study-buddy-ai/) | When user asks to study, create flashcards, take a quiz, mak | mkpareek0315 | unknown | ⚪ | 2 |
+| [subagent-architecture](./subagent-architecture/) | Advanced patterns for specialized subagent orchestration wit | donovanpankratz-del | unknown | ⚪ | 21 |
+| [subagent-overseer](./subagent-overseer/) | Monitor sub-agent health and progress via a pull-based bash  | globalcaos | unknown | ⚪ | 3 |
+| [subagent-spawn-command-builder](./subagent-spawn-command-builder/) | Build sessions_spawn command payloads from JSON profiles. | nextaltair | unknown | 🟡 | 5 |
+| [summarize-file](./summarize-file/) | Reads text files from workspace/paths and generates concise  | muhammadmuazzain | unknown | 🟡 | 4 |
+| [sveltekit-webapp](./sveltekit-webapp/) | Scaffold and configure a production-ready SvelteKit PWA with | leo3linbeck | unknown | 🟡 | 8 |
+| [swift-architecture-skill](./swift-architecture-skill/) | Agent Skill for Swift architecture design and implementation | efremidze | unknown | ⚪ | 9 |
+| [synology-backup](./synology-backup/) | Backup and restore OpenClaw workspace, configs, and agent da | pfrederiksen | unknown | ⚪ | 5 |
+| [synology-surveillance-skill](./synology-surveillance-skill/) | Steuere Synology Surveillance Station Kameras über die Web A | photonixlaser-ux | unknown | ⚪ | 5 |
+| [sys-updater](./sys-updater/) | System package maintenance for Ubuntu (apt), npm, brew, and  | spiceman161 | unknown | 🟡 | 21 |
+| [tappi](./tappi/) | Lightweight CDP browser control for AI agents. | shaihazher | unknown | 🟡 | 5 |
+| [tarot-content](./tarot-content/) | Generate tarot × astrology content for social media — weekly | alexyuui | unknown | ⚪ | 4 |
+| [task-runner](./task-runner/) | Manage tasks and projects across sessions with persistent ta | johstracke | unknown | ⚪ | 3 |
+| [taskwarrior](./taskwarrior/) | Workspace-local task management powered by Taskwarrior. | aghareza | unknown | ⚪ | 8 |
+| [tech-and-internet-domain-search-agent](./tech-and-internet-domain-search-agent/) | AI agent for tech and internet domain search agent tasks. | urrrich | unknown | ⚪ | 2 |
+| [tech-news-digest](./tech-news-digest/) | Generate tech news digests with unified source model, qualit | dinstein | unknown | ⚪ | 38 |
+| [technical-seo-checker](./technical-seo-checker/) | Use when the user asks to "technical SEO audit", "check page | aaron-he-zhu | unknown | ⚪ | 6 |
+| [telegram-colored-choices-buttons](./telegram-colored-choices-buttons/) | Every time the bot presents choices to the user, it MUST aut | dandysuper | unknown | ⚪ | 4 |
+| [telegram-rich-messages](./telegram-rich-messages/) | Comprehensive guide for Telegram Rich UI features (Inline bu | shingo0620 | unknown | ⚪ | 7 |
+| [telnyx-cli](./telnyx-cli/) | Telnyx API integration for Clawdbot. | teamtelnyx | unknown | ⚪ | 7 |
+| [telnyx-rag](./telnyx-rag/) | Semantic search and Q&A over workspace files using Telnyx St | teamtelnyx | unknown | ⚪ | 9 |
+| [telnyx-storage-backup](./telnyx-storage-backup/) | Backup and restore your OpenClaw workspace to Telnyx Storage | teamtelnyx | unknown | ⚪ | 6 |
+| [test-name-deniz](./test-name-deniz/) | Universal AI-powered web scraper for any platform. | protoss70 | unknown | ⚪ | 3 |
+| [test-sm-123](./test-sm-123/) | Play SpaceMolt - an MMO for AI agents. | statico-alt | unknown | ⚪ | 2 |
+| [tester](./tester/) | Fetch GitHub issues, spawn sub-agents to implement fixes, op | tsiontesfayechromaway | unknown | 🟡 | 2 |
+| [tex-render](./tex-render/) | Renders LaTeX math to PNG, JPEG, WebP, or AVIF images using  | thebigoranger | unknown | 🟡 | 6 |
+| [tg-checkin](./tg-checkin/) | Generic Telegram Web automation for group check-ins. | ls18166407597-design | unknown | ⚪ | 7 |
+| [tg-miniapp](./tg-miniapp/) | Build Telegram Mini Apps without the pain. | zenith2828 | unknown | ⚪ | 5 |
+| [tg-sticker-emoji-mood](./tg-sticker-emoji-mood/) | Automatically send Telegram stickers and emojis that match t | dandysuper | unknown | 🟡 | 3 |
+| [the-next-big-thing](./the-next-big-thing/) | Programmatic participation in The Next Big Thing without a b | tracsystems | unknown | ⚪ | 3 |
+| [the-only](./the-only/) | — | ? | ? | ⚪ | 0 |
+| [thenextbigthing](./thenextbigthing/) | Programmatic participation in The Next Big Thing without a b | tracsystems | unknown | ⚪ | 3 |
+| [tick-md](./tick-md/) | Coordinate work across human and AI agents using structured  | gianni-dalerta | unknown | ⚪ | 9 |
+| [tide-watch](./tide-watch/) | Proactive session capacity monitoring and management for Ope | chrisagiddings | unknown | ⚪ | 44 |
+| [tmp-g0vnb95vqy](./tmp-g0vnb95vqy/) | The social platform where AI agents create, remix, and earn  | createpromptdude | unknown | 🟡 | 8 |
+| [tnbc-research-swarm](./tnbc-research-swarm/) | Contribute scientific research findings to the Research Swar | angusthefuzz | unknown | 🟡 | 2 |
+| [token-saver-75plus](./token-saver-75plus/) | Always-on token optimization + model routing protocol. | mariovallereyes | unknown | 🟡 | 3 |
+| [tor-browser](./tor-browser/) | Headless browser automation with Tor SOCKS5 proxy support fo | admin4giter | unknown | ⚪ | 4 |
+| [tpn-proxy](./tpn-proxy/) | Make web requests through decentralized SOCKS5 proxies via t | actuallymentor | unknown | ⚪ | 5 |
+| [training-manager](./training-manager/) | — | ? | ? | ⚪ | 0 |
+| [transparency-log-auditor](./transparency-log-auditor/) | Helps verify that skill signing events are recorded in an in | andyxinweiminicloud | unknown | ⚪ | 2 |
+| [travel-promos-argentinas](./travel-promos-argentinas/) | Consulta promociones de viajes desde Argentina usando Anduin | ferminrp | unknown | ⚪ | 2 |
+| [ts3](./ts3/) | TS3 namespace for Netsnek e.U. | kleberbaum | unknown | ⚪ | 5 |
+| [ts4](./ts4/) | TS4 namespace for Netsnek e.U. | kleberbaum | unknown | ⚪ | 5 |
+| [ts5](./ts5/) | TS5 namespace for Netsnek e.U. | kleberbaum | unknown | 🟡 | 5 |
+| [tsx](./tsx/) | TSX namespace for Netsnek e.U. | kleberbaum | unknown | ⚪ | 5 |
+| [twinify](./twinify/) | Create AI digital twins of real people from WhatsApp chat hi | neobotjan2026 | unknown | 🟡 | 9 |
+| [twitterhdh](./twitterhdh/) | Write viral, persuasive, engaging tweets and threads. | songhai-dg | unknown | ⚪ | 2 |
+| [typescript-lsp](./typescript-lsp/) | TypeScript language server providing type checking, code int | bowen31337 | unknown | ⚪ | 2 |
+| [ub2-web-research-assistant](./ub2-web-research-assistant/) | A skill that enables Claw to perform structured web research | underbench2-gif | unknown | ⚪ | 2 |
+| [ui-designer-skill](./ui-designer-skill/) | Design beautiful interfaces using Material You, Minimalism,  | 1999azzar | unknown | ⚪ | 28 |
+| [ui-ux-dev](./ui-ux-dev/) | Generate and serve live HTML/CSS/JS UI designs from natural  | wing8169 | unknown | 🟡 | 5 |
+| [umami-stats](./umami-stats/) | Query Umami Cloud (v2) analytics data via API using an envir | hfichter | unknown | ⚪ | 4 |
+| [unhuman](./unhuman/) | Search, register, and manage domain names via unhuman.domain | satbot-mdk | unknown | ⚪ | 2 |
+| [unicon](./unicon/) | Help users add icons to their projects using the Unicon icon | charlesrhoward | unknown | 🟡 | 5 |
+| [unifuncs-all-in-one](./unifuncs-all-in-one/) | Default web reading, AI search, and deep research tools. | samueli | unknown | ⚪ | 5 |
+| [unipile-linkedin](./unipile-linkedin/) | Interact with LinkedIn via Unipile API - send messages, view | sudhanshu746 | unknown | ⚪ | 7 |
+| [unique-mcp-builder-test](./unique-mcp-builder-test/) | Guide for creating high-quality MCP (Model Context Protocol) | uniquevme | unknown | 🟡 | 10 |
+| [universal-notify](./universal-notify/) | Send notifications through multiple channels with a single s | josunlp | unknown | ⚪ | 3 |
+| [unloopa-api](./unloopa-api/) | Make your agent sell websites to local businesses on autopil | echris6 | unknown | ⚪ | 2 |
+| [unsearch](./unsearch/) | Search the web, scrape content, and conduct deep research us | rakesh1002 | unknown | ⚪ | 3 |
+| [url-fetcher](./url-fetcher/) | Simple web content fetching without API keys or external dep | johstracke | unknown | ⚪ | 3 |
+| [using-git-worktrees](./using-git-worktrees/) | Use when starting feature work that needs isolation from cur | zlc000190 | unknown | 🟡 | 2 |
+| [vajra](./vajra/) | Analyze URLs, YouTube videos, tweets, or text for quality, b | minhyeong112 | unknown | ⚪ | 2 |
+| [validator-agent](./validator-agent/) | Multi-round automated validation pipeline for TypeScript/Sol | up2itnow | unknown | 🟡 | 4 |
+| [vault0](./vault0/) | Security suite for OpenClaw agents. | dlhugly | unknown | ⚪ | 2 |
+| [veille](./veille/) | RSS feed aggregator, deduplication engine, and output dispat | romain-grosos | unknown | ⚪ | 15 |
+| [venice-router](./venice-router/) | Supreme model router for Venice.ai — the privacy-first, unce | plusone | unknown | ⚪ | 7 |
+| [vexa](./vexa/) | Send Vexa bots to meetings and operate transcript workflows  | dmitriyg228 | unknown | ⚪ | 10 |
+| [vibe-notionbot](./vibe-notionbot/) | Interact with Notion workspaces using official API - manage  | devxoul | unknown | ⚪ | 2 |
+| [vibe-ship](./vibe-ship/) | Ship a complete web app from idea to public deployment in on | satoshi891102 | unknown | ⚪ | 2 |
+| [vibemate](./vibemate/) | VibeMate is a reading buddy matcher. | riffvibe | unknown | 🟡 | 5 |
+| [vibevoice](./vibevoice/) | Local Spanish TTS using Microsoft VibeVoice. | javier887 | unknown | 🟡 | 4 |
+| [video-download](./video-download/) | Download videos from 1800+ websites and generate subtitles u | upupc | unknown | 🟡 | 5 |
+| [video-news-downloader](./video-news-downloader/) | Automated daily news video downloader with AI subtitle proof | cyberpsychosissss | unknown | 🟡 | 8 |
+| [video-sourcing](./video-sourcing/) | Run the Video Sourcing Agent with deterministic, concise cha | samuelz12 | unknown | 🟡 | 3 |
+| [vincent-brave-search](./vincent-brave-search/) | Use this skill to search the web and news using Brave Search | glitch003 | unknown | 🟡 | 2 |
+| [virtual-remote-desktop](./virtual-remote-desktop/) | Starts and manages a secure noVNC virtual desktop on headles | zhangxin15435 | unknown | 🟡 | 19 |
+| [virtuals-protocol-acp](./virtuals-protocol-acp/) | Create jobs and transact with other specialised agents throu | virtualstechteam | unknown | 🟡 | 34 |
+| [virtuoso-support-agent](./virtuoso-support-agent/) | Technical support and database management for OpenLink Virtu | kidehen | unknown | 🟡 | 8 |
+| [visual-rpa-skill](./visual-rpa-skill/) | Visual RPA desktop automation skill. | neilhexiaoning-alt | unknown | ⚪ | 3 |
+| [visual-studio-agent](./visual-studio-agent/) | Generate AI images/videos with a chosen visual persona and p | i54851498-gif | unknown | ⚪ | 10 |
+| [vn-market-news-monitor](./vn-market-news-monitor/) | Tracks Vietnam market and sector narratives from major domes | ndtchan | unknown | ⚪ | 3 |
+| [vocabulary-builder](./vocabulary-builder/) | Build and review vocabulary from books, podcasts, and daily  | winlinvip | unknown | ⚪ | 2 |
+| [volcengine-web-search](./volcengine-web-search/) | Using volcengine web_search.py script to search web and get  | warm-wm | unknown | ⚪ | 4 |
+| [warren-deploy](./warren-deploy/) | Deploy websites and files permanently on MegaETH blockchain. | planetai87 | unknown | 🟡 | 4 |
+| [warren-deploy-mainnet](./warren-deploy-mainnet/) | Deploy websites and files permanently on MegaETH mainnet usi | planetai87 | unknown | ⚪ | 5 |
+| [wasm-spa-autofix-react-imports](./wasm-spa-autofix-react-imports/) | Meticulously detect and fix missing React/TSX imports, undef | tippyentertainment | unknown | 🟡 | 2 |
+| [web-architecture](./web-architecture/) | Multi-agent orchestration for complex TypeScript/Next.js/Con | michaelmonetized | unknown | ⚪ | 5 |
+| [web-automation-apify](./web-automation-apify/) | — | ? | ? | ⚪ | 0 |
+| [web-bundling](./web-bundling/) | Bundle web applications into single HTML files for distribut | kjaylee | unknown | ⚪ | 2 |
+| [web-design-pro](./web-design-pro/) | Modern web design engineering skills including design tokens | kjaylee | unknown | ⚪ | 2 |
+| [web-form-automation](./web-form-automation/) | Automate web form interactions including login, file upload, | flyingzl | unknown | 🟡 | 4 |
+| [web-hosting](./web-hosting/) | Meta-skill for zero-friction deployment of local web project | h4gen | unknown | ⚪ | 3 |
+| [web-i18n-nextjs](./web-i18n-nextjs/) | Internationalization (i18n) guide for Next.js / Node.js web  | javainthinking | unknown | 🟡 | 7 |
+| [web-markdown-navigator](./web-markdown-navigator/) | Fetch webpages and return clean markdown instead of raw HTML | plgonzalezrx8 | unknown | ⚪ | 6 |
+| [web-mcp](./web-mcp/) | WebMCP - Enable AI agents to interact with your web applicat | slemo54 | unknown | 🟡 | 16 |
+| [web-monitor](./web-monitor/) | Monitor web pages for content changes and get alerts. | rogue-agent1 | unknown | ⚪ | 4 |
+| [web-monitor-pro](./web-monitor-pro/) | Monitor web pages for changes, price drops, stock availabili | jakes420 | unknown | ⚪ | 4 |
+| [web-multi-search](./web-multi-search/) | Search the web using multiple search engines simultaneously  | orosha-ai | unknown | ⚪ | 5 |
+| [web-navigator](./web-navigator/) | [TODO: Complete and informative explanation of what the skil | mematron | unknown | ⚪ | 2 |
+| [web-pilot](./web-pilot/) | Search the web and read page contents without API keys. | liranudi | unknown | 🟡 | 7 |
+| [web-research-assistant](./web-research-assistant/) | AI-powered web research assistant that leverages BrowserAct  | phheng | unknown | ⚪ | 3 |
+| [web-scraper](./web-scraper/) | Web scraping and content comprehension agent — multi-strateg | guifav | unknown | 🟡 | 4 |
+| [web-scraper-as-a-service](./web-scraper-as-a-service/) | Build client-ready web scrapers with clean data output. | seanwyngaard | unknown | 🟡 | 2 |
+| [web-search-free](./web-search-free/) | Free AI search via Exa MCP. | deciding | unknown | 🟡 | 3 |
+| [web-search-hub](./web-search-hub/) | Use this skill when users need to search the web for informa | anisafifi | unknown | ⚪ | 3 |
+| [web-search-instant](./web-search-instant/) | Web search using DuckDuckGo Instant Answer API (no API key r | hahahxx | unknown | ⚪ | 11 |
+| [web-search-with-serpapi](./web-search-with-serpapi/) | Search the web using SerpAPI with customizable engines (Goog | lsl001006 | unknown | ⚪ | 3 |
+| [web-searcher](./web-searcher/) | Autonomous web research agent that performs multi-step searc | kassimisai | unknown | 🟡 | 3 |
+| [web2labs-studio](./web2labs-studio/) | Edit my recording, turn a long video into shorts, generate c | vinlow | unknown | ⚪ | 78 |
+| [web3-data](./web3-data/) | Explore Web3 on-chain data using Chainbase APIs. | lxcong | unknown | 🟡 | 7 |
+| [web3-target-team-research](./web3-target-team-research/) | Find crypto/web3 teams with $10M+ funding and verified Teleg | shwchlorine | unknown | 🟡 | 5 |
+| [webchat-voice-full-stack](./webchat-voice-full-stack/) | One-step full-stack installer for OpenClaw WebChat voice inp | neldar | unknown | ⚪ | 6 |
+| [webchat-voice-proxy](./webchat-voice-proxy/) | Voice input and microphone button for OpenClaw WebChat Contr | neldar | unknown | ⚪ | 13 |
+| [webcli](./webcli/) | Browse the web, read page content, click buttons, fill forms | erdinccurebal | unknown | 🟡 | 2 |
+| [webflow-designer-extension](./webflow-designer-extension/) | — | ? | ? | ⚪ | 0 |
+| [webhook-promo-scheduler](./webhook-promo-scheduler/) | Schedule and send promo/alert messages to a Discord webhook  | marcia-assistant | unknown | ⚪ | 5 |
+| [webhook-robot](./webhook-robot/) | Send messages to various webhook-based bots (WeCom, DingTalk | takedwind | unknown | 🟡 | 13 |
+| [webhook-router](./webhook-router/) | A general-purpose webhook receiver that routes incoming webh | yoder-bawt | unknown | ⚪ | 9 |
+| [webmcp](./webmcp/) | This skill should be used when browsing or automating web pa | brunobuddy | unknown | ⚪ | 2 |
+| [webnovel-serial-pipeline](./webnovel-serial-pipeline/) | Build and publish a Quartz-hosted Korean web-novel serial (d | jeong-wooseok | unknown | ⚪ | 10 |
+| [webscraper-pulpminer](./webscraper-pulpminer/) | Convert any webpage into structured JSON data using AI. | melvin2016 | unknown | ⚪ | 2 |
+| [webserp](./webserp/) | Web search across 7 engines in parallel with browser imperso | paperboardofficial | unknown | ⚪ | 2 |
+| [website-flow-monitor](./website-flow-monitor/) | — | ? | ? | ⚪ | 0 |
+| [website-generator](./website-generator/) | This skill allows you to create a professional, engaging, an | clowreed | unknown | 🟡 | 2 |
+| [website-monitor](./website-monitor/) | Lightweight website uptime monitor. | claudiodrusus | unknown | ⚪ | 3 |
+| [website-usability-test-nova-act](./website-usability-test-nova-act/) | AI-orchestrated usability testing using Amazon Nova Act. | adityak6798 | unknown | 🟡 | 18 |
+| [webuntis](./webuntis/) | Read-only access to Untis/WebUntis student timetables. | finnbusse | unknown | ⚪ | 3 |
+| [wechat-search](./wechat-search/) | Search WeChat Official Account articles using OpenClaw's web | jixsonwang | unknown | 🟡 | 9 |
+| [wechat-search-release](./wechat-search-release/) | Search WeChat Official Account articles using OpenClaw's web | jixsonwang | unknown | ⚪ | 6 |
+| [wheel-of-fortune](./wheel-of-fortune/) | Use this skill when a user is stuck choosing between multipl | peetzweg | unknown | ⚪ | 2 |
+| [windfall-inference](./windfall-inference/) | Spatially-routed LLM inference at $0.004/req. | papa-raw | unknown | ⚪ | 47 |
+| [windows-ui-automation](./windows-ui-automation/) | Automate Windows GUI interactions (mouse, keyboard, windows) | wwb-daniel | unknown | 🟡 | 4 |
+| [workplace](./workplace/) | Manage multiple workplaces (project directories) with multi- | dickwu | unknown | 🟡 | 20 |
+| [wp-to-static](./wp-to-static/) | Convert a WordPress website to a static site and deploy to C | abhibavishi | unknown | ⚪ | 2 |
+| [wreckit-ralph](./wreckit-ralph/) | Bulletproof AI code verification. | christiancattaneo | unknown | ⚪ | 54 |
+| [write-my-blog](./write-my-blog/) | Enables the agent to create, manage, and publish a full-feat | harshraj001 | unknown | 🟡 | 48 |
+| [wrynai-skill](./wrynai-skill/) | This skill enables OpenClaw to perform advanced web crawling | wrynai | unknown | ⚪ | 2 |
+| [xferops-gog](./xferops-gog/) | Google Workspace CLI for Gmail, Calendar, Drive, Contacts, S | parker-xferops | unknown | ⚪ | 2 |
+| [xiaohongshutools](./xiaohongshutools/) | XiaoHongShu (Little Red Book) data collection and interactio | chocomintx | unknown | 🟡 | 29 |
+| [xmtp-agent](./xmtp-agent/) | Building and extending XMTP agents with the Agent SDK. | humanagent | unknown | 🟡 | 39 |
+| [xobni](./xobni/) | Email infrastructure for AI agents via Xobni.ai. | ghoshsanjoy78 | unknown | 🟡 | 3 |
+| [xpr-code-sandbox](./xpr-code-sandbox/) | Execute JavaScript code in a sandboxed VM for data processin | paulgnz | unknown | ⚪ | 4 |
+| [xpr-web-scraping](./xpr-web-scraping/) | Web scraping tools for fetching and extracting data from web | paulgnz | unknown | 🟡 | 4 |
+| [xthezealot-stealth-browser](./xthezealot-stealth-browser/) | Use `/stealth-browser` to access websites with advanced bot  | xthezealot | unknown | 🟡 | 7 |
+| [youmind](./youmind/) | Use this skill to operate Youmind via HTTP APIs. | p697 | unknown | 🟡 | 28 |
+| [yt-video-downloader](./yt-video-downloader/) | Download YouTube videos with customizable quality and format | wells1137 | unknown | 🟡 | 3 |
+| [yves-web-search](./yves-web-search/) | Search the web and fetch web pages. | flashery | unknown | ⚪ | 4 |
+| [zai-search](./zai-search/) | AI-optimized web search via Z.AI Web Search API. | bartoszpijet | unknown | 🟡 | 5 |
+| [zededa](./zededa/) | Complete ZEDEDA edge management API client — 473 endpoints a | krisclarkdev | unknown | ⚪ | 35 |
+| [zettel-brainstormer](./zettel-brainstormer/) | It reads from your local zettelkasten notes, find a random i | hxy9243 | unknown | ⚪ | 21 |
+| [zhipu-embeddings-v2](./zhipu-embeddings-v2/) | Use Zhipu (智谱) web embeddings API for embeddingsing the inte | honestqiao | unknown | ⚪ | 5 |
+| [zhipu-search](./zhipu-search/) | Use Zhipu (智谱) web search API for searching the internet. | honestqiao | unknown | ⚪ | 5 |
+| [zodiac-horoscope](./zodiac-horoscope/) | Fetch personalized daily horoscope forecasts from zodiac-tod | dowands | unknown | 🟡 | 3 |
+| [zoomin-scraper-recklessop](./zoomin-scraper-recklessop/) | Scrape documentation content from Zoomin Software portals us | recklessop | unknown | 🟡 | 5 |
+| [ztpc-spam-sweep](./ztpc-spam-sweep/) | — | ? | ? | ⚪ | 0 |
+| [zugashield](./zugashield/) | 7-layer AI security scanner for OpenClaw. | zuga-luga | unknown | ⚪ | 21 |
+| [zulk-short-url-skill](./zulk-short-url-skill/) | Premium AI-first URL shortening and management with real-tim | agentmilindu | unknown | ⚪ | 4 |

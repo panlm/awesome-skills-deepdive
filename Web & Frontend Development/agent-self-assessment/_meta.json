@@ -1,0 +1,17 @@
+{
+  "owner": "roosch269",
+  "slug": "agent-self-assessment",
+  "displayName": "Agent Self Assessment",
+  "latest": {
+    "version": "2.0.1",
+    "publishedAt": 1773606888009,
+    "commit": "https://github.com/openclaw/skills/commit/6604678213307e5acdaa03bbae66b930d4a42fb1"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771355645180,
+      "commit": "https://github.com/openclaw/skills/commit/b0b6570fa2c3bd20fe0cd8833fc87a31fefd08ef"
+    }
+  ]
+}

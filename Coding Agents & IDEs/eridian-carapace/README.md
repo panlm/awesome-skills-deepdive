@@ -1,0 +1,22 @@
+# eridian-carapace
+
+> Agent security hardening and prompt injection defense for OpenClaw.
+
+## 安全状态
+
+| 检查项 | 状态 |
+|---|---|
+| VirusTotal | Benign |
+| OpenClaw | Unknown |
+| 综合评级 | ⚪ |
+
+## 包含文件
+
+- `SKILL.md`
+- `_meta.json`
+- `references/attack-vectors.md`
+- `references/audit-template.md`
+- `references/security-patterns.md`
+
+---
+*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

@@ -1,0 +1,39 @@
+# nova-act
+
+> Write and execute Python scripts using Amazon Nova Act for AI-powered browser automation tasks like flight.
+
+## 安全状态
+
+| 检查项 | 状态 |
+|---|---|
+| VirusTotal | Benign |
+| OpenClaw | Unknown |
+| 综合评级 | ⚪ |
+
+## 包含文件
+
+- `CHANGELOG.md`
+- `README.md`
+- `RELEASE_NOTES_2.0.0.md`
+- `SKILL.md`
+- `_meta.json`
+- `assets/report-template.html`
+- `references/nova-act-cookbook.md`
+- `references/persona-examples.md`
+- `scripts/dynamic_exploration.py`
+- `scripts/enhanced_report_generator.py`
+- `scripts/fix_report.py`
+- `scripts/generate_report.py`
+- `scripts/nova_act_runner.py`
+- `scripts/nova_session.py`
+- `scripts/response_interpreter.py`
+- `scripts/run_adaptive_test.py`
+- `scripts/safe_nova_wrapper.py`
+- `scripts/status_reporter.py`
+- `scripts/trace_finder.py`
+- `setup.py`
+- `setup.sh`
+- `skill.json`
+
+---
+*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

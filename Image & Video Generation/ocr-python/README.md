@@ -1,0 +1,21 @@
+# ocr-python
+
+> Optical Character Recognition (OCR) tool, supports Chinese and English text extraction from PDFs and images.
+
+## 安全状态
+
+| 检查项 | 状态 |
+|---|---|
+| VirusTotal | Benign |
+| OpenClaw | Unknown |
+| 综合评级 | ⚪ |
+
+## 包含文件
+
+- `SKILL.md`
+- `SKILL.zh-CN.md`
+- `_meta.json`
+- `scripts/ocr.py`
+
+---
+*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

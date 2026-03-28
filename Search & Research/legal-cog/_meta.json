@@ -1,0 +1,17 @@
+{
+  "owner": "nitishgargiitd",
+  "slug": "legal-cog",
+  "displayName": "legal-cog",
+  "latest": {
+    "version": "1.0.1",
+    "publishedAt": 1773888955515,
+    "commit": "https://github.com/openclaw/skills/commit/b87a0dfceb470df9a0c1874c5be49ebaad16edaa"
+  },
+  "history": [
+    {
+      "version": "1.0.0",
+      "publishedAt": 1771369250953,
+      "commit": "https://github.com/openclaw/skills/commit/dc2705f4048f3688e05b84ff5f0ef6d31b75a054"
+    }
+  ]
+}
