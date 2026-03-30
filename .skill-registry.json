@@ -64738,10 +64738,20 @@
     "owner": "aaron-he-zhu",
     "slug": "serp-analysis",
     "displayName": "Serp Analysis",
-    "version": "unknown",
-    "publishedAt": 0,
-    "commit": "",
+    "version": "4.1.0",
+    "publishedAt": 1774755396361,
+    "commit": "https://github.com/openclaw/skills/commit/c63d3c39288a145eed46a7000d6b2610b04384f5",
     "history": [
+      {
+        "version": "4.0.0",
+        "publishedAt": 1774347685000,
+        "commit": "https://github.com/openclaw/skills/commit/6fc8accac98b89b7c0a3059eea095b0d395aeb14"
+      },
+      {
+        "version": "3.0.0",
+        "publishedAt": 1772640710030,
+        "commit": "https://github.com/openclaw/skills/commit/f0f31c37006e68a997a02fc715c62bdbdf23db5e"
+      },
       {
         "version": "2.0.0",
         "publishedAt": 1771043005136,
@@ -64773,7 +64783,8 @@
       "references/example-report.md",
       "references/serp-feature-taxonomy.md"
     ],
-    "fetched_at": "2026-03-27T04:39:35.606571+00:00"
+    "fetched_at": "2026-03-30T03:04:24.454425+00:00",
+    "description": "Analyze search engine results pages to understand ranking factors, SERP features, user intent patterns, and AI overview triggers."
   },
   "Search & Research/session-history": {
     "owner": "amor71",
@@ -104522,10 +104533,20 @@
     "owner": "aaron-he-zhu",
     "slug": "content-refresher",
     "displayName": "Content Refresher",
-    "version": "unknown",
-    "publishedAt": 0,
-    "commit": "",
+    "version": "4.1.0",
+    "publishedAt": 1774755410331,
+    "commit": "https://github.com/openclaw/skills/commit/b6c577cb829ec722c324d2aa63f3cda6b32d4b9c",
     "history": [
+      {
+        "version": "4.0.0",
+        "publishedAt": 1774347715899,
+        "commit": "https://github.com/openclaw/skills/commit/27d31b26265c05abc62c567f9558e4343e81dd2d"
+      },
+      {
+        "version": "3.0.0",
+        "publishedAt": 1772640499945,
+        "commit": "https://github.com/openclaw/skills/commit/fe40b18d69538707893d393643f73429e0832eea"
+      },
       {
         "version": "2.0.0",
         "publishedAt": 1771042842826,
@@ -104557,7 +104578,8 @@
       "references/refresh-example.md",
       "references/refresh-templates.md"
     ],
-    "fetched_at": "2026-03-27T07:29:14.689919+00:00"
+    "fetched_at": "2026-03-30T03:04:24.454425+00:00",
+    "description": "Refresh old blog posts and outdated content with current statistics, new information, and freshness signals to restore search rankings."
   },
   "Coding Agents & IDEs/content-repurposer": {
     "owner": "audsmith28",

@@ -1,3 +1,9 @@
+## 2026-03-30
+
+### Updated (2)
+- [Coding Agents & IDEs] content-refresher — changed: SKILL.md, _meta.json, references/refresh-example.md, references/refresh-templates.md
+- [Search & Research] serp-analysis — changed: SKILL.md, _meta.json
+
 ## 2026-03-28
 
 ### Updated (1)

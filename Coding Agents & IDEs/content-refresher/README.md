@@ -1,22 +1,61 @@
-# content-refresher
+# Content Refresher — 内容刷新优化
 
-> Use when the user asks to "update old content", "refresh content", "content is outdated", "improve declining.
+> **作者**: [aaron-he-zhu](https://github.com/aaron-he-zhu) · **版本**: v4.1.0 · **许可证**: Apache-2.0
 
-## 安全状态
+识别过时的网页内容，指导更新以恢复失去的搜索排名和流量。分析内容新鲜度，发现与竞争对手覆盖范围的差距，并生成涵盖统计数据、结构和 GEO 优化（AI 引用潜力）的刷新计划。
 
-| 检查项 | 状态 |
-|---|---|
-| VirusTotal | Benign |
-| OpenClaw | Unknown |
-| 综合评级 | ⚪ |
+## 功能概述
+
+- 🔍 **新鲜度分析**: 识别需要更新的过时内容，检测内容衰退信号
+- 📉 **性能追踪**: 发现流量下降的内容，按 ROI 优先级排序
+- 🆚 **竞争差距识别**: 找出竞争对手已覆盖但你缺失的主题
+- 📋 **CORE-EEAT 快速评估**: 对内容的 8 个 E-E-A-T 维度进行快速打分
+- 📝 **刷新计划生成**: 提供结构化的内容更新方案（统计数据、新章节、SEO 元素）
+- 🤖 **GEO 优化增强**: 在刷新过程中优化内容以获得 AI 搜索引用
+- 🚀 **重新发布策略**: 提供日期策略、技术实施和推广计划建议
+- 📊 **刷新报告**: 汇总变更、预期结果和下次审查日期
+
+## 使用场景
+
+1. **年度内容刷新**: 博客文章中的年份引用、过时统计数据需要更新，通过系统化刷新流程恢复排名
+2. **排名恢复**: 某篇文章排名大幅下降，需要分析原因（竞争对手更新、内容衰退）并制定恢复计划
+3. **AI 搜索优化**: 将旧有内容改造为适合 AI Overview/SGE 引用的格式，增加 AI 搜索曝光
+
+## 依赖和前提条件
+
+- **运行环境**: Claude Code ≥1.0, skills.sh marketplace, ClawHub marketplace, Vercel Labs skills ecosystem
+- **系统依赖**: 无需安装系统包
+- **可选集成**: MCP 网络访问用于 SEO 工具集成（Analytics、Search Console、SEO 工具）
+- **无集成时**: 用户手动提供流量数据、排名截图等，skill 仍可正常工作
+- **所属套件**: [SEO & GEO Skills Library](https://github.com/aaron-he-zhu/seo-geo-claude-skills)（共 20 个 SEO/GEO 技能）
 
 ## 包含文件
 
-- `SKILL.md`
-- `_meta.json`
-- `references/content-decay-signals.md`
-- `references/refresh-example.md`
-- `references/refresh-templates.md`
+| 文件 | 说明 |
+|------|------|
+| `SKILL.md` | 主技能定义文件，包含完整工作流程和输出模板 |
+| `_meta.json` | 元数据（版本历史、发布信息） |
+| `references/content-decay-signals.md` | 内容衰退信号分类、生命周期阶段、按内容类型的刷新触发条件 |
+| `references/refresh-example.md` | 完整示例（云托管内容刷新）和刷新前/后检查清单 |
+| `references/refresh-templates.md` | 步骤 5-9 的详细输出模板（刷新计划、内容撰写、GEO 增强、重新发布、报告） |
 
----
-*由 awesome-skills-deepdive 自动生成 | 2026-03-27*
+## 安全审计结果
+
+| 检查项 | 评级 | 发现 |
+|--------|------|------|
+| SEC-01 命令执行 | 🟢 通过 | 纯指令/模板型 skill，无 shell 命令 |
+| SEC-02 数据外泄 | 🟢 通过 | 无外部网络请求，仅引用 ~~placeholder 集成 |
+| SEC-03 凭证获取 | 🟢 通过 | 不触碰任何凭证或密钥 |
+| SEC-04 供应链风险 | 🟢 通过 | 无软件包安装操作 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 不修改系统文件，仅生成分析报告 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 指令清晰透明，无隐藏行为 |
+| SEC-07 越权操作 | 🟢 通过 | 操作范围与声称的内容刷新功能一致 |
+| SEC-08 持久化机制 | 🟢 通过 | 无 cron、后台进程或持久化行为 |
+| SEC-09 信息采集 | 🟢 通过 | 不收集系统/环境元数据 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 所有指令清晰可读，无编码或间接执行 |
+
+**综合评级: 🟢 Safe (安全)**
+
+**ClawHub 状态**: VirusTotal: Benign | OpenClaw: Unknown
+
+**风险摘要**: 该 skill 为纯文本指令型，仅提供内容分析模板和工作流程指导，无命令执行、无网络访问、无凭证读取、无系统修改。所有数据输入依赖用户手动提供或已配置的 MCP 集成。
