@@ -1,51 +1,60 @@
-# AI Brand Analyzer
+# ai-brand-analyzer
 
-> 使用 AI 分析品牌并生成结构化品牌身份档案（JSON 格式）
+> Analyze brands to generate comprehensive brand identity profiles (JSON). Use when the user wants to analyze a brand, create a brand profile, or needs brand data for ad generation. Stores profiles for reuse across Ad-Ready, Morpheus, and other creative workflows. Can list existing profiles and update them.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | AI Brand Analyzer |
+| **名称** | ai-brand-analyzer |
 | **作者** | pauldelavallaz |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/pauldelavallaz-ai-brand-analyzer |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/pauldelavallaz/ai-brand-analyzer |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟡 Medium (中风险) |
 
 ## 功能概述
-- 通过 Google 搜索研究品牌的官方数据、营销活动和视觉形象
-- 使用 Gemini Flash 配合搜索落地功能进行品牌分析
-- 生成标准化 JSON 格式的品牌身份档案
-- 分析品牌行为模式、视觉风格、摄影风格和语调
-- 支持将档案存储并在 Ad-Ready 等创意工作流中复用
-- 可列出已有品牌档案并进行更新
 
-## 使用场景
-- 为广告创意生成前快速建立品牌身份档案
-- 分析竞争品牌的视觉风格和市场定位
-- 在多个创意工具间共享标准化品牌数据
+- User asks to "analyze a brand" or "create a brand profile"
+- Before running Ad-Ready when the brand isn't in the catalog
+- When the user mentions a brand that doesn't have a profile yet
+- To update/refresh an existing brand profile
+- Brand website, corporate pages, official communications
+- Locks canonical data: name, founding, positioning, vision, mission, tagline
 
 ## 依赖和前提条件
-- Gemini API Key（`GEMINI_API_KEY` 环境变量）
-- uv 包管理器（用于运行 Python 脚本）
 
-## 安全状态
+- GEMINI_API_KEY
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟡 Suspicious |
+| OpenClaw | 🟡 Suspicious |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟡 警告 | 注意: api_key |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟡 警告 | 注意: automatically |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，1 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+**综合评级: 🟡 Medium (中风险)**
+
+**风险摘要:** 检测到 3 项警告: 命令执行, 凭证获取, Prompt 注入。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

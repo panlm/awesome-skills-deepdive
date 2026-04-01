@@ -1,35 +1,62 @@
-# Token Alert
+# token-alert
 
-> 实时监控 Anthropic Claude 会话 Token 用量，在达到阈值时发出告警
+> 🚨 **Monitor session tokens and get alerts at 75%/90%/95%**
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Token Alert |
+| **名称** | token-alert |
 | **作者** | r00tid |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/r00tid-token-alert |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/r00tid/token-alert |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 实时追踪 Anthropic Claude API 的 Token 消耗量
-- 在 75%、90%、95% 使用率时自动发出 CLI 告警
-- 可选的可视化仪表盘展示 Token 使用趋势
-- 支持自定义告警阈值和通知方式
-- 帮助避免会话中途因 Token 耗尽而丢失上下文
-- 轻量级 CLI 工具，无需复杂配置
 
-## 使用场景
-- 长时间与 Claude 对话时，实时监控剩余 Token 量，避免突然中断
-- 团队共享 API Key 时，追踪和分配 Token 使用配额
-- 开发环境中自动告警，提前切换对话或保存上下文
+- ✅ **6-Level Threshold System** - Alerts at 25%, 50%, 75%, 90%, 95%, 100%
+- ✅ **Material Design Progress Bar** - Box-style (▰/▱) with color gradients
+- ✅ **Rich UI Dashboard** - Interactive HTML dashboard with animations
+- ✅ **Session Status** - Shows current token usage on demand
+- ✅ **Telegram Alerts** - Get notified before hitting limits
+- ✅ **HEARTBEAT Integration** - Optional automated checks
+- ✅ **Stateless** - No state file needed, calculates on-demand
+- ✅ **Session Estimates** - Predicts remaining sessions (~50k avg)
 
 ## 依赖和前提条件
-- 参见 SKILL.md 获取详细依赖信息
 
-## 安全状态
-> 暂无安全审计数据
+- get_session_token
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟡 Suspicious |
+| OpenClaw | 🟡 Suspicious |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
+## 详细安全审计
+
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟡 警告 | 注意: automatically |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
+
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 2 项警告: 命令执行, Prompt 注入。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

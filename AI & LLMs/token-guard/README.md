@@ -1,35 +1,60 @@
-# Token Guard
+# token-guard
 
-> LLM API 429 错误预防引擎，智能管理速率限制和 Token 消耗
+> <!-- 🌌 Aoineco-Verified | S-DNA: AOI-2026-0213-SDNA-TG01 -->
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Token Guard |
+| **名称** | token-guard |
 | **作者** | edmonddantesj |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/edmonddantesj-token-guard |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/edmonddantesj/token-guard |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 预防 LLM API 429（请求过多）错误
-- 智能速率限制管理，自动调节请求频率
-- Token 使用量实时追踪和成本优化
-- 高性能设计，适用于高并发 AI 应用场景
-- 支持多种 LLM API 提供商
-- 自动重试机制与退避策略
 
-## 使用场景
-- 高并发 AI 应用中防止因超出速率限制导致服务中断
-- 多 Agent 系统共享 API 资源时的智能调度
-- 生产环境中 LLM API 调用的成本控制和优化
+- Large documents (docx, PDFs) can consume the entire minute quota in one request
+- Failed requests still count toward token usage
+- Retry loops after 429 errors waste more tokens → death spiral
+- No built-in way to detect runaway/duplicate requests
+- `gemini-3-flash` (1M TPM)
+- `gemini-3-pro` (2M TPM)
 
 ## 依赖和前提条件
-- Python 及相关依赖包
 
-## 安全状态
-> 暂无安全审计数据
+- guard.record_usage(decision.estimated_token
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟡 Suspicious |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
+## 详细安全审计
+
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 通过 | 未检测到命令执行相关风险模式 |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟡 警告 | 注意: pip install |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
+
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 1 项警告: 供应链风险。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

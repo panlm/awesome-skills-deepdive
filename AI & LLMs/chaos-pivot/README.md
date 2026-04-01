@@ -1,51 +1,35 @@
-# Chaos pivot
+# chaos-pivot
 
-> 防止 LLM 陷入沉没成本误区，当 Agent 卡住、循环或反复失败时触发，强制进行波普尔式证伪并生成替代方案
+> Prevents LLMs from sunk-cost pushing broken solutions. Triggers when an agent is stuck, looping, or failing repeatedly. Forces a Popperian falsification moment, then generates 3 constrained-chaotic alternative approaches and picks the best one. Loops like design thinking until solved or escalated.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Chaos pivot |
+| **名称** | chaos-pivot |
 | **作者** | manecharo |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/manecharo-chaos-pivot |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/manecharo/chaos-pivot |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 ClawHub Verified (Benign) |
 
 ## 功能概述
-- 检测 Agent 陷入重复循环、无进展状态，自动触发中断机制
-- 实施波普尔证伪方法论，要求 Agent 明确声明失败假设
-- 基于塔勒布反脆弱理论，利用失败信息生成更强的替代方案
-- 引入博弈论混合策略思想，注入随机性避免陷入局部最优
-- 自动生成 3 个约束混沌替代方案并评估选择最优方案
-- 支持设计思维式循环，持续迭代直到问题解决或升级处理
-- 提供死胡同声明模板，结构化记录失败原因和核心假设
 
-## 使用场景
-- Agent 在编程调试中反复尝试相同策略失败时，自动切换到全新的解决路径
-- 复杂任务执行步骤超过预期阈值时，触发重新评估和策略转向
-- 当 Agent 自述不确定或迷失方向时，启动结构化的替代方案生成流程
+- **Skipping the Falsification Moment**: You must name what failed and why before generating alternatives. Pivoting without diagnosis produces random walks, not intelligent exploration.
 
 ## 依赖和前提条件
-- 无外部依赖，纯指令型 Skill
+
+- 无特殊依赖
 
 ## 安全状态
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟢 Benign |
+
+> ClawHub 安全扫描已通过，跳过详细审计。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 生成时间: 2026-04-01 04:47 UTC

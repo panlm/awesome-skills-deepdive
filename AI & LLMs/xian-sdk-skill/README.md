@@ -1,36 +1,39 @@
-# Xian SDK
+# xian-sdk-skill
 
-> 使用 xian-py Python SDK 在 Xian 区块链上构建应用
+> Build applications on the Xian blockchain using the xian-py Python SDK. Use when developing apps that interact with Xian — wallets, transactions, smart contracts, state queries, token transfers. Covers sync and async patterns.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Xian SDK |
+| **名称** | xian-sdk-skill |
 | **作者** | endogen |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/endogen-xian-sdk-skill |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/endogen/xian-sdk-skill |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 ClawHub Verified (Benign) |
 
 ## 功能概述
-- 使用 xian-py Python SDK 与 Xian 区块链交互
-- 支持钱包创建和管理
-- 发送交易和代币转账
-- 智能合约部署和调用
-- 链上状态查询
-- 支持同步和异步编程模式
 
-## 使用场景
-- 开发基于 Xian 区块链的去中心化应用（DApp）
-- AI Agent 自动执行链上交易和智能合约操作
-- 查询 Xian 区块链上的代币余额和合约状态
+- [xian-py GitHub](https://github.com/xian-network/xian-py) — Full SDK docs
+- [Xian Standard Contracts](https://github.com/xian-network/xian-standard-contracts) — Token standards
+- [xian.org](https://xian.org) — Project site
 
 ## 依赖和前提条件
-- Python 及相关依赖包
-- Node.js 运行环境
+
+- contract='my_token
+- xian.submit_contract('my_token
+- "my_token
 
 ## 安全状态
-> 暂无安全审计数据
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟢 Benign |
+
+> ClawHub 安全扫描已通过，跳过详细审计。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 生成时间: 2026-04-01 04:47 UTC

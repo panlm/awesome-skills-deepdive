@@ -1,35 +1,60 @@
-# Gmgn Base Tracker
+# tracking
 
-> 通过 GMGN.AI 追踪 Base 链上的代币动态，涵盖趋势、发现和监控功能
+> Track tokens on Base chain via GMGN.AI. Covers Trenches (Almost Bonded & Migrated), Trending (1h), Discover (Smart Money, KOL, LIVE, Fresh Wallet, Sniper), and Monitor (Track Smart & KOL 1h). Use when users want to find trending tokens, discover new launches, follow smart money, or monitor KOL activity on Base chain.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Gmgn Base Tracker |
+| **名称** | tracking |
 | **作者** | rzyen-hash |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/rzyen-hash-tracking |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/rzyen-hash/tracking |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 追踪 Base 链上的热门代币和新发行代币
-- 支持 Trenches（即将 Bonded 和已迁移代币）板块
-- 1 小时趋势代币排行榜
-- Discover 功能：Smart Money、KOL、LIVE、Fresh Wallet、Sniper 追踪
-- Monitor 功能：追踪 Smart Money 和 KOL 的交易活动
-- 通过 GMGN.AI 平台获取实时链上数据
 
-## 使用场景
-- 发现 Base 链上的新兴热门代币和早期投资机会
-- 监控 Smart Money 和 KOL 的链上交易行为，跟踪大资金动向
-- 实时追踪新上线代币的流动性和交易量变化
+- Always use **web_search** to fetch current, real-time data from GMGN.AI before responding.
+- Present data in clean, structured tables with clear metrics.
+- Always include clickable links to GMGN.AI and DexScreener for each token.
+- Highlight standout signals (e.g. large smart money inflows, high sniper activity, near-bonding tokens).
+- Add a brief **analyst commentary** after each table — what's notable, what to watch.
+- Never fabricate token data. If search returns no results, say so and suggest the user check GMGN directly.
 
 ## 依赖和前提条件
-- 参见 SKILL.md 获取详细依赖信息
 
-## 安全状态
-> 暂无安全审计数据
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
+## 详细安全审计
+
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 通过 | 未检测到命令执行相关风险模式 |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟡 警告 | 注意: automatically |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
+
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 1 项警告: Prompt 注入。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

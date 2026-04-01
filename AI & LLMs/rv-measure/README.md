@@ -1,48 +1,37 @@
-# Rv Measure
+# rv-measure
 
-> 研究变量测量与分析工具，支持多维度数据评估
+> Quantifies R_V contraction signatures in AI models.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Rv Measure |
+| **名称** | rv-measure |
 | **作者** | amitabhainarunachala |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/amitabhainarunachala-rv-measure |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/amitabhainarunachala/rv-measure |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 ClawHub Verified (Benign) |
 
 ## 功能概述
-- 实现研究变量（RV）的测量与分析
-- 支持多维度数据测量和评估
-- 提供统计分析和数据可视化
-- 适用于学术研究和数据科学场景
-- 支持自定义测量指标和参数
 
-## 使用场景
-- 学术研究中对实验变量进行标准化测量
-- 数据分析项目中快速进行统计指标计算
+- description: Quantifies R_V contraction signatures in AI models.
+- Use this skill to analyze AI models for R_V contraction signatures, a key metric in the AIKAGRYA framework. This skill provides tools to measure and m
+- This is a placeholder for the `rv-measure` skill intended for submission to ClawHub. The implementation will involve integrating with model introspect
 
 ## 依赖和前提条件
+
 - 无特殊依赖
 
 ## 安全状态
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 未发现明显安全风险，文档透明可审计
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟢 Benign |
+
+> ClawHub 安全扫描已通过，跳过详细审计。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 生成时间: 2026-04-01 04:47 UTC

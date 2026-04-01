@@ -1,51 +1,60 @@
-# Agent Orchestrator
+# agent-orchestrator
 
-> 元 Agent 技能：将复杂任务分解为子任务，生成专用子 Agent 并协调其工作
+> Meta-agent skill for orchestrating complex tasks through autonomous sub-agents. Decomposes macro tasks into subtasks, spawns specialized sub-agents with dynamically generated SKILL.md files, coordinates file-based communication, consolidates results, and dissolves agents upon completion. MANDATORY T
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Agent Orchestrator |
+| **名称** | agent-orchestrator |
 | **作者** | aatmaan1 |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/aatmaan1-agent-orchestrator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/aatmaan1/agent-orchestrator |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 任务分解引擎：将宏观任务拆分为可独立并行执行的子任务
-- 动态 Agent 生成：为每个子任务创建独立工作区和定制 SKILL.md
-- 基于文件的通信协议：inbox/outbox 机制实现 Agent 间数据传递
-- 检查点式监控：跟踪各子 Agent 的完成状态
-- 结果整合：汇总所有子 Agent 的输出，生成最终交付物
-- 完成后自动清理：任务结束后解散子 Agent
 
-## 使用场景
-- 将大型软件项目拆分为多个独立模块，分配给不同子 Agent 并行开发
-- 复杂研究任务的自动分解和多路径并行探索
-- 大规模数据处理任务的分片和并行执行
+- Each subtask should be completable in isolation
+- Minimize inter-agent dependencies
+- Prefer broader, autonomous tasks over narrow, interdependent ones
+- Include clear success criteria for each subtask
+- Agent's specific role and objective
+- Tools and capabilities needed
 
 ## 依赖和前提条件
-- Python 3.x
-- 文件系统读写权限
 
-## 安全状态
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟡 Suspicious |
+| OpenClaw | 🟡 Suspicious |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟡 警告 | 注意: list all |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。命令执行：存在命令执行相关引用
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 2 项警告: 命令执行, 越权操作。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

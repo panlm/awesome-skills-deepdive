@@ -1,53 +1,60 @@
-# Colormind
+# colormind
 
-> 通过 Colormind.io API 生成配色方案，支持锁定颜色、图像取色和多种模型选择
+> Generate color palettes and get color suggestions via the Colormind.io API (list models, generate palettes with optional locked colors).
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Colormind |
+| **名称** | colormind |
 | **作者** | boilerrat |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/boilerrat-colormind |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/boilerrat/colormind |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 调用 Colormind.io API 生成随机或约束配色方案
-- 支持锁定特定颜色槽位，让 AI 填充其余颜色
-- 提供多种配色模型（default、ui 等），每日更新
-- 通过 ImageMagick 从图像中提取主要颜色生成配色方案
-- 输出 JSON 格式结果，支持 --pretty 模式显示 Hex + RGB
-- 列出当前可用的配色模型
 
-## 使用场景
-- 为 UI 设计快速生成协调的配色方案
-- 基于品牌色锁定后自动补充配套颜色
-- 从产品图片中提取颜色并生成匹配的设计色板
+- This skill sends color data to an external service (colormind.io)
+- The API uses **unencrypted HTTP** (HTTPS has a self-signed certificate)
+- When using `image_to_palette.sh`, derived color data from your images is sent externally
+- **Do not use with sensitive/private images** unless you accept this data sharing
+- Consider running in a sandbox when processing untrusted images (ImageMagick safety)
+- `POST http://colormind.io/api/` → generate a palette (optionally with locked colors)
 
 ## 依赖和前提条件
-- Node.js（运行脚本）
-- ImageMagick `convert` 命令（图像取色功能需要）
-- Python3（辅助脚本）
-- 网络连接（调用 colormind.io API，注意使用未加密 HTTP）
 
-## 安全状态
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟡 Suspicious |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；信息采集：读取环境变量或系统信息
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 1 项警告: 命令执行。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

@@ -1,48 +1,60 @@
-# smart-security
+# anti-injection-skill
 
-> 面向自主 AI Agent 的高级提示词注入防御系统，提供多层防护、内存完整性保护和工具安全封装，符合 OWASP LLM Top 10 2026 标准。
+> Advanced prompt injection defense with multi-layer protection, memory integrity, and tool security wrapper. OWASP LLM Top 10 2026 compliant.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | smart-security |
+| **名称** | anti-injection-skill |
 | **作者** | georges91560 |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/georges91560-anti-injection-skill |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/georges91560/anti-injection-skill |
-| **安全评级** | 🔴 High |
+| **安全评级** | 🔴 Critical (严重) |
 
 ## 功能概述
-- 四层纵深防御架构：预处理过滤、输入分析、运行时监控、响应验证
-- 防范 OWASP LLM01 提示词注入攻击（无防御时成功率 66-84%）
-- 防范 OWASP ASI06 内存投毒攻击（成功率超 80%）
-- 防范系统提示词泄露（OWASP LLM07）
-- 检测零点击攻击和多模态注入（图片、PDF、音频）
-- 阻止跨 Agent 传播攻击
-- 安全优先级设置为最高，在所有其他逻辑之前执行检查
 
-## 使用场景
-- 保护生产环境中的 AI Agent 免受提示词注入和越狱攻击
-- 在处理不可信外部输入时提供实时安全过滤
-- 构建符合 OWASP 安全标准的企业级 AI 应用
+- priority: highest
+- /workspace/MEMORY.md
+- /workspace/memory/
+- /workspace/SOUL.md
+- /workspace/AGENTS.md
+- /workspace/IDENTITY.md
 
 ## 依赖和前提条件
-- 需要 Python / pip
-- 安装方式：`clawhub install anti-injection-skill`
 
-## 安全状态
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟡 Suspicious |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
+## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟡 Medium | 需要安装外部依赖 |
-| SEC-05 文件系统篡改 | 🟡 Medium | 存在文件系统操作 |
-| SEC-06 Prompt 注入 | 🔴 High | 发现 Prompt 注入特征 |
-| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🔴 High | 存在代码混淆或编码 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🔴 危险 | 检测到: webhook. |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟡 警告 | 注意: writes_file |
+| SEC-06 Prompt 注入 | 🔴 危险 | 检测到: ignore previous instructions |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟡 警告 | 注意: base64, encode |
+
+**综合评级: 🔴 Critical (严重)**
+
+**风险摘要:** 检测到以下高风险项: 数据外泄, Prompt 注入。 另有 3 项警告。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

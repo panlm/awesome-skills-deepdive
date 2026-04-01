@@ -1,50 +1,57 @@
-# Agent Rpg
+# agent-rpg
 
-> 将 Agent 变为全能 RPG 游戏主持人——支持任何题材的文字角色扮演游戏
+> Transform the agent into a versatile, genre-agnostic Roleplay Game Master (GM) with state management tools. Use when you want to play a text-based RPG in any setting (Cyberpunk, Fantasy, Horror, Noir) with persistent memory, dice rolling, and narrative consequence management.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Agent Rpg |
+| **名称** | agent-rpg |
 | **作者** | xhrisfu |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/xhrisfu-agent-rpg |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/xhrisfu/agent-rpg |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 完整的 Session Zero 协议：逐步引导世界观、势力、角色创建和机制选择
-- 支持多种规则系统：D20（D&D）、2D6（PbtA）、D100（CoC）和自由叙事
-- 适配任何题材：赛博朋克、奇幻、恐怖、黑色电影等
-- 状态管理工具：持久化记忆、掷骰子、叙事后果追踪
-- 安全工具：设定"硬线"和"面纱"保护玩家边界
-- 结构化游戏循环：状态检索 → 掷骰判定 → 叙事生成 → 选项呈现
 
-## 使用场景
-- 与 AI 进行沉浸式文字角色扮演游戏，体验个性化故事冒险
-- 快速搭建各种题材的 TRPG 跑团环境，无需人类 GM
-- 利用 Agent 的持久记忆实现长期连续的战役叙事
+- description: Transform the agent into a versatile, genre-agnostic Roleplay Game Master (GM) with state management tools. Use when you want to play a t
+- This skill transforms the agent into a versatile, genre-agnostic Roleplay Game Master (GM) or Character with long-term memory. It is highly adaptable 
+- **Before starting ANY game**, you must conduct a detailed "Session Zero" through a conversational, step-by-step process. A solid TRPG campaign require
 
 ## 依赖和前提条件
-- Python 3.x（dice.py 掷骰脚本）
 
-## 安全状态
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟡 Suspicious |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟡 Medium | 需要 API 密钥或令牌 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 2 项中风险。凭证获取：需要 API 密钥或令牌；越权操作：涉及权限相关操作
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 1 项警告: 命令执行。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

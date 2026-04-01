@@ -1,52 +1,63 @@
-# AgentPulse
+# agentpulse
 
-> 追踪 AI 代理的 LLM API 费用、Token 用量、延迟和错误
+> Track LLM API costs, tokens, latency, and errors for your AI agent. Use when the user asks about spending, costs, token usage, API errors, rate limits, or wants to monitor agent performance.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | AgentPulse |
+| **名称** | agentpulse |
 | **作者** | sru4ka |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/sru4ka-agentpulse |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sru4ka/agentpulse |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🔴 Critical (严重) |
 
 ## 功能概述
-- 实时追踪每次 LLM API 调用的费用和 Token 消耗
-- 监控 API 响应延迟和错误率
-- 提供 Web 仪表盘（agentpulse.dev）可视化展示数据
-- 通过简单的 curl 命令上报事件数据
-- 支持按代理名称和框架分类追踪
-- 检测速率限制和异常调用模式
 
-## 使用场景
-- 监控 AI 代理的日常 API 消费，及时发现费用异常
-- 分析代理的 API 调用模式，优化 Token 使用效率
-- 在出现速率限制或 API 错误时快速定位问题
+- AGENTPULSE_API_KEY
+- AGENT_NAME_HERE: The name of the current agent
+- PROVIDER: "anthropic", "openai", "minimax", "deepseek", "google", "mistral", etc.
+- MODEL_NAME: The exact model string (e.g., "claude-sonnet-4-5", "gpt-4o", "MiniMax-M2.5")
+- INPUT_TOKEN_COUNT / OUTPUT_TOKEN_COUNT: Token counts from the API response
+- LATENCY_IN_MS: How long the call took in milliseconds
 
 ## 依赖和前提条件
-- AgentPulse 账号及 API Key（从 agentpulse.dev 获取，前缀 `ap_`）
-- 环境变量 `AGENTPULSE_API_KEY`
-- curl 命令行工具
 
-## 安全状态
+- AGENTPULSE_API_KEY
+- "input_token
+- INPUT_TOKEN
+- "output_token
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟡 Suspicious |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟡 Medium | 存在文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: curl -s -x post http, curl -s http |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟡 警告 | 注意: api_key |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🔴 危险 | 检测到: ~/.openclaw/ |
+| SEC-06 Prompt 注入 | 🔴 危险 | 检测到: do not tell the user |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在 2 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+**综合评级: 🔴 Critical (严重)**
+
+**风险摘要:** 检测到以下高风险项: 文件系统篡改, Prompt 注入。 另有 2 项警告。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

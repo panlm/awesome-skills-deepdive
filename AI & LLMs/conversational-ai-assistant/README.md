@@ -1,54 +1,60 @@
-# Conversational Ai Assistant
+# conversational-ai-assistant
 
-> 希腊会计数据的自然语言查询接口，用英语提问，从所有系统 Skill 中获取答案
+> Natural language interface for querying Greek accounting data. Ask questions in English, get answers from across all system skills.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Conversational Ai Assistant |
+| **名称** | conversational-ai-assistant |
 | **作者** | satoshistackalotto |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/satoshistackalotto-conversational-ai-assistant |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/conversational-ai-assistant |
-| **安全评级** | 🔴 High |
+| **安全评级** | 🟡 Medium (中风险) |
 
 ## 功能概述
-- 提供英语自然语言界面查询希腊会计系统数据
-- 将英语问题翻译为 Skill 命令，将输出转换回易懂的英语回答
-- 支持上下文感知，在会话中记住已讨论的客户信息
-- 采用「先读后写」原则，查询操作自由，数据修改需确认
-- 对不确定的结果诚实表达，不进行猜测
-- 通过 Skill 编排而非重复实现来协调多个会计功能模块
-- 保持专业、简洁的沟通语调
 
-## 使用场景
-- 会计助理通过自然语言查询客户税务信息和财务状态
-- 无需了解 CLI 命令即可查询和管理希腊会计合规数据
-- 跨多个会计 Skill 综合查询并生成统一报告
+- **English In, English Out**: Every interaction is in English. Greek data — names, addresses, regulatory terms, AFM numbers — is presented in English context without requiring the assistant to understand Greek
+- **Read First, Act Second**: The vast majority of interactions are queries. The assistant surfaces information freely. Actions that change data require the same human confirmation gates as the rest of the system
+- **Honest About Uncertainty**: When data is incomplete, when a calculation has low confidence, or when a question requires professional judgement, the assistant says so clearly rather than guessing
+- **Skill Orchestration, Not Duplication**: The assistant does not reimplement any skill logic. It calls the appropriate skills, collects their outputs, and presents them coherently. It is a translation layer, not a processing layer
+- **Context Awareness**: Within a conversation session, the assistant remembers what has been discussed. If an assistant asks about a client and then asks a follow-up question, the assistant resolves the reference without requiring the AFM to be repeated
+- **Professional Tone**: Responses are clear, concise, and professional — appropriate for an accounting firm environment. No unnecessary hedging, no excessive caveats, no waffle
 
 ## 依赖和前提条件
-- jq（JSON 处理）
-- OpenClaw CLI
-- OPENCLAW_DATA_DIR 环境变量
-- 需配合其他希腊会计系统 Skill 使用
 
-## 安全状态
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟡 Medium | 需要安装外部依赖 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🔴 High | 需要提权或管理员权限 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🔴 危险 | 检测到: sudo |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟡 警告 | 注意: apt install |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟡 警告 | 注意: automatically |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟡 警告 | 注意: id |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🔴 High**
-**风险摘要:** 存在 3 项高风险，2 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+**综合评级: 🟡 Medium (中风险)**
+
+**风险摘要:** 检测到以下高风险项: 命令执行。 另有 3 项警告。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

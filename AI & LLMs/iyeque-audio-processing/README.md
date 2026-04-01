@@ -1,51 +1,62 @@
-# Audio Processing (Iyeque)
+# iyeque-audio-processing
 
-> 专业音频处理工具，支持转码、分割、合并和格式转换
+> Audio ingestion, analysis, transformation, and generation (Transcribe, TTS, VAD, Features).
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Audio Processing (Iyeque) |
+| **名称** | iyeque-audio-processing |
 | **作者** | iyeque |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/iyeque-iyeque-audio-processing |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/iyeque/iyeque-audio-processing |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 支持多种音频格式之间的转码和转换
-- 提供音频文件的分割和合并功能
-- 支持音频元数据的读取和编辑
-- 提供音频波形分析和可视化
-- 支持批量音频文件处理
-- 可调整音频的采样率、比特率等参数
 
-## 使用场景
-- 批量处理播客或会议录音的格式转换
-- 将长音频文件按时间或内容分割成多个片段
-- 音频项目中的自动化后期处理流程
+- File paths are validated to prevent path traversal attacks
+- Access to system directories (/etc, /proc, /sys, /root) is blocked
+- TTS text input is limited to 10,000 characters
+- All file operations use resolved absolute paths
+- **Parameters:**
+- `action` (string, required): One of `transcribe`, `tts`, `extract_features`, `vad_segments`, `transform`.
 
 ## 依赖和前提条件
-- FFmpeg 或相关音频处理库
-- OpenClaw 运行环境
 
-## 安全状态
+- **ffmpeg:** Required for VAD and transform operations
+- **Python 3.8+:** All operations
+- **Disk Space:** Whisper models range from 100MB (tiny) to 3GB (large)
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟡 警告 | 注意: id |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 2 项警告: 命令执行, 信息采集。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

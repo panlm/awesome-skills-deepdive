@@ -1,50 +1,58 @@
-# Screen Vision
+# screen-vision
 
-> 利用 AI 视觉能力捕获和理解屏幕内容
+> macOS Local OCR & Automation Tool using Vision Framework. Zero token cost for screen understanding.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Screen Vision |
+| **名称** | screen-vision |
 | **作者** | ls18166407597-design |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/ls18166407597-design-screen-vision |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/ls18166407597-design/screen-vision |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 Safe (安全) |
 
 ## 功能概述
-- 捕获和分析屏幕截图内容
-- 使用 AI 视觉模型理解屏幕界面
-- 支持 OCR 文字识别和提取
-- 实现屏幕内容的智能描述和交互
-- 适用于辅助功能和自动化测试
-- 支持多平台屏幕截图获取
 
-## 使用场景
-- 让 AI 助手「看到」屏幕内容并提供操作建议
-- 自动化 UI 测试时捕获和分析界面状态
-- 为视障用户提供屏幕内容语音描述
+- **零 Token 截屏识别**：在本地完成屏幕文字提取，仅向 AI 传输关键文本和坐标。
+- **精确坐标定位**：识别屏幕上任何文字的 [X, Y] 坐标。
+- **多语言支持**：支持中英文混合识别。
+- **通用操作基础**：配合内置脚本，可实现对任何应用的自动化点击和输入。
 
 ## 依赖和前提条件
+
 - 无特殊依赖
 
-## 安全状态
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟡 Medium | 需要 API 密钥或令牌 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟢 通过 | 未检测到命令执行相关风险模式 |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。凭证获取：需要 API 密钥或令牌
+**综合评级: 🟢 Safe (安全)**
+
+**风险摘要:** 未检测到明显安全风险。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

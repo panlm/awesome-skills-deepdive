@@ -1,51 +1,60 @@
-# Music Generator
+# music-generator
 
-> 根据结构化作曲计划生成高质量音乐，带自动质量验证和失败重试机制
+> Generates music from a structured Composition Plan. Use this skill to execute music generation after a prompt or plan has been designed. It validates the output quality and retries on failure.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Music Generator |
+| **名称** | music-generator |
 | **作者** | wells1137 |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/wells1137-music-generator |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/wells1137/music-generator |
-| **安全评级** | 🟢 Low |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- 接收结构化的作曲计划（Composition Plan）并生成音频文件
-- 使用 AI 音乐模型生成高质量音频
-- 自动验证输出音频质量
-- 生成失败时自动重试，确保最终输出符合要求
-- 作为音乐创作工作流中的执行引擎
-- 支持自定义作曲参数和风格配置
 
-## 使用场景
-- 根据创意设计规格自动生成背景音乐
-- 批量生成不同风格的音乐素材用于内容创作
-- 在音乐创作 pipeline 中作为自动化执行环节
+- **After a `Composition Plan` is created**: This skill is the logical next step once you have a detailed JSON plan for the music.
+- **To execute music generation**: When the goal is to produce the final audio file based on a prompt or design.
+- The `Composition Plan` has not been created or is incomplete.
+- You only need to design the music, not generate it (use a `music-design` or `prompt-generation` skill for that).
+- **Specification-Driven**: Generation parameters must strictly match the design specifications in the `Composition Plan`.
+- **Duration Precision**: The output audio's duration must be validated against the target length with a tight tolerance.
 
 ## 依赖和前提条件
-- AI 音乐生成模型
-- 音频处理相关依赖
 
-## 安全状态
+- 无特殊依赖
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
-| SEC-02 数据外泄 | 🟢 Safe | 无外部数据传输 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🟢 通过 | 未检测到命令执行相关风险模式 |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟡 警告 | 注意: automatically |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🟢 Low**
-**风险摘要:** 1 项中风险。越权操作：涉及权限相关操作
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 检测到 1 项警告: Prompt 注入。无高危项。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

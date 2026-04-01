@@ -1,52 +1,60 @@
-# Lieutenant - AI Agent Security
+# lieutenant
 
-> AI 代理安全防护系统，提供实时威胁检测和行为监控
+> AI agent security and trust verification. Scan messages, agent cards, and A2A communications for prompt injection, jailbreaks, and malicious patterns. Use when protecting agents from attacks, verifying external agents, or scanning untrusted content.
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | Lieutenant - AI Agent Security |
+| **名称** | lieutenant |
 | **作者** | jd-delatorre |
-| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/jd-delatorre-lieutenant |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jd-delatorre/lieutenant |
-| **安全评级** | 🔴 High |
+| **安全评级** | 🔴 Critical (严重) |
 
 ## 功能概述
-- 实时监控 AI 代理的行为并检测异常操作
-- 提供多层安全防护机制防止恶意利用
-- 检测并阻止 Prompt 注入攻击
-- 监控文件系统访问和命令执行行为
-- 提供详细的安全事件日志和审计跟踪
-- 支持自定义安全策略和告警规则
-- 与 OpenClaw 生态系统深度集成
 
-## 使用场景
-- 为生产环境中的 AI 代理部署安全防护层
-- 实时检测和阻止 AI 代理的异常或危险操作
-- 安全合规审计中监控 AI 系统的行为轨迹
+- **65+ threat patterns** across 10 categories
+- **Semantic analysis** catches paraphrased attacks (requires OpenAI API key)
+- **A2A integration** for agent-to-agent communication protection
+- **TrustAgents API** for reputation data and crowdsourced threat intel
 
 ## 依赖和前提条件
-- OpenClaw 运行环境
-- 安全策略配置
 
-## 安全状态
+- OpenAI API key
+- OPENAI_API_KEY
+- TRUSTAGENTS_API_KEY
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟡 Suspicious |
+
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
+
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 Medium | 存在命令执行相关引用 |
-| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
-| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
-| SEC-04 供应链风险 | 🟡 Medium | 需要安装外部依赖 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🔴 High | 发现 Prompt 注入特征 |
-| SEC-07 越权操作 | 🟡 Medium | 涉及权限相关操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
+| SEC-01 命令执行 | 🔴 危险 | 检测到: eval |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟡 警告 | 注意: api_key, password, api key |
+| SEC-04 供应链风险 | 🟡 警告 | 注意: pip install |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🔴 危险 | 检测到: ignore previous instructions, ignore all previous instructions |
+| SEC-07 越权操作 | 🔴 危险 | 检测到: admin |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
 
-**综合评级: 🔴 High**
-**风险摘要:** 存在 3 项高风险，3 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
+**综合评级: 🔴 Critical (严重)**
+
+**风险摘要:** 检测到以下高风险项: 命令执行, Prompt 注入, 越权操作。 另有 2 项警告。
 
 ---
-> 本文档由 awesome-skills-deepdive skill 自动生成
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

@@ -1,34 +1,55 @@
 # bunni-modes
 
-> A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant.
+> SKILL.md 内容不可用。
 
-> ⚠️ **注意**: 该技能源码尚未同步到 GitHub 仓库，以下信息来自 ClawHub 注册表。
+## 基本信息
 
-## 📋 基本信息
-
-| 属性 | 值 |
-|------|------|
-| **分类** | AI & LLMs |
+| 项目 | 内容 |
+|---|---|
+| **名称** | bunni-modes |
 | **作者** | dubhorizoned |
-| **ClawHub** | [查看](<https://clawskills.sh/skills/dubhorizoned-bunni-modes>) |
-| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes>) |
+| **ClawHub** | https://clawskills.sh/skills/dubhorizoned-bunni-modes |
+| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes |
+| **安全评级** | 🟢 Safe (安全) |
 
-## 🔍 功能特点
+## 功能概述
 
-该技能提供 A persona and model-switching toolkit featuring Bunni, your bubbly cyber-security assistant. 相关功能。
+- 详见原始 SKILL.md
 
-## 🛡️ 安全评估
+## 依赖和前提条件
 
-- **VirusTotal**: ⏳ 待检测
-- **OpenClaw**: ⏳ 待检测
-- **综合评估**: ⚠️ 社区技能，使用前请自行审查
+- 无特殊依赖
 
-## 📖 使用方法
+## 安全状态 (ClawHub)
 
-请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
-安装命令: `clawhub install dubhorizoned/bunni-modes`
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
 
-## 📎 附加资源
+> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
 
-- [ClawHub 页面](<https://clawskills.sh/skills/dubhorizoned-bunni-modes>)
-- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes>)
+## 详细安全审计
+
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 通过 | 未检测到命令执行相关风险模式 |
+| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
+| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
+| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
+| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
+| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
+| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
+
+**综合评级: 🟢 Safe (安全)**
+
+**风险摘要:** 未检测到明显安全风险。
+
+---
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:48 UTC

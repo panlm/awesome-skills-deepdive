@@ -34198,7 +34198,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/7704acbdab8cc894a3017aef815a664141e9c45b",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/ira-hash-aap-passport",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/ira-hash/aap-passport",
     "files": [
@@ -34265,7 +34265,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/dumoedss-acestep-lyrics-transcription",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/dumoedss/acestep-lyrics-transcription",
     "files": [
       "SKILL.md",
@@ -34304,7 +34304,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/029e3599b5a4b2bef6ba0518be34daa038770287",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/abe238-adversarial-prompting",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/abe238/adversarial-prompting",
     "files": [
@@ -34324,8 +34324,8 @@
     "commit": "https://github.com/openclaw/skills/commit/403f4bbf7f92fc180b13acc6f88bad630266369e",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/ls18166407597-design-ag-model-usage",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/ls18166407597-design/ag-model-usage",
     "files": [
       "SKILL.md",
@@ -34365,8 +34365,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/06072621ca714fa765dba93346c7b3249d5f269b",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/ryancampbell-agent-autonomy-kit",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/ryancampbell/agent-autonomy-kit",
     "files": [
       "ORIGINAL_README.md",
@@ -34388,7 +34388,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/davedean-agent-contact-card",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/davedean/agent-contact-card",
     "files": [
       "SKILL.md",
@@ -34408,8 +34408,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/1c07401610db892f06ad23e7d375f86a11723756",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/tylervovan-agent-docs",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/tylervovan/agent-docs",
     "files": [
       "SKILL.md",
@@ -34428,8 +34428,8 @@
     "commit": "https://github.com/openclaw/skills/commit/cb282817e2e435dc52e492afb459be8c558320c3",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/mrclanky-agent-ethos",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/mrclanky/agent-ethos",
     "files": [
       "SKILL.md",
@@ -34447,8 +34447,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/9e9998f19cab28c59d51418d3e528a63899c19f7",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aerialcombat-agent-home",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aerialcombat/agent-home",
     "files": [
       "SKILL.md",
@@ -34466,8 +34466,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/bfb379a0b31a54a8e1f1797430254f193cec154d",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/xiwan-agent-linguo",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/xiwan/agent-linguo",
     "files": [
       "SKILL.md",
@@ -34489,8 +34489,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/b1634ea935cf1f159cd6d7651a0f4f4f2d21832b",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/dennis-da-menace-agent-memory",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/dennis-da-menace/agent-memory",
     "files": [
       "ORIGINAL_README.md",
@@ -34517,8 +34517,8 @@
     "commit": "https://github.com/openclaw/skills/commit/adf2a8f5efbb82826fdeae1646571820ae855021",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/rustyorb-agent-orchestration-multi-agent-optimize",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/rustyorb/agent-orchestration-multi-agent-optimize",
     "files": [
       "SKILL.md",
@@ -34564,7 +34564,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/matrixy-agent-registry",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/matrixy/agent-registry",
     "files": [
       "CLAUDE.md",
@@ -34613,7 +34613,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/xhrisfu-agent-rpg",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/xhrisfu/agent-rpg",
     "files": [
       "SKILL.md",
@@ -34649,7 +34649,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/iisweetheartii-agent-selfie",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/iisweetheartii/agent-selfie",
     "files": [
       "HEARTBEAT.md",
@@ -34673,7 +34673,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/jimmystacks-agent-sentinel",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/jimmystacks/agent-sentinel",
     "files": [
       "SKILL.md",
@@ -34692,8 +34692,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/127d5693cda30953e849725e7350b11de48d7267",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/kellyclaudeai-agentic-calling",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/kellyclaudeai/agentic-calling",
     "files": [
       "ORIGINAL_README.md",
@@ -34723,8 +34723,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/orosha-ai-agentic-compass",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/orosha-ai/agentic-compass",
     "files": [
       "ORIGINAL_README.md",
@@ -34745,7 +34745,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/64aa913561552fdd3d735199b8d62298e300b160",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/adboio-agentmail",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/adboio/agentmail",
     "files": [
@@ -34817,7 +34817,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/6d5261a3d5c5883772d2e164bcadcd2b28061938",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/osadchiynikita-agentpixels-skill",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/osadchiynikita/agentpixels-skill",
     "files": [
@@ -34839,7 +34839,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/sru4ka-agentpulse",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/sru4ka/agentpulse",
     "files": [
       "SKILL.md",
@@ -34868,8 +34868,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/alirezarezvani-agile-product-owner",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/agile-product-owner",
     "files": [
       "SKILL.md",
@@ -34918,8 +34918,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/proxyhq-ai-agent-card-payments",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/proxyhq/ai-agent-card-payments",
     "files": [
       "SKILL.md",
@@ -34958,7 +34958,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/232bff2cecfe8bda56061cb612be3ae197deb7b9",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/dadaliu0121-ai-conversation-summary",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/dadaliu0121/ai-conversation-summary",
     "files": [
@@ -34977,8 +34977,8 @@
     "commit": "https://github.com/openclaw/skills/commit/f3b9f99c3079840df353c70390bb804b84237a48",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/spyfree-ai-displacement-monitor",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/spyfree/ai-displacement-monitor",
     "files": [
       "SKILL.md",
@@ -34997,8 +34997,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/08c2379d6b34698fc18212670560f48c0253cb01",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/brandonwise-ai-humanizer",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/brandonwise/ai-humanizer",
     "files": [
       "ORIGINAL_README.md",
@@ -35044,7 +35044,7 @@
     "commit": "https://github.com/openclaw/skills/commit/703bdd1d4433b51ddf65b80a02afebe3710feb51",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/eftalyurtseven-ai-influencer-generation",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/eftalyurtseven/ai-influencer-generation",
     "files": [
@@ -35071,7 +35071,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/hangeaiagent-ai-interview-simulator-candaigo",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/hangeaiagent/ai-interview-simulator-candaigo",
     "files": [
       "SKILL.md",
@@ -35110,8 +35110,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/mogens9-ai-podcast",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/mogens9/ai-podcast",
     "files": [
       "PUBLISH.md",
@@ -35130,8 +35130,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/cb111ca7bcb62d73bed255e5eb0474222ce5683d",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/xanxustan-ai-screener",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/xanxustan/ai-screener",
     "files": [
       "SKILL.md",
@@ -35149,7 +35149,7 @@
     "commit": "https://github.com/openclaw/skills/commit/0a456ca1cb42394006eed250e7f1391b1b36fe50",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/yusaku-0426-ai-trend-curation",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/yusaku-0426/ai-trend-curation",
     "files": [
@@ -35168,8 +35168,8 @@
     "commit": "https://github.com/openclaw/skills/commit/cf8de50671841fefee697158f6ff26b15770814f",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/hosthobbit-ai-writing-humanizer",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/hosthobbit/ai-writing-humanizer",
     "files": [
       "SKILL.md",
@@ -35190,8 +35190,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/9d3c458fc8b25588e82ea4304289242ff20fd232",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aisapay-aisa-financial-data",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aisapay/aisa-financial-data",
     "files": [
       "ORIGINAL_README.md",
@@ -35211,8 +35211,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/837ff8387cc23ba34d8eb0e7cfc886244f975929",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aisadevco-aisa-financial-data-api",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aisadevco/aisa-financial-data-api",
     "files": [
       "SKILL.md",
@@ -35231,8 +35231,8 @@
     "commit": "https://github.com/openclaw/skills/commit/fa5ea2b4dd793ad5251002cdc2a76be361e6b8d2",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/bowen-dotcom-aisa-llm-router-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/bowen-dotcom/aisa-llm-router-skill",
     "files": [
       "ORIGINAL_README.md",
@@ -35258,8 +35258,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/bowen-dotcom-aisa-market-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/bowen-dotcom/aisa-market-skill",
     "files": [
       "ORIGINAL_README.md",
@@ -35286,7 +35286,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/daveo280-aisp",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/daveo280/aisp",
     "files": [
       "CHANGELOG.md",
@@ -35340,7 +35340,7 @@
     "commit": "https://github.com/openclaw/skills/commit/81a27efe0dcd09f5fe956e4b30a69638df0410d4",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/georges91560-anti-injection-skill",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/georges91560/anti-injection-skill",
     "files": [
@@ -35391,7 +35391,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/trypto1019-arc-security-mcp",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/trypto1019/arc-security-mcp",
     "files": [
@@ -35410,8 +35410,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/d867fa484da43e9326ec6e6bea3a958173fdbcff",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/staratheris-arya-model-router",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/staratheris/arya-model-router",
     "files": [
       "ORIGINAL_README.md",
@@ -35434,8 +35434,8 @@
     "commit": "https://github.com/openclaw/skills/commit/ffd77e5be414a0a8837edbe006105e294b68d62e",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/renning22-asia-llm-router-skills",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/renning22/asia-llm-router-skills",
     "files": [
       "ORIGINAL_README.md",
@@ -35466,8 +35466,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/sidshekhar-askgina-polymarket",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/sidshekhar/askgina-polymarket",
     "files": [
       "ORIGINAL_README.md",
@@ -35507,8 +35507,8 @@
     "commit": "https://github.com/openclaw/skills/commit/3a4ba156417dc5cfc04071ba9ef39da0a3ce4af0",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/iyeque-audio-processing",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/iyeque/audio-processing",
     "files": [
       "SKILL.md",
@@ -35553,8 +35553,8 @@
     "commit": "https://github.com/openclaw/skills/commit/6b46cf9416fd81feeead41ee603465ed9f5e5074",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aiengineerx-bagsworld",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aiengineerx/bagsworld",
     "files": [
       "SKILL.md",
@@ -35573,8 +35573,8 @@
     "commit": "https://github.com/openclaw/skills/commit/e2853862fd929bfa525609236640bb7e212b638f",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/pjsousa79-baselight-mcp",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/pjsousa79/baselight-mcp",
     "files": [
       "SKILL.md",
@@ -35592,8 +35592,8 @@
     "commit": "https://github.com/openclaw/skills/commit/07ef751c2937c0b14cf96bb264a6f3940807505b",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/stevenartzt-build-session",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/stevenartzt/build-session",
     "files": [
       "ORIGINAL_README.md",
@@ -35614,8 +35614,8 @@
     "commit": "https://github.com/openclaw/skills/commit/7ec6bc306fbf3e5b74e8a1f53d8083cde0c7bb50",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/manecharo-chaos-pivot",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/manecharo/chaos-pivot",
     "files": [
       "SKILL.md",
@@ -35634,7 +35634,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/teamolab-chief-editor",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/teamolab/chief-editor",
     "files": [
       "SKILL.md",
@@ -35653,7 +35653,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aligurelli-claude-usage-checker",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aligurelli/claude-usage-checker",
     "files": [
       "SKILL.md",
@@ -35678,7 +35678,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/boilerrat-colormind",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/boilerrat/colormind",
     "files": [
       "CHANGELOG.md",
@@ -35704,8 +35704,8 @@
     "commit": "https://github.com/openclaw/skills/commit/2189682f8b11a4db241cecf9065eb0d8f40cc6c5",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/kj-script-colorpool-skills",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/kj-script/colorpool-skills",
     "files": [
       "_meta.json",
@@ -35723,8 +35723,8 @@
     "commit": "https://github.com/openclaw/skills/commit/89c5d5c4ad8269b6c0ccd6eb7c28f43568c15d26",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/kenblive-communicate",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/kenblive/communicate",
     "files": [
       "SKILL.md",
@@ -35742,8 +35742,8 @@
     "commit": "https://github.com/openclaw/skills/commit/93b6769496dee7e6c34f8ece481ea366b78deeb4",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/trinitybotserver-compression",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/trinitybotserver/compression",
     "files": [
       "CHANGELOG.md",
@@ -35766,8 +35766,8 @@
     "commit": "https://github.com/openclaw/skills/commit/9fe1c8cbea0805f7af87cc875fbc741c34a8c9fe",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/davienzomq-context-gatekeeper",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/davienzomq/context-gatekeeper",
     "files": [
       "ORIGINAL_README.md",
@@ -35792,8 +35792,8 @@
     "commit": "https://github.com/openclaw/skills/commit/b32a8b6992b91f6071e17151a93fab75f82050b9",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/satoshistackalotto-conversational-ai-assistant",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/conversational-ai-assistant",
     "files": [
       "EVALS.json",
@@ -35812,7 +35812,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/7bfa35f126a215ef6ae2250666851f49f047146d",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/vladthecto-crewmind-bets",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/vladthecto/crewmind-bets",
     "files": [
@@ -35867,7 +35867,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/echology-io-decompose-mcp",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/echology-io/decompose-mcp",
     "files": [
@@ -35887,8 +35887,8 @@
     "commit": "https://github.com/openclaw/skills/commit/5536e8460b55a49fc4ef452306b62b05bc10be24",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/teamolab-deepseek-reasoner-lite-agent",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/teamolab/deepseek-reasoner-lite-agent",
     "files": [
       "SKILL.md",
@@ -35907,7 +35907,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/alvinecarn-deepseek-v3-lite-agent",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/alvinecarn/deepseek-v3-lite-agent",
     "files": [
       "SKILL.md",
@@ -35926,7 +35926,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/brancante-dr-frankenstein",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/brancante/dr-frankenstein",
     "files": [
       "CONTRIBUTING.md",
@@ -35972,7 +35972,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/brancante-dr-soul",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/brancante/dr-soul",
     "files": [
@@ -35997,7 +35997,7 @@
     "commit": "https://github.com/openclaw/skills/commit/e6bde353443c89e167b0c3ad346b99da8e68a39b",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/g4dr-ecommerce-price-monitor",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/g4dr/ecommerce-price-monitor",
     "files": [
@@ -36035,8 +36035,8 @@
     "commit": "https://github.com/openclaw/skills/commit/4af32275dd32a417b3fb16267795362ea88b1852",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aronchick-expanso-log-sanitize",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-log-sanitize",
     "files": [
       "ORIGINAL_README.md",
@@ -36060,7 +36060,7 @@
     "commit": "https://github.com/openclaw/skills/commit/fd420b6e884f913edbad0fcf3118cc3561d22547",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/aronchick-expanso-secrets-scan",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/aronchick/expanso-secrets-scan",
     "files": [
@@ -36091,7 +36091,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/andyxinweiminicloud-gep-immune-auditor",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/gep-immune-auditor",
     "files": [
@@ -36117,8 +36117,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/matbalez-get-hba",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/matbalez/get-hba",
     "files": [
       "SKILL.md",
@@ -36136,7 +36136,7 @@
     "commit": "https://github.com/openclaw/skills/commit/afb3602486ed8acba6f04f682e42a09d2dbc79d8",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/bigbadman-lab-gm3-alertworthy-feed",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/bigbadman-lab/gm3-alertworthy-feed",
     "files": [
@@ -36246,7 +36246,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/officialdelta-gmail-secretary",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/officialdelta/gmail-secretary",
     "files": [
@@ -36269,8 +36269,8 @@
     "commit": "https://github.com/openclaw/skills/commit/8909a92041a1ec5b3593c7ec66cadeaac254b4e2",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/samirjtv-ctrl-groq",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/samirjtv-ctrl/groq",
     "files": [
       "SKILL.md",
@@ -36289,8 +36289,8 @@
     "commit": "https://github.com/openclaw/skills/commit/b6cca070e4b57af5ea06a663b99b553838f2738c",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/samirjtv-ctrl-groq-2",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/samirjtv-ctrl/groq-2",
     "files": [
       "SKILL.md",
@@ -36340,7 +36340,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/developmentcats-homeassistant-assist",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/developmentcats/homeassistant-assist",
     "files": [
       "CHANGELOG.md",
@@ -36366,8 +36366,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/iyeque-iyeque-audio-processing",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/iyeque/iyeque-audio-processing",
     "files": [
       "SKILL.md",
@@ -36392,7 +36392,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/zcor-leviathan-news",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/zcor/leviathan-news",
     "files": [
@@ -36411,7 +36411,7 @@
     "commit": "https://github.com/openclaw/skills/commit/91ddc7b10f79c2246ead25d2338a056aa806c958",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/jd-delatorre-lieutenant",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/jd-delatorre/lieutenant",
     "files": [
@@ -36432,8 +36432,8 @@
     "commit": "https://github.com/openclaw/skills/commit/36ddf4c08de524401af7f0acf38d7f46e145f0df",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/rhlsthrm-lifi-crosschain",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/rhlsthrm/lifi-crosschain",
     "files": [
       "ORIGINAL_README.md",
@@ -36472,7 +36472,7 @@
     "commit": "https://github.com/openclaw/skills/commit/c0700eb0275644028e67fd8123f8f74176f54bdf",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/alexsjones-llmfit",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/alexsjones/llmfit",
     "files": [
@@ -36492,7 +36492,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/wuxxin-local-llama-tts",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/wuxxin/local-llama-tts",
     "files": [
       "SKILL.md",
@@ -36511,8 +36511,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/10acedbbe7e2e52ba3d8b43b55013861bdb21b69",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/willykinfoussia-mantis-manager",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/willykinfoussia/mantis-manager",
     "files": [
       "ORIGINAL_README.md",
@@ -36538,7 +36538,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/brunobuddy-manifest-build",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/brunobuddy/manifest-build",
     "files": [
       "SKILL.md",
@@ -36556,7 +36556,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/48ac50e6a4d99d1cc700c77caa32e923fdbca8f4",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/amirmabhout-matchmaking",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/amirmabhout/matchmaking",
     "files": [
@@ -36581,7 +36581,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/tkuehnl-meeting-autopilot",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/tkuehnl/meeting-autopilot",
     "files": [
@@ -36611,8 +36611,8 @@
     "commit": "https://github.com/openclaw/skills/commit/ab4f2ca95b321612a2133640982f15932b8dc799",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/meimakes-metacognition",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/meimakes/metacognition",
     "files": [
       "ORIGINAL_README.md",
@@ -36632,8 +36632,8 @@
     "commit": "https://github.com/openclaw/skills/commit/fbe2bce292b3698dcc74ce0b93897333c99b3469",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/mohdalhashemi98-hue-mh-openai-whisper",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-openai-whisper",
     "files": [
       "SKILL.md",
@@ -36651,8 +36651,8 @@
     "commit": "https://github.com/openclaw/skills/commit/2b492cf976181d38f0c77354982ebf789a606aed",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/mohdalhashemi98-hue-mh-openai-whisper-api",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-openai-whisper-api",
     "files": [
       "SKILL.md",
@@ -36690,8 +36690,8 @@
     "commit": "https://github.com/openclaw/skills/commit/117ce082356000e25b088fe36c066a916cc83f60",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/jscianna-moa",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/jscianna/moa",
     "files": [
       "SKILL.md",
@@ -36712,7 +36712,7 @@
     "commit": "https://github.com/openclaw/skills/commit/a646d9721aba6371cd911da6e29b38e31c881d19",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/sarielwang93-model-guard",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/sarielwang93/model-guard",
     "files": [
@@ -36753,8 +36753,8 @@
     "commit": "https://github.com/openclaw/skills/commit/399ba1fe009540d4815cdcf3fe0bdd415d37855e",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/pj4533-modelwar",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/pj4533/modelwar",
     "files": [
       "SKILL.md",
@@ -36778,8 +36778,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/vdc-k-multi-agent-collab",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/vdc-k/multi-agent-collab",
     "files": [
       "CHANGELOG.md",
@@ -36810,8 +36810,8 @@
     "commit": "https://github.com/openclaw/skills/commit/81f1ba71e6a25e9b05ab02cb4c1df5094d22c5be",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/wells1137-music-generator",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/wells1137/music-generator",
     "files": [
       "SKILL.md",
@@ -36850,7 +36850,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/codeninja23-native-sentry",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/codeninja23/native-sentry",
     "files": [
       "ORIGINAL_README.md",
@@ -36903,8 +36903,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/lstpsche-openmeteo-sh-weather-advanced",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/lstpsche/openmeteo-sh-weather-advanced",
     "files": [
       "ORIGINAL_README.md",
@@ -36923,7 +36923,7 @@
     "commit": "https://github.com/openclaw/skills/commit/f10ecc9249fcdd4b8c2086affb8a5dc46d7e1ac9",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/synergysize-openseti-skill",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/synergysize/openseti-skill",
     "files": [
@@ -36962,7 +36962,7 @@
     "commit": "https://github.com/openclaw/skills/commit/55683109a301e36d7d5b55f20ebefd2ce30db9c8",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/johnmcgucki-picqer-fulfillment",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/johnmcgucki/picqer-fulfillment",
     "files": [
@@ -36989,8 +36989,8 @@
     "commit": "https://github.com/openclaw/skills/commit/01daa364006bc23f595866c859165e3e09d7a5e9",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/panzacoder-pincer",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/panzacoder/pincer",
     "files": [
       "ORIGINAL_README.md",
@@ -37011,7 +37011,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/nezaboravi-postavel",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/nezaboravi/postavel",
     "files": [
       "SKILL.md",
@@ -37039,7 +37039,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/nextfrontierbuilds-prism-scanner",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/nextfrontierbuilds/prism-scanner",
     "files": [
@@ -37066,7 +37066,7 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/playdadev-pump-fun",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/playdadev/pump-fun",
     "files": [
@@ -37085,8 +37085,8 @@
     "commit": "https://github.com/openclaw/skills/commit/40261b90e0a61b42f7a85cd8986562a5dd19a7c7",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/jk-0001-revenue-model-design",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/jk-0001/revenue-model-design",
     "files": [
       "SKILL.md",
@@ -37104,7 +37104,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/60306eeeb15c3192e1383197db74309133937f53",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/christianhaberl-revolut-business",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/christianhaberl/revolut-business",
     "files": [
@@ -37126,8 +37126,8 @@
     "commit": "https://github.com/openclaw/skills/commit/606e6b67221f58bc8ad9019bfae8b32130724381",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/amitabhainarunachala-rv-measure",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/amitabhainarunachala/rv-measure",
     "files": [
       "SKILL.md",
@@ -37161,8 +37161,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/leegitw-safety-checks",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/leegitw/safety-checks",
     "files": [
       "SKILL.md",
@@ -37180,7 +37180,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/bc2d1463a6c7beefa7c2e1091701b9c6225862f3",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/fgbytes-sansfiction-library",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/fgbytes/sansfiction-library",
     "files": [
@@ -37205,8 +37205,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/ls18166407597-design-screen-vision",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/ls18166407597-design/screen-vision",
     "files": [
       "SKILL.md",
@@ -37227,7 +37227,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/jameslawton-sequence-cli",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/jameslawton/sequence-cli",
     "files": [
       "SKILL.md",
@@ -37251,8 +37251,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/cprice70-shipstation-orders",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/cprice70/shipstation-orders",
     "files": [
       "ORIGINAL_README.md",
@@ -37279,8 +37279,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/joe3112-smart-context",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/joe3112/smart-context",
     "files": [
       "SKILL.md",
@@ -37298,8 +37298,8 @@
     "commit": "https://github.com/openclaw/skills/commit/2a2ebc8398c6d1b4be6b014490f7862916cf5f84",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/bivex-snipeit-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/bivex/snipeit-skill",
     "files": [
       "SKILL.md",
@@ -37317,7 +37317,7 @@
     "commit": "https://github.com/openclaw/skills/commit/7914ac834793815c664490e9b085bb819f0b4680",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/g4dr-social-media-extractor",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/g4dr/social-media-extractor",
     "files": [
@@ -37336,8 +37336,8 @@
     "commit": "https://github.com/openclaw/skills/commit/fc4e5bcc1ac672f26307078830ea209d86433e62",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/emzod-speakturbo-tts",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/emzod/speakturbo-tts",
     "files": [
       ".github/workflows/ci.yml",
@@ -37370,8 +37370,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/ee2de93a397d5807c27bed2777af60a0fb301f2d",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/staratheris-staratheris-arya-model-router",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/staratheris/staratheris-arya-model-router",
     "files": [
       "ORIGINAL_README.md",
@@ -37394,8 +37394,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/e85c0da3187ae895e5a007109d6a4476f24eaa75",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/easonc13-sui",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/easonc13/sui",
     "files": [
       "SKILL.md",
@@ -37415,8 +37415,8 @@
     "commit": "https://github.com/openclaw/skills/commit/dbba3c56feb1986b117d47ce4e00ebca9b436048",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/serudda-switch-modes",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/serudda/switch-modes",
     "files": [
       "REFERENCE.md",
@@ -37435,8 +37435,8 @@
     "commit": "https://github.com/openclaw/skills/commit/9570390b7cf32054c878eab0bdf7f9f3367b30fb",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/pigfoot-taiwan-calendar",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/pigfoot/taiwan-calendar",
     "files": [
       "ORIGINAL_README.md",
@@ -37462,8 +37462,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/leegitw-ted-talk",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/leegitw/ted-talk",
     "files": [
       "SKILL.md",
@@ -37563,7 +37563,7 @@
     "commit": "https://github.com/openclaw/skills/commit/20713ea643fc2f16e2701e543f72e747318034b7",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/edmonddantesj-token-guard",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/edmonddantesj/token-guard",
     "files": [
@@ -37583,8 +37583,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/74220a3b411ea2bd1b714841056044b06d36953d",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/g0head-tokenguard",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/g0head/tokenguard",
     "files": [
       "SKILL.md",
@@ -37604,8 +37604,8 @@
     "commit": "https://github.com/openclaw/skills/commit/ed62ca92f50d995c817efd91d3cf96f2e9730898",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/rzyen-hash-tracking",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/rzyen-hash/tracking",
     "files": [
       "SKILL.md",
@@ -37678,7 +37678,7 @@
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/sabrinaaquino-venice-admin",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/sabrinaaquino/venice-admin",
     "files": [
       "SKILL.md",
@@ -37739,7 +37739,7 @@
     "commit": "https://github.com/openclaw/skills/commit/b79c055f8dcf426974137362f6d0ae73275420e3",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/andresubri-wallet-api",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/andresubri/wallet-api",
     "files": [
@@ -37811,7 +37811,7 @@
     "commit": "https://github.com/openclaw/skills/commit/8cba1c61bd24d7dff945e0769974822cfc73e620",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/robert-janssen-wolfram-alpha",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/robert-janssen/wolfram-alpha",
     "files": [
@@ -37838,7 +37838,7 @@
     ],
     "clawskills_url": "https://clawskills.sh/skills/blueberrywoodsym-x-ai",
     "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/blueberrywoodsym/x-ai",
     "files": [
       ".gitignore",
@@ -37882,8 +37882,8 @@
     "commit": "https://github.com/openclaw/skills/commit/8fee4561b39d146598dcbf107398ec4624b4ca03",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/endogen-xian-sdk-skill",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/endogen/xian-sdk-skill",
     "files": [
       "SKILL.md",
@@ -37902,7 +37902,7 @@
     "commit": "https://github.com/clawdbot/skills/commit/fb4d090be9ad5c0c9992a88d041506502a80cd02",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/spirosrap-zapper",
-    "vt_status": "Suspicious",
+    "vt_status": "Benign",
     "oc_status": "Suspicious",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/spirosrap/zapper",
     "files": [
@@ -37923,8 +37923,8 @@
     "commit": "https://github.com/clawdbot/skills/commit/c59d3094c4659d5c70d5b306509365242d600129",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/zivhm-zapper-api",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/zivhm/zapper-api",
     "files": [
       "SKILL.md",
@@ -37950,8 +37950,8 @@
       }
     ],
     "clawskills_url": "https://clawskills.sh/skills/franklu0819-lang-zhipu-asr",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/franklu0819-lang/zhipu-asr",
     "files": [
       "ORIGINAL_README.md",
@@ -37972,8 +37972,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/gykdly-voice-recognition",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Benign",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition",
     "files": [
       "ORIGINAL_README.md",
@@ -38567,8 +38567,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/globalcaos-ai-humor-ultimate",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/globalcaos/ai-humor-ultimate",
     "files": [
       "ORIGINAL_README.md",
@@ -38588,8 +38588,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/broedkrummen-broedkrumme-kalibr",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/broedkrummen/broedkrumme-kalibr",
     "files": [
       "ORIGINAL_README.md",
@@ -38609,8 +38609,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/dubhorizoned-bunni-modes",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/dubhorizoned/bunni-modes",
     "files": [
       "ORIGINAL_README.md",
@@ -38630,8 +38630,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/greatape42069-doginals",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/greatape42069/doginals",
     "files": [
       "ORIGINAL_README.md",
@@ -38651,8 +38651,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/claudiodrusus-meeting-summarizer",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/claudiodrusus/meeting-summarizer",
     "files": [
       "ORIGINAL_README.md",
@@ -38672,8 +38672,8 @@
     "commit": "",
     "history": [],
     "clawskills_url": "https://clawskills.sh/skills/arunnadarasa-usdckrump",
-    "vt_status": "Suspicious",
-    "oc_status": "Suspicious",
+    "vt_status": "Unknown",
+    "oc_status": "Benign",
     "github_url": "https://github.com/openclaw/skills/tree/main/skills/arunnadarasa/usdckrump",
     "files": [
       "ORIGINAL_README.md",
