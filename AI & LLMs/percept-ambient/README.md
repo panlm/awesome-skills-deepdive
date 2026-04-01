@@ -1,61 +1,50 @@
-# percept-ambient
+# Percept Ambient
 
-> Ambient intelligence mode — continuous context awareness without explicit commands.
+> 环境智能模式，无需显式命令即可持续感知上下文，构建对话知识图谱
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | percept-ambient |
+| **名称** | Percept Ambient |
 | **作者** | jarvis563 |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/jarvis563-percept-ambient |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/jarvis563/percept-ambient |
-| **安全评级** | 🟢 Low (低风险) |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
+- 在后台持续运行，被动学习对话上下文
+- 构建涵盖对话、实体和关系的知识图谱
+- 自动追踪谈话对象、活跃项目和决策信息
+- 支持基于感知的上下文查询（"你知道关于 XX 什么？"）
+- 无需显式命令即可积累环境知识
 
-- User wants always-on context awareness
-- Agent needs background knowledge from daily conversations
-- User asks "what do you know about [person/project]?" based on overheard context
-- **percept-listen** skill installed and running
-- **percept-summarize** skill installed (for entity extraction)
-- All data stored locally in SQLite + LanceDB
+## 使用场景
+- 让 AI 智能体始终保持对工作环境的上下文感知
+- 基于日常对话自动积累关于人物和项目的背景知识
+- 快速回答关于特定人物或项目的上下文问题
 
 ## 依赖和前提条件
+- percept CLI 工具
+- 持续运行的后台进程
 
-- **percept-listen** skill installed and running
-- **percept-summarize** skill installed (for entity extraction)
-
-## 安全状态 (ClawHub)
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟡 Suspicious |
-| OpenClaw | 🟡 Suspicious |
-
-> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
-
+## 安全状态
 ## 详细安全审计
-
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
-| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
-| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
-| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
-| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
-| SEC-06 Prompt 注入 | 🟡 警告 | 注意: automatically |
-| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
-| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
-| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
-| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
+| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
+| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
+| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
+| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟢 Low (低风险)**
-
-**风险摘要:** 检测到 2 项警告: 命令执行, Prompt 注入。无高危项。
+**综合评级: 🟢 Low**
+**风险摘要:** 1 项中风险。数据外泄：存在外部 API 调用
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
-> 生成时间: 2026-04-01 04:48 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成

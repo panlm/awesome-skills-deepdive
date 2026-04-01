@@ -1,58 +1,35 @@
-# wolfram-alpha
+# Wolfram Alpha
 
-> Perform complex mathematical calculations, physics simulations, data analysis, and scientific queries via the Wolfram|Alpha LLM API. Use this skill when you need exact answers to quantitative questions.
+> 通过 Wolfram|Alpha LLM API 执行复杂数学计算、物理模拟和科学查询
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | wolfram-alpha |
+| **名称** | Wolfram Alpha |
 | **作者** | robert-janssen |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/robert-janssen-wolfram-alpha |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/robert-janssen/wolfram-alpha |
-| **安全评级** | 🟢 Low (低风险) |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
+- 执行复杂数学计算和方程求解
+- 物理模拟和工程计算
+- 数据分析和统计查询
+- 科学问题的精确量化回答
+- 支持自然语言输入查询
+- 通过 Wolfram|Alpha LLM API 获取权威结果
 
-- **Mathematics**: Calculus, algebra, statistics.
-- **Science**: Physics, chemistry, astronomy.
-- **Data**: Economic data, geographic facts, demographics.
-- **Units**: Unit conversions and currency exchange.
+## 使用场景
+- 解答复杂的数学和物理问题，获取精确数值结果
+- AI Agent 在对话中需要权威的科学数据和计算支持
+- 数据分析场景中进行统计计算和趋势分析
 
 ## 依赖和前提条件
+- Python 及相关依赖包
 
-- 无特殊依赖
-
-## 安全状态 (ClawHub)
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟢 Benign |
-| OpenClaw | 🟡 Suspicious |
-
-> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
-
-## 详细安全审计
-
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
-| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
-| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
-| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
-| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
-| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
-| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
-| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
-| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
-| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
-
-**综合评级: 🟢 Low (低风险)**
-
-**风险摘要:** 检测到 1 项警告: 命令执行。无高危项。
+## 安全状态
+> 暂无安全审计数据
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
-> 生成时间: 2026-04-01 04:48 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成

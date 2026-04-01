@@ -1,57 +1,52 @@
 # communicate
 
-> Start using a local or Hugging Face model instantly, directly from chat.
+> 在聊天中即时启动和使用本地或 Hugging Face 模型，提供 OpenAI 兼容端点
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
 | **名称** | communicate |
 | **作者** | kenblive |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/kenblive-communicate |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kenblive/communicate |
-| **安全评级** | 🟢 Low (低风险) |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
+- 一键启动本地或 Hugging Face 模型服务器
+- 使用 vLLM 在本地部署模型，提供 OpenAI API 兼容端点
+- 支持直接在聊天中与运行中的模型对话
+- 支持张量并行（tp）和数据类型（dtype）配置
+- 提供服务器状态检查和停止功能
+- 支持自定义 IP 和端口设置
 
-- Quickly start using a local or Hugging Face model
-- Chat with a locally running model
-- Test or interact with a model directly from chat
+## 使用场景
+- 快速测试和对比不同的 Hugging Face 模型效果
+- 在本地搭建私有 AI 推理服务器用于开发调试
+- 通过聊天界面便捷地管理和交互多个模型实例
 
 ## 依赖和前提条件
+- bash、curl
+- vLLM（用于模型推理服务）
+- URL 环境变量配置
 
-- 无特殊依赖
-
-## 安全状态 (ClawHub)
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | ⚪ Unknown |
-| OpenClaw | 🟢 Benign |
-
-> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
-
+## 安全状态
 ## 详细安全审计
-
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
-| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
-| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
-| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
-| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
-| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
-| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
-| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
-| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
-| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
+| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
+| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
+| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟡 Medium | 读取环境变量或系统信息 |
+| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-**综合评级: 🟢 Low (低风险)**
-
-**风险摘要:** 检测到 1 项警告: 命令执行。无高危项。
+**综合评级: 🟢 Low**
+**风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；信息采集：读取环境变量或系统信息
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
-> 生成时间: 2026-04-01 04:48 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成

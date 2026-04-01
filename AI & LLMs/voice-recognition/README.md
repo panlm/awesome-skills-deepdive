@@ -1,39 +1,34 @@
 # voice-recognition
 
-> Local speech-to-text with OpenAI Whisper CLI. Supports Chinese, English, 100+ languages with translation and summarization.
+> Local speech-to-text with OpenAI Whisper CLI.
 
-## 基本信息
+## 📋 基本信息
 
-| 项目 | 内容 |
-|---|---|
-| **名称** | voice-recognition |
+| 属性 | 值 |
+|------|------|
+| **分类** | AI & LLMs |
 | **作者** | gykdly |
-| **ClawHub** | https://clawskills.sh/skills/gykdly-voice-recognition |
-| **GitHub** | https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition |
-| **安全评级** | 🟢 ClawHub Verified (Benign) |
+| **ClawHub** | [查看](<https://clawskills.sh/skills/gykdly-voice-recognition>) |
+| **GitHub** | [源码](<https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition>) |
 
-## 功能概述
+## 🔍 功能特点
 
 - **Local processing** - No API key needed, free
 - **Multi-language** - Chinese, English, 100+ languages
 - **Translation** - Translate to English
 - **Summarization** - Generate quick summary
 
-## 依赖和前提条件
+## 🛡️ 安全评估
 
-- OpenAI Whisper CLI: `brew install openai-whisper`
-- Python 3.10+
+- **VirusTotal**: ⏳ 待检测
+- **OpenClaw**: ⏳ 待检测
+- **综合评估**: ⚠️ 社区技能，使用前请自行审查
 
-## 安全状态
+## 📖 使用方法
 
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟢 Benign |
-| OpenClaw | 🟢 Benign |
+请参考 [SKILL.md](./SKILL.md) 获取详细的安装和使用说明。
 
-> ClawHub 安全扫描已通过，跳过详细审计。
+## 📎 附加资源
 
----
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 生成时间: 2026-04-01 04:47 UTC
+- [ClawHub 页面](<https://clawskills.sh/skills/gykdly-voice-recognition>)
+- [GitHub 源码](<https://github.com/openclaw/skills/tree/main/skills/gykdly/voice-recognition>)

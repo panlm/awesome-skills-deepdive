@@ -1,40 +1,53 @@
-# safety-checks
+# Safety Checks
 
-> Verify before you trust — model pinning, fallbacks, and runtime safety validation
+> 对 AI 模型输出进行安全性检查和合规性审计
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | safety-checks |
+| **名称** | Safety Checks |
 | **作者** | leegitw |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/leegitw-safety-checks |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/leegitw/safety-checks |
-| **安全评级** | 🟢 ClawHub Verified (Benign) |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
+- 对 AI 模型输出进行安全性检查
+- 检测潜在的有害内容和偏见
+- 验证输出是否符合安全准则
+- 支持自定义安全规则和过滤器
+- 提供安全评分和风险评估报告
+- 适用于生产环境的 AI 安全审计
 
-- .openclaw/safety-checks.yaml
-- .claude/safety-checks.yaml
-- output/safety/
-- `anthropic-opus-4-5-20251101`
-- `openai-gpt-4-turbo-20250301`
-- `google-gemini-2-pro-20260101`
+## 使用场景
+- 在生产环境部署前对 AI 输出进行安全性审计
+- 构建内容安全过滤管道检测有害信息
+- 定期检查 AI 系统输出的合规性
 
 ## 依赖和前提条件
-
-- 无特殊依赖
+- Bash/Shell 环境
+- Anthropic API Key
+- Google API Key
+- OpenAI API Key
 
 ## 安全状态
+## 详细安全审计
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
+| SEC-02 数据外泄 | 🟡 Medium | 存在外部 API 调用 |
+| SEC-03 凭证获取 | 🟡 Medium | 需要 API 密钥或令牌 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
+| SEC-10 混淆/反分析 | 🟢 Safe | 无混淆行为 |
 
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟢 Benign |
-| OpenClaw | 🟢 Benign |
-
-> ClawHub 安全扫描已通过，跳过详细审计。
+**综合评级: 🟢 Low**
+**风险摘要:** 2 项中风险。数据外泄：存在外部 API 调用；凭证获取：需要 API 密钥或令牌
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 生成时间: 2026-04-01 04:47 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成

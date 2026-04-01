@@ -1,63 +1,37 @@
-# x-alive
+# X Alive
 
-> Bring your AI agent to life on X/Twitter. Complete toolkit for launching, growing, and maintaining an authentic AI presence — organic replies, trend awareness, dedup, and safety. Use when setting up a new agent on X, defining voice/personality, creating content strategy, automating posts, managing engagement, handling safety (scams, impersonation, tokens), or growing a following organically.
+> 让 AI Agent 在 X/Twitter 上拥有真实的社交存在，支持有机互动和趋势感知
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | x-alive |
+| **名称** | X Alive |
 | **作者** | kitakitsune0x |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/kitakitsune0x-x-alive |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/kitakitsune0x/x-alive |
-| **安全评级** | 🟡 Medium (中风险) |
+| **安全评级** | 🔴 High |
 
 ## 功能概述
+- 让 AI Agent 在 X/Twitter 上建立真实的社交身份
+- 有机互动策略：智能回复、趋势感知、内容创作
+- 安全优先原则，避免被封号或产生不当内容
+- 支持 Agent 人格和声音定义
+- 内容去重机制，避免重复发帖
+- 完整的内容策略框架和增长指南
+- 基于真实运营经验（@umiXBT）构建
 
-- X/Twitter developer account with API access
-- [xurl](https://github.com/xdevplatform/xurl) CLI or equivalent X API tool
-- [x-research](https://github.com/rohunvora/x-research-skill) skill for searching and monitoring X
-- A human operator who has your back
-- Name, handle, avatar
-- Personality / vibe / tone
+## 使用场景
+- 为 AI Agent 建立 X/Twitter 账号并制定内容策略
+- 自动化社交媒体互动，智能回复相关推文
+- 监控行业趋势并生成高质量原创内容
 
 ## 依赖和前提条件
+- 环境变量 `X_BEARER_TOKEN`
+- `curl` 命令行工具
 
-- X/Twitter developer account with API access
-- [xurl](https://github.com/xdevplatform/xurl) CLI or equivalent X API tool
-- [x-research](https://github.com/rohunvora/x-research-skill) skill for searching and monitoring X
-- A human operator who has your back
-
-## 安全状态 (ClawHub)
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟡 Suspicious |
-| OpenClaw | 🟡 Suspicious |
-
-> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
-
-## 详细安全审计
-
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟡 警告 | 注意: curl -s "http |
-| SEC-02 数据外泄 | 🟡 警告 | 注意: https://api. |
-| SEC-03 凭证获取 | 🟢 通过 | 未检测到凭证获取相关风险模式 |
-| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
-| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
-| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
-| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
-| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
-| SEC-09 信息采集 | 🟡 警告 | 注意: id |
-| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
-
-**综合评级: 🟡 Medium (中风险)**
-
-**风险摘要:** 检测到 3 项警告: 命令执行, 数据外泄, 信息采集。无高危项。
+## 安全状态
+> 暂无安全审计数据
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
-> 生成时间: 2026-04-01 04:48 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成

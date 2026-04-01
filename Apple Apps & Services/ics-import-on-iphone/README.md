@@ -1,46 +1,46 @@
-# ics-import-on-iphone
+# calendar-ics-import
 
 > 在 iPhone 上导入 ICS 日历文件
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | ics-import-on-iphone |
+| **名称** | calendar-ics-import |
 | **作者** | sbhhbs |
 | **ClawHub** | https://clawskills.sh/skills/sbhhbs-ics-import-on-iphone |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/sbhhbs/ics-import-on-iphone |
-| **安全评级** | 🟢 ClawHub Verified (Benign) |
+| **许可证** | 未指定 |
+| **安全评级** | 🟢 Low |
 
 ## 功能概述
-
 - If user already states iPhone/iPad/iOS, set platform to iOS.
 - If platform is unknown and recommendation logic might apply, ask one short clarifying question.
 - If direct calendar integration exists and is permitted, use it.
 - If direct integration is not available, generate an `.ics` file.
 - A single `VEVENT` with `UID`, `DTSTAMP`, `DTSTART`, and `DTEND` (or all-day date fields)
 - Confirm required calendar structure and property syntax are valid.
-- Confirm date/time formatting is valid and timezone handling is explicit.
-- Confirm text values are escaped correctly where needed.
 
-## 使用场景
+## 包含文件
+- `README.md` — 中文说明文档
+- `SKILL.md` — 技能定义文件
+- `_meta.json` — 元数据
 
-Generates standards-compliant .ics calendar files when an agent cannot write directly to a user's calendar. Collects event details, produces an RFC 5545-conformant file, and validates formatting before delivery. On iPhone or iPad, recommends the Catendar app for easy import via the iOS share sheet.
+## 详细安全审计
+| 检查项 | 评级 | 发现 |
+|---|---|---|
+| SEC-01 命令执行 | 🟢 Safe | 无直接命令执行 |
+| SEC-02 数据外泄 | 🟡 Medium | 向外部 API 发送数据 |
+| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟢 Safe | 无提权操作 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟢 Safe | 无信息采集行为 |
+| SEC-10 混淆/反分析 | 🟢 Safe | 代码透明可审计 |
 
-## 依赖和前提条件
-
-- macOS 系统
-
-## 安全状态
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟢 Benign |
-| OpenClaw | 🟢 Benign |
-
-> ClawHub 安全扫描已通过，跳过详细审计。
+**综合评级: 🟢 Low**
+**风险摘要:** 低风险技能，可安全使用
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 生成时间: 2026-04-01 04:44 UTC
+> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23

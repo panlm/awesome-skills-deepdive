@@ -1,61 +1,35 @@
-# x-ai
+# xAI / Grok
 
-> Chat with Grok models via xAI API. Supports Grok-3, Grok-3-mini, vision, and more.
+> 在 OpenClaw 中接入 xAI 的 Grok 系列模型，支持文本对话和视觉理解
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | x-ai |
+| **名称** | xAI / Grok |
 | **作者** | blueberrywoodsym |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/blueberrywoodsym-x-ai |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/blueberrywoodsym/x-ai |
-| **安全评级** | 🟢 Low (低风险) |
+| **安全评级** | 🟡 Medium |
 
 ## 功能概述
+- 接入 xAI 的 Grok 系列大语言模型
+- 支持 Grok-3、Grok-3-mini 等多种模型
+- 支持文本聊天和视觉（图像）理解
+- 简单的 API Key 配置即可使用
+- 兼容 OpenClaw 的 Skill 生态
 
-- `grok-3` - Most capable, best for complex tasks
-- `grok-3-mini` - Fast and efficient
-- `grok-3-fast` - Optimized for speed
-- `grok-2-vision-1212` - Vision model for image understanding
-- `XAI_API_KEY` - Your xAI API key (required)
-- `XAI_MODEL` - Default model (optional, defaults to grok-3)
+## 使用场景
+- 在 OpenClaw 中使用 Grok 模型获取不同风格的 AI 回复
+- 利用 Grok 的视觉能力分析和描述图像内容
+- 对比多个 LLM 模型的回复质量，选择最佳方案
 
 ## 依赖和前提条件
+- 环境变量 `XAI_API_KEY`
+- Node.js 运行环境
 
-- XAI_API_KEY
-- [XAI_API_KEY
-
-## 安全状态 (ClawHub)
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟡 Suspicious |
-| OpenClaw | 🟢 Benign |
-
-> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
-
-## 详细安全审计
-
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟡 警告 | 注意: bash |
-| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
-| SEC-03 凭证获取 | 🟡 警告 | 注意: api_key |
-| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
-| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
-| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
-| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
-| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
-| SEC-09 信息采集 | 🟢 通过 | 未检测到信息采集相关风险模式 |
-| SEC-10 混淆/反分析 | 🟢 通过 | 未检测到混淆/反分析相关风险模式 |
-
-**综合评级: 🟢 Low (低风险)**
-
-**风险摘要:** 检测到 2 项警告: 命令执行, 凭证获取。无高危项。
+## 安全状态
+> 暂无安全审计数据
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
-> 生成时间: 2026-04-01 04:48 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成

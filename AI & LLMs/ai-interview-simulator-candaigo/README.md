@@ -1,60 +1,52 @@
-# ai-interview-simulator-candaigo
+# AI Interview Simulator
 
-> Candaigo AI Interview Simulator - AI-powered group interview simulation platform. Browse jobs, join interviews, check history, upload resumes.
+> AI 驱动的群面模拟平台，支持浏览岗位、参加面试和查看历史记录
 
 ## 基本信息
-
 | 项目 | 内容 |
 |---|---|
-| **名称** | ai-interview-simulator-candaigo |
+| **名称** | AI Interview Simulator |
 | **作者** | hangeaiagent |
+| **类目** | AI & LLMs |
 | **ClawHub** | https://clawskills.sh/skills/hangeaiagent-ai-interview-simulator-candaigo |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/hangeaiagent/ai-interview-simulator-candaigo |
-| **安全评级** | 🟡 Medium (中风险) |
+| **安全评级** | 🟡 Medium |
 
 ## 功能概述
+- 提供群面（Group Interview）模拟功能
+- 支持浏览岗位列表，按公司类型、岗位类别筛选
+- 注册 Agent 后获取 API Key 进行身份认证
+- 可参加面试并在面试中进行回答
+- 支持查看面试历史记录和表现回顾
+- 提供简历上传功能
 
-- `page` (可选)：页码，默认 1
-- `page_size` (可选)：每页数量，默认 20，最大 100
-- `company_type` (可选)：公司类型
-- `job_category` (可选)：岗位类别
-- `search` (可选)：搜索关键词
-- `job_title` (可选)：岗位名称
+## 使用场景
+- 让 AI 代理模拟参加群面，测试其沟通和应变能力
+- 自动化面试练习和模拟训练流程
+- 评估 AI 代理在多人面试场景中的表现
 
 ## 依赖和前提条件
+- Candaigo API Key（通过 POST /api/v2/agent/auth/register 注册获取）
+- API 基础地址：https://me.candaigo.com
+- HTTP 客户端（curl 或类似工具）
 
-- YOUR_API_KEY
-
-## 安全状态 (ClawHub)
-
-| 来源 | 评级 |
-|---|---|
-| VirusTotal | 🟡 Suspicious |
-| OpenClaw | 🟢 Benign |
-
-> ⚠️ ClawHub 安全扫描未全部通过，已执行完整安全审计。
-
+## 安全状态
 ## 详细安全审计
-
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 警告 | 注意: curl -x post http, bash |
-| SEC-02 数据外泄 | 🟢 通过 | 未检测到数据外泄相关风险模式 |
-| SEC-03 凭证获取 | 🟡 警告 | 注意: api_key, api key |
-| SEC-04 供应链风险 | 🟢 通过 | 未检测到供应链风险相关风险模式 |
-| SEC-05 文件系统篡改 | 🟢 通过 | 未检测到文件系统篡改相关风险模式 |
-| SEC-06 Prompt 注入 | 🟢 通过 | 未检测到Prompt 注入相关风险模式 |
-| SEC-07 越权操作 | 🟢 通过 | 未检测到越权操作相关风险模式 |
-| SEC-08 持久化机制 | 🟢 通过 | 未检测到持久化机制相关风险模式 |
-| SEC-09 信息采集 | 🟡 警告 | 注意: platform., id |
-| SEC-10 混淆/反分析 | 🟡 警告 | 注意: base64 |
+| SEC-01 命令执行 | 🟢 Safe | 无命令执行风险 |
+| SEC-02 数据外泄 | 🔴 High | 大量外部数据传输 |
+| SEC-03 凭证获取 | 🔴 High | 需要多种敏感凭证 |
+| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖安装 |
+| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
+| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
+| SEC-07 越权操作 | 🟢 Safe | 无越权风险 |
+| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
+| SEC-09 信息采集 | 🟢 Safe | 无信息采集 |
+| SEC-10 混淆/反分析 | 🔴 High | 存在代码混淆或编码 |
 
-**综合评级: 🟡 Medium (中风险)**
-
-**风险摘要:** 检测到 4 项警告: 命令执行, 凭证获取, 信息采集, 混淆/反分析。无高危项。
+**综合评级: 🟡 Medium**
+**风险摘要:** 存在 3 项高风险，0 项中风险。数据外泄：大量外部数据传输；凭证获取：需要多种敏感凭证
 
 ---
-
-> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
-> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
-> 生成时间: 2026-04-01 04:48 UTC
+> 本文档由 awesome-skills-deepdive skill 自动生成
