@@ -1,54 +1,85 @@
 # macos-native-automation
 
-> macOS 原生自动化工具集（AppleScript/快捷指令等）
+> 使用 AppleScript/JXA 进行 macOS 原生自动化
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
 | **名称** | macos-native-automation |
 | **作者** | theagentwire |
 | **ClawHub** | https://clawskills.sh/skills/theagentwire-macos-native-automation |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/theagentwire/macos-native-automation |
-| **许可证** | 未指定 |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- CGEvent doesn't have this problem. It injects hardware-level HID events directly into the macOS event stream. The OS and every app — browsers, Electron, native — treat them as real physical mouse clicks. Because at the system level, they are.
-- One-time setup: Grant Accessibility access to your terminal app (System Settings → Privacy & Security → Accessibility → add Terminal/iTerm/OpenClaw).
-- This is the most reliable method. Don't estimate — measure.
-- Paste the full file path including filename — macOS navigates to the directory and selects the file
-- Activate the target app first before sending AppleScript keystrokes:
-- CGEvent wins because it operates at the hardware event layer. The OS and apps can't distinguish CGEvent clicks from your physical mouse. Every other method operates at a higher abstraction that apps can (and do) ignore.
+
+- Paste the **full file path including filename** — macOS navigates to the directory and selects the file
+- **Activate the target app first** before sending AppleScript keystrokes:
+
+## 使用场景
+
+CGEvent injects hardware-level HID mouse events directly into the macOS event stream, bypassing all application-layer filtering. Works where CDP .click(), JavaScript .click(), and AppleScript fail: file upload dialogs, React dropzones, native macOS prompts. Zero dependencies, Python 3 stdlib only.
 
 ## 依赖和前提条件
-- 
-- 
-- 
-- What problem does it solve?**
-- Does it work with any app?**
 
-## 包含文件
-- `README.md` — 中文说明文档
-- `SKILL.md` — 技能定义文件
-- `_meta.json` — 元数据
-- `scripts/` — 目录
+- Python 3
+- macOS (AppleScript)
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未通过或状态未知，已执行完整安全审计。
 
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟡 Medium | 包含可执行脚本 |
-| SEC-02 数据外泄 | 🟡 Medium | 向外部 API 发送数据 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟡 Medium | 依赖外部包 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无提权操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集行为 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 代码透明可审计 |
+| SEC-01 命令执行 | 🟡 警告 | 执行 shell 命令: bash
+# Click at screen coordinates (500, 300)
+python3 scripts/macos_click.py click 500 300
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在中等风险项，建议审查相关配置和权限
+# Get a window's position
+python3 scripts/macos_click.py window "Safari"
+# → Safari: x=0, y=38, w=1440, h=860
+
+# Double-click, right-click, drag
+python3 scripts/macos_click.py doubleclick 500 300
+python3 scripts/macos_click.py rightclick 500 300
+python3 scripts/macos_click.py drag 100 200 500 300
+, bash
+python3 scripts/macos_click.py window "Safari"
+# → Safari: x=0, y=38, w=1440, h=860
+
+python3 scripts/macos_click.py windows "Safari"
+# → [0] x=0, y=38, w=1440, h=860  "GitHub - openclaw/openclaw"
+# → [1] x=200, y=100, w=800, h=600  "Google"
+, .
+
+### 2. Screenshot + Measure (most reliable)
+
+ |
+| SEC-02 数据外泄 | 🟡 警告 | 调用已知服务 API 发送数据 |
+| SEC-03 凭证获取 | 🟢 通过 | 不涉及任何凭证或密钥操作 |
+| SEC-04 供应链风险 | 🟢 通过 | 无软件安装操作 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 无文件系统修改行为 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 指令清晰透明，无隐藏行为 |
+| SEC-07 越权操作 | 🟢 通过 | 操作范围与声称功能一致 |
+| SEC-08 持久化机制 | 🟢 通过 | 无持久化行为 |
+| SEC-09 信息采集 | 🟢 通过 | 不收集系统/环境信息 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 所有指令清晰可读，无编码或间接执行 |
+
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 发现 2 项警告，无严重风险。执行 shell 命令: bash
+# Click at screen coordinates (5
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:44 UTC

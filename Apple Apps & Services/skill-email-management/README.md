@@ -1,56 +1,83 @@
-# email-management-expert
+# skill-email-management
 
-> macOS 邮件管理技能 — 搜索、分类和处理邮件
+> 管理和自动化 Apple Mail 邮件处理
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
-| **名称** | email-management-expert |
+| **名称** | skill-email-management |
 | **作者** | latisen |
 | **ClawHub** | https://clawskills.sh/skills/latisen-skill-email-management |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/latisen/skill-email-management |
-| **许可证** | 未指定 |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 Low (低风险) |
 
 ## 功能概述
-- Apple Mail MCP = The tools (18 email management functions)
-- Email Management Skill = The expertise (workflows, strategies, best practices)
-- Daily Inbox Triage - Process emails quickly (10-15 min)
-- Inbox Zero - Achieve and maintain empty inbox
-- Email Organization - Folder structures and filing strategies
-- Advanced Search - Find any email quickly
+
+- **Overview & Discovery**: `get_inbox_overview`, `list_accounts`, `list_mailboxes`
+- **Reading & Searching**: `list_inbox_emails`, `get_recent_emails`, `get_email_with_content`, `search_emails`, `get_email_thread`
+- **Composing & Responding**: `compose_email`, `reply_to_email`, `forward_email`
+- **Organization**: `move_email`, `update_email_status` (read/unread, flag/unflag)
+- **Drafts**: `manage_drafts` (list, create, send, delete)
+- **Attachments**: `list_email_attachments`, `save_email_attachment`
+- **Analytics**: `get_statistics` (account overview, sender stats, mailbox breakdown)
+- **Cleanup**: `manage_trash` (move to trash, delete permanently, empty trash)
+
+## 使用场景
+
+Email management assistant for Apple Mail. Helps users triage, organize, and search their inbox using Apple Mail MCP tools. Covers workflows from daily triage to bulk cleanup, draft management, and email analytics.
 
 ## 依赖和前提条件
-- Download `email-management-skill.zip` from the [releases page](https://github.com/patrickfreyer/apple-mail-mcp/releases)
-- That's it! The skill is now available in Claude Code.
-- User Scope (Recommended):**
-- Trigger Keywords:**
-- "inbox management"
 
-## 包含文件
-- `ORIGINAL_README.md` — 原始说明文档
-- `README.md` — 中文说明文档
-- `SKILL.md` — 技能定义文件
-- `_meta.json` — 元数据
-- `examples/` — 目录
-- `templates/` — 目录
+- macOS 系统
+
+## 安全状态 (ClawHub)
+
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | ⚪ Unknown |
+| OpenClaw | 🟢 Benign |
+
+> ⚠️ ClawHub 安全扫描未通过或状态未知，已执行完整安全审计。
 
 ## 详细安全审计
+
 | 检查项 | 评级 | 发现 |
 |---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无直接命令执行 |
-| SEC-02 数据外泄 | 🟡 Medium | 向外部 API 发送数据 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟢 Safe | 无外部依赖 |
-| SEC-05 文件系统篡改 | 🟡 Medium | 包含文件读写操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟢 Safe | 无提权操作 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集行为 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 代码透明可审计 |
+| SEC-01 命令执行 | 🟡 警告 | 执行 shell 命令:  with filters)
+3. **Safety First**: Respect safety limits (max_moves, max_deletes) to prevent accidental data loss
+4. **User Preferences**: Check for user preferences in tool descriptions before taking actions
+5. **Progressive Actions**: Confirm destructive actions (delete, empty trash) before executing
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在中等风险项，建议审查相关配置和权限
+## Available MCP Tools Overview
+
+The Apple Mail MCP provides comprehensive email management capabilities:
+
+- **Overview & Discovery**: , manage_trash, 
+
+### 4. Achieving Inbox Zero
+
+**Goal**: Empty inbox by processing all emails
+
+**The Inbox Zero Method**:
+1. **Start Fresh**:  |
+| SEC-02 数据外泄 | 🟢 通过 | 无外部网络数据发送行为 |
+| SEC-03 凭证获取 | 🟢 通过 | 不涉及任何凭证或密钥操作 |
+| SEC-04 供应链风险 | 🟢 通过 | 无软件安装操作 |
+| SEC-05 文件系统篡改 | 🟢 通过 | 无文件系统修改行为 |
+| SEC-06 Prompt 注入 | 🟢 通过 | 指令清晰透明，无隐藏行为 |
+| SEC-07 越权操作 | 🟢 通过 | 操作范围与声称功能一致 |
+| SEC-08 持久化机制 | 🟢 通过 | 无持久化行为 |
+| SEC-09 信息采集 | 🟢 通过 | 不收集系统/环境信息 |
+| SEC-10 混淆/反分析 | 🟢 通过 | 所有指令清晰可读，无编码或间接执行 |
+
+**综合评级: 🟢 Low (低风险)**
+
+**风险摘要:** 发现 1 项警告，无严重风险。执行 shell 命令:  with filters)
+3. **Safety First**: R
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 安全审计基于 SKILL.md 静态分析，不代表运行时行为。
+> 生成时间: 2026-04-01 04:44 UTC

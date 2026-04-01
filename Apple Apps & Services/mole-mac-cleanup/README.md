@@ -1,53 +1,48 @@
 # mole-mac-cleanup
 
-> macOS 系统清理和磁盘空间优化工具
+> 清理 macOS 系统垃圾和缓存文件
 
 ## 基本信息
+
 | 项目 | 内容 |
 |---|---|
 | **名称** | mole-mac-cleanup |
 | **作者** | bjesuiter |
 | **ClawHub** | https://clawskills.sh/skills/bjesuiter-mole-mac-cleanup |
 | **GitHub** | https://github.com/openclaw/skills/tree/main/skills/bjesuiter/mole-mac-cleanup |
-| **许可证** | 未指定 |
-| **安全评级** | 🟡 Medium |
+| **安全评级** | 🟢 ClawHub Verified (Benign) |
 
 ## 功能概述
-- Repo: https://github.com/tw93/Mole
-- Command: `mo` (not `mole`!)
-- Install: `brew install mole`
-- Deep cleaning — removes caches, logs, browser leftovers
-- Smart uninstaller — removes apps + hidden remnants
-- Disk insights — visualizes usage, manages large files
+
+- **Deep cleaning** — removes caches, logs, browser leftovers
+- **Smart uninstaller** — removes apps + hidden remnants
+- **Disk insights** — visualizes usage, manages large files
+- **Live monitoring** — real-time system stats
+- **Project artifact purge** — cleans `node_modules`, `target`, `build`, etc.
+- Rebuild system databases and clear caches
+- Reset network services
+- Refresh Finder and Dock
+
+## 使用场景
+
+Mole is a Mac-only CLI tool invoked as `mo` that removes caches, logs, browser data, and app remnants, and purges dev project artifacts like node_modules and build directories. It also optimizes system services by rebuilding databases, resetting Spotlight, and refreshing Finder and Dock. Always use `--dry-run` before executing any operation.
 
 ## 依赖和前提条件
-- id: brew
-- 
-- Disk insights** — visualizes usage, manages large files
-- Live monitoring** — real-time system stats
-- Project artifact purge** — cleans `node_modules`, `target`, `build`, etc.
 
-## 包含文件
-- `README.md` — 中文说明文档
-- `SKILL.md` — 技能定义文件
-- `_meta.json` — 元数据
+- macOS 系统
+- Homebrew: mole
+- Node.js
 
-## 详细安全审计
-| 检查项 | 评级 | 发现 |
-|---|---|---|
-| SEC-01 命令执行 | 🟢 Safe | 无直接命令执行 |
-| SEC-02 数据外泄 | 🟡 Medium | 向外部 API 发送数据 |
-| SEC-03 凭证获取 | 🟢 Safe | 无凭证需求 |
-| SEC-04 供应链风险 | 🟡 Medium | 依赖外部包 |
-| SEC-05 文件系统篡改 | 🟢 Safe | 无文件系统操作 |
-| SEC-06 Prompt 注入 | 🟢 Safe | 无 Prompt 注入风险 |
-| SEC-07 越权操作 | 🟡 Medium | 需要 sudo 权限 |
-| SEC-08 持久化机制 | 🟢 Safe | 无持久化机制 |
-| SEC-09 信息采集 | 🟢 Safe | 无信息采集行为 |
-| SEC-10 混淆/反分析 | 🟢 Safe | 代码透明可审计 |
+## 安全状态
 
-**综合评级: 🟡 Medium**
-**风险摘要:** 存在中等风险项，建议审查相关配置和权限
+| 来源 | 评级 |
+|---|---|
+| VirusTotal | 🟢 Benign |
+| OpenClaw | 🟢 Benign |
+
+> ClawHub 安全扫描已通过，跳过详细审计。
 
 ---
-> 本文档由 awesome-skills-deepdive 自动生成 | 2026-03-23
+
+> 本文档由 awesome-skills-deepdive skill 自动生成，仅供参考。
+> 生成时间: 2026-04-01 04:44 UTC
