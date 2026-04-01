@@ -1,24 +1,30 @@
 # xthezealot-stealth-browser
 
-> Use `/stealth-browser` to access websites with advanced bot protection.
+> A headless browser with advanced anti-detection capabilities for bypassing bot protection.
+
+## 基本信息
+
+| 项目 | 详情 |
+|---|---|
+| 作者 | xthezealot |
+| 版本 | 1.0.0 |
+| ClawHub | [xthezealot-xthezealot-stealth-browser](https://clawskills.sh/skills/xthezealot-xthezealot-stealth-browser) |
 
 ## 安全状态
 
-| 检查项 | 状态 |
-|---|---|
-| VirusTotal | Suspicious |
-| OpenClaw | Unknown |
-| 综合评级 | 🟡 |
+**🟡 需要注意**
+
+| 检查项 | 状态 | 结果 |
+|---|---|---|
+| VirusTotal | Suspicious | ⚠️ |
+| OpenClaw | Suspicious | ⚠️ |
 
 ## 包含文件
 
-- `README.md`
+- `ORIGINAL_README.md`
 - `SKILL.md`
 - `_meta.json`
 - `index.js`
 - `package-lock.json`
 - `package.json`
 - `stealth-browser.js`
-
----
-*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

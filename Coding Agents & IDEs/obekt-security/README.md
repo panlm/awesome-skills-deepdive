@@ -1,14 +1,23 @@
 # obekt-security
 
-> Basic threat detection and security analysis for code, files, and agent skills.
+> Basic threat detection and security analysis for code, files, and agent skills. Use when you need to scan for vulnerabilities, validate security patterns, detect malicious patterns, or audit codebases
+
+## 基本信息
+
+| 项目 | 详情 |
+|---|---|
+| 作者 | obekt |
+| 版本 | 1.1.0 |
+| ClawHub | [obekt-obekt-security](https://clawskills.sh/skills/obekt-obekt-security) |
 
 ## 安全状态
 
-| 检查项 | 状态 |
-|---|---|
-| VirusTotal | Benign |
-| OpenClaw | Unknown |
-| 综合评级 | ⚪ |
+**🟢 ClawHub Verified (Benign)**
+
+| 检查项 | 状态 | 结果 |
+|---|---|---|
+| VirusTotal | Benign | ✅ |
+| OpenClaw | Benign | ✅ |
 
 ## 包含文件
 
@@ -23,6 +32,3 @@
 - `scripts/secret_scan.py`
 - `scripts/skill_audit.py`
 - `scripts/threat_scan.py`
-
----
-*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

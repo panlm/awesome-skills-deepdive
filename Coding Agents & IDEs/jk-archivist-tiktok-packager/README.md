@@ -1,20 +1,29 @@
 # jk-archivist-tiktok-packager
 
-> Generate deterministic 6-slide portrait PNG slideshow assets plus caption text for TikTok-style posting workflows.
+> Creates deterministic TikTok slideshow assets:
+
+## 基本信息
+
+| 项目 | 详情 |
+|---|---|
+| 作者 | jk-archivist |
+| 版本 | 1.6.0 |
+| ClawHub | [jk-archivist-jk-archivist-tiktok-packager](https://clawskills.sh/skills/jk-archivist-jk-archivist-tiktok-packager) |
 
 ## 安全状态
 
-| 检查项 | 状态 |
-|---|---|
-| VirusTotal | Benign |
-| OpenClaw | Unknown |
-| 综合评级 | ⚪ |
+**🟢 ClawHub Verified (Benign)**
+
+| 检查项 | 状态 | 结果 |
+|---|---|---|
+| VirusTotal | Benign | ✅ |
+| OpenClaw | Benign | ✅ |
 
 ## 包含文件
 
 - `CHANGELOG.md`
 - `CONTRIBUTING.md`
-- `README.md`
+- `ORIGINAL_README.md`
 - `SKILL.md`
 - `_meta.json`
 - `docs/ARCHITECTURE.md`
@@ -67,6 +76,3 @@
 - `tests/python/test_verify_contract.py`
 - `tools/postiz.tool.md`
 - `tools/tiktok_render.tool.md`
-
----
-*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

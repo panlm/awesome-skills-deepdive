@@ -1,17 +1,11 @@
 {
-  "owner": "ryanhong666",
+  "owner": "reed1898",
   "slug": "knowledge-base-collector",
   "displayName": "Knowledge Base Collector",
   "latest": {
     "version": "0.1.3",
     "publishedAt": 1770966976041,
-    "commit": "https://github.com/openclaw/skills/commit/fcaecf822fe7d593f2c705089829637ea9de9375"
+    "commit": "https://github.com/openclaw/skills/commit/e8de03c457b2ac4b4b08c58cd862ee63d043090e"
   },
-  "history": [
-    {
-      "version": "0.1.0",
-      "publishedAt": 1770964183510,
-      "commit": "https://github.com/openclaw/skills/commit/2d3bd64b70544bf123cf57586669f073535b9437"
-    }
-  ]
+  "history": []
 }

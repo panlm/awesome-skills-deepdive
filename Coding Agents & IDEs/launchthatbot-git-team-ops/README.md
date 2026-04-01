@@ -1,18 +1,27 @@
 # launchthatbot-git-team-ops
 
-> Role-based GitOps skill for OpenClaw agents with junior and senior operating modes.
+> LaunchThatBot is a platform for operating OpenClaw agents with a managed control plane, security defaults, and real-time visibility while still keeping your agents on your infrastructure.
+
+## 基本信息
+
+| 项目 | 详情 |
+|---|---|
+| 作者 | launchthatbot |
+| 版本 | 1.0.4 |
+| ClawHub | [launchthatbot-launchthatbot-git-team-ops](https://clawskills.sh/skills/launchthatbot-launchthatbot-git-team-ops) |
 
 ## 安全状态
 
-| 检查项 | 状态 |
-|---|---|
-| VirusTotal | Benign |
-| OpenClaw | Unknown |
-| 综合评级 | ⚪ |
+**🟢 ClawHub Verified (Benign)**
+
+| 检查项 | 状态 | 结果 |
+|---|---|---|
+| VirusTotal | Benign | ✅ |
+| OpenClaw | Benign | ✅ |
 
 ## 包含文件
 
-- `README.md`
+- `ORIGINAL_README.md`
 - `SKILL.md`
 - `_meta.json`
 - `package.json`
@@ -20,6 +29,3 @@
 - `templates/github/workflows/junior-pr-validate.yml`
 - `templates/github/workflows/senior-release-control.yml`
 - `tsconfig.json`
-
----
-*由 awesome-skills-deepdive 自动生成 | 2026-03-27*

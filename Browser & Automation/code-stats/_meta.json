@@ -1,11 +1,11 @@
 {
-  "owner": "wanng-ide",
+  "owner": "autogame-17",
   "slug": "code-stats",
   "displayName": "Code Stats",
   "latest": {
     "version": "1.0.0",
     "publishedAt": 1771176665872,
-    "commit": "https://github.com/openclaw/skills/commit/026e899925869601acaf3863c5be50a2a9684af3"
+    "commit": "https://github.com/openclaw/skills/commit/7b50910704b3ac023f39a772adf47b209ff1b9bf"
   },
   "history": []
 }

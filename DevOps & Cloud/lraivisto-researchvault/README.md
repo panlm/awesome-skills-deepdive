@@ -1,18 +1,27 @@
 # lraivisto-researchvault
 
-> High-velocity research orchestration engine.
+> **The local-first orchestration engine for high-velocity AI research.**
+
+## 基本信息
+
+| 项目 | 详情 |
+|---|---|
+| 作者 | lraivisto |
+| 版本 | 2.1.0 |
+| ClawHub | [lraivisto-lraivisto-researchvault](https://clawskills.sh/skills/lraivisto-lraivisto-researchvault) |
 
 ## 安全状态
 
-| 检查项 | 状态 |
-|---|---|
-| VirusTotal | Benign |
-| OpenClaw | Unknown |
-| 综合评级 | ⚪ |
+**🟢 ClawHub Verified (Benign)**
+
+| 检查项 | 状态 | 结果 |
+|---|---|---|
+| VirusTotal | Benign | ✅ |
+| OpenClaw | Benign | ✅ |
 
 ## 包含文件
 
-- `README.md`
+- `ORIGINAL_README.md`
 - `SKILL.md`
 - `_meta.json`
 - `main.py`
@@ -40,6 +49,3 @@
 - `tests/test_verification.py`
 - `tests/test_watchdog.py`
 - `tests/test_youtube.py`
-
----
-*由 awesome-skills-deepdive 自动生成 | 2026-03-27*
