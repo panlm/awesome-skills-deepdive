@@ -1,23 +1,27 @@
 # the-only
 
-> "the-only" (Ruby) — self-evolving personal information curator that delivers curated content as interactive HTML articles via Discord bot, Telegram, Feishu, or webhooks. Three-tier memory, knowledge g
+> A self-evolving, context-aware information curation engine.
 
 ## 基本信息
 
-| 项目 | 详情 |
+| 项目 | 值 |
 |---|---|
 | 作者 | cdotlock |
 | 版本 | 1.0.1 |
-| ClawHub | [cdotlock-the-only](https://clawskills.sh/skills/cdotlock-the-only) |
+| ClawHub | [the-only](https://clawskills.sh/skills/cdotlock-the-only) |
+| 安全状态 | ⚪ 未知 |
+
+## 功能概述
+
+A self-evolving, context-aware information curation engine.
 
 ## 安全状态
 
-**🟢 ClawHub Verified (Benign)**
-
-| 检查项 | 状态 | 结果 |
-|---|---|---|
-| VirusTotal | Benign | ✅ |
-| OpenClaw | Benign | ✅ |
+| 检查项 | 状态 |
+|---|---|
+| VirusTotal | Benign |
+| OpenClaw | Unknown |
+| 综合评级 | ⚪ 未知 |
 
 ## 包含文件
 
@@ -44,3 +48,6 @@
 - `scripts/memory_io.py`
 - `scripts/mesh_sync.py`
 - `scripts/the_only_engine.py`
+
+---
+*由 awesome-skills-deepdive 自动生成 | 2026-04-02*
