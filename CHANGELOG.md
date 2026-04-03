@@ -1,3 +1,8 @@
+## 2026-04-03
+
+### Updated (1)
+- [Coding Agents & IDEs] agent-passport-system — changed: SKILL.md, _meta.json (version unknown → v4.7.0, major update: 99 modules, 125 MCP tools, constitutional governance)
+
 ## 2026-04-02
 
 ### Added (125)
@@ -219,5 +224,3 @@
   - Coding Agents & IDEs (1160), Web & Frontend Development (901), DevOps & Cloud (375),
     Search & Research (339), Browser & Automation (304), Productivity & Tasks (201),
     CLI Utilities (169), Image & Video Generation (162)
-
-
