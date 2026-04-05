@@ -1,3 +1,8 @@
+## 2026-04-05
+
+### Added (1)
+- [Media & Streaming] jubjub — Publish to all major media platforms, track cross-platform analytics, and automate on-chain royalty and revenue splits via MCP.
+
 ## 2026-04-03
 
 ### Updated (1)
