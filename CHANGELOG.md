@@ -1,3 +1,8 @@
+## 2026-04-07
+
+### Removed (1)
+- [Web & Frontend Development] private-web-search-searchxng — upstream removed all files (SKILL.md, _meta.json, scripts/search.sh)
+
 ## 2026-04-05
 
 ### Added (1)
