@@ -18,7 +18,7 @@ import type {
   OpenClawPluginService,
   OpenClawPluginServiceContext,
 } from "openclaw/plugin-sdk";
-import { onDiagnosticEvent, registerLogTransport } from "openclaw/plugin-sdk";
+import { resolveDiagnosticHooks } from "../sdk-compat.js";
 import { redactSecrets, flattenLogKeys } from "./redact.js";
 
 // tool.loop event type exists in openclaw source but is not yet published
@@ -97,6 +97,20 @@ export function createMetricsCollectorService(
         return;
       }
 
+      // ── Resolve SDK hooks (version-resilient dynamic import) ────
+      const hooks = await resolveDiagnosticHooks();
+      const onDiagnosticEvent = hooks.onDiagnosticEvent as
+        ((listener: (evt: DiagnosticEventPayload) => void) => () => void) | null;
+      const { registerLogTransport } = hooks;
+      if (!onDiagnosticEvent) {
+        ctx.logger.error(
+          "grafana-lens: onDiagnosticEvent not available — cannot start metrics collection. " +
+          "This usually means an incompatible openclaw version. " +
+          "Please report at https://github.com/anthropics/openclaw/issues",
+        );
+        return;
+      }
+
       // ── Derive per-signal OTLP endpoints ────────────────────────
       const otlpConfig = config.otlp ?? {};
       const endpoints = deriveOtlpEndpoints(otlpConfig.endpoint);
@@ -107,6 +121,7 @@ export function createMetricsCollectorService(
         headers: otlpConfig.headers,
         exportIntervalMs: otlpConfig.exportIntervalMs,
         serviceVersion: pluginVersion,
+        serviceInstanceId: otlpConfig.instanceId,
       });
 
       // ── Initialize OTLP logs provider ───────────────────────────
@@ -115,6 +130,7 @@ export function createMetricsCollectorService(
           endpoint: endpoints.logs,
           headers: otlpConfig.headers,
           serviceVersion: pluginVersion,
+          serviceInstanceId: otlpConfig.instanceId,
         });
         ctx.logger.info(`grafana-lens: logs push enabled (OTLP → ${endpoints.logs})`);
       }
@@ -125,6 +141,7 @@ export function createMetricsCollectorService(
           endpoint: endpoints.traces,
           headers: otlpConfig.headers,
           serviceVersion: pluginVersion,
+          serviceInstanceId: otlpConfig.instanceId,
         });
         ctx.logger.info(`grafana-lens: traces push enabled (OTLP → ${endpoints.traces})`);
       }
@@ -148,6 +165,8 @@ export function createMetricsCollectorService(
         }
       };
       checkOtlpEndpoint(endpoints.metrics).catch(() => {});
+
+      ctx.logger.info(`grafana-lens: instance ID: ${otlpConfig.instanceId}`);
 
       const { meter } = otel;
 
@@ -330,6 +349,10 @@ export function createMetricsCollectorService(
         description: desc("openclaw_lens_prompt_injection_signals"),
       });
 
+      const traceFallbackSpans = meter.createCounter("openclaw_lens_trace_fallback_spans", {
+        description: desc("openclaw_lens_trace_fallback_spans"),
+      });
+
       // ── Initialize lifecycle telemetry (session-scoped traces) ────
       if (otelTraces && otelLogs) {
         const lifecycleOpts: LifecycleTelemetryOpts = {
@@ -342,6 +365,7 @@ export function createMetricsCollectorService(
             if (configPricing) return estimateUsageCost(configPricing, usage);
             return estimateCostFallback(provider, model, usage);
           },
+          onDiagnosticEvent: onDiagnosticEvent as LifecycleTelemetryOpts["onDiagnosticEvent"],
         };
         lifecycle = createLifecycleTelemetry(otelTraces, otelLogs, {
           tokenUsage,
@@ -363,6 +387,7 @@ export function createMetricsCollectorService(
           sessionResets,
           toolErrorClasses,
           promptInjectionSignals,
+          traceFallbackSpans,
         }, lifecycleOpts);
         ctx.logger.info("grafana-lens: lifecycle telemetry initialized (gen_ai traces + metrics)");
       } else {
@@ -400,6 +425,7 @@ export function createMetricsCollectorService(
         const appLogger = otelLogs.logger;
 
         try {
+          if (!registerLogTransport) throw new Error("not available");
           unsubscribeLogTransport = registerLogTransport((logObj: unknown) => {
             try {
               const obj = logObj as Record<string, unknown>;

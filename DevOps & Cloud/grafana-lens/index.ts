@@ -18,7 +18,7 @@
 import type { OpenClawPluginApi } from "openclaw/plugin-sdk";
 import { createRequire } from "node:module";
 import { parseConfig, validateConfig } from "./src/config.js";
-import { GrafanaClient } from "./src/grafana-client.js";
+import { GrafanaClientRegistry } from "./src/grafana-client-registry.js";
 import { createMetricsCollectorService } from "./src/services/metrics-collector.js";
 
 const require = createRequire(import.meta.url);
@@ -41,6 +41,8 @@ import { createExplainMetricToolFactory } from "./src/tools/explain-metric.js";
 import { createSecurityCheckToolFactory } from "./src/tools/security-check.js";
 import { createQueryTracesToolFactory } from "./src/tools/query-traces.js";
 import { createInvestigateToolFactory } from "./src/tools/investigate.js";
+import { createAlloyService } from "./src/services/alloy-service.js";
+import { createAlloyPipelineToolFactory } from "./src/tools/alloy-pipeline.js";
 import type {
   SessionStartEvent, SessionStartCtx,
   SessionEndEvent, SessionEndCtx,
@@ -82,26 +84,39 @@ const plugin = {
     }
 
     const validConfig = validation.config;
-    api.logger.info(`grafana-lens: connecting to ${validConfig.grafana.url}`);
 
-    // ── Verify Grafana connectivity on startup ─────────────────────
-    const client = new GrafanaClient({
-      url: validConfig.grafana.url,
-      apiKey: validConfig.grafana.apiKey,
-      orgId: validConfig.grafana.orgId,
-    });
+    // ── Create client registry (one GrafanaClient per configured instance) ──
+    const registry = new GrafanaClientRegistry(validConfig);
+    const instances = registry.listInstances();
 
-    client.healthCheck().then((ok) => {
-      if (ok) {
-        api.logger.info("grafana-lens: Grafana connection verified");
-      } else {
-        api.logger.warn(
-          `grafana-lens: could not reach Grafana at ${validConfig.grafana.url} — dashboards will fail until connectivity is restored`,
-        );
-      }
-    }).catch((err) => {
-      api.logger.warn(`grafana-lens: failed to verify Grafana connection: ${err instanceof Error ? err.message : err}`);
-    });
+    if (instances.length === 1) {
+      api.logger.info(`grafana-lens: connecting to ${instances[0].url}`);
+    } else {
+      api.logger.info(
+        `grafana-lens: ${instances.length} instances configured — default: "${registry.getDefaultName()}"`,
+      );
+    }
+
+    // ── Verify Grafana connectivity on startup (all instances in parallel) ──
+    void Promise.allSettled(
+      instances.map(async (inst) => {
+        const tag = registry.isMultiInstance() ? `[${inst.name}] ` : "";
+        try {
+          const ok = await registry.get(inst.name).healthCheck();
+          if (ok) {
+            api.logger.info(`grafana-lens: ${tag}Grafana connection verified`);
+          } else {
+            api.logger.warn(
+              `grafana-lens: ${tag}could not reach Grafana at ${inst.url} — tools will fail until connectivity is restored`,
+            );
+          }
+        } catch (err) {
+          api.logger.warn(
+            `grafana-lens: ${tag}failed to verify connection: ${err instanceof Error ? err.message : err}`,
+          );
+        }
+      }),
+    );
 
     // ── Register alert webhook service ───────────────────────────────
     const { service: alertService, store: alertStore } =
@@ -114,23 +129,33 @@ const plugin = {
     api.registerService(metricsService);
 
     // ── Register agent tools ────────────────────────────────────────
-    api.registerTool(createDashboardToolFactory(validConfig));
-    api.registerTool(createQueryToolFactory(validConfig));
-    api.registerTool(createAlertToolFactory(validConfig));
-    api.registerTool(createShareDashboardToolFactory(validConfig));
-    api.registerTool(createAnnotateToolFactory(validConfig));
-    api.registerTool(createExploreDatasourcesToolFactory(validConfig));
-    api.registerTool(createListMetricsToolFactory(validConfig, getCustomMetricsStore));
-    api.registerTool(createSearchToolFactory(validConfig));
-    api.registerTool(createGetDashboardToolFactory(validConfig));
-    api.registerTool(createCheckAlertsToolFactory(validConfig, alertStore));
-    api.registerTool(createPushMetricsToolFactory(validConfig, getCustomMetricsStore));
-    api.registerTool(createQueryLogsToolFactory(validConfig));
-    api.registerTool(createUpdateDashboardToolFactory(validConfig));
-    api.registerTool(createExplainMetricToolFactory(validConfig));
-    api.registerTool(createSecurityCheckToolFactory(validConfig));
-    api.registerTool(createQueryTracesToolFactory(validConfig));
-    api.registerTool(createInvestigateToolFactory(validConfig, alertStore));
+    api.registerTool(createDashboardToolFactory(registry));
+    api.registerTool(createQueryToolFactory(registry));
+    api.registerTool(createAlertToolFactory(registry));
+    api.registerTool(createShareDashboardToolFactory(registry));
+    api.registerTool(createAnnotateToolFactory(registry));
+    api.registerTool(createExploreDatasourcesToolFactory(registry));
+    api.registerTool(createListMetricsToolFactory(registry, getCustomMetricsStore));
+    api.registerTool(createSearchToolFactory(registry));
+    api.registerTool(createGetDashboardToolFactory(registry));
+    api.registerTool(createCheckAlertsToolFactory(registry, alertStore));
+    api.registerTool(createPushMetricsToolFactory(registry, getCustomMetricsStore));
+    api.registerTool(createQueryLogsToolFactory(registry));
+    api.registerTool(createUpdateDashboardToolFactory(registry));
+    api.registerTool(createExplainMetricToolFactory(registry));
+    api.registerTool(createSecurityCheckToolFactory(registry));
+    api.registerTool(createQueryTracesToolFactory(registry));
+    api.registerTool(createInvestigateToolFactory(registry, alertStore));
+
+    // ── Register Alloy pipeline service + tool (opt-in) ────────────
+    const alloyConfig = validConfig.alloy;
+    if (alloyConfig?.enabled && alloyConfig.configDir) {
+      const { service: alloyService, getClient, getStore, getExportTargets } =
+        createAlloyService(alloyConfig, validConfig.otlp);
+      api.registerService(alloyService);
+      api.registerTool(createAlloyPipelineToolFactory({ getClient, getStore, getExportTargets }));
+      api.logger.info("grafana-lens: Alloy pipeline management enabled");
+    }
 
     // ── Register before_agent_start hook for alert awareness ─────────
     api.on("before_agent_start", (_event: unknown, _ctx: unknown) => {

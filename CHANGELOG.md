@@ -1,3 +1,8 @@
+## 2026-04-11
+
+### Updated (1)
+- [DevOps & Cloud] grafana-lens — changed: SKILL.md, _meta.json, +Alloy pipeline management (alloy client, config builder, pipeline store, 30+ recipes for logs/metrics/traces), +references (alloy-components.md, alloy-pipelines.md), -CLAUDE.md, -ROADMAP.md, -skills/SKILL.md
+
 ## 2026-04-07
 
 ### Removed (1)
