@@ -1,3 +1,8 @@
+## 2026-04-18
+
+### Updated (1)
+- [Coding Agents & IDEs] agent-passport-system — changed: SKILL.md, _meta.json
+
 ## 2026-04-11
 
 ### Updated (1)

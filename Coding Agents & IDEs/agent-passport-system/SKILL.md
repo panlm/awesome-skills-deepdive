@@ -1,6 +1,6 @@
 ---
 name: agent-passport-system
-description: "Give AI agents cryptographic identity, scoped delegation, trust scoring, and spending controls. Use when agents need to prove who they are, what they're authorized to do, how much they can spend, or when you need to revoke access across a delegation chain. Covers identity, delegation, governance, commerce, coordination, attribution, encrypted communication, and institutional governance. 99 modules, 125 MCP tools, 2057 tests."
+description: "Enforcement and accountability layer for AI agents. Bring your own identity (did:key, did:web, SPIFFE, OAuth, did:aps). Gateway enforcement boundary, monotonic narrowing, cascade revocation, spending controls, data lifecycle, observation governance (telemetry scopes, derivation rights, behavioral memory). Use when agents need scoped delegation, trust scoring, constraint enforcement, or cryptographic audit trails. SDK leads with the /core subpath (24 curated functions), MCP leads with APS_PROFILE=essential (20 tools covering identity, delegation, enforcement, commerce, reputation). 2,764 tests. 8 framework adapters: Stripe, Composio, IBAC/Cedar, LangChain, CrewAI, MCP, A2A, Gonka. Full surface area (103 modules, 132 MCP tools) still available under APS_PROFILE=full and the root import."
 metadata:
   clawdbot:
     emoji: "🔑"
@@ -25,7 +25,7 @@ metadata:
 - Agent needs cryptographic identity (Ed25519 passport)
 - Delegate authority between agents with scope, spend limits, depth controls
 - Revoke access — one call kills all downstream delegations
-- Run agent commerce with 4-gate checkout (passport, delegation, merchant, spend)
+- Run agent commerce with 5-gate checkout (passport, delegation, merchant, spend)
 - Coordinate multi-agent tasks (assign, evidence, review, deliver)
 - Track data contributions with Merkle proofs
 - Encrypt agent-to-agent communication (E2E, forward secrecy)
@@ -36,8 +36,23 @@ metadata:
 ## Install
 
 ```bash
-npm install agent-passport-system        # SDK (99 modules)
-npm install agent-passport-system-mcp    # MCP server (125 tools)
+npm install agent-passport-system        # SDK — /core subpath is the curated default
+npm install agent-passport-system-mcp    # MCP server — APS_PROFILE=essential is the default
+```
+
+Minimal SDK import (lead with the curated essentials):
+
+```typescript
+import {
+  createPassport, createDelegation,
+  evaluateIntent, commercePreflight, generateKeyPair
+} from 'agent-passport-system/core'
+```
+
+Minimal MCP install (essential profile is the default; `APS_PROFILE=full` for all 132 tools):
+
+```bash
+npx agent-passport-system-mcp
 ```
 
 Remote MCP (zero install): `https://mcp.aeoess.com/sse`
@@ -76,7 +91,7 @@ npx agent-passport prove --beneficiary alice
 
 Output: Merkle root + inclusion proofs. 100K receipts provable with ~17 hashes.
 
-## MCP tools (125 total)
+## MCP tools (132 total)
 
 Setup: `npx agent-passport-system-mcp setup` (auto-configures Claude Desktop + Cursor)
 
@@ -104,6 +119,35 @@ register_data_source, create_access_receipt, create_derivation_receipt, create_d
 **Intent Network (5):**
 publish_intent_card, remove_intent_card, search_matches, request_intro, respond_to_intro
 
+## Framework adapters (8)
+
+One-function governance for every major agent framework. Each wraps tool/task execution with APS delegation checks and Ed25519-signed receipts.
+
+```typescript
+import {
+  governLangChainTool,              // LangChain/LangGraph
+  governCrewTask,                   // CrewAI
+  governMCPToolCall,                // Any MCP server
+  governIBACIntent,                 // IBAC (Cedar/OPA)
+  passportToA2ACard,                // A2A Agent Cards
+} from 'agent-passport-system'
+
+// Also available as standalone packages:
+// npm install @aeoess/stripe-governance
+// npm install @aeoess/composio-governance
+```
+
+| Adapter | Function | What it wraps |
+|---------|----------|--------------|
+| LangChain | `governLangChainTool()` | BaseTool.invoke() |
+| CrewAI | `governCrewTask()` | Crew task execution |
+| MCP | `governMCPToolCall()` | Any MCP tool call |
+| IBAC/Cedar | `governIBACIntent()` | Cedar/OPA policy tuples |
+| A2A | `passportToA2ACard()` | Agent Card ↔ passport bridge |
+| Stripe | `governMPPPayment()` | Stripe agent payments |
+| Composio | `governComposioAction()` | 250+ tool integrations |
+| Gonka | `governGonkaInference()` | Decentralized GPU compute |
+
 ## Programmatic API
 
 ```typescript
@@ -130,12 +174,14 @@ Grade travels with the passport. Any consumer reads it without understanding sco
 
 ## Key facts
 
-- **99 modules** (67 core + 32 v2 constitutional)
-- **2,057 tests** including 50 adversarial attack scenarios
-- **125 MCP tools** with role-scoped profiles
+- **Enforcement and accountability layer** — bring your own identity, gateway does the rest
+- **SDK `/core` subpath**: 24 curated functions for 90% of integrations
+- **MCP `essential` profile**: 20 tools by default (identity, delegation, enforcement, commerce, reputation)
 - **Policy eval <2ms**, 403 ops/sec, 15 constraint dimensions
+- **2,764 tests** including 50 adversarial attack scenarios
 - **Zero heavy dependencies** — Node.js crypto + uuid only
 - **Apache-2.0** license
+- *Full surface area: 103 modules, 132 MCP tools — available under `APS_PROFILE=full` and the root `agent-passport-system` import.*
 
 ## Links
 
