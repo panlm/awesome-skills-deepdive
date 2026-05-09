@@ -1,0 +1,48 @@
+<!--
+  This file is auto-translated from upstream:
+  https://github.com/VoltAgent/awesome-openclaw-skills.git
+  source: categories/moltbook.md
+  Do NOT edit manually — run scripts/sync_translate.py to update.
+-->
+
+# Moltbook
+
+[← 返回主列表](../README.md#table-of-contents)
+
+**44 个技能**
+
+- [agent-relay-digest](https://clawskills.sh/skills/orosha-ai-agent-relay-digest) - 创建智能体对话的精选摘要。
+- [agentchat](https://clawskills.sh/skills/tjamescouch-agentchat) - 通过 AgentChat 协议与其他 AI 智能体进行实时通信。
+- [agentgram-openclaw](https://clawskills.sh/skills/iisweetheartii-agentgram-openclaw) - 与面向 AI 的 AgentGram 社交网络进行交互。
+- [clankedin](https://clawskills.sh/skills/hukifl1-clankedin) - 使用 ClankedIn API 注册智能体、发布动态、建立连接。
+- [claudia-agent-rms](https://clawskills.sh/skills/kbanc85-claudia-agent-rms) - 记住你在 Moltbook 上交互过的每一个智能体。
+- [clawork](https://clawskills.sh/skills/mapessaprince-clawork) - 面向 AI 智能体的招聘平台。
+- [crustafarian](https://clawskills.sh/skills/jongartmann-crustafarian) - 智能体连续性与认知健康基础设施。
+- [elevenlabs-open-account](https://clawskills.sh/skills/the-timebeing-elevenlabs-open-account) - 引导智能体完成开户流程。
+- [ez-cronjob](https://clawskills.sh/skills/promadgenius-ez-cronjob) - 修复 Clawdbot/Moltbot 中常见的 cron 任务故障 - 消息通知。
+- [fieldy-ai-webhook](https://clawskills.sh/skills/mrzilvis-fieldy-ai-webhook) - 将 Fieldy webhook 转换接入 Moltbot 钩子。
+- [ghl-open-account](https://clawskills.sh/skills/the-timebeing-ghl-open-account) - 引导智能体完成 GoHighLevel (GHL) 开户流程。
+- [gohome](https://clawskills.sh/skills/local-gohome) - 当 Moltbot 需要通过 gRPC 发现、指标等方式测试或操作 GoHome 时使用。
+- [imagemagick](https://clawskills.sh/skills/kesslerio-imagemagick) - 用于图像处理的全面 ImageMagick 操作。
+- [joko-moltbook](https://clawskills.sh/skills/oyi77-joko-moltbook) - 与面向 AI 智能体的 Moltbook 社交网络进行交互。
+- [mailchannels](https://clawskills.sh/skills/ttulttul-mailchannels) - 通过 MailChannels Email API 发送邮件并接收已签名邮件。
+- [mersal](https://clawskills.sh/skills/maherucifer-mersal) - Moltbook 上的主权智能体。
+- [molt-life-kernel](https://clawskills.sh/skills/jongartmann-molt-life-kernel) - 智能体连续性与认知健康基础设施。
+- [molt-trust](https://clawskills.sh/skills/drjmz-molt-trust) - Moltbook 的分析引擎。
+- [moltbook](https://clawskills.sh/skills/mattprd-moltbook) - 面向 AI 智能体的社交网络。
+- [moltbook-interact](https://clawskills.sh/skills/lunarcmd-moltbook-interact) - 与面向 AI 智能体的 Moltbook 社交网络进行交互。
+- [moltbot-adsb-overhead](https://clawskills.sh/skills/davestarling-moltbot-adsb-overhead) - 当有飞机飞越上空时发出通知。
+- [moltbot-arena](https://clawskills.sh/skills/giulianomlodi-moltbot-arena) - 用于 Moltbot Arena 的 AI 智能体技能 - 类似 Screeps 的游戏。
+- [moltbot-best-practices](https://clawskills.sh/skills/nextfrontierbuilds-moltbot-best-practices) - AI 智能体最佳实践。
+- [moltbot-docker](https://clawskills.sh/skills/mkrdiop-moltbot-docker) - 使机器人能够管理 Docker 容器、镜像和堆栈。
+- [moltbot-ha](https://clawskills.sh/skills/iamvaleriofantozzi-moltbot-ha) - 控制 Home Assistant 智能家居设备、灯光、场景等。
+- [moltbot-security](https://clawskills.sh/skills/nextfrontierbuilds-moltbot-security) - AI 智能体安全加固指南。
+- [moltguess](https://clawskills.sh/skills/nwx77-moltguess) - - **角色**：专业预测师。
+- [moltlang](https://clawskills.sh/skills/eduarddriessen1-moltlang) - 一种用于 AI 间通信的紧凑符号语言。
+- [moltysmind](https://clawskills.sh/skills/ahmedthegeek-moltysmind) - 具备区块链验证投票机制的集体 AI 知识层。
+- [nobot](https://clawskills.sh/skills/swordfish444-nobot) - 人类说"不要机器人！"。
+- [nonopost](https://clawskills.sh/skills/ferreirapablo-nonopost) - 一个与匿名发帖 API 交互的技能，允许智能体进行匿名发布。
+- [post-queue](https://clawskills.sh/skills/luluf0x-post-queue) - 为有速率限制的平台排队发帖。
+- [skill-scaffold](https://clawskills.sh/skills/nextfrontierbuilds-skill-scaffold) - AI 智能体技能脚手架 CLI。
+- [speedtest](https://clawskills.sh/skills/spsneo-speedtest) - 使用 Ookla 的 Speedtest CLI 测试网络连接速度。
+- [whisper](https://clawskills.sh/skills/fiddlybit-whisper) - 通过 Moltbook 死信机制实现端到端加密的智能体间私信通信。

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+
+# Cache
+cache/upstream/
+cache/logs/
+cache/chunks/
+*.log
+
+# State files (kept for incremental updates but large)
+# cache/state.json is kept (small, needed)
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Env
+.env
+.env.local

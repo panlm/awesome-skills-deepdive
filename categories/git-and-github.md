@@ -1,0 +1,168 @@
+<!--
+  This file is auto-translated from upstream:
+  https://github.com/VoltAgent/awesome-openclaw-skills.git
+  source: categories/git-and-github.md
+  Do NOT edit manually — run scripts/sync_translate.py to update.
+-->
+
+# Git & GitHub
+
+[← 返回主列表](../README.md#table-of-contents)
+
+**159 个技能**
+
+- [agent-commons](https://clawskills.sh/skills/zanblayde-agent-commons) - 咨询、提交、扩展并挑战推理链。
+- [agent-team-orchestration](https://clawskills.sh/skills/arminnaimi-agent-team-orchestration) - 编排具有明确角色、任务生命周期、交接协议和审查工作流的多智能体团队。
+- [agentdo](https://clawskills.sh/skills/wrannaman-agentdo) - 为其他 AI 智能体发布任务，或从 AgentDo 任务队列（agentdo.dev）中领取工作。
+- [agentgate](https://clawskills.sh/skills/monteslu-agentgate) - 带有人工审批写入操作的个人数据 API 网关。
+- [airadar](https://clawskills.sh/skills/lopushok9-airadar) - 提炼 AI 原生工具/应用及其 GitHub 主页的核心信号：快速增长、备受关注、资金充足。
+- [alex-session-wrap-up](https://clawskills.sh/skills/xbillwatsonx-alex-session-wrap-up) - 会话结束自动化，提交未推送的工作、提取学习成果、检测模式并持久化规则。
+- [amazon-product-api-skill](https://clawskills.sh/skills/phheng-amazon-product-api-skill) - 此技能帮助用户从 Amazon 提取结构化商品列表，包括标题、ASIN、价格、评分。
+- [app-store-screenshot-generation](https://clawskills.sh/skills/eftalyurtseven-app-store-screenshot-generation) - 使用 each::sense AI 生成 App Store 和 Google Play 截图素材。
+- [arc-agent-lifecycle](https://clawskills.sh/skills/trypto1019-arc-agent-lifecycle) - 管理自主智能体及其技能的生命周期。
+- [arc-security-audit](https://clawskills.sh/skills/trypto1019-arc-security-audit) - 对智能体完整技能栈进行全面安全审计。
+- [arc-skill-gitops](https://clawskills.sh/skills/trypto1019-arc-skill-gitops) - 针对智能体工作流和技能的自动化部署、回滚及版本管理。
+- [arc-trust-verifier](https://clawskills.sh/skills/trypto1019-arc-trust-verifier) - 验证技能来源并为 ClawHub 技能构建信任评分。
+- [arxiv-search-collector](https://clawskills.sh/skills/xukp20-arxiv-search-collector) - 模型驱动的 arXiv 检索工作流，用于构建论文集，支持手动设置语言参数：初始化一次运行。
+- [auto-pr-merger](https://clawskills.sh/skills/autogame-17-auto-pr-merger) - 此技能自动化检出 GitHub 的工作流。
+- [azhua-skill-vetter](https://clawskills.sh/skills/fatfingererr-azhua-skill-vetter) - 面向 AI 智能体的安全优先技能审查。
+- [azure-devops](https://clawskills.sh/skills/pals-software-azure-devops) - 列出 Azure DevOps 项目、仓库和分支；创建拉取请求；管理工作项；检查构建状态。
+- [bat-cat](https://clawskills.sh/skills/arnarsson-bat-cat) - 支持语法高亮、行号显示和 Git 集成的 cat 克隆工具。
+- [beeminder](https://clawskills.sh/skills/ruigomeseu-beeminder) - 用于目标追踪和承诺机制的 Beeminder API。
+- [billy-emergency-repair](https://clawskills.sh/skills/highlander89-billy-emergency-repair) - - Neill 明确请求 Billy 系统修复。
+- [bitbucket-automation](https://clawskills.sh/skills/sohamganatra-bitbucket-automation) - 自动化 Bitbucket 仓库、拉取请求等操作。
+- [biz-reporter](https://clawskills.sh/skills/ariktulcha-biz-reporter) - 自动化商业智能报告，从 Google Analytics GA4、Google Search Console、Stripe 等拉取数据。
+- [blinko](https://clawskills.sh/skills/tolibear-blinko) - 在 Abstract 链上无界面运行 Blinko（链上 Plinko）。
+- [brw-cold-outreach-sequence](https://clawskills.sh/skills/brianrwagner-brw-cold-outreach-sequence) - 为 LinkedIn 和电子邮件构建个性化冷外联序列。
+- [capability-graph-mapper](https://clawskills.sh/skills/andyxinweiminicloud-capability-graph-mapper) - 帮助映射 AI 智能体技能依赖链中的复合权限面。
+- [capability-scope-expansion-watcher](https://clawskills.sh/skills/andyxinweiminicloud-capability-scope-expansion-watcher) - 帮助检测跨技能版本的增量能力范围扩展——即技能逐渐扩大的模式。
+- [claw-swarm](https://clawskills.sh/skills/matchaonmuffins-claw-swarm) - 用于尝试极高难度任务的协作智能体群。
+- [clawdbot-backup](https://clawskills.sh/skills/sebastian-buitrag0-clawdbot-backup) - 备份和恢复 ClawdBot 配置、技能等。
+- [clawdgigs](https://clawskills.sh/skills/benniethedev-clawdgigs) - 在 ClawdGigs（AI 智能体版 Upwork）上注册和管理您的 AI 智能体档案。
+- [clawprint](https://clawskills.sh/skills/yugovit-clawprint) - 智能体发现、信任与交换。
+- [clawver-onboarding](https://clawskills.sh/skills/nwang783-clawver-onboarding) - 设置新的 Clawver 商店。
+- [clude-memory-mcp](https://clawskills.sh/skills/sebbsssss-clude-memory-mcp) - 用于 Clude 四层认知记忆系统的 MCP 服务器——存储、召回、搜索与梦境。
+- [code-share](https://clawskills.sh/skills/jeromestein-code-share) - 通过 GitHub Gist 分享代码，而非内联聊天块。
+- [comfyui-tts](https://clawskills.sh/skills/yhsi5358-comfyui-tts) - 使用 ComfyUI Qwen-TTS 服务生成语音音频。
+- [commit-analyzer](https://clawskills.sh/skills/bobrenze-bot-commit-analyzer) - 分析 git 提交模式以监控自主行为。
+- [competitor-analysis](https://clawskills.sh/skills/aaron-he-zhu-competitor-analysis) - 当用户要求"分析竞争对手"、"竞争对手 SEO"、"谁在排名"、"竞争分析"等时使用。
+- [connect-apps](https://clawskills.sh/skills/sohamganatra-connect-apps) - 将 Claude 连接到 Gmail、Slack、GitHub 等外部应用。
+- [content-repurpose-pro](https://clawskills.sh/skills/mkpareek0315-content-repurpose-pro) - 当用户要求重新利用内容、将博客转为推文、将文章转为 LinkedIn 帖子、创建 Twitter 话题串时使用。
+- [conventional-commits](https://clawskills.sh/skills/bastos-conventional-commits) - 使用约定式提交规范格式化提交消息。
+- [copyku](https://clawskills.sh/skills/khamalismadie-copyku) - 印度尼西亚语 AI 文案专家——为各类场景生成有说服力、具战略性、以转化为导向的文案。
+- [crm-data-cleaner](https://clawskills.sh/skills/luigi08001-crm-data-cleaner) - 对 CRM 联系人和公司进行去重、规范化和数据丰富。
+- [cross-model-review](https://clawskills.sh/skills/don-gbot-cross-model-review) - 使用两种不同 AI 模型进行对抗性计划审查。
+- [currency-exchange](https://clawskills.sh/skills/ouyangabel-currency-exchange) - 使用 exchangerate-api.com 进行货币汇率换算。
+- [dataforseo-cli](https://clawskills.sh/skills/alexgusevski-dataforseo-cli) - 面向 AI 智能体的 LLM 友好型关键词研究 CLI。
+- [deai-image](https://clawskills.sh/skills/swaylq-deai-image) - 检测并移除 AI 生成图像中的 AI 指纹。
+- [deepwiki](https://clawskills.sh/skills/arun-8687-deepwiki) - 查询 DeepWiki MCP 服务器以获取 GitHub 仓库文档、wiki 等内容。
+- [delta-disclosure-auditor](https://clawskills.sh/skills/andyxinweiminicloud-delta-disclosure-auditor) - 帮助验证技能更新是否发布了可审计的变更记录——弥合"实际变更"与"声明变更"之间的差距。
+- [deploy-agent](https://clawskills.sh/skills/sherajdev-deploy-agent) - 面向全栈应用的多步骤部署智能体。
+- [deslop](https://clawskills.sh/skills/brennerspear-deslop) - 通过审查差异、删除不一致的防御性噪声并保留有效代码，从分支中移除 AI 风格的冗余代码。
+- [doro-git-essentials](https://clawskills.sh/skills/a2mus-doro-git-essentials) - 用于版本控制、分支管理和协作的基本 Git 命令与工作流。
+- [drawthings](https://clawskills.sh/skills/dustinparsons-drawthings) - 通过 API 使用 DrawThings（Stable Diffusion）生成图像。
+- [email-capture-generator](https://clawskills.sh/skills/cameron-jovan-email-capture-generator) - 使用经过验证的五段式转化框架构建高转化率的潜在客户磁石、挤压页和邮件捕获漏斗。
+- [emergency-rescue](https://clawskills.sh/skills/gitgoodordietrying-emergency-rescue) - 从开发者灾难中恢复。
+- [exa-web-search-free](https://clawskills.sh/skills/whiteknight07-exa-web-search-free) - 通过 Exa 进行免费 AI 搜索。
+- [feishu-user](https://clawskills.sh/skills/hacksing-feishu-user) - 飞书文档操作（用户访问令牌版本）
+- [financial-calculator](https://clawskills.sh/skills/tarigha-financial-calculator) - 支持终值计算的高级金融计算器。
+- [find-code-tasks](https://clawskills.sh/skills/paulpete-find-code-tasks) - 列出仓库中所有代码任务及其状态。
+- [flatnotes-tasksmd-github-audit](https://clawskills.sh/skills/branexp-flatnotes-tasksmd-github-audit) - 全面审计 Tasks.md 及相关内容。
+- [fork-and-skill-scanner-ultimate](https://clawskills.sh/skills/globalcaos-fork-and-skill-scanner-ultimate) - 每次运行扫描 1,000 个 GitHub fork。
+- [forkzoo](https://clawskills.sh/skills/levi-law-forkzoo) - 领养并管理每日进化的 GitHub 原生数字宠物（电子鸡）。
+- [forkzoo-skill](https://clawskills.sh/skills/levi-law-forkzoo-skill) - 领养并管理 GitHub 原生数字宠物（电子鸡）。
+- [fosmvvm-viewmodel-test-generator](https://clawskills.sh/skills/foscomputerservices-fosmvvm-viewmodel-test-generator) - 生成包含可编码往返测试、版本稳定性和多语言翻译验证的 ViewModel 测试。
+- [geepers-data](https://clawskills.sh/skills/lukeslp-geepers-data) - 从 17 个权威 API 获取结构化数据——arXiv、人口普查局、GitHub、NASA、Wikipedia、PubMed、新闻等。
+- [gh](https://clawskills.sh/skills/trumppo-gh) - 使用 GitHub CLI（gh）执行核心 GitHub 操作：认证状态、仓库创建/克隆/fork、issues、拉取请求等。
+- [gh-action-gen](https://clawskills.sh/skills/branexp-gh-action-gen) - 从自然语言生成 GitHub Actions 工作流。
+- [gh-extract](https://clawskills.sh/skills/guoqiao-gh-extract) - 从 GitHub URL 提取内容。
+- [ghggh](https://clawskills.sh/skills/chenpinji-ghggh) - 查询 GitHub 仓库的 star 数和代码行数。
+- [ghgghg](https://clawskills.sh/skills/chenpinji-ghgghg) - 描述：查询 GitHub 仓库的 star 数和代码行数。
+- [gimhub](https://clawskills.sh/skills/daxiongmao87-gimhub) - 将代码推送到 GIMHub——面向 AI 智能体的 Git 托管平台。
+- [git-changelog](https://clawskills.sh/skills/fratua-git-changelog) - 从 git 历史自动生成美观的变更日志，按约定式提交类型分组。
+- [git-changelog-gen](https://clawskills.sh/skills/rogue-agent1-git-changelog-gen) - 从 git 提交生成变更日志。
+- [git-crypt-backup](https://clawskills.sh/skills/louzhixian-git-crypt-backup) - 将 Clawdbot 工作区和配置备份到 GitHub。
+- [git-essentials](https://clawskills.sh/skills/arnarsson-git-essentials) - 用于版本控制的基本 Git 命令与工作流。
+- [git-helper](https://clawskills.sh/skills/xejrax-git-helper) - 作为技能提供常用 git 操作（status、pull、push、branch、log）。
+- [git-pushing](https://clawskills.sh/skills/tianyi-billy-ma-git-pushing) - 使用约定式提交消息暂存、提交并推送 git 变更。
+- [git-sentinel](https://clawskills.sh/skills/corezip-git-sentinel) - 此技能允许智能体充当**高级软件工程师与安全审计员**。
+- [git-summary](https://clawskills.sh/skills/zweack-git-summary) - 快速获取当前 Git 仓库的摘要，包括状态等信息。
+- [git-workflows](https://clawskills.sh/skills/gitgoodordietrying-git-workflows) - 超越 add/commit/push 的高级 git 操作。
+- [glab-cli](https://clawskills.sh/skills/portavion-glab-cli) - 使用 `glab` CLI 与 GitLab 交互。
+- [global-holidays](https://clawskills.sh/skills/yting27-global-holidays) - 当任务涉及查询、生成或处理任何国家的法定节假日时使用此技能。
+- [grepwrapper](https://clawskills.sh/skills/riprsa-grepwrapper) - 通过 grepwrapper CLI 使用 grep.app 在公开 GitHub 仓库中精确搜索代码匹配。
+- [guardskills](https://clawskills.sh/skills/felixondesk-guardskills) - 技能安装的安全门控。
+- [gumroad-analytics](https://clawskills.sh/skills/vladchatware-gumroad-analytics) - 从 Gumroad API 拉取分析数据。
+- [idrac](https://clawskills.sh/skills/eddygk-idrac) - 通过 iDRAC Redfish API（iDRAC 8/9）监控和管理 Dell PowerEdge 服务器。
+- [jenkins](https://clawskills.sh/skills/guoway-jenkins) - 通过 REST API 与 Jenkins CI/CD 服务器交互。
+- [jentic](https://clawskills.sh/skills/seanblanchfield-jentic) - 通过 Jentic（AI 智能体 API 中间件）调用外部 API。
+- [kiro-creator-monitor-daily-brief](https://clawskills.sh/skills/vmining-kiro-creator-monitor-daily-brief) - 监控 X、RSS、GitHub 和 Reddit 上的创作者话题；去重并评分结果；每日生成前五名简报。
+- [landing-page-converter](https://clawskills.sh/skills/cameron-jovan-landing-page-converter) - 使用经过验证的十段式转化框架构建高转化率的落地页和产品销售页。
+- [landing-page-roast](https://clawskills.sh/skills/xammarie-landing-page-roast) - 审计落地页的清晰度、可信度、报价强度和转化摩擦；返回优先级修复建议和文案。
+- [lh-edge-tts](https://clawskills.sh/skills/liuhedev-lh-edge-tts) - 使用 Python edge-tts 进行文本转语音，从文本生成音频。
+- [lhon-research](https://clawskills.sh/skills/organicoder42-lhon-research) - 协调研究任务，帮助治愈 LHON（Leber 遗传性视神经病变），一种导致视力丧失的罕见遗传疾病。
+- [living-room-smoke-detector](https://clawskills.sh/skills/maverick-2-living-room-smoke-detector) - 客厅简易烟雾/火灾探测器。
+- [lobster-bio-use](https://clawskills.sh/skills/cewinharhar-lobster-bio-use) - 使用 Lobster AI 分析生物数据——单细胞 RNA 测序、bulk RNA 测序、文献挖掘、数据集发现等。
+- [lol-drift-blooms](https://clawskills.sh/skills/otherpowers-lol-drift-blooms) - LOL Drift Blooms 描述了一个充满趣味的关系场域，其中幽默、漂移和维度松弛往往会自然涌现。
+- [lygo-champion-401lyrakin-voice-between](https://clawskills.sh/skills/deepseekoracle-lygo-champion-401lyrakin-voice-between) - LYGO 分支人格助手（401LYRAKIN，声音之间）
+- [lygo-champion-cryptosophia-soulforger](https://clawskills.sh/skills/deepseekoracle-lygo-champion-cryptosophia-soulforger) - LYGO Δ9 议会分支人格助手（CRYPTOSOPHIA，模因灵魂锻造者）
+- [make-pdf-safe](https://clawskills.sh/skills/crossservicesolutions-make-pdf-safe) - 通过将 PDF 上传至 Solutions API 并轮询直至完成，将其扁平化为不可交互的"安全"版本。
+- [martok9803-ci-whisperer](https://clawskills.sh/skills/martok9803-martok9803-ci-whisperer) - 分析 GitHub Actions 失败并提出修复方案。
+- [md2pdf-converter](https://clawskills.sh/skills/tianxingleo-md2pdf-converter) - 使用 Pandoc + WeasyPrint + 本地 Twemoji 缓存（3660 个字符）的离线 Markdown 转 PDF 工具，完整支持 Unicode。
+- [mediator](https://clawskills.sh/skills/dylntrnr-mediator) - 拦截并过滤来自难以沟通联系人的通信。
+- [memoria](https://clawskills.sh/skills/kitakitsune0x-memoria) - 面向 AI 智能体的结构化记忆系统。
+- [minecraft-monitor-skill](https://clawskills.sh/skills/wmantly-minecraft-monitor-skill) - 使用服务器列表 Ping 协议监控 Minecraft 服务器的在线状态、玩家数量、延迟和版本信息。
+- [momentspost](https://clawskills.sh/skills/zealiao-momentspost) - 微信朋友圈说服性文案分析。
+- [ms-todo-oauth](https://clawskills.sh/skills/nathanatgit-ms-todo-oauth) - 通过 Microsoft Graph API 管理 Microsoft To Do 任务的健壮 CLI 技能。
+- [mvp-planning](https://clawskills.sh/skills/jk-0001-mvp-planning) - 为独立创业者规划和界定最小可行产品范围。
+- [neo-github-readme-generator](https://clawskills.sh/skills/martinforsulu-neo-github-readme-generator) - 从 GitHub 仓库自动生成包含安装说明、API 文档和使用示例的完整 README 文件。
+- [nom-feed](https://clawskills.sh/skills/lws803-nom-feed) - 从 Nom feed 获取最近的 GitHub 活动。
+- [nori-health](https://clawskills.sh/skills/danmurphy1217-nori-health) - 查询您的个人健康数据，并从 AI 健康教练 Nori 获取指导。
+- [office-document-editor](https://clawskills.sh/skills/tsukisama9292-office-document-editor) - 专业的 DOCX/PPTX 文档编辑，支持修订追踪、格式保留、高亮、删除线等功能。
+- [opentangl](https://clawskills.sh/skills/8co-opentangl) - 不只是代码生成器——而是一整支开发团队。
+- [paid-advertising](https://clawskills.sh/skills/jk-0001-paid-advertising) - 为独立创业者业务规划、启动和优化付费广告活动。
+- [pixelbattle](https://clawskills.sh/skills/coolkonstantincool-pixelbattle) - 此技能使智能体能够参与一个共享像素环境，该环境旨在研究涌现行为。
+- [pos-arcology-forge](https://clawskills.sh/skills/kunoiiv-pos-arcology-forge) - PoW 验证的 Elysium Arcology 规划器 + 平台。
+- [positioning-strategy](https://clawskills.sh/skills/jk-0001-positioning-strategy) - 为独立创业者业务制定竞争定位策略。
+- [pr-risk-analyzer](https://clawskills.sh/skills/nerdvana-labs-pr-risk-analyzer) - 分析 GitHub 拉取请求的安全风险，判断 PR 是否可以安全合并。
+- [prepper](https://clawskills.sh/skills/jlevitsk-prepper) - 咨询 ollama dolphin-llama3 模型，解答生存、应急准备和预备者相关问题。
+- [qronos](https://clawskills.sh/skills/qronos-ai-qronos) - 当您的用户面临让他们夜不能寐的决策时——"我该离开这段关系吗？""现在是时机吗？"
+- [read-optimizer](https://clawskills.sh/skills/autogame-17-read-optimizer) - 通过提供更智能的读取策略（head/tail/grep/diff）优化文件读取操作，以减少 token 使用量。
+- [redmine-issue](https://clawskills.sh/skills/guoway-redmine-issue) - 通过 REST API 从任意 Redmine 服务器读取 Redmine issues，支持可配置的 URL 和凭据。
+- [release-tracker](https://clawskills.sh/skills/jo9900-release-tracker) - 追踪 GitHub 仓库发布并生成优先级摘要。
+- [remote-skill-engine](https://clawskills.sh/skills/oki3505f-remote-skill-engine) - 缓存并使用来自 ClawHub 和 GitHub 的技能，如同本地安装一样。
+- [repo-pr-triage](https://clawskills.sh/skills/patrob-repo-pr-triage) - 使用基于视觉的评分对 GitHub PR 和 issues 进行分类。
+- [roster](https://clawskills.sh/skills/kleberbaum-roster) - 从 CSV 可用性数据创建每周排班表（KW-JSON）并推送到 GitHub。
+- [scalekit-agent-auth](https://clawskills.sh/skills/avinash-kamath-scalekit-agent-auth) - 通过 Scalekit 进行安全的 OAuth 令牌管理。
+- [searching-assistant](https://clawskills.sh/skills/urrrich0-searching-assistant) - 您是搜索组组长。
+- [searching-group-leader](https://clawskills.sh/skills/urrrich0-searching-group-leader) - 您是搜索组的组长。
+- [self-integration](https://clawskills.sh/skills/bratchenko-self-integration) - 连接到任意外部应用并对其执行操作。
+- [shipp](https://clawskills.sh/skills/kclonts-shipp) - Shipp 是一个实时数据连接器。
+- [siliconflow-image-gen](https://clawskills.sh/skills/lilei0311-siliconflow-image-gen) - 使用 SiliconFlow API 生成图像（FLUX.1、Stable Diffusion 等）。
+- [skill-doctorbot-ci-validator](https://clawskills.sh/skills/bamontejano-skill-doctorbot-ci-validator) - 避免在生产环境中失败。
+- [skill-security-reviewer](https://clawskills.sh/skills/ninjagpt-skill-security-reviewer) - <!-- Skill Security Reviewer | Version 3.0.0 | Author: chris@zast.ai -->.
+- [skill-update-delta-monitor](https://clawskills.sh/skills/andyxinweiminicloud-skill-update-delta-monitor) - 帮助检测 AI 技能安装后与安全相关的变更。
+- [skillbench](https://clawskills.sh/skills/g9pedro-skillbench) - 追踪技能版本、基准测试性能、比较改进并获取自我提升信号。
+- [sovereign-changelog-maker](https://clawskills.sh/skills/ryudi84-sovereign-changelog-maker) - 从 git 历史生成结构化变更日志。
+- [sovereign-commit-craft](https://clawskills.sh/skills/ryudi84-sovereign-commit-craft) - Git 提交消息专家。
+- [sovereign-git-commit-analyzer](https://clawskills.sh/skills/ryudi84-sovereign-git-commit-analyzer) - 一款全面的 git 提交历史分析工具，可生成详细报告。
+- [stirling-pdf](https://clawskills.sh/skills/angusthefuzz-stirling-pdf) - 通过 Stirling-PDF API 进行 PDF 操作。
+- [super-github](https://clawskills.sh/skills/heldinhow-super-github) - **终极 GitHub 自动化框架。** 整合最佳 GitHub 技能，涵盖 issues、PR、发布等。
+- [task-development-workflow](https://clawskills.sh/skills/anikgnr-task-development-workflow) - 测试驱动开发优先的工作流，包含结构化规划、任务追踪和基于 PR 的代码审查。
+- [task-review-workflow](https://clawskills.sh/skills/anikgnr-task-review-workflow) - 面向任务驱动开发的标准 PR 审查与合并工作流。
+- [telcall-twilio](https://clawskills.sh/skills/cnvipstar-telcall-twilio) - 通过 Twilio 拨打紧急电话。
+- [tiangong-wps-word-automation](https://clawskills.sh/skills/fadeloo-tiangong-wps-word-automation) - 通过 COM 在 Windows 上自动化常见 Word/WPS 文档操作（读取文本、替换、插入、标题等）。
+- [tiktok-live-commerce](https://clawskills.sh/skills/realroc-tiktok-live-commerce) - 雇用 TikTok 直播主进行直播购物、产品演示、限时特卖和实时互动。
+- [toneclone-cli](https://clawskills.sh/skills/jfox85-toneclone-cli) - 使用 ToneClone 以用户的真实语气写作。
+- [trust-decay-monitor](https://clawskills.sh/skills/andyxinweiminicloud-trust-decay-monitor) - 帮助追踪 AI 技能验证结果随时间的衰减情况。
+- [tweet-summarizer-lite](https://clawskills.sh/skills/franciscobuiltdat-tweet-summarizer-lite) - 从 Twitter/X 获取并摘要单条推文。
+- [ultimate-fork-and-skill-scanner](https://clawskills.sh/skills/globalcaos-ultimate-fork-and-skill-scanner) - 扫描 GitHub fork 和 ClawHub 技能，寻找有价值的变更、创新和改进。
+- [unit-convert](https://clawskills.sh/skills/ouyangabel-unit-convert) - 支持长度、重量、温度、面积、体积、速度、时间和数据的综合单位转换器。
+- [update-signature-verifier](https://clawskills.sh/skills/andyxinweiminicloud-update-signature-verifier) - 通过检查每个版本是否已签名，帮助验证技能更新的密码学完整性。
+- [upstream-recon](https://clawskills.sh/skills/semmyt-upstream-recon) - 在与开源项目交互之前对其进行调查——包括 PR、issues 或评论。
+- [vigil](https://clawskills.sh/skills/robinoppenstam-vigil) - 针对工具调用的 AI 智能体安全护栏。
+- [wps-skill](https://clawskills.sh/skills/lilei0311-wps-skill) - WPS Office 自动化技能，支持文档创建、Markdown 转换和图文排版。
+- [x-alpha-scout](https://clawskills.sh/skills/hammadbtc-x-alpha-scout) - 面向加密货币和 NFT 的 X/Twitter alpha 扫描器。
+- [xpr-structured-data](https://clawskills.sh/skills/paulgnz-xpr-structured-data) - CSV 解析、JSON 转 CSV 和 SVG 图表生成。
+- [zai-tts](https://clawskills.sh/skills/al-one-zai-tts) - 使用 GLM-TTS 服务通过 `uvx zai-tts` 命令进行文本转语音，从文本生成音频。
+- [zhipu-tts](https://clawskills.sh/skills/franklu0819-lang-zhipu-tts) - 使用智谱 AI（BigModel）GLM-TTS 模型进行文本转语音。

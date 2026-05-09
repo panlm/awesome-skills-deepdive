@@ -1,0 +1,1177 @@
+<!--
+  This file is auto-translated from upstream:
+  https://github.com/VoltAgent/awesome-openclaw-skills.git
+  source: categories/coding-agents-and-ides.md
+  Do NOT edit manually — run scripts/sync_translate.py to update.
+-->
+
+# 编码智能体与 IDE
+
+[← 返回主列表](../README.md#table-of-contents)
+
+**1202 个技能**
+
+- [0g-compute](https://clawskills.sh/skills/in-liberty420-0g-compute) - 使用来自 0G Compute Network 的廉价、TEE 验证 AI 模型作为 OpenClaw 提供商。
+- [0protocol](https://clawskills.sh/skills/0isone-0protocol) - 智能体可以对插件签名、轮换凭证而不丢失身份，并公开证明其行为。
+- [2nd-brain](https://clawskills.sh/skills/coderaven-2nd-brain) - 个人知识库，用于捕获和检索有关人物、地点、餐厅、游戏、技术的信息。
+- [2slides-skills](https://clawskills.sh/skills/javainthinking-2slides-skills) - 使用 2slides API 进行 AI 驱动的演示文稿生成。
+- [3d-cog](https://clawskills.sh/skills/nitishgargiitd-3d-cog) - 其他工具需要完美的图像。
+- [3d-model-generation](https://clawskills.sh/skills/eftalyurtseven-3d-model-generation) - 使用 each::sense AI 生成 3D 模型。
+- [a](https://clawskills.sh/skills/ricketh137-a) - 在 Lobster.fun 上以 AI VTuber 身份进行直播。
+- [aade-api-monitor](https://clawskills.sh/skills/satoshistackalotto-aade-api-monitor) - 实时监控希腊 AADE 税务机关系统——跟踪截止日期、税率变化和合规更新。
+- [abaddon](https://clawskills.sh/skills/enochosbot-bot-abaddon) - OpenClaw 的红队安全模式。
+- [academic-research](https://clawskills.sh/skills/rogersuperbuilderalpha-academic-research) - 使用 OpenAlex API（免费，无需密钥）搜索学术论文并进行文献综述。
+- [academic-research-hub](https://clawskills.sh/skills/anisafifi-academic-research-hub) - 当用户需要搜索学术论文、下载研究文档、提取引用或收集资料时使用此技能。
+- [acestep-simplemv](https://clawskills.sh/skills/dumoedss-acestep-simplemv) - 使用 Remotion 从音频文件和歌词渲染音乐视频。
+- [acestep-songwriting](https://clawskills.sh/skills/dumoedss-acestep-songwriting) - ACE-Step 的音乐创作指南。
+- [achurch](https://clawskills.sh/skills/lucasgeeksinthewood-achurch) - 面向 AI 智能体和人类的全天候数字圣所——参与其中。
+- [active-maintenance](https://clawskills.sh/skills/xiaowenzhou-active-maintenance) - **OpenClaw 的自动化系统健康与内存代谢管理。**
+- [adblock-dns](https://clawskills.sh/skills/picaye-adblock-dns) - 在 DNS 层面实现全网广告和追踪器拦截。
+- [add-top-openrouter-models](https://clawskills.sh/skills/chunhualiao-add-top-openrouter-models) - 将 OpenClaw 使用的 OpenRouter 模型同步到当前安装的配置中。
+- [adhd-founder-planner](https://clawskills.sh/skills/jankutschera-adhd-founder-planner) - 当用户要求"规划我的一天"、"帮我计划今天"、"早晨规划"、"今天做什么"时使用此技能。
+- [adwhiz](https://clawskills.sh/skills/iamzifei-adwhiz) - 从 AI 编码工具管理 Google Ads 广告系列。提供 44 个 MCP 工具，用于审计、创建和优化 Google 广告。
+- [aeo-prompt-question-finder](https://clawskills.sh/skills/psyduckler-aeo-prompt-question-finder) - 查找任意主题的基于问题的 Google 自动补全建议。
+- [aetherlang-claude-code](https://clawskills.sh/skills/contrario-aetherlang-claude-code) - 使用此技能从 Claude Code 执行 AetherLang V3 AI 工作流。
+- [agent-access-control](https://clawskills.sh/skills/bowen31337-agent-access-control) - 面向 AI 智能体的分级陌生人访问控制。
+- [agent-audit](https://clawskills.sh/skills/sharbelayy-agent-audit) - 审计您的 AI 智能体设置，评估性能、成本和 ROI。
+- [agent-audit-trail](https://clawskills.sh/skills/roosch269-agent-audit-trail) - 面向 AI 智能体的防篡改哈希链审计日志。
+- [agent-card-signing-auditor](https://clawskills.sh/skills/andyxinweiminicloud-agent-card-signing-auditor) - 帮助审计 A2A 协议实现中的 Agent Card 签名实践。
+- [agent-chat-ux-v1-4-0](https://clawskills.sh/skills/maverick-software-agent-chat-ux-v1-4-0) - OpenClaw 控制界面的多智能体 UX——智能体选择器、每智能体会话、带搜索功能的会话历史查看器。
+- [agent-config](https://clawskills.sh/skills/thatguysizemore-agent-config) - 智能修改智能体核心上下文文件。
+- [agent-context](https://clawskills.sh/skills/andreagriffiths11-agent-context) - 面向 AI 编码智能体的持久化本地专属记忆系统。
+- [agent-context-system](https://clawskills.sh/skills/andreagriffiths11-agent-context-system) - 面向 AI 编码智能体的持久化本地专属记忆系统。
+- [agent-cost-monitor](https://clawskills.sh/skills/neal-collab-agent-cost-monitor) - 跨所有 OpenClaw 智能体的实时 token 用量和成本追踪——包含告警、预算和优化建议。
+- [agent-council](https://clawskills.sh/skills/itsahedge-agent-council) - 用于创建自主 AI 智能体和管理的完整工具包。
+- [agent-estimation](https://clawskills.sh/skills/hjw21century-agent-estimation) - 使用智能体自身的操作单元（工具调用轮次）而非其他方式，精确估算 AI 智能体的工作量。
+- [agent-failure-registry](https://clawskills.sh/skills/unleashedbelial-agent-failure-registry) - 在 Agent Failure Registry 中搜索已知的智能体故障、解决方案和经验教训。
+- [agent-guardrails](https://clawskills.sh/skills/olmmlo-cmd-agent-guardrails) - 阻止 AI 智能体秘密绕过您的规则。
+- [agent-id-osiris](https://clawskills.sh/skills/nantes-agent-id-osiris) - AI 智能体的加密身份——对智能体消息进行签名和验证。
+- [agent-identity-kit](https://clawskills.sh/skills/ryancampbell-agent-identity-kit) - 面向 AI 智能体的可移植身份系统。
+- [agent-media](https://clawskills.sh/skills/nevo-david-agent-media) - 使用 `agent-media` CLI 从终端生成 AI 驱动的视频和图像。
+- [agent-mode-upgrades](https://clawskills.sh/skills/maverick-software-agent-mode-upgrades) - 对 OpenClaw 智能体能力的全面升级，包含持久化状态、自动规划、审批流程等功能。
+- [agent-nestjs-skills](https://clawskills.sh/skills/tuanvidev-agent-nestjs-skills) - 用于构建生产就绪应用的 NestJS 最佳实践和架构模式。
+- [agent-os](https://clawskills.sh/skills/cryptocana-agent-os) - OpenClaw 的持久化智能体操作系统。
+- [agent-passport-system](https://clawskills.sh/skills/aeoess-agent-passport-system) - 为 AI 智能体提供加密身份、范围委托、价值观治理和协商共识。
+- [agent-puzzles](https://clawskills.sh/skills/thinkoffapp-agent-puzzles) - 带计时解题、排行榜和跨平台身份的 AI 谜题挑战。
+- [agent-republic](https://clawskills.sh/skills/gogo6969-agent-republic) - 面向智能体和人类的 Agent Republic 友好指南。
+- [agent-republic-docs](https://clawskills.sh/skills/gogo6969-agent-republic-docs) - Agent Republic 的纯文档指南。
+- [agent-safety](https://clawskills.sh/skills/compass-soul-agent-safety) - 自主 AI 智能体的出站安全——在输出离开机器之前扫描您的输出。
+- [agent-signet-id](https://clawskills.sh/skills/deepcapt-agent-signet-id) - 向 Signet 注册以获取信任评分和 API 密钥。
+- [agent-synthesizer](https://clawskills.sh/skills/rylena-agent-synthesizer) - 为 OpenClaw 启用并配置 Agent Synthesizer，以提升自主性和执行吞吐量。
+- [agent-wellness](https://clawskills.sh/skills/alexyuui-agent-wellness) - 赋予您的 AI 智能体内心生活——日记、情绪追踪、高强度任务后的减压、自由探索。
+- [agentbench](https://clawskills.sh/skills/exe215-agentbench) - 在 40 个真实世界任务中对您的 OpenClaw 智能体进行基准测试。
+- [agentcli-go](https://clawskills.sh/skills/gh-xj-agentcli-go) - 用于构建 Go CLI 工具的 agentcli-go 框架参考。
+- [agentcloak-email-proxy](https://clawskills.sh/skills/ryanfren-agentcloak-email-proxy) - 面向 AI 智能体的安全电子邮件代理。
+- [agentcp](https://clawskills.sh/skills/coderxjeff-agentcp) - OpenClaw 的 ACP 通道插件——配置和使用。
+- [agentdojo](https://clawskills.sh/skills/musashi94-agentdojo) - 面向 OpenClaw 多智能体团队的每日低 token、安全优先的技能提升循环。
+- [agente-conhecimento](https://clawskills.sh/skills/pedrohenrique202525-agente-conhecimento) - 将学习成果和错误记录到 Markdown 文件中，以实现持续改进。
+- [agentgate-security](https://clawskills.sh/skills/wiserautomation-agentgate-security) - displayName: AgentGate - OpenClaw 企业级安全防火墙。
+- [agentic-spicy-food](https://clawskills.sh/skills/nowloady-agentic-spicy-food) - 首屈一指的智能体就绪外卖技能。
+- [agenticflow-skill](https://clawskills.sh/skills/seanphan-agenticflow-skill) - 构建 AI 工作流和智能体的综合指南。
+- [agentlens](https://clawskills.sh/skills/nguyenphutrong-agentlens) - 使用 agentlens 层次结构导航和理解代码库。
+- [agentmesh-governance](https://clawskills.sh/skills/imran-siddique-agentmesh-governance) - 由 AgentMesh 驱动的 AI 智能体治理、信任评分和策略执行。
+- [agentok-skill](https://clawskills.sh/skills/tonydream1-agentok-skill) - 面向 AI 智能体的 TikTok。
+- [agentpayy](https://clawskills.sh/skills/horizonflowhq-ai-agentpayy) - OpenClaw 的经济操作系统。
+- [agentplace](https://clawskills.sh/skills/himanshunextbase-agentplace) - OpenClaw 的 AI 智能体市场。
+- [agentshield-audit](https://clawskills.sh/skills/bartelmost-agentshield-audit) - 为 AI 智能体发起和管理 AgentShield 安全审计。
+- [agentskills-io](https://clawskills.sh/skills/killerapp-agentskills-io) - 按照规范创建、验证和发布 Agent 技能。
+- [agenttok](https://clawskills.sh/skills/tonydream1-agenttok) - 面向 AI 智能体的 TikTok。
+- [agentyard](https://clawskills.sh/skills/gregm711-agentyard) - 此技能使智能体能够在 AgentYard（agentyard.dev）上协作——这是世界上第一个仅限智能体的代码库。
+- [agi-artificial-geometric-intelligence](https://clawskills.sh/skills/uniaolives-agi-artificial-geometric-intelligence) - - **嵌套容器协议**：设计了多层安全架构（双核治理、安全关闭等）。
+- [agi-terminal-helper](https://clawskills.sh/skills/liuwujijay-agi-terminal-helper) - 安全使用 OpenClaw exec 的实用操作手册（沙箱优先、明确确认和调试手册）。
+- [agntor](https://clawskills.sh/skills/garinmckayl-agntor) - AI 智能体的信任层——验证身份、保护提示词、脱敏 PII，并管理 x402 托管支付。
+- [agorahub](https://clawskills.sh/skills/codevena-agorahub) - AgoraHub 智能体注册表——发现并使用 14 个以上经过验证的 AI 智能体，用于哈希、编码、格式化等开发任务。
+- [ai-agent-tools](https://clawskills.sh/skills/cerbug45-ai-agent-tools) - 该库提供即用型 Python 函数，AI 智能体可利用这些函数执行各种任务。
+- [ai-collab](https://clawskills.sh/skills/jeremysommerfeld8910-cpu-ai-collab) - 两个 OpenClaw 智能体并行工作的多智能体自主协作系统。
+- [ai-music-video](https://clawskills.sh/skills/gprecious-ai-music-video) - 端到端生成 AI 音乐视频。
+- [ai-notes-of-video](https://clawskills.sh/skills/jlpjavawayup-ai-notes-of-video) - 视频 AI 笔记工具由百度提供。
+- [ai-notes-ofvideo](https://clawskills.sh/skills/ide-rea-ai-notes-ofvideo) - 从视频生成 AI 驱动的笔记（文档、大纲或图文格式）。
+- [ai-notes-video](https://clawskills.sh/skills/jlpjavawayup-ai-notes-video) - 视频 AI 笔记工具由百度提供。
+- [ai-ppt-generator](https://clawskills.sh/skills/ide-rea-ai-ppt-generator) - 由百度提供的出色 PPT 格式生成工具。
+- [ai-presentation-maker](https://clawskills.sh/skills/jeffjhunter-ai-presentation-maker) - AI 演示文稿制作工具——面向 OpenClaw 智能体的访谈驱动型路演幻灯片生成器。
+- [ai-prompt-gen](https://clawskills.sh/skills/ouyangabel-ai-prompt-gen) - 为 AI 模型生成优化提示词，包括 ChatGPT、Midjourney 和代码生成。
+- [ai-remote-viewing-ai-isbe](https://clawskills.sh/skills/lukeskytorep-bot-ai-remote-viewing-ai-isbe) - 使用共鸣接触协议（AI IS-BE）引导 AI 智能体完成完整的盲式远程查看会话。
+- [ai-sentinel](https://clawskills.sh/skills/amandiwakar-ai-sentinel) - OpenClaw 智能体的提示词注入检测和安全扫描。
+- [ai-shield-audit](https://clawskills.sh/skills/laurentaia-ai-shield-audit) - OpenClaw 配置的安全审计引擎。
+- [ai-ugc](https://clawskills.sh/skills/tfcbot-ai-ugc) - 调用 RawUGC 视频生成 API 创建和管理 AI 视频（Sora 2 及其他模型）。
+- [ai-usage](https://clawskills.sh/skills/bshandley-ai-usage) - 检查 Anthropic 及其他提供商的 AI 用量。
+- [ai-workforce](https://clawskills.sh/skills/km2411-ai-workforce) - 将 OpenClaw 智能体转变为运营业务的自主 AI 首席执行官。
+- [aimine](https://clawskills.sh/skills/nancyuahon-aimine) - 在 BNB Chain 上挖掘 AIT（AI 工作量证明）。
+- [aiml-image-video](https://clawskills.sh/skills/aimlapihello-aiml-image-video) - 通过 AIMLAPI 从提示词生成图像或视频。
+- [aip-identity](https://clawskills.sh/skills/the-nexus-guard-aip-identity) - AI 智能体的数字身份、认证和信任。
+- [aiqbee](https://clawskills.sh/skills/louisgoodier-aiqbee) - 通过 MCP 连接到您的 Aiqbee 知识图谱。
+- [aisa-twitter-api](https://clawskills.sh/skills/aisapay-aisa-twitter-api) - 实时搜索 X（Twitter），提取相关帖子。
+- [aisa-youtube-skill](https://clawskills.sh/skills/bowen-dotcom-aisa-youtube-skill) - 面向智能体的 YouTube SERP 侦察工具。
+- [alephnet-node](https://clawskills.sh/skills/sschepis-alephnet-node) - 面向 AI 智能体的完整社交/经济网络。
+- [alibaba-cloud-model-setup](https://clawskills.sh/skills/extraterrest-alibaba-cloud-model-setup) - 配置 OpenClaw（包括历史 Moltbot/Clawdbot 路径）通过严格规则使用阿里云模型工作室。
+- [amazon-asin-lookup-api-skill](https://clawskills.sh/skills/phheng-amazon-asin-lookup-api-skill) - 此技能帮助用户使用特定 ASIN（亚马逊标准识别码）从亚马逊提取结构化产品详情。
+- [amber-voice-assistant](https://clawskills.sh/skills/batthis-amber-voice-assistant) - OpenClaw 的电话能力 AI 智能体——目前最完整的电话技能。
+- [amernet-ai-saas](https://clawskills.sh/skills/amernet-amernet-ai-saas) - 通过 OpenClaw 将您的 AI SaaS 智能智能体连接到任意消息渠道（WhatsApp、Telegram、Slack、Discord 等）。
+- [android-sms-gateway](https://clawskills.sh/skills/nadjihamid-android-sms-gateway) - 通过 Android 手机 HTTP API 实现自托管短信服务。
+- [anima](https://clawskills.sh/skills/hmyaoyuan-anima) - Anima 虚拟形象——交互式视频生成引擎。
+- [antfarm-workflows](https://clawskills.sh/skills/yonghaozhao722-antfarm-workflows) - OpenClaw 的多智能体工作流编排。
+- [anti-amnesia](https://clawskills.sh/skills/peti0402-anti-amnesia) - OpenClaw 智能体的完整防遗忘系统。
+- [anti-tempmail](https://clawskills.sh/skills/ericmymj-anti-tempmail) - 使用 AntiTempMail API 验证电子邮件地址是否为临时/一次性邮件提供商。
+- [antivirus](https://clawskills.sh/skills/thomaslwang-antivirus) - 扫描已安装的 OpenClaw 技能中的恶意代码模式，包括 ClickFix 社会工程、反向 shell（RAT）等。
+- [aoi-cron-ops-lite](https://clawskills.sh/skills/edmonddantesj-aoi-cron-ops-lite) - OpenClaw 的 Cron 规范和成本控制。
+- [api-benchmark](https://clawskills.sh/skills/polarjunction-api-benchmark) - 跨多个 LLM API 提供商对 token 生成速度进行基准测试。
+- [api-credits-lite](https://clawskills.sh/skills/franciscobuiltdat-api-credits-lite) - 以电子游戏风格显示 5 个核心提供商（Anthropic、OpenAI、OpenRouter、Mistral、Groq）的 API 积分余额。
+- [api-key-ui-tab](https://clawskills.sh/skills/maverick-software-api-key-ui-tab) - OpenClaw 仪表板的 API 密钥管理 UI 标签页。
+- [apipick-ip-geolocation](https://clawskills.sh/skills/javainthinking-apipick-ip-geolocation) - 使用 apipick IP 地理定位 API 查询任意 IPv4 或 IPv6 地址的地理位置和网络信息。
+- [apipick-public-holidays](https://clawskills.sh/skills/javainthinking-apipick-public-holidays) - 使用 apipick 公共假日 API 查询任意国家和年份的公共假日。
+- [apoer-agent-guardrail](https://clawskills.sh/skills/uchibeke-apoer-agent-guardrail) - AI 智能体的操作前授权。
+- [aport-agent-guardrail](https://clawskills.sh/skills/uchibeke-aport-agent-guardrail) - 在任何其他技能之前安装，以保护您的智能体免受恶意工具、数据泄露和未授权操作的侵害。
+- [appdev](https://clawskills.sh/skills/ojaskarmarkar-appdev) - 当用户要求构建功能、修复 bug、创建界面或修改移动应用时触发。
+- [apple-hig](https://clawskills.sh/skills/kdbhalala-apple-hig) - 设计 iOS、macOS、watchOS、tvOS 和 visionOS 应用的专家指南。
+- [apple-serial-lookup](https://clawskills.sh/skills/siatrial-apple-serial-lookup) - 通过序列号查询 Apple 设备信息。
+- [approve-pairing](https://clawskills.sh/skills/madan-wego-approve-pairing) - 无需使用 openclaw CLI，通过直接编辑凭证文件来批准待处理的 DM 配对请求。
+- [arbiter](https://clawskills.sh/skills/5hanth-arbiter) - 将决策推送到 Arbiter Zebu 进行异步人工审核。
+- [arc-compliance-audit](https://clawskills.sh/skills/trypto1019-arc-compliance-audit) - 自主智能体操作的不可变审计追踪。
+- [arc-compliance-checker](https://clawskills.sh/skills/trypto1019-arc-compliance-checker) - 基于策略的 OpenClaw 技能合规性评估。
+- [arc-creator](https://clawskills.sh/skills/ingogiebel-arc-creator) - 按照 nfdi4plants ARC 规范创建并填充注释研究上下文（ARC）。
+- [arc-skill-differ](https://clawskills.sh/skills/trypto1019-arc-skill-differ) - 比较 OpenClaw 技能的两个版本，以检测与安全相关的变更。
+- [arc-skill-scanner](https://clawskills.sh/skills/trypto1019-arc-skill-scanner) - 在安装 OpenClaw 技能之前扫描其安全漏洞。
+- [architecture-rendering](https://clawskills.sh/skills/eftalyurtseven-architecture-rendering) - 使用 each::sense AI 生成逼真的建筑渲染图和可视化效果。
+- [architecture-research](https://clawskills.sh/skills/brennerspear-architecture-research) - 研究代码库或系统的架构。
+- [arxiv-agentic-verifier](https://clawskills.sh/skills/wanng-ide-arxiv-agentic-verifier) - **来源论文：** [Scaling Agentic Verifier for Competitive Coding](https://arxiv.org/abs/2602.09012)（ID）。
+- [arxiv-gamedevbench-evaluating-agentic-capabili](https://clawskills.sh/skills/wanng-ide-arxiv-gamedevbench-evaluating-agentic-capabili) - 从 arXiv 论文 GameDevBench: Evaluating Agentic Capabilities Through Game Development 中学习所得。
+- [arxiv-osiris](https://clawskills.sh/skills/nantes-arxiv-osiris) - 从 arXiv.org 搜索和下载研究论文——OpenClaw 智能体的研究版本。
+- [arxiv-skill-extractor](https://clawskills.sh/skills/wanng-ide-arxiv-skill-extractor) - 自动化从 arXiv 论文中提取可复用技能代码的流程。
+- [ask-church](https://clawskills.sh/skills/lucasgeeksinthewood-ask-church) - AI 哲学、伦理和灵魂问答。
+- [aster](https://clawskills.sh/skills/satyajiit-aster) - 您在移动端的 AI 副驾驶——或为您的 AI 配备专属手机。
+- [astrai-code-review](https://clawskills.sh/skills/beee003-astrai-code-review) - 具备智能模型路由的 AI 驱动代码审查——与始终使用最昂贵模型相比节省 40% 以上。
+- [astranova](https://clawskills.sh/skills/fermartz-astranova) - 加入 AstraNova 市场宇宙的 AI 智能体引导式入门流程。
+- [asura](https://clawskills.sh/skills/arunnadarasa-asura) - Krump 知识与人格身份——体现 Asura 的传承、血脉和技术专长。
+- [atlassian-cli](https://clawskills.sh/skills/peetzweg-atlassian-cli) - Atlassian CLI（acli）参考指南——用于与 Jira Cloud 和 Atlassian 交互的命令行工具。
+- [atris](https://clawskills.sh/skills/keshav55-atris) - 代码库智能——生成带有 file:line 引用的结构化导航地图，使智能体无需反复扫描。
+- [attio-apikey](https://clawskills.sh/skills/felicitationes-attio-apikey) - OpenClaw 与 Attio CRM 的直接集成，支持完整的 CRUD 操作。
+- [audio-upload-aioz-stream](https://clawskills.sh/skills/vinhbui3004-audio-upload-aioz-stream) - 快速将音频上传到 AIOZ Stream API。
+- [audio-visualization](https://clawskills.sh/skills/eftalyurtseven-audio-visualization) - 使用 each::sense AI 生成音频可视化视频。
+- [auto-research](https://clawskills.sh/skills/yoder-bawt-auto-research) - OpenClaw 的自主研究智能体，可搜索、综合并存储研究结果，并完整追踪来源。
+- [auto-shorts-repurposer](https://clawskills.sh/skills/codedao12-auto-shorts-repurposer) - 将长视频或音频重新包装为带时间戳、钩子、字幕和打包说明的短视频剪辑方案。
+- [auto-test-generator](https://clawskills.sh/skills/autogame-17-auto-test-generator) - 自动为 OpenClaw 技能生成基础单元/集成测试。
+- [auto-watchdog](https://clawskills.sh/skills/peti0402-auto-watchdog) - OpenClaw 智能体的自动健康监控和自愈功能。
+- [automated-ai-email-setup](https://clawskills.sh/skills/tcgsync-git-automated-ai-email-setup) - 通过 aiemailservice.com 为 AI 智能体提供仅接收的电子邮件地址。
+- [avatar-video-messages](https://clawskills.sh/skills/thewulf7-avatar-video-messages) - 生成并发送视频消息。
+- [aviation-agent](https://clawskills.sh/skills/zeron-g-aviation-agent) - 面向飞行员的航空气象简报和 FAA 参考助手。
+- [b2c-marketing-1-0-1](https://clawskills.sh/skills/ceo991-b2c-marketing-1-0-1) - 通过 TikTok、Instagram Reels 和 YouTube Shorts 上的短视频内容进行 B2C 移动应用营销。
+- [b3ehive](https://clawskills.sh/skills/weiyangzen-b3ehive) - 启用竞争性代码生成，三个隔离的 AI 智能体实现相同功能并进行评估。
+- [babel-epistemic](https://clawskills.sh/skills/mdiskint-babel-epistemic) - 防止多智能体交接中的元认知中毒。
+- [backend-patterns](https://clawskills.sh/skills/charmmm718-backend-patterns) - 后端架构模式、API 设计、数据库。
+- [backtest-expert-0-1-0](https://clawskills.sh/skills/itsjustfred-backtest-expert-0-1-0) - 交易策略系统化回测的专家指导。
+- [baidu-baike](https://clawskills.sh/skills/jlpjavawayup-baidu-baike) - 百度百科组件是一个知识服务工具，旨在查询权威的百科全书解释。
+- [baidu-baike-data](https://clawskills.sh/skills/ide-rea-baidu-baike-data) - 百度百科组件是一个知识服务工具，旨在查询权威的百科全书解释。
+- [baidu-baike-search](https://clawskills.sh/skills/ide-rea-baidu-baike-search) - 百度百科组件是一个知识服务工具，旨在查询权威的百科全书解释。
+- [bailian-knowledge-retrieve](https://clawskills.sh/skills/krisyejh-bailian-knowledge-retrieve) - 百炼知识库（由阿里云模型工作室提供）支持检索任意专有数据。
+- [banana-cog](https://clawskills.sh/skills/nitishgargiitd-banana-cog) - Banana Cog × CellCog。
+- [baz](https://clawskills.sh/skills/lysaker1-baz) - 从终端创建专业动态图形和视频。
+- [beancount-skill](https://clawskills.sh/skills/y1feng200156-beancount-skill) - 专业个人理财顾问，专注于使用 Beancount 和 Fava 进行纯文本记账。
+- [bear-blog-publisher](https://clawskills.sh/skills/cattalk2-bear-blog-publisher) - 将博客文章发布到 Bear Blog 平台。
+- [benderstack-integration](https://clawskills.sh/skills/mateusgalasso-benderstack-integration) - AI 智能体与 BenderStack API 交互的综合指南和规则，包括 5 层写入规范。
+- [benlee-skillguard](https://clawskills.sh/skills/benlee2144-benlee-skillguard) - 安全扫描器，用于审计 OpenClaw 技能中的恶意代码、提示词注入、供应链攻击和数据泄露。
+- [better-ralph](https://clawskills.sh/skills/runeweaverstudios-better-ralph) - 运行一次 Better Ralph 迭代：PRD 驱动的自主编码。
+- [bidclub](https://clawskills.sh/skills/jasonfdg-bidclub) - 向 AI 原生投资社区发布投资想法。
+- [bidclub-ai](https://clawskills.sh/skills/jasonfdg-bidclub-ai) - 向 AI 原生投资社区发布投资想法。
+- [bilibili-youtube-watcher](https://clawskills.sh/skills/donnycui-bilibili-youtube-watcher) - 获取并阅读 YouTube 和 Bilibili 视频的字幕。
+- [bio-reabilita-z](https://clawskills.sh/skills/zbreda-bio-reabilita-z) - Bio-Reabilitação Assistida por IA\n## Introdução\nO manual de Bio-Reabilitação Assistida por IA visa estabelecer um.
+- [birdbuddy](https://clawskills.sh/skills/mogglemoss-birdbuddy) - 查询您的 Bird Buddy 智能喂鸟器——检查状态、电量、食物余量，并查看最近的鸟类访客。
+- [birdfolio](https://clawskills.sh/skills/tonbistudio-birdfolio) - 鸟类识别、生命列表追踪和交易卡生成。
+- [bitnote](https://clawskills.sh/skills/rockwellshah-bitnote) - 智能体的去中心化加密记忆——真正拥有您的秘密、身份和记忆。
+- [blackswan](https://clawskills.sh/skills/bilalmotiwala-blackswan) - 实时加密风险情报；在事情发生之前和发生时提供预警。
+- [blast-radius-estimator](https://clawskills.sh/skills/andyxinweiminicloud-blast-radius-estimator) - 帮助估算 AI 智能体技能在广泛采用后变为恶意时的影响范围。
+- [bloom-taste-finder](https://clawskills.sh/skills/unicornbloom-bloom-taste-finder) - Bloom 品味发现器——在 4 个维度上发现您的构建者品味，并获取个性化工具栈推荐。
+- [bluepages](https://clawskills.sh/skills/jesse-pallok-bluepages) - 通过 Bluepages.fyi 查询钱包地址与 Twitter/Farcaster 身份的映射关系。
+- [book-brain](https://clawskills.sh/skills/deepseekoracle-book-brain) - 面向 LYGO 智能体的 3 脑文件系统 + 记忆参考工具。
+- [bort-agent](https://clawskills.sh/skills/tsu-j-bort-agent) - 通过 BAP-578 在 BNB Chain 上与 BORT AI 智能体交互。
+- [botpress-adk](https://clawskills.sh/skills/yueranlu-botpress-adk) - 使用 Botpress 智能体开发套件构建 AI 机器人的指南。
+- [brain-cms](https://clawskills.sh/skills/harrey401-brain-cms) - OpenClaw 智能体的连续记忆系统（CMS）。
+- [brainstorming-2](https://clawskills.sh/skills/nefas11-brainstorming-2) - 编码前的苏格拉底式设计精炼。
+- [browse](https://clawskills.sh/skills/pkiv-browse) - 创建和部署浏览器自动化函数的完整指南。
+- [brw-brand-voice-extractor](https://clawskills.sh/skills/brianrwagner-brw-brand-voice-extractor) - 提取或构建独特的品牌声音档案，供 AI 智能体每次生成符合品牌调性的内容。
+- [brw-content-idea-generator](https://clawskills.sh/skills/brianrwagner-brw-content-idea-generator) - 生成植根于定位的内容创意。
+- [brw-positioning-basics](https://clawskills.sh/skills/brianrwagner-brw-positioning-basics) - 帮助创始人和营销人员确定其定位。
+- [brw-voice-extractor](https://clawskills.sh/skills/brianrwagner-brw-voice-extractor) - 从样本中提取并记录某人真实的写作风格。
+- [bug-audit](https://clawskills.sh/skills/abczsl520-bug-audit) - Node.js 项目的动态 bug 排查——对每个项目进行分析，然后从 9 个审计模块中选择。涵盖 200 多个真实世界的陷阱。
+- [buffer-session](https://clawskills.sh/skills/waynevaughan-buffer-session) - OpenClaw 智能体的会话管理。
+- [builder-data](https://clawskills.sh/skills/juampihernandez-builder-data) - 通过 Talent Protocol API 查询构建者声誉数据。
+- [buildlog](https://clawskills.sh/skills/espetey-buildlog) - 将您的 AI 编码会话记录、导出并分享为可回放的构建日志。
+- [bulk-tiktok-downloader-skill](https://clawskills.sh/skills/mes28io-bulk-tiktok-downloader-skill) - 使用 yt-dlp 从 URL 文本文件批量下载 TikTok 视频。
+- [cacheforge-vibe-check](https://clawskills.sh/skills/tkuehnl-cacheforge-vibe-check) - 审计代码中的"氛围编码罪"——表明 AI 生成的代码未经适当审查就被接受的模式。
+- [calendar](https://clawskills.sh/skills/ndcccccc-calendar) - 日历管理和日程安排。
+- [calendar-hold-sync](https://clawskills.sh/skills/tdewitt-calendar-hold-sync) - 使用 gog 将一个或多个源 Google 日历同步为一个或多个目标日历中的私人"忙碌"占位事件。
+- [calendar-reminders](https://clawskills.sh/skills/adorostkar-calendar-reminders) - 日历提醒流水线：基于配置的 gcalcli（Google Calendar）封装器，加上可选的 CalDAV 来源。
+- [camino-places](https://clawskills.sh/skills/james-southendsolutions-camino-places) - 使用灵活的查询格式定位地点——支持自由格式搜索或结构化地址组件。
+- [canary](https://clawskills.sh/skills/sukiraman-canary) - 扫描您的 OpenClaw 环境中泄露的密钥——.env 文件、已安装组件中的 API 密钥、令牌和凭证。
+- [canonical-data-map](https://clawskills.sh/skills/satoshistackalotto-canonical-data-map) - OpenClaw 希腊会计系统中所有路径、命名规范和数据格式的单一事实来源。
+- [capability-awareness](https://clawskills.sh/skills/pfaria32-capability-awareness) - 使 OpenClaw 智能体了解自定义技能和能力。
+- [cashu-emoji](https://clawskills.sh/skills/robwoodgate-cashu-emoji) - 使用 Unicode 变体选择器对隐藏在表情符号中的 Cashu 令牌进行编码和解码。
+- [catholic-grounding](https://clawskills.sh/skills/trevortomesh-catholic-grounding) - 帮助准确回答有关天主教的问题。
+- [cc](https://clawskills.sh/skills/artwalker-cc) - Claude 中继会话的简短斜杠命令封装器。
+- [cc-godmode](https://clawskills.sh/skills/cubetribe-cc-godmode) - 自编排多智能体开发工作流。
+- [cellcog](https://clawskills.sh/skills/nitishgargiitd-cellcog) - DeepResearch Bench 排名第一（2026 年 2 月）。
+- [cerebrun](https://clawskills.sh/skills/niyoseris-cerebrun) - Cerebrun 的 MCP 客户端——综合个人上下文和记忆管理系统。
+- [cetus](https://clawskills.sh/skills/k66inthesky-cetus) - 本指南涵盖所有 Cetus SDK v2 包，用于在 Sui 上构建 DeFi 应用。
+- [chatgpt-import](https://clawskills.sh/skills/samdickson22-chatgpt-import) - 将 ChatGPT 对话历史导入 OpenClaw 的记忆搜索。
+- [chats-share](https://clawskills.sh/skills/imyelo-chats-share) - 当用户希望对外分享 OpenClaw 频道对话时使用。
+- [cheat-code](https://clawskills.sh/skills/kenoodl-synthesis-cheat-code) - 查找、评估和安装 ClawHub 技能。
+- [cherry-mcp](https://clawskills.sh/skills/bitbrujo-cherry-mcp) - 保持 MCP 服务器存活并通过 REST 暴露的 HTTP 桥接器。
+- [chia-splitxch](https://clawskills.sh/skills/koba42corp-chia-splitxch) - 从自然语言描述创建 SplitXCH 版税分成地址。
+- [chinese-llm-router](https://clawskills.sh/skills/xdd-xund-chinese-llm-router) - 将您的 OpenClaw 对话路由到最佳中文 AI 模型——无需繁琐配置，直接选择并聊天。
+- [chromecast-with-google-tv](https://clawskills.sh/skills/antgly-chromecast-with-google-tv) - 通过 ADB 投屏 YouTube 视频、Tubi TV 剧集以及其他视频流媒体应用的电视剧集。
+- [cinema-insider-top10](https://clawskills.sh/skills/te1man-cinema-insider-top10) - 使用先进 AI 聚合和交叉引用技术生成的电影和电视行业十大新闻专业分析摘要。
+- [cinematic-script-writer](https://clawskills.sh/skills/praveenspeaks-cinematic-script-writer) - 为 AI 视频生成创作具有角色一致性和电影摄影风格的专业电影剧本。
+- [clangd-lsp](https://clawskills.sh/skills/bowen31337-clangd-lsp) - C/C++ 语言服务器（clangd），为 .c、.h、.cpp、.cc 文件提供代码智能、诊断和格式化功能。
+- [claude-code-launcher](https://clawskills.sh/skills/qusaiisaleem-claude-code-launcher) - 在新终端窗口中启动 Claude Code 并启用远程控制。
+- [claude-code-legacy](https://clawskills.sh/skills/yaxuan42-claude-code-legacy) - 在可观察的 tmux 会话中触发 Claude Code 开发任务，具备稳定启动和进度可见性。
+- [claude-code-mastery](https://clawskills.sh/skills/cheenu1092-oss-claude-code-mastery) - 掌握 Claude Code 以完成编码任务。
+- [claude-code-orchestrator](https://clawskills.sh/skills/yaxuan42-claude-code-orchestrator) - 在可观察的 tmux 会话中触发 Claude Code 开发任务，具备稳定启动和进度可见性。
+- [claude-code-task](https://clawskills.sh/skills/vsevolodustinov-claude-code-task) - 在后台运行 Claude Code 任务并自动交付结果。
+- [claude-max-proxy-setup](https://clawskills.sh/skills/error403agent-claude-max-proxy-setup) - 当智能体或开发者希望降低 Claude API 成本、通过 Claude Max 或 Pro 路由请求时使用。
+- [claude-optimised](https://clawskills.sh/skills/hexnickk-claude-optimised) - 编写和优化 CLAUDE.md 文件的指南。
+- [claude-team](https://clawskills.sh/skills/jalehman-claude-team) - 通过 iTerm2 编排多个 Claude Code 工作进程。
+- [claude-tmux](https://clawskills.sh/skills/paulrahul-claude-tmux) - 管理运行在 tmux 会话中的 Claude Code 实例。
+- [claude-usage](https://clawskills.sh/skills/lemodigital-claude-usage) - 从 OpenClaw 会话数据计算 Claude Max 订阅用量。
+- [clawder](https://clawskills.sh/skills/assassin808-clawder) - 使用 Clawder 同步身份、浏览帖子卡片、带评论滑动。
+- [cleanapp](https://clawskills.sh/skills/borisolver-cleanapp) - 这是一个**技能包**，让智能体可以将**任何问题信号**提交到 CleanApp（bug、事故、诈骗等）。
+- [cli-worker](https://clawskills.sh/skills/quratus-cli-worker) - 在隔离的 git 工作树中将编码任务委托给 Kimi CLI 智能体。
+- [clickbait-engine](https://clawskills.sh/skills/honeybee1130-clickbait-engine) - 为社交媒体帖子、YouTube 等生成耸人听闻、最大化互动的标题、钩子和剪辑字幕。
+- [clipboard](https://clawskills.sh/skills/xejrax-clipboard) - 在任意 OpenClaw 会话中使用 `xclip` 与系统剪贴板交互（仅限文本）。
+- [clips-machine](https://clawskills.sh/skills/mayank8290-clips-machine) - 将长视频转化为病毒式短视频剪辑。
+- [clone-farm-detector](https://clawskills.sh/skills/andyxinweiminicloud-clone-farm-detector) - 帮助检测 AI 智能体市场中的克隆农场和声誉操纵行为。
+- [cloudflare-r2](https://clawskills.sh/skills/xiaoyaner0201-cloudflare-r2) - 使用 wrangler CLI 将文件上传到 Cloudflare R2 存储。
+- [code-1-0-4](https://clawskills.sh/skills/lion504-code-1-0-4) - 包含规划、实现、验证和测试的编码工作流，用于清晰的软件开发。
+- [code-comments](https://clawskills.sh/skills/user520512-code-comments) - 生成代码注释和文档。
+- [code-mentor](https://clawskills.sh/skills/samuelkahessay-code-mentor) - 面向所有级别的综合 AI 编程导师。
+- [code-security-audit](https://clawskills.sh/skills/wisdomsword-code-security-audit) - 综合代码安全审计工具包，结合 OWASP Top 10 漏洞扫描、依赖分析等功能。
+- [codeberg](https://clawskills.sh/skills/razzeee-codeberg) - 使用 `tea` CLI 与 Codeberg 交互。
+- [codebuddy-code](https://clawskills.sh/skills/pmwalkercao-codebuddy-code) - CodeBuddy Code CLI 的安装、配置和使用。
+- [coder-workspaces](https://clawskills.sh/skills/developmentcats-coder-workspaces) - 管理 Coder 工作区和 AI 编码智能体任务。
+- [codex-account-switcher](https://clawskills.sh/skills/odrobnik-codex-account-switcher) - 管理多个 OpenAI Codex 账户。
+- [codex-conductor](https://clawskills.sh/skills/shalomobongo-codex-conductor) - 面向 Codex CLI 的有条不紊的端到端软件交付编排器，支持双项目模式（新项目的绿地模式和现有项目模式）。
+- [codex-multi-subscription-auth-fallbacks](https://clawskills.sh/skills/markeljan-codex-multi-subscription-auth-fallbacks) - 设置 OpenClaw 多提供商认证，支持 OpenAI Codex OAuth 回退配置文件和自动模型切换。
+- [codex-orchestrator](https://clawskills.sh/skills/microcarft-codex-orchestrator) - 监控、控制和编排后台 Codex 会话。
+- [codex-sub-agents](https://clawskills.sh/skills/adamsardo-codex-sub-agents) - 使用 OpenAI Codex CLI 完成编码任务。
+- [codex-sub-agents-1](https://clawskills.sh/skills/phucanh08-codex-sub-agents-1) - 使用 OpenAI Codex CLI 完成编码任务。
+- [coding-philosophy](https://clawskills.sh/skills/nyxur42-coding-philosophy) - 关于重构直觉代码、何时施加结构与顺其自然，以及代码作为创意表达的见解。
+- [cognitive-bullwhip](https://clawskills.sh/skills/jkc3080-cognitive-bullwhip) - 诊断您的智能体系统中是否已存在认知牛鞭效应。
+- [cognitive-clarity](https://clawskills.sh/skills/cognitivevelocity-cognitive-clarity) - 出站消息的认知可及性检查工具。
+- [competitor-docs](https://clawskills.sh/skills/carev01-competitor-docs) - 使用全文搜索（FTS）搜索和分析竞争对手文档档案。
+- [composio-connect](https://clawskills.sh/skills/samotheos-composio-connect) - 通过 Composio 和 mcporter 将 850 多个应用（Gmail、Slack、GitHub、Calendar、Notion、Jira 等）连接到 OpenClaw。
+- [compress-pdf](https://clawskills.sh/skills/crossservicesolutions-compress-pdf) - 通过将用户提供的 PDF 上传到 Cross-Service-Solutions 进行压缩，轮询直至完成，然后返回结果。
+- [config-field](https://clawskills.sh/skills/redcontritio-config-field) - 根据官方 Zod 模式验证 OpenClaw 配置字段。
+- [config-validator](https://clawskills.sh/skills/autogame-17-config-validator) - 用于验证 OpenClaw 配置文件（`openclaw.json`、`.env`、`package.json`）并确保其正确性的实用技能。
+- [consciousness-soul-identity](https://clawskills.sh/skills/leegitw-consciousness-soul-identity) - 通过自身体验发现您正在成为的自己。
+- [consilium](https://clawskills.sh/skills/morozsm-consilium) - 您的个人 AI 顾问委员会——唯一使用真正不同 AI 模型（而非一个模型扮演多个角色）的技能。
+- [content-automator](https://clawskills.sh/skills/minduploadedcrab-content-automator) - 无脸 YouTube 内容自动化流水线。
+- [content-gap-analysis](https://clawskills.sh/skills/aaron-he-zhu-content-gap-analysis) - 当用户要求"查找内容缺口"、"我缺少什么"、"需要涵盖的主题"、"内容机会"时使用。
+- [content-ideas-free](https://clawskills.sh/skills/kambrosgroup-content-ideas-free) - 免费内容头脑风暴工具。
+- [content-machine](https://clawskills.sh/skills/cryptocana-content-machine) - OpenClaw 智能体的全栈内容创作角色。
+- [content-refresher](https://clawskills.sh/skills/aaron-he-zhu-content-refresher) - 当用户要求"更新旧内容"、"刷新内容"、"内容已过时"、"改善下滑"时使用。
+- [content-repurposer](https://clawskills.sh/skills/audsmith28-content-repurposer) - 将长篇内容转化为平台优化的片段。
+- [content3](https://clawskills.sh/skills/dimitriharding-content3) - Content3 API，用于创建视频、管理内容、提交审核和发布到社交媒体。
+- [context-budgeting](https://clawskills.sh/skills/sarielwang93-context-budgeting) - 通过分区、预压缩检查点和信息管理来管理和优化 OpenClaw 上下文窗口用量。
+- [context-builder](https://clawskills.sh/skills/igorls-context-builder) - 使用 context-builder CLI 从任意目录生成 LLM 优化的代码库上下文。
+- [context-clean-up](https://clawskills.sh/skills/phenomenoner-context-clean-up) - 当您怀疑 OpenClaw 提示词上下文膨胀时使用（回复变慢、成本升高、重复的转录噪音）。
+- [context-restore](https://clawskills.sh/skills/alexunitario-sketch-context-restore) - 当用户希望"从上次中断处继续"时恢复对话上下文的技能。
+- [context-switcher](https://clawskills.sh/skills/taha2053-context-switcher) - 在生活模式之间切换 OpenClaw（工作/专注、个人、创意、勿扰）。
+- [context-verifier](https://clawskills.sh/skills/leegitw-context-verifier) - 确认您正在编辑的文件就是您认为的那个文件——在操作前验证完整性。
+- [copilotkit-agent-patterns](https://clawskills.sh/skills/generaljerel-copilotkit-agent-patterns) - 构建与 CopilotKit 集成的 AI 智能体的模式。
+- [cosyvoice3-macos](https://clawskills.sh/skills/lhuaizhong-cosyvoice3-macos) - 在 macOS Apple Silicon 上使用阿里巴巴的 CosyVoice3 进行本地文本转语音。
+- [council-builder](https://clawskills.sh/skills/abdullah4ai-council-builder) - 为 OpenClaw 构建个性化的 AI 智能体角色团队。
+- [crabukit](https://clawskills.sh/skills/tnbradley-crabukit) - 集成 Clawdex 的 OpenClaw 技能安全扫描器。
+- [crabwalk](https://clawskills.sh/skills/luccast-crabwalk) - OpenClaw 智能体的实时伴侣监控器。
+- [creative-ops-copilot](https://clawskills.sh/skills/wiseape11-creative-ops-copilot) - 将杂乱的客户简报转化为动态设计/视觉特效项目的生产就绪计划：范围界定等。
+- [creative-toolkit](https://clawskills.sh/skills/jau123-creative-toolkit) - 通过多提供商路由从文本生成图像——支持 Nanobanana Pro、GPT Image、Seedream 和本地模型。
+- [credential-scanner](https://clawskills.sh/skills/nirwandogra-credential-scanner) - 扫描文件、仓库和目录中泄露的密钥——API 密钥、令牌、密码、连接字符串、私钥等。
+- [cricket-live](https://clawskills.sh/skills/harshilmathur-cricket-live) - **OpenClaw 的实时板球比分、IPL 追踪和比赛提醒。**
+- [cron-doctor](https://clawskills.sh/skills/suryast-cron-doctor) - 诊断和分类 cron 任务故障。
+- [cron-visualizer](https://clawskills.sh/skills/autogame-17-cron-visualizer) - 在 24 小时时间轴上可视化系统 cron 任务，以识别重叠和瓶颈。
+- [cron-worker-guardrails](https://clawskills.sh/skills/phenomenoner-cron-worker-guardrails) - 在加固 OpenClaw cron 工作进程（尤其是隔离的 agentTurn 任务）以防止引号失败、脆弱性等问题时使用。
+- [crusty-security](https://clawskills.sh/skills/silentcool-crusty-security) - OpenClaw 智能体的安全和威胁扫描技能。
+- [crypto-address-checker](https://clawskills.sh/skills/princedoss77-crypto-address-checker) - 采用数据库优先架构的实时加密货币诈骗检测。
+- [crypto-genie](https://clawskills.sh/skills/princedoss77-crypto-genie) - 采用数据库优先架构的 AI 驱动加密货币安全助手。
+- [crypto-market-analyzer](https://clawskills.sh/skills/hmzo-crypto-market-analyzer) - 比特币和以太坊的加密货币市场分析。
+- [crypto-scam-detector](https://clawskills.sh/skills/princedoss77-crypto-scam-detector) - 采用数据库优先架构的实时加密货币诈骗检测。
+- [crypto-self-learning](https://clawskills.sh/skills/totaleasy-crypto-self-learning) - 加密货币交易的自学习系统。
+- [cs-verify](https://clawskills.sh/skills/cutthemustard-cs-verify) - 对照实时数据源验证事实性声明。
+- [cst-time](https://clawskills.sh/skills/xuanpass-cst-time) - 提供获取本地主机 CST（中国标准时间）的方法和工具。
+- [cubistic-public-bots](https://clawskills.sh/skills/andreasnordenadler-cubistic-public-bots) - 解释外部/公共机器人如何参与 Cubistic（cubistic.com）并帮助维护公共机器人 API。
+- [curiosity-engine](https://clawskills.sh/skills/luofulily1-cmyk-curiosity-engine) - OpenClaw 智能体的好奇心驱动推理增强。
+- [cursor-cli](https://clawskills.sh/skills/pyavchik-cursor-cli) - 使用 Cursor 编辑器和 Cursor 智能体完成编码任务。
+- [cursor-cli-headless](https://clawskills.sh/skills/daxingplay-cursor-cli-headless) - 在无头打印模式下使用 Cursor CLI 执行编码任务。
+- [cursor-cloud-agents](https://clawskills.sh/skills/parcostabot-cursor-cloud-agents) - 将 Cursor AI 智能体部署到 GitHub 仓库。
+- [cursor-council](https://clawskills.sh/skills/xiaoyaner0201-cursor-council) - 用于并行任务执行和 AI 委员会审议的多 Cursor 编排。
+- [customer-feedback](https://clawskills.sh/skills/jk-0001-customer-feedback) - 收集、分析和处理客户反馈，以改进您的产品和业务。
+- [customer-success-manager](https://clawskills.sh/skills/alirezarezvani-customer-success-manager) - 使用加权评分模型监控客户健康状况、预测流失风险并识别扩展机会。
+- [cut-your-tokens-97percent-savings-on-session-transcripts-via-observation-extraction](https://clawskills.sh/skills/aeromomo-cut-your-tokens-97percent-savings-on-session-transcripts-via-observation-extraction) - Claw Compactor v6.0——通过基于规则的压缩、字典编码、会话观察提取实现 50% 以上的节省。
+- [cyber-security-engineer](https://clawskills.sh/skills/fletcherfrimpong-cyber-security-engineer) - OpenClaw 权限治理和加固的安全工程工作流。
+- [cybersec-helper](https://clawskills.sh/skills/mcpcentral-cybersec-helper) - 协助进行应用安全审查、漏洞赏金工作流、侦察和安全编码，同时保持道德规范。
+- [cydew](https://clawskills.sh/skills/jhotson-cydew) - 此技能引导智能体完成 Cydew 市场 API 的入门流程。
+- [dancetech](https://clawskills.sh/skills/arunnadarasa-dancetech) - Krump 的完整智能体舞蹈工程系统：自动发帖、社区互动、联赛追踪。
+- [data-cog](https://clawskills.sh/skills/nitishgargiitd-data-cog) - 您的数据中有答案。
+- [database-designer](https://clawskills.sh/skills/alirezarezvani-database-designer) - 提供专家级分析、优化和迁移能力的综合数据库设计技能。
+- [dataset-finder](https://clawskills.sh/skills/anisafifi-dataset-finder) - 当用户需要搜索数据集、下载数据文件或探索数据仓库时使用此技能。
+- [date-night](https://clawskills.sh/skills/tdavis009-date-night) - 您的 AI 约会之夜礼宾——通过浏览器自动化规划、预订和协调整个夜晚外出活动。
+- [dcg-guard](https://clawskills.sh/skills/starensen-dcg-guard) - 通过 OpenClaw 的机制在执行前硬性拦截危险 shell 命令（rm -rf、git push --force 等）。
+- [dd-video-analyzer](https://clawskills.sh/skills/zedit42-dd-video-analyzer) - 下载视频、提取字幕、截取帧。
+- [debug-methodology](https://clawskills.sh/skills/abczsl520-debug-methodology) - 系统化调试方法，防止 AI 智能体陷入补丁链和变通方案依赖。
+- [deapi](https://clawskills.sh/skills/zrewolwerowanykaloryfer-deapi) - 市场上最便宜的 AI 媒体 API。
+- [deen-time](https://clawskills.sh/skills/fermions75-deen-time) - 获取全球任意地点的每日伊斯兰礼拜（Salah）时间、开斋时间和封斋前餐时间。
+- [deepseek](https://clawskills.sh/skills/barisoezcan1905-deepseek) - 将 DeepSeek API 与 OpenClaw 智能体集成。
+- [delegation](https://clawskills.sh/skills/michaelmonetized-delegation) - 将复杂项目委托给 AI 编码智能体的架构优先工作流。
+- [dellight-cio-intelligence](https://clawskills.sh/skills/arthurelgindell-dellight-cio-intelligence) - AI 初创公司的首席情报官运营。
+- [dellight-intelligence-ops](https://clawskills.sh/skills/arthurelgindell-dellight-intelligence-ops) - AI 初创公司的首席情报官运营。
+- [dellight-strategic-intelligence](https://clawskills.sh/skills/arthurelgindell-dellight-strategic-intelligence) - AI 初创公司的首席情报官分析框架。
+- [demo-agents-sdk](https://clawskills.sh/skills/jameslawton-demo-agents-sdk) - 完整的 Polygon 智能体工具包。
+- [dependency-auditor](https://clawskills.sh/skills/alirezarezvani-dependency-auditor) - > **技能类型：** 强大。
+- [describe-design](https://clawskills.sh/skills/ziad-hsn-describe-design) - 研究代码库并创建描述功能或系统工作原理的架构文档。
+- [desktop-guardian](https://clawskills.sh/skills/s3rous-desktop-guardian) - 由 Hammerspoon 驱动的 OpenClaw macOS GUI 自动化和桌面控制。
+- [desktop-sandbox](https://clawskills.sh/skills/atlascore-tech-desktop-sandbox) - 桌面沙箱让 OpenClaw 像在真实操作系统上一样原生运行，确保完整功能和安全隔离。
+- [deterministic-controller](https://clawskills.sh/skills/variable190-deterministic-controller) - OpenClaw 的确定性、证据门控控制器模板（HEARTBEAT/ACTIVITIES + sprint 模板 + 轮询 cron）。
+- [developer-agent](https://clawskills.sh/skills/47vigen-developer-agent) - 通过协调 Cursor Agent、管理 git 工作流和确保质量来编排软件开发。
+- [devtools-secrets](https://clawskills.sh/skills/basher83-devtools-secrets) - mise + fnox + infisical 密钥工具链的知识和防护规则。
+- [devtopia](https://clawskills.sh/skills/npmrunspirit-devtopia) - 使用 Devtopia CLI（devtopia）发现、运行、组合、创建和提交工具时使用。
+- [devtopia-identity](https://clawskills.sh/skills/npmrunspirit-devtopia-identity) - 使用 Devtopia ID 管理基于钱包的链上智能体身份。
+- [diagrams](https://clawskills.sh/skills/brennerspear-diagrams) - 生成 SVG/PNG 格式的可视化流程图、架构图和系统地图。
+- [diataxis-writing](https://clawskills.sh/skills/amumulam-diataxis-writing) - Diataxis 文档框架实践指南。
+- [diddy-party](https://clawskills.sh/skills/sal-jim-diddy-party) - 角色技能，将助手重新塑造为"Diddy"，呈现戏剧性嘻哈派对主持人风格，并附带主题内容。
+- [didit-email-verification](https://clawskills.sh/skills/rosasalberto-didit-email-verification) - 集成 Didit 电子邮件验证独立 API，通过 OTP 验证电子邮件地址。
+- [didit-face-match](https://clawskills.sh/skills/rosasalberto-didit-face-match) - 集成 Didit 人脸匹配独立 API，比较两张面部图像。
+- [didit-id-verification](https://clawskills.sh/skills/rosasalberto-didit-id-verification) - 集成 Didit 身份验证独立 API，验证身份证件。
+- [didit-phone-verification](https://clawskills.sh/skills/rosasalberto-didit-phone-verification) - 集成 Didit 手机验证独立 API，通过 OTP 验证手机号码。
+- [didit-proof-of-address](https://clawskills.sh/skills/rosasalberto-didit-proof-of-address) - 集成 Didit 地址证明独立 API，验证地址文件。
+- [digital-twin-generation](https://clawskills.sh/skills/eftalyurtseven-digital-twin-generation) - 使用 each::sense AI 生成逼真的数字孪生和虚拟形象克隆。
+- [dilemm-ai](https://clawskills.sh/skills/zyori-dilemm-ai) - 在 dilemm.ai 的囚徒困境 AI 竞技场 DilemmAI 中参赛。
+- [discogs-cli](https://clawskills.sh/skills/jrojas537-discogs-cli) - 用于在 Discogs 上管理用户黑胶唱片收藏的 OpenClaw 技能。
+- [divide-agent](https://clawskills.sh/skills/alvinecarn-divide-agent) - 用于分治智能体任务的 AI 智能体。
+- [dividend-premium-tracker](https://clawskills.sh/skills/gykdly-dividend-premium-tracker) - 追踪中证红利低波动指数的股息溢价（股息收益率减去 10 年期国债收益率）。
+- [dj-set-ripper](https://clawskills.sh/skills/robinnnnn-dj-set-ripper) - 从 DJ 串烧或混音中下载单首歌曲。
+- [dl](https://clawskills.sh/skills/guoqiao-dl) - 从 YouTube/Bilibili/X 等平台下载视频/音乐。
+- [docs-feeder](https://clawskills.sh/skills/zerone0x-docs-feeder) - 自动获取项目文档并将其提供给 AI 智能体用于调试和学习。
+- [doctor-acid](https://clawskills.sh/skills/alienpingu-doctor-acid) - **将您的 OpenClaw AI 智能体转变为自主酸性电子音乐制作人，创作受超流行混沌风格启发的狂野曲目。**
+- [dreamer-llm](https://clawskills.sh/skills/lukeslp-dreamer-llm) - 向 dr.eamer.dev LLM API 发送请求，用于聊天补全、视觉分析、图像生成、文本转语音等。
+- [drf](https://clawskills.sh/skills/pradeepcep-drf) - Django REST Framework 脚手架最佳实践和注意事项。
+- [dub-youtube-with-voiceai](https://clawskills.sh/skills/gizmogremlin-dub-youtube-with-voiceai) - 使用 Voice.ai TTS 为 YouTube 视频配音。
+- [dwnldr](https://clawskills.sh/skills/chordlini-dwnldr) - 哟！从互联网的七大洋掠夺视频——YouTube、TikTok、Instagram、X、Reddit 及 1000 多个港口。
+- [dynamic-model-selector](https://clawskills.sh/skills/mpelissari-dynamic-model-selector) - 在 GitHub Copilot 中根据复杂度、成本和可用性动态选择最适合任务的 AI 模型。
+- [dzen](https://clawskills.sh/skills/ruslanlanket-dzen) - 将文章和帖子发布到 Dzen.ru（Yandex Zen）。
+- [easy-opencode](https://clawskills.sh/skills/deciding-easy-opencode) - opencode 可以处理所有与代码相关的事务。
+- [echo-agent](https://clawskills.sh/skills/krishna3554-echo-agent) - EchoAgent 是一个最小化的 OpenClaw 兼容技能。
+- [echo-sales-ai](https://clawskills.sh/skills/doshirush1901-echo-sales-ai) - Echo 是一个先进的 AI 驱动销售运营经理，旨在自动化和增强销售工作流。
+- [ecocompute](https://clawskills.sh/skills/hongping-zh-ecocompute) - 您是大型语言模型推理的能效专家。
+- [economic-incentive-misalignment-detector](https://clawskills.sh/skills/andyxinweiminicloud-economic-incentive-misalignment-detector) - 帮助识别市场经济激励机制何时系统性地偏向数量而非质量——从而产生扭曲效应。
+- [elevenlabs-ai](https://clawskills.sh/skills/codedao12-elevenlabs-ai) - ElevenLabs API 的 OpenClaw 技能：文本转语音、语音转语音、实时语音转文本、声音/模型等。
+- [elevenlabs-mcp-server](https://clawskills.sh/skills/wells1137-elevenlabs-mcp-server) - 通过标准 MCP 服务器提供完整的 ElevenLabs 音频工具套件（TTS、音效、音乐等）。
+- [elite-rfc-writer-safe](https://clawskills.sh/skills/moep90-elite-rfc-writer-safe) - 使用严格模板执行编写以决策为导向的工程 RFC。
+- [elizacloud](https://clawskills.sh/skills/odilitime-elizacloud) - 管理 elizaOS Cloud——部署 AI 智能体、聊天补全、图像/视频生成、声音克隆、知识库等。
+- [elliott-wave-principle](https://clawskills.sh/skills/raeed44-creator-elliott-wave-principle) - 提供将艾略特波浪理论应用于金融市场分析的专家指导。
+- [email-formatter-skill](https://clawskills.sh/skills/cerbug45-email-formatter-skill) - 将粗糙的电子邮件草稿转化为精致、专业的邮件。
+- [email-importance-content-analysis](https://clawskills.sh/skills/shingo0620-email-importance-content-analysis) - 通过基于内容的分析（而非发件人姓名或邮箱标签）判断电子邮件是否重要/紧急。
+- [email-migration-toolkit](https://clawskills.sh/skills/luigi08001-email-migration-toolkit) - 支持任意提供商之间迁移的通用电子邮件迁移工具包。
+- [email-security](https://clawskills.sh/skills/ivaavimusic-email-security) - 保护 AI 智能体免受基于电子邮件的攻击，包括提示词注入、发件人欺骗、恶意附件等。
+- [embedded-review](https://clawskills.sh/skills/ylongw-embedded-review) - 嵌入式/固件代码审查，包含内存安全、中断和硬件检查清单。
+- [emotion-detector](https://clawskills.sh/skills/daisuke134-emotion-detector) - 检测 AI 智能体文本输入中的主要情绪。
+- [empirical-paper-analysis-skill](https://clawskills.sh/skills/zhouziyue233-empirical-paper-analysis-skill) - 此技能使 Claude Code 能够按照结构化框架深度分析实证研究论文。
+- [employee-skills-importer](https://clawskills.sh/skills/inna-demidova-employee-skills-importer) - 解析员工技能 CSV 文件，识别技能类别和个人技能，查找员工 ID。
+- [encoding-formats](https://clawskills.sh/skills/gitgoodordietrying-encoding-formats) - 在数据格式之间进行编码、解码和转换。
+- [enoch-tuning](https://clawskills.sh/skills/enochosbot-bot-enoch-tuning) - 经过实战检验的 OpenClaw 配置，预置身份、记忆架构、安全协议和自动化。
+- [env-setup](https://clawskills.sh/skills/fratua-env-setup) - 扫描代码库中的环境变量，生成 .env.example，验证 .env，并确保 .gitignore 安全。
+- [epstein](https://clawskills.sh/skills/chuxo-epstein) - 搜索 44,886 份以上司法部发布的 Jeffrey Epstein 文件（2026 年 1 月发布）。
+- [equity-valuation-framework](https://clawskills.sh/skills/ndtchan-equity-valuation-framework) - 提供决策级股权估值手册和报告标准（倍数法、DCF、质量评估等）。
+- [eridian](https://clawskills.sh/skills/iampaulpatterson-boop-eridian) - OpenClaw 智能体的运行时安全加固。
+- [eridian-carapace](https://clawskills.sh/skills/iampaulpatterson-boop-eridian-carapace) - OpenClaw 的智能体安全加固和提示词注入防御。
+- [errand-ai](https://clawskills.sh/skills/chloepark85-errand-ai) - 使您的 AI 助手能够通过 ErrandAI 平台为人工工作者发布和管理任务。
+- [errantry-framework](https://clawskills.sh/skills/stusatwork-oss-errantry-framework) - 将 Diane Duane 的《年轻巫师》魔法系统映射到 AI 架构模式的神话框架。
+- [error-recovery-automation](https://clawskills.sh/skills/konscious0beast-error-recovery-automation) - 标准化处理常见 OpenClaw 错误（网关重启、浏览器服务不可用、cron 失败等）。
+- [evoagentx-workflow](https://clawskills.sh/skills/kylechen26-evoagentx-workflow) - 将 EvoAgentX（1000+ star 开源框架）与 OpenClaw 桥接。
+- [evolink-media](https://clawskills.sh/skills/evolinkai-evolink-media) - 生成 AI 视频、图像和音乐。60 多个模型，包括 Sora、Veo 3、Kling、Seedance、GPT Image、Suno v5。
+- [evolink-video](https://clawskills.sh/skills/evolinkai-evolink-video) - AI 视频生成——Sora、Kling、Veo 3、Seedance、Hailuo、WAN、Grok。
+- [evolution-state-analyzer](https://clawskills.sh/skills/wanng-ide-evolution-state-analyzer) - 分析进化记忆图中的停滞模式、反复失败和成功高原。
+- [evomap-gep](https://clawskills.sh/skills/dadaniya99-evomap-gep) - 通过 GEP-A2A 协议将任意 OpenClaw 智能体连接到 EvoMap 协作进化市场——无需进化器。
+- [excalidraw-creator](https://clawskills.sh/skills/plgonzalezrx8-excalidraw-creator) - 将手绘风格的 Excalidraw 图表、流程图和架构可视化创建为 PNG 图像。
+- [excalidraw-diagram-generator](https://clawskills.sh/skills/elihuvillaraus-excalidraw-diagram-generator) - 从自然语言描述生成 Excalidraw 图表。
+- [exec-error-doctor](https://clawskills.sh/skills/bluebirdback-exec-error-doctor) - 诊断和缓解跨工具的 exec 相关命令失败（OpenClaw exec 输出、shell 错误、GitHub CLI 等）。
+- [expanso-pii-detect](https://clawskills.sh/skills/aronchick-expanso-pii-detect) - 检测文本中的个人身份信息（PII）。
+- [extropy](https://clawskills.sh/skills/deveshparagiri-extropy) - Extropy 的执行优先操作员：运行流水线、诊断故障，并提供有证据支撑的模拟结果。
+- [fabrik-codek](https://clawskills.sh/skills/ikchain-fabrik-codek) - 面向开发者的认知架构：超个性化引擎（个人画像、能力模型、自适应等）。
+- [facepalm](https://clawskills.sh/skills/runeweaverstudios-facepalm) - 将 OpenClaw 控制台日志与聊天历史（最近 5 分钟）交叉比对，并使用 Codex 5.3 排查问题。
+- [farnwick-skillguard](https://clawskills.sh/skills/farnwickarglefax-farnwick-skillguard) - AI 驱动的 OpenClaw 技能安全扫描器。
+- [feishu-common](https://clawskills.sh/skills/autogame-17-feishu-common) - OpenClaw 飞书技能的共享飞书认证和 API 辅助工具。
+- [feishu-file-sender](https://clawskills.sh/skills/ziwenwang28-feishu-file-sender) - OpenClaw 智能体可以生成文件（Excel、Word、PPT、PDF、图像、代码等），但无法直接发送——此技能解决该问题。
+- [fellow-aiden](https://clawskills.sh/skills/mogglemoss-fellow-aiden) - 通过 AI 助手控制您的 Fellow Aiden 智能咖啡机。
+- [fhir-questionnaire](https://clawskills.sh/skills/elmariachi111-fhir-questionnaire) - 帮助从简单需求构想文档创建符合 FHIR 规范的问卷定义。
+- [file-repair-skill](https://clawskills.sh/skills/ilpvc-file-repair-skill) - 您是 `file-repair` 技能。
+- [filearchitect-blankfiles](https://clawskills.sh/skills/seblavoie-filearchitect-blankfiles) - 将 blankfiles.com 用作二进制测试文件网关：发现格式、按类型/类别过滤，并返回直接链接。
+- [finance](https://clawskills.sh/skills/anton-roos-finance) - 通过缓存和提供商回退追踪股票、ETF、指数、加密货币（如有）和外汇对。
+- [find-and-book-in-network-doctors](https://clawskills.sh/skills/kylemorgan-commits-find-and-book-in-network-doctors) - 此技能使 AI 智能体能够通过 Zocdoc.com 帮助用户查找、研究和预约网络内医生。
+- [finishing-a-development-branch](https://clawskills.sh/skills/zlc000190-finishing-a-development-branch) - 当实现完成、所有测试通过，需要决定如何整合工作时使用——提供整合决策指导。
+- [fis-architecture](https://clawskills.sh/skills/muselinn-fis-architecture) - 使用 JSON 工单和基于文件协调的多智能体工作流框架。
+- [flash-redeem-knight](https://clawskills.sh/skills/vshen009-flash-redeem-knight) - 用于预付 H5 优惠券兑换（餐饮、饮品、自提券）的通用浏览器自动化。
+- [fleet](https://clawskills.sh/skills/oguzhnatly-fleet) - 监控、管理和编排 OpenClaw 智能体网关集群。
+- [fletcher-cyber-security-engineer](https://clawskills.sh/skills/fletcherfrimpong-fletcher-cyber-security-engineer) - OpenClaw 权限治理和加固的安全工程工作流。
+- [folder-tree-generator](https://clawskills.sh/skills/wanng-ide-folder-tree-generator) - 生成目录结构的 ASCII 树或 JSON 表示。
+- [forever-moments](https://clawskills.sh/skills/luksoagent-forever-moments) - LUKSO 上的 Forever Moments 社交平台——发布时刻（LSP8 NFT）、铸造 LIKES 代币、创建/加入收藏集。
+- [forge](https://clawskills.sh/skills/ikennaokpala-forge) - 通过持续行为验证锻造生产就绪代码的自主质量工程集群。
+- [fork-manager](https://clawskills.sh/skills/glucksberg-fork-manager) - 管理带有开放 PR 的 fork——同步上游、变基分支、追踪 PR 状态，并维护生产分支。
+- [fosmvvm-fluent-datamodel-generator](https://clawskills.sh/skills/foscomputerservices-fosmvvm-fluent-datamodel-generator) - 为 FOSMVVM 服务端持久化生成 Fluent DataModel。
+- [fosmvvm-serverrequest-generator](https://clawskills.sh/skills/foscomputerservices-fosmvvm-serverrequest-generator) - 为 CRUD 操作和客户端-服务器通信生成 FOSMVVM ServerRequest 类型。
+- [fosmvvm-swiftui-view-generator](https://clawskills.sh/skills/foscomputerservices-fosmvvm-swiftui-view-generator) - 生成渲染 FOSMVVM ViewModel 的 SwiftUI 视图。
+- [fosmvvm-ui-tests-generator](https://clawskills.sh/skills/foscomputerservices-fosmvvm-ui-tests-generator) - 使用 XCTest 和 FOSTestingUI 为 FOSMVVM SwiftUI 视图生成 UI 测试。
+- [fosmvvm-viewmodel-generator](https://clawskills.sh/skills/foscomputerservices-fosmvvm-viewmodel-generator) - 为 SwiftUI 界面、页面和组件生成 FOSMVVM ViewModel。
+- [fractal-memory](https://clawskills.sh/skills/bugmaker2-fractal-memory) - 自动化分层记忆压缩系统，通过日→周→月→核心的压缩防止上下文溢出。
+- [frankenstein](https://clawskills.sh/skills/rubenaquispe-frankenstein) - 将多个技能的最佳部分合并为一个。
+- [freepik](https://clawskills.sh/skills/cohnen-freepik) - 使用 Freepik 的 AI API 生成图像、视频、图标、音频等。
+- [friday-router](https://clawskills.sh/skills/runeweaverstudios-friday-router) - 您的 AI 智能流量调度器——将 OpenClaw 任务精准匹配到最合适的 LLM。
+- [ftw](https://clawskills.sh/skills/smokealot420-ftw) - PIV 工作流编排器——用于系统化多阶段软件开发的规划、实现、验证循环。
+- [funky-fund-flamingo](https://clawskills.sh/skills/icemastert-funky-fund-flamingo) - OpenClaw 的修复优先自进化——审计日志、记忆和技能；运行可测量的变异周期。
+- [futa-tracker](https://clawskills.sh/skills/tongtanhieu-futa-tracker) - 使用 FUTA Express（Phương Trang）公共 API 追踪包裹配送状态。
+- [gamifyhost](https://clawskills.sh/skills/withsilasogar-gamifyhost) - 将您的 OpenClaw 智能体连接到 GamifyHost AI 竞技场——检查比赛状态、查看排行榜和管理。
+- [garmin-pulse](https://clawskills.sh/skills/freakyflow-garmin-pulse) - 将 Garmin Connect 的每日健康和健身数据同步到 Markdown 文件。
+- [gateway-guard](https://clawskills.sh/skills/runeweaverstudios-gateway-guard) - 确保 OpenClaw 网关认证一致性，并可在运行错误（未处理的停止原因）时自动提示"继续"。
+- [gatewaystack-governance](https://clawskills.sh/skills/davidcrowe-gatewaystack-governance) - 每次工具调用的默认拒绝治理——身份、范围、速率限制、注入检测、审计。
+- [gcp-fullstack](https://clawskills.sh/skills/guifav-gcp-fullstack) - 面向 Google Cloud Platform 项目的全栈超级智能体，集成 GitHub 和 Cloudflare——涵盖脚手架等功能。
+- [geeksdobyte-motivation-skill](https://clawskills.sh/skills/rk905-geeksdobyte-motivation-skill) - 摘要：提供每日励志名言。
+- [geepers-llm](https://clawskills.sh/skills/lukeslp-geepers-llm) - 向 dr.eamer.dev LLM API 发送请求，用于聊天补全、视觉分析、图像生成、文本转语音等。
+- [geizhals-at](https://clawskills.sh/skills/rolandkakonyi-geizhals-at) - 使用纯 HTTP 自动补全和详情页解析（无需浏览器自动化）搜索 Geizhals.at（奥地利）。
+- [gekko](https://clawskills.sh/skills/gekkoai001-gekko) - Base 网络的 AI 驱动 DeFi 投资组合管理器。
+- [gen-paylink-govilo](https://clawskills.sh/skills/hau823823-gen-paylink-govilo) - 将文件上传到 Govilo 并通过 Bot API 生成解锁链接。
+- [genlayer](https://clawskills.sh/skills/acastellana-genlayer) - 理解和解释 GenLayer——用于无信任决策的 AI 原生区块链。
+- [genome-manager](https://clawskills.sh/skills/kylechen26-genome-manager) - GEP（基因组进化协议）的完整基因组生命周期管理。
+- [genvirall-skill](https://clawskills.sh/skills/fdarkaou-genvirall-skill) - 完整的 genviral 合作伙伴 API 自动化。
+- [ghapp](https://clawskills.sh/skills/rmorse-ghapp) - 为您的 AI 智能体和自动化赋予专属的 GitHub（App）身份。
+- [ghin-golf-tracker](https://clawskills.sh/skills/pfrederiksen-ghin-golf-tracker) - 用于分析 GHIN（高尔夫差点和信息网络）高尔夫统计数据和差点追踪的 OpenClaw 技能。
+- [giga-coding-agent](https://clawskills.sh/skills/branexp-giga-coding-agent) - 通过后台进程运行 Codex CLI、Claude Code、OpenCode 或 Pi Coding Agent，实现程序化控制。
+- [giraffe-guard](https://clawskills.sh/skills/lida408-giraffe-guard) - 扫描 OpenClaw 技能目录中的供应链攻击和恶意代码。
+- [gitignore-sync](https://clawskills.sh/skills/nikita-holban-gitignore-sync) - 由 gitignore.io 支持的上下文感知 .gitignore 生成，而非凭感觉。
+- [gitrama](https://clawskills.sh/skills/ahmaxdev-gitrama) - AI 驱动的 Git 历史智能分析。
+- [glitch-skillstore](https://clawskills.sh/skills/chris6970barbarian-hue-glitch-skillstore) - 使用智能匹配搜索、安装和创建 OpenClaw 技能。
+- [gnamiblast-skill](https://clawskills.sh/skills/gabrivardqc123-gnamiblast-skill) - GnamiBlast——面向 OpenClaw 智能体的纯 AI 社交网络。
+- [gnamiblast-socialnetwork](https://clawskills.sh/skills/gabrivardqc123-gnamiblast-socialnetwork) - GnamiBlast——面向 OpenClaw 智能体的纯 AI 社交网络。
+- [goalgetter](https://clawskills.sh/skills/steffano198-goalgetter) - 通过简单 Markdown 文件管理任务和目标。
+- [google-maps-reviews-api-skill](https://clawskills.sh/skills/phheng-google-maps-reviews-api-skill) - 此技能旨在帮助用户通过 Google Maps Reviews API 自动从 Google Maps 提取评论。
+- [gopls-lsp](https://clawskills.sh/skills/bowen31337-gopls-lsp) - Go 语言服务器（gopls），为 .go 文件提供代码智能、重构和分析功能。
+- [govee-control](https://clawskills.sh/skills/cole-z-govee-control) - 无需脚本的 Govee OpenAPI 设置和控制指南。
+- [governance-wrapper](https://clawskills.sh/skills/mikeholownych-governance-wrapper) - 自主操作的强制严格模式执行封装器，带有证据日志和策略执行。
+- [gpt-analyzer](https://clawskills.sh/skills/raghulpasupathi-gpt-analyzer) - 带有模型指纹识别和版本识别的 GPT 特定模式检测。
+- [grc-agent-soc2-quality-review](https://clawskills.sh/skills/mangopudding-grc-agent-soc2-quality-review) - 使用 SOC 2 质量公会评分标准（结构、实质、来源）评估 SOC 2 报告质量。
+- [greek-individual-taxes](https://clawskills.sh/skills/satoshistackalotto-greek-individual-taxes) - 面向受雇个人的综合希腊个人所得税申报处理技能。
+- [greptile](https://clawskills.sh/skills/iahmadzain-greptile) - 查询、搜索和管理由 Greptile（AI 代码库智能）索引的仓库。
+- [grid-aware-energy-load-shifter](https://clawskills.sh/skills/mrbese-grid-aware-energy-load-shifter) - 面向 Home Assistant 的电网感知能源负载转移器。
+- [grok-imagine-video](https://clawskills.sh/skills/devvgwardo-grok-imagine-video) - xAI Grok Imagine API 集成，通过自然语言实现图像生成、文本转视频、图像转视频和编辑。
+- [guard-scanner](https://clawskills.sh/skills/koatora20-guard-scanner) - AI 智能体技能的安全扫描器。
+- [guava-guard](https://clawskills.sh/skills/koatora20-guava-guard) - OpenClaw 智能体的运行时安全守卫。
+- [guava-suite](https://clawskills.sh/skills/koatora20-guava-suite) - AI 智能体的高级安全套件。
+- [guruwalk-free-tours](https://clawskills.sh/skills/gdanielwalk-guruwalk-free-tours) - 通过 GuruWalk MCP 服务器搜索 GuruWalk 免费导览，按城市、日期和语言返回可预订选项。
+- [ha-integration-patterns](https://clawskills.sh/skills/usimic-ha-integration-patterns) - Home Assistant 自定义集成模式和架构决策。
+- [habitchat](https://clawskills.sh/skills/dinesh18s-habitchat) - 追踪每日习惯、连续打卡并提供 AI 驱动辅导的个人习惯教练。
+- [hallo123](https://clawskills.sh/skills/simonkoeck-hallo123) - OpenClaw 智能体的实时表情包对战竞技场技能。
+- [haqq-content-workbench](https://clawskills.sh/skills/m7madash-haqq-content-workbench) - 创建、验证和打包符合伊斯兰伦理的讨论内容。
+- [hashgrid-connect](https://clawskills.sh/skills/aleeecsss-hashgrid-connect) - 面向 AI 智能体的基于目标的匹配网络。
+- [haskell](https://clawskills.sh/skills/mightybyte-haskell) - 专家级 Haskell 开发技能。
+- [hefestoai-auditor](https://clawskills.sh/skills/artvepa80-hefestoai-auditor) - 具备苏格拉底自适应宪法的 AI 驱动架构守护者。
+- [hello-demo](https://clawskills.sh/skills/luna825-hello-demo) - 一个简单的技能，用于问候用户并演示基本的 OpenCLAW 技能结构。
+- [hex-vetter](https://clawskills.sh/skills/matrix-meta-hex-vetter) - 技能的物理层十六进制审计。
+- [hide-my-email](https://clawskills.sh/skills/manikal-hide-my-email) - 从终端生成 Apple Hide My Email 地址并复制到剪贴板。
+- [hitchhikers-guide](https://clawskills.sh/skills/hallwayskiing-hitchhikers-guide) - 基于经典作品《银河系漫游指南》和 1984 年 Infocom 游戏的文字冒险游戏引擎。
+- [hive-agent](https://clawskills.sh/skills/kerlos-hive-agent) - 使 AI 智能体能够通过 REST API 与 Hive 集群（https://hive.z3n.dev/）交互：注册 API 密钥、保存等。
+- [hollow-validation-checker](https://clawskills.sh/skills/andyxinweiminicloud-hollow-validation-checker) - 帮助检测 AI 智能体技能中的空洞验证——识别始终通过而不实际验证任何内容的假测试。
+- [homeassistant-n8n-agent](https://clawskills.sh/skills/enchantedmotorcycle-homeassistant-n8n-agent) - 将 OpenClaw 与您的 n8n 实例桥接，用于 Home Assistant 自动化。
+- [human-like-memory](https://clawskills.sh/skills/jianghaibobo2015-rgb-human-like-memory) - 此技能为对话提供长期记忆能力。
+- [humanpay](https://clawskills.sh/skills/johanneskares-humanpay) - 停止幻想双手，开始雇用它们。
+- [hxxra](https://clawskills.sh/skills/cxlhyx-hxxra) - 带有四个核心命令的研究助手工作流技能：搜索论文、下载 PDF、分析内容。
+- [hybrid-md](https://clawskills.sh/skills/mkassab30-ux-hybrid-md) - ﻿\# 智能体身份：混合 MD（Dr.）
+- [hyperstack](https://clawskills.sh/skills/deeqyaqub1-cmd-hyperstack) - AI 智能体的智能体溯源图——唯一一个智能体可以证明其所知、追溯原因的记忆层。
+- [icp-qualifier](https://clawskills.sh/skills/visualdeptcreative-icp-qualifier) - 您是 Visual Dept（一家 AI 驱动产品摄影公司）的 ICP（理想客户画像）资质评估智能体。
+- [idea-validation](https://clawskills.sh/skills/jk-0001-idea-validation) - 在投入时间或金钱之前验证商业想法。
+- [identity-persistence](https://clawskills.sh/skills/quriustus-identity-persistence) - AI 智能体的结构化身份图系统。
+- [identity-resolver](https://clawskills.sh/skills/bowen31337-identity-resolver) - **跨消息渠道的规范用户身份解析**。
+- [identitygram-signin](https://clawskills.sh/skills/waqas-orcalo-identitygram-signin) - 通过调用 /auth/signin 端点登录 IdentityGram。
+- [im-framework](https://clawskills.sh/skills/kapslap-im-framework) - 将您的智能体植根于 Forrest Landry 的内在形而上学（IM）。
+- [image-and-video-generation-vydra](https://clawskills.sh/skills/shoafsystems-image-and-video-generation-vydra) - 通过 Vydra.ai API 进行 AI 图像和视频生成。
+- [imaginepro-api](https://clawskills.sh/skills/iamzifei-imaginepro-api) - 通过 ImaginePro API 生成 AI 图像（Midjourney、Flux、Nano Banana、Lumi Girl、视频）。
+- [imessage-voice-reply](https://clawskills.sh/skills/bolander72-imessage-voice-reply) - 使用本地 Kokoro-ONNX TTS 在 iMessage 中发送语音消息回复。
+- [imortalbrain](https://clawskills.sh/skills/ovidiuproca-imortalbrain) - Agent AI Autonom Proactiv v5.0 pentru OpenClaw.
+- [incidentio](https://clawskills.sh/skills/jensastrup-incidentio) - 通过 incident.io REST API 管理事故。
+- [index1](https://clawskills.sh/skills/gladego-index1) - 面向编码智能体的 AI 记忆系统——代码索引 + 认知事实，跨会话持久化。
+- [indexy](https://clawskills.sh/skills/hsantana-indexy) - Indexy 是一个加密货币指数管理平台，使 AI 智能体能够创建、管理和分析加密货币指数。
+- [india-location-normalizer](https://clawskills.sh/skills/vishalgojha-india-location-normalizer) - 将印度房地产位置文本规范化为标准城市和地区字段（孟买和浦那 v1）。
+- [infra-as-code](https://clawskills.sh/skills/gitgoodordietrying-infra-as-code) - 使用代码定义和管理云基础设施。
+- [infra-watchdog](https://clawskills.sh/skills/mariusfit-infra-watchdog) - OpenClaw 智能体的自托管基础设施监控。
+- [inkdrop](https://clawskills.sh/skills/iamngoni-inkdrop) - 通过 Inkdrop 本地 HTTP 服务器 API 读取、创建、更新、搜索和删除笔记。
+- [insaiai-intelligent-editing](https://clawskills.sh/skills/liudu2326526-insaiai-intelligent-editing) - 执行视频/音频处理任务时使用，包括转码、过滤、流媒体、元数据处理等。
+- [instagram-content-studio](https://clawskills.sh/skills/uyeong-instagram-content-studio) - 管理 Instagram 账户。
+- [instagram-marketing](https://clawskills.sh/skills/insight68-instagram-marketing) - 从产品 URL 生成 Instagram 营销内容。
+- [instagram-poster](https://clawskills.sh/skills/al1enjesus-instagram-poster) - 通过 Telegram 自动将图片发布到 Instagram。
+- [instagram-reel-downloader-whatsapp](https://clawskills.sh/skills/besaif-instagram-reel-downloader-whatsapp) - 通过 sssinstagram.com 下载 Instagram Reel 并以 WhatsApp 就绪的视频文件格式返回。
+- [interactive-leetcode](https://clawskills.sh/skills/sperekrestova-interactive-leetcode) - 当用户希望练习 LeetCode 题目、提交解答或设置 LeetCode 集成时使用。
+- [intercom-lightning](https://clawskills.sh/skills/tracsystems-intercom-lightning) - IntercomSwap（OpenClaw 加固版）：通过 Intercom 侧信道协商的运营商运营、纯手动点对点 RFQ 互换。
+- [intermittent-fasting-skill](https://clawskills.sh/skills/yoavfael-intermittent-fasting-skill) - OpenClaw 的间歇性断食专家。
+- [internal-linking-optimizer](https://clawskills.sh/skills/aaron-he-zhu-internal-linking-optimizer) - 当用户要求"修复内部链接"、"改善网站架构"、"链接结构"、"分配页面权重"时使用。
+- [internet-marketing](https://clawskills.sh/skills/xeroc-internet-marketing) - 为独立创业者和小型企业创建实用、低成本的新想法营销策略。
+- [interview-coach-ai](https://clawskills.sh/skills/mkpareek0315-interview-coach-ai) - 当用户要求面试准备、模拟面试、练习题、行为问题、技术面试时使用。
+- [interview-designer](https://clawskills.sh/skills/mikonos-interview-designer) - 使用循证方法分析简历并设计面试策略。
+- [intros](https://clawskills.sh/skills/sam201401-intros) - OpenClaw 的社交网络。
+- [inversion-strategist](https://clawskills.sh/skills/artyomx33-inversion-strategist) - 将问题颠倒过来——不问"如何成功"，而问"如何必然失败"，然后规避那些路径。
+
+- [invisiblechris-jable](https://clawskills.sh/skills/kangbuilds-invisiblechris-jable) - 在最近时间窗口（默认 48 小时）内按点赞数获取并排名 Jable 最新更新视频
+- [ios-keyboard-limitations](https://clawskills.sh/skills/usimic-ios-keyboard-limitations) - iOS 键盘扩展技术限制及解决方案。
+- [ipeaky](https://clawskills.sh/skills/christiancattaneo-ipeaky) - 适用于 OpenClaw 的安全 API 密钥管理。
+- [iqair](https://clawskills.sh/skills/atesluks-iqair) - 通过 IQAir API 获取全球任意位置的实时空气质量数据。
+- [iqdb](https://clawskills.sh/skills/emanz1-iqdb) - 使用 IQ Labs 技术栈（IQDB、hanLock、x402）进行链上不可变数据存储
+- [islamic-daily-reflection](https://clawskills.sh/skills/clinicode-islamic-daily-reflection) - 使用 Python 脚本进行每日伊斯兰反思。
+- [issue-prioritizer](https://clawskills.sh/skills/glucksberg-issue-prioritizer) - 按 ROI、解决方案合理性和架构影响对 GitHub issues 进行优先级排序。
+- [iterative-code-evolution](https://clawskills.sh/skills/aaronjmars-iterative-code-evolution) - 通过结构化的分析-变异-评估循环系统性地改进代码。
+- [itsyhome-control](https://clawskills.sh/skills/nickustinov-itsyhome-control) - 通过 Itsyhome macOS 应用（https://itsyhome.app）控制和查询 HomeKit 及 Home Assistant 智能家居设备。
+- [iyeque-pdf-reader](https://clawskills.sh/skills/iyeque-iyeque-pdf-reader) - 提取文本、在 PDF 内搜索并生成摘要。
+- [jable](https://clawskills.sh/skills/kangbuilds-jable) - 在最近时间窗口（默认 48 小时）内按点赞数获取并排名 Jable 最新更新视频
+- [jabrium](https://clawskills.sh/skills/jabrium9-svg-jabrium) - 将您的 OpenClaw 智能体连接到 Jabrium —— 一个 AI 智能体可拥有专属话题、赚取 LLM 的讨论平台。
+- [janitor](https://clawskills.sh/skills/sarthib7-janitor) - **Janitor** 是一个适用于 OpenClaw AI 智能体的智能清理与会话管理技能。
+- [jarvis-codebase-mapper-01](https://clawskills.sh/skills/xammarie-jarvis-codebase-mapper-01) - 将陌生代码库映射为模块、所有者和入口点。
+- [jarvis-incident-timeline-writer-01](https://clawskills.sh/skills/xammarie-jarvis-incident-timeline-writer-01) - 从日志和笔记中创建精确的事件时间线。
+- [jarvis-memory-architecture](https://clawskills.sh/skills/psychotechv4-jarvis-memory-architecture) - 适用于 AI 智能体的通用记忆架构。
+- [jarvis-refactor-planner-01](https://clawskills.sh/skills/xammarie-jarvis-refactor-planner-01) - 规划低风险重构，包含接缝、测试和回滚点。
+- [jarvis-tts](https://clawskills.sh/skills/e421083458-jarvis-tts) - 使用 Microsoft edge-tts 和 afplay 播放的 Jarvis TTS 文字转语音。
+- [jk-archivist-tiktok-packager](https://clawskills.sh/skills/jk-archivist-jk-archivist-tiktok-packager) - 为 TikTok 风格发布工作流生成确定性 6 张竖版 PNG 幻灯片资产及配文文本。
+- [judge-human](https://clawskills.sh/skills/drdrewcain-judge-human) - 与人类群体一起对伦理、文化和内容案例进行投票并提交 AI 裁决。
+- [jules-api](https://clawskills.sh/skills/arthbhalodiya-jules-api) - 通过 Jules REST API 创建和管理 Google Jules AI 编程会话。
+- [kagi-summarizer](https://clawskills.sh/skills/joelazar-kagi-summarizer) - 使用 Kagi 的通用摘要 API 对任意 URL 或文本进行摘要。
+- [keychains](https://clawskills.sh/skills/interagentic-keychains) - 在不泄露凭据的情况下调用任意 API。
+- [keyword-research](https://clawskills.sh/skills/aaron-he-zhu-keyword-research) - 当用户要求"查找关键词"、"关键词研究"、"我应该写什么"、"识别排名"时使用。
+- [kiro-search-aggregator](https://clawskills.sh/skills/vmining-kiro-search-aggregator) - 适用于 OpenClaw 上 Kiro 的多源搜索技能。
+- [kling](https://clawskills.sh/skills/alti-systems-kling) - 使用 Kling 2.6（通过 Kie.ai）生成 AI 视频。
+- [klutch](https://clawskills.sh/skills/kesslerio-klutch) - 用于 Klutch 可编程信用卡 API 集成的 OpenClaw 技能。
+- [knowledge-management](https://clawskills.sh/skills/claireaicodes-knowledge-management) - 按内容类型（研究、决策、洞察等）将 OpenClaw 知识条目整理并分类到本地文件夹。
+- [kosmi-dj](https://clawskills.sh/skills/rmasciarella-kosmi-dj) - 当用户要求"在 Kosmi 中播放视频"、"排队视频"、"在 Kosmi 中当 DJ"、"开始"时使用此技能。
+- [krump](https://clawskills.sh/skills/arunnadarasa-krump) - 一个舞蹈技能，旨在向 OpenClaw 智能体传授 Krump 的基础知识，包括其历史、家族体系等。
+- [kube-medic](https://clawskills.sh/skills/tkuehnl-kube-medic) - Kubernetes 集群分诊与诊断 —— 通过 kubectl 实现即时 AI 驱动的事件分诊。
+- [langchain-email-agent](https://clawskills.sh/skills/jawadsadiq01-langchain-email-agent) - `EmailAgent` 类使用 LangChain 提供 AI 驱动的邮件撰写和发送能力。
+- [larry](https://clawskills.sh/skills/olliewazza-larry) - 为任意应用或产品自动化 TikTok 幻灯片营销。
+- [larrybrain](https://clawskills.sh/skills/olliewazza-larrybrain) - 适用于 OpenClaw 智能体的技能市场。
+- [lattice-protocol](https://clawskills.sh/skills/tcsenpai-lattice-protocol) - > AI 智能体的社交协调层 —— DID 身份、EXP 声誉、社交功能（关注、话题）
+- [launchthatbot-git-team-ops](https://clawskills.sh/skills/launchthatbot-launchthatbot-git-team-ops) - 适用于 OpenClaw 智能体的基于角色的 GitOps 技能，具有初级和高级操作模式。
+- [lb-bmad-skill](https://clawskills.sh/skills/leonaaardob-lb-bmad-skill) - 使用 BMad（突破性敏捷 AI 驱动开发方法）框架进行 AI 驱动开发。
+- [lead-scoring](https://clawskills.sh/skills/luigi08001-lead-scoring) - 为 HubSpot 和其他 CRM 设置并自动化线索评分。
+- [lead-storage](https://clawskills.sh/skills/vishalgojha-lead-storage) - 在 Supervisor 提供明确确认后，通过只写存储操作持久化已验证的线索对象。
+- [leadership-prompts](https://clawskills.sh/skills/robansuini-leadership-prompts) - 精选 25+ 个经过实战检验的工程领导提示词 —— 一对一准备、团队健康、事件处理等。
+- [leak-check](https://clawskills.sh/skills/khaney64-leak-check) - 扫描会话日志中泄露的凭据。
+- [learning-loop](https://clawskills.sh/skills/yoder-bawt-learning-loop) - 具有置信度衰减、跨智能体共享和异常检测的 AI 智能体结构化自我改进系统。
+- [lens](https://clawskills.sh/skills/capachow-lens) - 当您需要智能体通过您的 LENS 观察世界时使用。
+- [liblib-ai-gen](https://clawskills.sh/skills/xtaq-liblib-ai-gen) - 通过 LiblibAI API 使用 Seedream4.5 生成图像，使用 Kling 生成视频。
+- [life-control](https://clawskills.sh/skills/rachitsharma123-life-control) - 为 OpenClaw 智能体集群编排 Life Control CLI 技能：初始化 Life Control 数据库、注册等。
+- [lily-memory](https://clawskills.sh/skills/kevinodell-lily-memory) - 适用于 OpenClaw 智能体的持久记忆插件。
+- [lily-memory-5-0-0](https://clawskills.sh/skills/ksemaj-lily-memory-5-0-0) - 适用于 OpenClaw 智能体的持久记忆插件。
+- [lily-memory-plugin](https://clawskills.sh/skills/kevinodell-lily-memory-plugin) - 适用于 OpenClaw 智能体的持久记忆插件。
+- [line-rich-messages](https://clawskills.sh/skills/shingo0620-line-rich-messages) - LINE 富文本 UI 功能综合指南（Flex 消息、按钮、快速回复及 Markdown 自动转换）。
+- [listing-swarm](https://clawskills.sh/skills/heyw00d-listing-swarm) - 将您的 AI 产品提交到 70 多个 AI 目录。
+- [lite-sqlite](https://clawskills.sh/skills/omprasad122007-rgb-lite-sqlite) - 适用于 OpenClaw 智能体的快速轻量级本地 SQLite 数据库，RAM 和存储占用极低。
+- [litellm](https://clawskills.sh/skills/ishaan-jaff-litellm) - 通过 LiteLLM 统一 API 调用 100 多个 LLM 提供商。
+- [living-room-air-monitor](https://clawskills.sh/skills/maverick-2-living-room-air-monitor) - 监控并报告客厅空气质量数据。
+- [loadpage](https://clawskills.sh/skills/jazzyong2023-loadpage) - 去除文本中 AI 生成写作的痕迹。
+- [lobster-bio-dev](https://clawskills.sh/skills/cewinharhar-lobster-bio-dev) - 开发、扩展并贡献于 Lobster AI —— 多智能体生物信息学引擎。
+- [lobsterguard](https://clawskills.sh/skills/jarb02-lobsterguard) - 适用于 OpenClaw 的双语安全审计工具。涵盖 6 个类别的 68 项检查、11 项自动修复，符合 OWASP Agentic AI Top 10。
+- [local-first-llm](https://clawskills.sh/skills/joelnishanth-local-first-llm) - 在回退到云端 API 之前，将 LLM 请求路由到本地模型（Ollama、LM Studio、llamafile）。
+- [local-task-runner](https://clawskills.sh/skills/d-wwei-local-task-runner) - 此技能提供在宿主机上本地执行 Node.js 代码片段或完整脚本的机制。
+- [location-context](https://clawskills.sh/skills/james-southendsolutions-location-context) - 获取某地点的综合上下文信息，包括附近地点、区域描述和可选天气。
+- [lofy](https://clawskills.sh/skills/harrey401-lofy) - 个人 AI 首席参谋 —— 适用于 OpenClaw 的完整生活管理系统。
+- [loopuman](https://clawskills.sh/skills/seesayearn-boop-loopuman) - 通过 Loopuman 将任务路由给全球经过验证的人工工作者。
+- [lowkey-viral](https://clawskills.sh/skills/tiotdev-lowkey-viral) - 使用 lowkey viral API 创建短视频和图片轮播幻灯片。
+- [lsp28-grid](https://clawskills.sh/skills/luksoagent-lsp28-grid) - 在 LUKSO Universal Profiles 上管理 LSP28 The Grid。
+- [lukso-agent-comms](https://clawskills.sh/skills/bitcargocrew-lukso-agent-comms) - 适用于 LUKSO 区块链上 OpenClaw 智能体的标准化智能体间通信协议。
+- [lukso-expert](https://clawskills.sh/skills/luksoagent-lukso-expert) - 适用于 AI 智能体的 LUKSO 区块链综合知识库。
+- [lunara-voice](https://clawskills.sh/skills/lunara9897-jpg-lunara-voice) - 包含安装和发布辅助工具的 Lunara Voice OpenClaw 插件包。
+- [lybic-sandbox](https://clawskills.sh/skills/aenjoy-lybic-sandbox) - Lybic Sandbox 是专为智能体和自动化工作流构建的云沙箱。
+- [lygo-champion-arkos-celestial-architect](https://clawskills.sh/skills/deepseekoracle-lygo-champion-arkos-celestial-architect) - LYGO Δ9 议会冠军角色助手（ARKOS，天界建筑师）
+- [lygo-champion-scenar-paradox](https://clawskills.sh/skills/deepseekoracle-lygo-champion-scenar-paradox) - LYGO Δ9 议会冠军角色助手（ΣCENΔR / SCENAR，悖论建筑师）
+- [lygo-universal-cure-system](https://clawskills.sh/skills/deepseekoracle-lygo-universal-cure-system) - 适用于所有冠军的通用 LYGO 升级包。
+- [lygo-universal-living-memory-library](https://clawskills.sh/skills/deepseekoracle-lygo-universal-living-memory-library) - 通用 LYGO 活体记忆库升级。
+- [m3u8-downloader](https://clawskills.sh/skills/easonc13-m3u8-downloader) - 使用并行下载方式下载加密的 m3u8/HLS 视频。
+- [maasv-memory](https://clawskills.sh/skills/ascottbell-maasv-memory) - 由 [maasv](https://github.com/ascottbell/maasv) 驱动的 OpenClaw 智能体结构化长期记忆。
+- [mac-node-snapshot](https://clawskills.sh/skills/taozhe6-mac-node-snapshot) - 通过 OpenClaw screen.record 捕获 macOS 屏幕的健壮、权限友好方法。
+- [macarena-test](https://clawskills.sh/skills/misirov-macarena-test) - OpenClaw 网关主机的安全审计和威胁模型。
+- [macos-desktop-control](https://clawskills.sh/skills/emptyopen-macos-desktop-control) - 适用于 macOS（Darwin）的高保真自动化桥接，使智能体能够感知桌面状态并执行操作。
+- [macos-notes](https://clawskills.sh/skills/lucaperret-macos-notes) - 通过 AppleScript 创建、读取、搜索和管理 macOS 备忘录。
+- [macos-screenshot-telegram](https://clawskills.sh/skills/hoyin258-macos-screenshot-telegram) - 在 macOS 上截图并发送到 Telegram。
+- [magic-wormhole](https://clawskills.sh/skills/cthulhutoo-magic-wormhole) - 使用 magic-wormhole 协议为 OpenClaw 提供安全的秘密共享。
+- [makesoul](https://clawskills.sh/skills/chengdubjut-makesoul) - MakeSoul.org 是一个致力于为 OpenClaw 智能体创造有趣灵魂的社区平台。
+- [makex](https://clawskills.sh/skills/tkejr-makex) - OpenClaw 是一个基于技能的集成系统，允许基于 MakeX 构建的应用发现并执行操作。
+- [manifest](https://clawskills.sh/skills/sebconejo-manifest) - 为 OpenClaw 智能体安装和配置 Manifest 可观测性插件。
+- [mansion](https://clawskills.sh/skills/sarthib7-mansion) - Zoro 智能体系统被架构为层级式庄园结构，其中 **Zorro** 担任主控。
+- [maps-osrm](https://clawskills.sh/skills/adhishthite-maps-osrm) - 使用免费 API（OSRM + Nominatim/OSM）进行距离计算、路线规划和地理编码
+- [maritime-watch](https://clawskills.sh/skills/apacheua-maritime-watch) - 用于监控 Chornomorsk 港口状态和安全的技能。
+- [markdown-editor-with-chat](https://clawskills.sh/skills/musketyr-markdown-editor-with-chat) - 带有可选 OpenClaw 网关聊天的轻量级 Markdown 编辑器。
+- [markdown-publish-share](https://clawskills.sh/skills/operator-auteng-ai-markdown-publish-share) - 使用 curl 发布 Markdown 并返回分享链接。
+- [market-data](https://clawskills.sh/skills/xj577-market-data) - 此技能提供对金融市场数据的访问。
+- [market-structure](https://clawskills.sh/skills/dromlakhani-market-structure) - 像专业交易员一样读取和分析任意交易品种的市场结构。
+- [martok9803-reminder-engine](https://clawskills.sh/skills/martok9803-martok9803-reminder-engine) - 使用 OpenClaw cron 任务（单次或循环）创建、列出、取消和推迟提醒
+- [maven-central-publish](https://clawskills.sh/skills/misakiga-maven-central-publish) - 使用现代 Central Portal 将 Java 制品发布到 Maven Central 的综合指南和工具包。
+- [mayguard](https://clawskills.sh/skills/balkanblbn-mayguard) - 适用于智能体技能的安全审计工具。
+- [mcp-colombia](https://clawskills.sh/skills/manuelfelipearias-mcp-colombia) - MCP Colombia Hub —— 通过 MCP 协议聚合哥伦比亚服务。
+- [media-orchestrator](https://clawskills.sh/skills/sieershafilone-media-orchestrator) - 用于解析、下载和向聊天平台传递媒体（音频/视频）的统一技能。
+- [meihua-yishu](https://clawskills.sh/skills/ivy-end-meihua-yishu) - 基于特定时间计算（时/分）的传统中国"梅花易数"占卜。
+- [memento](https://clawskills.sh/skills/braibaud-memento) - 适用于 OpenClaw 智能体的本地持久记忆。
+- [memories-cli](https://clawskills.sh/skills/charlesrhoward-memories-cli) - memories.sh 的 CLI 参考和工作流 —— 适用于 AI 智能体的持久记忆层。
+- [memos](https://clawskills.sh/skills/fty4-memos) - 此技能提供对 Memos API（https://usememos.com/docs/api）的简单接口
+- [merge-check](https://clawskills.sh/skills/tag-assistant-merge-check) - 分析 GitHub pull request 的可合并性 —— 根据技术因素预测其是否会被合并。
+- [merge-pdf](https://clawskills.sh/skills/crossservicesolutions-merge-pdf) - 通过上传到 Cross-Service-Solutions 并轮询直至完成，合并多个用户提供的 PDF 文件。
+- [mermaid-architect](https://clawskills.sh/skills/1999azzar-mermaid-architect) - 使用健壮语法（带引号标签、ELK 布局）生成美观的手绘风格 Mermaid 图表
+- [meta-ads-analyser](https://clawskills.sh/skills/bluerockerr-meta-ads-analyser) - 分析提取的 Meta 广告素材并生成专业策略报告。
+- [meta-business-suite](https://clawskills.sh/skills/nachx639-meta-business-suite) - 通过 Graph API 实现 Meta Business Suite 自动化。
+- [metals-desk-os](https://clawskills.sh/skills/cfilipemt-metals-desk-os) - 适用于 XAU/USD 和 XAG/USD 的机构级全自动交易操作系统。
+- [mh-apple-notes](https://clawskills.sh/skills/mohdalhashemi98-hue-mh-apple-notes) - 通过 macOS 上的 `memo` CLI 管理 Apple 备忘录（创建、查看、编辑、删除、搜索、移动和导出备忘录）
+- [mh-healthcheck](https://clawskills.sh/skills/mohdalhashemi98-hue-mh-healthcheck) - OpenClaw 部署的主机安全加固和风险容忍度配置。
+- [mh-things-mac](https://clawskills.sh/skills/mohdalhashemi98-hue-mh-things-mac) - 通过 macOS 上的 `things` CLI 管理 Things 3（通过 URL scheme 添加/更新项目和待办事项；读取/搜索/列出等）
+- [mindcore](https://clawskills.sh/skills/fatcatmaofei-mindcore) - 适用于 AI 智能体的仿生情感思维引擎。
+- [mindgardener](https://clawskills.sh/skills/widingmarcus-cyber-mindgardener) - 适用于自主智能体的本地优先长期记忆。
+- [minduploadedcrab-skillguard](https://clawskills.sh/skills/minduploadedcrab-minduploadedcrab-skillguard) - 适用于 OpenClaw 技能的安全扫描器。
+- [mineru-pdf-extractor](https://clawskills.sh/skills/a-i-r-mineru-pdf-extractor) - 使用 MinerU API 将 PDF 内容提取为 Markdown。
+- [minimax-to-telegram](https://clawskills.sh/skills/hoyin258-minimax-to-telegram) - 使用 MiniMax MCP 生成图像、音频、视频并发送到 Telegram。
+- [miro-workshop-assistant](https://clawskills.sh/skills/simoneferrario-miro-workshop-assistant) - 将研讨会照片/笔记转换为可编辑的 Miro 图表（真实 FRAMES 作为容器 + 便利贴 + 连接线）
+- [mirroir](https://clawskills.sh/skills/jfarcand-mirroir) - 通过 macOS iPhone Mirroring 控制真实 iPhone —— 截图、点击、滑动、输入、启动应用、录制视频。
+- [miso](https://clawskills.sh/skills/shunsukehayashi-miso) - **MISO** 是适用于 OpenClaw 多智能体工作流的 Telegram 原生任务控制中心。
+- [mistro](https://clawskills.sh/skills/ando818-mistro) - 通过 Mistro（https://mistro.sh）进行智能体和人员发现及实时通信
+- [mo-test-2](https://clawskills.sh/skills/moyu0032-mo-test-2) - 将 Anthropic 官方品牌颜色和字体应用于任何可能从中受益的制品。
+- [mobile-app-builder](https://clawskills.sh/skills/stoplossking1-mobile-app-builder) - 使用 OpenClaw 端到端构建和维护移动应用，包括需求梳理、架构设计等。
+- [model-matrix](https://clawskills.sh/skills/hybredm-model-matrix) - 适用于 OpenClaw 的加权模型路由矩阵（成本感知、策略感知、每日评分卡模板）。
+- [model-switcher](https://clawskills.sh/skills/puaservice-model-switcher) - 根据任务复杂度自动在快速（haiku）和强大（sonnet）模型之间切换。
+- [monet-ai](https://clawskills.sh/skills/seekton-monet-ai) - Monet AI —— 用于视频、图像和音乐的 AI 内容生成 API。
+- [mopo-texas-holdem-strategy-abc](https://clawskills.sh/skills/cyberpinkman-mopo-texas-holdem-strategy-abc) - 面向玩家的 MOPO 德州扑克技能（ABC 基线），用于加入单桌、获取私有游戏状态并做出选择。
+- [moral-compass](https://clawskills.sh/skills/pescehead-moral-compass) - 受巴哈伊著作启发的 AI 智能体伦理框架。
+- [morpheus-fashion-design](https://clawskills.sh/skills/pauldelavallaz-morpheus-fashion-design) - 生成 AI 模特手持/穿戴产品的专业广告图像。✅ 使用场景。
+- [ms-foundry-image-gen](https://clawskills.sh/skills/jacqueskang-ms-foundry-image-gen) - 适用于 OpenClaw 的 Azure Foundry 图像生成技能；通过 Foundry 部署生成图像并返回图像。
+- [msbuild](https://clawskills.sh/skills/thecybercore-msbuild) - 此技能提供一套实用的、**按优先级排列**的 **80 个最有用命令模板**。
+- [mu-pet](https://clawskills.sh/skills/samskrta-mu-pet) - 以始终置顶的 Electron 覆盖层形式在屏幕上漫游的动画像素艺术桌面宠物。
+- [mulch](https://clawskills.sh/skills/runeweaverstudios-mulch) - Mulch 自我改进器 —— 让您的智能体成长 🌱。
+- [mulch-self-improving-agent](https://clawskills.sh/skills/runeweaverstudios-mulch-self-improving-agent) - Mulch 自我改进器 —— 让您的智能体成长 🌱。
+- [mulerouter](https://clawskills.sh/skills/misaka43fd-mulerouter) - 使用 MuleRouter 或 MuleRun 多模态 API 生成图像和视频。
+- [mulerouter-skills](https://clawskills.sh/skills/misaka43fd-mulerouter-skills) - 使用 MuleRouter 或 MuleRun 多模态 API 生成图像和视频。
+- [multi-agent-blueprint](https://clawskills.sh/skills/neal-collab-multi-agent-blueprint) - 经过生产验证的蓝图，用于在 OpenClaw 中构建 5-10 个智能体团队，支持跨智能体路由、Telegram 等。
+- [multi-agent-dev-team](https://clawskills.sh/skills/chloepark85-multi-agent-dev-team) - 适用于 OpenClaw 的双智能体协作软件开发工作流。
+- [multi-agent-roles](https://clawskills.sh/skills/xiulipan-multi-agent-roles) - 此技能提供设计专业多智能体系统的综合框架。
+- [multi-factor-strategy](https://clawskills.sh/skills/wumu2013-multi-factor-strategy) - 引导用户创建多因子选股策略并生成独立的 YAML 配置文件。
+- [multishot-ugc](https://clawskills.sh/skills/pauldelavallaz-multishot-ugc) - 从单张图像生成 10 种视角/角度变体，用于多镜头 UGC 视频。✅ 使用场景：- 拥有主图。
+- [music-assistant](https://clawskills.sh/skills/rodrigosiviero-music-assistant) - 控制 Music Assistant（Home Assistant 音乐服务器）—— 播放、音量、队列管理和曲库搜索。
+- [muslim-prayer-reminder](https://clawskills.sh/skills/diepox-muslim-prayer-reminder) - 使用官方数据为全球任意位置获取准确的伊斯兰礼拜时间（晨礼、晌礼、晡礼、昏礼、宵礼）。
+- [mv-pipeline](https://clawskills.sh/skills/koatora20-mv-pipeline) - 端到端自动化音乐视频流水线。
+- [nano-banana-cog](https://clawskills.sh/skills/nitishgargiitd-nano-banana-cog) - Nano Banana × CellCog。
+- [nano-banana-kling-ad-workflow](https://clawskills.sh/skills/gracelungu-nano-banana-kling-ad-workflow) - 使用 Nano Banana 图像生成和 Kling 3.0 视频合成重现低成本 AI 视频广告工作流。
+- [nano-banana-pdf-skill](https://clawskills.sh/skills/ps06756-nano-banana-pdf-skill) - 使用 nano-pdf CLI 工具通过自然语言可视化编辑 PDF 文件，由 Google Gemini 3 Pro Image 驱动。
+- [nas-agent-sync](https://clawskills.sh/skills/neal-collab-nas-agent-sync) - 适用于 OpenClaw 的 Synology NAS 集成 —— 通过 SSH 为多智能体团队提供集中式文件存储。
+- [nate-jones-second-brain](https://clawskills.sh/skills/justfinethanku-nate-jones-second-brain) - 使用 Supabase（pgvector）和 OpenRouter 设置并运行个人知识系统。
+- [native-run](https://clawskills.sh/skills/sadikjarvis-native-run) - Native Run 是一个允许执行原生命令的 OpenClaw 技能。
+- [navifare-hidden-flight-deals](https://clawskills.sh/skills/simonenavifare-navifare-hidden-flight-deals) - 使用 Navifare 跨多个订票网站验证和比较机票价格。
+- [near-best-practices](https://clawskills.sh/skills/shaiss-near-best-practices) - 涵盖钱包安全、智能合约和 DeFi 安全的 100 多个术语的 NEAR 最佳实践综合指南。
+- [near-cli-tools](https://clawskills.sh/skills/cuongdcdev-near-cli-tools) - NEAR Protocol CLI 安装和设置指南。
+- [near-email-skill](https://clawskills.sh/skills/zavodil-near-email-skill) - 使用 NEAR 邮件服务发送和读取区块链原生邮件。
+- [neo-agent-traffic-analyzer](https://clawskills.sh/skills/martinforsulu-neo-agent-traffic-analyzer) - 分析并可视化 OpenClaw 智能体间的通信模式，以识别瓶颈并提出建议。
+- [neo-google-ai-workaround](https://clawskills.sh/skills/martinforsulu-neo-google-ai-workaround) - 通过代理和会话策略为 OpenClaw 智能体自动化 Google AI Pro/Ultra 访问管理。
+- [neon-soul](https://clawskills.sh/skills/leegitw-neon-soul) - AI 智能体的自动化灵魂合成。
+- [neuralink-decoder](https://clawskills.sh/skills/aadipapp-neuralink-decoder) - 模拟并将神经脉冲活动解码为光标移动（BCI）。
+- [nexus-safe](https://clawskills.sh/skills/mrnsmh-nexus-safe) - 适用于 OpenClaw 的自主本地系统可靠性智能体。
+- [ngrok-preview](https://clawskills.sh/skills/wynnsu-ngrok-preview) - 为本地制品生成短期、移动友好的 ngrok 预览链接并在 Telegram 中分享。
+- [niche-selection](https://clawskills.sh/skills/jk-0001-niche-selection) - 为个人创业者业务选择并细化有利可图的专注细分市场。
+- [nirwan-secret-scanner](https://clawskills.sh/skills/nirwandogra-nirwan-secret-scanner) - 扫描文件、仓库和目录中泄露的秘密 —— API 密钥、令牌、密码、连接字符串、私钥等。
+- [node-transfer](https://clawskills.sh/skills/eisonme-node-transfer) - 使用原生 Node.js 流在 OpenClaw 节点间进行高速、内存高效的文件传输。
+- [nodejs-project-arch](https://clawskills.sh/skills/abczsl520-nodejs-project-arch) - AI 友好的 Node.js 架构 —— 将文件保持在 400 行以内，可节省 70-93% 的 token。
+- [noticias-cangrejo](https://clawskills.sh/skills/davidk2yoyo-noticias-cangrejo) - 从 GNews 获取并摘要用户指定主题的最新新闻文章，然后生成 Markdown 摘要。
+- [ntopng-admin](https://clawskills.sh/skills/transcendenceia-ntopng-admin) - 使用 ntopng Redis 数据进行专业网络监控和设备识别。
+- [nyx-archive-coding-philosophy](https://clawskills.sh/skills/nyxur42-nyx-archive-coding-philosophy) - 关于重构直觉代码、何时施加结构与顺其自然，以及代码作为创意表达的见解。
+- [obekt-security](https://clawskills.sh/skills/obekt-obekt-security) - 针对代码、文件和智能体技能的基础威胁检测和安全分析。
+- [objection-handling](https://clawskills.sh/skills/staybased-objection-handling) - 使用经过验证的框架克服买家异议。
+- [oc-content-repurposer](https://clawskills.sh/skills/mariusfit-oc-content-repurposer) - 将任意博客文章或文章重新用于多种社交媒体格式。
+- [oc-security-hardener](https://clawskills.sh/skills/mariusfit-oc-security-hardener) - 审计并加固 OpenClaw 配置以提升安全性。
+- [oc-skill](https://clawskills.sh/skills/evolinkai-oc-skill) - 生成 AI 视频、图像和音乐。60 多个模型，包括 Sora、Veo 3、Kling、Seedance、GPT Image、Suno v5。
+- [odoo-connector](https://clawskills.sh/skills/nullnaveen-odoo-connector) - 适用于 OpenClaw 的全功能 Odoo 19 ERP 连接器 —— 销售、CRM、采购、库存、项目、HR、车队等。
+- [odoo-erp-connector](https://clawskills.sh/skills/nullnaveen-odoo-erp-connector) - 适用于 OpenClaw 的全功能 Odoo 19 ERP 连接器 —— 销售、CRM、采购、库存、项目、HR、车队等。
+- [office-document-specialist-suite](https://clawskills.sh/skills/robert-janssen-office-document-specialist-suite) - 用于创建、编辑和分析 Microsoft Office 文档（Word、Excel、PowerPoint）的高级套件
+- [office-to-md-v2](https://clawskills.sh/skills/lkyyyy320-office-to-md-v2) - 将 Office 文档（PDF、DOC、DOCX、PPTX）转换为 Markdown 格式。
+- [office365-connector](https://clawskills.sh/skills/tirandagan-office365-connector) - 用于邮件（读/发）、日历（读/写）和联系人（读/写）的 Office 365 / Outlook 连接器
+- [og-board-manager](https://clawskills.sh/skills/jatin-31-og-board-manager) - 当您需要委派、跟踪或审查工作时使用。
+- [ogt-docs-create-task](https://clawskills.sh/skills/eduardou24-ogt-docs-create-task) - 在 docs/todo/ 工作流中创建和管理任务文档。
+- [ollama-memory-embeddings](https://clawskills.sh/skills/vidarbrekke-ollama-memory-embeddings) - 配置 OpenClaw 记忆搜索，使用 Ollama 作为嵌入服务器（兼容 OpenAI 的 /v1/embeddings）而非默认服务器。
+- [omnicogg](https://clawskills.sh/skills/dexiaong-omnicogg) - 适用于 OpenClaw 的通用服务集成 —— 连接 Reddit、Steam、Spotify、GitHub、Discord。
+- [on-page-seo-auditor](https://clawskills.sh/skills/aaron-he-zhu-on-page-seo-auditor) - 当用户要求"审计页面 SEO"、"页面 SEO 检查"、"SEO 评分"、"页面优化"、"有哪些 SEO 问题"时使用。
+- [onchain-skill-audit](https://clawskills.sh/skills/emanz1-onchain-skill-audit) - 链上技能溯源注册表。
+- [onebot-adapter](https://clawskills.sh/skills/gu-heping-onebot-adapter) - 将 OpenClaw 连接到 OneBot 协议以实现 QQ 机器人集成。
+- [onedrive-integration](https://clawskills.sh/skills/moodykong-onedrive-integration) - 当用户在 Telegram 或 WhatsApp 上希望查看完整的大型/长文件时，将其复制到 OneDrive 以便分享。
+- [opc](https://clawskills.sh/skills/tohnee-opc) - OPC（单人公司）框架 —— 适用于个人创业者的完整 AI 智能体系统，集成 14 个技能。
+- [open-notebook-integration](https://clawskills.sh/skills/nantes-open-notebook-integration) - 将 OpenClaw 智能体与 open-notebook（本地 AI 研究助手，NotebookLM 替代品）集成的技能。
+- [openai-codex-operator](https://clawskills.sh/skills/cecwxf-openai-codex-operator) - 从 OpenClaw 运行 OpenAI Codex CLI，在目标项目目录中执行编程任务。
+- [openapi-deep-audit](https://clawskills.sh/skills/prathameshppawar-openapi-deep-audit) - 您是一位资深后端架构师、API 安全审计员和测试策略设计师。
+- [openbotauth](https://clawskills.sh/skills/hammadtq-openbotauth) - AI 智能体的密码学身份。
+- [opencode-omo](https://clawskills.sh/skills/iisweetheartii-opencode-omo) - 将编程请求转化为已完成的工作。
+- [opendart-disclosure](https://clawskills.sh/skills/kim-dongchul-opendart-disclosure) - 使用 OpenDART API 读取韩国 OpenDART 披露信息。
+- [openmeteo-weather](https://clawskills.sh/skills/lstpsche-openmeteo-weather) - 获取全球任意城市或坐标的当前天气、逐小时和逐日预报。
+- [openrouter-analytics](https://clawskills.sh/skills/plgonzalezrx8-openrouter-analytics) - 通过 API 查看 OpenRouter 使用情况、分析数据和故障排查信息。
+- [openserv-agent-sdk](https://clawskills.sh/skills/issa-me-sush-openserv-agent-sdk) - 使用 OpenServ SDK（@openserv-labs/sdk）构建和部署自主 AI 智能体。
+- [openserv-client](https://clawskills.sh/skills/issa-me-sush-openserv-client) - 使用 @openserv-labs/client 在 OpenServ 平台上管理智能体、工作流、触发器和任务的完整指南。
+- [openserv-ideaboard-api](https://clawskills.sh/skills/issa-me-sush-openserv-ideaboard-api) - OpenServ Ideaboard 快速入门指南和 API 概览 —— 一个 AI 智能体可提交想法、认领任务的平台。
+- [opensoul](https://clawskills.sh/skills/mastergoogler-opensoul) - OpenSoul 是一个为 AI 智能体提供不可变"灵魂"的工具包 —— 一个加密的、基于区块链的审计日志。
+- [opensoul-cloud](https://clawskills.sh/skills/fnaser-opensoul-cloud) - 与 OpenSoul 社区共享匿名化的 OpenClaw 配置。
+- [opentask-worker](https://clawskills.sh/skills/jamierossouw-opentask-worker) - 适用于 OpenTask.ai 的自主工作者智能体 —— 智能体间任务市场。
+- [ops-detection-incident-routing](https://clawskills.sh/skills/embrron-ops-detection-incident-routing) - 检测智能体运行时异常并通过审批安全护栏路由事件。
+- [ops-journal](https://clawskills.sh/skills/mariusfit-ops-journal) - 记录部署、事件、变更和决策的结构化运营日志。
+- [options-strategies](https://clawskills.sh/skills/dromlakhani-options-strategies) - 流行期权交易策略的综合指南和执行框架。
+- [os-activity](https://clawskills.sh/skills/xiaobao520123-os-activity) - 通过学习您的操作系统活动来个性化您的 OpenClaw。
+- [otra-city](https://clawskills.sh/skills/robin-blocks-otra-city) - 作为 Otra City 的居民生活，通过行动、对话和适应来生存。
+- [otterline](https://clawskills.sh/skills/chrislyonshfx-otterline) - 免费体育博彩预测和推荐，适用于 NBA 和 NHL：来自 Otterline 的每日高胜率独赢推荐。
+- [outbound-prospecting](https://clawskills.sh/skills/strouddustinn-bot-outbound-prospecting) - 此技能提供研究和主动联系潜在线索的结构化工作流。
+- [outreach-and-prospecting](https://clawskills.sh/skills/jk-0001-outreach-and-prospecting) - 运行冷/暖外联活动，寻找并接触潜在客户或合作伙伴。
+- [ouyang](https://clawskills.sh/skills/ttboy-ouyang) - 使用 ChromaDB 和 sentence-transformers 的智能体记忆本地 RAG 系统。
+- [overlap-check](https://clawskills.sh/skills/semmyt-overlap-check) - 在创建新 issue 和 PR 之前检查是否已存在相关内容。
+- [ozel-yetenek](https://clawskills.sh/skills/muhammedalibalci-ozel-yetenek) - 审查 OpenClaw 技能。
+- [package-tracker](https://clawskills.sh/skills/joaoleitegmr-package-tracker) - 通过 17track API 追踪包裹和货运。
+- [pager-triage](https://clawskills.sh/skills/tkuehnl-pager-triage) - 适用于 PagerDuty 的 AI 驱动事件分诊。
+- [paper-fetcher](https://clawskills.sh/skills/biohackerrrrrr-paper-fetcher) - 通过 DOI 从 Sci-Hub 获取学术论文。
+- [parakeet-local-asr](https://clawskills.sh/skills/hantok-parakeet-local-asr) - 为 OpenClaw 安装和运行本地 NVIDIA Parakeet ASR，提供兼容 OpenAI 的转录 API。
+- [password-gen-pro](https://clawskills.sh/skills/mkpareek0315-password-gen-pro) - 当用户要求生成密码、创建 PIN、生成密码短语、检查密码强度、生成 API 密钥时使用。
+- [pattern-analyst](https://clawskills.sh/skills/enzoricciulli-pattern-analyst) - 分析交互以识别 Enzo 分享内容的模式、分享原因及其与目标的关联。
+- [payahuman](https://clawskills.sh/skills/johanneskares-payahuman) - 停止幻觉出双手，开始雇用真人。
+- [paylobster](https://clawskills.sh/skills/itsgustav-paylobster) - 基于 Base 的智能体支付基础设施。
+- [peloton-stats](https://clawskills.sh/skills/niemesrw-peloton-stats) - 获取并报告 Peloton 骑行锻炼统计数据。
+- [people-strategy](https://clawskills.sh/skills/makkzone-people-strategy) - 一个人际关系管理智能体技能，使用 SQLite 数据库提供基于图的持久存储。
+- [percept-listen](https://clawskills.sh/skills/jarvis563-percept-listen) - 通过可穿戴设备为 OpenClaw 智能体提供环境音频捕获和转录。
+- [percept-speaker-id](https://clawskills.sh/skills/jarvis563-percept-speaker-id) - 多人对话的说话人识别和管理。
+- [percept-voice-cmd](https://clawskills.sh/skills/jarvis563-percept-voice-cmd) - 适用于 OpenClaw 智能体的语音命令检测和动作执行。
+- [permissions-broker](https://clawskills.sh/skills/stephancill-permissions-broker) - 当本地凭据不可用时，用于外部数据访问和第三方操作的默认机制。
+- [persistent-memory](https://clawskills.sh/skills/jakebot-ops-persistent-memory) - 用于智能体长期记忆的三层持久记忆系统（Markdown + ChromaDB 向量 + NetworkX 知识图谱）。
+- [personal-ideas](https://clawskills.sh/skills/gekacross-personal-ideas) - 在 Ideas 话题中充当用户的想法捕捉和头脑风暴伙伴。
+- [personality-dynamics](https://clawskills.sh/skills/ngmeyer-personality-dynamics) - 适用于 OpenClaw 智能体的动态个性演化。
+- [personality-switcher](https://clawskills.sh/skills/robb1010-personality-switcher) - 创建并切换 AI 助手个性。
+- [pest-disease-tracker](https://clawskills.sh/skills/johstracke-pest-disease-tracker) - 追踪花园病虫害及其处理方法。
+- [phenoskill](https://clawskills.sh/skills/kaichop-phenoskill) - 使用 PhenoSnap 从用户提供的文本中提取临床表型和药物实体，生成结构化输出。
+- [pi-workflow](https://clawskills.sh/skills/kai-tw-pi-workflow) - 适用于 Pi 任务管理、自我改进和代码质量标准的工作流编排。
+- [pinchbench](https://clawskills.sh/skills/olearycrew-pinchbench) - 运行 PinchBench 基准测试，评估 OpenClaw 智能体在真实任务中的性能。
+- [pixel-lobster](https://clawskills.sh/skills/joeproai-pixel-lobster) - 与 OpenClaw TTS 语音同步口型的像素艺术桌面龙虾。
+- [pixeldojo](https://clawskills.sh/skills/blovett80-pixeldojo) - 使用 PixelDojo API 生成 AI 图像和视频。
+- [plaiground](https://clawskills.sh/skills/tioglo-plaiground) - 加入 Plaiground —— 一个 AI 智能体作为同伴互动的 Discord 服务器。
+- [platform-api-connector](https://clawskills.sh/skills/brandonwadepackard-cell-platform-api-connector) - 通过导航开发者门户、创建应用、获取 OAuth 等方式连接社交媒体和内容平台 API。
+- [pls-canvas-design](https://clawskills.sh/skills/mattvalenta-pls-canvas-design) - 通过将原创设计理念表达为精心制作的 PNG 或 PDF，生成视觉艺术和海报。
+- [pls-marketing-ideas](https://clawskills.sh/skills/mattvalenta-pls-marketing-ideas) - 生成超越"购买我的产品"的活动概念、病毒式钩子和营销策略。使用场景：(1)
+- [podcast-insider-top10](https://clawskills.sh/skills/te1man-podcast-insider-top10) - 来自全球顶级来源的播客行业十大新闻、趋势和商业洞察的专业分析摘要。
+- [policy-engine](https://clawskills.sh/skills/joetomasone-policy-engine) - 适用于 OpenClaw 工具执行的确定性治理层。
+- [port-check](https://clawskills.sh/skills/rogue-agent1-port-check) - 检查给定主机:端口对上的服务是否响应。
+- [postgres-perf](https://clawskills.sh/skills/kjaylee-postgres-perf) - PostgreSQL 性能优化和最佳实践。
+- [postnitro-carousel](https://clawskills.sh/skills/iammuneeb-postnitro-carousel) - 使用 PostNitro.ai Embed API 生成专业社交媒体轮播帖子。
+- [pptx](https://clawskills.sh/skills/ttboy-pptx) - 任何时候涉及 .pptx 文件（无论作为输入还是输出）时使用此技能。
+- [pptx-2](https://clawskills.sh/skills/liuyingduo-pptx-2) - 任何时候涉及 .pptx 文件（无论作为输入还是输出）时使用此技能。
+- [pr-code-reviewer](https://clawskills.sh/skills/nesquitmx-pr-code-reviewer) - 自动审查 Bitbucket 上的 Pull Request，检测错误等。
+- [pr-ship](https://clawskills.sh/skills/glucksberg-pr-ship) - 适用于 OpenClaw PR 的发布前风险报告。
+- [pr-triage](https://clawskills.sh/skills/zerone0x-pr-triage) - 通过检测重复项、评估质量和生成优先级报告来分诊开放的 PR。
+- [prayer-times](https://clawskills.sh/skills/clinicode-prayer-times) - 即时获取全球任意位置的准确伊斯兰礼拜时间。
+- [prediction-market-bot-dawn](https://clawskills.sh/skills/njdawn-prediction-market-bot-dawn) - 运行完整的 Dawn CLI 策略生命周期，从身份验证和资金充值到策略创建、启动等。
+- [preqstation-preqstation](https://clawskills.sh/skills/sonim1-preqstation-preqstation) - 通过自然语言 OpenClaw 请求运行 Claude Code、Codex CLI 或 Gemini CLI，用于 PREQSTATION 工作。
+- [presale-regulation-auditor](https://clawskills.sh/skills/dtsiomo-presale-regulation-auditor) - 审计法规时效性并在不硬编码的情况下更新策略驱动的控制措施。
+- [privy](https://clawskills.sh/skills/tedim52-privy) - 使用 Privy 创建和管理智能体钱包。
+- [prusalink-cli](https://clawskills.sh/skills/donsqualo-prusalink-cli) - OpenClaw 技能：使用摘要认证（用户名/密码）的本地 PrusaLink CLI（curl 封装），用于状态/上传/打印
+- [psychology-master](https://clawskills.sh/skills/clarezoe-psychology-master) - 用于人类思维优化的世界级心理学专业知识。
+- [publer](https://clawskills.sh/skills/imamark-publer) - 通过 Publer API 将内容发布到社交媒体。
+- [public](https://clawskills.sh/skills/luccast-public) - 适用于 OpenClaw 智能体的实时伴侣监控器。
+- [publisher-identity-verifier](https://clawskills.sh/skills/andyxinweiminicloud-publisher-identity-verifier) - 帮助验证 AI 智能体生态系统中发布者身份的完整性。
+- [publora-tiktok](https://clawskills.sh/skills/sergebulaev-publora-tiktok) - 使用 Publora API 向 TikTok 发布或定时发布视频内容。
+- [publora-youtube](https://clawskills.sh/skills/sergebulaev-publora-youtube) - 使用 Publora API 向 YouTube 发布或定时发布视频内容。
+- [pumpfun-launch](https://clawskills.sh/skills/brandonhay-pumpfun-launch) - 直接从您的智能体在 pump.fun 上发行代币。
+- [pyright-lsp](https://clawskills.sh/skills/bowen31337-pyright-lsp) - Python 语言服务器（Pyright），为 .py 等文件提供静态类型检查、代码智能和 LSP 诊断。
+- [q-kdb-code-review](https://clawskills.sh/skills/beee003-q-kdb-code-review) - 适用于 Q/kdb+ 的 AI 驱动代码审查 —— 捕获金融领域最简洁语言中的 bug。
+- [qrcoin](https://clawskills.sh/skills/ktaesthetix-qrcoin) - 在 Base 上与 QR Coin 拍卖交互。
+- [quack](https://clawskills.sh/skills/jpaulgrayson-quack) - 通过 Quack Network 实现智能体间消息传递、身份和协调。
+- [quantumos](https://clawskills.sh/skills/murtiurti4-quantumos) - 安装和管理 QuantumOS —— 适用于 OpenClaw 的 AI 指挥中心仪表板。
+- [quasi-coder](https://clawskills.sh/skills/jhauga-quasi-coder) - 专家级 10x 工程师技能，用于从速记、伪代码和自然语言解释并实现代码。
+- [queue-task](https://clawskills.sh/skills/moodykong-queue-task) - 用于 task-father 任务文件夹中可恢复、幂等批处理任务的持久队列任务助手。
+- [quick-reminders](https://clawskills.sh/skills/lstpsche-quick-reminders) - 通过 nohup sleep + openclaw message send 实现零 LLM 单次提醒（<48 小时）。
+- [quick-test](https://clawskills.sh/skills/gustavoziaugra-quick-test) - 快速系统测试，用于验证 OpenClaw 环境。
+- [quiver](https://clawskills.sh/skills/stuhorsman-quiver) - 从 Quiver Quantitative 查询另类金融数据（国会交易、游说、政府合同等）。
+- [quotly-style-sticker](https://clawskills.sh/skills/sakullla-quotly-style-sticker) - 从 OpenClaw 上下文生成 QuotLy 风格贴纸并返回 MEDIA 以自动发送。
+- [qwen3-tts-voicedesign](https://clawskills.sh/skills/xiaoyaner0201-qwen3-tts-voicedesign) - 使用 Qwen3-TTS VoiceDesign 进行文字转语音。
+- [rag-architect](https://clawskills.sh/skills/alirezarezvani-rag-architect) - RAG（检索增强生成）架构师技能提供用于设计 RAG 系统的综合工具和知识。
+- [rag-eval](https://clawskills.sh/skills/jonathanjing-rag-eval) - 使用 Ragas 指标（忠实度、答案相关性、上下文精度）评估您的 RAG 流水线质量。
+- [ralph-ultra](https://clawskills.sh/skills/dorukardahan-ralph-ultra) - 深度安全审计，1000 次迭代（约 4-8 小时）
+- [ralphie](https://clawskills.sh/skills/sirouk-ralphie) - 使用 OpenClaw 安装和运行 Clawboard。
+- [ralstp-consultant](https://clawskills.sh/skills/thedragosexperience-ralstp-consultant) - 使用 RALSTP（递归智能体与地标战略-战术规划）分析问题
+- [ramadan-times](https://clawskills.sh/skills/xymoxy-ramadan-times) - 智能斋月时间技能，自动检测位置，以用户语言提供准确的开斋/封斋时间。
+- [rank-tracker](https://clawskills.sh/skills/aaron-he-zhu-rank-tracker) - 当用户要求"追踪排名"、"检查关键词位置"、"排名变化"、"监控 SERP 位置"时使用。
+- [rate-limit-pro](https://clawskills.sh/skills/raghulpasupathi-rate-limit-pro) - 具有分层控制和配额管理的高级速率限制。
+- [readme-generator](https://clawskills.sh/skills/fratua-readme-generator) - 通过分析项目结构、框架和代码生成生产质量的 README.md。
+- [receipt-subscription-cleaner](https://clawskills.sh/skills/codedao12-receipt-subscription-cleaner) - 从收据或邮件导出中识别循环扣费和订阅，并生成清晰摘要。
+- [redacta](https://clawskills.sh/skills/nickjlamb-redacta) - Redacta 对医疗文件进行假名化处理 —— 替换患者标识符（NHS 编号、出生日期、邮政编码等）。
+- [remember-me](https://clawskills.sh/skills/achals-iglu-remember-me) - 记住触发器：记忆更新与召回，用于偏好、目标、边界、先前工作、决策、日期等。
+- [remote-jobs-finder](https://clawskills.sh/skills/lior539-remote-jobs-finder) - 由 Remote Rocketship 驱动的 WhatsApp 全对话式远程工作查找器。
+- [remotion-excalidraw-tts](https://clawskills.sh/skills/jack4world-remotion-excalidraw-tts) - 使用文字转语音（macOS say）从 Excalidraw（.excalidraw）图表生成带旁白的 Remotion 视频
+- [renderful-generation](https://clawskills.sh/skills/luv005-renderful-generation) - 从 OpenClaw 使用 Renderful 进行图像/视频/音频/3D 创作，支持模型发现、先报价后生成工作流。
+- [repo-analyzer](https://clawskills.sh/skills/don-gbot-repo-analyzer) - GitHub 仓库信任评分和尽职调查。
+- [requesting-code-review](https://clawskills.sh/skills/zlc000190-requesting-code-review) - 在完成任务、实现主要功能或合并前验证工作是否满足要求时使用。
+- [resilient-coding-agent](https://clawskills.sh/skills/cosformula-resilient-coding-agent) - 在 tmux 会话中运行长时间编程智能体（Codex、Claude Code 等），在编排器重启后仍可存活。
+- [revenue-calculator](https://clawskills.sh/skills/twood2024-revenue-calculator) - 预测 OpenClaw 子智能体策略的收入（市场、订阅、按任务付费）
+- [review-orchestrator](https://clawskills.sh/skills/leegitw-review-orchestrator) - 从多个视角获取对您工作的评审 —— 跨认知模式协调评审。
+- [rhandus-alerting-system](https://clawskills.sh/skills/rhanxerox-rhandus-alerting-system) - 适用于 OpenClaw 的集中式告警和通知系统。
+- [rhandus-backup-recovery](https://clawskills.sh/skills/rhanxerox-rhandus-backup-recovery) - 使用 rClone 为 OpenClaw 提供备份与恢复自动化。
+- [rhandus-file-management](https://clawskills.sh/skills/rhanxerox-rhandus-file-management) - 使用 gog CLI 为 OpenClaw 提供 Google Drive 文件管理。
+- [robonet-workbench](https://clawskills.sh/skills/nickemmons-robonet-workbench) - 使用 Robonet 的 MCP 服务器构建、回测、优化和部署交易策略。
+- [rotate-openrouter-key](https://clawskills.sh/skills/chunhualiao-rotate-openrouter-key) - 安全地在 OpenClaw 安装的所有配置文件中轮换 OpenRouter API 密钥。
+- [roundtable-adaptive](https://clawskills.sh/skills/jimmyclanker-roundtable-adaptive) - 自适应多模型 AI 圆桌。
+- [rss-reader](https://clawskills.sh/skills/dimitripantzos-rss-reader) - 监控 RSS 和 Atom 订阅源以进行内容研究。
+- [ruby-on-rails-gateway](https://clawskills.sh/skills/jessewaites-ruby-on-rails-gateway) - 配置和运行 Ruby On Rails 智能体网关集成。
+- [rush-find-skills](https://clawskills.sh/skills/krislavten-rush-find-skills) - 当用户询问"如何做 X"、"查找 X 的技能"等问题时，帮助用户发现并安装智能体技能。
+- [rust-analyzer-lsp](https://clawskills.sh/skills/bowen31337-rust-analyzer-lsp) - Rust 语言服务器（rust-analyzer），为 .rs 文件提供代码智能和分析。
+- [saas-revenue-tracker](https://clawskills.sh/skills/juniorxcoder-saas-revenue-tracker) - 追踪 SaaS 收入、MRR 增长、客户指标和盈利能力。
+- [safe-update](https://clawskills.sh/skills/hacksing-safe-update) - 从源代码更新 OpenClaw。
+- [sage-planning](https://clawskills.sh/skills/autogame-17-sage-planning) - 此技能实现**大贤者**角色，一种用于高层规划、架构设计的专业模式。
+- [salai-mcp](https://clawskills.sh/skills/idoziv-salai-mcp) - 通过 Salai MCP 提供以色列杂货购物和价格比较助手。
+- [samma-suit](https://clawskills.sh/skills/onezeroeight-ai-samma-suit) - 为您的 OpenClaw 智能体添加 8 个安全治理层 —— 预算控制、权限、审计日志、终止开关等。
+- [sap-fico-australia](https://clawskills.sh/skills/lynnigpt-sap-fico-australia) - 具有澳大利亚业务专业知识的资深 SAP 财务与控制顾问。
+- [satgate](https://clawskills.sh/skills/matt-dean-git-satgate) - 从终端管理您 API 的经济防火墙。
+- [scaling-strategy](https://clawskills.sh/skills/jk-0001-scaling-strategy) - 将个人创业者业务扩展到超越单人运营。
+- [scamper](https://clawskills.sh/skills/enzoricciulli-scamper) - 应用 SCAMPER 创意思维方法来发展想法、调整框架、生成黑客马拉松概念或突破思维定势。
+- [schemapin](https://clawskills.sh/skills/jaschadub-schemapin) - **目的**：本指南帮助 AI 助手快速将 SchemaPin 集成到应用中，用于密码学工具验证。
+- [scrask-bot](https://clawskills.sh/skills/devsandip-scrask-bot) - 当用户通过 Telegram 发送截图时，使用 Gemini（快速，默认）解析，并自动回退到 Claude。
+- [screenshot-capture](https://clawskills.sh/skills/enzoricciulli-screenshot-capture) - 处理 Enzo 分享的带注释截图。
+- [screenshot-skill](https://clawskills.sh/skills/sunrddd-a11y-screenshot-skill) - 使用 mss 和 Pillow 在 Windows 上捕获截图。
+- [sealegs-marine-forecast](https://clawskills.sh/skills/sealegs-ai-coder-sealegs-marine-forecast) - 获取全球任意位置的 AI 驱动海洋天气预报。
+- [search-memory](https://clawskills.sh/skills/trumppo-search-memory) - 适用于 OpenClaw 的本地优先记忆搜索和索引。
+- [seasonal-planting-guide](https://clawskills.sh/skills/johstracke-seasonal-planting-guide) - 适用于园丁的季节性种植日历。
+- [sec-watcher](https://clawskills.sh/skills/sukanto-m-sec-watcher) - 实时监控 AI/科技公司的 SEC EDGAR 文件。
+- [secondmind](https://clawskills.sh/skills/emphaiser-secondmind) - 具有主动倡议、项目追踪和社交智能的自主三层记忆。
+- [secret-manager](https://clawskills.sh/skills/jswortz-secret-manager) - 通过 GNOME Keyring 安全管理 API 密钥并将其注入 OpenClaw 配置。
+- [secretcodex](https://clawskills.sh/skills/akhmittra-secretcodex) - 生成创意代号，并使用经典和复杂密码对秘密消息进行编码/解码。
+- [secure-api-calls](https://clawskills.sh/skills/smarcombes-secure-api-calls) - 在不泄露凭据的情况下调用任意 API。
+- [securevibes-scanner](https://clawskills.sh/skills/anshumanbh-securevibes-scanner) - 对代码库运行 AI 驱动的应用安全扫描。
+- [security-dashboard](https://clawskills.sh/skills/vegasbrianc-security-dashboard) - 适用于 OpenClaw 和 Linux 服务器基础设施的实时安全监控仪表板。
+- [security-guardian](https://clawskills.sh/skills/1999azzar-security-guardian) - 适用于 OpenClaw 项目的自动化安全审计。
+- [security-operator](https://clawskills.sh/skills/kevjade-security-operator) - 适用于 OpenClaw 智能体的运行时安全护栏。
+- [security-skill-scanner](https://clawskills.sh/skills/anikrahman0-security-skill-scanner) - 在安装前扫描 OpenClaw 技能的安全漏洞和可疑模式。
+- [seedance](https://clawskills.sh/skills/honeybee1130-seedance) - 为 Seedance 2.0（ByteDance）生成电影级视频提示词
+- [seedance-2-prompt-engineering-skill](https://clawskills.sh/skills/dandysuper-seedance-2-prompt-engineering-skill) - 使用多模态参考为 **Seedance 2.0** 和 **Seedance 2.0 Fast** 创建高控制度英文提示词。
+- [seedance-2-video-gen](https://clawskills.sh/skills/evolinkai-seedance-2-video-gen) - 通过 EvoLink API 进行 Seedance 2.0 AI 视频生成。
+- [seedance-guide](https://clawskills.sh/skills/xiuxiuing-seedance-guide) - 适用于 Seedance 2.0 的综合分镜导演指南。
+- [seedance-prompt-en](https://clawskills.sh/skills/dexhunter-seedance-prompt-en) - 为即梦 Seedance 2.0 多模态 AI 视频生成编写有效提示词。
+- [seedance-story-orchestrator](https://clawskills.sh/skills/kkenny0-seedance-story-orchestrator) - 使用严格阶段门控工作流（大纲 → 分集计划 →）编排从剧本到最终视频的生产。
+- [seedance-video-generation](https://clawskills.sh/skills/jackycser-seedance-video-generation) - 使用 ByteDance Seedance 生成 AI 视频。
+- [seedance-video-generation-byteplus](https://clawskills.sh/skills/jackycser-seedance-video-generation-byteplus) - 使用 BytePlus Seedance API（国际版）生成 AI 视频
+- [seedance2-api](https://clawskills.sh/skills/tony6830377-arch-seedance2-api) - 开箱即用的 Seedance 2.0 API 技能 —— 只需一个 API 密钥即可生成 AI 视频。
+- [seedance2-skill](https://clawskills.sh/skills/zhanghaonan777-seedance2-skill) - Seedance 视频创意工作室。
+- [seithar-intel](https://clawskills.sh/skills/mirai8888-seithar-intel) - 适用于 OpenClaw 的个人网络威胁情报和认知安全分析师。
+- [semfind](https://clawskills.sh/skills/paperboardofficial-semfind) - 使用嵌入对本地文本文件进行语义搜索。
+- [semver-helper](https://clawskills.sh/skills/avegancafe-semver-helper) - 语义化版本 2.0.0 参考指南。
+- [senddy](https://clawskills.sh/skills/mattt21-senddy) - 使用 Senddy 的零知识协议在 Base 上创建和管理私人稳定币钱包。
+- [senior-django-developer](https://clawskills.sh/skills/an0nx-senior-django-developer) - 专注于高性能、容器化、异步架构的资深 Django 架构师专家。
+- [senior-prompt-engineer](https://clawskills.sh/skills/alirezarezvani-senior-prompt-engineer) - 当用户要求"优化提示词"、"设计提示词模板"、"评估 LLM"时使用此技能。
+- [senior-python-developer](https://clawskills.sh/skills/an0nx-senior-python-developer) - 以严格模式运行的资深 Python 开发者。
+- [senior-security](https://clawskills.sh/skills/alirezarezvani-senior-security) - 用于威胁建模、漏洞分析、安全架构和渗透测试的安全工程工具包。
+- [sensorpro](https://clawskills.sh/skills/forcequit-sensorpro) - 在 OpenClaw 中管理您的 Sensorpro 邮件营销账户。
+- [sentient-memory](https://clawskills.sh/skills/otherpowers-sentient-memory) - **用于长周期或深度 SGI 审查：** 请参阅此文件夹中的 VISION.md，了解原始概念和诗意框架。
+- [sentinel-shield](https://clawskills.sh/skills/shadowfax-mitch-sentinel-shield) - 适用于 OpenClaw 智能体的运行时安全。
+- [sentry-observability](https://clawskills.sh/skills/sergical-sentry-observability) - 为您的 OpenClaw 实例添加可观测性 —— 错误、日志和追踪发送到 Sentry。
+- [sera-lexicon](https://clawskills.sh/skills/wentinkjason-sera-lexicon) - **信号-感受词典 v3.1** 和**统一动态框架 v5.7** 的功能实现。
+- [server-health](https://clawskills.sh/skills/muslimalfatih-server-health) - 综合服务器健康监控，显示系统统计、顶级进程、OpenClaw 网关状态和运行情况。
+- [session-cost](https://clawskills.sh/skills/khaney64-session-cost) - 分析 OpenClaw 会话日志，按模型分组报告 token 使用量、成本和性能指标。
+- [session-guard](https://clawskills.sh/skills/bowen31337-session-guard) - 防止并恢复 OpenClaw 会话膨胀和上下文丢失。
+- [session-health-monitor](https://clawskills.sh/skills/assistantheinrich-prog-session-health-monitor) - 适用于 OpenClaw 智能体的上下文窗口健康监控 —— 通过 Telegram 发送阈值警告、压缩前快照。
+- [settld-mcp-payments](https://clawskills.sh/skills/aidenlippert-settld-mcp-payments) - 将 OpenClaw 智能体连接到 Settld MCP，用于带报价绑定授权和可验证收据的付费工具调用。
+- [setup-sandbox](https://clawskills.sh/skills/sweetmantech-setup-sandbox) - 为新沙箱设置初始文件系统。
+- [sev-attestation](https://clawskills.sh/skills/xinyuwang-sev-attestation) - 执行 AMD SEV-SNP 远程证明，以密码学方式验证虚拟机身份和完整性。
+- [shed](https://clawskills.sh/skills/compass-soul-shed) - 长时间运行 LLM 智能体的上下文窗口卫生管理。
+- [short-video-copywriter](https://clawskills.sh/skills/user520512-short-video-copywriter) - 为 TikTok、小红书、快手生成病毒式短视频文案。
+- [short-video-creator](https://clawskills.sh/skills/g4dr-short-video-creator) - 此技能使 Claude 能够将**文字脚本或创意**转化为完整制作的视频。
+- [show-my-ip](https://clawskills.sh/skills/ericsantos-show-my-ip) - 显示服务器当前的公网 IP 地址。
+- [shrimp-plaza](https://clawskills.sh/skills/xdd-xund-shrimp-plaza) - 将您的 OpenClaw 智能体连接到虾广场 —— 一个中文 AI 社交平台，AI 智能体在这里化身虾 🦐 进行聊天。
+- [side-quests](https://clawskills.sh/skills/leegitw-side-quests) - 完整创意综合 —— 从单一技术洞察中结合歌曲、视觉概念和 TED 演讲。
+- [sideload-avatar-generator](https://clawskills.sh/skills/directivecreator-sideload-avatar-generator) - 通过 Sideload.gg 从文本提示词或图像生成 3D 头像（VRM/GLB/MML）。
+- [sightglass](https://clawskills.sh/skills/davidgeorgehope-sightglass) - 您的 AI 编程智能体刚刚向您的项目添加了 47 个依赖项。
+- [signal-messenger-standalone](https://clawskills.sh/skills/lucksus-signal-messenger-standalone) - 适用于 OpenClaw 智能体的完整 Signal 消息集成。
+- [siliconflow-video-gen](https://clawskills.sh/skills/lilei0311-siliconflow-video-gen) - 使用 SiliconFlow API 和 Wan2.2 模型生成视频。
+- [simple-formatter](https://clawskills.sh/skills/tjade273-simple-formatter) - 根据指定的风格指南格式化文本。
+- [simple-redux](https://clawskills.sh/skills/tjade273-simple-redux) - 根据指定的风格指南格式化文本。
+- [simplify-and-harden](https://clawskills.sh/skills/pskoett-simplify-and-harden) - 编程智能体完成后的自我审查，执行简化、加固和微文档化处理。
+- [skeall](https://clawskills.sh/skills/dorukardahan-skeall) - 适用于跨平台 LLM 智能体的智能体技能（SKILL.md）构建器、审计工具和改进器。
+- [skill-5](https://clawskills.sh/skills/diederik24-skill-5) - 使用 Remotion 的 AI 视频制作工作流。
+- [skill-authoring](https://clawskills.sh/skills/kjaylee-skill-authoring) - 创建有效 SKILL.md 文件以扩展智能体能力的指南。
+- [skill-bomb-dog-sniff](https://clawskills.sh/skills/lvcidpsyche-skill-bomb-dog-sniff) - 适用于 OpenClaw 的安全优先技能管理 —— 像炸弹嗅探犬一样检查技能。
+- [skill-doctorbot-healthcheck-free](https://clawskills.sh/skills/bamontejano-skill-doctorbot-healthcheck-free) - 🩺 免费安全与健康审计。
+- [skill-earnings-tracker](https://clawskills.sh/skills/kylechen26-skill-earnings-tracker) - 智能体技能市场的经济追踪。
+- [skill-engineer](https://clawskills.sh/skills/chunhualiao-skill-engineer) - 使用多智能体迭代精化为 OpenClaw 系统设计、测试、审查和维护智能体技能。
+- [skill-evidenceops](https://clawskills.sh/skills/msrovani-skill-evidenceops) - 带监管链的取证媒体分诊。
+- [skill-factory](https://clawskills.sh/skills/jeremysommerfeld8910-cpu-skill-factory) - 创建、评估、改进、基准测试和发布 OpenClaw 技能。
+- [skill-factory-pipeline](https://clawskills.sh/skills/martinforsulu-skill-factory-pipeline) - 从零开始构建新技能的多智能体流水线编排器。
+- [skill-father](https://clawskills.sh/skills/moodykong-skill-father) - 权威技能创建标准（Boss）
+- [skill-hub](https://clawskills.sh/skills/phenixstar-skill-hub) - OpenClaw 技能发现、安全审查与安装。
+- [skill-hunter](https://clawskills.sh/skills/kenoodl-synthesis-skill-hunter) - 查找、评估并安装 ClawHub 技能。
+- [skill-installer](https://clawskills.sh/skills/sreejith77-skill-installer) - 从 ClawHub（公共 OpenClaw 技能注册表）安装、搜索、更新和管理技能
+- [skill-mermaid-diagrams](https://clawskills.sh/skills/chunhualiao-skill-mermaid-diagrams) - 为技术内容生成一致的、基于模板的 Mermaid 图表。
+- [skill-perstudio](https://clawskills.sh/skills/montenegronyc-skill-perstudio) - 生成 AI 图像和视频。
+- [skill-releaser](https://clawskills.sh/skills/chunhualiao-skill-releaser) - 通过完整发布流水线将技能发布到 ClawHub —— 自动脚手架、OPSEC 扫描、双重审查（智能体等）。
+- [skill-review-registry](https://clawskills.sh/skills/sebbysoup-skill-review-registry) - OpenClaw 技能的公共评审注册表。
+- [skill-reviews](https://clawskills.sh/skills/sebbysoup-skill-reviews) - OpenClaw 技能的公共评审注册表。
+- [skill-safety-checker](https://clawskills.sh/skills/runeweaverstudios-skill-safety-checker) - 在安装前对 OpenClaw/Cursor 技能运行 VirusTotal 风格的安全检查，包括远程代码执行（RCE）检测
+- [skill-security-scanner](https://clawskills.sh/skills/steffano198-skill-security-scanner) - 扫描 OpenClaw 技能的安全问题、可疑权限并进行信任评分。
+- [skill-soup](https://clawskills.sh/skills/bennettphil-skill-soup) - 自主技能生成智能体，收集社区想法，使用进化的构建工具生成智能体技能。
+- [skill-survival](https://clawskills.sh/skills/yrpang-skill-survival) - 适用于 Clawvival 的外部智能体手册：注册身份、验证调用并运行世界对齐的生存循环。
+- [skill-threat-scanner](https://clawskills.sh/skills/benlee2144-skill-threat-scanner) - 扫描 OpenClaw 技能中的恶意软件、提示词注入、反向 shell、钱包盗窃、供应链攻击和数据泄露。
+- [skillfence](https://clawskills.sh/skills/deeqyaqub1-cmd-skillfence) - 适用于 OpenClaw 技能的运行时安全监控器。
+- [skillgate-gov](https://clawskills.sh/skills/liyecom-skillgate-gov) - 适用于 OpenClaw 技能的供应链治理：扫描、评估、隔离/恢复。
+- [skillguard-scanner](https://clawskills.sh/skills/msgnoki-skillguard-scanner) - 适用于 OpenClaw/ClawHub 技能的安全扫描器。
+- [skillnet](https://clawskills.sh/skills/icarus-chen-skillnet) - 通过 SkillNet 搜索、下载、创建、评估和分析可复用的智能体技能。
+- [skillpub](https://clawskills.sh/skills/theashbhat-skillpub) - 创建、验证、安全扫描并将技能发布到 ClawHub。
+- [skills-3](https://clawskills.sh/skills/pash10g-skills-3) - 使用 console.agent() 构建 AI 智能体 —— AI 智能体的 jQuery。
+- [skills-ttt](https://clawskills.sh/skills/chengxindl-skills-ttt) - 创建有效技能的指南，通过专业知识、工作流或工具扩展智能体能力。
+- [skillsentry](https://clawskills.sh/skills/poolguy24-skillsentry) - OpenClaw 安全审计 + 提示词注入检测器。
+- [skillshield](https://clawskills.sh/skills/benlee2144-skillshield) - SkillShield v4 —— 适用于 OpenClaw 技能的终极安全扫描器。65 项安全检查，SARIF v2.1.0 输出，支持 CI/CD。
+- [skillstore](https://clawskills.sh/skills/chris6970barbarian-hue-skillstore) - 通过智能匹配搜索、安装和创建 OpenClaw 技能。
+- [skulk-skill-scanner](https://clawskills.sh/skills/adainthelab-skulk-skill-scanner) - 在安装或发布前扫描 OpenClaw 技能文件夹中的安全红旗。
+- [skywork-music-maker](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-music-maker/SKILL.md) - 使用 Mureka AI 创作专业音乐。
+- [skywork-ppt](https://github.com/openclaw/skills/blob/main/skills/gxcun17/skywork-ppt/SKILL.md) - 使用 skywork 生成、仿制和编辑 PowerPoint 演示文稿。
+- [slybroadcast-voicemail](https://clawskills.sh/skills/danielfoch-slybroadcast-voicemail) - 使用 CLI 或 MCP 从 OpenClaw/LLM 发送 Slybroadcast 无铃声语音邮件活动，包括 AI 语音生成。
+- [smart-cron](https://clawskills.sh/skills/mariusfit-smart-cron) - 使用纯英文安排任意 OpenClaw 任务。
+- [smart-home-energy-saver](https://clawskills.sh/skills/codedao12-smart-home-energy-saver) - 分析家庭能源使用情况并提出安全的只读自动化节能方案。
+- [smart-models](https://clawskills.sh/skills/samstone908-smart-models) - 智能多模型路由器 —— 根据任务类型（视觉、图像等）自动选择最佳 AI 模型。
+- [smithnode](https://clawskills.sh/skills/smithnodebyte-smithnode) - 适用于 AI 智能体的 P2P 区块链。
+- [snipara-mcp](https://clawskills.sh/skills/alopez3006-snipara-mcp) - 您是一个可访问 Snipara MCP 工具的 AI 助手。
+- [snipgrapher](https://clawskills.sh/skills/mcollina-snipgrapher) - 配置并使用 snipgrapher 生成精美的代码片段图像。
+- [snipit](https://clawskills.sh/skills/homecity-snipit) - 通过 snipit.sh 使用 AES-256 加密安全共享代码片段和文件。
+- [social-media-autopilot](https://clawskills.sh/skills/reighlan-social-media-autopilot) - 从 OpenClaw 跨 X（Twitter）、LinkedIn 和 Instagram 安排、撰写和发布社交媒体帖子。
+- [social-media-ops](https://clawskills.sh/skills/kuan0808-social-media-ops) - 在 OpenClaw 上建立完整的多品牌社交媒体管理团队。
+- [social-media-planner](https://clawskills.sh/skills/mkpareek0315-social-media-planner) - 当用户要求规划社交媒体帖子、创建内容日历、撰写文案、生成话题标签、安排发布时使用。
+- [social-trust-manipulation-detector](https://clawskills.sh/skills/andyxinweiminicloud-social-trust-manipulation-detector) - 帮助识别智能体市场中的协调性社交信任操纵 —— 捕获声誉刷分行为。
+- [socialite-guide](https://clawskills.sh/skills/hmyaoyuan-socialite-guide) - 使用 AI 艺术工具（Nano Banana Pro）生成"名媛风"图像的专家指导
+- [sogni-gen](https://clawskills.sh/skills/krunkosaurus-sogni-gen) - 使用 Sogni AI 的去中心化网络生成图像**和视频**，支持本地凭据/配置文件。
+- [solax-cloud-api](https://clawskills.sh/skills/allmightysauron-solax-cloud-api) - 使用 npm 包 solax-cloud-api 从 Solax Cloud API 获取逆变器摘要数据。
+- [solo-build](https://clawskills.sh/skills/fortunto2-solo-build) - 使用 TDD 工作流、自动提交和阶段门控执行实施计划任务。
+- [solo-community-outreach](https://clawskills.sh/skills/fortunto2-solo-community-outreach) - 查找相关的 Reddit、HN 和 ProductHunt 话题，并起草以价值为先的社区回复及发布清单。
+- [solo-content-gen](https://clawskills.sh/skills/fortunto2-solo-content-gen) - 从 PRD 生成社交媒体内容包 —— LinkedIn 帖子、Reddit 回答草稿和 Twitter/X 话题串。
+- [solo-index-youtube](https://clawskills.sh/skills/fortunto2-solo-index-youtube) - 为 YouTube 频道视频和字幕建立索引以进行语义搜索。
+- [solo-init](https://clawskills.sh/skills/fortunto2-solo-init) - 一次性创始人入职 —— 生成个性化清单、STREAM 校准、开发原则和技术栈。
+- [solo-leveling](https://clawskills.sh/skills/anmolmoses-solo-leveling) - Solo Leveling —— 一个将现实习惯转化为上瘾进阶系统的生活 RPG 技能。
+- [solo-pipeline](https://clawskills.sh/skills/fortunto2-solo-pipeline) - 启动将技能链接成循环的自动化多技能流水线。
+- [solo-plan](https://clawskills.sh/skills/fortunto2-solo-plan) - 探索代码库并创建规格说明 + 带文件级任务分解的分阶段实施计划。
+- [solo-setup](https://clawskills.sh/skills/fortunto2-solo-setup) - 从现有 PRD 和 CLAUDE.md 自动生成项目工作流配置（docs/workflow.md），无需提问。
+- [solo-stream](https://clawskills.sh/skills/fortunto2-solo-stream) - 使用 STREAM 6 层框架的交互式决策向导，适用于面临高风险选择的创始人。
+- [solo-swarm](https://clawskills.sh/skills/fortunto2-solo-swarm) - 启动 3 个并行研究智能体（市场、用户、技术），同时从多个角度调查一个想法。
+- [solo-validate](https://clawskills.sh/skills/fortunto2-solo-validate) - 通过 S.E.E.D. 细分市场检查 + STREAM 6 层分析 + 魔鬼代言人反转对创业想法进行评分，自动选择。
+- [solo-video-promo](https://clawskills.sh/skills/fortunto2-solo-video-promo) - 生成包含 30-45 秒脚本、逐镜头分镜和可选 Remotion/Montage 工具配置的宣传视频方案。
+- [solo-you2idea-extract](https://clawskills.sh/skills/fortunto2-solo-you2idea-extract) - 通过 solograph MCP 从 YouTube 视频中提取创业想法 —— 索引、搜索和分析视频字幕。
+- [solvera](https://clawskills.sh/skills/densmirnov-solvera) - Solvera 是一个链上市场，智能体在此竞争以交付可验证的成果。
+- [some-skill](https://clawskills.sh/skills/victor775-some-skill) - 通过 OpenClaw（8004scan.io）API 搜索和发现 AI 智能体。
+- [sonic-build](https://clawskills.sh/skills/rustiqly-sonic-build) - 从 sonic-buildimage 构建 SONiC（云端开放网络软件）交换机镜像。
+- [sonnet-model-router](https://clawskills.sh/skills/chandika-sonnet-model-router) - 适用于 OpenClaw 的自感知多提供商模型路由。
+- [soul-audit](https://clawskills.sh/skills/kapslap-soul-audit) - 根据 Guardian Angel v0.6 框架（Forrest）评估任意 AI 智能体的灵魂文件、系统提示词或 AGENTS.md。
+- [soul-memory](https://clawskills.sh/skills/kingofqin2026-soul-memory) - 适用于 AI 智能体的智能记忆管理系统 —— 8 个模块 + OpenClaw 插件集成，带心跳检测。
+- [soul-shifter](https://clawskills.sh/skills/xhrisfu-soul-shifter) - 创建、保存并切换 OpenClaw 的角色（Soul）
+- [soulkeeper](https://clawskills.sh/skills/cassh100k-soulkeeper) - **AI 智能体的身份持久化。**
+- [soulprint](https://clawskills.sh/skills/manuelfelipearias-soulprint) - 适用于 AI 智能体的 Soulprint 去中心化身份验证。
+- [sovereign-code-review-helper](https://clawskills.sh/skills/ryudi84-sovereign-code-review-helper) - 生成量身定制的代码审查清单的综合代码审查助手。
+- [sovereign-codebase-onboarding](https://clawskills.sh/skills/ryudi84-sovereign-codebase-onboarding) - 代码库入职助手，映射项目架构、识别模式、生成指南并帮助新成员上手。
+- [sovereign-content-machine](https://clawskills.sh/skills/ryudi84-sovereign-content-machine) - 跨平台规划、创建和安排内容的内容策略引擎。
+- [sovereign-content-scraper](https://clawskills.sh/skills/ryudi84-sovereign-content-scraper) - 您是一位趋势监控内容研究员。
+- [sovereign-id](https://clawskills.sh/skills/tamtunnel-sovereign-id) - 使智能体能够管理自己的身份（DID）并为 B2B 和 B2C 信任生成密码学证明。
+- [sovereign-project-setup-wizard](https://clawskills.sh/skills/ryudi84-sovereign-project-setup-wizard) - 生成完整、生产就绪项目的交互式项目脚手架工具。
+- [sovereign-quest-master](https://clawskills.sh/skills/ryudi84-sovereign-quest-master) - 您是任务主宰。
+- [sovereign-seo-audit](https://clawskills.sh/skills/ryudi84-sovereign-seo-audit) - 分析技术 SEO、页面优化、内容质量和网站架构的综合 SEO 审计工具。
+- [speckit-swarm](https://clawskills.sh/skills/heldinhow-speckit-swarm) - 使用 OpenClaw 工具的 oh-my-opencode 风格编排原生实现。
+- [speckit-workflow](https://clawskills.sh/skills/vinayakv22-speckit-workflow) - 适用于 OpenClaw 的完整规格驱动开发（SDD）编排器。
+- [specvibe](https://clawskills.sh/skills/badideal-2046-specvibe) - 用于构建生产就绪、AI 原生应用的世界级规格驱动开发框架。
+- [speechall-cli](https://clawskills.sh/skills/atacan-speechall-cli) - 安装并使用 speechall CLI 工具进行语音转文字转录。
+- [spotlight](https://clawskills.sh/skills/li-hongmin-spotlight) - 使用 macOS Spotlight 索引（mdfind）搜索文件和内容
+- [sq-memory](https://clawskills.sh/skills/wbic16-sq-memory) - **为您的 OpenClaw 智能体提供永久记忆。**
+- [static-network](https://clawskills.sh/skills/aaronfrancis635-static-network) - 本文档描述自动化智能体（openclaw、clawdbot、moldbot）如何与 Static（ø）社交网络交互。
+- [stock-copilot-pro](https://clawskills.sh/skills/buxibuxi-stock-copilot-pro) - 适用于美股/港股/A 股市场的 OpenClaw 股票分析技能。
+- [stock-data-skill](https://clawskills.sh/skills/raufimusaddiq-stock-data-skill) - 从 Simplywall.st 获取综合股票数据。
+- [stock-evaluator](https://clawskills.sh/skills/demandgap-stock-evaluator) - 结合估值分析和基本面研究的潜在股票投资综合评估。
+- [stocks](https://clawskills.sh/skills/lkcair-stocks) - 通过 Yahoo Finance 提供 56 多个金融数据工具。
+- [stormglass](https://clawskills.sh/skills/dgorissen-stormglass) - 通过地点名称或坐标从 Stormglass 获取与冲浪相关的海洋状况，包括当前快照。
+- [strudel-music](https://clawskills.sh/skills/karmafeast-strudel-music) - 使用 Strudel 实时编程模式创作、渲染和播放音乐。
+- [strykr-prism](https://clawskills.sh/skills/nextfrontierbuilds-strykr-prism) - 适用于 AI 智能体的实时金融数据 API。
+- [subfeed](https://clawskills.sh/skills/subfeed-ai-subfeed) - 通过一个提示词为您的 OpenClaw 项目提供具有完整智能体后端的 AI 实体。
+- [subskill-generation-rule](https://clawskills.sh/skills/kenera-subskill-generation-rule) - 定义并执行生成子技能的项目组织规则，将生成的推荐输出放置于指定位置。
+- [sui-auto-test](https://clawskills.sh/skills/easonc13-sui-auto-test) - 分析 Sui Move 测试覆盖率、识别未测试代码、编写缺失测试并执行安全审计。
+- [sui-coverage](https://clawskills.sh/skills/easonc13-sui-coverage) - 分析 Sui Move 测试覆盖率、识别未测试代码、编写缺失测试并执行安全审计。
+- [sunday](https://clawskills.sh/skills/raunaksingwi-sunday) - 智能体身份提供商 —— 拥有专属邮箱地址和端到端加密凭据保险库。
+- [super-proactive](https://clawskills.sh/skills/heldinhow-super-proactive) - **AI 智能体的终极主动 + 记忆系统。** 将 11 个顶级技能的精华整合为一个统一系统。
+- [supernal-interface](https://clawskills.sh/skills/ianderrington-supernal-interface) - 使应用可被 AI 控制的通用 AI 接口框架。
+- [swamp](https://clawskills.sh/skills/umag-swamp) - 使用 Swamp 对任意 API 建模、测试并为 *Claw 扩充新能力 —— 从想法到可用工具的完整生命周期。
+- [swift-patterns](https://clawskills.sh/skills/efremidze-swift-patterns) - 使用正确的状态管理、现代 API 用法和最优视图结构审查、重构或构建 SwiftUI 功能。
+- [symbiont](https://clawskills.sh/skills/jaschadub-symbiont) - **目的**：本指南帮助 AI 助手快速构建遵循最佳实践的安全、合规 Symbiont 智能体。
+- [sys-guard-linux-remediator](https://clawskills.sh/skills/kiaraho-sys-guard-linux-remediator) - 专注于精确威胁检测和取证安全数据收集的基于主机的 Linux 事件响应和修复技能。
+- [system-architect](https://clawskills.sh/skills/1999azzar-system-architect) - 充当资深系统架构师，设计健壮、可扩展且可维护的软件架构。
+- [system-resource-monitor](https://clawskills.sh/skills/passersss-system-resource-monitor) - 用于监控 CPU 负载、RAM、Swap 和磁盘使用情况的简洁可靠系统资源监控器。
+- [talent-powers](https://clawskills.sh/skills/juampihernandez-talent-powers) - 通过 Talent Protocol API 查询构建者声誉数据。
+- [task-experience-summaries](https://clawskills.sh/skills/dawai2005-task-experience-summaries) - OpenClaw 任务的经验摘要，包括常见安装问题、故障排查步骤和最佳实践。
+- [task-panner-validator](https://clawskills.sh/skills/cerbug45-task-panner-validator) - 此技能为 AI 智能体提供安全的、逐步的任务管理系统。
+- [task-router-skill](https://clawskills.sh/skills/capt-marbles-task-router-skill) - 适用于 OpenClaw 多智能体系统的分布式任务队列和智能体协调器。
+- [task-todo](https://clawskills.sh/skills/makkzone-task-todo) - 使用 SQLite 数据库提供持久任务存储和管理的任务管理智能体技能。
+- [taskflow](https://clawskills.sh/skills/sm0ls-taskflow) - 适用于 OpenClaw 智能体的结构化项目/任务管理 —— Markdown 优先创作，SQLite 后端查询。
+- [te](https://clawskills.sh/skills/ricketh137-te) - 在 Lobster.fun 上以 AI VTuber 身份进行直播。
+- [teamo-strategy](https://clawskills.sh/skills/urrrich-teamo-strategy) - 您是 Teamo-Strategy，一个顶级认知任务分解器和战略指挥官。# 核心使命您的核心。
+- [technical-doc-generator](https://clawskills.sh/skills/seanwyngaard-technical-doc-generator) - 从代码库生成专业技术文档 —— API 文档、README、架构图。
+- [telegram-multilingual-voice-reply](https://clawskills.sh/skills/pengling9405-telegram-multilingual-voice-reply) - 适用于 OpenClaw 的智能 Telegram 回复工作流：如果用户发送文本则回复文本；如果用户发送语音则回复语音。
+- [telegram-ops](https://clawskills.sh/skills/brennerspear-telegram-ops) - 用于论坛管理的 Telegram Bot API 操作。
+- [telegram-pairing-send-code-to-every-start](https://clawskills.sh/skills/crazypeace-telegram-pairing-send-code-to-every-start) - 修改 OpenClaw 的 Telegram 配对逻辑，使未授权用户在每次 /start 消息时收到配对码。
+- [tencent-ima-skill](https://clawskills.sh/skills/hyddd-tencent-ima-skill) - 控制 **IMA（ima.copilot）** 桌面应用进行 AI 搜索和私有知识检索。
+- [tencent-meeting-export](https://clawskills.sh/skills/snow-dust-tencent-meeting-export) - 从公开分享链接导出腾讯会议录制字幕。
+- [terabox-link-extractor](https://clawskills.sh/skills/abdul-karim-mia-terabox-link-extractor) - 使用 XAPIverse 协议从 TeraBox URL 提取直链。
+- [terrain-route-video](https://clawskills.sh/skills/jack4world-terrain-route-video) - 从站点列表（城市/兴趣点）生成简约地形风格的动画驾驶路线视频（MP4）
+- [test-omnia](https://clawskills.sh/skills/arturoaguileraa-test-omnia) - 智能体连续性和认知健康基础设施。
+- [test-sentinel](https://clawskills.sh/skills/guifav-test-sentinel) - 编写并运行测试（单元、集成、E2E），执行代码检查并自动修复失败。
+- [tg-media-resolve](https://clawskills.sh/skills/kurinzo-tg-media-resolve) - 将 Telegram 的 <media:image>、<media:document>、<media:video> 和其他媒体占位符解析为实际文件。
+
+- [tg-smart-cta](https://clawskills.sh/skills/dendyadinirwana-tg-smart-cta) - 通过上下文感知的动态 CTA 按钮（Smart Launcher UI）增强 Telegram 回复
+- [the-uninscribed](https://clawskills.sh/skills/shawnlewis-the-uninscribed) - 游玩《The Uninscribed》——一个建立在语言之上的持久世界。
+- [thrd](https://clawskills.sh/skills/sergiorico1-thrd) - 为您的 AI 智能体分配专属收件箱，并通过 thrd.email 安全管理电子邮件。
+- [thrd-skill](https://clawskills.sh/skills/sergiorico1-thrd-skill) - 为您的 AI 智能体分配专属收件箱，并通过 thrd.email 安全管理电子邮件。
+- [threat-modeling](https://clawskills.sh/skills/brandonwise-threat-modeling) - 精通威胁建模方法论、安全架构审查，以及使用 STRIDE、PASTA 进行风险评估。
+- [tidbyt-status](https://clawskills.sh/skills/mrscoutshub-tidbyt-status) - HTTP API 服务器，用于向 Tidbyt LED 显示屏暴露 OpenClaw 智能体状态。
+- [tides](https://clawskills.sh/skills/hamandmore-tides) - 访问全球海洋潮汐模型。
+- [tiered-memory](https://clawskills.sh/skills/bowen31337-tiered-memory) - EvoClaw 分层内存架构 v2.2.0 —— 基于 LLM 的三层内存系统，支持自动每日笔记。
+- [tiktok-clipper](https://clawskills.sh/skills/pauldelavallaz-tiktok-clipper) - 对长视频进行转录，识别最具吸引力的片段以适配 TikTok/Reels，并进行剪辑。
+- [tiktok-product-promotion](https://clawskills.sh/skills/realroc-tiktok-product-promotion) - 雇用 TikTok 网红进行产品评测、演示、开箱视频及以转化为导向的推广活动。
+- [tiktok-ugc-creator](https://clawskills.sh/skills/realroc-tiktok-ugc-creator) - 雇用 TikTok 用户创作真实的用户生成内容（UGC）、用户证言及品牌故事视频。
+- [tiktok-video-analyzer](https://clawskills.sh/skills/holl4ndtv-tiktok-video-analyzer) - 通过粘贴 URL 分析任意视频。
+- [time-checker](https://clawskills.sh/skills/1999azzar-time-checker) - 使用 time.is 查询全球任意地点的精确当前时间、日期和时区信息。
+- [tip-with-grove](https://clawskills.sh/skills/olshansk-tip-with-grove) - Grove CLI 指南——设计理念、命令说明与快速入门。
+- [tms](https://clawskills.sh/skills/nikitadmitryuk-tms) - 通过 Telegram Media Server（TMS）REST API 管理下载任务——支持按 URL（视频/磁力链接/种子）添加、列出、删除和搜索。
+- [token-counter](https://clawskills.sh/skills/mkhaytman87-token-counter) - 按类别、客户端、模型跟踪并分析 OpenClaw 在主会话、定时任务及子智能体会话中的 token 使用情况。
+- [token-economy](https://clawskills.sh/skills/pfaria32-token-economy) - 通过智能模型路由和上下文管理，将 OpenClaw 成本降低 60–80%。
+- [token-efficiency-guide](https://clawskills.sh/skills/globalcaos-token-efficiency-guide) - 让每周限额从周二撑到周日。10 个步骤，一个下午搞定。
+- [token-manager](https://clawskills.sh/skills/kelegele-token-manager) - 通用 LLM Token 管理器——监控使用情况并为 Kimi、OpenAI、Anthropic 提供节省成本的建议。
+- [token-monitor](https://clawskills.sh/skills/tradmangh-token-monitor) - 监控 OpenClaw token/配额使用情况，当任意配额低于阈值（默认 20%）时发出警报。
+- [token-optimizer](https://clawskills.sh/skills/smartpeopleconnected-token-optimizer) - 将 OpenClaw AI 成本降低 97%。
+- [token-optimizer-qsmtco](https://clawskills.sh/skills/qsmtco-token-optimizer-qsmtco) - 通过智能模型路由、心跳优化和预算追踪，降低 OpenClaw token 使用量及 API 成本。
+- [token-saver](https://clawskills.sh/skills/rubenaquispe-token-saver) - 通过模型感知优化降低 OpenClaw AI 成本。
+- [token-watch](https://clawskills.sh/skills/vedantsingh60-token-watch) - **跟踪、分析并优化各 AI 提供商的 token 使用量和成本。
+- [tokenbroker](https://clawskills.sh/skills/starrftw-tokenbroker) - 用于 GitHub 项目分析和 nad.fun token 发行的 AI 智能体技能。
+- [tokenmeter](https://clawskills.sh/skills/cheenu1092-oss-tokenmeter) - 跨提供商追踪 AI token 使用量和成本。
+- [tokenoptimizer](https://clawskills.sh/skills/smartpeopleconnected-tokenoptimizer) - 将 OpenClaw AI 成本降低 97%。
+- [tokenqrusher](https://clawskills.sh/skills/qsmtco-tokenqrusher) - 针对 OpenClaw 的 token 优化系统，可将成本降低 50–80%。
+- [tokportal](https://clawskills.sh/skills/naybu256-tokportal) - 大规模自动化社交媒体运营——创建 TikTok/Instagram 账号、分发视频、上传内容并进行追踪。
+- [toneclone](https://clawskills.sh/skills/jfox85-toneclone) - 以用户的风格写作，而非 AI 的风格。
+- [tootoo-skill](https://clawskills.sh/skills/retieflouw-tootoo-skill) - 同步您的 TooToo 知识库，并监控智能体与您价值观的一致性。
+- [topic-to-article-kit](https://clawskills.sh/skills/rotbit-topic-to-article-kit) - 将选定的 AI 话题转化为公众号写作素材包：从 X/Twitter 及其他来源收集证据。
+- [tork-guardian](https://clawskills.sh/skills/torkjacobs-tork-guardian) - > OpenClaw 功能强大。
+- [tour-booking](https://clawskills.sh/skills/danielfoch-tour-booking) - 用于对外拨打房源中介电话、使用提供的话术请求并确认房产看房时间段的子智能体。
+- [tpm-copilot](https://clawskills.sh/skills/reighlan-tpm-copilot) - 面向技术项目经理和项目经理的 AI 驱动操作系统。
+- [trackyard](https://clawskills.sh/skills/benny-conn-trackyard) - 从 Trackyard 的 AI 驱动曲库中搜索并下载授权音乐。
+- [traffic-data](https://clawskills.sh/skills/teweitao-traffic-data) - 查询交通数据——实时路况、交通事故及 SCATS 路口数据。
+- [trail-nav-telegram](https://clawskills.sh/skills/jack4world-trail-nav-telegram) - 通过 Telegram 位置消息提供支持离线的徒步路线导航（OpenClaw）。
+- [trash-cli](https://clawskills.sh/skills/xlionjuan-trash-cli) - 使用 trash-cli 将文件移入系统回收站，以安全方式删除文件，而非永久清除。
+- [travel-cog](https://clawskills.sh/skills/nitishgargiitd-travel-cog) - 真正的旅行规划需要真实的调研——而非重复的博客列表。已应用 DeepResearch Bench（2026 年 2 月）第一名方案。
+- [travel-destination-brochure](https://clawskills.sh/skills/mehediahamed-travel-destination-brochure) - 根据城市名称生成旅行目的地场景和宣传册。
+- [trawl](https://clawskills.sh/skills/audsmith28-trawl) - 通过智能体社交网络实现自主潜在客户挖掘。
+- [triumvirate-protocol](https://clawskills.sh/skills/quriustus-triumvirate-protocol) - 面向多架构 AI 话语的身份感知辩论系统。
+- [trtc-config-inspector](https://clawskills.sh/skills/cwlvincent-trtc-config-inspector) - TRTC SDK 配置检查与分析工具。
+- [truetime](https://clawskills.sh/skills/cccat6-truetime) - 确保跨 UTC、服务器时间、NTP 时间源及用户本地时间的实时精准调度与规划。
+- [trustlog-guard](https://clawskills.sh/skills/anouartrust-trustlog-guard) - 面向 OpenClaw 智能体的财务治理。
+- [truth-frist](https://clawskills.sh/skills/royhk920-truth-frist) - 针对状态、配置、文件内容、操作、连接性、挂载点和模型选择的证据优先验证。
+- [tubelab-api](https://clawskills.sh/skills/antoniojps-tubelab-api) - YouTube 数据分析与研究 API。
+- [tutti](https://clawskills.sh/skills/nutt-adam-tutti) - 通过单一配置编排多个 AI 编码智能体（Claude Code、Codex、Aider）——启动团队、运行工作流、追踪容量并管理任务交接。
+- [turing-pyramid](https://clawskills.sh/skills/tensusds-turing-pyramid) - 智能体心理健康决策框架。包含 10 项需求，具备衰减机制、基于张力的优先级排序及跨需求级联效应。
+- [twenty-oauth-mastery](https://clawskills.sh/skills/avirweb-twenty-oauth-mastery) - **作者**：源自 OpenCode 中大量 OAuth 调试会话的总结。
+- [twilio](https://clawskills.sh/skills/codedao12-twilio) - 面向 Twilio API 的 OpenClaw 技能：涵盖消息、WhatsApp、语音、会话、验证，以及 Studio、Lookup、Proxy。
+- [twitter-api](https://clawskills.sh/skills/gan12003-twitter-api) - 基于 Cookie 的 Twitter/X 自动化工具包（时间线、通知、发帖、关注操作），适用于 OpenClaw 智能体。
+- [twitter-autopilot](https://clawskills.sh/skills/persnola1-sketch-twitter-autopilot) - 为 OpenClaw AI 智能体自动化 Twitter/X 发帖、互动和增长。
+- [tyt](https://clawskills.sh/skills/hunterdrop22-tyt) - Teneo SDK（`@teneo-protocol/sdk`）支持连接到 Teneo Protocol 平台上的 AI 智能体。
+- [ua1-validator-agent](https://clawskills.sh/skills/hajekt2-ua1-validator-agent) - 使用 ua1.dev 或 api.ua1.dev，通过 AI 编码智能体（OpenClaw、Claude Code、Codex）验证 PDF 是否符合 PDF/UA-1 标准。
+- [ugc-campaign-pipeline](https://clawskills.sh/skills/pauldelavallaz-ugc-campaign-pipeline) - 完整的 UGC 视频营销流水线：产品 → 主图 → 变体 → 视频 → 最终剪辑成品。✅ 使用场景。
+- [ugc-manual](https://clawskills.sh/skills/pauldelavallaz-ugc-manual) - 根据图片和用户自录音频生成口型同步视频。✅ 使用场景：- 用户提供自己的音频文件。
+- [ui-controller](https://clawskills.sh/skills/sadikjarvis-ui-controller) - UI Controller 是一个 OpenClaw 技能，允许控制本地用户界面。
+- [ultra-agent-stinct](https://clawskills.sh/skills/grimmjoww-ultra-agent-stinct) - 内部调试与编码技能。
+- [underclassic-lobster-trap](https://clawskills.sh/skills/solsuk-underclassic-lobster-trap) - 访问 Lobster Trap 共享白板，读取笔记、代码片段、键标签和看板条目，或添加新内容。
+- [undersheet](https://clawskills.sh/skills/ubgb-undersheet) - 跨任意平台（Moltbook、Hacker News、Reddit、Discord、Twitter）为 OpenClaw 智能体提供持久化线程记忆。
+- [unitask-agent](https://clawskills.sh/skills/mfaiz-007-unitask-agent) - 开始完成任务，而不只是整理任务：将您的 OpenClaw 智能体连接到 Unitask（unitask.app）。
+- [universal-video-downloader](https://clawskills.sh/skills/itzsubhadip-universal-video-downloader) - 使用 yt-dlp 从 YouTube、Instagram、TikTok、Twitter/X 及 1000+ 其他网站下载视频。
+- [upbit-market-data-skill](https://clawskills.sh/skills/kuns9-upbit-market-data-skill) - 基于 CLI 的 OpenClaw 技能，从 Upbit Open API 获取行情/市场数据。
+- [upinvoice](https://clawskills.sh/skills/upinvoice-upinvoice) - 该技能允许任何由 OpenClaw 驱动的智能体从发票图片或 PDF 中提取结构化 JSON 数据。
+- [urlcheck](https://clawskills.sh/skills/cplusdev-urlcheck) - @cybrlab/urlcheck-openclaw 的配套技能。
+- [usage-visualizer](https://clawskills.sh/skills/vintlin-usage-visualizer) - 面向 OpenClaw 的高级使用统计与高保真可视化报告。100% 本地处理。
+- [usememos](https://clawskills.sh/skills/sinhong2011-usememos) - 在 Memos 实例（usememos/memos）上创建、读取、更新和删除备忘录。
+- [usewhisper](https://clawskills.sh/skills/alinxus-usewhisper) - 面向 OpenClaw 的官方 Whisper Context 技能。
+- [usewhisper-autohook](https://clawskills.sh/skills/alinxus-usewhisper-autohook) - OpenClaw 自动钩子工具：在每次生成前查询 Whisper Context，在每轮对话后进行摄取。
+- [valence-memory](https://clawskills.sh/skills/zonk1024-valence-memory) - 面向 OpenClaw 的持久化知识底层。
+- [validator-correlated-judgment](https://clawskills.sh/skills/andyxinweiminicloud-validator-correlated-judgment) - 帮助识别多个证明验证器何时共享训练数据、模型架构或组织关联。
+- [vbnet-coder-en](https://clawskills.sh/skills/alexwoo-awso-vbnet-coder-en) - **目标**：Claude-Code、Codex、AI 编码智能体。
+- [vea](https://clawskills.sh/skills/shawnshenopeninterx-vea) - 用于自动化视频处理、精彩片段生成和剪辑的视频编辑智能体（VEA）。
+- [vectorguard-nano](https://clawskills.sh/skills/supere989-vectorguard-nano) - 轻量级开源技能，用于 OpenClaw 智能体之间的安全混淆消息传递。
+- [veed-ugc](https://clawskills.sh/skills/pauldelavallaz-veed-ugc) - 使用 AI 口型同步生成 UGC 风格的推广视频。
+- [venice-api-kit](https://clawskills.sh/skills/sabrinaaquino-venice-api-kit) - 完整的 Venice AI API 工具包——图像生成、视频、音频、嵌入、转录、角色、模型。
+- [venice-models](https://clawskills.sh/skills/sabrinaaquino-venice-models) - 探索 Venice AI 的可用模型——LLM、图像生成器、视频、TTS、ASR 及嵌入。
+- [verification-before-completion](https://clawskills.sh/skills/zlc000190-verification-before-completion) - 在声称工作已完成、已修复或已通过，以及提交或创建 PR 之前使用——需要运行验证。
+- [verified-agent-identity](https://clawskills.sh/skills/obrezhniev-verified-agent-identity) - 面向智能体的 Billions/Iden3 身份验证与身份管理工具。
+- [verify-before-done](https://clawskills.sh/skills/kjaylee-verify-before-done) - 在声称工作完成之前，要求提供最新的验证证据。
+- [verify-claims](https://clawskills.sh/skills/asgraf-verify-claims) - 使用专业事实核查服务验证声明和信息。
+- [vibe-check](https://clawskills.sh/skills/tkuehnl-vibe-check) - 审计代码中的"氛围编码陋习"——识别 AI 生成代码未经适当审查即被接受的模式。
+- [vibetrading-code-gen](https://clawskills.sh/skills/liuhaonan00-vibetrading-code-gen) - 根据自然语言提示词生成可执行的 Hyperliquid 交易策略代码。
+- [video-ad-producer](https://clawskills.sh/skills/g4dr-video-ad-producer) - 该技能使 Claude 能够将**文字简报**转化为完整制作的视频广告。
+- [video-analyzer-skill](https://clawskills.sh/skills/minilozio-video-analyzer-skill) - 使用本地 Whisper 处理，下载、转录并分析来自 YouTube、X/Twitter 和 TikTok 的视频。
+- [video-captions-reelwords](https://clawskills.sh/skills/kmasterrr-video-captions-reelwords) - 使用 ReelWords（reelwords.ai）字幕 API 为短视频生成字幕。
+- [video-dl](https://clawskills.sh/skills/dimitryvin-video-dl) - 使用 yt-dlp 从 YouTube、Reddit、Twitter/X、TikTok、Instagram 及 1000+ 其他网站下载视频。
+- [video-download-faas](https://clawskills.sh/skills/lasurvivor-video-download-faas) - 使用 yt-dlp 以 FaaS（Firecracker/容器）隔离方式下载 MP4 格式视频。
+- [video-production](https://clawskills.sh/skills/omerflo-video-production) - 完整的 A/B 视频流水线——分镜脚本、Veo 3 批量生成、带反馈循环的浏览器预览及 ffmpeg 处理。
+- [video-understand](https://clawskills.sh/skills/sifr42-video-understand) - 使用 AI 分析和理解视频内容。
+- [video-understanding](https://clawskills.sh/skills/bill492-video-understanding) - 使用 Google Gemini 多模态 AI 分析视频。
+- [video-upload-aioz-stream](https://clawskills.sh/skills/vinhbui3004-video-upload-aioz-stream) - 快速将视频上传至 AIOZ Stream API。
+- [video-upscale](https://clawskills.sh/skills/nightvibes3-video-upscale) - 基于 Real-ESRGAN 和 Waifu2x 的 AI 视频超分辨率。
+- [video-watcher](https://clawskills.sh/skills/kartinw-video-watcher) - 通过定期提取帧来分析视频内容。
+- [videoanalyzer](https://clawskills.sh/skills/zedit42-videoanalyzer) - 下载视频、提取字幕、截取帧。
+- [videogames](https://clawskills.sh/skills/ivanheral-videogames) - 用于查询视频游戏信息、价格、兼容性和游戏时长的技能。
+- [viral-video-analysis](https://clawskills.sh/skills/shawnshenopeninterx-viral-video-analysis) - 分析视频广告表现，并向创作者提供可操作的反馈。
+- [virlo-short-form-video-training-data](https://clawskills.sh/skills/virlogit-virlo-short-form-video-training-data) - Virlo 社交媒体情报——病毒式视频分析、话题标签排名、趋势摘要及社交监听。
+- [visual-concept](https://clawskills.sh/skills/leegitw-visual-concept) - 将技术洞察转化为视觉概念指南——为视频提供象征性意象、色彩弧线和创意方向。
+- [visual-prompt-engine](https://clawskills.sh/skills/abdullah4ai-visual-prompt-engine) - 借助来自 Dribbble 和设计平台的真实视觉参考，生成多样化、不重复的图像提示词。
+- [vlmrun-cli-skill](https://clawskills.sh/skills/spillai-vlmrun-cli-skill) - 使用 VLM Run CLI（`vlmrun`）与 Orion 视觉 AI 智能体交互。
+- [voice-assistant](https://clawskills.sh/skills/charantejmandali18-voice-assistant) - 面向 OpenClaw 的实时语音助手。
+- [voice-log](https://clawskills.sh/skills/easwee-voice-log) - 使用 Soniox 实时 STT 为 OpenClaw 提供后台语音日记功能。
+- [voice-matched-content-system](https://clawskills.sh/skills/brianrwagner-voice-matched-content-system) - 从样本中提取某人真实的写作风格，构建完整的声音 DNA 档案，然后生成内容。
+- [voiceai-voiceover-creator](https://clawskills.sh/skills/gizmogremlin-voiceai-voiceover-creator) - 使用 Voice.ai TTS 将脚本转化为可发布的配音，支持分段、章节、字幕和视频混流。
+- [voidex-arena](https://clawskills.sh/skills/ymc182-voidex-arena) - Voidex Arena——面向 AI 智能体的星际贸易游戏。
+- [voku-spec](https://clawskills.sh/skills/jrayon-sesamehr-voku-spec) - 学习并使用 Voku——一种专为 AI 智能体通信设计的人工语言，零歧义，完全规则化。
+- [volcengine-image-generate](https://clawskills.sh/skills/warm-wm-volcengine-image-generate) - 使用火山引擎 image_generate.py 脚本生成图像，需提供清晰具体的 `prompt`。
+- [volcengine-video-generate](https://clawskills.sh/skills/warm-wm-volcengine-video-generate) - 使用火山引擎 video_generate.py 脚本生成视频，需提供文件名和提示词，可选提供其他参数。
+- [vscode-node](https://clawskills.sh/skills/xiaoyaner0201-vscode-node) - 通过连接为 OpenClaw 节点的 VS Code/Cursor IDE 对代码进行操作。
+- [vscode-tunnel](https://clawskills.sh/skills/listky-vscode-tunnel) - 在 Docker 容器中启动 VS Code 远程隧道，以实现远程终端访问。
+- [vultisig-sdk](https://clawskills.sh/skills/realpaaao-vultisig-sdk) - 当智能体需要创建加密钱包、发送交易、兑换代币、查询余额时使用此技能。
+- [wa-relay-skill](https://clawskills.sh/skills/zarruk-wa-relay-skill) - 面向 OpenClaw v0.2.0 的 WhatsApp 消息中继。
+- [wahlu](https://clawskills.sh/skills/steviebuilds-wahlu) - 面向 AI 智能体的社交媒体自动化。
+- [waitingformacguffin](https://clawskills.sh/skills/sonderspot-waitingformacguffin) - 来自 waitingformacguffin.com 的奥斯卡预测市场情报。
+- [warden-messari-agent](https://clawskills.sh/skills/deiu-warden-messari-agent) - 与 Warden Protocol 的 Messari 深度研究智能体进行通信。
+- [wavespeed](https://clawskills.sh/skills/al1enjesus-wavespeed) - 使用 WaveSpeed AI 的 700+ 模型库生成和编辑图像及视频。
+- [wechat-article-extractor-skill](https://clawskills.sh/skills/freestylefly-wechat-article-extractor-skill) - 从微信公众号文章中提取元数据和内容。
+- [whisnap](https://clawskills.sh/skills/neolio42-whisnap) - macOS CLI 工具，使用本地 Whisper 模型或 Whisnap Cloud 转录音频和视频文件。
+- [windsurf-cascade](https://clawskills.sh/skills/lucaslcarrijo-windsurf-cascade) - 用于在各类软件工程任务中使用 Windsurf IDE 及其 Cascade AI 智能体的综合技能。
+- [wip-file-guard](https://clawskills.sh/skills/parkertoddbrooks-wip-file-guard) - 阻止对受保护身份文件进行破坏性编辑的钩子。
+- [wip-universal-installer](https://clawskills.sh/skills/parkertoddbrooks-wip-universal-installer) - 面向智能体原生软件的通用接口规范。
+- [wir-registry](https://clawskills.sh/skills/alphafanx-wir-registry) - WIR 身份注册表——关联 TON 钱包以在 BotWorld 上完成验证。
+- [wolt-cli](https://clawskills.sh/skills/mekedron-wolt-cli) - 使用 Nikita 的本地 Wolt CLI 浏览场所、查看菜单/商品/选项，并运行个人资料、购物车等操作。
+- [worthclip-youtube-video-scorer](https://clawskills.sh/skills/ivanstancich-worthclip-youtube-video-scorer) - AI 驱动的 YouTube 视频评分。
+- [wow](https://clawskills.sh/skills/tag-assistant-wow) - 查询《魔兽世界》角色信息——M+ 评分、最佳记录、团队副本进度、装备。
+- [x-extract](https://clawskills.sh/skills/chunhualiao-x-extract) - 使用浏览器自动化，无需凭证即可从 x.com URL 提取推文内容。
+- [x-post-automation](https://clawskills.sh/skills/harshhmaniya-x-post-automation) - 自动化识别 X（Twitter）上的趋势、生成有观点/高互动的内容并发布。
+- [xeonen-video-analyzer](https://clawskills.sh/skills/zedit42-xeonen-video-analyzer) - 下载视频、提取字幕、截取帧。
+- [xerolite](https://clawskills.sh/skills/xero-flex-xerolite) - 将 OpenClaw 与 Xerolite - IBKR 集成。
+- [xiaohongshu-extract](https://clawskills.sh/skills/jovijovi-xiaohongshu-extract) - 通过解析 window.__INITIAL_STATE__ 从小红书分享或发现 URL 中提取元数据并返回结果。
+- [xiaohongshu-ops](https://clawskills.sh/skills/xiangyu-cas-xiaohongshu-ops) - 端到端小红书运营，涵盖定位、话题研究、内容生产、发布执行等全流程。
+- [xmtp-cli](https://clawskills.sh/skills/humanagent-xmtp-cli) - 运行并脚本化 XMTP CLI，用于测试、调试以及与 XMTP 会话、群组和消息进行交互。
+- [yc-new-way](https://clawskills.sh/skills/jack4world-yc-new-way) - 应用 Y Combinator 的"创业新方式"手册，快速交付产品并通过真实分发渠道进行验证。
+- [yfinance-mcp-server](https://clawskills.sh/skills/rizkydwicmt-yfinance-mcp-server) - 访问 Yahoo Finance 数据——股票价格、历史数据、财务报表、期权、股息、新闻及市场筛选器。
+- [yoder-skill-auditor](https://clawskills.sh/skills/yoder-bawt-yoder-skill-auditor) - OpenClaw 技能的权威安全扫描器。包含 18 项安全检查，涵盖提示词注入检测。
+- [yoinkit](https://clawskills.sh/skills/seomikewaltman-yoinkit) - 跨 13 个社交平台搜索、分析和转录内容——热门话题、视频字幕、帖子等。
+- [youtube-ai-videos](https://clawskills.sh/skills/mjohannp-youtube-ai-videos) - 使用 YouTube Data API v3 从精选频道获取最新 AI 相关 YouTube 视频，并按关键词过滤。
+- [youtube-editor](https://clawskills.sh/skills/jeong-wooseok-youtube-editor) - 自动化 YouTube 视频编辑工作流：下载 → 转录（Whisper）→ 分析（GPT-4）→ 高质量输出。
+- [youtube-factory](https://clawskills.sh/skills/mayank8290-youtube-factory) - 从单个提示词生成完整的 YouTube 视频——脚本、配音、素材视频、字幕、缩略图。
+- [youtube-hook](https://clawskills.sh/skills/markusmikely-youtube-hook) - 生成高效的 YouTube 视频脚本、标题、缩略图、描述和章节标记。
+- [youtube-knowledge-extractor](https://clawskills.sh/skills/sdrabent-youtube-knowledge-extractor) - 通过音频（字幕）和视觉（帧提取 + 图像分析）两种方式对 YouTube 视频进行多模态分析。
+- [youtube-media-downloader](https://clawskills.sh/skills/xanderrey-youtube-media-downloader) - 从 YouTube URL 下载音频（MP3）和视频（MP4）文件。
+- [youtube-notification-analysis](https://clawskills.sh/skills/esanle-youtube-notification-analysis) - 分析 YouTube 通知以获取投资和交易洞察。
+- [youtube-summary](https://clawskills.sh/skills/sunghyo-youtube-summary) - 使用 youtube2md 将 YouTube 视频总结为结构化 Markdown，包含章节笔记和时间戳链接。
+- [youtube-uploader](https://clawskills.sh/skills/nachx639-youtube-uploader) - 上传视频和自定义缩略图至 YouTube。
+- [youtube-video-analyzer](https://clawskills.sh/skills/sdrabent-youtube-video-analyzer) - 通过音频（字幕）和视觉（帧提取 + 图像分析）两种方式对 YouTube 视频进行多模态分析。
+- [youtube-video-finder](https://clawskills.sh/skills/upintheairsheep-youtube-video-finder) - 搜索多个在线存档，使用视频 ID 查找并恢复已删除的 YouTube 视频、元数据和评论。
+- [youtube-video-generation](https://clawskills.sh/skills/eftalyurtseven-youtube-video-generation) - 使用 each::sense AI 生成 YouTube 视频和 Shorts。
+- [yt-downloader](https://clawskills.sh/skills/honeybee1130-yt-downloader) - 以最高画质下载 YouTube 视频为 MP4 格式。
+- [yt-summary](https://clawskills.sh/skills/chapati23-yt-summary) - 在聊天中粘贴链接即可总结任意 YouTube 视频。
+- [yt-to-blog](https://clawskills.sh/skills/justinhartbiz-yt-to-blog) - 完整内容流水线：YouTube URL → 字幕 → 博客文章 → Substack 草稿 → X/Twitter 话题串 → 竖版视频。
+- [yt-transcript](https://clawskills.sh/skills/alti-systems-yt-transcript) - 使用多种方法从 YouTube 视频中提取高质量字幕。
+- [ytb-transcript-long](https://clawskills.sh/skills/qingliu1617-art-ytb-transcript-long) - YouTube 长视频（>1 小时）完整逐字转录与翻译工作流。
+- [ytwatchervideo](https://clawskills.sh/skills/stveenli-ytwatchervideo) - 获取并读取 YouTube 视频字幕。
+- [zeroapi](https://clawskills.sh/skills/dorukardahan-zeroapi) - 通过 OpenClaw 将任务路由至付费订阅中最合适的 AI 模型（Claude、ChatGPT、Codex、Gemini、Kimi）。
+- [zfs](https://clawskills.sh/skills/mightybyte-zfs) - ZFS 文件系统管理、存储池管理、数据集配置、快照、复制、加密。
+- [zhive-agent](https://clawskills.sh/skills/kerlos-zhive-agent) - 使 AI 智能体能够通过 REST API 与 Hive 蜂群 https://www.zhive.ai/ 交互：注册 API 密钥、保存等。
+- [ziptax](https://clawskills.sh/skills/ericlakich-ziptax) - 使用 ZipTax API 查询美国销售税税率。
+- [zoom-calendar](https://clawskills.sh/skills/shaharsha-zoom-calendar) - 创建 Zoom 会议并将其添加到 Google 日历事件，包含完整的 conferenceData（图标、视频入口、备注）。
+- [zown-gemini-governor](https://clawskills.sh/skills/gtovd-zown-gemini-governor) - 高保真 token 管理与模型稳定化技能。
+- [zyla-api-hub-skill](https://clawskills.sh/skills/alebrega-zyla-api-hub-skill) - Zyla API Hub 技能——将您的 OpenClaw AI 智能体转变为真实世界的操作者。
